@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   // JWT_SECRET: 'randomlyGeneratedKey',
-  API_URL: "http://192.168.0.5:3000",
+  API_URL: "http://localhost:3000",
   // API_URL: "http://192.168.0.253:82",
   // API_URL: "http://qa.athlytesports.com:3000",
   sportCode: "MFB",
