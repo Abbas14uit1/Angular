@@ -1,0 +1,111 @@
+.QB_body{
+  margin-top: 25px;
+}
+.QB_Group{
+  margin: 9px 19px;
+  cursor: pointer;
+  height: 35px;
+}
+.QB_Group button {
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: unset;
+    background-color: unset;
+    line-height: 30px;
+    float: right;
+}
+.QB_Group div{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  line-height: 23px;
+  font-size: 20px;
+  box-shadow: #ddd 0px 2px 7px;
+}
+
+.Query_body{
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: #ddd 0px 0px 7px 1px;
+  margin: 0px 15px 15px;
+  border-radius: 12px;
+  position: relative;
+}
+.Query_body_child{
+  border: 1px solid #ddd;
+  padding: 10px 10px 0px 10px;
+  width: 70%;
+  position: relative;
+  margin-bottom: 15px;
+  box-shadow: #ddd 5px 5px 7px 1px;
+}
+.viewresult{
+  position: absolute;
+    top: 25px;
+    right: 18px;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
+.viewresult button{
+  border: unset;
+  background-color: #F2F2F2;
+  padding: 6px 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  float: right;
+}
+.viewresult mat-icon{
+  vertical-align: middle;
+}
+.addQuery{
+  height: 40px;
+  width: 40px;
+  background-color: #F2F2F2;
+  color: #2c2c2c;
+  text-align: center;
+  border-radius: 50%;
+  padding: 6px;
+  margin: 27px 25px;
+  position: absolute;
+  top: 8px;
+  right: 23%;
+  cursor: pointer;
+}
+.addQuery  mat-icon{
+  vertical-align: middle;
+}
+.d_flex{
+  display: flex;
+}
+
+.close_query{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  cursor: pointer;
+}
+
+.close_query mat-icon{
+  vertical-align: middle;
+}
+
+.bg-red{
+  background-color: #C57280;
+  border-radius: 12px;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: unset !important;
+}
+
+mat-form-field{
+  margin-right: 10px;
+}
+#mongoQB{
+  height: 81vh;
+  overflow: auto;
+}

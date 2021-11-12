@@ -1,0 +1,36 @@
+<div class="row">
+	<div class="col l4 m4 s12" *ngIf="gameId">    
+      <div class="row" *ngIf="homeHittingData && awayHittingLength != undefined">
+	      <app-hittings [color]="this.teamColors[homeTeam.code]" [data]="homeHittingData" [otherLength]="awayHittingLength" [sportId]="sportId"></app-hittings>
+	  </div>
+	  
+	  <div class="row" *ngIf="homePitchingData && awayPitchingLength != undefined">
+	      <app-pitchings [color]="this.teamColors[homeTeam.code]" [data]="homePitchingData" [otherLength]="awayPitchingLength" [sportId]="sportId"></app-pitchings>
+	  </div>
+	  <div class="row" *ngIf="homeFieldingData && awayFieldingLength != undefined">
+	      <app-fielding [color]="this.teamColors[homeTeam.code]" [data]="homeFieldingData" [otherLength]="awayFieldingLength" [sportId]="sportId"></app-fielding>
+	  </div>
+	  
+	</div>
+	<div class="col l4 m4 s12" *ngIf="overallTeamStats && scoringPlays">
+	  <div class="row">
+	    <app-overall-stats-baseball [overallTeamStats]="overallTeamStats"></app-overall-stats-baseball>
+	  </div>
+	  <div class="row">
+	    <app-scoring-plays-baseball [homeTeam]="homeTeam" [awayTeam]="awayTeam" [scoringPlays]="scoringPlays" [sportId]="sportId"></app-scoring-plays-baseball>
+	  </div>
+	</div>
+	<div class="col l4 m4 s12"  *ngIf="gameId">
+      <div class="row" *ngIf="awayHittingData && homeHittingLength != undefined">
+	      <app-hittings [color]="this.teamColors[awayTeam.code]" [data]="awayHittingData" [otherLength]="homeHittingLength" [sportId]="sportId"></app-hittings>
+	  </div>
+	
+	  <div class="row" *ngIf="awayPitchingData && homePitchingLength != undefined" >
+	      <app-pitchings [color]="this.teamColors[awayTeam.code]" [data]="awayPitchingData" [otherLength]="homePitchingLength" [sportId]="sportId"></app-pitchings>
+	  </div>
+
+	  <div class="row" *ngIf="awayFieldingData && homeFieldingLength != undefined" >
+	      <app-fielding [color]="this.teamColors[awayTeam.code]" [data]="awayFieldingData" [otherLength]="homeFieldingLength" [sportId]="sportId"></app-fielding>
+	  </div>
+
+	</div>

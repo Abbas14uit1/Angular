@@ -1,0 +1,50 @@
+.icon-circle{
+z-index: 1;
+width: 40px;
+line-height: 50px;
+text-align: center;
+height: 40px;
+border-radius: 100%;
+color: #ffffff;
+}
+
+#playersTbl .mat-column-isActive{
+  min-width: 8%;
+  max-width: 8%;
+}
+#playersTbl .mat-column-username{
+  min-width: 15%;
+  max-width: 15%;
+}
+#playersTbl .mat-column-email{
+  min-width: 20%;
+  max-width: 20%;
+}
+#playersTbl .mat-column-createdOn{
+  min-width: 20%;
+  max-width: 20%;
+}
+#playersTbl .mat-column-lastUpdatedOn{
+  min-width: 20%;
+  max-width: 20%;
+}
+#playersTbl .mat-column-id{
+  min-width: 10%;
+  max-width: 10%;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+#playersTbl .mat-header-row {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+
+#playersTbl .mat-table {
+  max-height: calc(100vh - 260px);
+  overflow: auto;
+}
+

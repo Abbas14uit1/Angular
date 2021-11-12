@@ -1,0 +1,9 @@
+<div [ngSwitch]="sportId">
+<app-play-list-football   *ngSwitchCase="'MFB'" [gameId]="gameId" [homeTeamTidyName]="homeTeamTidyName" [awayTeamTidyName]="awayTeamTidyName" [sportId]="sportId" [homeTeamCode]="homeTeamCode" [awayTeamCode]="awayTeamCode"></app-play-list-football >
+<app-play-list-baseball   *ngSwitchCase="'MBA'" [gameId]="gameId" [homeTeamTidyName]="homeTeamTidyName" [awayTeamTidyName]="awayTeamTidyName" [sportId]="sportId" [homeTeamCode]="homeTeamCode" [awayTeamCode]="awayTeamCode"></app-play-list-baseball>
+<app-play-list-baseball   *ngSwitchCase="'WSB'" [gameId]="gameId" [homeTeamTidyName]="homeTeamTidyName" [awayTeamTidyName]="awayTeamTidyName" [sportId]="sportId" [homeTeamCode]="homeTeamCode" [awayTeamCode]="awayTeamCode"></app-play-list-baseball>
+<app-play-list-basketball *ngSwitchCase="'MBB'" [gameId]="gameId" [homeTeamTidyName]="homeTeamTidyName" [awayTeamTidyName]="awayTeamTidyName" [sportId]="sportId" [homeTeamCode]="homeTeamCode" [awayTeamCode]="awayTeamCode"></app-play-list-basketball>
+<app-play-list-basketball *ngSwitchCase="'WBB'" [gameId]="gameId" [homeTeamTidyName]="homeTeamTidyName" [awayTeamTidyName]="awayTeamTidyName" [sportId]="sportId" [homeTeamCode]="homeTeamCode" [awayTeamCode]="awayTeamCode"></app-play-list-basketball>
+<app-play-list-soccer     *ngSwitchCase="'MSO'" [gameId]="gameId" [homeTeamTidyName]="homeTeamTidyName" [awayTeamTidyName]="awayTeamTidyName" [sportId]="sportId" [homeTeamCode]="homeTeamCode" [awayTeamCode]="awayTeamCode"></app-play-list-soccer>
+<app-play-list-soccer     *ngSwitchCase="'WSO'" [gameId]="gameId" [homeTeamTidyName]="homeTeamTidyName" [awayTeamTidyName]="awayTeamTidyName" [sportId]="sportId" [homeTeamCode]="homeTeamCode" [awayTeamCode]="awayTeamCode"></app-play-list-soccer>
+</div>

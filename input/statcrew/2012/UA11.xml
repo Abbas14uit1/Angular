@@ -1,0 +1,969 @@
+<fbgame source="Tas Football" version="4.16.07" generated="9/15/2016">
+ <venue gameid="UA11" visid="WCU" homeid="UA" visname="Western Carolina" homename="Alabama"
+      date="11/17/2012" location="Tuscaloosa, Alabama" stadium="Bryant-Denny Stadium"
+      start="11:22 am" end="2:05 pm"
+      duration="2:43" attend="101126" temp="56 deg F" wind="ENE@5mph" weather="Sunny Skies">
+  <officials ref="Matt Austin" ump="Rodney Lawary" line="Lane Thomas" lj="Michael Taylor" bj="Stan Murray" fj="Blake Parks" sj="Rob Skelton" cj="Buddy Jones" alt="Buddy Jones"></officials>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="769" id="WCU" name="Western Carolina" record="1-10" abb="W">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="8" rush="3" pass="4" penalty="1"></firstdowns>
+   <penalties no="8" yds="49"></penalties>
+   <conversions thirdconv="2" thirdatt="11" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="31:35" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="1" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="28" yds="70" gain="100" loss="30" td="0" long="15"></rush>
+   <pass comp="8" att="20" int="0" yds="93" td="0" long="30" sacks="1" sackyds="8"></pass>
+   <rcv no="8" yds="93" td="0" long="30"></rcv>
+   <punt no="8" yds="307" long="47" blkd="0" tb="0" fc="2" plus50="0" inside20="1"></punt>
+   <ko no="1" yds="32" ob="0" tb="0"></ko>
+   <defense tackua="35" tacka="12" tflua="2" tfla="0" tflyds="5" sacks="0" sackyds="0" brup="1" fr="1" fryds="0"></defense>
+   <kr no="5" yds="83" td="0" long="27"></kr>
+  </totals>
+  <player name="Elijer Martinez" shortname="Elijer Martinez" checkname="MARTINEZ,ELIJER" uni="1" class="SR" gp="1" gs="1" dpos="BCB" code="1">
+   <defense tackua="1" tacka="0"></defense>
+   <kr no="1" yds="20" td="0" long="20"></kr>
+  </player>
+  <player name="Jaleel Lorquet" shortname="Jaleel Lorquet" checkname="LORQUET,JALEEL" uni="2" class="FR" gp="1" gs="1" dpos="FCB" code="2">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Deja Alexander" shortname="Deja Alexander" checkname="ALEXANDER,DEJA" uni="3" class="JR" gp="1" gs="1" opos="Z" code="3">
+   <rcv no="1" yds="16" td="0" long="16"></rcv>
+  </player>
+  <player name="Jacoby Mitchell" shortname="Jacoby Mitchell" checkname="MITCHELL,JACOBY" uni="4" class="SR" gp="1" gs="1" opos="Y" code="4"></player>
+  <player name="Michael Johnson" shortname="Michael Johnson" checkname="JOHNSON,MICHAEL" uni="5" class="SR" gp="1" gs="1" opos="RB" code="5">
+   <rush att="5" yds="5" gain="6" loss="1" td="0" long="5"></rush>
+   <rcv no="3" yds="4" td="0" long="7"></rcv>
+  </player>
+  <player name="Mike Anderson" shortname="Mike Anderson" checkname="ANDERSON,MIKE" uni="6" class="JR" gp="1" code="6">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Eddie Sullivan" shortname="Eddie Sullivan" checkname="SULLIVAN,EDDIE" uni="9" class="SO" gp="1" code="9">
+   <rush att="4" yds="28" gain="31" loss="3" td="0" long="15"></rush>
+   <pass comp="4" att="12" int="0" yds="63" td="0" long="30" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Troy Mitchell" shortname="Troy Mitchell" checkname="MITCHELL,TROY" uni="10" class="FR" gp="1" gs="1" opos="QB" code="10">
+   <rush att="9" yds="6" gain="29" loss="23" td="0" long="9"></rush>
+   <pass comp="4" att="8" int="0" yds="30" td="0" long="28" sacks="1" sackyds="8"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Garrett Brown" shortname="Garrett Brown" checkname="BROWN,GARRETT" uni="18" class="SO" gp="1" gs="1" opos="WR" code="18">
+   <rcv no="1" yds="28" td="0" long="28"></rcv>
+  </player>
+  <player name="Darius Ramsey" shortname="Darius Ramsey" checkname="RAMSEY,DARIUS" uni="20" class="FR" gp="1" code="20">
+   <rush att="5" yds="1" gain="4" loss="3" td="0" long="2"></rush>
+   <rcv no="2" yds="15" td="0" long="10"></rcv>
+  </player>
+  <player name="Shaun Warren" shortname="Shaun Warren" checkname="WARREN,SHAUN" uni="22" class="SO" gp="1" code="22">
+   <rush att="2" yds="14" gain="14" loss="0" td="0" long="8"></rush>
+   <kr no="3" yds="52" td="0" long="27"></kr>
+  </player>
+  <player name="Michael Vaughn" shortname="Michael Vaughn" checkname="VAUGHN,MICHAEL" uni="25" class="SR" gp="1" code="25">
+   <rush att="3" yds="16" gain="16" loss="0" td="0" long="11"></rush>
+  </player>
+  <player name="Ace Clark" shortname="Ace Clark" checkname="CLARK,ACE" uni="28" class="SO" gp="1" gs="1" dpos="MS" code="28">
+   <defense tackua="3" tacka="2"></defense>
+  </player>
+  <player name="D. Richardson" shortname="D. Richardson" checkname="RICHARDSON,D" uni="29" class="JR" gp="1" code="29">
+   <defense tackua="4" tacka="0"></defense>
+  </player>
+  <player name="Randy Pressley" shortname="Randy Pressley" checkname="PRESSLEY,RANDY" uni="30" class="JR" gp="1" code="30"></player>
+  <player name="Ben Watkins" shortname="Ben Watkins" checkname="WATKINS,BEN" uni="31" class="SO" gp="1" code="31"></player>
+  <player name="N. Sedergren" shortname="N. Sedergren" checkname="SEDERGREN,N" uni="32" class="SR" gp="1" code="32">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="A.J. McKoy" shortname="A.J. McKoy" checkname="MCKOY,AJ" uni="35" class="FR" gp="1" code="35">
+   <kr no="1" yds="11" td="0" long="11"></kr>
+  </player>
+  <player name="Richard Sigmon" shortname="Richard Sigmon" checkname="SIGMON,RICHARD" uni="36" class="SO" gp="1" code="36">
+   <ko no="1" yds="32" ob="0" tb="0"></ko>
+  </player>
+  <player name="K.P. Hicks" shortname="K.P. Hicks" checkname="HICKS,KP" uni="37" class="FR" gp="1" code="37"></player>
+  <player name="Clark Sechrest" shortname="Clark Sechrest" checkname="SECHREST,CLARK" uni="38" class="JR" gp="1" code="38">
+   <punt no="8" yds="307" long="47" blkd="0" tb="0" fc="2" plus50="0" inside20="1"></punt>
+  </player>
+  <player name="S. Harris" shortname="S. Harris" checkname="HARRIS,S" uni="39" class="FR" gp="1" gs="1" dpos="BS" code="39">
+   <defense tackua="6" tacka="2" brup="1"></defense>
+  </player>
+  <player name="C. Carson" shortname="C. Carson" checkname="CARSON,C" uni="41" class="JR" gp="1" gs="1" dpos="WILL" code="41">
+   <defense tackua="4" tacka="0" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Andre Whitmire" shortname="Andre Whitmire" checkname="WHITMIRE,ANDRE" uni="42" class="JR" gp="1" code="42"></player>
+  <player name="Marcus Stokes" shortname="Marcus Stokes" checkname="STOKES,MARCUS" uni="43" class="JR" gp="1" code="43">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="L. Richardson" shortname="L. Richardson" checkname="RICHARDSON,L" uni="44" class="FR" gp="1" code="44"></player>
+  <player name="Nick Woodard" shortname="Nick Woodard" checkname="WOODARD,NICK" uni="45" class="SR" gp="1" code="45"></player>
+  <player name="Trevor Taylor" shortname="Trevor Taylor" checkname="TAYLOR,TREVOR" uni="47" class="SO" gp="1" gs="1" dpos="FS" code="47">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Daryl McIntyre" shortname="Daryl McIntyre" checkname="MCINTYRE,DARYL" uni="50" class="SO" gp="1" code="50"></player>
+  <player name="Rock Williams" shortname="Rock Williams" checkname="WILLIAMS,ROCK" uni="51" class="SR" gp="1" gs="1" dpos="SAM" code="51">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Q. Murray" shortname="Q. Murray" checkname="MURRAY,Q" uni="52" class="JR" gp="1" gs="1" opos="C" code="52"></player>
+  <player name="Jeff Lucas" shortname="Jeff Lucas" checkname="LUCAS,JEFF" uni="55" class="FR" gp="1" code="55"></player>
+  <player name="Devin Roberts" shortname="Devin Roberts" checkname="ROBERTS,DEVIN" uni="56" class="SO" gp="1" code="56">
+   <defense fr="1" fryds="0"></defense>
+  </player>
+  <player name="M. DeGraffinree" shortname="M. DeGraffinree" checkname="DEGRAFFINREE,M" uni="63" class="FR" gp="1" gs="1" opos="RT" code="63"></player>
+  <player name="Tyler Philpott" shortname="Tyler Philpott" checkname="PHILPOTT,TYLER" uni="64" class="FR" gp="1" gs="1" opos="LG" code="64"></player>
+  <player name="Teddy Rhoney" shortname="Teddy Rhoney" checkname="RHONEY,TEDDY" uni="65" class="SR" gp="1" code="65"></player>
+  <player name="Matt Hastings" shortname="Matt Hastings" checkname="HASTINGS,MATT" uni="67" class="JR" gp="1" code="67"></player>
+  <player name="Hunter Kirby" shortname="Hunter Kirby" checkname="KIRBY,HUNTER" uni="74" class="FR" gp="1" code="74"></player>
+  <player name="Josh Wineberg" shortname="Josh Wineberg" checkname="WINEBERG,JOSH" uni="76" class="FR" gp="1" gs="1" opos="LT" code="76"></player>
+  <player name="Ryan Moore" shortname="Ryan Moore" checkname="MOORE,RYAN" uni="78" class="SR" gp="1" gs="1" opos="RG" code="78"></player>
+  <player name="Jeff Moore" shortname="Jeff Moore" checkname="MOORE,JEFF" uni="83" class="FR" gp="1" gs="1" opos="X" code="83"></player>
+  <player name="W. Roseborough" shortname="W. Roseborough" checkname="ROSEBOROUGH,W" uni="84" class="SO" gp="1" code="84"></player>
+  <player name="Conner Orr" shortname="Conner Orr" checkname="ORR,CONNER" uni="85" class="SR" gp="1" code="85"></player>
+  <player name="David Giron" shortname="David Giron" checkname="GIRON,DAVID" uni="86" class="SO" gp="1" code="86"></player>
+  <player name="Jamil James" shortname="Jamil James" checkname="JAMES,JAMIL" uni="87" class="JR" gp="1" code="87">
+   <rcv no="1" yds="30" td="0" long="30"></rcv>
+  </player>
+  <player name="Nate Stephenson" shortname="Nate Stephenson" checkname="STEPHENSON,NATE" uni="88" class="SR" gp="1" code="88"></player>
+  <player name="Rainey Ala" shortname="Rainey Ala" checkname="ALA,RAINEY" uni="90" class="SR" gp="1" code="90">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Brian Johnson" shortname="Brian Johnson" checkname="JOHNSON,BRIAN" uni="91" class="JR" gp="1" gs="1" dpos="DE" code="91">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Caleb Hawkins" shortname="Caleb Hawkins" checkname="HAWKINS,CALEB" uni="93" class="FR" gp="1" code="93">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="John McBeth" shortname="John McBeth" checkname="MCBETH,JOHN" uni="94" class="FR" gp="1" gs="1" dpos="DE" code="94">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Bevan Robbs" shortname="Bevan Robbs" checkname="ROBBS,BEVAN" uni="95" class="SR" gp="1" gs="1" dpos="DT" code="95">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Eric Banford" shortname="Eric Banford" checkname="BANFORD,ERIC" uni="96" class="SR" gp="1" gs="1" dpos="DT" code="96">
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="K. Chambers" shortname="K. Chambers" checkname="CHAMBERS,K" uni="98" class="SO" gp="1" code="98">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Pete Balthrop" shortname="Pete Balthrop" checkname="BALTHROP,PETE" uni="99" class="JR" gp="1" code="99">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="8" id="UA" name="Alabama" record="10-1" abb="A" rank="4">
+  <linescore prds="4" line="21,21,7,0" score="49">
+   <lineprd prd="1" score="21"></lineprd>
+   <lineprd prd="2" score="21"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="22" rush="15" pass="7" penalty="0"></firstdowns>
+   <penalties no="1" yds="15"></penalties>
+   <conversions thirdconv="6" thirdatt="9" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="3" lost="1"></fumbles>
+   <misc yds="0" top="28:25" ona="0" onm="0" ptsto="7"></misc>
+   <redzone att="5" scores="5" points="35" tdrush="5" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="40" yds="300" gain="312" loss="12" td="5" long="24"></rush>
+   <pass comp="8" att="12" int="0" yds="160" td="1" long="36" sacks="0" sackyds="0"></pass>
+   <rcv no="8" yds="160" td="1" long="36"></rcv>
+   <punt no="2" yds="84" long="46" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+   <ko no="8" yds="512" ob="0" tb="3"></ko>
+   <pat kickatt="7" kickmade="7"></pat>
+   <defense tackua="30" tacka="20" tflua="6" tfla="0" tflyds="18" sacks="1" sackyds="8" brup="2" qbh="3" fr="1" fryds="57"></defense>
+   <pr no="4" yds="24" td="0" long="28"></pr>
+   <fr no="1" yds="57" td="1" long="57"></fr>
+   <scoring td="7" patkick="7"></scoring>
+  </totals>
+  <player name="Nick Williams" shortname="Nick Williams" checkname="WILLIAMS,NICK" uni="1C" class="JR" gp="1" code="1C"></player>
+  <player name="Levi Cook" shortname="Levi Cook" checkname="COOK,LEVI" uni="1F" class="SR" gp="1" code="1F"></player>
+  <player name="Cody Mandell" shortname="Cody Mandell" checkname="MANDELL,CODY" uni="2F" class="JR" gp="1" code="2F">
+   <punt no="2" yds="84" long="46" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+  </player>
+  <player name="Tana Patrick" shortname="Tana Patrick" checkname="PATRICK,TANA" uni="2A" class="JR" gp="1" code="2A">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Vinnie Sunseri" shortname="Vinnie Sunseri" checkname="SUNSERI,VINNIE" uni="3" class="SO" gp="1" gs="1" dpos="S" code="3">
+   <defense tackua="2" tacka="1" tflua="2" tfla="0" tflyds="9" sackua="1" sacka="0" sackyds="8"></defense>
+  </player>
+  <player name="Adrian Hubbard" shortname="Adrian Hubbard" checkname="HUBBARD,ADRIAN" uni="4B" class="SO" gp="1" gs="1" dpos="SAM" code="4B">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="T.J. Yeldon" shortname="T.J. Yeldon" checkname="YELDON,TJ" uni="4" class="FR" gp="1" code="4">
+   <rush att="7" yds="55" gain="55" loss="0" td="1" long="15"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Carson Tinker" shortname="Carson Tinker" checkname="TINKER,CARSON" uni="5C" class="SR" gp="1" code="5C"></player>
+  <player name="Jeremy Shelley" shortname="Jeremy Shelley" checkname="SHELLEY,JEREMY" uni="5" class="SR" gp="1" code="5">
+   <pat kickatt="7" kickmade="7"></pat>
+   <scoring patkick="7"></scoring>
+  </player>
+  <player name="Blake Sims" shortname="Blake Sims" checkname="SIMS,BLAKE" uni="6" class="SO" gp="1" code="6">
+   <rush att="8" yds="70" gain="70" loss="0" td="1" long="23"></rush>
+   <pass comp="2" att="6" int="0" yds="27" td="0" long="14" sacks="0" sackyds="0"></pass>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="H. Clinton-Dix" shortname="H. Clinton-Dix" checkname="CLINTON-DIX,H" uni="6A" class="SO" gp="1" gs="1" dpos="S" code="6A">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Kenny Bell" shortname="Kenny Bell" checkname="BELL,KENNY" uni="7" class="JR" gp="1" gs="1" opos="Z" code="7">
+   <rcv no="1" yds="34" td="0" long="34"></rcv>
+  </player>
+  <player name="Cyrus Jones" shortname="Cyrus Jones" checkname="JONES,CYRUS" uni="8" class="FR" gp="1" code="8">
+   <rcv no="2" yds="12" td="0" long="14"></rcv>
+   <pr no="1" yds="0" td="0" long="0"></pr>
+  </player>
+  <player name="Jeoffrey Pagan" shortname="Jeoffrey Pagan" checkname="PAGAN,JEOFFREY" uni="8A" class="SO" gp="1" code="8A">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Amari Cooper" shortname="Amari Cooper" checkname="COOPER,AMARI" uni="9" class="FR" gp="1" gs="1" opos="X" code="9">
+   <rcv no="2" yds="50" td="0" long="36"></rcv>
+  </player>
+  <player name="Quinton Dial" shortname="Quinton Dial" checkname="DIAL,QUINTON" uni="9A" class="SR" gp="1" code="9A"></player>
+  <player name="AJ McCarron" shortname="AJ McCarron" checkname="MCCARRON,AJ" uni="10" class="JR" gp="1" gs="1" opos="QB" code="10">
+   <rush att="2" yds="18" gain="24" loss="6" td="0" long="24"></rush>
+   <pass comp="6" att="6" int="0" yds="133" td="1" long="36" sacks="0" sackyds="0"></pass>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Phillip Ely" shortname="Phillip Ely" checkname="ELY,PHILLIP" uni="12" class="FR" gp="1" code="12"></player>
+  <player name="Deion Belue" shortname="Deion Belue" checkname="BELUE,DEION" uni="13" class="JR" gp="1" gs="1" dpos="CB" code="13">
+   <defense fr="1" fryds="57"></defense>
+   <fr no="1" yds="57" td="1" long="57"></fr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Bradley Sylve" shortname="Bradley Sylve" checkname="SYLVE,BRADLEY" uni="16" class="FR" gp="1" code="16">
+   <defense tackua="1" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Reggie Ragland" shortname="Reggie Ragland" checkname="RAGLAND,REGGIE" uni="18" class="FR" gp="1" code="18">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="J. Atchison" shortname="J. Atchison" checkname="ATCHISON,J" uni="19" class="JR" gp="1" code="19"></player>
+  <player name="Brent Calloway" shortname="Brent Calloway" checkname="CALLOWAY,BRENT" uni="21" class="FR" gp="1" code="21">
+   <rush att="7" yds="52" gain="52" loss="0" td="0" long="11"></rush>
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Christion Jones" shortname="Christion Jones" checkname="JONES,CHRISTION" uni="22" class="SO" gp="1" code="22">
+   <rcv no="1" yds="29" td="1" long="29"></rcv>
+   <pr no="3" yds="24" td="0" long="28"></pr>
+   <fumbles no="2" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="J. Washington" shortname="J. Washington" checkname="WASHINGTON,J" uni="23" class="FR" gp="1" code="23">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Geno Matias-Smith" shortname="G. Matias-Smith" checkname="MATIAS-SMITH,G" uni="24" class="FR" gp="1" gs="1" dpos="CB" code="24">
+   <defense tackua="0" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Dillon Lee" shortname="Dillon Lee" checkname="LEE,DILLON" uni="25" class="FR" gp="1" code="25"></player>
+  <player name="Landon Collins" shortname="Landon Collins" checkname="COLLINS,LANDON" uni="26" class="FR" gp="1" code="26">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Nick Perry" shortname="Nick Perry" checkname="PERRY,NICK" uni="27" class="JR" gp="1" code="27">
+   <defense tackua="4" tacka="1"></defense>
+  </player>
+  <player name="Dee Milliner" shortname="Dee Milliner" checkname="MILLINER,DEE" uni="28" class="JR" gp="1" gs="1" dpos="CB" code="28">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Denzel Devall" shortname="Denzel Devall" checkname="DEVALL,DENZEL" uni="30" class="FR" gp="1" code="30">
+   <defense tackua="1" tacka="2" qbh="1"></defense>
+  </player>
+  <player name="Kelly Johnson" shortname="Kelly Johnson" checkname="JOHNSON,KELLY" uni="31" class="SR" gp="1" code="31"></player>
+  <player name="C.J. Mosley" shortname="C.J. Mosley" checkname="MOSLEY,CJ" uni="32" class="JR" gp="1" gs="1" dpos="WILL" code="32">
+   <defense tackua="4" tacka="2" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Trey DePriest" shortname="Trey DePriest" checkname="DEPRIEST,TREY" uni="33" class="SO" gp="1" code="33"></player>
+  <player name="Ben Howell" shortname="Ben Howell" checkname="HOWELL,BEN" uni="34" class="SR" gp="1" code="34">
+   <rush att="5" yds="9" gain="12" loss="3" td="0" long="7"></rush>
+  </player>
+  <player name="Nico Johnson" shortname="Nico Johnson" checkname="JOHNSON,NICO" uni="35" class="SR" gp="1" code="35">
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Tyler Hayes" shortname="Tyler Hayes" checkname="HAYES,TYLER" uni="36" class="FR" gp="1" code="36">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Robert Lester" shortname="Robert Lester" checkname="LESTER,ROBERT" uni="37" class="SR" gp="1" gs="1" dpos="S" code="37"></player>
+  <player name="Eddie Lacy" shortname="Eddie Lacy" checkname="LACY,EDDIE" uni="42" class="JR" gp="1" gs="1" opos="RB" code="42">
+   <rush att="10" yds="99" gain="99" loss="0" td="3" long="21"></rush>
+   <scoring td="3"></scoring>
+  </player>
+  <player name="Cade Foster" shortname="Cade Foster" checkname="FOSTER,CADE" uni="43" class="JR" gp="1" code="43">
+   <ko no="8" yds="512" ob="0" tb="3"></ko>
+  </player>
+  <player name="L. Fanning" shortname="L. Fanning" checkname="FANNING,L" uni="44" class="FR" gp="1" code="44"></player>
+  <player name="M. Nysewander" shortname="M. Nysewander" checkname="NYSEWANDER,M" uni="46" class="SO" gp="1" code="46"></player>
+  <player name="Xzavier Dickson" shortname="Xzavier Dickson" checkname="DICKSON,XZAVIER" uni="47" class="SO" gp="1" code="47"></player>
+  <player name="Ed Stinson" shortname="Ed Stinson" checkname="STINSON,ED" uni="49" class="JR" gp="1" gs="1" dpos="DE" code="49">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="1" qbh="1"></defense>
+  </player>
+  <player name="Jesse Williams" shortname="Jesse Williams" checkname="WILLIAMS,JESSE" uni="54" class="SR" gp="1" gs="1" dpos="NG" code="54">
+   <defense tackua="0" tacka="3"></defense>
+  </player>
+  <player name="D.J. Pettway" shortname="D.J. Pettway" checkname="PETTWAY,DJ" uni="57" class="FR" gp="1" code="57"></player>
+  <player name="Anthony Steen" shortname="Anthony Steen" checkname="STEEN,ANTHONY" uni="61" class="JR" gp="1" gs="1" opos="RG" code="61"></player>
+  <player name="Brandon Ivory" shortname="Brandon Ivory" checkname="IVORY,BRANDON" uni="62" class="SO" gp="1" code="62">
+   <defense tackua="2" tacka="2" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Kellen Williams" shortname="Kellen Williams" checkname="WILLIAMS,KELLEN" uni="63" class="JR" gp="1" code="63"></player>
+  <player name="Chance Warmack" shortname="Chance Warmack" checkname="WARMACK,CHANCE" uni="65" class="SR" gp="1" gs="1" opos="LG" code="65"></player>
+  <player name="Ryan Kelly" shortname="Ryan Kelly" checkname="KELLY,RYAN" uni="70" class="FR" gp="1" code="70"></player>
+  <player name="Cyrus Kouandjio" shortname="Cyrus Kouandjio" checkname="KOUANDJIO,CYRUS" uni="71" class="SO" gp="1" gs="1" opos="LT" code="71"></player>
+  <player name="Barrett Jones" shortname="Barrett Jones" checkname="JONES,BARRETT" uni="75" class="SR" gp="1" gs="1" opos="C" code="75"></player>
+  <player name="D.J. Fluker" shortname="D.J. Fluker" checkname="FLUKER,DJ" uni="76" class="JR" gp="1" gs="1" opos="RT" code="76"></player>
+  <player name="Arie Kouandjio" shortname="Arie Kouandjio" checkname="KOUANDJIO,ARIE" uni="77" class="SO" gp="1" code="77"></player>
+  <player name="Chad Lindsay" shortname="Chad Lindsay" checkname="LINDSAY,CHAD" uni="78" class="SO" gp="1" code="78"></player>
+  <player name="Austin Shepherd" shortname="Austin Shepherd" checkname="SHEPHERD,AUSTIN" uni="79" class="SO" gp="1" code="79"></player>
+  <player name="Marvin Shinn" shortname="Marvin Shinn" checkname="SHINN,MARVIN" uni="80" class="FR" gp="1" code="80">
+   <rcv no="1" yds="13" td="0" long="13"></rcv>
+  </player>
+  <player name="D. Woodson Jr." shortname="D. Woodson Jr." checkname=",D WOODSON JR" uni="81" class="FR" gp="1" code="81"></player>
+  <player name="Harrison Jones" shortname="Harrison Jones" checkname="JONES,HARRISON" uni="82" class="SO" gp="1" code="82"></player>
+  <player name="Brian Vogler" shortname="Brian Vogler" checkname="VOGLER,BRIAN" uni="84" class="SO" gp="1" gs="1" opos="H" code="84"></player>
+  <player name="Malcolm Faciane" shortname="Malcolm Faciane" checkname="FACIANE,MALCOLM" uni="85" class="FR" gp="1" code="85"></player>
+  <player name="M. Williams" shortname="M. Williams" checkname="WILLIAMS,M" uni="89" class="SR" gp="1" gs="1" opos="TE" code="89">
+   <rcv no="1" yds="22" td="0" long="22"></rcv>
+  </player>
+  <player name="Damion Square" shortname="Damion Square" checkname="SQUARE,DAMION" uni="92" class="SR" gp="1" gs="1" dpos="DE" code="92">
+   <defense qbh="1"></defense>
+  </player>
+  <player name="Chris Bonds" shortname="Chris Bonds" checkname="BONDS,CHRIS" uni="93" class="JR" gp="1" code="93"></player>
+  <player name="Darren Lake" shortname="Darren Lake" checkname="LAKE,DARREN" uni="95" class="FR" gp="1" code="95"></player>
+  <player name="Team" shortname="Team" checkname="TEAM" uni="TM" class="FR" gp="1" code="198">
+   <rush att="1" yds="-3" gain="0" loss="3" td="0" long="0"></rush>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="UA" qtr="1" clock="12:06" type="TD" how="RUSH" yds="7" scorer="Eddie Lacy" patby="Jeremy Shelley" pattype="KICK" patres="GOOD" plays="6" drive="62" top="2:54" vscore="0" hscore="7" driveindex="1"></score>
+  <score vh="H" team="UA" qtr="1" clock="07:58" type="TD" how="RUSH" yds="3" scorer="T.J. Yeldon" patby="Jeremy Shelley" pattype="KICK" patres="GOOD" plays="4" drive="44" top="1:56" vscore="0" hscore="14" driveindex="3"></score>
+  <score vh="H" team="UA" qtr="1" clock="04:10" type="TD" how="RUSH" yds="7" scorer="Eddie Lacy" patby="Jeremy Shelley" pattype="KICK" patres="GOOD" plays="3" drive="62" top="1:23" vscore="0" hscore="21" driveindex="5"></score>
+  <score vh="H" team="UA" qtr="2" clock="08:15" type="TD" how="PASS" yds="29" scorer="Christion Jones" passer="AJ McCarron" patby="Jeremy Shelley" pattype="KICK" patres="GOOD" plays="8" drive="99" top="4:59" vscore="0" hscore="28" driveindex="7"></score>
+  <score vh="H" team="UA" qtr="2" clock="03:02" type="TD" how="RUSH" yds="3" scorer="Eddie Lacy" patby="Jeremy Shelley" pattype="KICK" patres="GOOD" plays="7" drive="71" top="3:47" vscore="0" hscore="35" driveindex="9"></score>
+  <score vh="H" team="UA" qtr="2" clock="00:14" type="TD" how="FUMB" yds="57" scorer="Deion Belue" patby="Jeremy Shelley" pattype="KICK" patres="GOOD" vscore="0" hscore="42" driveindex="13"></score>
+  <score vh="H" team="UA" qtr="3" clock="07:15" type="TD" how="RUSH" yds="5" scorer="Blake Sims" patby="Jeremy Shelley" pattype="KICK" patres="GOOD" plays="10" drive="61" top="5:44" vscore="0" hscore="49" driveindex="16"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="UA" start="KO,1,15:00,38" end="TD,1,12:06,100" plays="6" yards="62" top="2:54" rz="1" driveindex="1"></drive>
+  <drive vh="V" team="WCU" start="KO,1,12:06,22" end="PUNT,1,09:54,29" plays="3" yards="7" top="2:12" driveindex="2"></drive>
+  <drive vh="H" team="UA" start="PUNT,1,09:54,56" end="TD,1,07:58,100" plays="4" yards="44" top="1:56" rz="1" driveindex="3"></drive>
+  <drive vh="V" team="WCU" start="KO,1,07:58,25" end="PUNT,1,05:33,24" plays="3" yards="-1" top="2:25" driveindex="4"></drive>
+  <drive vh="H" team="UA" start="PUNT,1,05:33,38" end="TD,1,04:10,100" plays="3" yards="62" top="1:23" rz="1" driveindex="5"></drive>
+  <drive vh="V" team="WCU" start="KO,1,04:10,25" end="PUNT,2,13:14,57" plays="8" yards="32" top="5:56" driveindex="6"></drive>
+  <drive vh="H" team="UA" start="PUNT,2,13:14,1" end="TD,2,08:15,100" plays="8" yards="99" top="4:59" driveindex="7"></drive>
+  <drive vh="V" team="WCU" start="KO,2,08:15,27" end="PUNT,2,06:49,29" plays="3" yards="2" top="1:26" driveindex="8"></drive>
+  <drive vh="H" team="UA" start="PUNT,2,06:49,29" end="TD,2,03:02,100" plays="7" yards="71" top="3:47" rz="1" driveindex="9"></drive>
+  <drive vh="V" team="WCU" start="KO,2,03:02,15" end="PUNT,2,00:41,20" plays="3" yards="5" top="2:21" driveindex="10"></drive>
+  <drive vh="H" team="UA" start="PUNT,2,00:00,34" end="FUMB,2,00:41,29" plays="0" yards="-5" top="0:00" driveindex="11"></drive>
+  <drive vh="V" team="WCU" start="FUMB,2,00:41,71" end="FUMB,2,00:14,57" plays="2" yards="-14" top="0:27" driveindex="12"></drive>
+  <drive vh="H" team="UA" start="FUMB,2,00:14,43" end="TD,2,00:14,43" plays="0" yards="0" top="0:00" driveindex="13"></drive>
+  <drive vh="V" team="WCU" start="KO,2,00:14,11" end="HALF,2,00:00,15" plays="1" yards="4" top="0:14" driveindex="14"></drive>
+  <drive vh="V" team="WCU" start="KO,3,15:00,16" end="PUNT,3,12:59,19" plays="3" yards="3" top="2:01" driveindex="15"></drive>
+  <drive vh="H" team="UA" start="PUNT,3,12:59,39" end="TD,3,07:15,100" plays="10" yards="61" top="5:44" rz="1" driveindex="16"></drive>
+  <drive vh="V" team="WCU" start="KO,3,07:15,25" end="DOWNS,3,01:15,86" plays="10" yards="61" top="6:00" rz="1" driveindex="17"></drive>
+  <drive vh="H" team="UA" start="DOWNS,3,01:15,15" end="PUNT,4,14:24,33" plays="5" yards="18" top="1:51" driveindex="18"></drive>
+  <drive vh="V" team="WCU" start="PUNT,4,14:24,21" end="PUNT,4,12:06,18" plays="3" yards="-3" top="2:18" driveindex="19"></drive>
+  <drive vh="H" team="UA" start="PUNT,4,12:06,35" end="PUNT,4,09:12,55" plays="4" yards="20" top="2:54" driveindex="20"></drive>
+  <drive vh="V" team="WCU" start="PUNT,4,09:12,7" end="PUNT,4,02:57,45" plays="9" yards="38" top="6:15" driveindex="21"></drive>
+  <drive vh="H" team="UA" start="PUNT,4,02:57,50" end="HALF,4,00:00,73" plays="5" yards="23" top="2:57" driveindex="22"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V35" playid="0,1,0" tokens="CMT:Alabama won the toss and will receive.  Western Carolina will defend"
+      text="Alabama won the toss and will receive.  Western Carolina will defend"></play>
+   <comment text="the North goal."></comment>
+   <play context="V,1,10,V35" playid="0,2,2" tokens="SPOT:V,V35,N"
+      text="WCU ball on WCU35."></play>
+   <play context="V,1,10,V35" playid="0,3,3" type="K" tokens="KO:36,H33 FC:89 PEN:V,OS,A,TM,H38,N D:1,10 SPOT:H,H38,Y"
+      text="Richard Sigmon kickoff 32 yards to the UA33, fair catch by M. Williams, PENALTY WCU offside 5 yards to the UA38, 1st and 10, UA ball on UA38."></play>
+   <drivestart poss="H,H38,15:00" vh="H" spot="H38" clock="15:00" driveindex="1,3"></drivestart>
+   <play context="H,1,10,H38" playid="1,1,4" type="P" pcode="RF" first="P" tokens="PASS:10,C,9,V48,RF OB: TACK:2"
+      text="AJ McCarron RF pass complete to Amari Cooper for 14 yards to the WCU48, 1ST DOWN UA, out-of-bounds (Jaleel Lorquet)."></play>
+   <play context="H,1,10,V48" playid="1,2,5" type="R" pcode="RE" tokens="RUSH:42,V42,RE TACK:39"
+      text="Eddie Lacy rush over right end for 6 yards to the WCU42 (S. Harris)."></play>
+   <play context="H,2,4,V42" playid="1,3,6" type="R" pcode="LT" first="R" tokens="RUSH:42,V37,LT TACK:41"
+      text="Eddie Lacy rush over left tackle for 5 yards to the WCU37, 1ST DOWN UA (C. Carson)."></play>
+   <play context="H,1,10,V37" playid="1,4,7" type="P" pcode="CR" first="P" tokens="PASS:10,C,9,V01,CR OB: TACK:28"
+      text="AJ McCarron crossing pass complete to Amari Cooper for 36 yards to the WCU1, 1ST DOWN UA, out-of-bounds (Ace Clark)."></play>
+   <comment text="The previous play was reviewed and confirmed as called on the field."></comment>
+   <play context="H,1,0,V01" playid="1,5,9" type="R" pcode="MI" tokens="RUSH:10,V07,MI FUMB:H,V07,10"
+      text="AJ McCarron rush up middle for loss of 6 yards to the WCU7, fumble by AJ McCarron recovered by UA AJ McCarron at WCU7."></play>
+   <play context="H,2,0,V07" playid="1,6,10" type="R" pcode="LE" score="Y" vscore="0" hscore="6" clock="12:06" tokens="RUSH:42,V00,LE T:12:06"
+      text="Eddie Lacy rush over left end for 7 yards to the WCU0, TOUCHDOWN, clock 12:06."></play>
+   <play context="H,1,0,V03" playid="1,7,11" type="X" score="Y" vscore="0" hscore="7" tokens="PAT:K,5,G"
+      text="Jeremy Shelley kick attempt good."></play>
+   <score V="0" H="7"></score>
+   <drivesum plays="6" yards="62" top="2:54" driveindex="1" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="1,8,12" type="K" tokens="KO:43,V02 RET:1,V22 TACK:26,3"
+      text="Cade Foster kickoff 63 yards to the WCU2, Elijer Martinez return 20 yards to the WCU22 (Landon Collins;Vinnie Sunseri)."></play>
+   <drivestart poss="V,V22,12:06" vh="V" spot="V22" clock="12:06" driveindex="2,12"></drivestart>
+   <play context="V,1,10,V22" playid="2,1,13" clock="12:06" tokens="{DRIVE}:12:06"
+      text="WESTERN CAROLINA drive start at 12:06."></play>
+   <play context="V,1,10,V22" playid="2,2,14" type="R" pcode="RT" tokens="RUSH:5,V21,RT TACK:49"
+      text="Michael Johnson rush over right tackle for loss of 1 yard to the WCU21 (Ed Stinson)."></play>
+   <play context="V,2,11,V21" playid="2,3,15" type="P" pcode="RF" tokens="PASS:10,C,5,V20,RF OB: TACK:3"
+      text="Troy Mitchell RF pass complete to Michael Johnson for loss of 1 yard to the WCU20, out-of-bounds (Vinnie Sunseri)."></play>
+   <play context="V,3,12,V20" playid="2,4,16" type="R" pcode="QD" tokens="RUSH:10,V29,QD TACK:4B,24"
+      text="Troy Mitchell rush quarterback draw for 9 yards to the WCU29 (Adrian Hubbard;G. Matias-Smith)."></play>
+   <play context="V,4,3,V29" playid="2,5,17" type="U" tokens="PUNT:38,H28 RET:22,V44 TACK:41"
+      text="Clark Sechrest punt 43 yards to the UA28, Christion Jones return 28 yards to the WCU44 (C. Carson)."></play>
+   <drivesum plays="3" yards="7" top="2:12" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,V44,09:54" vh="H" spot="V44" clock="09:54" driveindex="3,17"></drivestart>
+   <play context="H,1,10,V44" playid="3,1,18" clock="09:54" tokens="{DRIVE}:09:54"
+      text="ALABAMA drive start at 09:54."></play>
+   <play context="H,1,10,V44" playid="3,2,19" type="P" pcode="CR" first="P" tokens="PASS:10,C,89,V22,CR TACK:39,28"
+      text="AJ McCarron crossing pass complete to M. Williams for 22 yards to the WCU22, 1ST DOWN UA (S. Harris;Ace Clark)."></play>
+   <play context="H,1,10,V22" playid="3,3,20" type="R" pcode="LE" tokens="RUSH:4,V18,LE TACK:98,99"
+      text="T.J. Yeldon rush over left end for 4 yards to the WCU18 (K. Chambers;Pete Balthrop)."></play>
+   <play context="H,2,6,V18" playid="3,4,21" type="R" pcode="LE" first="R" tokens="RUSH:4,V03,LE TACK:51"
+      text="T.J. Yeldon rush over left end for 15 yards to the WCU3, 1ST DOWN UA (Rock Williams)."></play>
+   <play context="H,1,0,V03" playid="3,5,22" type="R" pcode="LT" score="Y" vscore="0" hscore="13" clock="07:58" tokens="RUSH:4,V00,LT T:07:58"
+      text="T.J. Yeldon rush over left tackle for 3 yards to the WCU0, TOUCHDOWN, clock 07:58."></play>
+   <play context="H,1,0,V03" playid="3,6,23" type="X" score="Y" vscore="0" hscore="14" tokens="PAT:K,5,G"
+      text="Jeremy Shelley kick attempt good."></play>
+   <score V="0" H="14"></score>
+   <drivesum plays="4" yards="44" top="1:56" driveindex="3" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="3,7,24" type="K" tokens="KO:43,V00 TB:"
+      text="Cade Foster kickoff 65 yards to the WCU0, touchback."></play>
+   <drivestart poss="V,V25,07:58" vh="V" spot="V25" clock="07:58" driveindex="4,24"></drivestart>
+   <play context="V,1,10,V25" playid="4,1,25" clock="07:58" tokens="{DRIVE}:07:58"
+      text="WESTERN CAROLINA drive start at 07:58."></play>
+   <play context="V,1,10,V25" playid="4,2,26" type="R" pcode="RG" tokens="RUSH:10,V26,RG TACK:32,54"
+      text="Troy Mitchell rush over right guard for 1 yard to the WCU26 (C.J. Mosley;Jesse Williams)."></play>
+   <play context="V,2,9,V26" playid="4,3,27" type="R" pcode="LE" tokens="RUSH:5,V26,LE TACK:32"
+      text="Michael Johnson rush over left end for no gain to the WCU26 (C.J. Mosley)."></play>
+   <play context="V,3,9,V26" playid="4,4,28" type="P" pcode="LF" tokens="PASS:10,C,5,V24,LF TACK:32"
+      text="Troy Mitchell LF pass complete to Michael Johnson for loss of 2 yards to the WCU24 (C.J. Mosley)."></play>
+   <play context="V,4,11,V24" playid="4,5,29" type="U" tokens="PUNT:38,H37 RET:22,H38 FUMB:H,H38,TM"
+      text="Clark Sechrest punt 39 yards to the UA37, Christion Jones return 1 yards to the UA38, fumble by Christion Jones recovered by UA Team at UA38."></play>
+   <drivesum plays="3" yards="-1" top="2:25" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H38,05:33" vh="H" spot="H38" clock="05:33" driveindex="5,29"></drivestart>
+   <play context="H,1,10,H38" playid="5,1,30" clock="05:33" tokens="{DRIVE}:05:33"
+      text="ALABAMA drive start at 05:33."></play>
+   <play context="H,1,10,H38" playid="5,2,31" type="P" pcode="MI" first="P" tokens="PASS:10,C,7,V28,MI TACK:41"
+      text="AJ McCarron middle pass complete to Kenny Bell for 34 yards to the WCU28, 1ST DOWN UA (C. Carson)."></play>
+   <play context="H,1,10,V28" playid="5,3,32" type="R" pcode="RT" first="R" tokens="RUSH:42,V07,RT TACK:47"
+      text="Eddie Lacy rush over right tackle for 21 yards to the WCU7, 1ST DOWN UA (Trevor Taylor)."></play>
+   <play context="H,1,0,V07" playid="5,4,33" type="R" pcode="MI" score="Y" vscore="0" hscore="20" clock="04:10" tokens="RUSH:42,V00,MI T:04:10"
+      text="Eddie Lacy rush up middle for 7 yards to the WCU0, TOUCHDOWN, clock 04:10."></play>
+   <play context="H,1,0,V03" playid="5,5,34" type="X" score="Y" vscore="0" hscore="21" tokens="PAT:K,5,G"
+      text="Jeremy Shelley kick attempt good."></play>
+   <score V="0" H="21"></score>
+   <drivesum plays="3" yards="62" top="1:23" driveindex="5" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="5,6,35" type="K" tokens="KO:43,V00 TB:"
+      text="Cade Foster kickoff 65 yards to the WCU0, touchback."></play>
+   <drivestart poss="V,V25,04:10" vh="V" spot="V25" clock="04:10" driveindex="6,35"></drivestart>
+   <play context="V,1,10,V25" playid="6,1,36" clock="04:10" tokens="{DRIVE}:04:10"
+      text="WESTERN CAROLINA drive start at 04:10."></play>
+   <play context="V,1,10,V25" playid="6,2,37" type="R" pcode="RE" tokens="RUSH:10,V34,RE OB: TACK:35"
+      text="Troy Mitchell rush over right end for 9 yards to the WCU34, out-of-bounds (Nico Johnson)."></play>
+   <play context="V,2,1,V34" playid="6,3,38" type="R" pcode="LG" tokens="RUSH:20,V34,LG TACK:8A"
+      text="Darius Ramsey rush over left guard for no gain to the WCU34 (Jeoffrey Pagan)."></play>
+   <play context="V,3,1,V34" playid="6,4,39" type="R" pcode="RT" first="R" tokens="RUSH:20,V36,RT TACK:32"
+      text="Darius Ramsey rush over right tackle for 2 yards to the WCU36, 1ST DOWN WCU (C.J. Mosley)."></play>
+   <play context="V,1,10,V36" playid="6,5,40" type="R" pcode="LG" tokens="RUSH:20,V36,LG TACK:30"
+      text="Darius Ramsey rush over left guard for no gain to the WCU36 (Denzel Devall)."></play>
+   <play context="V,2,10,V36" playid="6,6,41" type="P" pcode="CR" first="P" tokens="PASS:10,C,18,H36,CR TACK:6A"
+      text="Troy Mitchell crossing pass complete to Garrett Brown for 28 yards to the UA36, 1ST DOWN WCU (H. Clinton-Dix)."></play>
+   <play context="V,1,10,H36" playid="6,7,42" type="P" tokens="PASS:10,S,TM,H44 SACK:3"
+      text="Troy Mitchell sacked for loss of 8 yards to the UA44 (Vinnie Sunseri)."></play>
+   <score qtr="1" V="0" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="WCU">
+    <firstdowns no="2" rush="1" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:47"></misc>
+    <rush att="9" yds="12" gain="21" loss="9" td="0" long="9"></rush>
+    <pass comp="3" att="3" int="0" yds="25" td="0" long="28" sacks="1" sackyds="8"></pass>
+    <rcv no="3" yds="25" td="0" long="28"></rcv>
+    <punt no="2" yds="82" long="43" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="32" ob="0" tb="0"></ko>
+    <defense tackua="8" tacka="4" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="20" td="0" long="20"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="UA">
+    <firstdowns no="7" rush="3" pass="4" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="0"></fumbles>
+    <misc yds="0" top="06:13"></misc>
+    <rush att="9" yds="62" gain="68" loss="6" td="3" long="21"></rush>
+    <pass comp="4" att="4" int="0" yds="106" td="0" long="36" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="106" td="0" long="36"></rcv>
+    <ko no="3" yds="193" ob="0" tb="2"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="10" tacka="6" tflua="4" tfla="0" tflyds="12" sacks="1" sackyds="8"></defense>
+    <pr no="2" yds="29" td="0" long="28"></pr>
+    <fumbles no="2" lost="0"></fumbles>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,2,18,H44" playid="6,8,43" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00."></play>
+   <play context="V,2,18,H44" playid="6,9,44" type="R" pcode="MI" tokens="RUSH:25,H43,MI TACK:30,62"
+      text="Michael Vaughn rush up middle for 1 yard to the UA43 (Denzel Devall;Brandon Ivory)."></play>
+   <play context="V,3,17,H43" playid="6,10,45" type="R" pcode="RG" tokens="RUSH:10,H43,RG TACK:54,32"
+      text="Troy Mitchell rush over right guard for no gain to the UA43 (Jesse Williams;C.J. Mosley)."></play>
+   <play context="V,4,17,H43" playid="6,11,46" type="U" tokens="PUNT:38,H01 DN:"
+      text="Clark Sechrest punt 42 yards to the UA1, downed."></play>
+   <drivesum plays="8" yards="32" top="5:56" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H01,13:14" vh="H" spot="H01" clock="13:14" driveindex="7,46"></drivestart>
+   <play context="H,1,10,H01" playid="7,1,47" clock="13:14" tokens="{DRIVE}:13:14"
+      text="ALABAMA drive start at 13:14."></play>
+   <play context="H,1,10,H01" playid="7,2,48" type="R" pcode="LT" tokens="RUSH:4,H05,LT TACK:96"
+      text="T.J. Yeldon rush over left tackle for 4 yards to the UA5 (Eric Banford)."></play>
+   <play context="H,2,6,H05" playid="7,3,49" type="R" pcode="RE" tokens="RUSH:4,H09,RE TACK:96"
+      text="T.J. Yeldon rush over right end for 4 yards to the UA9 (Eric Banford)."></play>
+   <play context="H,3,2,H09" playid="7,4,50" type="R" pcode="RE" first="R" tokens="RUSH:4,H24,RE TACK:39"
+      text="T.J. Yeldon rush over right end for 15 yards to the UA24, 1ST DOWN UA (S. Harris)."></play>
+   <play context="H,1,10,H24" playid="7,5,51" type="R" pcode="MI" first="R" tokens="RUSH:10,H48,MI OB: TACK:43"
+      text="AJ McCarron rush up middle for 24 yards to the UA48, 1ST DOWN UA, out-of-bounds (Marcus Stokes)."></play>
+   <play context="H,1,10,H48" playid="7,6,52" type="P" pcode="SC" tokens="PASS:10,C,8,H46,SC TACK:41"
+      text="AJ McCarron screen pass complete to Cyrus Jones for loss of 2 yards to the UA46 (C. Carson)."></play>
+   <play context="H,2,12,H46" playid="7,7,53" type="R" pcode="LE" tokens="RUSH:4,V44,LE TACK:39"
+      text="T.J. Yeldon rush over left end for 10 yards to the WCU44 (S. Harris)."></play>
+   <play context="H,3,2,V44" playid="7,8,54" type="R" pcode="LE" first="R" tokens="RUSH:42,V29,LE OB: TACK:28"
+      text="Eddie Lacy rush over left end for 15 yards to the WCU29, 1ST DOWN UA, out-of-bounds (Ace Clark)."></play>
+   <play context="H,1,10,V29" playid="7,9,55" type="P" pcode="SI" first="P" score="Y" vscore="0" hscore="27" clock="08:15" tokens="PASS:10,C,22,V00,SI T:08:15"
+      text="AJ McCarron sideline pass complete to Christion Jones for 29 yards to the WCU0, 1ST DOWN UA, TOUCHDOWN, clock 08:15."></play>
+   <play context="H,1,0,V03" playid="7,10,56" type="X" score="Y" vscore="0" hscore="28" tokens="PAT:K,5,G"
+      text="Jeremy Shelley kick attempt good."></play>
+   <score V="0" H="28"></score>
+   <drivesum plays="8" yards="99" top="4:59" driveindex="7" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="7,11,57" type="K" tokens="KO:43,V00 RET:22,V27 TACK:16,21"
+      text="Cade Foster kickoff 65 yards to the WCU0, Shaun Warren return 27 yards to the WCU27 (Bradley Sylve;Brent Calloway)."></play>
+   <drivestart poss="V,V27,08:15" vh="V" spot="V27" clock="08:15" driveindex="8,57"></drivestart>
+   <play context="V,1,10,V27" playid="8,1,58" clock="08:15" tokens="{DRIVE}:08:15"
+      text="WESTERN CAROLINA drive start at 08:15."></play>
+   <play context="V,1,10,V27" playid="8,2,59" type="P" pcode="SI" tokens="PASS:10,I,3,*,SI QBH:H,49"
+      text="Troy Mitchell sideline pass incomplete to Deja Alexander, QB hurry by Ed Stinson."></play>
+   <play context="V,2,10,V27" playid="8,3,60" type="R" pcode="MI" tokens="RUSH:10,V29,MI TACK:49"
+      text="Troy Mitchell rush up middle for 2 yards to the WCU29 (Ed Stinson)."></play>
+   <play context="V,3,8,V29" playid="8,4,61" type="P" pcode="SI" tokens="PASS:10,I,3,*,SI"
+      text="Troy Mitchell sideline pass incomplete to Deja Alexander."></play>
+   <play context="V,4,8,V29" playid="8,5,62" type="U" tokens="PUNT:38,H29 FC:22"
+      text="Clark Sechrest punt 42 yards to the UA29, fair catch by Christion Jones."></play>
+   <drivesum plays="3" yards="2" top="1:26" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="H,H29,06:49" vh="H" spot="H29" clock="06:49" driveindex="9,62"></drivestart>
+   <play context="H,1,10,H29" playid="9,1,63" clock="06:49" tokens="{DRIVE}:06:49"
+      text="ALABAMA drive start at 06:49."></play>
+   <play context="H,1,10,H29" playid="9,2,64" type="R" pcode="MI" first="R" tokens="RUSH:42,H49,MI TACK:39"
+      text="Eddie Lacy rush up middle for 20 yards to the UA49, 1ST DOWN UA (S. Harris)."></play>
+   <play context="H,1,10,H49" playid="9,3,65" type="R" pcode="LT" first="R" tokens="RUSH:6,V40,LT TACK:51"
+      text="Blake Sims rush over left tackle for 11 yards to the WCU40, 1ST DOWN UA (Rock Williams)."></play>
+   <play context="H,1,10,V40" playid="9,4,66" type="R" pcode="RT" first="R" tokens="RUSH:42,V25,RT TACK:28"
+      text="Eddie Lacy rush over right tackle for 15 yards to the WCU25, 1ST DOWN UA (Ace Clark)."></play>
+   <play context="H,1,10,V25" playid="9,5,67" type="P" pcode="SI" first="P" tokens="PASS:6,C,80,V12,SI OB: TACK:2"
+      text="Blake Sims sideline pass complete to Marvin Shinn for 13 yards to the WCU12, 1ST DOWN UA, out-of-bounds (Jaleel Lorquet)."></play>
+   <play context="H,1,10,V12" playid="9,6,68" type="R" pcode="MI" tokens="RUSH:6,V03,MI TACK:32,28"
+      text="Blake Sims rush up middle for 9 yards to the WCU3 (N. Sedergren;Ace Clark)."></play>
+   <play context="H,2,1,V03" playid="9,7,69" type="R" pcode="LT" tokens="RUSH:42,V03,LT TACK:96,95"
+      text="Eddie Lacy rush over left tackle for no gain to the WCU3 (Eric Banford;Bevan Robbs)."></play>
+   <play context="H,3,1,V03" playid="9,8,70" type="R" pcode="LE" first="R" score="Y" vscore="0" hscore="34" clock="03:02" tokens="RUSH:42,V00,LE T:03:02"
+      text="Eddie Lacy rush over left end for 3 yards to the WCU0, 1ST DOWN UA, TOUCHDOWN, clock 03:02."></play>
+   <play context="H,1,0,V03" playid="9,9,71" type="X" score="Y" vscore="0" hscore="35" tokens="PAT:K,5,G"
+      text="Jeremy Shelley kick attempt good."></play>
+   <score V="0" H="35"></score>
+   <drivesum plays="7" yards="71" top="3:47" driveindex="9" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="9,10,72" type="K" tokens="KO:43,V06 RET:22,V15 TACK:21"
+      text="Cade Foster kickoff 59 yards to the WCU6, Shaun Warren return 9 yards to the WCU15 (Brent Calloway)."></play>
+   <drivestart poss="V,V15,03:02" vh="V" spot="V15" clock="03:02" driveindex="10,72"></drivestart>
+   <play context="V,1,10,V15" playid="10,1,73" clock="03:02" tokens="{DRIVE}:03:02"
+      text="WESTERN CAROLINA drive start at 03:02."></play>
+   <play context="V,1,10,V15" playid="10,2,74" type="R" pcode="LT" tokens="RUSH:10,V20,LT TACK:32"
+      text="Troy Mitchell rush over left tackle for 5 yards to the WCU20 (C.J. Mosley)."></play>
+   <play context="V,2,5,V20" playid="10,3,75" type="E" tokens="PEN:V,FS,A,64,V15,N"
+      text="PENALTY WCU false start (Tyler Philpott) 5 yards to the WCU15."></play>
+   <play context="V,2,10,V15" playid="10,4,76" type="R" pcode="LG" tokens="RUSH:5,V20,LG TACK:28"
+      text="Michael Johnson rush over left guard for 5 yards to the WCU20 (Dee Milliner)."></play>
+   <play context="V,3,5,V20" playid="10,5,77" type="P" pcode="RF" tokens="PASS:10,I,4,*,RF QBH:H,92"
+      text="Troy Mitchell RF pass incomplete to Jacoby Mitchell, QB hurry by Damion Square."></play>
+   <play context="V,4,5,V20" playid="10,6,78" type="U" turnover="F" tokens="PUNT:38,H34 RET:22,H34 FUMB:V,H29,56 PEN:H,RK,D"
+      text="Clark Sechrest punt 46 yards to the UA34, Christion Jones return 0 yards to the UA34, fumble by Christion Jones recovered by WCU Devin Roberts at UA29, PENALTY UA roughing the kicker declined."></play>
+   <drivesum plays="3" yards="5" top="2:21" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,H29,00:41" vh="V" spot="H29" clock="00:41" driveindex="12,78"></drivestart>
+   <play context="V,1,10,H29" playid="12,1,79" clock="00:41" tokens="{DRIVE}:00:41"
+      text="WESTERN CAROLINA drive start at 00:41."></play>
+   <play context="V,1,10,H29" playid="12,2,80" type="R" pcode="LG" tokens="RUSH:5,H28,LG TACK:4B,54"
+      text="Michael Johnson rush over left guard for 1 yard to the UA28 (Adrian Hubbard;Jesse Williams)."></play>
+   <play context="V,2,9,H28" playid="12,3,81" type="#" clock="00:30" tokens="TOUT:V T:00:30"
+      text="Timeout Western Carolina, clock 00:30."></play>
+   <play context="V,2,9,H28" playid="12,4,82" type="R" pcode="RR" score="Y" vscore="0" hscore="41" turnover="F" clock="00:14" tokens="RUSH:10,H43,RR FUMB:H,H43,13 +:13,V00 T:00:14"
+      text="Troy Mitchell rush right for loss of 15 yards to the UA43, fumble by Troy Mitchell recovered by UA Deion Belue at UA43, Deion Belue for 57 yards to the WCU0, TOUCHDOWN, clock 00:14."></play>
+   <drivesum plays="2" yards="-14" top="0:27" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,V03,00:14" vh="H" spot="V03" clock="00:14" driveindex="13,82"></drivestart>
+   <play context="H,1,0,V03" playid="13,1,83" type="X" score="Y" vscore="0" hscore="42" tokens="PAT:K,5,G"
+      text="Jeremy Shelley kick attempt good."></play>
+   <score V="0" H="42"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="13" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="13,2,84" type="K" tokens="KO:43,V00 RET:35,V11 TACK:26"
+      text="Cade Foster kickoff 65 yards to the WCU0, A.J. McKoy return 11 yards to the WCU11 (Landon Collins)."></play>
+   <drivestart poss="V,V11,00:14" vh="V" spot="V11" clock="00:14" driveindex="14,84"></drivestart>
+   <play context="V,1,10,V11" playid="14,1,85" clock="00:14" tokens="{DRIVE}:00:14"
+      text="WESTERN CAROLINA drive start at 00:14."></play>
+   <play context="V,1,10,V11" playid="14,2,86" type="R" pcode="RG" tokens="RUSH:25,V15,RG TACK:62"
+      text="Michael Vaughn rush over right guard for 4 yards to the WCU15 (Brandon Ivory)."></play>
+   <play context="V,2,6,V15" playid="14,3,87" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="1" yards="4" top="0:14" driveindex="14" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="42"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="WCU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="06:14"></misc>
+    <rush att="8" yds="3" gain="18" loss="15" td="0" long="0"></rush>
+    <pass comp="0" att="3" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="3" yds="130" long="3" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+    <defense tackua="11" tacka="4" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0" fr="1" fryds="0"></defense>
+    <kr no="3" yds="47" td="0" long="7"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="UA">
+    <firstdowns no="9" rush="7" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="3" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="08:46"></misc>
+    <rush att="12" yds="130" gain="130" loss="0" td="1" long="3"></rush>
+    <pass comp="3" att="3" int="0" yds="40" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="40" td="1" long="0"></rcv>
+    <ko no="3" yds="189" ob="0" tb="0"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="6" tacka="8" sacks="0" sackyds="0" qbh="2" fr="1" fryds="57"></defense>
+    <pr no="1" yds="-5" td="0" long="0"></pr>
+    <fr no="1" yds="57" td="1" long="57"></fr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,2,6,V15" playid="14,4,88" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:H,H35,N"
+      text="Start of 3rd quarter, clock 15:00, UA ball on UA35."></play>
+   <play context="H,2,6,H35" playid="14,5,89" type="K" tokens="KO:43,V00 RET:22,V16 TACK:21"
+      text="Cade Foster kickoff 65 yards to the WCU0, Shaun Warren return 16 yards to the WCU16 (Brent Calloway)."></play>
+   <drivestart poss="V,V16,15:00" vh="V" spot="V16" clock="15:00" driveindex="15,89"></drivestart>
+   <play context="V,1,10,V16" playid="15,1,90" clock="15:00" tokens="{DRIVE}:15:00"
+      text="WESTERN CAROLINA drive start at 15:00."></play>
+   <play context="V,1,10,V16" playid="15,2,91" type="E" tokens="PEN:V,DG,A,TM,V11,N"
+      text="PENALTY WCU delay of game 5 yards to the WCU11."></play>
+   <play context="V,1,15,V11" playid="15,3,92" type="R" pcode="LG" tokens="RUSH:10,V14,LG TACK:30,8A"
+      text="Troy Mitchell rush over left guard for 3 yards to the WCU14 (Denzel Devall;Jeoffrey Pagan)."></play>
+   <play context="V,2,12,V14" playid="15,4,93" type="P" pcode="RF" tokens="PASS:10,I,20,*,RF"
+      text="Troy Mitchell RF pass incomplete to Darius Ramsey."></play>
+   <play context="V,3,12,V14" playid="15,5,94" type="P" pcode="RF" tokens="PASS:10,C,20,V19,RF TACK:35"
+      text="Troy Mitchell RF pass complete to Darius Ramsey for 5 yards to the WCU19 (Nico Johnson)."></play>
+   <play context="V,4,7,V19" playid="15,6,95" type="U" tokens="PUNT:38,H39 FC:8"
+      text="Clark Sechrest punt 42 yards to the UA39, fair catch by Cyrus Jones."></play>
+   <drivesum plays="3" yards="3" top="2:01" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H39,12:59" vh="H" spot="H39" clock="12:59" driveindex="16,95"></drivestart>
+   <play context="H,1,10,H39" playid="16,1,96" clock="12:59" tokens="{DRIVE}:12:59"
+      text="ALABAMA drive start at 12:59."></play>
+   <play context="H,1,10,H39" playid="16,2,97" type="R" pcode="RG" tokens="RUSH:21,H44,RG TACK:29"
+      text="Brent Calloway rush over right guard for 5 yards to the UA44 (D. Richardson)."></play>
+   <play context="H,2,5,H44" playid="16,3,98" type="P" pcode="RF" tokens="PASS:6,I,8,*,RF"
+      text="Blake Sims RF pass incomplete to Cyrus Jones."></play>
+   <play context="H,3,5,H44" playid="16,4,99" type="R" pcode="RE" first="R" tokens="RUSH:6,H49,RE OB: TACK:47"
+      text="Blake Sims rush over right end for 5 yards to the UA49, 1ST DOWN UA, out-of-bounds (Trevor Taylor)."></play>
+   <play context="H,1,10,H49" playid="16,5,100" type="R" pcode="RG" tokens="RUSH:21,V46,RG TACK:91"
+      text="Brent Calloway rush over right guard for 5 yards to the WCU46 (Brian Johnson)."></play>
+   <play context="H,2,5,V46" playid="16,6,101" type="R" pcode="MI" tokens="RUSH:6,V46,MI TACK:94"
+      text="Blake Sims rush up middle for no gain to the WCU46 (John McBeth)."></play>
+   <play context="H,3,5,V46" playid="16,7,102" type="R" pcode="MI" first="R" tokens="RUSH:6,V32,MI TACK:39"
+      text="Blake Sims rush up middle for 14 yards to the WCU32, 1ST DOWN UA (S. Harris)."></play>
+   <play context="H,1,10,V32" playid="16,8,103" type="R" pcode="LG" tokens="RUSH:21,V25,LG TACK:94"
+      text="Brent Calloway rush over left guard for 7 yards to the WCU25 (John McBeth)."></play>
+   <play context="H,2,3,V25" playid="16,9,104" type="R" pcode="LE" tokens="RUSH:34,V28,LE TACK:96"
+      text="Ben Howell rush over left end for loss of 3 yards to the WCU28 (Eric Banford)."></play>
+   <play context="H,3,6,V28" playid="16,10,105" type="R" pcode="MI" first="R" tokens="RUSH:6,V05,MI TACK:1"
+      text="Blake Sims rush up middle for 23 yards to the WCU5, 1ST DOWN UA (Elijer Martinez)."></play>
+   <play context="H,1,0,V05" playid="16,11,106" type="R" pcode="RG" score="Y" vscore="0" hscore="48" clock="07:15" tokens="RUSH:6,V00,RG T:07:15"
+      text="Blake Sims rush over right guard for 5 yards to the WCU0, TOUCHDOWN, clock 07:15."></play>
+   <play context="H,1,0,V03" playid="16,12,107" type="E" tokens="PEN:V,OD,D"
+      text="PENALTY WCU offside defense declined."></play>
+   <play context="H,1,0,V03" playid="16,13,108" type="X" score="Y" vscore="0" hscore="49" tokens="PAT:K,5,G"
+      text="Jeremy Shelley kick attempt good."></play>
+   <score V="0" H="49"></score>
+   <drivesum plays="10" yards="61" top="5:44" driveindex="16" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="16,14,109" type="K" tokens="KO:43,V00 TB:"
+      text="Cade Foster kickoff 65 yards to the WCU0, touchback."></play>
+   <drivestart poss="V,V25,07:15" vh="V" spot="V25" clock="07:15" driveindex="17,109"></drivestart>
+   <play context="V,1,10,V25" playid="17,1,110" clock="07:15" tokens="{DRIVE}:07:15"
+      text="WESTERN CAROLINA drive start at 07:15."></play>
+   <play context="V,1,10,V25" playid="17,2,111" type="P" pcode="SI" tokens="PASS:9,I,3,*,SI"
+      text="Eddie Sullivan sideline pass incomplete to Deja Alexander."></play>
+   <play context="V,2,10,V25" playid="17,3,112" type="P" pcode="CR" first="P" tokens="PASS:9,C,20,V35,CR TACK:16"
+      text="Eddie Sullivan crossing pass complete to Darius Ramsey for 10 yards to the WCU35, 1ST DOWN WCU (Bradley Sylve)."></play>
+   <play context="V,1,10,V35" playid="17,4,113" type="E" tokens="PEN:V,FS,A,4,V30,N"
+      text="PENALTY WCU false start (Jacoby Mitchell) 5 yards to the WCU30."></play>
+   <play context="V,1,15,V30" playid="17,5,114" type="P" pcode="SI" tokens="PASS:9,B,3,*,SI BRUP:16"
+      text="Eddie Sullivan sideline pass incomplete to Deja Alexander (Bradley Sylve)."></play>
+   <play context="V,2,15,V30" playid="17,6,115" type="P" pcode="LF" tokens="PASS:9,I,20,*,LF"
+      text="Eddie Sullivan LF pass incomplete to Darius Ramsey."></play>
+   <play context="V,3,15,V30" playid="17,7,116" type="E" pcode="SL" first="E" tokens="PASS:9,I,4,*,SL PEN:H,RP,A,57,V45,1 NOPLAY:"
+      text="Eddie Sullivan slant pass incomplete to Jacoby Mitchell, PENALTY UA roughing passer (D.J. Pettway) 15 yards to the WCU45, 1ST DOWN WCU, NO PLAY."></play>
+   <play context="V,1,10,V45" playid="17,8,117" type="E" tokens="PEN:V,DG,A,TM,V40,N"
+      text="PENALTY WCU delay of game 5 yards to the WCU40."></play>
+   <play context="V,1,15,V40" playid="17,9,118" type="P" pcode="RF" tokens="PASS:9,C,5,V47,RF TACK:2A"
+      text="Eddie Sullivan RF pass complete to Michael Johnson for 7 yards to the WCU47 (Tana Patrick)."></play>
+   <play context="V,2,8,V47" playid="17,10,119" type="P" pcode="SL" first="P" tokens="PASS:9,C,87,H23,SL OB: TACK:27"
+      text="Eddie Sullivan slant pass complete to Jamil James for 30 yards to the UA23, 1ST DOWN WCU, out-of-bounds (Nick Perry)."></play>
+   <play context="V,1,10,H23" playid="17,11,120" type="R" pcode="MI" tokens="RUSH:20,H26,MI TACK:62"
+      text="Darius Ramsey rush up middle for loss of 3 yards to the UA26 (Brandon Ivory)."></play>
+   <play context="V,2,13,H26" playid="17,12,121" type="R" pcode="LE" tokens="RUSH:9,H29,LE TACK:35"
+      text="Eddie Sullivan rush over left end for loss of 3 yards to the UA29 (Nico Johnson)."></play>
+   <play context="V,3,16,H29" playid="17,13,122" type="R" pcode="MI" tokens="RUSH:9,H14,MI TACK:23,35"
+      text="Eddie Sullivan rush up middle for 15 yards to the UA14 (J. Washington;Nico Johnson)."></play>
+   <play context="V,4,1,H14" playid="17,14,123" type="R" pcode="LG" tokens="RUSH:5,H14,LG TACK:27,62"
+      text="Michael Johnson rush over left guard for no gain to the UA14 (Nick Perry;Brandon Ivory)."></play>
+   <drivesum plays="10" yards="61" top="6:00" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H14,01:15" vh="H" spot="H14" clock="01:15" driveindex="18,123"></drivestart>
+   <play context="H,1,10,H14" playid="18,1,124" clock="01:15" tokens="{DRIVE}:01:15"
+      text="ALABAMA drive start at 01:15."></play>
+   <play context="H,1,10,H14" playid="18,2,125" tokens="SPOT:H,H15,Y"
+      text="UA ball on UA15."></play>
+   <play context="H,1,10,H15" playid="18,3,126" type="R" pcode="RE" tokens="RUSH:21,H24,RE TACK:29"
+      text="Brent Calloway rush over right end for 9 yards to the UA24 (D. Richardson)."></play>
+   <play context="H,2,1,H24" playid="18,4,127" type="R" pcode="MI" first="R" tokens="RUSH:21,H33,MI TACK:39"
+      text="Brent Calloway rush up middle for 9 yards to the UA33, 1ST DOWN UA (S. Harris)."></play>
+   <play context="H,1,10,H33" playid="18,5,128" type="R" pcode="LT" tokens="RUSH:34,H33,LT TACK:51"
+      text="Ben Howell rush over left tackle for no gain to the UA33 (Rock Williams)."></play>
+   <score qtr="3" V="0" H="49"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="WCU">
+    <firstdowns no="3" rush="0" pass="2" penalty="1"></firstdowns>
+    <penalties no="3" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:01"></misc>
+    <rush att="5" yds="12" gain="18" loss="6" td="0" long="6"></rush>
+    <pass comp="4" att="8" int="0" yds="52" td="0" long="2" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="52" td="0" long="2"></rcv>
+    <punt no="1" yds="42" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="0"></punt>
+    <defense tackua="11" tacka="0" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="16" td="0" long="0"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="UA">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="3" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:59"></misc>
+    <rush att="12" yds="79" gain="82" loss="3" td="1" long="0"></rush>
+    <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <ko no="2" yds="130" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="7" tacka="6" tflua="2" tfla="0" tflyds="6" sacks="0" sackyds="0" brup="1"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,2,10,H33" playid="18,6,129" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00."></play>
+   <play context="H,2,10,H33" playid="18,7,130" type="P" pcode="SI" tokens="PASS:6,I,80,*,SI"
+      text="Blake Sims sideline pass incomplete to Marvin Shinn."></play>
+   <play context="H,3,10,H33" playid="18,8,131" type="P" pcode="CR" tokens="PASS:6,B,8,*,CR BRUP:39"
+      text="Blake Sims crossing pass incomplete to Cyrus Jones (S. Harris)."></play>
+   <play context="H,4,10,H33" playid="18,9,132" type="U" tokens="PUNT:2F,V21 FC:3"
+      text="Cody Mandell punt 46 yards to the WCU21, fair catch by Deja Alexander."></play>
+   <drivesum plays="5" yards="18" top="1:51" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="V,V21,14:24" vh="V" spot="V21" clock="14:24" driveindex="19,132"></drivestart>
+   <play context="V,1,10,V21" playid="19,1,133" clock="14:24" tokens="{DRIVE}:14:24"
+      text="WESTERN CAROLINA drive start at 14:24."></play>
+   <play context="V,1,10,V21" playid="19,2,134" type="R" pcode="MI" tokens="RUSH:20,V23,MI TACK:8A"
+      text="Darius Ramsey rush up middle for 2 yards to the WCU23 (Jeoffrey Pagan)."></play>
+   <play context="V,2,8,V23" playid="19,3,135" type="P" pcode="SI" tokens="PASS:9,I,4,*,SI"
+      text="Eddie Sullivan sideline pass incomplete to Jacoby Mitchell."></play>
+   <play context="V,3,8,V23" playid="19,4,136" type="E" tokens="PEN:V,DG,A,TM,V18,N"
+      text="PENALTY WCU delay of game 5 yards to the WCU18."></play>
+   <play context="V,3,13,V18" playid="19,5,137" type="P" pcode="RF" tokens="PASS:9,I,20,*,RF QBH:H,30"
+      text="Eddie Sullivan RF pass incomplete to Darius Ramsey, QB hurry by Denzel Devall."></play>
+   <play context="V,4,13,V18" playid="19,6,138" type="U" tokens="PUNT:38,H35 RET:8,H35 OB:"
+      text="Clark Sechrest punt 47 yards to the UA35, Cyrus Jones return 0 yards to the UA35, out-of-bounds."></play>
+   <drivesum plays="3" yards="-3" top="2:18" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H35,12:06" vh="H" spot="H35" clock="12:06" driveindex="20,138"></drivestart>
+   <play context="H,1,10,H35" playid="20,1,139" clock="12:06" tokens="{DRIVE}:12:06"
+      text="ALABAMA drive start at 12:06."></play>
+   <play context="H,1,10,H35" playid="20,2,140" type="P" pcode="CR" first="P" tokens="PASS:6,C,8,H49,CR TACK:2"
+      text="Blake Sims crossing pass complete to Cyrus Jones for 14 yards to the UA49, 1ST DOWN UA (Jaleel Lorquet)."></play>
+   <play context="H,1,10,H49" playid="20,3,141" type="R" pcode="LE" tokens="RUSH:34,V48,LE TACK:39,2"
+      text="Ben Howell rush over left end for 3 yards to the WCU48 (S. Harris;Jaleel Lorquet)."></play>
+   <play context="H,2,7,V48" playid="20,4,142" type="R" pcode="MI" tokens="RUSH:6,V45,MI TACK:93"
+      text="Blake Sims rush up middle for 3 yards to the WCU45 (Caleb Hawkins)."></play>
+   <play context="H,3,4,V45" playid="20,5,143" type="P" pcode="CR" tokens="PASS:6,I,82,*,CR"
+      text="Blake Sims crossing pass incomplete to Harrison Jones."></play>
+   <play context="H,4,4,V45" playid="20,6,144" type="U" tokens="PUNT:2F,V07 DN:"
+      text="Cody Mandell punt 38 yards to the WCU7, downed."></play>
+   <drivesum plays="4" yards="20" top="2:54" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="V,V07,09:12" vh="V" spot="V07" clock="09:12" driveindex="21,144"></drivestart>
+   <play context="V,1,10,V07" playid="21,1,145" clock="09:12" tokens="{DRIVE}:09:12"
+      text="WESTERN CAROLINA drive start at 09:12."></play>
+   <play context="V,1,10,V07" playid="21,2,146" type="R" pcode="LE" tokens="RUSH:22,V15,LE TACK:36"
+      text="Shaun Warren rush over left end for 8 yards to the WCU15 (Tyler Hayes)."></play>
+   <play context="V,2,2,V15" playid="21,3,147" type="E" pcode="RF" tokens="PASS:9,D,20,*,RF PEN:V,ID,A,76,V10,N NOPLAY:"
+      text="Eddie Sullivan RF pass incomplete to Darius Ramsey, dropped pass, PENALTY WCU ineligible downfield on pass (Josh Wineberg) 5 yards to the WCU10, NO PLAY."></play>
+   <play context="V,2,7,V10" playid="21,4,148" type="R" pcode="LE" tokens="RUSH:22,V16,LE TACK:27"
+      text="Shaun Warren rush over left end for 6 yards to the WCU16 (Nick Perry)."></play>
+   <play context="V,3,1,V16" playid="21,5,149" type="R" pcode="RE" first="R" tokens="RUSH:25,V27,RE TACK:18"
+      text="Michael Vaughn rush over right end for 11 yards to the WCU27, 1ST DOWN WCU (Reggie Ragland)."></play>
+   <play context="V,1,10,V27" playid="21,6,150" type="P" pcode="LF" tokens="PASS:9,B,4,*,LF BRUP:24"
+      text="Eddie Sullivan LF pass incomplete to Jacoby Mitchell (G. Matias-Smith)."></play>
+   <play context="V,2,10,V27" playid="21,7,151" type="R" pcode="RE" first="R" tokens="RUSH:9,V41,RE OB: TACK:27"
+      text="Eddie Sullivan rush over right end for 14 yards to the WCU41, 1ST DOWN WCU, out-of-bounds (Nick Perry)."></play>
+   <play context="V,1,10,V41" playid="21,8,152" type="P" pcode="SI" first="P" tokens="PASS:9,C,3,H43,SI OB: TACK:27"
+      text="Eddie Sullivan sideline pass complete to Deja Alexander for 16 yards to the UA43, 1ST DOWN WCU, out-of-bounds (Nick Perry)."></play>
+   <play context="V,1,10,H43" playid="21,9,153" type="E" pcode="SI" tokens="PASS:9,I,3,*,SI PEN:V,BL,A,52,V43,N NOPLAY:"
+      text="Eddie Sullivan sideline pass incomplete to Deja Alexander, PENALTY WCU illegal block (Q. Murray) 14 yards to the WCU43, NO PLAY."></play>
+   <play context="V,1,24,V43" playid="21,10,154" type="R" pcode="QD" tokens="RUSH:9,V45,QD TACK:2A"
+      text="Eddie Sullivan rush quarterback draw for 2 yards to the WCU45 (Tana Patrick)."></play>
+   <play context="V,2,22,V45" playid="21,11,155" type="P" pcode="RF" tokens="PASS:9,I,83,*,RF"
+      text="Eddie Sullivan RF pass incomplete to Jeff Moore."></play>
+   <play context="V,3,22,V45" playid="21,12,156" type="P" pcode="SI" tokens="PASS:9,I,3,*,SI"
+      text="Eddie Sullivan sideline pass incomplete to Deja Alexander."></play>
+   <play context="V,4,22,V45" playid="21,13,157" type="U" tokens="PUNT:38,H49 DN:"
+      text="Clark Sechrest punt 6 yards to the UA49, downed."></play>
+   <drivesum plays="9" yards="38" top="6:15" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,H49,02:57" vh="H" spot="H49" clock="02:57" driveindex="22,157"></drivestart>
+   <play context="H,1,10,H49" playid="22,1,158" clock="02:57" tokens="{DRIVE}:02:57"
+      text="ALABAMA drive start at 02:57."></play>
+   <play context="H,1,10,H49" playid="22,2,159" tokens="SPOT:H,H50,Y"
+      text="UA ball on 50 yardline."></play>
+   <play context="H,1,10,H50" playid="22,3,160" type="R" pcode="LE" tokens="RUSH:21,V44,LE TACK:29"
+      text="Brent Calloway rush over left end for 6 yards to the WCU44 (D. Richardson)."></play>
+   <play context="H,2,4,V44" playid="22,4,161" type="R" pcode="LE" first="R" tokens="RUSH:21,V33,LE TACK:6"
+      text="Brent Calloway rush over left end for 11 yards to the WCU33, 1ST DOWN UA (Mike Anderson)."></play>
+   <play context="H,1,10,V33" playid="22,5,162" type="R" pcode="LT" tokens="RUSH:34,V26,LT TACK:29"
+      text="Ben Howell rush over left tackle for 7 yards to the WCU26 (D. Richardson)."></play>
+   <play context="H,2,3,V26" playid="22,6,163" type="R" pcode="LG" tokens="RUSH:34,V24,LG TACK:90,6"
+      text="Ben Howell rush over left guard for 2 yards to the WCU24 (Rainey Ala;Mike Anderson)."></play>
+   <play context="H,3,1,V24" playid="22,7,164" type="R" pcode="KN" tokens="RUSH:TM,V27,KN"
+      text="Team rush KN for loss of 3 yards to the WCU27."></play>
+   <play context="H,4,4,V27" playid="22,8,165" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="5" yards="23" top="2:57" driveindex="22" complete="Y"></drivesum>
+   <score final="Y" V="0" H="49"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="WCU">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="3" yds="24"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:33"></misc>
+    <rush att="6" yds="43" gain="43" loss="0" td="0" long="0"></rush>
+    <pass comp="1" att="6" int="0" yds="16" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="16" td="0" long="0"></rcv>
+    <punt no="2" yds="53" long="1" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="5" tacka="4" sacks="0" sackyds="0" brup="1"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="UA">
+    <firstdowns no="2" rush="1" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:27"></misc>
+    <rush att="7" yds="29" gain="32" loss="3" td="0" long="0"></rush>
+    <pass comp="1" att="4" int="0" yds="14" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="14" td="0" long="0"></rcv>
+    <punt no="2" yds="84" long="46" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+    <defense tackua="7" tacka="0" sacks="0" sackyds="0" brup="1" qbh="1"></defense>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,4,4,V27" qtr="4" clock="00:00" vtoh="0" htoh="0"></downtogo>
+ </plays>
+ <dnp vh="V" id="WCU">
+  <player name="C. Cunningham" checkname="CUNNINGHAM,C" uni="3A" class="FR" gp="0" code="3A"></player>
+  <player name="Christon Gill" checkname="GILL,CHRISTON" uni="7" class="SO" gp="0" code="7"></player>
+  <player name="S. Robinson" checkname="ROBINSON,S" uni="8" class="FR" gp="0" code="8"></player>
+  <player name="Jawan Simmons" checkname="SIMMONS,JAWAN" uni="11" class="FR" gp="0" code="11"></player>
+  <player name="B. Littlejohn" checkname="LITTLEJOHN,B" uni="12" class="FR" gp="0" code="12"></player>
+  <player name="Jonah Duggan" checkname="DUGGAN,JONAH" uni="13" class="FR" gp="0" code="13"></player>
+  <player name="K. Benson" checkname="BENSON,K" uni="14" class="SO" gp="0" code="14"></player>
+  <player name="Michael Helms" checkname="HELMS,MICHAEL" uni="15" class="FR" gp="0" code="15"></player>
+  <player name="C.J. Goodman" checkname="GOODMAN,CJ" uni="16" class="FR" gp="0" code="16"></player>
+  <player name="Gary Green" checkname="GREEN,GARY" uni="17" class="SR" gp="0" code="17"></player>
+  <player name="Seth Curtis" checkname="CURTIS,SETH" uni="19" class="FR" gp="0" code="19"></player>
+  <player name="J.D. Polk" checkname="POLK,JD" uni="21" class="SO" gp="0" code="21"></player>
+  <player name="Terrence Green" checkname="GREEN,TERRENCE" uni="24" class="SO" gp="0" code="24"></player>
+  <player name="Juwan Ferris" checkname="FERRIS,JUWAN" uni="26" class="FR" gp="0" code="26"></player>
+  <player name="Reggie Williams" checkname="WILLIAMS,REGGIE" uni="27" class="JR" gp="0" code="27"></player>
+  <player name="Joe Korac" checkname="KORAC,JOE" uni="33" class="JR" gp="0" code="33"></player>
+  <player name="Brandon Grady" checkname="GRADY,BRANDON" uni="34" class="JR" gp="0" code="34"></player>
+  <player name="Damian Whitaker" checkname="WHITAKER,DAMIAN" uni="40" class="FR" gp="0" code="40"></player>
+  <player name="Caleb Pate" checkname="PATE,CALEB" uni="46" class="FR" gp="0" code="46"></player>
+  <player name="Jarrod Couch" checkname="COUCH,JARROD" uni="48" class="SO" gp="0" code="48"></player>
+  <player name="Leo Gamez" checkname="GAMEZ,LEO" uni="49" class="SR" gp="0" code="49"></player>
+  <player name="Andrew Potts" checkname="POTTS,ANDREW" uni="53" class="FR" gp="0" code="53"></player>
+  <player name="I. Kasanganay" checkname="KASANGANAY,I" uni="57" class="FR" gp="0" code="57"></player>
+  <player name="Sean Adams" checkname="ADAMS,SEAN" uni="58" class="FR" gp="0" code="58"></player>
+  <player name="C. Addertion" checkname="ADDERTION,C" uni="59" class="FR" gp="0" code="59"></player>
+  <player name="Jake Thornton" checkname="THORNTON,JAKE" uni="61" class="SO" gp="0" code="61"></player>
+  <player name="Darian Billups" checkname="BILLUPS,DARIAN" uni="62" class="FR" gp="0" code="62"></player>
+  <player name="Blake Metcalf" checkname="METCALF,BLAKE" uni="69" class="FR" gp="0" code="69"></player>
+  <player name="Dylan Sluder" checkname="SLUDER,DYLAN" uni="70" class="FR" gp="0" code="70"></player>
+  <player name="Phil Fiebernitz" checkname="FIEBERNITZ,PHIL" uni="71" class="JR" gp="0" code="71"></player>
+  <player name="Vince Williams" checkname="WILLIAMS,VINCE" uni="72" class="JR" gp="0" code="72"></player>
+  <player name="Wesley Cook" checkname="COOK,WESLEY" uni="73" class="JR" gp="0" code="73"></player>
+  <player name="Steve Steiner" checkname="STEINER,STEVE" uni="75" class="JR" gp="0" code="75"></player>
+  <player name="Dan Polaski" checkname="POLASKI,DAN" uni="77" class="SO" gp="0" code="77"></player>
+  <player name="H. Matungulu" checkname="MATUNGULU,H" uni="79" class="FR" gp="0" code="79"></player>
+  <player name="Phillip Chavis" checkname="CHAVIS,PHILLIP" uni="80" class="SO" gp="0" code="80"></player>
+  <player name="Tyler Klipa" checkname="KLIPA,TYLER" uni="81" class="FR" gp="0" code="81"></player>
+  <player name="Clark Eyers" checkname="EYERS,CLARK" uni="89" class="FR" gp="0" code="89"></player>
+  <player name="Andre Shishkin" checkname="SHISHKIN,ANDRE" uni="97" class="SR" gp="0" code="97"></player>
+ </dnp>
+ <dnp vh="H" id="UA">
+  <player name="Ranzell Watkins" checkname="WATKINS,RANZELL" uni="1B" class="JR" gp="0" code="1B"></player>
+  <player name="Dee Hart" checkname="HART,DEE" uni="1" class="FR" gp="0" code="1"></player>
+  <player name="John Fulton" checkname="FULTON,JOHN" uni="1A" class="JR" gp="0" code="1A"></player>
+  <player name="Russell Raines" checkname="RAINES,RUSSELL" uni="1E" class="JR" gp="0" code="1E"></player>
+  <player name="Ty Reed" checkname="REED,TY" uni="1D" class="JR" gp="0" code="1D"></player>
+  <player name="DeAndrew White" checkname="WHITE,DEANDREW" uni="2" class="SO" gp="0" code="2"></player>
+  <player name="Hunter Bush" checkname="BUSH,HUNTER" uni="2E" class="SR" gp="0" code="2E"></player>
+  <player name="N. McAlister" checkname="MCALISTER,N" uni="2D" class="SR" gp="0" code="2D"></player>
+  <player name="Caleb Castille" checkname="CASTILLE,CALEB" uni="3C" class="SO" gp="0" code="3C"></player>
+  <player name="Trey Roberts" checkname="ROBERTS,TREY" uni="3E" class="FR" gp="0" code="3E"></player>
+  <player name="Marcus Polk" checkname="POLK,MARCUS" uni="3B" class="SO" gp="0" code="3B"></player>
+  <player name="Wilson Whorton" checkname="WHORTON,WILSON" uni="4D" class="SO" gp="0" code="4D"></player>
+  <player name="Aaron Joiner" checkname="JOINER,AARON" uni="5B" class="SR" gp="0" code="5B"></player>
+  <player name="M.K. Taylor" checkname="TAYLOR,MK" uni="5A" class="JR" gp="0" code="5A"></player>
+  <player name="Chris Black" checkname="BLACK,CHRIS" uni="5D" class="FR" gp="0" code="5D"></player>
+  <player name="Ryan Anderson" checkname="ANDERSON,RYAN" uni="7A" class="FR" gp="0" code="7A"></player>
+  <player name="Korren Kirven" checkname="KIRVEN,KORREN" uni="8B" class="FR" gp="0" code="8B"></player>
+  <player name="Alec Morris" checkname="MORRIS,ALEC" uni="11" class="FR" gp="0" code="11"></player>
+  <player name="Edward Aldag" checkname="ALDAG,EDWARD" uni="14" class="FR" gp="0" code="14"></player>
+  <player name="Eddie Williams" checkname="WILLIAMS,EDDIE" uni="15" class="FR" gp="0" code="15"></player>
+  <player name="Kenyan Drake" checkname="DRAKE,KENYAN" uni="17" class="FR" gp="0" code="17"></player>
+  <player name="J. Williams" checkname="WILLIAMS,J" uni="20" class="JR" gp="0" code="20"></player>
+  <player name="Spencer Duncan" checkname="DUNCAN,SPENCER" uni="40" class="SO" gp="0" code="40"></player>
+  <player name="Kurt Freitag" checkname="FREITAG,KURT" uni="41" class="FR" gp="0" code="41"></player>
+  <player name="Jalston Fowler" checkname="FOWLER,JALSTON" uni="45" class="JR" gp="0" code="45"></player>
+  <player name="Rowdy Harrell" checkname="HARRELL,ROWDY" uni="48" class="SR" gp="0" code="48"></player>
+  <player name="Alphonse Taylor" checkname="TAYLOR,ALPHONSE" uni="50" class="FR" gp="0" code="50"></player>
+  <player name="Wilson Love" checkname="LOVE,WILSON" uni="51" class="FR" gp="0" code="51"></player>
+  <player name="D. Tomlinson" checkname="TOMLINSON,D" uni="52" class="FR" gp="0" code="52"></player>
+  <player name="Anthony Orr" checkname="ORR,ANTHONY" uni="53" class="SO" gp="0" code="53"></player>
+  <player name="Josh Dickerson" checkname="DICKERSON,JOSH" uni="55" class="SO" gp="0" code="55"></player>
+  <player name="William Ming" checkname="MING,WILLIAM" uni="56" class="JR" gp="0" code="56"></player>
+  <player name="Brandon Greene" checkname="GREENE,BRANDON" uni="58" class="FR" gp="0" code="58"></player>
+  <player name="H. Nicholson" checkname="NICHOLSON,H" uni="59" class="SO" gp="0" code="59"></player>
+  <player name="Michael Newsome" checkname="NEWSOME,MICHAEL" uni="64" class="SO" gp="0" code="64"></player>
+  <player name="Alex Shine" checkname="SHINE,ALEX" uni="67" class="FR" gp="0" code="67"></player>
+  <player name="Isaac Luatua" checkname="LUATUA,ISAAC" uni="68" class="FR" gp="0" code="68"></player>
+  <player name="Paul Waldrop" checkname="WALDROP,PAUL" uni="69" class="SO" gp="0" code="69"></player>
+  <player name="Caleb Gulledge" checkname="GULLEDGE,CALEB" uni="74" class="FR" gp="0" code="74"></player>
+  <player name="Kevin Norwood" checkname="NORWOOD,KEVIN" uni="83" class="JR" gp="0" code="83"></player>
+  <player name="P. Barrineau" checkname="BARRINEAU,P" uni="87" class="FR" gp="0" code="87"></player>
+  <player name="Josh Magee" checkname="MAGEE,JOSH" uni="88" class="FR" gp="0" code="88"></player>
+  <player name="Dakota Ball" checkname="BALL,DAKOTA" uni="94" class="FR" gp="0" code="94"></player>
+  <player name="Dillon Drake" checkname="DRAKE,DILLON" uni="98" class="SO" gp="0" code="98"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

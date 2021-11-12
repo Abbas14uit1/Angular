@@ -1,0 +1,33 @@
+1. With all files multiple directories run drive_play_check.py to find errors within files
+Or if files are all in a single base bath uncomment the single directory checker and run the drive play checker
+
+Note: The last column of the log file is called "driveindex_number". If this is "FALSE" for a given game, it is fatal and will cause the batch processing to fail.
+
+This is triggered when there are no drives and the plays have a missing drive index. 
+For example:
+
+"1,1,2"
+"3,1,3"
+
+This only happens for a few files but is a very hard error to catch manually. Need to add functionality in the batch processing file to find the missing drive index and renumber the rest of the plays.
+
+Also need to remove files with "BAD" xml and "NOTGAME" flags in the log files
+
+Also some teams are incorrectly named and do not have a TEAM ID. For example, "Alabama" is listed as "Alabama Crimson Tide" which is why the hash lookup in the batch processing fails to add a TEAM ID. Need to fix the TEAM ID before uploading.
+
+2. Once errors in files have been fixed run batch_rename_in_place.py to rename all game files 
+sorted by game date and to put all files in a single directory 
+
+dir_name is the directory in which the original files are located
+dest_dir is the directory in which all the files will be placed in a single direcot
+
+are correct and point to valid directories. Also make sure dest_dir is empty before running
+
+3. To process files run batch_add_drive_play.py to add drives to files that are missing them,
+and to add fake plays and drives to files as well.
+
+dir_name is the directory of the files to be processed. Note that all files should be located in the base path of the directory
+with no sub folders
+
+output_dir_name is the directory in which all the files will be placed. Make sure that it is empty
+before running

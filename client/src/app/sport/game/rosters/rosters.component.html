@@ -1,0 +1,37 @@
+<div *ngIf="gameId && homeTeamId && awayTeamId">
+  <div class="home-column">
+    <app-starter-roster [gameId]="gameId" [teamId]="homeTeamId" [sportId]="sportId"></app-starter-roster>
+    <app-full-roster [gameId]="gameId" [teamId]="homeTeamId" [sportId]="sportId"></app-full-roster>
+  </div>
+  <div class="visitor-column">
+    <app-starter-roster [gameId]="gameId" [teamId]="awayTeamId" [sportId]="sportId"></app-starter-roster>
+    <app-full-roster [gameId]="gameId" [teamId]="awayTeamId" [sportId]="sportId"></app-full-roster>
+  </div>
+  <div class="roster-select-group">
+    <div class="row">
+      <div class="column offset"></div>
+      <div class="column" id="select-col">
+        <div class="col-content">
+          <mat-select id="roster-select" [(ngModel)]="selectedRoster" #season>
+            <mat-option value="home">
+              {{homeTeamName}}
+            </mat-option>
+            <mat-option value="visitor">
+              {{awayTeamName}}
+            </mat-option>
+          </mat-select>
+        </div>
+      </div>
+      <div class="column offset"></div>
+    </div>
+    <div class="home-column-mobile" *ngIf="selectedRoster === 'home'">
+      <app-starter-roster [gameId]="gameId" [teamId]="homeTeamId" [sportId]="sportId"></app-starter-roster>
+      <app-full-roster [gameId]="gameId" [teamId]="homeTeamId" [sportId]="sportId"></app-full-roster>
+    </div>
+    <div class="visitor-column-mobile" *ngIf="selectedRoster === 'visitor'">
+      <app-starter-roster [gameId]="gameId" [teamId]="awayTeamId" [sportId]="sportId"></app-starter-roster>
+      <app-full-roster [gameId]="gameId" [teamId]="awayTeamId" [sportId]="sportId"></app-full-roster>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,65 @@
+
+.header-group-row {
+  border: none;
+  align-items: stretch;
+  height: 20px !important;
+  max-height: 20px !important;
+  min-height: 20px;
+}
+
+
+.header-group-cell {
+  text-align: right;
+  padding-top: 5px;
+  font-weight: 600;
+  color: white;
+}
+
+
+#lastTbl .mat-cell,#lastTbl .mat-header-cell{
+  display: flex !important;
+    -webkit-align-self: stretch !important;
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;  
+    justify-content: center !important;
+}
+
+.border-right-cell
+{
+  border-right-width: 1px !important;
+    border-right-style: solid !important;
+    border-collapse: collapse !important;
+    border-color: white !important;
+}   
+
+#lastTbl .mat-header-row,#lastTbl .mat-row {
+  padding: 0px !important;
+  border:none !important;
+}
+
+.text-line {
+  text-decoration: underline !important;
+}
+
+#lastTbl .mat-column-_id {
+  max-width: 5%;
+}
+
+#lastTbl .mat-column-name {
+  max-width: 40%;
+  justify-content: left !important;
+  padding-left: 10px;
+}
+#lastTbl .mat-column-endDate {
+  max-width: 20%;
+}
+#lastTbl .mat-column-opp {
+  max-width: 25%;
+}
+#lastTbl .mat-column-statValue {
+  max-width: 10%;
+}
+

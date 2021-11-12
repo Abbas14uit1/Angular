@@ -1,0 +1,105 @@
+.header-group-row {
+  border: none;
+  align-items: stretch;
+  height: 20px !important;
+  max-height: 20px !important;
+  min-height: 20px;
+}
+
+.header-group-cell {
+  text-align: right;
+  padding-top: 5px;
+  font-weight: 600;
+  color: white;
+}
+
+#recordsTbl .mat-cell,
+#recordsTbl .mat-header-cell {
+  display: flex;
+  -webkit-align-self: stretch !important;
+  -ms-flex-item-align: stretch !important;
+  align-self: stretch !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.border-right-cell {
+  border-right-width: 1px !important;
+  border-right-style: solid !important;
+  border-collapse: collapse !important;
+  border-color: white !important;
+}
+
+#recordsTbl .mat-header-row,
+#recordsTbl .mat-row {
+  padding: 0px !important;
+  border: none !important;
+}
+
+#recordsTbl .mat-header-row {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+
+.text-line {
+  text-decoration: underline !important;
+}
+
+#recordsTbl .mat-column-_id {
+  max-width: 5%;
+}
+
+#recordsTbl .mat-column-statValue {
+  max-width: 10%;
+  justify-content: left !important;
+  padding-left: 10px;
+}
+
+#recordsTbl .mat-column-playerClass {
+  max-width: 10%;
+}
+
+#recordsTbl .mat-column-playerName {
+  max-width: 25%;
+  justify-content: left !important;
+  padding-left: 15px;
+}
+#recordsTbl .mat-column-oppoTeamName {
+  max-width: 28%;
+  justify-content: left !important;
+  padding-left: 15px;
+}
+
+#recordsTbl .mat-column-gameDate {
+  max-width: 10%;
+}
+
+#recordsTbl .mat-column-season {
+  max-width: 10%;
+}
+#recordsTbl .mat-table {
+  max-height: calc(100vh - 280px);
+  overflow: auto;
+}
+
+#logo {
+  width: auto;
+  height: auto;
+  max-width: 25px;
+  max-height: 17px;
+}
+.mat-button-toggle-checked {
+  background-color: #26a69a !important;
+  color: white !important;
+}
+.mat-button-toggle-checked > .mat-button-toggle-label {
+  color: white !important;
+}
+
+.source{
+    font-size: 13px;
+    font-weight: 500;
+}

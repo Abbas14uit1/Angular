@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col l4 m4 s12" *ngIf="gameId">
+     <div class="row"  *ngIf="SoccerGoalieData && awayGoalieLength != undefined">
+       <app-goalie [color]="this.teamColors[homeTeam.code]" [data]="SoccerGoalieData"  [otherLength]="awayGoalieLength" [sportId]="sportId"></app-goalie>
+     </div>
+
+     <div class="row" *ngIf="SoccerScoringData && awaySoccerLength != undefined">
+      <app-scoring [color]="this.teamColors[homeTeam.code]" [data]="SoccerScoringData" [otherLength]="awaySoccerLength" [sportId]="sportId"></app-scoring>
+    </div>
+
+      <div class="row" *ngIf="SoccerShotsData && awayShotsDataLength != undefined">
+        <app-shots [color]="this.teamColors[homeTeam.code]" [data]="SoccerShotsData" [otherLength]="awayShotsDataLength" [sportId]="sportId"></app-shots>
+      </div>
+
+        <div class="row" *ngIf="SoccerPenaltiesData && awayPenaltiesDataLength != undefined">
+        <app-penalties [color]="this.teamColors[homeTeam.code]" [data]="SoccerPenaltiesData" [otherLength]="awayPenaltiesDataLength" [sportId]="sportId"></app-penalties>
+      </div>
+
+     <div class="row" *ngIf="SoccerMiscData && awayMiscDataLength != undefined">
+       <app-misc [color]="this.teamColors[homeTeam.code]" [data]="SoccerMiscData" [otherLength]="awayMiscDataLength" [sportId]="sportId"></app-misc>
+      </div>
+
+  </div>
+
+  <div class="col l4 m4 s12" *ngIf="overallTeamStats && scoringPlays && overallOffensePlays">      
+    <mat-card>
+       <div *ngIf="!showFullStas" [ngClass] = "showFullStas ? 'sidebar' : 'sidebar sidebar-active sidebar-good'" >
+          <app-overall-stats-soccer [overallTeamStats]="overallTeamStats" [overallOffensePlays] = "overallOffensePlays" [sportId]="sportId">
+          </app-overall-stats-soccer>
+       </div>
+    </mat-card>
+ <br/>
+ <app-scoring-plays-soccer [homeTeam]="homeTeam" [awayTeam]="awayTeam" [scoringPlays]="scoringPlays" [sportId]="sportId"></app-scoring-plays-soccer>       
+</div>
+
+
+<div class="col l4 m4 s12" *ngIf="gameId">
+  <div class="row" *ngIf="awayGoalieData && SoccerGoalieLength != undefined">
+    <app-goalie [color]="this.teamColors[awayTeam.code]" [data]="awayGoalieData"  [otherLength]="SoccerGoalieLength" [sportId]="sportId"></app-goalie>
+  </div>
+
+  <div class="row" *ngIf="awaySoccerData && SoccerScoringLength != undefined">
+   <app-scoring [color]="this.teamColors[awayTeam.code]" [data]="awaySoccerData" [otherLength]="SoccerScoringLength" [sportId]="sportId"></app-scoring>
+ </div>
+
+   <div class="row" *ngIf="awayShotsData && SoccerShotsLength != undefined">
+     <app-shots [color]="this.teamColors[awayTeam.code]" [data]="awayShotsData" [otherLength]="SoccerShotsLength" [sportId]="sportId"></app-shots>
+   </div>
+
+     <div class="row" *ngIf="awayPenaltiesData && SoccerPenaltiesLength != undefined">
+     <app-penalties [color]="this.teamColors[awayTeam.code]" [data]="awayPenaltiesData" [otherLength]="SoccerPenaltiesLength" [sportId]="sportId"></app-penalties>
+   </div>
+
+  <div class="row" *ngIf="awayMiscData && SoccerMiscLength != undefined">
+    <app-misc [color]="this.teamColors[awayTeam.code]" [data]="awayMiscData" [otherLength]="SoccerMiscLength" [sportId]="sportId"></app-misc>
+   </div>
+
+</div>
+
+</div>

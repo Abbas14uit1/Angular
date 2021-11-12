@@ -1,0 +1,87 @@
+<div class="container">
+  <div class="row">
+    <div class="col l10 m10 s10">
+      <h3 mat-dialog-title>{{records.playerName}} Detail</h3>
+    </div>
+    <div class="col l2 m2 s2" style="text-align: right;padding: 0px;">
+      <span class="cursor" (click)="onNoClick()">X</span>
+    </div>
+  </div>
+  <div class="row" *ngIf="records.stories.Records">
+    <div class="col l10 m10 s10">
+      <h3 mat-dialog-title>Record</h3>
+    </div>
+  </div>
+  <div class="tableContainer" *ngIf="records.stories.Records">
+    <table>
+      <thead>
+        <tr [ngStyle]="{'background': data.teamColor}" >
+          <th class="header">Statistics Value</th>
+          <th class="header">Position</th>
+          <th class="header">Next Statistics Value</th>
+          <th class="header">Next Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let record of records.stories.Records;">
+          <td>{{record.storyDetails.statValue}}</td>
+          <td>{{record.storyDetails.position}}</td>
+          <td>{{record.storyDetails.nextStatValue}}</td>
+          <td>{{record.storyDetails.nextPosition}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="row" *ngIf="records.stories.LastTimeWhen">
+    <div class="col l10 m10 s10">
+      <h3 mat-dialog-title>Last Time When</h3>
+    </div>
+  </div>
+  <div class="tableContainer" *ngIf="records.stories.LastTimeWhen">
+    <table>
+      <thead>
+        <tr [ngStyle]="{'background': data.teamColor}" >
+          <th class="header">Statistics Value</th>
+          <th class="header">Actual Date</th>
+          <th class="header">Season</th>
+          <th class="header">Opponent Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let lasttimewhen of records.stories.LastTimeWhen;">
+          <td>{{lasttimewhen.storyDetails.statValue}}</td>
+          <td>{{lasttimewhen.storyDetails.mostRecentOccurence.actualDate}}</td>
+          <td>{{lasttimewhen.storyDetails.mostRecentOccurence.season}}</td>
+          <td>{{lasttimewhen.storyDetails.mostRecentOccurence.opponentName}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="row" *ngIf="records.stories.Streaks">
+    <div class="col l10 m10 s10">
+      <h3 mat-dialog-title>Streak</h3>
+    </div>
+  </div>
+  <div class="tableContainer" *ngIf="records.stories.Streaks">
+    <table>
+      <thead>
+        <tr [ngStyle]="{'background': data.teamColor}" >
+          <th class="header">Statistics Value</th>
+          <th class="header">Position</th>
+          <th class="header">Next Streak Length</th>
+          <th class="header">Next Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let streak of records.stories.Streaks;">
+          <td>{{streak.storyDetails.statQualifierValue}}</td>
+          <td>{{streak.storyDetails.statPosition}}</td>
+          <td>{{streak.storyDetails.nextStreakLength}}</td>
+          <td>{{streak.storyDetails.nextPosition}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,172 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "~https://fonts.googleapis.com/icon?family=Roboto";
+@import "~https://fonts.googleapis.com/icon?family=Noto+Sans+HK";
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "https://fonts.googleapis.com/css?family=BioRhyme|BioRhyme+Expanded|Timmana|Tienne";
+
+body {
+  margin: 0;
+  font-family: Noto Sans HK, "Helvetica Neue", sans-serif;
+  height: 100%;
+  overflow: hidden;
+  color: #6c757d;
+}
+
+label.q-switch-label::after {
+  border: none !important;
+  background: none !important;
+  display: none !important;
+}
+label.q-switch-label::before {
+  border: none !important;
+  background: none !important;
+  display: none !important;
+}
+.mat-toolbar,
+.mat-toolbar h1,
+.mat-toolbar h2,
+.mat-toolbar h3,
+.mat-toolbar h4,
+.mat-toolbar h5,
+.mat-toolbar h6 {
+  font: 500 20px/32px Noto Sans HK, "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: Noto Sans HK, "Helvetica Neue", sans-serif;
+}
+
+a,
+u {
+  text-decoration: none;
+}
+
+#class-column div button {
+  margin-left: auto;
+}
+
+.sort-btn-align-right .mat-sort-header-container .mat-sort-header-button {
+   /* margin-left: auto; */
+}
+
+#player-page-toolbar .mat-toolbar {
+  padding-top: 20px;
+}
+
+#player-page-toolbar .mat-toolbar-row {
+  min-height: 35px;
+  max-height: 35px;
+}
+
+#playerPageToolbar .second-toolbar-row {
+  min-height: 35px;
+  max-height: 35px;
+}
+
+.white-text {
+  color: white !important;
+}
+
+.scoring-plays-row {
+  min-height: 25px;
+  max-height: 200px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.mat-header-row,
+.mat-row {
+  height: 45px;
+}
+
+.mat-radio-outer-circle {
+  border-color: #9e9e9e !important;
+}
+
+.mat-radio-inner-circle {
+  background-color: #9e9e9e !important;
+}
+
+.mat-radio-label-content {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.mat-ink-bar {
+  background-color: #8d8a8a !important;
+}
+
+.team-name {
+  font-family: monospace !important;
+  font-size: 28pt !important;
+  /* color: #000 !important; */
+  color: #fff !important;
+
+}
+.game-page-header {
+  background: #fffaf0a3;
+  padding-top: 20px;
+}
+
+.mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {
+  display: none !important;
+}
+
+.mat-form-field-underline {
+  background-color: transparent !important;
+}
+.q-tree {
+  display: block !important;
+  list-style-type: disc !important;
+  margin-block-start: 1em !important;
+  margin-block-end: 1em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  padding-inline-start: 20px !important;
+}
+
+.qb-radio-group {
+  display: inline-flex !important;
+  flex-direction: row !important;
+}
+.qb-radio-label {
+  padding-left: 25px !important;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:before,
+[type="radio"].with-gap:checked + label:after {
+  border: 2px solid #673ab7 !important;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:after {
+  background-color: #673ab7 !important;
+}
+
+.qb-entity-control {
+  margin-top: 7% !important;
+  padding: 0px 8px 10px 10px !important;
+}
+.q-row {
+  padding: 0px !important;
+  margin-top: 6px !important;
+  padding-right: 5px !important;
+}
+
+.mat-button-toggle-checked {
+  background-color: #26a69a !important;
+  color: white !important;
+}
+.mat-button-toggle-checked > .mat-button-toggle-label {
+  color: white !important;
+}

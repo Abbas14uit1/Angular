@@ -1,0 +1,67 @@
+.header{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+  #qbTable  .mat-row {
+        height: 100% !important;   
+        padding:0px !important;
+    }
+    #qbTable  .mat-header-row{
+      position: sticky !important;  
+      top: 0 !important;  
+      z-index: 100 !important;  
+      height: 100% !important;   
+      padding:0px !important;
+      }
+    #qbTable  .mat-cell {
+      margin: 10px !important;
+      word-break: break-all;
+    }
+
+   #qbTable .mat-header-cell{
+      margin: 10px !important;
+    }
+
+    #qbTable  .mat-column-Id {
+      max-width: 6%;
+    }
+    #qbTable .mat-column-select {
+      max-width: 3%;
+    }
+
+    #qbTable .mat-sort-header-button
+      {
+        display: flex !important;
+      }
+
+
+#logo {
+  width: auto;
+  height: auto;
+  max-width: 25px;
+  max-height: 17px;
+}
+
+
+
+
+
+
+.light {
+  color: #9E9E9E
+}
+
+.dark {
+  font-weight: 900;
+}
+
+
+#qBResTableDiv{
+position: absolute;
+    opacity: 0;
+  } 
+
+  

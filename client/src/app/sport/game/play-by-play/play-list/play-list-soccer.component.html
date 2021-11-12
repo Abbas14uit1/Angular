@@ -1,0 +1,85 @@
+<mat-card>
+  
+  <input  #filter placeholder="Filter plays">
+
+<div id="table">
+  <mat-table #table [dataSource]="dataSource" matSort>
+
+    <ng-container matColumnDef="play">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column">PLAY</mat-header-cell>
+      <mat-cell *matCellDef="let element" class="first-column">
+        {{ element.playInGame }}
+      </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="period">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>PERIOD</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        {{ element.period }}
+      </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="clock">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>CLOCK</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        {{element.gameClockStartTime.minutes}} : {{ element.gameClockStartTime.seconds }}
+      </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="action">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>ACTION</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        {{ element.action }}
+      </mat-cell>
+    </ng-container>
+
+     <ng-container matColumnDef="team">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>TEAM</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+       <img id="logo" src="../../../assets/images/teams/{{element.possessionTeamCode}}.png" alt=" "  *ngIf="element.possessionTeamCode != 0">
+       <img id="logo" src="../../../assets/images/teams/{{element.possessionTeamCode}}.png" alt=" "  *ngIf="element.possessionTeamCode == 0">
+      </mat-cell>
+    </ng-container>
+    {{setPreviousScoreZero()}}
+    <ng-container matColumnDef="score">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>SCORE</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <!-- {{ element.score == null ? 0: element.score.homeScore}} - {{ element.score == null ? 0 : element.score.visitorScore }} -->
+        <div *ngIf="element.score != null">
+          {{ element.score == null ? 0: element.score.homeScore}} - {{ element.score == null ? 0 : element.score.visitorScore }}
+          {{setPreviousScore(element.score)}}
+        </div>
+        <div *ngIf="element.score == null" class="grey-text text-lighten-1">
+          {{ getPreviousScore() }}
+        </div>
+      
+      </mat-cell>
+    </ng-container>
+
+    <!-- {{setPreviousScoreZero()}}
+    <ng-container matColumnDef="score">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>SCORE</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <div *ngIf="element.score != null">
+          {{element.score.homeScore}}-{{element.score.visitorScore}}
+          {{setPreviousScore(element.score)}}
+        </div>
+        <div *ngIf="element.score == null" class="grey-text text-lighten-1">
+          {{ getPreviousScore() }}
+        </div>
+      </mat-cell>
+    </ng-container> -->
+
+
+    <ng-container matColumnDef="description">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>DESCRIPTION</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        {{ element.description }}
+      </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</div>
+</mat-card>

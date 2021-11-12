@@ -1,0 +1,58 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">RECEIVING</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="targets">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TAR</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{element.name == 'TOTAL'  ? totalTargets() : element.name ? getZeroValue(element.targets) : element.targets}}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="receptions">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">REC</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.receptions }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="yards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.yards }}
+        </mat-cell>
+      </ng-container>
+     
+      <ng-container matColumnDef="touchdowns">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.touchdowns }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="long">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">LG</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.long }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="yardsRcv">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">Y/R</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.yardsRcv }}
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row [ngStyle]="{'background-color':this.color}"  *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined?'':onClick(row._id)"></mat-row>      
+    </mat-table>
+  </div>
+</div>

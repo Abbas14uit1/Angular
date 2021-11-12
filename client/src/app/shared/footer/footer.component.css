@@ -1,0 +1,42 @@
+
+footer {
+    /*background-color: #222;
+    color: #fff;*/
+    font-size: 18px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0px 0px 3px 0px;
+    z-index: 100!important;
+    /*color: #6c757d;*/
+    border-top: 1px solid #e3eaef;
+    display: inline-block;
+    width: 100%;
+    background-color: #4f4d4d;
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+
+.bullet:after {
+    content: '\2022';
+    color: white;
+}
+.copyright{
+    font-size: 13px;
+    letter-spacing: 2px;
+}

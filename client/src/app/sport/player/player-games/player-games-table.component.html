@@ -1,0 +1,78 @@
+<div id="col-groups" *ngIf="columnGroups">
+  <app-col-groups [data]="columnGroups" [games]="true"></app-col-groups>
+</div>
+<input #filter placeholder="Filter" placeholder="Filter" style="display: none;">
+<div id="playerGames" matSort #playerGames style="margin-top: -30px;">
+  <mat-table [dataSource]="dataSource">
+    <ng-container matColumnDef="date">
+      <mat-header-cell
+        [ngClass]="sportId == 'MBB' || sportId == 'WBB' ? 'first-column header' : 'first-column header mat-cell-width'"
+        *matHeaderCellDef>
+        <span mat-sort-header class="pull-left">{{title}}</span>
+        &nbsp;
+        <span [matMenuTriggerFor]="menu" class="cursor" [ngStyle]="{'color': hightLightFilter('date')}">
+          <i class="fa fa-filter" aria-hidden="true"></i>
+        </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+            <div class="row">
+              <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+                <input placeholder="DATE" type="text" ngModel name='date' id='date'>
+              </div>
+              <div class="col s12 l12 m12 center-align">
+                <button type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+                <button mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true"></i>
+                  Clear</button>
+              </div>
+            </div>
+          </form>
+        </mat-menu>
+      </mat-header-cell>
+      <mat-cell [ngClass]="sportId == 'MBB' || sportId == 'WBB' ? 'first-column' : 'first-column mat-cell-width'"
+        *matCellDef="let element">
+        {{ element.date | utcdate:'L'}}
+      </mat-cell>
+    </ng-container>
+    <ng-container *ngFor="let col of displayedColumns" matColumnDef="{{ col }}">
+      <mat-header-cell *matHeaderCellDef
+        [ngClass]="sportId == 'MBB' || sportId == 'WBB' ? 'header' : 'header mat-cell-width'"
+        [ngStyle]="{display: (col == 'TeamCode' || col == 'OpponentCode' ? 'none' : 'inline')}">
+        <span mat-sort-header class="pull-left" *ngIf="col == 'opponentName'">
+          {{ columnDisplayNames[col] }} &nbsp; &nbsp;
+        </span>
+
+        <span mat-sort-header class="pull-left" *ngIf="col !== 'opponentName'">{{ columnDisplayNames[col] }}</span>
+        <span [matMenuTriggerFor]="menu" class="cursor" [ngStyle]="{'color': hightLightFilter(col)}">
+          <i class="fa fa-filter" aria-hidden="true"></i>
+        </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+            <div class="row">
+              <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+                <input placeholder="{{ columnDisplayNames[col] }}" type="text" ngModel name={{col}} id={{col}}>
+              </div>
+              <div class="col s12 l12 m12 center-align">
+                <button type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+                <button mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true"></i>
+                  Clear</button>
+              </div>
+            </div>
+          </form>
+        </mat-menu>
+      </mat-header-cell>
+     
+      <mat-cell *matCellDef="let element" [ngClass]="sportId == 'MBB' || sportId == 'WBB' ? '' : 'mat-cell-width'">
+        <span *ngIf="col !== 'opponentName'">{{ element[col] }}</span>
+        <span *ngIf="col == 'opponentName'">
+          <img *ngIf="element['opponentCode']  !== 0 && element['opponentCode']  !== 1" id="logo" (error)="setDefaultPic($event)"
+            src="../../../assets/images/teams/{{element['opponentCode'] }}.png" alt="adc"> &nbsp;{{ element[col]}}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumnsWithSeason" [ngStyle]="{'background': teamColor}"
+      [style.min-height]="0"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumnsWithSeason;" (click)="onClick(row._id)"></mat-row>
+
+    <!-- <h3>{{row._id}}</h3> -->
+  </mat-table>
+</div>

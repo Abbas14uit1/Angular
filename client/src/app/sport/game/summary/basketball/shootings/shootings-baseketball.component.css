@@ -1,0 +1,22 @@
+.border-right-cell {
+  border-right: 1px solid #c7c7c7;
+}
+
+
+
+.header-group-row {
+  border: none;
+  align-items: stretch;
+}
+
+.header-group {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.header-group-cell {
+  text-align: center !important;
+  padding-top: 15px;
+  font-weight: 600;
+}

@@ -1,0 +1,94 @@
+<app-header [config]="headerConfig.normal"></app-header>
+
+<div class="row card" style="margin-top: 2rem; margin-bottom: 0rem !important;">
+  <!--  <div class="col l3 s13 m3" style="padding:10px;text-align: center;display: none;">
+              <div class="chip cursor" *ngFor="let split of splits" (click)="splitSectionChange(split.value)"
+              [ngClass]="selectedSplit == split.value ? 'white-text grey darken-2' : ''">
+              {{split.viewValue}}
+              </div>
+             </div>
+             <div class="col l1 s12 m1">
+
+             </div> -->
+  <div class="col l4 s12 m4"></div>
+  <div class="col l1 s12 m2" style="padding: 10px;">
+    <!-- <mat-radio-group name="entity" [(ngModel)]="entity" (ngModelChange)="onEntityChange($event)">
+                     <mat-radio-button color="primary" *ngFor="let entity of entities" value={{entity.value}}>{{entity.viewValue}}</mat-radio-button>
+                </mat-radio-group> -->
+    <mat-button-toggle-group color="primary" name="entity" [(ngModel)]="entity"
+      (ngModelChange)="onEntityChange($event)">
+      <mat-button-toggle *ngFor="let entity of entities" value="{{ entity.value }}">{{ entity.viewValue }}&nbsp;<i
+          class="{{ entity.class }}"></i></mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+  <div class="col l2 s12 m2" style="padding-left: 4rem;">
+    <mat-form-field>
+      <mat-select placeholder="Season" (ngModelChange)="onSeasonChange($event)" [(ngModel)]="selectedSeason" #season>
+        <mat-option *ngFor="let season of seasons" [value]="season">
+          {{ season }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="col l2 s12 m2" *ngIf="selectedTeam">
+    <mat-form-field>
+      <mat-select placeholder="Team" #teamSelect (ngModelChange)="onTeamChange($event, teamSelect)"
+        [(ngModel)]="selectedTeam">
+        <mat-option *ngFor="let team of teams" [ngStyle]="{
+            display: selectedSeason == team.season ? 'block' : 'none'
+          }" [value]="team">
+          {{ team.oppoTeamName }}
+          ({{(team.gameDate) | utcdate:'MMM D,YYYY'}})
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>
+<div class="row" *ngIf="teamId && selectedSplit && (selectedTeam || selectedTeamPre)" [ngStyle]="{
+    background:
+      'linear-gradient(to right, ' +
+      this.teamColors[teamId] +
+      ',white 50%, white 50%, ' +
+      this.teamColors[
+        selectedSplit == 'Postgame' ? selectedTeam['oppoTeamCode'] : selectedTeamPre
+      ] +
+      ')'
+  }" id="team-bar" style="margin-bottom: 0px !important;">
+  <div id="home" class="col s4 m4">
+    <span class="team-name">{{ teamName }}&nbsp;</span>
+    <img id="home-logo" src="../../../assets/images/teams/{{ teamId }}.png" alt=" " />
+  </div>
+  <div class="col s4 m4 center-align" style="padding-top: 15px;">
+    <label class="label-time">
+      <i class="tiny material-icons">access_time</i>
+      {{ alertDate | utcdate:'LL'}}
+      <span *ngIf="selectedSplit == 'Postgame'"> {{ alertTime }}</span>
+    </label>
+  </div>
+  <div id="away" class="col s4 m4 right-align">
+    <img id="home-logo" src="../../../assets/images/teams/{{
+        selectedSplit == 'Postgame' ? selectedTeam['oppoTeamCode'] : selectedTeamPre
+      }}.png" alt=" " />&nbsp;
+    <span class="team-name">
+      {{
+        selectedSplit == "Postgame" ? selectedTeamName : selectedTeamNamePre
+      }}</span>
+  </div>
+</div>
+<div class="row" *ngIf="spinner == true">
+  <div class="progress" *ngIf="spinner == true">
+    <div class="indeterminate"></div>
+  </div>
+</div>
+<div class="row" *ngIf="
+    teamId &&
+    (selectedSplit == 'Postgame' ? selectedTeamName : selectedTeamNamePre)
+  ">
+  <div matTabContent *ngIf="alerts?.length == 0 && spinner == false" style="padding: 20px;">
+    Data Not Available
+  </div>
+
+  <app-records-postgame *ngIf="alerts?.length > 0" [alerts]="alerts" [teamColor]="this.teamColors[teamId]"
+    [teamCode]="teamId" [entity]="entity"></app-records-postgame>
+
+</div>

@@ -1,0 +1,65 @@
+<app-header [config]="headerConfig.normal"></app-header>
+<div id="player-page-toolbar" style="margin-top: 1.4rem;">
+  <mat-toolbar *ngIf="playerInfo && teamCode" [ngStyle]="{'background': 'linear-gradient(to right, '+ this.teamColors[teamCode] +',white)'}">
+    <div>
+      <div id="name-div">
+        <span id="playerName" style="color: white">{{ playerInfo[0].name }}</span>
+      </div>
+      <div id="info-div">
+        <mat-toolbar-row class="second-toolbar-row">
+          <span id="teamName" style="color: white">{{ playerInfo[0].teamName }}, #{{ playerInfo[0].uniform }}</span>
+        </mat-toolbar-row>
+      </div>
+    </div>
+    <div id="img-div">
+      &nbsp;&nbsp;
+      <img id="home-logo" src="../../../assets/images/teams/{{teamCode}}.png" alt="">
+    </div>
+
+  </mat-toolbar>
+</div>
+<!-- vaf.ai new changes start -->
+<div class="row" *ngIf="sportId == 'MSO' || sportId == 'WSO'">
+  <div class="col l12 m12 s12">
+      <player-agg-soccer *ngIf="seasonStats && careerStats && seasonStats.length > 0" [seasonStats]="seasonStats" [careerStats]="careerStats" [sportId]="sportId" [teamCode]="teamCode" [playerId]="playerId"></player-agg-soccer>
+  </div>
+  
+  <app-player-games [sportId]="sportId" [teamCode]="teamCode" [playerId]="playerId">    
+  </app-player-games>
+  
+  </div>
+  <!-- vaf.ai new changes end -->
+
+<!-- <div class="row" *ngIf="sportId !== 'MBB' && sportId !== 'WBB'">
+  <app-player-agg *ngIf="seasonStats && careerStats" [seasonStats]="seasonStats" [careerStats]="careerStats" [sportId]="sportId" [teamCode]="teamCode" >
+  </app-player-agg>   
+  <app-player-games [sportId]="sportId" [teamCode]="teamCode" [playerId]="playerId"></app-player-games>
+</div> -->
+
+<div class="row" *ngIf="sportId == 'MFB' || sportId == 'MBA'|| sportId == 'WSB'">
+  <app-player-agg *ngIf="seasonStats && careerStats" [seasonStats]="seasonStats" [careerStats]="careerStats" [sportId]="sportId" [teamCode]="teamCode" >
+  </app-player-agg>   
+  <app-player-games [sportId]="sportId" [teamCode]="teamCode" [playerId]="playerId"></app-player-games>
+</div> 
+
+<div class="row" *ngIf="sportId == 'MBB' || sportId == 'WBB'">
+<div class="col l12 m12 s12">
+  <h2 [ngStyle]="{'border-bottom': '5px solid '+ this.teamColors[teamCode]+''}">Seasons</h2>
+  <mat-card>   
+    <app-player-agg-baseketball  *ngIf="seasonStats && careerStats && seasonStats.length > 0" [seasonStats]="seasonStats" [careerStats]="careerStats" [sportId]="sportId" [teamCode]="teamCode" title= "SEASON">
+     </app-player-agg-baseketball>      
+  </mat-card>
+</div>
+  <app-player-games [sportId]="sportId" [teamCode]="teamCode" [playerId]="playerId">    
+  </app-player-games>
+</div>
+
+<div class="fixed-action-btn direction-top" style="bottom: 45px; right: 24px;">
+          <a class="btn-floating btn
+" href="javascript:void(0)" (click)="goBack()"*ngIf="teamCode" 
+[ngStyle]="{'background': this.teamColors[teamCode]}"
+matTooltipPosition="left"
+matTooltip="Back to season view">
+            <i class="material-icons">keyboard_backspace</i> Back
+          </a>
+</div>

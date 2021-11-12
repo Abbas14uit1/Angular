@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.mat-card {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Text */
+
+.light {
+  color: #9E9E9E
+}
+
+.dark {
+  font-weight: 900;
+}
+
+
+/* Material */
+
+#seasonTbl .mat-header-row {
+  display: none;
+}
+
+#seasonTbl .mat-row {
+  height: 40px;
+  min-height: 0;
+}
+
+#seasonTbl .mat-table {
+  overflow: auto;
+}
+
+#seasonTbl .mat-column-actualDate {
+  max-width: 85px;
+  min-width: 85px;
+}
+
+#seasonTbl .mat-column-venue {
+  min-width: 30px;
+  max-width: 30px;
+}
+
+#seasonTbl .mat-column-logo {
+  max-width: 40px;
+  min-width: 40px;
+}
+
+#seasonTbl .mat-column-opponent {
+  min-width: 30px;
+}
+
+#seasonTbl .mat-column-result {
+  max-width: 20px;
+}
+
+#seasonTbl .mat-column-score {
+  max-width: 65px;
+}
+
+#seasonTbl .mat-column-status {
+  max-width: 30px;
+}
+
+.mat-select {
+  margin-right: 0;
+  margin-left: auto;
+  padding-top: 21px;
+  padding-right: 13px;
+}
+
+
+/* Logo  */
+
+#logo {
+  width: auto;
+  height: auto;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  #seasonTbl .mat-column-status {
+    display: none;
+  }
+  #seasonTbl .mat-column-logo {
+    display: none;
+  }
+}
+
+

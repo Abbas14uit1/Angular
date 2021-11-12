@@ -1,0 +1,88 @@
+<div class="card mat-elevation-z0">
+  <div class="card-content">
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <input #filter placeholder="Filter user">
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12" id="usersTbl">
+
+        <mat-table #usersTbl [dataSource]="dataSource" matSort>
+          <!-- Name Column -->
+          <ng-container matColumnDef="isActive">
+            <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text"></mat-header-cell>
+            <mat-cell *matCellDef="let row">
+              <button mat-mini-fab matTooltip="Active User" class="blue lighten-2 white-text"
+                *ngIf="row.isActive == true">
+                <mat-icon aria-label="Example icon-button with a heart icon">perm_identity</mat-icon>
+              </button>
+              <button mat-mini-fab matTooltip="InActive User" class="grey dark-1 white-text"
+                *ngIf="row.isActive !== true">
+                <mat-icon aria-label="Example icon-button with a heart icon">perm_identity</mat-icon>
+              </button>
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="username">
+            <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">NAME</mat-header-cell>
+            <mat-cell *matCellDef="let row">
+              <i class="fa fa-group orange-text text-darken-2" matTooltip="Super Admin User"
+                *ngIf="row.superAdmin == true"></i>
+              <i class="fa fa-star orange-text text-darken-2" matTooltip="Admin User"
+                *ngIf="row.admin == true && row.superAdmin == false"></i>
+              <i class="fa fa-star grey-text text-darken-2" matTooltip="Normal User"
+                *ngIf="row.admin == false && row.superAdmin == false"></i>
+              &nbsp;&nbsp;
+              {{row.username}}
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="email">
+            <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">EMAIL</mat-header-cell>
+            <mat-cell *matCellDef="let row"> {{row.email}}</mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="createdOn">
+            <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">CREATED AT</mat-header-cell>
+            <mat-cell *matCellDef="let row"> {{row.createdOn  |  utcdate:'LLL'}}</mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="lastUpdatedOn">
+            <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">UPDATED AT</mat-header-cell>
+            <mat-cell *matCellDef="let row"> {{row.lastUpdatedOn  |  utcdate:'LLL'}}</mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="id">
+            <mat-header-cell *matHeaderCellDef>
+              <a mat-icon-button class="white-text" (click)="addNew()" matTooltip="Add User">
+                <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+              </a>
+              <a mat-icon-button (click)="refreshTable()" class="white-text">
+                <mat-icon>refresh</mat-icon>
+              </a>
+            </mat-header-cell>
+
+            <mat-cell *matCellDef="let row; let i=index;">
+              <a mat-icon-button [disabled]="row.username == userName" class="grey-text"
+                (click)="startEdit(row.id, row.username, row.email, row.isActive, row.admin, row.password, row.superAdmin)"
+                matTooltip="Edit User">
+                <mat-icon aria-label="Edit">edit</mat-icon>
+              </a>
+
+              <a mat-icon-button [disabled]="row.username == userName" color="warn"
+                (click)="deleteItem(row.id, row.username, row.email, row.isActive, row.admin, row.superAdmin)"
+                matTooltip="Delete User">
+                <mat-icon aria-label="Delete">delete</mat-icon>
+              </a>
+            </mat-cell>
+          </ng-container>
+
+          <mat-header-row *matHeaderRowDef="displayedColumns" [ngStyle]="{'background':  '#616161'}"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+        </mat-table>
+      </div>
+    </div>
+  </div>
+</div>

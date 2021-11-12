@@ -1,0 +1,857 @@
+<fbgame source="Tas Football" version="4.16.07" generated="9/15/2016">
+  <venue gameid="BAMA10" visid="UA" homeid="MSU" visname="Alabama Crimson Tide" homename="Mississippi State" date="11/10/2007" location="Starkville, Miss." stadium="Davis Wade Stadium" start="11:34 am" end="2:45 pm" leaguegame="Y" duration="3:11" attend="56188" temp="64" wind="ENE 6" weather="Sunny and clear">
+    <officials ref="Hubert Owens" ump="Daniel Pulley" line="R. Leatherwood" lj="Julian Mapp" bj="Dale Keneipp" fj="Dan Moore" sj="Roy Potts"></officials>
+    <notes>
+      <note text="Largest crowd in Davis Wade Stadium history"></note>
+    </notes>
+    <rules qtrs="4" mins="15" downs="4" yds="10" kospot="30" tbspot="20" kotbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+  </venue>
+  <team vh="V" code="8" id="UA" name="Alabama Crimson Tide" record="6-4" conf-record="4-3" abb="A" rank="21">
+    <linescore prds="4" line="6,3,0,3" score="12">
+      <lineprd prd="1" score="6"></lineprd>
+      <lineprd prd="2" score="3"></lineprd>
+      <lineprd prd="3" score="0"></lineprd>
+      <lineprd prd="4" score="3"></lineprd>
+    </linescore>
+    <totals>
+      <firstdowns no="23" rush="12" pass="7" penalty="4"></firstdowns>
+      <penalties no="1" yds="5"></penalties>
+      <conversions thirdconv="4" thirdatt="14" fourthconv="0" fourthatt="0"></conversions>
+      <fumbles no="1" lost="0"></fumbles>
+      <misc yds="0" top="29:29" ona="0" onm="0" ptsto="3"></misc>
+      <redzone att="2" scores="1" points="3" tdrush="0" tdpass="0" fgmade="1" endfga="0" enddowns="0" endint="1" endfumb="0" endhalf="0" endgame="0"></redzone>
+      <rush att="37" yds="153" gain="173" loss="20" td="0" long="17"></rush>
+      <pass comp="16" att="35" int="2" yds="121" td="0" long="20" sacks="1" sackyds="10"></pass>
+      <rcv no="16" yds="121" td="0" long="20"></rcv>
+      <punt no="4" yds="179" long="56" blkd="0" tb="1" fc="1" plus50="1" inside20="2"></punt>
+      <ko no="5" yds="299" ob="0" tb="0"></ko>
+      <fg made="4" att="4" long="51" blkd="0"></fg>
+      <defense tackua="45" tacka="17" tflua="7" tfla="3" tflyds="30" sacks="2" sackyds="20" brup="2" qbh="2" int="1" intyds="8"></defense>
+      <kr no="1" yds="34" td="0" long="34"></kr>
+      <ir no="1" yds="8" td="0" long="8"></ir>
+      <scoring fg="4"></scoring>
+    </totals>
+    <player name="P.J. Fitzgerald" shortname="P.J. Fitzgerald" checkname="FITZGERALD,PJ" uni="1A" class="SO" gp="1" code="1A">
+      <punt no="4" yds="179" long="56" blkd="0" tb="1" fc="1" plus50="1" inside20="2"></punt>
+    </player>
+    <player name="Simeon Castille" shortname="Simeon Castille" checkname="CASTILLE,SIMEON" uni="2" class="SR" gp="1" gs="1" dpos="LCB" code="2">
+      <defense tackua="0" tacka="2"></defense>
+    </player>
+    <player name="Kareem Jackson" shortname="Kareem Jackson" checkname="JACKSON,KAREEM" uni="3" class="FR" gp="1" gs="1" dpos="RCB" code="3">
+      <defense tackua="4" tacka="0" tflua="2" tfla="0" tflyds="4"></defense>
+    </player>
+    <player name="Tyrone King" shortname="Tyrone King" checkname="KING,TYRONE" uni="5A" class="SO" gp="1" code="5A">
+      <defense tackua="0" tacka="1"></defense>
+    </player>
+    <player name="Roy Upchurch" shortname="Roy Upchurch" checkname="UPCHURCH,ROY" uni="5" class="SO" gp="1" code="5">
+      <rush att="2" yds="1" gain="1" loss="0" td="0" long="1"></rush>
+    </player>
+    <player name="Will Oakley" shortname="Will Oakley" checkname="OAKLEY,WILL" uni="7" class="JR" gp="1" code="7"></player>
+    <player name="Nikita Stover" shortname="Nikita Stover" checkname="STOVER,NIKITA" uni="9" class="JR" gp="1" gs="1" opos="WR" code="9"></player>
+    <player name="Jimmy Johns" shortname="Jimmy Johns" checkname="JOHNS,JIMMY" uni="10" class="JR" gp="1" code="10"></player>
+    <player name="Matt Caddell" shortname="Matt Caddell" checkname="CADDELL,MATT" uni="11" class="SR" gp="1" code="11">
+      <rcv no="3" yds="53" td="0" long="20"></rcv>
+    </player>
+    <player name="Cory Reamer" shortname="Cory Reamer" checkname="REAMER,CORY" uni="13" class="SO" gp="1" code="13"></player>
+    <player name="John Parker Wilson" shortname="Wilson" checkname="WILSON" uni="14" class="JR" gp="1" gs="1" opos="QB" code="14">
+      <rush att="9" yds="37" gain="48" loss="11" td="0" long="15"></rush>
+      <pass comp="16" att="34" int="2" yds="121" td="0" long="20" sacks="1" sackyds="10"></pass>
+    </player>
+    <player name="Marcus Carter" shortname="Marcus Carter" checkname="CARTER,MARCUS" uni="20" class="SR" gp="1" gs="1" dpos="SS" code="20">
+      <defense tackua="5" tacka="0"></defense>
+    </player>
+    <player name="Prince Hall" shortname="Prince Hall" checkname="HALL,PRINCE" uni="21" class="SO" gp="1" gs="1" dpos="MLB" code="21">
+      <defense tackua="4" tacka="2"></defense>
+    </player>
+    <player name="DJ Hall" shortname="DJ Hall" checkname="HALL,DJ" uni="22" class="SR" gp="1" gs="1" opos="WR" code="22">
+      <rcv no="5" yds="46" td="0" long="15"></rcv>
+    </player>
+    <player name="Rolando McClain" shortname="Rolando McClain" checkname="MCCLAIN,ROLANDO" uni="25" class="FR" gp="1" code="25"></player>
+    <player name="Ali Sharrief" shortname="Ali Sharrief" checkname="SHARRIEF,ALI" uni="26" class="SO" gp="1" code="26"></player>
+    <player name="Justin Woodall" shortname="Justin Woodall" checkname="WOODALL,JUSTIN" uni="27" class="SO" gp="1" code="27"></player>
+    <player name="Javier Arenas" shortname="Javier Arenas" checkname="ARENAS,JAVIER" uni="28" class="SO" gp="1" code="28">
+      <defense tackua="4" tacka="1" tflua="1" tfla="0" tflyds="1"></defense>
+      <kr no="1" yds="34" td="0" long="34"></kr>
+    </player>
+    <player name="Terry Grant" shortname="Terry Grant" checkname="GRANT,TERRY" uni="29" class="FR" gp="1" gs="1" opos="RB" code="29">
+      <rush att="19" yds="75" gain="79" loss="4" td="0" long="17"></rush>
+      <rcv no="3" yds="0" td="0" long="4"></rcv>
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Jonathan Lowe" shortname="Jonathan Lowe" checkname="LOWE,JONATHAN" uni="30" class="FR" gp="1" code="30">
+      <rush att="7" yds="40" gain="45" loss="5" td="0" long="12"></rush>
+      <rcv no="1" yds="5" td="0" long="5"></rcv>
+    </player>
+    <player name="Forress Rayford" shortname="Forress Rayford" checkname="RAYFORD,FORRESS" uni="31" class="SR" gp="1" code="31"></player>
+    <player name="Eryk Anders" shortname="Eryk Anders" checkname="ANDERS,ERYK" uni="32" class="SO" gp="1" code="32">
+      <defense tackua="2" tacka="0"></defense>
+    </player>
+    <player name="Eric Gray" shortname="Eric Gray" checkname="GRAY,ERIC" uni="36" class="SR" gp="1" code="36"></player>
+    <player name="Baron Huber" shortname="Baron Huber" checkname="HUBER,BARON" uni="40" class="SO" gp="1" code="40"></player>
+    <player name="Demarcus Waldrop" shortname="D. Waldrop" checkname="WALDROP,D" uni="44" class="SR" gp="1" code="44">
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Charlie Higgenbotham" shortname="C. Higgenbotham" checkname="HIGGENBOTHAM,C" uni="45" class="FR" gp="1" code="45">
+      <defense tackua="1" tacka="1"></defense>
+    </player>
+    <player name="Ezekial Knight" shortname="Ezekial Knight" checkname="KNIGHT,EZEKIAL" uni="47" class="JR" gp="1" gs="1" dpos="SLB" code="47">
+      <defense tackua="3" tacka="2" tflua="1" tfla="0" tflyds="9" sackua="1" sacka="0" sackyds="9" qbh="1"></defense>
+    </player>
+    <player name="Rashad Johnson" shortname="Rashad Johnson" checkname="JOHNSON,RASHAD" uni="49" class="JR" gp="1" gs="1" dpos="FS" code="49">
+      <defense tackua="5" tacka="0" tflua="1" tfla="0" tflyds="1" brup="2" int="1" intyds="8"></defense>
+      <ir no="1" yds="8" td="0" long="8"></ir>
+    </player>
+    <player name="Justin Britt" shortname="Justin Britt" checkname="BRITT,JUSTIN" uni="50" class="SR" gp="1" gs="1" opos="LG" code="50"></player>
+    <player name="Chavis Williams" shortname="Chavis Williams" checkname="WILLIAMS,CHAVIS" uni="55" class="FR" gp="1" code="55"></player>
+    <player name="Darren Mustin" shortname="Darren Mustin" checkname="MUSTIN,DARREN" uni="57" class="SR" gp="1" gs="1" dpos="WLB" code="57">
+      <defense tackua="5" tacka="2"></defense>
+    </player>
+    <player name="B.J. Stabler" shortname="B.J. Stabler" checkname="STABLER,BJ" uni="61" class="JR" gp="1" code="61"></player>
+    <player name="Brian Motley" shortname="Brian Motley" checkname="MOTLEY,BRIAN" uni="66" class="FR" gp="1" code="66">
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Brian Selman" shortname="Brian Selman" checkname="SELMAN,BRIAN" uni="67" class="JR" gp="1" code="67"></player>
+    <player name="Taylor Pharr" shortname="Taylor Pharr" checkname="PHARR,TAYLOR" uni="68" class="FR" gp="1" code="68"></player>
+    <player name="Evan Cardwell" shortname="Evan Cardwell" checkname="CARDWELL,EVAN" uni="70" class="SO" gp="1" gs="1" opos="C" code="70"></player>
+    <player name="Andre Smith" shortname="Andre Smith" checkname="SMITH,ANDRE" uni="71" class="SO" gp="1" gs="1" opos="LT" code="71"></player>
+    <player name="Chris Capps" shortname="Chris Capps" checkname="CAPPS,CHRIS" uni="72" class="SR" gp="1" gs="1" opos="RT" code="72"></player>
+    <player name="David Ross" shortname="David Ross" checkname="ROSS,DAVID" uni="74" class="FR" gp="1" code="74"></player>
+    <player name="Mike Johnson" shortname="Mike Johnson" checkname="JOHNSON,MIKE" uni="78" class="SO" gp="1" gs="1" opos="RG" code="78"></player>
+    <player name="Mike McCoy" shortname="Mike McCoy" checkname="MCCOY,MIKE" uni="80" class="SO" gp="1" code="80">
+      <rcv no="1" yds="10" td="0" long="10"></rcv>
+    </player>
+    <player name="Keith Brown" shortname="Keith Brown" checkname="BROWN,KEITH" uni="81" class="SR" gp="1" code="81">
+      <rcv no="2" yds="12" td="0" long="7"></rcv>
+    </player>
+    <player name="Earl Alexander" shortname="Earl Alexander" checkname="ALEXANDER,EARL" uni="82" class="FR" gp="1" code="82"></player>
+    <player name="Travis McCall" shortname="Travis McCall" checkname="MCCALL,TRAVIS" uni="83" class="JR" gp="1" gs="1" opos="TE" code="83"></player>
+    <player name="Preston Dial" shortname="Preston Dial" checkname="DIAL,PRESTON" uni="85" class="FR" gp="1" code="85"></player>
+    <player name="Nick Walker" shortname="Nick Walker" checkname="WALKER,NICK" uni="88" class="JR" gp="1" gs="1" opos="TE" code="88">
+      <rcv no="1" yds="-5" td="0" long="3"></rcv>
+      <fumbles no="1" lost="0"></fumbles>
+    </player>
+    <player name="Wallace Gilberry" shortname="W. Gilberry" checkname="GILBERRY,W" uni="92" class="SR" gp="1" gs="1" dpos="DE" code="92">
+      <defense tackua="3" tacka="3" tflua="2" tfla="2" tflyds="15" sackua="1" sacka="0" sackyds="11"></defense>
+    </player>
+    <player name="Bobby Greenwood" shortname="Bobby Greenwood" checkname="GREENWOOD,BOBBY" uni="93" class="JR" gp="1" code="93">
+      <defense tackua="1" tacka="2" tflua="0" tfla="1" tflyds="0"></defense>
+    </player>
+    <player name="Keith Saunders" shortname="Keith Saunders" checkname="SAUNDERS,KEITH" uni="94" class="SR" gp="1" gs="1" dpos="JLB" code="94">
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Brandon Deaderick" shortname="B. Deaderick" checkname="DEADERICK,B" uni="95" class="SO" gp="1" gs="1" dpos="DE" code="95">
+      <defense tackua="1" tacka="1"></defense>
+    </player>
+    <player name="Lorenzo Washington" shortname="L. Washington" checkname="WASHINGTON,L" uni="97" class="SO" gp="1" gs="1" dpos="NG" code="97">
+      <defense tackua="3" tacka="0" qbh="1"></defense>
+    </player>
+    <player name="Leigh Tiffin" shortname="Leigh Tiffin" checkname="TIFFIN,LEIGH" uni="99" class="SO" gp="1" code="99">
+      <ko no="5" yds="299" ob="0" tb="0"></ko>
+      <fg made="4" att="4" long="51" blkd="0"></fg>
+      <scoring fg="4"></scoring>
+    </player>
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="SR" gp="1" code="198">
+      <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    </player>
+  </team>
+  <team vh="H" code="430" id="MSU" name="Mississippi State" record="6-4" conf-record="3-3" abb="M">
+    <linescore prds="4" line="0,10,7,0" score="17">
+      <lineprd prd="1" score="0"></lineprd>
+      <lineprd prd="2" score="10"></lineprd>
+      <lineprd prd="3" score="7"></lineprd>
+      <lineprd prd="4" score="0"></lineprd>
+    </linescore>
+    <totals>
+      <firstdowns no="14" rush="9" pass="5" penalty="0"></firstdowns>
+      <penalties no="8" yds="75"></penalties>
+      <conversions thirdconv="7" thirdatt="16" fourthconv="0" fourthatt="0"></conversions>
+      <fumbles no="1" lost="0"></fumbles>
+      <misc yds="0" top="30:31" ona="0" onm="0" ptsto="14"></misc>
+      <redzone att="2" scores="2" points="10" tdrush="1" tdpass="0" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+      <rush att="42" yds="115" gain="146" loss="31" td="1" long="14"></rush>
+      <pass comp="9" att="21" int="1" yds="100" td="0" long="19" sacks="2" sackyds="20"></pass>
+      <rcv no="9" yds="100" td="0" long="19"></rcv>
+      <punt no="7" yds="255" long="53" blkd="0" tb="1" fc="0" plus50="2" inside20="2"></punt>
+      <ko no="4" yds="230" ob="0" tb="1"></ko>
+      <fg made="1" att="1" long="35" blkd="0"></fg>
+      <pat kickatt="2" kickmade="2"></pat>
+      <defense tackua="35" tacka="34" tflua="5" tfla="4" tflyds="24" sacks="1" sackyds="10" brup="5" qbh="7" ff="1" int="2" intyds="140"></defense>
+      <kr no="5" yds="72" td="0" long="20"></kr>
+      <pr no="1" yds="4" td="0" long="4"></pr>
+      <ir no="2" yds="140" td="1" long="100"></ir>
+      <scoring td="2" fg="1" patkick="2"></scoring>
+    </totals>
+    <player name="Keith Fitzhugh" shortname="Keith Fitzhugh" checkname="FITZHUGH,KEITH" uni="1" class="JR" gp="1" code="1">
+      <defense tackua="6" tacka="4" ff="1"></defense>
+    </player>
+    <player name="Derek Pegues" shortname="Derek Pegues" checkname="PEGUES,DEREK" uni="3" class="JR" gp="1" gs="1" dpos="FS" code="3">
+      <defense tackua="1" tacka="0" brup="1" int="1" intyds="40"></defense>
+      <kr no="3" yds="56" td="0" long="20"></kr>
+      <pr no="1" yds="4" td="0" long="4"></pr>
+      <ir no="1" yds="40" td="0" long="40"></ir>
+    </player>
+    <player name="Tony Burks" shortname="Tony Burks" checkname="BURKS,TONY" uni="4" class="SR" gp="1" gs="1" opos="WR" code="4">
+      <rcv no="2" yds="29" td="0" long="16"></rcv>
+    </player>
+    <player name="Gabe O'Neal" shortname="Gabe O'Neal" checkname="O'NEAL,GABE" uni="5" class="SR" gp="1" gs="1" dpos="SLB" code="5">
+      <defense tackua="2" tacka="2" tflua="1" tfla="0" tflyds="1" qbh="1"></defense>
+    </player>
+    <player name="Demario Bobo" shortname="Demario Bobo" checkname="BOBO,DEMARIO" uni="6" class="SR" gp="1" code="6">
+      <defense tackua="0" tacka="2"></defense>
+    </player>
+    <player name="De'Mon Glanton" shortname="De'Mon Glanton" checkname="GLANTON,DE'MON" uni="8" class="JR" gp="1" gs="1" dpos="SS" code="8">
+      <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="2" brup="1"></defense>
+    </player>
+    <player name="Keon Humphries" shortname="Keon Humphries" checkname="HUMPHRIES,KEON" uni="9" class="JR" gp="1" code="9"></player>
+    <player name="Dominic Douglas" shortname="Dominic Douglas" checkname="DOUGLAS,DOMINIC" uni="10" class="JR" gp="1" gs="1" dpos="WLB" code="10">
+      <defense tackua="2" tacka="6" tflua="1" tfla="2" tflyds="6"></defense>
+    </player>
+    <player name="Anthony Johnson" shortname="Anthony Johnson" checkname="JOHNSON,ANTHONY" uni="11" class="SO" gp="1" gs="1" dpos="LCB" code="11">
+      <defense tackua="1" tacka="1" brup="1" int="1" intyds="100"></defense>
+      <ir no="1" yds="100" td="1" long="100"></ir>
+      <scoring td="1"></scoring>
+    </player>
+    <player name="Wesley Carroll" shortname="Wesley Carroll" checkname="CARROLL,WESLEY" uni="13" class="FR" gp="1" gs="1" opos="QB" code="13">
+      <rush att="4" yds="-11" gain="9" loss="20" td="0" long="7"></rush>
+      <pass comp="9" att="21" int="1" yds="100" td="0" long="19" sacks="2" sackyds="20"></pass>
+    </player>
+    <player name="Co-Eric Riley" shortname="Co-Eric Riley" checkname="RILEY,CO-ERIC" uni="15" class="JR" gp="1" code="15"></player>
+    <player name="Marcus Washington" shortname="M. Washington" checkname="WASHINGTON,M" uni="18" class="SO" gp="1" code="18"></player>
+    <player name="Jamar Chaney" shortname="Jamar Chaney" checkname="CHANEY,JAMAR" uni="22" class="JR" gp="1" gs="1" dpos="MLB" code="22">
+      <defense tackua="1" tacka="4" brup="1" qbh="1"></defense>
+    </player>
+    <player name="Jasper O'Quinn" shortname="Jasper O'Quinn" checkname="O'QUINN,JASPER" uni="23" class="JR" gp="1" gs="1" dpos="RCB" code="23">
+      <defense tackua="6" tacka="3"></defense>
+    </player>
+    <player name="Anthony Dixon" shortname="Anthony Dixon" checkname="DIXON,ANTHONY" uni="24" class="SO" gp="1" code="24">
+      <rush att="26" yds="84" gain="91" loss="7" td="1" long="9"></rush>
+      <scoring td="1"></scoring>
+    </player>
+    <player name="Tyler Threadgill" shortname="T. Threadgill" checkname="THREADGILL,T" uni="25" class="SR" gp="1" code="25"></player>
+    <player name="Jarvis Kyles" shortname="Jarvis Kyles" checkname="KYLES,JARVIS" uni="27" class="SO" gp="1" code="27"></player>
+    <player name="Christian Ducre" shortname="Christian Ducre" checkname="DUCRE,CHRISTIAN" uni="29" class="SO" gp="1" gs="1" opos="HB" code="29">
+      <rush att="12" yds="42" gain="46" loss="4" td="0" long="14"></rush>
+      <rcv no="1" yds="7" td="0" long="7"></rcv>
+      <fumbles no="1" lost="0"></fumbles>
+    </player>
+    <player name="Arnil Stallworth" shortname="A. Stallworth" checkname="STALLWORTH,A" uni="30" class="SO" gp="1" code="30">
+      <kr no="1" yds="0" td="0" long="0"></kr>
+    </player>
+    <player name="Justin Williams" shortname="Justin Williams" checkname="WILLIAMS,JUSTIN" uni="33" class="SR" gp="1" code="33">
+      <kr no="1" yds="16" td="0" long="16"></kr>
+    </player>
+    <player name="K.J. Wright" shortname="K.J. Wright" checkname="WRIGHT,KJ" uni="34" class="FR" gp="1" code="34"></player>
+    <player name="Brandon Hart" shortname="Brandon Hart" checkname="HART,BRANDON" uni="35" class="JR" gp="1" code="35"></player>
+    <player name="Jamon Hughes" shortname="Jamon Hughes" checkname="HUGHES,JAMON" uni="36" class="SO" gp="1" code="36">
+      <defense tackua="2" tacka="1" tflua="1" tfla="1" tflyds="4"></defense>
+    </player>
+    <player name="Adam Carlson" shortname="Adam Carlson" checkname="CARLSON,ADAM" uni="37" class="JR" gp="1" code="37">
+      <punt no="1" yds="18" long="18" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+      <ko no="4" yds="230" ob="0" tb="1"></ko>
+      <fg made="1" att="1" long="35" blkd="0"></fg>
+      <pat kickatt="2" kickmade="2"></pat>
+      <scoring fg="1" patkick="2"></scoring>
+    </player>
+    <player name="Eric Hoskins" shortname="Eric Hoskins" checkname="HOSKINS,ERIC" uni="38" class="JR" gp="1" gs="1" opos="FB" code="38">
+      <rcv no="2" yds="15" td="0" long="10"></rcv>
+    </player>
+    <player name="Tim Bailey" shortname="Tim Bailey" checkname="BAILEY,TIM" uni="39" class="JR" gp="1" code="39">
+      <defense tackua="3" tacka="0" brup="1" qbh="2"></defense>
+    </player>
+    <player name="Zach Smith" shortname="Zach Smith" checkname="SMITH,ZACH" uni="42" class="FR" gp="1" code="42">
+      <defense tackua="1" tacka="2"></defense>
+    </player>
+    <player name="Blake McAdams" shortname="Blake McAdams" checkname="MCADAMS,BLAKE" uni="43" class="JR" gp="1" code="43">
+      <punt no="6" yds="237" long="53" blkd="0" tb="1" fc="0" plus50="2" inside20="1"></punt>
+    </player>
+    <player name="Ben Shelton" shortname="Ben Shelton" checkname="SHELTON,BEN" uni="45" class="JR" gp="1" code="45"></player>
+    <player name="Aaron Feld" shortname="Aaron Feld" checkname="FELD,AARON" uni="46" class="FR" gp="1" code="46"></player>
+    <player name="Ryan Mason" shortname="Ryan Mason" checkname="MASON,RYAN" uni="47" class="JR" gp="1" code="47"></player>
+    <player name="Dezmond Sherrod" shortname="Dezmond Sherrod" checkname="SHERROD,DEZMOND" uni="48" class="SR" gp="1" gs="1" opos="TE" code="48">
+      <rcv no="1" yds="10" td="0" long="10"></rcv>
+    </player>
+    <player name="Avery Hannibal" shortname="Avery Hannibal" checkname="HANNIBAL,AVERY" uni="51" class="SR" gp="1" gs="1" dpos="RE" code="51">
+      <defense tackua="3" tacka="4" tflua="0" tfla="1" tflyds="1" qbh="1"></defense>
+    </player>
+    <player name="Anthony Strauder" shortname="A. Strauder" checkname="STRAUDER,A" uni="53" class="JR" gp="1" gs="1" opos="LG" code="53"></player>
+    <player name="Titus Brown" shortname="Titus Brown" checkname="BROWN,TITUS" uni="54" class="SR" gp="1" gs="1" dpos="LE" code="54">
+      <defense tackua="2" tacka="1" tflua="1" tfla="0" tflyds="10" sackua="1" sacka="0" sackyds="10" qbh="2"></defense>
+    </player>
+    <player name="Anthony Littlejohn" shortname="A. Littlejohn" checkname="LITTLEJOHN,A" uni="56" class="JR" gp="1" code="56">
+      <defense tackua="0" tacka="1"></defense>
+    </player>
+    <player name="J.D. Hamilton" shortname="J.D. Hamilton" checkname="HAMILTON,JD" uni="60" class="SR" gp="1" gs="1" opos="RT" code="60"></player>
+    <player name="J.C. Brignone" shortname="J.C. Brignone" checkname="BRIGNONE,JC" uni="70" class="FR" gp="1" code="70"></player>
+    <player name="Craig Jenkins" shortname="Craig Jenkins" checkname="JENKINS,CRAIG" uni="75" class="SO" gp="1" gs="1" opos="RG" code="75"></player>
+    <player name="Royce Blackledge" shortname="R. Blackledge" checkname="BLACKLEDGE,R" uni="76" class="SR" gp="1" gs="1" opos="C" code="76"></player>
+    <player name="Michael Brown" shortname="Michael Brown" checkname="BROWN,MICHAEL" uni="77" class="JR" gp="1" gs="1" opos="LT" code="77"></player>
+    <player name="Michael Gates" shortname="Michael Gates" checkname="GATES,MICHAEL" uni="78" class="JR" gp="1" code="78"></player>
+    <player name="Derek Sherrod" shortname="Derek Sherrod" checkname="SHERROD,DEREK" uni="79" class="FR" gp="1" code="79"></player>
+    <player name="Brandon McRae" shortname="Brandon McRae" checkname="MCRAE,BRANDON" uni="81" class="SO" gp="1" code="81">
+      <rcv no="1" yds="17" td="0" long="17"></rcv>
+    </player>
+    <player name="Jason Husband" shortname="Jason Husband" checkname="HUSBAND,JASON" uni="82" class="SR" gp="1" code="82"></player>
+    <player name="Jeremy Jones" shortname="Jeremy Jones" checkname="JONES,JEREMY" uni="84" class="JR" gp="1" code="84"></player>
+    <player name="Lance Long" shortname="Lance Long" checkname="LONG,LANCE" uni="86" class="SR" gp="1" code="86">
+      <rcv no="1" yds="3" td="0" long="3"></rcv>
+    </player>
+    <player name="Aubrey Bell" shortname="Aubrey Bell" checkname="BELL,AUBREY" uni="87" class="JR" gp="1" gs="1" opos="WR" code="87"></player>
+    <player name="Eric Butler" shortname="Eric Butler" checkname="BUTLER,ERIC" uni="88" class="SR" gp="1" code="88"></player>
+    <player name="Jamayel Smith" shortname="Jamayel Smith" checkname="SMITH,JAMAYEL" uni="89" class="JR" gp="1" code="89">
+      <rcv no="1" yds="19" td="0" long="19"></rcv>
+    </player>
+    <player name="Cortez McCraney" shortname="Cortez McCraney" checkname="MCCRANEY,CORTEZ" uni="90" class="JR" gp="1" code="90">
+      <defense tackua="1" tacka="1"></defense>
+    </player>
+    <player name="Brandon Cooper" shortname="Brandon Cooper" checkname="COOPER,BRANDON" uni="93" class="FR" gp="1" code="93"></player>
+    <player name="Jessie Bowman" shortname="Jessie Bowman" checkname="BOWMAN,JESSIE" uni="94" class="JR" gp="1" gs="1" dpos="RT" code="94">
+      <defense tackua="0" tacka="1"></defense>
+    </player>
+    <player name="Kyle Love" shortname="Kyle Love" checkname="LOVE,KYLE" uni="95" class="SO" gp="1" gs="1" dpos="LT" code="95"></player>
+    <player name="Jimmie Holmes" shortname="Jimmie Holmes" checkname="HOLMES,JIMMIE" uni="97" class="JR" gp="1" code="97">
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="LaMarcus Williams" shortname="L. Williams" checkname="WILLIAMS,L" uni="98" class="FR" gp="1" code="98"></player>
+    <player name="Quinton Wesley" shortname="Quinton Wesley" checkname="WESLEY,QUINTON" uni="99" class="SO" gp="1" code="99"></player>
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198"></player>
+  </team>
+  <scores>
+    <score vh="V" team="UA" qtr="1" clock="12:00" type="FG" yds="39" scorer="Leigh Tiffin" plays="6" drive="12" top="1:24" vscore="3" hscore="0" driveindex="2"></score>
+    <score vh="V" team="UA" qtr="1" clock="08:25" type="FG" yds="51" scorer="Leigh Tiffin" plays="5" drive="25" top="2:29" vscore="6" hscore="0" driveindex="4"></score>
+    <score vh="V" team="UA" qtr="2" clock="08:39" type="FG" yds="29" scorer="Leigh Tiffin" plays="10" drive="52" top="4:42" vscore="9" hscore="0" driveindex="8"></score>
+    <score vh="H" team="MSU" qtr="2" clock="04:12" type="FG" yds="35" scorer="Adam Carlson" plays="11" drive="52" top="4:24" vscore="9" hscore="3" driveindex="9"></score>
+    <score vh="H" team="MSU" qtr="2" clock="00:04" type="TD" how="INT" yds="100" scorer="Anthony Johnson" patby="Adam Carlson" pattype="KICK" patres="GOOD" vscore="9" hscore="10" driveindex="11"></score>
+    <score vh="H" team="MSU" qtr="3" clock="11:35" type="TD" how="RUSH" yds="3" scorer="Anthony Dixon" patby="Adam Carlson" pattype="KICK" patres="GOOD" plays="5" drive="25" top="1:40" vscore="9" hscore="17" driveindex="14"></score>
+    <score vh="V" team="UA" qtr="4" clock="06:47" type="FG" yds="50" scorer="Leigh Tiffin" plays="10" drive="44" top="3:58" vscore="12" hscore="17" driveindex="21"></score>
+  </scores>
+  <fgas>
+    <fga vh="V" team="UA" kicker="Leigh Tiffin" qtr="1" clock="12:00" distance="39" result="good"></fga>
+    <fga vh="V" team="UA" kicker="Leigh Tiffin" qtr="1" clock="08:25" distance="51" result="good"></fga>
+    <fga vh="V" team="UA" kicker="Leigh Tiffin" qtr="2" clock="08:39" distance="29" result="good"></fga>
+    <fga vh="H" team="MSU" kicker="Adam Carlson" qtr="2" clock="04:12" distance="35" result="good"></fga>
+    <fga vh="V" team="UA" kicker="Leigh Tiffin" qtr="4" clock="06:47" distance="50" result="good"></fga>
+  </fgas>
+  <drives>
+    <drive vh="H" team="MSU" start="KO,1,15:00,24" end="INT,1,13:24,26" plays="3" yards="2" top="1:36" driveindex="1"></drive>
+    <drive vh="V" team="UA" start="INT,1,13:24,66" end="FG,1,12:00,78" plays="6" yards="12" top="1:24" driveindex="2"></drive>
+    <drive vh="H" team="MSU" start="KO,1,11:52,19" end="PUNT,1,10:54,21" plays="3" yards="2" top="0:58" driveindex="3"></drive>
+    <drive vh="V" team="UA" start="PUNT,1,10:54,41" end="FG,1,08:25,66" plays="5" yards="25" top="2:29" driveindex="4"></drive>
+    <drive vh="H" team="MSU" start="KO,1,08:19,22" end="PUNT,1,02:38,69" plays="12" yards="47" top="5:41" driveindex="5"></drive>
+    <drive vh="V" team="UA" start="PUNT,1,02:38,13" end="PUNT,1,00:42,14" plays="3" yards="1" top="1:56" driveindex="6"></drive>
+    <drive vh="H" team="MSU" start="PUNT,1,00:42,19" end="PUNT,2,13:21,33" plays="6" yards="14" top="2:21" driveindex="7"></drive>
+    <drive vh="V" team="UA" start="PUNT,2,13:21,36" end="FG,2,08:39,88" plays="10" yards="52" top="4:42" rz="1" driveindex="8"></drive>
+    <drive vh="H" team="MSU" start="KO,2,08:36,30" end="FG,2,04:12,82" plays="11" yards="52" top="4:24" rz="1" driveindex="9"></drive>
+    <drive vh="V" team="UA" start="KO,2,04:08,20" end="INT,2,00:04,98" plays="13" yards="78" top="4:04" rz="1" driveindex="10"></drive>
+    <drive vh="H" team="MSU" start="INT,2,00:04,100" end="TD,2,00:04,100" plays="0" yards="0" top="0:00" driveindex="11"></drive>
+    <drive vh="V" team="UA" start="KO,2,00:03,30" end="HALF,2,00:00,47" plays="1" yards="17" top="0:03" driveindex="12"></drive>
+    <drive vh="V" team="UA" start="KO,3,14:47,39" end="INT,3,13:15,41" plays="3" yards="2" top="1:32" driveindex="13"></drive>
+    <drive vh="H" team="MSU" start="INT,3,13:15,75" end="TD,3,11:35,100" plays="5" yards="25" top="1:40" rz="1" driveindex="14"></drive>
+    <drive vh="V" team="UA" start="KO,3,11:35,15" end="PUNT,3,08:20,54" plays="10" yards="39" top="3:15" driveindex="15"></drive>
+    <drive vh="H" team="MSU" start="PUNT,3,08:20,16" end="PUNT,3,04:14,46" plays="7" yards="30" top="4:06" driveindex="16"></drive>
+    <drive vh="V" team="UA" start="PUNT,3,04:14,1" end="PUNT,4,14:43,36" plays="8" yards="35" top="4:31" driveindex="17"></drive>
+    <drive vh="H" team="MSU" start="PUNT,4,14:43,18" end="PUNT,4,13:39,16" plays="3" yards="-2" top="1:04" driveindex="18"></drive>
+    <drive vh="V" team="UA" start="PUNT,4,13:39,53" end="PUNT,4,13:00,53" plays="3" yards="0" top="0:39" driveindex="19"></drive>
+    <drive vh="H" team="MSU" start="PUNT,4,13:00,20" end="PUNT,4,10:45,27" plays="3" yards="7" top="2:15" driveindex="20"></drive>
+    <drive vh="V" team="UA" start="PUNT,4,10:45,23" end="FG,4,06:47,67" plays="10" yards="44" top="3:58" driveindex="21"></drive>
+    <drive vh="H" team="MSU" start="KO,4,06:38,28" end="PUNT,4,00:38,66" plays="11" yards="38" top="6:00" driveindex="22"></drive>
+    <drive vh="V" team="UA" start="PUNT,4,00:38,20" end="HALF,4,00:00,44" plays="4" yards="24" top="0:38" driveindex="23"></drive>
+  </drives>
+  <plays format="summary">
+    <qtr number="1" text="1st">
+      <play context="V,1,10,V30" playid="0,1,0" tokens="CMT:MSU captains: 54-Brown, 86-Long, 87-Bell" text="MSU captains: 54-Brown, 86-Long, 87-Bell"></play>
+      <comment text="UA captains: 2-Castille, 11-Caddell, 72-Capps"></comment>
+      <comment text="MSU wins toss, will receive"></comment>
+      <play context="V,1,10,V30" playid="0,2,3" type="K" tokens="KO:99,H05 RET:3,H24 TACK:32" text="Leigh Tiffin kickoff 65 yards to the MSU5, Derek Pegues return 19 yards to the MSU24 (Eryk Anders)."></play>
+      <drivestart poss="H,H24,15:00" vh="H" spot="H24" clock="15:00" driveindex="1,3"></drivestart>
+      <play context="H,1,10,H24" playid="1,1,4" type="R" tokens="RUSH:29,H24, FUMB:H,H24,87" text="Christian Ducre rush for no gain to the MSU24, fumble by Christian Ducre recovered by MSU Aubrey Bell at MSU24."></play>
+      <play context="H,2,10,H24" playid="1,2,5" type="R" tokens="RUSH:29,H26, TACK:92,95" text="Christian Ducre rush for 2 yards to the MSU26 (W. Gilberry;B. Deaderick)."></play>
+      <play context="H,3,8,H26" playid="1,3,6" type="P" turnover="I" tokens="PASS:13,X,49,H42 RET:49,H34" text="Wesley Carroll pass intercepted by Rashad Johnson at the MSU42, Rashad Johnson return 8 yards to the MSU34."></play>
+      <drivesum plays="3" yards="2" top="1:36" driveindex="1" complete="Y"></drivesum>
+      <drivestart poss="V,H34,13:24" vh="V" spot="H34" clock="13:24" driveindex="2,6"></drivestart>
+      <play context="V,1,10,H34" playid="2,1,7" clock="13:24" tokens="{DRIVE}:13:24" text="ALABAMA CRIMSON TIDE drive start at 13:24."></play>
+      <play context="V,1,10,H34" playid="2,2,8" type="R" tokens="RUSH:29,H27, TACK:10,1" text="Terry Grant rush for 7 yards to the MSU27 (Dominic Douglas;Keith Fitzhugh)."></play>
+      <play context="V,2,3,H27" playid="2,3,9" type="R" first="R" tokens="RUSH:29,H22, TACK:22" text="Terry Grant rush for 5 yards to the MSU22, 1ST DOWN UA (Jamar Chaney)."></play>
+      <play context="V,1,10,H22" playid="2,4,10" type="P" tokens="PASS:14,I,11,* BRUP:8" text="Wilson pass incomplete to Matt Caddell (De'Mon Glanton)."></play>
+      <play context="V,2,10,H22" playid="2,5,11" type="P" tokens="PASS:14,I,9,*" text="Wilson pass incomplete to Nikita Stover."></play>
+      <play context="V,3,10,H22" playid="2,6,12" type="P" tokens="PASS:14,I,81,*" text="Wilson pass incomplete to Keith Brown."></play>
+      <play context="V,4,10,H22" playid="2,7,13" type="F" score="Y" vscore="3" hscore="0" clock="12:00" tokens="FGA:99,39,G T:12:00" text="Leigh Tiffin field goal attempt from 39 GOOD, clock 12:00."></play>
+      <score V="3" H="0"></score>
+      <drivesum plays="6" yards="12" top="1:24" driveindex="2" complete="Y"></drivesum>
+      <play context="V,1,0,V30" playid="2,8,14" type="K" tokens="KO:99,H03 RET:33,H19 TACK:32" text="Leigh Tiffin kickoff 67 yards to the MSU3, Justin Williams return 16 yards to the MSU19 (Eryk Anders)."></play>
+      <drivestart poss="H,H19,11:52" vh="H" spot="H19" clock="11:52" driveindex="3,14"></drivestart>
+      <play context="H,1,10,H19" playid="3,1,15" clock="11:52" tokens="{DRIVE}:11:52" text="MISSISSIPPI STATE drive start at 11:52."></play>
+      <play context="H,1,10,H19" playid="3,2,16" type="R" tokens="RUSH:24,H21, TACK:20" text="Anthony Dixon rush for 2 yards to the MSU21 (Marcus Carter)."></play>
+      <play context="H,2,8,H21" playid="3,3,17" type="P" tokens="PASS:13,I,38,*" text="Wesley Carroll pass incomplete to Eric Hoskins."></play>
+      <play context="H,3,8,H21" playid="3,4,18" type="P" tokens="PASS:13,I,89,*" text="Wesley Carroll pass incomplete to Jamayel Smith."></play>
+      <play context="H,4,8,H21" playid="3,5,19" type="U" tokens="PUNT:43,V41 DN:" text="Blake McAdams punt 38 yards to the UA41, downed."></play>
+      <drivesum plays="3" yards="2" top="0:58" driveindex="3" complete="Y"></drivesum>
+      <drivestart poss="V,V41,10:54" vh="V" spot="V41" clock="10:54" driveindex="4,19"></drivestart>
+      <play context="V,1,10,V41" playid="4,1,20" clock="10:54" tokens="{DRIVE}:10:54" text="ALABAMA CRIMSON TIDE drive start at 10:54."></play>
+      <play context="V,1,10,V41" playid="4,2,21" type="R" tokens="RUSH:29,V45, TACK:3" text="Terry Grant rush for 4 yards to the UA45 (Derek Pegues)."></play>
+      <play context="V,2,6,V45" playid="4,3,22" type="E" first="E" tokens="RUSH:29,V36, TACK:54 PEN:H,FM,A,54,H40,1 NOPLAY:" text="Terry Grant rush for loss of 9 yards to the UA36 (Titus Brown), PENALTY MSU face mask (Titus Brown) 15 yards to the MSU40, 1ST DOWN UA, NO PLAY."></play>
+      <play context="V,1,10,H40" playid="4,4,23" type="R" tokens="RUSH:29,H37, TACK:23,22" text="Terry Grant rush for 3 yards to the MSU37 (Jasper O'Quinn;Jamar Chaney)."></play>
+      <play context="V,2,7,H37" playid="4,5,24" type="R" tokens="RUSH:29,H34, TACK:22,51" text="Terry Grant rush for 3 yards to the MSU34 (Jamar Chaney;Avery Hannibal)."></play>
+      <play context="V,3,4,H34" playid="4,6,25" type="P" tokens="PASS:14,I,83,* BRUP:22" text="Wilson pass incomplete to Travis McCall (Jamar Chaney)."></play>
+      <play context="V,4,4,H34" playid="4,7,26" type="F" score="Y" vscore="6" hscore="0" clock="08:25" tokens="FGA:99,51,G T:08:25" text="Leigh Tiffin field goal attempt from 51 GOOD, clock 08:25."></play>
+      <score V="6" H="0"></score>
+      <drivesum plays="5" yards="25" top="2:29" driveindex="4" complete="Y"></drivesum>
+      <play context="V,1,0,V30" playid="4,8,27" type="K" tokens="KO:99,H05 RET:3,H22 TACK:45" text="Leigh Tiffin kickoff 65 yards to the MSU5, Derek Pegues return 17 yards to the MSU22 (C. Higgenbotham)."></play>
+      <drivestart poss="H,H22,08:19" vh="H" spot="H22" clock="08:19" driveindex="5,27"></drivestart>
+      <play context="H,1,10,H22" playid="5,1,28" clock="08:19" tokens="{DRIVE}:08:19" text="MISSISSIPPI STATE drive start at 08:19."></play>
+      <play context="H,1,10,H22" playid="5,2,29" type="P" tokens="PASS:13,S,TM,H11 SACK:92" text="Wesley Carroll sacked for loss of 11 yards to the MSU11 (W. Gilberry)."></play>
+      <play context="H,2,21,H11" playid="5,3,30" type="E" tokens="RUSH:29,H10, TACK:57 PEN:V,OD,A,TM,H16,N NOPLAY:" text="Christian Ducre rush for loss of 1 yard to the MSU10 (Darren Mustin), PENALTY UA offside defense 5 yards to the MSU16, NO PLAY."></play>
+      <play context="H,2,16,H16" playid="5,4,31" type="R" tokens="RUSH:29,H30, TACK:28" text="Christian Ducre rush for 14 yards to the MSU30 (Javier Arenas)."></play>
+      <play context="H,3,2,H30" playid="5,5,32" type="R" first="R" tokens="RUSH:13,H37," text="Wesley Carroll rush for 7 yards to the MSU37, 1ST DOWN MSU."></play>
+      <play context="H,1,10,H37" playid="5,6,33" type="P" tokens="PASS:13,I,48,*" text="Wesley Carroll pass incomplete to Dezmond Sherrod."></play>
+      <play context="H,2,10,H37" playid="5,7,34" type="P" tokens="PASS:13,I,87,*" text="Wesley Carroll pass incomplete to Aubrey Bell."></play>
+      <play context="H,3,10,H37" playid="5,8,35" type="P" first="P" tokens="PASS:13,C,4,V47 TACK:28" text="Wesley Carroll pass complete to Tony Burks for 16 yards to the UA47, 1ST DOWN MSU (Javier Arenas)."></play>
+      <play context="H,1,10,V47" playid="5,9,36" type="P" first="P" tokens="PASS:13,C,81,V30 TACK:49" text="Wesley Carroll pass complete to Brandon McRae for 17 yards to the UA30, 1ST DOWN MSU (Rashad Johnson)."></play>
+      <play context="H,1,10,V30" playid="5,10,37" type="R" tokens="RUSH:24,V27, TACK:21" text="Anthony Dixon rush for 3 yards to the UA27 (Prince Hall)."></play>
+      <play context="H,2,7,V27" playid="5,11,38" type="R" first="R" tokens="RUSH:29,V17, TACK:3" text="Christian Ducre rush for 10 yards to the UA17, 1ST DOWN MSU (Kareem Jackson)."></play>
+      <play context="H,1,10,V17" playid="5,12,39" type="E" tokens="PEN:H,FS,A,77,V22,N" text="PENALTY MSU false start (Michael Brown) 5 yards to the UA22."></play>
+      <play context="H,1,15,V22" playid="5,13,40" type="P" tokens="PASS:13,I,87,* QBH:V,97" text="Wesley Carroll pass incomplete to Aubrey Bell, QB hurry by L. Washington."></play>
+      <play context="H,2,15,V22" playid="5,14,41" type="P" tokens="PASS:13,I,TM,* QBH:V,47" text="Wesley Carroll pass incomplete, QB hurry by Ezekial Knight."></play>
+      <play context="H,3,15,V22" playid="5,15,42" type="P" tokens="PASS:13,S,TM,V31 SACK:47" text="Wesley Carroll sacked for loss of 9 yards to the UA31 (Ezekial Knight)."></play>
+      <play context="H,4,24,V31" playid="5,16,43" type="U" tokens="PUNT:37,V13 OB:" text="Adam Carlson punt 18 yards to the UA13, out-of-bounds."></play>
+      <drivesum plays="12" yards="47" top="5:41" driveindex="5" complete="Y"></drivesum>
+      <drivestart poss="V,V13,02:38" vh="V" spot="V13" clock="02:38" driveindex="6,43"></drivestart>
+      <play context="V,1,10,V13" playid="6,1,44" clock="02:38" tokens="{DRIVE}:02:38" text="ALABAMA CRIMSON TIDE drive start at 02:38."></play>
+      <play context="V,1,10,V13" playid="6,2,45" type="R" tokens="RUSH:29,V14, TACK:51" text="Terry Grant rush for 1 yard to the UA14 (Avery Hannibal)."></play>
+      <play context="V,2,9,V14" playid="6,3,46" type="P" tokens="PASS:14,I,22,* BRUP:11" text="Wilson pass incomplete to DJ Hall (Anthony Johnson)."></play>
+      <play context="V,3,9,V14" playid="6,4,47" type="R" tokens="RUSH:14,V14, TACK:39" text="Wilson rush for no gain to the UA14 (Tim Bailey)."></play>
+      <play context="V,4,9,V14" playid="6,5,48" type="U" tokens="PUNT:1A,H30 RET:3,H34 TACK:44 PEN:H,BL,A,TM,H19,N D:1,10 SPOT:H,H19,Y" text="P.J. Fitzgerald punt 56 yards to the MSU30, Derek Pegues return 4 yards to the MSU34 (D. Waldrop), PENALTY MSU illegal block 15 yards to the MSU19, 1st and 10, MSU ball on MSU19."></play>
+      <drivesum plays="3" yards="1" top="1:56" driveindex="6" complete="Y"></drivesum>
+      <drivestart poss="H,H19,00:42" vh="H" spot="H19" clock="00:42" driveindex="7,48"></drivestart>
+      <play context="H,1,10,H19" playid="7,1,49" clock="00:42" tokens="{DRIVE}:00:42" text="MISSISSIPPI STATE drive start at 00:42."></play>
+      <play context="H,1,10,H19" playid="7,2,50" type="R" tokens="RUSH:24,H23, TACK:57" text="Anthony Dixon rush for 4 yards to the MSU23 (Darren Mustin)."></play>
+      <play context="H,2,6,H23" playid="7,3,51" type="R" tokens="RUSH:24,H28, TACK:49" text="Anthony Dixon rush for 5 yards to the MSU28 (Rashad Johnson)."></play>
+      <score qtr="1" V="6" H="0"></score>
+      <endqtr></endqtr>
+      <qtrsummary vh="V" id="UA">
+        <firstdowns no="2" rush="1" pass="0" penalty="1"></firstdowns>
+        <penalties no="1" yds="5"></penalties>
+        <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="05:49"></misc>
+        <rush att="7" yds="23" gain="23" loss="0" td="0" long="7"></rush>
+        <pass comp="0" att="5" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+        <punt no="1" yds="56" long="56" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+        <ko no="3" yds="197" ob="0" tb="0"></ko>
+        <fg made="2" att="2" long="51" blkd="0"></fg>
+        <defense tackua="14" tacka="2" tflua="2" tfla="0" tflyds="20" sacks="2" sackyds="20" qbh="2" int="1" intyds="8"></defense>
+        <ir no="1" yds="8" td="0" long="8"></ir>
+        <scoring fg="2"></scoring>
+      </qtrsummary>
+      <qtrsummary vh="H" id="MSU">
+        <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+        <penalties no="3" yds="35"></penalties>
+        <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="1" lost="0"></fumbles>
+        <misc yds="0" top="09:11"></misc>
+        <rush att="11" yds="27" gain="47" loss="20" td="0" long="14"></rush>
+        <pass comp="2" att="9" int="1" yds="33" td="0" long="17" sacks="2" sackyds="20"></pass>
+        <rcv no="2" yds="33" td="0" long="17"></rcv>
+        <punt no="2" yds="56" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+        <defense tackua="4" tacka="6" sacks="0" sackyds="0" brup="3"></defense>
+        <kr no="3" yds="52" td="0" long="19"></kr>
+        <pr no="1" yds="4" td="0" long="4"></pr>
+        <fumbles no="1" lost="0"></fumbles>
+      </qtrsummary>
+    </qtr>
+    <qtr number="2" text="2nd">
+      <play context="H,3,1,H28" playid="7,4,52" type="#" clock="15:00" tokens="Q:2 T:15:00" text="Start of 2nd quarter, clock 15:00."></play>
+      <play context="H,3,1,H28" playid="7,5,53" type="R" first="R" tokens="RUSH:24,H30, OB: TACK:21" text="Anthony Dixon rush for 2 yards to the MSU30, 1ST DOWN MSU, out-of-bounds (Prince Hall)."></play>
+      <play context="H,1,10,H30" playid="7,6,54" type="R" tokens="RUSH:24,H30, TACK:47" text="Anthony Dixon rush for no gain to the MSU30 (Ezekial Knight)."></play>
+      <play context="H,2,10,H30" playid="7,7,55" type="P" tokens="PASS:13,C,86,H33 TACK:20" text="Wesley Carroll pass complete to Lance Long for 3 yards to the MSU33 (Marcus Carter)."></play>
+      <play context="H,3,7,H33" playid="7,8,56" type="P" tokens="PASS:13,I,82,*" text="Wesley Carroll pass incomplete to Jason Husband."></play>
+      <play context="H,4,7,H33" playid="7,9,57" type="U" tokens="PUNT:43,V36 OB:" text="Blake McAdams punt 31 yards to the UA36, out-of-bounds."></play>
+      <drivesum plays="6" yards="14" top="2:21" driveindex="7" complete="Y"></drivesum>
+      <drivestart poss="V,V36,13:21" vh="V" spot="V36" clock="13:21" driveindex="8,57"></drivestart>
+      <play context="V,1,10,V36" playid="8,1,58" clock="13:21" tokens="{DRIVE}:13:21" text="ALABAMA CRIMSON TIDE drive start at 13:21."></play>
+      <play context="V,1,10,V36" playid="8,2,59" type="R" tokens="RUSH:29,V38, TACK:56,23" text="Terry Grant rush for 2 yards to the UA38 (A. Littlejohn;Jasper O'Quinn)."></play>
+      <play context="V,2,8,V38" playid="8,3,60" type="P" tokens="PASS:14,C,29,V36 TACK:8" text="Wilson pass complete to Terry Grant for loss of 2 yards to the UA36 (De'Mon Glanton)."></play>
+      <play context="V,3,10,V36" playid="8,4,61" type="P" first="P" tokens="PASS:14,C,11,H44 TACK:1" text="Wilson pass complete to Matt Caddell for 20 yards to the MSU44, 1ST DOWN UA (Keith Fitzhugh)."></play>
+      <play context="V,1,10,H44" playid="8,5,62" type="P" first="P" tokens="PASS:14,C,22,H29 OB:" text="Wilson pass complete to DJ Hall for 15 yards to the MSU29, 1ST DOWN UA, out-of-bounds."></play>
+      <play context="V,1,10,H29" playid="8,6,63" type="R" tokens="RUSH:29,H26, TACK:51" text="Terry Grant rush for 3 yards to the MSU26 (Avery Hannibal)."></play>
+      <play context="V,2,7,H26" playid="8,7,64" type="P" tokens="PASS:14,I,TM,* QBH:H,51" text="Wilson pass incomplete, QB hurry by Avery Hannibal."></play>
+      <play context="V,3,7,H26" playid="8,8,65" type="E" first="E" tokens="PASS:14,C,83,H21 TACK:54 PEN:H,HO,A,54,H16,1 NOPLAY:" text="Wilson pass complete to Travis McCall for 5 yards to the MSU21 (Titus Brown), PENALTY MSU holding (Titus Brown) 10 yards to the MSU16, 1ST DOWN UA, NO PLAY."></play>
+      <play context="V,1,10,H16" playid="8,9,66" type="R" tokens="RUSH:29,H15, TACK:51" text="Terry Grant rush for 1 yard to the MSU15 (Avery Hannibal)."></play>
+      <play context="V,2,9,H15" playid="8,10,67" type="R" tokens="RUSH:29,H12, TACK:90,51" text="Terry Grant rush for 3 yards to the MSU12 (Cortez McCraney;Avery Hannibal)."></play>
+      <play context="V,3,6,H12" playid="8,11,68" type="P" tokens="PASS:14,I,11,* QBH:H,39" text="Wilson pass incomplete to Matt Caddell, QB hurry by Tim Bailey."></play>
+      <play context="V,4,6,H12" playid="8,12,69" type="F" score="Y" vscore="9" hscore="0" clock="08:39" tokens="FGA:99,29,G T:08:39" text="Leigh Tiffin field goal attempt from 29 GOOD, clock 08:39."></play>
+      <score V="9" H="0"></score>
+      <drivesum plays="10" yards="52" top="4:42" driveindex="8" complete="Y"></drivesum>
+      <play context="V,1,0,V30" playid="8,13,70" type="K" tokens="KO:99,H30 RET:30,H30" text="Leigh Tiffin kickoff 40 yards to the MSU30, A. Stallworth return 0 yards to the MSU30."></play>
+      <drivestart poss="H,H30,08:36" vh="H" spot="H30" clock="08:36" driveindex="9,70"></drivestart>
+      <play context="H,1,10,H30" playid="9,1,71" clock="08:36" tokens="{DRIVE}:08:36" text="MISSISSIPPI STATE drive start at 08:36."></play>
+      <play context="H,1,10,H30" playid="9,2,72" type="R" tokens="RUSH:24,H39, OB: TACK:93" text="Anthony Dixon rush for 9 yards to the MSU39, out-of-bounds (Bobby Greenwood)."></play>
+      <play context="H,2,1,H39" playid="9,3,73" type="R" first="R" tokens="RUSH:24,H44, TACK:21" text="Anthony Dixon rush for 5 yards to the MSU44, 1ST DOWN MSU (Prince Hall)."></play>
+      <play context="H,1,10,H44" playid="9,4,74" type="R" tokens="RUSH:24,H44, TACK:21,57" text="Anthony Dixon rush for no gain to the MSU44 (Prince Hall;Darren Mustin)."></play>
+      <play context="H,2,10,H44" playid="9,5,75" type="P" first="P" tokens="PASS:13,C,4,V43 TACK:57" text="Wesley Carroll pass complete to Tony Burks for 13 yards to the UA43, 1ST DOWN MSU (Darren Mustin)."></play>
+      <play context="H,1,10,V43" playid="9,6,76" type="R" tokens="RUSH:24,V40, TACK:97" text="Anthony Dixon rush for 3 yards to the UA40 (L. Washington)."></play>
+      <play context="H,2,7,V40" playid="9,7,77" type="P" tokens="PASS:13,I,15,* BRUP:49" text="Wesley Carroll pass incomplete to Co-Eric Riley (Rashad Johnson)."></play>
+      <play context="H,3,7,V40" playid="9,8,78" type="P" first="P" tokens="PASS:13,C,89,V21 TACK:20" text="Wesley Carroll pass complete to Jamayel Smith for 19 yards to the UA21, 1ST DOWN MSU (Marcus Carter)."></play>
+      <play context="H,1,10,V21" playid="9,9,79" type="R" tokens="RUSH:29,V19, TACK:95" text="Christian Ducre rush for 2 yards to the UA19 (B. Deaderick)."></play>
+      <play context="H,2,8,V19" playid="9,10,80" type="R" tokens="RUSH:29,V18, TACK:97" text="Christian Ducre rush for 1 yard to the UA18 (L. Washington)."></play>
+      <play context="H,3,7,V18" playid="9,11,81" type="P" tokens="PASS:13,I,87,*" text="Wesley Carroll pass incomplete to Aubrey Bell."></play>
+      <play context="H,4,7,V18" playid="9,12,82" type="F" score="Y" vscore="9" hscore="3" clock="04:12" tokens="FGA:37,35,G T:04:12" text="Adam Carlson field goal attempt from 35 GOOD, clock 04:12."></play>
+      <score V="9" H="3"></score>
+      <drivesum plays="11" yards="52" top="4:24" driveindex="9" complete="Y"></drivesum>
+      <play context="H,1,0,H30" playid="9,13,83" type="K" tokens="KO:37,V00 TB:" text="Adam Carlson kickoff 70 yards to the UA0, touchback."></play>
+      <drivestart poss="V,V20,04:08" vh="V" spot="V20" clock="04:08" driveindex="10,83"></drivestart>
+      <play context="V,1,10,V20" playid="10,1,84" clock="04:08" tokens="{DRIVE}:04:08" text="ALABAMA CRIMSON TIDE drive start at 04:08."></play>
+      <play context="V,1,10,V20" playid="10,2,85" type="P" tokens="PASS:14,I,22,*" text="Wilson pass incomplete to DJ Hall."></play>
+      <play context="V,2,10,V20" playid="10,3,86" type="P" first="P" tokens="PASS:14,C,80,V30 TACK:23" text="Wilson pass complete to Mike McCoy for 10 yards to the UA30, 1ST DOWN UA (Jasper O'Quinn)."></play>
+      <play context="V,1,10,V30" playid="10,4,87" type="P" tokens="PASS:14,C,81,V37 TACK:11" text="Wilson pass complete to Keith Brown for 7 yards to the UA37 (Anthony Johnson)."></play>
+      <play context="V,2,3,V37" playid="10,5,88" type="R" first="R" tokens="RUSH:14,V42, TACK:1" text="Wilson rush for 5 yards to the UA42, 1ST DOWN UA (Keith Fitzhugh)."></play>
+      <play context="V,1,10,V42" playid="10,6,89" type="R" tokens="RUSH:30,V49, TACK:1" text="Jonathan Lowe rush for 7 yards to the UA49 (Keith Fitzhugh)."></play>
+      <play context="V,2,3,V49" playid="10,7,90" type="P" first="P" tokens="PASS:14,C,30,H46 TACK:22,23" text="Wilson pass complete to Jonathan Lowe for 5 yards to the MSU46, 1ST DOWN UA (Jamar Chaney;Jasper O'Quinn)."></play>
+      <play context="V,1,10,H46" playid="10,8,91" type="E" tokens="PEN:H,SU,A,TM,H41,N" text="PENALTY MSU substitution infraction 5 yards to the MSU41."></play>
+      <play context="V,1,5,H41" playid="10,9,92" type="#" clock="01:23" tokens="TOUT:H T:01:23" text="Timeout Mississippi State, clock 01:23."></play>
+      <play context="V,1,5,H41" playid="10,10,93" type="P" first="P" tokens="PASS:14,C,22,H35 OB: TACK:23" text="Wilson pass complete to DJ Hall for 6 yards to the MSU35, 1ST DOWN UA, out-of-bounds (Jasper O'Quinn)."></play>
+      <play context="V,1,10,H35" playid="10,11,94" type="P" first="E" tokens="PASS:14,C,81,H30 TACK:8,6 PEN:H,RP,A,54,H15,N" text="Wilson pass complete to Keith Brown for 5 yards to the MSU30 (De'Mon Glanton;Demario Bobo), PENALTY MSU roughing passer (Titus Brown) 15 yards to the MSU15, 1ST DOWN UA."></play>
+      <play context="V,1,10,H15" playid="10,12,95" tokens="D:1,10" text="1st and 10."></play>
+      <play context="V,1,10,H15" playid="10,13,96" type="R" tokens="RUSH:30,H06, TACK:42,6" text="Jonathan Lowe rush for 9 yards to the MSU6 (Zach Smith;Demario Bobo)."></play>
+      <play context="V,2,1,H06" playid="10,14,97" type="R" first="R" tokens="RUSH:14,H03, TACK:39" text="Wilson rush for 3 yards to the MSU3, 1ST DOWN UA (Tim Bailey)."></play>
+      <play context="V,1,0,H03" playid="10,15,98" type="#" clock="00:34" tokens="TOUT:V T:00:34" text="Timeout Alabama Crimson Tide, clock 00:34."></play>
+      <play context="V,1,0,H03" playid="10,16,99" type="R" tokens="RUSH:29,H02, TACK:10,22" text="Terry Grant rush for 1 yard to the MSU2 (Dominic Douglas;Jamar Chaney)."></play>
+      <play context="V,2,0,H02" playid="10,17,100" type="#" clock="00:27" tokens="TOUT:V T:00:27" text="Timeout Alabama Crimson Tide, clock 00:27."></play>
+      <play context="V,2,0,H02" playid="10,18,101" type="R" tokens="RUSH:29,H02, TACK:42,5" text="Terry Grant rush for no gain to the MSU2 (Zach Smith;Gabe O'Neal)."></play>
+      <play context="V,3,0,H02" playid="10,19,102" type="#" clock="00:21" tokens="TOUT:V T:00:21" text="Timeout Alabama Crimson Tide, clock 00:21."></play>
+      <play context="V,3,0,H02" playid="10,20,103" type="P" score="Y" vscore="9" hscore="9" turnover="I" clock="00:04" tokens="PASS:14,X,11,H00 RET:11,V00 T:00:04 QBH:H,54" text="Wilson pass intercepted by Anthony Johnson at the MSU0, Anthony Johnson return 100 yards to the UA0, TOUCHDOWN, clock 00:04, QB hurry by Titus Brown."></play>
+      <drivesum plays="13" yards="78" top="4:04" driveindex="10" complete="Y"></drivesum>
+      <drivestart poss="H,V03,00:04" vh="H" spot="V03" clock="00:04" driveindex="11,103"></drivestart>
+      <play context="H,1,0,V03" playid="11,1,104" type="X" score="Y" vscore="9" hscore="10" tokens="PAT:K,37,G" text="Adam Carlson kick attempt good."></play>
+      <score V="9" H="10"></score>
+      <drivesum plays="0" yards="0" top="0:00" driveindex="11" complete="Y"></drivesum>
+      <play context="H,1,0,H30" playid="11,2,105" type="K" tokens="KO:37,V30 FC:83" text="Adam Carlson kickoff 40 yards to the UA30, fair catch by Travis McCall."></play>
+      <drivestart poss="V,V30,00:03" vh="V" spot="V30" clock="00:03" driveindex="12,105"></drivestart>
+      <play context="V,1,10,V30" playid="12,1,106" clock="00:03" tokens="{DRIVE}:00:03" text="ALABAMA CRIMSON TIDE drive start at 00:03."></play>
+      <play context="V,1,10,V30" playid="12,2,107" type="R" first="R" tokens="RUSH:29,V47, TACK:11,1" text="Terry Grant rush for 17 yards to the UA47, 1ST DOWN UA (Anthony Johnson;Keith Fitzhugh)."></play>
+      <play context="V,1,10,V47" playid="12,3,108" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of half, clock 00:00."></play>
+      <drivesum plays="1" yards="17" top="0:03" driveindex="12" complete="Y"></drivesum>
+      <score qtr="2" V="9" H="10"></score>
+      <endqtr></endqtr>
+      <qtrsummary vh="V" id="UA">
+        <firstdowns no="10" rush="3" pass="5" penalty="2"></firstdowns>
+        <penalties no="0" yds="0"></penalties>
+        <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="08:54"></misc>
+        <rush att="11" yds="51" gain="51" loss="0" td="0" long="10"></rush>
+        <pass comp="8" att="12" int="1" yds="66" td="0" long="20" sacks="0" sackyds="0"></pass>
+        <rcv no="8" yds="66" td="0" long="20"></rcv>
+        <ko no="1" yds="40" ob="0" tb="0"></ko>
+        <fg made="1" att="1" long="0" blkd="0"></fg>
+        <defense tackua="10" tacka="2" sacks="0" sackyds="0" brup="1"></defense>
+        <scoring fg="1"></scoring>
+      </qtrsummary>
+      <qtrsummary vh="H" id="MSU">
+        <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+        <penalties no="3" yds="30"></penalties>
+        <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="06:06"></misc>
+        <rush att="8" yds="22" gain="22" loss="0" td="0" long="0"></rush>
+        <pass comp="3" att="6" int="0" yds="35" td="0" long="2" sacks="0" sackyds="0"></pass>
+        <rcv no="3" yds="35" td="0" long="2"></rcv>
+        <punt no="1" yds="31" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+        <ko no="2" yds="110" ob="0" tb="1"></ko>
+        <fg made="1" att="1" long="35" blkd="0"></fg>
+        <pat kickatt="1" kickmade="1"></pat>
+        <defense tackua="10" tacka="16" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0" qbh="3" int="1" intyds="100"></defense>
+        <kr no="1" yds="0" td="0" long="0"></kr>
+        <ir no="1" yds="100" td="1" long="100"></ir>
+        <scoring td="1" fg="1" patkick="1"></scoring>
+      </qtrsummary>
+    </qtr>
+    <qtr number="3" text="3rd">
+      <play context="V,1,10,V47" playid="12,4,109" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:H,H30,N" text="Start of 3rd quarter, clock 15:00, MSU ball on MSU30."></play>
+      <play context="H,1,10,H30" playid="12,5,110" type="K" tokens="KO:37,V05 RET:28,V39 TACK:1,10" text="Adam Carlson kickoff 65 yards to the UA5, Javier Arenas return 34 yards to the UA39 (Keith Fitzhugh;Dominic Douglas)."></play>
+      <drivestart poss="V,V39,14:47" vh="V" spot="V39" clock="14:47" driveindex="13,110"></drivestart>
+      <play context="V,1,10,V39" playid="13,1,111" clock="14:47" tokens="{DRIVE}:14:47" text="ALABAMA CRIMSON TIDE drive start at 14:47."></play>
+      <play context="V,1,10,V39" playid="13,2,112" type="P" tokens="PASS:14,C,29,V43 TACK:90" text="Wilson pass complete to Terry Grant for 4 yards to the UA43 (Cortez McCraney)."></play>
+      <play context="V,2,6,V43" playid="13,3,113" type="P" tokens="PASS:14,C,29,V41 TACK:10" text="Wilson pass complete to Terry Grant for loss of 2 yards to the UA41 (Dominic Douglas)."></play>
+      <play context="V,3,8,V41" playid="13,4,114" type="P" turnover="I" tokens="PASS:14,X,3,H35 RET:3,V25 TACK:29" text="Wilson pass intercepted by Derek Pegues at the MSU35, Derek Pegues return 40 yards to the UA25 (Terry Grant)."></play>
+      <drivesum plays="3" yards="2" top="1:32" driveindex="13" complete="Y"></drivesum>
+      <drivestart poss="H,V25,13:15" vh="H" spot="V25" clock="13:15" driveindex="14,114"></drivestart>
+      <play context="H,1,10,V25" playid="14,1,115" clock="13:15" tokens="{DRIVE}:13:15" text="MISSISSIPPI STATE drive start at 13:15."></play>
+      <play context="H,1,10,V25" playid="14,2,116" type="R" tokens="RUSH:24,V19, TACK:94" text="Anthony Dixon rush for 6 yards to the UA19 (Keith Saunders)."></play>
+      <play context="H,2,4,V19" playid="14,3,117" type="R" tokens="RUSH:24,V19, TACK:21" text="Anthony Dixon rush for no gain to the UA19 (Prince Hall)."></play>
+      <play context="H,3,4,V19" playid="14,4,118" type="P" first="P" tokens="PASS:13,C,38,V09 OB: TACK:20" text="Wesley Carroll pass complete to Eric Hoskins for 10 yards to the UA9, 1ST DOWN MSU, out-of-bounds (Marcus Carter)."></play>
+      <play context="H,1,0,V09" playid="14,5,119" type="R" tokens="RUSH:24,V03, TACK:49" text="Anthony Dixon rush for 6 yards to the UA3 (Rashad Johnson)."></play>
+      <play context="H,2,0,V03" playid="14,6,120" type="R" score="Y" vscore="9" hscore="16" clock="11:35" tokens="RUSH:24,V00, T:11:35" text="Anthony Dixon rush for 3 yards to the UA0, TOUCHDOWN, clock 11:35."></play>
+      <play context="H,1,0,V03" playid="14,7,121" type="X" score="Y" vscore="9" hscore="17" tokens="PAT:K,37,G" text="Adam Carlson kick attempt good."></play>
+      <score V="9" H="17"></score>
+      <drivesum plays="5" yards="25" top="1:40" driveindex="14" complete="Y"></drivesum>
+      <play context="H,1,0,H30" playid="14,8,122" type="K" tokens="KO:37,V15 FC:30" text="Adam Carlson kickoff 55 yards to the UA15, fair catch by Jonathan Lowe."></play>
+      <drivestart poss="V,V15,11:35" vh="V" spot="V15" clock="11:35" driveindex="15,122"></drivestart>
+      <play context="V,1,10,V15" playid="15,1,123" clock="11:35" tokens="{DRIVE}:11:35" text="ALABAMA CRIMSON TIDE drive start at 11:35."></play>
+      <play context="V,1,10,V15" playid="15,2,124" type="R" tokens="RUSH:5,V15, TACK:23" text="Roy Upchurch rush for no gain to the UA15 (Jasper O'Quinn)."></play>
+      <play context="V,2,10,V15" playid="15,3,125" type="R" tokens="RUSH:5,V16, TACK:39" text="Roy Upchurch rush for 1 yard to the UA16 (Tim Bailey)."></play>
+      <play context="V,3,9,V16" playid="15,4,126" type="R" first="R" tokens="RUSH:14,V25, TACK:8" text="Wilson rush for 9 yards to the UA25, 1ST DOWN UA (De'Mon Glanton)."></play>
+      <play context="V,1,10,V25" playid="15,5,127" type="P" tokens="PASS:14,I,TM,*" text="Wilson pass incomplete."></play>
+      <play context="V,2,10,V25" playid="15,6,128" type="R" tokens="RUSH:29,V34, TACK:54,1" text="Terry Grant rush for 9 yards to the UA34 (Titus Brown;Keith Fitzhugh)."></play>
+      <play context="V,3,1,V34" playid="15,7,129" type="R" first="R" tokens="RUSH:14,V36, TACK:97" text="Wilson rush for 2 yards to the UA36, 1ST DOWN UA (Jimmie Holmes)."></play>
+      <play context="V,1,10,V36" playid="15,8,130" type="R" first="R" tokens="RUSH:29,V50, TACK:1" text="Terry Grant rush for 14 yards to the 50 yardline, 1ST DOWN UA (Keith Fitzhugh)."></play>
+      <play context="V,1,10,V50" playid="15,9,131" type="P" tokens="PASS:14,C,22,H46 OB: TACK:1" text="Wilson pass complete to DJ Hall for 4 yards to the MSU46, out-of-bounds (Keith Fitzhugh)."></play>
+      <play context="V,2,6,H46" playid="15,10,132" type="P" tokens="PASS:14,I,81,*" text="Wilson pass incomplete to Keith Brown."></play>
+      <play context="V,3,6,H46" playid="15,11,133" type="P" tokens="PASS:14,I,81,* BRUP:3" text="Wilson pass incomplete to Keith Brown (Derek Pegues)."></play>
+      <play context="V,4,6,H46" playid="15,12,134" type="U" tokens="PUNT:1A,H16 FC:3" text="P.J. Fitzgerald punt 30 yards to the MSU16, fair catch by Derek Pegues."></play>
+      <drivesum plays="10" yards="39" top="3:15" driveindex="15" complete="Y"></drivesum>
+      <drivestart poss="H,H16,08:20" vh="H" spot="H16" clock="08:20" driveindex="16,134"></drivestart>
+      <play context="H,1,10,H16" playid="16,1,135" clock="08:20" tokens="{DRIVE}:08:20" text="MISSISSIPPI STATE drive start at 08:20."></play>
+      <play context="H,1,10,H16" playid="16,2,136" type="R" tokens="RUSH:24,H24, TACK:57" text="Anthony Dixon rush for 8 yards to the MSU24 (Darren Mustin)."></play>
+      <play context="H,2,2,H24" playid="16,3,137" type="R" first="R" tokens="RUSH:24,H28, TACK:57" text="Anthony Dixon rush for 4 yards to the MSU28, 1ST DOWN MSU (Darren Mustin)."></play>
+      <play context="H,1,10,H28" playid="16,4,138" type="R" tokens="RUSH:24,H37, OB: TACK:3" text="Anthony Dixon rush for 9 yards to the MSU37, out-of-bounds (Kareem Jackson)."></play>
+      <play context="H,2,1,H37" playid="16,5,139" type="R" first="R" tokens="RUSH:24,H39, TACK:66" text="Anthony Dixon rush for 2 yards to the MSU39, 1ST DOWN MSU (Brian Motley)."></play>
+      <play context="H,1,10,H39" playid="16,6,140" type="P" tokens="PASS:13,C,38,H44 TACK:2,47" text="Wesley Carroll pass complete to Eric Hoskins for 5 yards to the MSU44 (Simeon Castille;Ezekial Knight)."></play>
+      <play context="H,2,5,H44" playid="16,7,141" type="R" tokens="RUSH:29,H48, TACK:92" text="Christian Ducre rush for 4 yards to the MSU48 (W. Gilberry)."></play>
+      <play context="H,3,1,H48" playid="16,8,142" type="R" tokens="RUSH:29,H46, TACK:3" text="Christian Ducre rush for loss of 2 yards to the MSU46 (Kareem Jackson)."></play>
+      <play context="H,4,3,H46" playid="16,9,143" type="U" tokens="PUNT:43,V01 DN:" text="Blake McAdams punt 53 yards to the UA1, downed."></play>
+      <drivesum plays="7" yards="30" top="4:06" driveindex="16" complete="Y"></drivesum>
+      <drivestart poss="V,V01,04:14" vh="V" spot="V01" clock="04:14" driveindex="17,143"></drivestart>
+      <play context="V,1,10,V01" playid="17,1,144" clock="04:14" tokens="{DRIVE}:04:14" text="ALABAMA CRIMSON TIDE drive start at 04:14."></play>
+      <play context="V,1,10,V01" playid="17,2,145" type="E" tokens="RUSH:29,V03, TACK:97,51 PEN:H,OD,A,TM,V06,N NOPLAY:" text="Terry Grant rush for 2 yards to the UA3 (Jimmie Holmes;Avery Hannibal), PENALTY MSU offside defense 5 yards to the UA6, NO PLAY."></play>
+      <play context="V,1,5,V06" playid="17,3,146" type="R" tokens="RUSH:29,V04, TACK:51,10" text="Terry Grant rush for loss of 2 yards to the UA4 (Avery Hannibal;Dominic Douglas)."></play>
+      <play context="V,2,7,V04" playid="17,4,147" type="R" tokens="RUSH:29,V08, TACK:5,94" text="Terry Grant rush for 4 yards to the UA8 (Gabe O'Neal;Jessie Bowman)."></play>
+      <play context="V,3,3,V08" playid="17,5,148" type="R" first="R" tokens="RUSH:14,V22, TACK:54" text="Wilson rush for 14 yards to the UA22, 1ST DOWN UA (Titus Brown)."></play>
+      <play context="V,1,10,V22" playid="17,6,149" type="P" tokens="PASS:14,C,88,V25 FORCE:1 FUMB:V,V17,TM OB:" text="Wilson pass complete to Nick Walker for 3 yards to the UA25, fumble forced by Keith Fitzhugh, fumble by Nick Walker recovered by UA TEAM at UA17, out-of-bounds."></play>
+      <play context="V,2,15,V17" playid="17,7,150" type="P" tokens="PASS:14,C,11,V31 TACK:23" text="Wilson pass complete to Matt Caddell for 14 yards to the UA31 (Jasper O'Quinn)."></play>
+      <play context="V,3,1,V31" playid="17,8,151" type="E" first="E" tokens="RUSH:29,V30, TACK:39 PEN:H,OD,A,TM,V36,N NOPLAY:" text="Terry Grant rush for loss of 1 yard to the UA30 (Tim Bailey), PENALTY MSU offside defense 5 yards to the UA36, 1ST DOWN UA, NO PLAY."></play>
+      <play context="V,1,10,V36" playid="17,9,152" type="R" tokens="RUSH:29,V34, TACK:36" text="Terry Grant rush for loss of 2 yards to the UA34 (Jamon Hughes)."></play>
+      <play context="V,2,12,V34" playid="17,10,153" type="R" tokens="RUSH:29,V36, TACK:8" text="Terry Grant rush for 2 yards to the UA36 (De'Mon Glanton)."></play>
+      <score qtr="3" V="9" H="17"></score>
+      <endqtr></endqtr>
+      <qtrsummary vh="V" id="UA">
+        <firstdowns no="5" rush="4" pass="0" penalty="1"></firstdowns>
+        <penalties no="0" yds="0"></penalties>
+        <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="1" lost="0"></fumbles>
+        <misc yds="0" top="09:14"></misc>
+        <rush att="11" yds="51" gain="55" loss="4" td="0" long="0"></rush>
+        <pass comp="5" att="9" int="1" yds="15" td="0" long="0" sacks="0" sackyds="0"></pass>
+        <rcv no="5" yds="15" td="0" long="0"></rcv>
+        <punt no="1" yds="30" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+        <defense tackua="11" tacka="2" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+        <kr no="1" yds="34" td="0" long="34"></kr>
+        <fumbles no="1" lost="0"></fumbles>
+      </qtrsummary>
+      <qtrsummary vh="H" id="MSU">
+        <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+        <penalties no="2" yds="10"></penalties>
+        <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="05:46"></misc>
+        <rush att="10" yds="40" gain="42" loss="2" td="1" long="0"></rush>
+        <pass comp="2" att="2" int="0" yds="15" td="0" long="0" sacks="0" sackyds="0"></pass>
+        <rcv no="2" yds="15" td="0" long="0"></rcv>
+        <punt no="1" yds="53" long="15" blkd="0" tb="0" fc="0" plus50="1" inside20="1"></punt>
+        <ko no="2" yds="120" ob="0" tb="0"></ko>
+        <pat kickatt="1" kickmade="1"></pat>
+        <defense tackua="13" tacka="8" tflua="2" tfla="2" tflyds="6" sacks="0" sackyds="0" brup="1" ff="1" int="1" intyds="40"></defense>
+        <ir no="1" yds="40" td="0" long="0"></ir>
+        <scoring td="1" patkick="1"></scoring>
+      </qtrsummary>
+    </qtr>
+    <qtr number="4" text="4th">
+      <play context="V,3,10,V36" playid="17,11,154" type="#" clock="15:00" tokens="Q:4 T:15:00" text="Start of 4th quarter, clock 15:00."></play>
+      <play context="V,3,10,V36" playid="17,12,155" type="P" tokens="PASS:14,I,TM,*" text="Wilson pass incomplete."></play>
+      <play context="V,4,10,V36" playid="17,13,156" type="U" tokens="PUNT:1A,H18 OB:" text="P.J. Fitzgerald punt 46 yards to the MSU18, out-of-bounds."></play>
+      <drivesum plays="8" yards="35" top="4:31" driveindex="17" complete="Y"></drivesum>
+      <drivestart poss="H,H18,14:43" vh="H" spot="H18" clock="14:43" driveindex="18,156"></drivestart>
+      <play context="H,1,10,H18" playid="18,1,157" clock="14:43" tokens="{DRIVE}:14:43" text="MISSISSIPPI STATE drive start at 14:43."></play>
+      <play context="H,1,10,H18" playid="18,2,158" type="R" tokens="RUSH:24,H16, TACK:92" text="Anthony Dixon rush for loss of 2 yards to the MSU16 (W. Gilberry)."></play>
+      <play context="H,2,12,H16" playid="18,3,159" type="P" tokens="PASS:13,I,87,*" text="Wesley Carroll pass incomplete to Aubrey Bell."></play>
+      <play context="H,3,12,H16" playid="18,4,160" type="#" clock="13:55" tokens="TOUT:V T:13:55" text="Timeout Alabama Crimson Tide, clock 13:55."></play>
+      <play context="H,3,12,H16" playid="18,5,161" type="P" tokens="PASS:13,I,89,* BRUP:49" text="Wesley Carroll pass incomplete to Jamayel Smith (Rashad Johnson)."></play>
+      <play context="H,4,12,H16" playid="18,6,162" type="U" tokens="PUNT:43,H47 OB:" text="Blake McAdams punt 31 yards to the MSU47, out-of-bounds."></play>
+      <drivesum plays="3" yards="-2" top="1:04" driveindex="18" complete="Y"></drivesum>
+      <drivestart poss="V,H47,13:39" vh="V" spot="H47" clock="13:39" driveindex="19,162"></drivestart>
+      <play context="V,1,10,H47" playid="19,1,163" clock="13:39" tokens="{DRIVE}:13:39" text="ALABAMA CRIMSON TIDE drive start at 13:39."></play>
+      <play context="V,1,10,H47" playid="19,2,164" type="P" tokens="PASS:14,I,9,* QBH:H,54" text="Wilson pass incomplete to Nikita Stover, QB hurry by Titus Brown."></play>
+      <play context="V,2,10,H47" playid="19,3,165" type="P" tokens="PASS:14,I,TM,* QBH:H,22" text="Wilson pass incomplete, QB hurry by Jamar Chaney."></play>
+      <play context="V,3,10,H47" playid="19,4,166" type="P" tokens="PASS:14,I,22,* QBH:H,39 QBH:H,5" text="Wilson pass incomplete to DJ Hall, QB hurry by Tim Bailey, QB hurry by Gabe O'Neal."></play>
+      <play context="V,4,10,H47" playid="19,5,167" type="U" tokens="PUNT:1A,H00 TB:" text="P.J. Fitzgerald punt 47 yards to the MSU0, touchback."></play>
+      <drivesum plays="3" yards="0" top="0:39" driveindex="19" complete="Y"></drivesum>
+      <drivestart poss="H,H20,13:00" vh="H" spot="H20" clock="13:00" driveindex="20,167"></drivestart>
+      <play context="H,1,10,H20" playid="20,1,168" clock="13:00" tokens="{DRIVE}:13:00" text="MISSISSIPPI STATE drive start at 13:00."></play>
+      <play context="H,1,10,H20" playid="20,2,169" type="R" tokens="RUSH:24,H18, TACK:3" text="Anthony Dixon rush for loss of 2 yards to the MSU18 (Kareem Jackson)."></play>
+      <play context="H,2,12,H18" playid="20,3,170" type="R" tokens="RUSH:13,H20, TACK:28" text="Wesley Carroll rush for 2 yards to the MSU20 (Javier Arenas)."></play>
+      <play context="H,3,10,H20" playid="20,4,171" type="P" tokens="PASS:13,C,29,H27 TACK:28,2" text="Wesley Carroll pass complete to Christian Ducre for 7 yards to the MSU27 (Javier Arenas;Simeon Castille)."></play>
+      <play context="H,4,3,H27" playid="20,5,172" type="U" tokens="PUNT:43,V23 DN:" text="Blake McAdams punt 50 yards to the UA23, downed."></play>
+      <drivesum plays="3" yards="7" top="2:15" driveindex="20" complete="Y"></drivesum>
+      <drivestart poss="V,V23,10:45" vh="V" spot="V23" clock="10:45" driveindex="21,172"></drivestart>
+      <play context="V,1,10,V23" playid="21,1,173" clock="10:45" tokens="{DRIVE}:10:45" text="ALABAMA CRIMSON TIDE drive start at 10:45."></play>
+      <play context="V,1,10,V23" playid="21,2,174" type="R" tokens="RUSH:30,V32, TACK:42" text="Jonathan Lowe rush for 9 yards to the UA32 (Zach Smith)."></play>
+      <play context="V,2,1,V32" playid="21,3,175" type="R" first="R" tokens="RUSH:30,V34, TACK:10,51" text="Jonathan Lowe rush for 2 yards to the UA34, 1ST DOWN UA (Dominic Douglas;Avery Hannibal)."></play>
+      <play context="V,1,10,V34" playid="21,4,176" type="P" tokens="PASS:14,C,22,V41 TACK:23" text="Wilson pass complete to DJ Hall for 7 yards to the UA41 (Jasper O'Quinn)."></play>
+      <play context="V,2,3,V41" playid="21,5,177" type="R" first="R" tokens="RUSH:30,V47, TACK:36" text="Jonathan Lowe rush for 6 yards to the UA47, 1ST DOWN UA (Jamon Hughes)."></play>
+      <play context="V,1,10,V47" playid="21,6,178" type="P" first="P" tokens="PASS:14,C,22,H39 OB: TACK:23" text="Wilson pass complete to DJ Hall for 14 yards to the MSU39, 1ST DOWN UA, out-of-bounds (Jasper O'Quinn)."></play>
+      <play context="V,1,10,H39" playid="21,7,179" type="R" first="R" tokens="RUSH:30,H27, TACK:10" text="Jonathan Lowe rush for 12 yards to the MSU27, 1ST DOWN UA (Dominic Douglas)."></play>
+      <play context="V,1,10,H27" playid="21,8,180" type="P" tokens="PASS:14,I,9,* BRUP:39" text="Wilson pass incomplete to Nikita Stover (Tim Bailey)."></play>
+      <play context="V,2,10,H27" playid="21,9,181" type="R" tokens="RUSH:30,H32, TACK:10,36" text="Jonathan Lowe rush for loss of 5 yards to the MSU32 (Dominic Douglas;Jamon Hughes)."></play>
+      <play context="V,3,15,H32" playid="21,10,182" type="R" tokens="RUSH:14,H33, TACK:5" text="Wilson rush for loss of 1 yard to the MSU33 (Gabe O'Neal)."></play>
+      <play context="V,4,16,H33" playid="21,11,183" type="F" score="Y" vscore="12" hscore="17" clock="06:47" tokens="FGA:99,50,G T:06:47" text="Leigh Tiffin field goal attempt from 50 GOOD, clock 06:47."></play>
+      <score V="12" H="17"></score>
+      <drivesum plays="10" yards="44" top="3:58" driveindex="21" complete="Y"></drivesum>
+      <play context="V,1,0,V30" playid="21,12,184" type="K" tokens="KO:99,H08 RET:3,H28 TACK:5A,45" text="Leigh Tiffin kickoff 62 yards to the MSU8, Derek Pegues return 20 yards to the MSU28 (Tyrone King;C. Higgenbotham)."></play>
+      <drivestart poss="H,H28,06:38" vh="H" spot="H28" clock="06:38" driveindex="22,184"></drivestart>
+      <play context="H,1,10,H28" playid="22,1,185" clock="06:38" tokens="{DRIVE}:06:38" text="MISSISSIPPI STATE drive start at 06:38."></play>
+      <play context="H,1,10,H28" playid="22,2,186" type="R" tokens="RUSH:24,H27, TACK:92,93" text="Anthony Dixon rush for loss of 1 yard to the MSU27 (W. Gilberry;Bobby Greenwood)."></play>
+      <play context="H,2,11,H27" playid="22,3,187" type="P" tokens="PASS:13,C,48,H37 TACK:57 PEN:V,FM,D" text="Wesley Carroll pass complete to Dezmond Sherrod for 10 yards to the MSU37 (Darren Mustin), PENALTY UA face mask declined."></play>
+      <play context="H,3,1,H37" playid="22,4,188" type="R" first="R" tokens="RUSH:24,H43, TACK:49" text="Anthony Dixon rush for 6 yards to the MSU43, 1ST DOWN MSU (Rashad Johnson)."></play>
+      <play context="H,1,10,H43" playid="22,5,189" type="R" tokens="RUSH:24,V48, TACK:93,21" text="Anthony Dixon rush for 9 yards to the UA48 (Bobby Greenwood;Prince Hall)."></play>
+      <play context="H,2,1,V48" playid="22,6,190" type="R" first="R" tokens="RUSH:24,V45, TACK:97" text="Anthony Dixon rush for 3 yards to the UA45, 1ST DOWN MSU (L. Washington)."></play>
+      <play context="H,1,10,V45" playid="22,7,191" type="R" tokens="RUSH:24,V43, TACK:47,57" text="Anthony Dixon rush for 2 yards to the UA43 (Ezekial Knight;Darren Mustin)."></play>
+      <play context="H,2,8,V43" playid="22,8,192" type="R" tokens="RUSH:24,V45, TACK:,92" text="Anthony Dixon rush for loss of 2 yards to the UA45 (;W. Gilberry)."></play>
+      <play context="H,3,10,V45" playid="22,9,193" type="#" clock="03:01" tokens="TOUT:V T:03:01" text="Timeout Alabama Crimson Tide, clock 03:01."></play>
+      <play context="H,3,10,V45" playid="22,10,194" type="R" first="R" tokens="RUSH:29,V34, TACK:20" text="Christian Ducre rush for 11 yards to the UA34, 1ST DOWN MSU (Marcus Carter)."></play>
+      <play context="H,1,10,V34" playid="22,11,195" type="R" tokens="RUSH:29,V32, TACK:47" text="Christian Ducre rush for 2 yards to the UA32 (Ezekial Knight)."></play>
+      <play context="H,2,8,V32" playid="22,12,196" type="#" clock="02:20" tokens="TOUT:V T:02:20" text="Timeout Alabama Crimson Tide, clock 02:20."></play>
+      <play context="H,2,8,V32" playid="22,13,197" type="R" tokens="RUSH:29,V33, TACK:28" text="Christian Ducre rush for loss of 1 yard to the UA33 (Javier Arenas)."></play>
+      <play context="H,3,9,V33" playid="22,14,198" type="R" tokens="RUSH:29,V34, TACK:49" text="Christian Ducre rush for loss of 1 yard to the UA34 (Rashad Johnson)."></play>
+      <play context="H,4,10,V34" playid="22,15,199" type="E" tokens="PEN:H,DG,D" text="PENALTY MSU delay of game declined."></play>
+      <play context="H,4,10,V34" playid="22,16,200" type="U" tokens="PUNT:43,V00 TB:" text="Blake McAdams punt 34 yards to the UA0, touchback."></play>
+      <drivesum plays="11" yards="38" top="6:00" driveindex="22" complete="Y"></drivesum>
+      <drivestart poss="V,V20,00:38" vh="V" spot="V20" clock="00:38" driveindex="23,200"></drivestart>
+      <play context="V,1,10,V20" playid="23,1,201" clock="00:38" tokens="{DRIVE}:00:38" text="ALABAMA CRIMSON TIDE drive start at 00:38."></play>
+      <play context="V,1,10,V20" playid="23,2,202" type="P" first="P" tokens="PASS:14,C,11,V39 TACK:5" text="Wilson pass complete to Matt Caddell for 19 yards to the UA39, 1ST DOWN UA (Gabe O'Neal)."></play>
+      <play context="V,1,10,V39" playid="23,3,203" type="R" first="R" tokens="RUSH:14,H46," text="Wilson rush for 15 yards to the MSU46, 1ST DOWN UA."></play>
+      <play context="V,1,10,H46" playid="23,4,204" type="P" tokens="PASS:TM,I,TM,*" text="TEAM pass incomplete."></play>
+      <play context="V,2,10,H46" playid="23,5,205" type="P" tokens="PASS:14,S,TM,V44 SACK:54" text="Wilson sacked for loss of 10 yards to the UA44 (Titus Brown)."></play>
+      <play context="V,3,20,V44" playid="23,6,206" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00."></play>
+      <drivesum plays="4" yards="24" top="0:38" driveindex="23" complete="Y"></drivesum>
+      <score final="Y" V="12" H="17"></score>
+      <endqtr></endqtr>
+      <qtrsummary vh="V" id="UA">
+        <firstdowns no="6" rush="4" pass="2" penalty="0"></firstdowns>
+        <penalties no="0" yds="0"></penalties>
+        <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="05:32"></misc>
+        <rush att="8" yds="28" gain="44" loss="16" td="0" long="0"></rush>
+        <pass comp="3" att="9" int="0" yds="40" td="0" long="0" sacks="1" sackyds="10"></pass>
+        <rcv no="3" yds="40" td="0" long="0"></rcv>
+        <punt no="2" yds="93" long="0" blkd="0" tb="1" fc="0" plus50="0" inside20="1"></punt>
+        <ko no="1" yds="62" ob="0" tb="0"></ko>
+        <fg made="1" att="1" long="0" blkd="0"></fg>
+        <defense tackua="10" tacka="11" tflua="4" tfla="3" tflyds="8" sacks="0" sackyds="0" brup="1"></defense>
+        <scoring fg="1"></scoring>
+      </qtrsummary>
+      <qtrsummary vh="H" id="MSU">
+        <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+        <penalties no="0" yds="0"></penalties>
+        <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="09:28"></misc>
+        <rush att="13" yds="26" gain="35" loss="9" td="0" long="0"></rush>
+        <pass comp="2" att="4" int="0" yds="17" td="0" long="0" sacks="0" sackyds="0"></pass>
+        <rcv no="2" yds="17" td="0" long="0"></rcv>
+        <punt no="3" yds="115" long="0" blkd="0" tb="1" fc="0" plus50="1" inside20="0"></punt>
+        <defense tackua="8" tacka="4" tflua="2" tfla="2" tflyds="16" sacks="1" sackyds="10" brup="1" qbh="4"></defense>
+        <kr no="1" yds="20" td="0" long="1"></kr>
+      </qtrsummary>
+    </qtr>
+    <downtogo context="V,3,20,V44" qtr="4" clock="00:00" vtoh="3" htoh="0"></downtogo>
+  </plays>
+  <message text=""></message>
+  <dnp vh="V" id="UA">
+    <player name="Andrew Friedman" checkname="FRIEDMAN,ANDREW" uni="1B" class="SO" gp="0" code="1B"></player>
+    <player name="Josh Chapman" checkname="CHAPMAN,JOSH" uni="2B" class="FR" gp="0" code="2B"></player>
+    <player name="Ross Applegate" checkname="APPLEGATE,ROSS" uni="2A" class="FR" gp="0" code="2A"></player>
+    <player name="Demetrius Goode" checkname="GOODE,DEMETRIUS" uni="3A" class="FR" gp="0" code="3A"></player>
+    <player name="Marquis Maze" checkname="MAZE,MARQUIS" uni="4" class="FR" gp="0" code="4"></player>
+    <player name="Courtney Moore" checkname="MOORE,COURTNEY" uni="4A" class="JR" gp="0" code="4A"></player>
+    <player name="Marcel Stamps" checkname="STAMPS,MARCEL" uni="6" class="SR" gp="0" code="6"></player>
+    <player name="A.J. Walker" checkname="WALKER,AJ" uni="6A" class="FR" gp="0" code="6A"></player>
+    <player name="Kyle Pennington" checkname="PENNINGTON,KYLE" uni="7A" class="FR" gp="0" code="7A"></player>
+    <player name="Chris Rogers" checkname="ROGERS,CHRIS" uni="8" class="SO" gp="0" code="8"></player>
+    <player name="Colin Gallagher" checkname="GALLAGHER,COLIN" uni="8A" class="FR" gp="0" code="8A"></player>
+    <player name="Daniel Wood" checkname="WOOD,DANIEL" uni="9A" class="SO" gp="0" code="9A"></player>
+    <player name="Darius Hanks" checkname="HANKS,DARIUS" uni="15" class="FR" gp="0" code="15"></player>
+    <player name="Lionel Mitchell" checkname="MITCHELL,LIONEL" uni="16" class="JR" gp="0" code="16"></player>
+    <player name="Greg McElroy" checkname="MCELROY,GREG" uni="17" class="FR" gp="0" code="17"></player>
+    <player name="Nick Fanuzzi" checkname="FANUZZI,NICK" uni="18" class="FR" gp="0" code="18"></player>
+    <player name="Tarence Farmer" checkname="FARMER,TARENCE" uni="19" class="FR" gp="0" code="19"></player>
+    <player name="Tremayne Coger" checkname="COGER,TREMAYNE" uni="23" class="FR" gp="0" code="23"></player>
+    <player name="Marquis Johnson" checkname="JOHNSON,MARQUIS" uni="24" class="FR" gp="0" code="24"></player>
+    <player name="Patrick Hanrahan" checkname="HANRAHAN,P" uni="33" class="FR" gp="0" code="33"></player>
+    <player name="Jeramie Griffin" checkname="GRIFFIN,JERAMIE" uni="34" class="FR" gp="0" code="34"></player>
+    <player name="Charlie Kirschman" checkname="KIRSCHMAN,C" uni="35" class="FR" gp="0" code="35"></player>
+    <player name="Trent Dean" checkname="DEAN,TRENT" uni="37" class="JR" gp="0" code="37"></player>
+    <player name="Glen Coffee" checkname="COFFEE,GLEN" uni="38" class="SO" gp="0" code="38"></player>
+    <player name="Darwin Salaam" checkname="SALAAM,DARWIN" uni="39" class="JR" gp="0" code="39"></player>
+    <player name="Chris Lett" checkname="LETT,CHRIS" uni="41" class="FR" gp="0" code="41"></player>
+    <player name="Jennings Hester" checkname="HESTER,JENNINGS" uni="42" class="FR" gp="0" code="42"></player>
+    <player name="Sam Burnthall" checkname="BURNTHALL,SAM" uni="43" class="SO" gp="0" code="43"></player>
+    <player name="Zach Schreiber" checkname="SCHREIBER,ZACH" uni="46" class="SO" gp="0" code="46"></player>
+    <player name="Travis Sikes" checkname="SIKES,TRAVIS" uni="48" class="FR" gp="0" code="48"></player>
+    <player name="Michael DeJohn" checkname="DEJOHN,MICHAEL" uni="51" class="FR" gp="0" code="51"></player>
+    <player name="Alfred McCullough" checkname="MCCULLOUGH,A" uni="52" class="FR" gp="0" code="52"></player>
+    <player name="Paul Silvey" checkname="SILVEY,PAUL" uni="53" class="FR" gp="0" code="53"></player>
+    <player name="Jeremy Elder" checkname="ELDER,JEREMY" uni="54" class="FR" gp="0" code="54"></player>
+    <player name="Matt Collins" checkname="COLLINS,MATT" uni="56" class="SR" gp="0" code="56"></player>
+    <player name="Nick Gentry" checkname="GENTRY,NICK" uni="58" class="FR" gp="0" code="58"></player>
+    <player name="Antoine Caldwell" checkname="CALDWELL,A" uni="59" class="JR" gp="0" code="59"></player>
+    <player name="Scott Deaton" checkname="DEATON,SCOTT" uni="60" class="SO" gp="0" code="60"></player>
+    <player name="Alex Stadler" checkname="STADLER,ALEX" uni="62" class="FR" gp="0" code="62"></player>
+    <player name="Morgan Garner" checkname="GARNER,MORGAN" uni="63" class="SR" gp="0" code="63"></player>
+    <player name="Layne Rinks" checkname="RINKS,LAYNE" uni="64" class="JR" gp="0" code="64"></player>
+    <player name="Joshua Curry" checkname="CURRY,JOSHUA" uni="65" class="SR" gp="0" code="65"></player>
+    <player name="Patrick Crump" checkname="CRUMP,PATRICK" uni="69" class="FR" gp="0" code="69"></player>
+    <player name="William Vlachos" checkname="VLACHOS,WILLIAM" uni="73" class="FR" gp="0" code="73"></player>
+    <player name="Cody Davis" checkname="DAVIS,CODY" uni="75" class="JR" gp="0" code="75"></player>
+    <player name="Marlon Davis" checkname="DAVIS,MARLON" uni="76" class="JR" gp="0" code="76"></player>
+    <player name="Adam Hill" checkname="HILL,ADAM" uni="77" class="FR" gp="0" code="77"></player>
+    <player name="Drew Davis" checkname="DAVIS,DREW" uni="79" class="SO" gp="0" code="79"></player>
+    <player name="Brandon Gibson" checkname="GIBSON,BRANDON" uni="84" class="FR" gp="0" code="84"></player>
+    <player name="Jamie Christensen" checkname="CHRISTENSEN,J" uni="86" class="JR" gp="0" code="86"></player>
+    <player name="Chris Underwood" checkname="UNDERWOOD,CHRIS" uni="87" class="FR" gp="0" code="87"></player>
+    <player name="Charles Hoke" checkname="HOKE,CHARLES" uni="89" class="JR" gp="0" code="89"></player>
+    <player name="Milton Talbert" checkname="TALBERT,MILTON" uni="90" class="FR" gp="0" code="90"></player>
+    <player name="Alex Watkins" checkname="WATKINS,ALEX" uni="91" class="FR" gp="0" code="91"></player>
+    <player name="Luther Davis" checkname="DAVIS,LUTHER" uni="96" class="FR" gp="0" code="96"></player>
+    <player name="Brandon Fanney" checkname="FANNEY,BRANDON" uni="98" class="SO" gp="0" code="98"></player>
+  </dnp>
+  <dnp vh="H" id="MSU">
+    <player name="Damein Anderson" checkname="ANDERSON,DAMEIN" uni="2A" class="FR" gp="0" code="2A"></player>
+    <player name="Robert Elliot" checkname="ELLIOT,ROBERT" uni="2" class="FR" gp="0" code="2"></player>
+    <player name="Terrell Johnson" checkname="JOHNSON,TERRELL" uni="4A" class="FR" gp="0" code="4A"></player>
+    <player name="Ethan Stockett" checkname="STOCKETT,ETHAN" uni="4C" class="FR" gp="0" code="4C"></player>
+    <player name="Eric Richards" checkname="RICHARDS,ERIC" uni="4B" class="FR" gp="0" code="4B"></player>
+    <player name="Michael Henig" checkname="HENIG,MICHAEL" uni="7" class="JR" gp="0" code="7"></player>
+    <player name="Chris Relf" checkname="RELF,CHRIS" uni="14" class="FR" gp="0" code="14"></player>
+    <player name="Zack Harrington" checkname="HARRINGTON,ZACK" uni="16" class="SO" gp="0" code="16"></player>
+    <player name="Josh Riddell" checkname="RIDDELL,JOSH" uni="17" class="JR" gp="0" code="17"></player>
+    <player name="Anthony Summers" checkname="SUMMERS,ANTHONY" uni="19" class="SO" gp="0" code="19"></player>
+    <player name="Wade Bonner" checkname="BONNER,WADE" uni="20" class="FR" gp="0" code="20"></player>
+    <player name="Jarvis Williams" checkname="WILLIAMS,JARVIS" uni="26" class="SO" gp="0" code="26"></player>
+    <player name="Tay Bowser" checkname="BOWSER,TAY" uni="28" class="SO" gp="0" code="28"></player>
+    <player name="Jamie Jones" checkname="JONES,JAMIE" uni="31" class="FR" gp="0" code="31"></player>
+    <player name="Marcus Green" checkname="GREEN,MARCUS" uni="32" class="FR" gp="0" code="32"></player>
+    <player name="Chris Nance" checkname="NANCE,CHRIS" uni="40" class="JR" gp="0" code="40"></player>
+    <player name="Brad Moore" checkname="MOORE,BRAD" uni="41" class="FR" gp="0" code="41"></player>
+    <player name="Emmanuel Gatling" checkname="GATLING,E" uni="44" class="FR" gp="0" code="44"></player>
+    <player name="Taurus Young" checkname="YOUNG,TAURUS" uni="49" class="JR" gp="0" code="49"></player>
+    <player name="Devon Edwards" checkname="EDWARDS,DEVON" uni="50" class="SO" gp="0" code="50"></player>
+    <player name="Karlin Brown" checkname="BROWN,KARLIN" uni="52" class="FR" gp="0" code="52"></player>
+    <player name="Chris Herrera" checkname="HERRERA,CHRIS" uni="57" class="FR" gp="0" code="57"></player>
+    <player name="Johnny Carpenter" checkname="CARPENTER,JOHN" uni="58" class="SO" gp="0" code="58"></player>
+    <player name="Mark Brown" checkname="BROWN,MARK" uni="59" class="SO" gp="0" code="59"></player>
+    <player name="Mark Lynn" checkname="LYNN,MARK" uni="61" class="FR" gp="0" code="61"></player>
+    <player name="Chris Spencer" checkname="SPENCER,CHRIS" uni="63" class="SO" gp="0" code="63"></player>
+    <player name="Anthony Bowles" checkname="BOWLES,ANTHONY" uni="65" class="JR" gp="0" code="65"></player>
+    <player name="Roland Terry" checkname="TERRY,ROLAND" uni="67" class="JR" gp="0" code="67"></player>
+    <player name="John McMillan" checkname="MCMILLAN,JOHN" uni="72" class="FR" gp="0" code="72"></player>
+    <player name="Mark Melichar" checkname="MELICHAR,MARK" uni="74" class="FR" gp="0" code="74"></player>
+    <player name="Alex Carpenter" checkname="CARPENTER,ALEX" uni="80" class="FR" gp="0" code="80"></player>
+    <player name="Austin Wilbanks" checkname="WILBANKS,AUSTIN" uni="83" class="SO" gp="0" code="83"></player>
+    <player name="Brandon Henderson" checkname="HENDERSON,B" uni="85" class="FR" gp="0" code="85"></player>
+    <player name="Rodney Prince" checkname="PRINCE,RODNEY" uni="91" class="FR" gp="0" code="91"></player>
+    <player name="Reggie Odom" checkname="ODOM,REGGIE" uni="96" class="FR" gp="0" code="96"></player>
+  </dnp>
+  <longplays thresh="70">
+    <longplay vh="H" id="MSU" yds="100" play="INT" players="Anthony Johnson" td="Y"></longplay>
+  </longplays>
+</fbgame>

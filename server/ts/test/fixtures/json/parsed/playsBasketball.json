@@ -1,0 +1,74 @@
+[
+  {
+    "_id" : "play1",
+    "gameId" : "game1",
+    "playerIds" : [ 
+        "player1"
+    ],
+    "possession" : 1,
+    "period" : 1,
+    "sportCode" : "MBB",
+    "playerNames" : [ 
+        "HAYDEL SYDNEY"
+    ],
+    "gameClockStartTime" : {
+        "minutes" : 19,
+        "seconds" : 36
+    },
+    "action" : "GOOD",
+    "type" : "JUMPER",
+    "score" : {
+        "side" : 1,
+        "scoringPlayerId" : "JUMPER",
+        "type" : "2",
+        "homeScore" : 2,
+        "visitorScore" : 0
+    },
+    "possessionTeamName" : "UH",
+    "possessionTeamCode" : 0
+},
+{
+    "_id" : "play2",
+    "gameId" : "game1",
+    "playerIds" : [ 
+        "player2"
+    ],
+    "possession" : 1,
+    "period" : 1,
+    "sportCode" : "MBB",
+    "playerNames" : [ 
+        "Wimbley, Marissa"
+    ],
+    "gameClockStartTime" : {
+        "minutes" : 19,
+        "seconds" : 36
+    },
+    "action" : "ASSIST",
+    "type" : "",
+    "score" : null,
+    "possessionTeamName" : "UH",
+    "possessionTeamCode" : 0
+},
+{
+    "_id" : "play3",
+    "gameId" : "game1",
+    "playerIds" : [ 
+        "player3"
+    ],
+    "possession" : 0,
+    "period" : 1,
+    "sportCode" : "MBB",
+    "playerNames" : [ 
+        "MARTIN,KAMILAH"
+    ],
+    "gameClockStartTime" : {
+        "minutes" : 19,
+        "seconds" : 0
+    },
+    "action" : "MISS",
+    "type" : "JUMPER",
+    "score" : null,
+    "possessionTeamName" : "UA",
+    "possessionTeamCode" : 0
+}
+]

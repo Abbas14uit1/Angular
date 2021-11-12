@@ -1,0 +1,75 @@
+<div class="col s2 m2"></div>
+<div class="col s8 m8" style="margin-top: -5.5rem;">
+  <div class="card" style="position: initial;border-radius: 25px;">
+
+    <div class="card-content" id="seasonTbl">
+      <span class="card-title grey-text text-darken-2">Season Schedule</span>
+      <mat-table #seasonTbl [dataSource]="dataSource" style="margin-top: 2rem;">
+
+        <!-- Date Column -->
+
+        <ng-container matColumnDef="actualDate">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <span class="light">{{ element.actualDate | utcdate:'ddd, MMM D' }}</span>
+          </mat-cell>
+        </ng-container>
+
+        <!-- Venue Column -->
+        <ng-container matColumnDef="venue">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <span class="light">{{ element.venue }}</span>
+          </mat-cell>
+        </ng-container>
+
+        <!-- Logo Column -->
+        <ng-container matColumnDef="logo">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <img id="logo" src="../../../assets/images/teams/{{element.opponentCode}}.png" alt=" ">
+          </mat-cell>
+        </ng-container>
+
+        <!-- Opponent Column -->
+        <ng-container matColumnDef="opponent">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ element.opponent }}
+          </mat-cell>
+        </ng-container>
+
+        <!-- Result Column -->
+        <ng-container matColumnDef="result">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <span *ngIf="element.result == 'W' || element.result == 'L'"
+              [ngClass]="element.result == 'W' ? 'dark' : 'dark red-text text-lighten-1'">{{ element.result }}</span>
+            <span *ngIf="element.result == 'D'"
+              [ngClass]="element.result == 'D' ? 'dark grey-text text-darken-1' : 'dark red-text text-lighten-1'">{{ element.result }}</span>
+          </mat-cell>
+        </ng-container>
+
+        <!-- Score Column -->
+        <ng-container matColumnDef="score">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ element.score }}
+          </mat-cell>
+        </ng-container>
+
+        <!-- Status Column -->
+        <ng-container matColumnDef="status">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <span class="light">Final</span>
+          </mat-cell>
+        </ng-container>
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onClick(row._id)" class="cursor"></mat-row>
+      </mat-table>
+    </div>
+  </div>
+</div>
+
+<div class="col s2 m2"></div>

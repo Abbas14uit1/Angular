@@ -1,0 +1,476 @@
+#home-content {
+  padding-top: 130px;
+ }
+
+#home-content h1 {
+  text-align: center;
+}
+.form-text {   
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 1.125 !important;
+}
+
+.mat-button {
+  max-height: 40px;
+  margin: 10px 10px 10px 10px;
+}
+
+a {
+  color: black;
+}
+
+
+
+.content {
+	padding: 10px 30px;
+	width:940px;
+	margin: 0 auto;
+	color: #4c4c4c
+}
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columns{
+    width:50%;
+    float:left;
+    padding:20px 0;
+}
+.columns label{
+    margin:20px 0 20px 5px;
+}
+.columns input{
+    padding:0px;
+    margin:20px 0 20px 0;
+}
+
+ul.sipList {
+	padding: 0 0 0 5px;
+	list-style-type:none;
+	margin:0;
+}
+ul.sipList li {
+	padding: 0 0 0 5px;
+	line-height: 30px;
+   	vertical-align: middle;
+   	margin:0 0 0 7px;
+    	font-weight:bold;
+}
+ul.sipList li ul{
+	padding: 0 0 0 5px;
+	list-style-type:none;
+	margin:0 0 15px 5px;
+}
+ul.sipList li ul li{
+    font-weight:normal;
+}
+ul.sipList2 {
+	padding: 0 0 0 5px;
+	list-style-type:none;
+	margin:0;
+}
+ul.sipList2 li {
+	padding: 0 0 0 5px;
+	line-height: 30px;
+   	vertical-align: middle;
+   	margin:0 0 0 7px;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: underline;
+}
+
+/* selected link */
+.uLine {
+    text-decoration: underline !important;
+}
+
+
+/* visited link */
+a:visited {
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    text-decoration: underline;
+}
+
+.demo-tab-group {
+  border: 1px solid #e8e8e8;
+}
+
+.demo-tab-content {
+  padding: 16px;
+}
+
+
+.example-viewer .docs-example-viewer-wrapper {
+    border: 1px solid rgba(0,0,0,.03);
+    box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+    margin: 4px;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #6c757d;
+}
+a:link{
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #6c757d;
+  font-size: 16px;
+  letter-spacing: .15px;
+}
+mat-icon{
+  color: #6c757d;
+}
+.mat-list-item {
+  height: 50px;
+}
+.mat-tab-header, .mat-tab-nav-bar{
+  border-bottom: 0px;
+}
+.docs-example-viewer-title{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 8px 20px;
+}
+
+.example-viewer .docs-example-viewer-title {
+    color: white;
+    background: green;
+}
+
+.docs-example-viewer-title-spacer {
+    flex: 1 1 auto;
+}
+
+.docs-example-viewer-body{
+    padding: 30px;
+}
+
+#season-select {
+  margin-left: auto;
+  margin-right: 5%;
+  padding-bottom: .70%;
+  margin-top: 10px;
+  width: 200px;
+}
+
+#team-select {
+  margin-right: auto;
+  padding-bottom: .70%;
+  margin-top: 10px;
+  width: 200px;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .three-column-layout {
+    width: 100%;
+    display: table;
+  }
+  .column {
+    display: table-cell;
+    padding-top: 15px;
+  }
+  #home-column {
+    width: 1%;
+    padding-left: 15px;
+  }
+  #away-column {
+    width: 30%/*300px*/
+    ;
+    padding-right: 15px;
+  }
+  #team-column {
+    width: 800px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+  }
+  #team-bottom {
+    display: none;
+  }
+  .summary-select-group {
+    display: none;
+  }
+}
+.column {
+  line-height: 100%;
+  column-fill: balance;
+}
+@media screen and (max-width: 1200px) {
+  .three-column-layout {
+    width: 100%;
+    display: table;
+  }
+  #home-column {
+    display: table-cell;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+  }
+  #away-column {
+    display: table-cell;
+    padding-right: 15px;
+    padding-top: 15px;
+  }
+  #team-column {
+    display: none;
+  }
+  #team-bottom {
+    padding: 15px;
+  }
+  .summary-select-group {
+    display: none;
+  }
+}
+
+.card-header-style{
+
+    background: #f5f5f5;
+    text-align: center;
+    margin: -20px !important;
+    margin-top: -21px;   
+    font-weight: 800;
+    color: #fff;
+}
+
+.margin-20{
+  margin-top: 28px;
+}
+
+.font-700{
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+
+/* menu list New changes */
+
+.flex_grow{
+  flex-grow: 1;
+}
+.menulist ul{
+padding: 0px;
+display: flex;
+}
+.LIstItems{
+  list-style-type: none;
+  margin: 0px 6px;
+  padding: 0px 10px 0px 0px;
+  cursor: pointer;
+  border-radius: 45px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 16px;
+}
+.DroupdownMenuList{
+  display: block !important;
+  position: absolute;
+  top: 41px;
+  right: 0px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: #ddd 0px 0px 11px 1px;
+  z-index: 9;
+}
+.DroupdownMenuList li{
+  padding: 10px 12px !important;
+  margin: 0px !important;
+  width: 200px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  list-style-type: none;
+}
+/* .GameIcon{
+  width: 40px;
+    height: 40px;
+    padding: 11px;
+    background-color: #fff;
+    box-shadow: #ddd 2px 4px 2px;
+    border-radius: 50%;
+    margin-right: 5px;
+} */
+.elips{
+  list-style-type: none;
+  margin: 0px 11px;
+  font-size: 26px;
+  text-align: center;
+  padding: 0px 10px;
+  align-items: center;
+  justify-content: center;
+  line-height: 25px;
+  position: relative;
+}
+.form-control{
+  border-radius: 20px;
+  padding: 0px 13px;
+}
+.notiLogo{
+  width: 20px;
+  margin-right: 10px;
+}
+.logo img {
+  width: 35px;
+  height: 35px;
+}
+.sliderMenuBody{
+  width: 1000px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  position: relative;
+  height: 53px;
+  margin: 5px 0px;
+}
+.sliderMenuBody .LIstItems {
+  min-width: fit-content;
+}
+.Slider_btn{
+  position: absolute;
+  top: 54;
+  right: 20px;
+  font-size: 24px;
+  background-color: #fff;
+  padding: 9px 17px;
+  border-radius: 50%;
+  box-shadow: #ddd 0px 0px 7px 2px;
+  cursor: pointer;
+}
+.DroupdownMenuListSlider li{   
+  list-style-type: none;
+  font-size: 12px;
+  background-color: #fff;
+  width: max-content;
+  box-shadow: #ddd 0px 0px 7px 1px;
+  border-radius: 20px;
+  margin: 0px 18px 0px 0px;
+  text-align: left;
+  padding: 0px 15px 0px 0px;
+}
+
+
+.sliderMenuBody::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+
+.sliderMenuBody::-webkit-scrollbar-track {
+border-radius: 10px;
+}
+
+.sliderMenuBody::-webkit-scrollbar-thumb {
+background: #C1C1C1; 
+border-radius: 10px;
+}
+
+.sliderMenuBody::-webkit-scrollbar-thumb:hover {
+background: #C1C1C1; 
+}
+
+
+.menuiconset{
+  width: 37px;
+  height: 37px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: #ddd 2px 4px 2px;
+  border-radius: 50%;
+  margin: 0px auto 3px;
+}
+.menuiconset img{
+  width: 100%;
+}
+.D_Icons{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50px;
+  box-shadow: #ddd 0px 3px 2px;
+  margin-right: 7px;
+}
+.genderimg{
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  background-color: unset;
+  box-shadow: unset;
+  height: 15px;
+  width: 15px;
+}
+.mat-tab-label{
+height: unset !important;
+}
+.uni_dr{
+  position: absolute;
+        top: 1px;
+        width:80%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #6c757d;
+        letter-spacing: .15px;
+}
+/* .mat_Label_group{
+  height: 90px !important;
+  padding: 0px !important;
+  min-width: 106px !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  line-height: 2.2;
+  color: #6c757d;
+  letter-spacing: .15px;
+} */
+::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
+  height: 75px !important;
+  padding: 0px !important;
+  min-width: 106px !important;
+  line-height: 2;
+ }
+
+ /* ::ng-deep.mat-option-text{
+  display: flex;
+  line-height: 45px;
+ } */
+ ::ng-deep.mat-option-text .txt{
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 2.2;
+  color: #6c757d;
+  letter-spacing: .15px;
+ }
+ ::ng-deep.mat-select-panel{
+  min-width: 150px !important;
+ }
+ ::ng-deep.mat-tab-label{
+   opacity: 1 !important;
+ }
+ mat-list-item.disabled{
+  cursor: not-allowed !important;
+  opacity: 0.5;
+  text-decoration: none;
+}

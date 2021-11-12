@@ -1,0 +1,229 @@
+<app-header [config]="headerConfig.normal"></app-header>
+<div class="fixed-action-btn direction-top" style="bottom: 45px; right: 24px;">
+  <a class="btn-floating btn
+" href="javascript:void(0)" (click)="goBack()" *ngIf="homeTeam && awayTeam"
+    [ngStyle]="{'background': this.teamColors[homeTeam.code]}" matTooltipPosition="left"
+    matTooltip="Back to season view">
+    <i class="material-icons">keyboard_backspace</i> Back
+  </a>
+</div>
+<div class="game-page-header"
+  [ngStyle]="{'background': 'linear-gradient(to right, '+ this.teamColors[homeTeam.code] +',white 50%, white 50%, '+ this.teamColors[awayTeam.code] +')'}"
+  *ngIf="homeTeam && awayTeam && gameInfo">
+  <div id="game-info-row-bb" class="row">
+    <div id="home-bb"
+      class="{{(sportId == 'MBA' || sportId == 'WSB' || homeTeam.linescore.periods.length > 5) ? 'col s4 m4': 'col s5 m5'}}">
+      <span class="team-name">{{ homeTeam.name }}&nbsp;</span>
+      <img id="home-logo" src="../../../assets/images/teams/{{homeTeam.code}}.png" alt=" ">
+      <div class="right" id="info">
+        <i class="tiny fa fa-trophy" aria-hidden="true" *ngIf="homeTeam.linescore.score > awayTeam.linescore.score"></i>
+        {{ homeTeam.linescore.score }}
+      </div>
+    </div>
+    <div
+      class="{{(sportId == 'MBA' || sportId == 'WSB' || homeTeam.linescore.periods.length > 5) ? 'col s4 m4': 'col s2 m2'}}"
+      style="padding-top: 20px">
+      <table class="table" *ngIf="sportId == 'WBB' && homeTeam.season > 2014">
+        <thead>
+          <th class="padding-team">
+          </th>
+          <th class="padding-0" *ngFor="let pos of homeTeam.linescore.periods;let i = index">
+            {{(i+1 > 4) ? "OT" +(i-3) : i+1}}
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="padding-team">{{homeTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let homeScr of homeTeam.linescore.periods;let i = index">
+              {{ homeScr.score }}
+          </tr>
+          <tr>
+            <td class="padding-team">{{awayTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let awayScr of awayTeam.linescore.periods;let i = index">
+              {{ awayScr.score }} </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table" *ngIf="sportId == 'MBB' || (sportId == 'WBB' && homeTeam.season <= 2014)">
+        <thead>
+          <th class="padding-team">
+          </th>
+          <th class="padding-0" *ngFor="let pos of homeTeam.linescore.periods;let i = index">
+            {{(pos.period > 2) ? "OT" +(i-1) : i+1}}
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="padding-team">{{homeTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let homeScr of homeTeam.linescore.periods;let i = index">
+              {{ homeScr.score }}
+          </tr>
+          <tr>
+            <td class="padding-team">{{awayTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let awayScr of awayTeam.linescore.periods;let i = index">
+              {{ awayScr.score }} </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table" *ngIf="sportId == 'MFB'">
+        <thead>
+          <th class="padding-team"></th>
+          <th class="padding-0" *ngFor="let pos of homeTeam.linescore.periods;let i = index">
+            {{(i+1 > 4) ? "OT" +(i-3) : i+1}}
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="padding-team">{{homeTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let homeScr of homeTeam.linescore.periods;let i = index">
+              {{ homeScr.score }}
+            </td>
+          </tr>
+          <tr>
+            <td class="padding-team">{{awayTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let awayScr of awayTeam.linescore.periods;let i = index">
+              {{ awayScr.score }} </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table" *ngIf="sportId == 'MBA' || sportId == 'WSB'">
+        <thead>
+          <th class="padding-team">
+          </th>
+          <th class="padding-0" *ngFor="let pos of homeTeam.linescore.innings;let i = index">
+            {{(i+1)}}
+          </th>
+          <th class="padding-0" *ngIf="homeTeam.linescore.runs !== undefined">
+            R
+          </th>
+          <th class="padding-0" *ngIf="homeTeam.linescore.hits !== undefined">
+            H
+          </th>
+          <th class="padding-0" *ngIf="homeTeam.linescore.errs !== undefined">
+            E
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="padding-team">{{homeTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let homeScr of homeTeam.linescore.innings;let i = index">
+              {{ homeScr.score }}
+            </td>
+            <td class="padding-0" *ngIf="homeTeam.linescore.runs !== undefined">{{ homeTeam.linescore.runs }} </td>
+            <td class="padding-0" *ngIf="homeTeam.linescore.hits !== undefined">{{ homeTeam.linescore.hits }} </td>
+            <td class="padding-0" *ngIf="homeTeam.linescore.errs !== undefined">{{ homeTeam.linescore.errs }} </td>
+          </tr>
+          <tr>
+            <td class="padding-team">{{awayTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let awayScr of awayTeam.linescore.innings;let i = index">
+              {{ awayScr.score }}
+            </td>
+            <td class="padding-0" *ngIf="awayTeam.linescore.runs !== undefined">{{ awayTeam.linescore.runs }} </td>
+            <td class="padding-0" *ngIf="awayTeam.linescore.runs !== undefined">{{ awayTeam.linescore.hits }} </td>
+            <td class="padding-0" *ngIf="awayTeam.linescore.runs !== undefined">{{ awayTeam.linescore.errs }} </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- VAF New Changes Start -->
+      <table class="table"*ngIf="sportId == 'MSO' || sportId == 'WSO'">
+        <thead>
+          <th class="padding-team"></th>
+          <th class="padding-0" *ngFor="let pos of homeTeam.linescore.periods;let i = index">
+            {{(i+1 > 4) ? "OT" +(i-3) : i+1}}
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="padding-team">{{homeTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let homeScr of homeTeam.linescore.periods;let i = index">
+              {{ homeScr.score }}
+            </td>
+          </tr>
+          <tr>
+            <td class="padding-team">{{awayTeam.tidyName}}</td>
+            <td class="padding-0" *ngFor="let awayScr of awayTeam.linescore.periods;let i = index">
+              {{ awayScr.score }} </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- VAF New Changes End -->
+    </div>
+    <div id="away-bb"
+      class="{{(sportId == 'MBA' || sportId == 'WSB' || homeTeam.linescore.periods.length > 5) ? 'col s4 m4': 'col s5 m5'}}">
+      <div class="left" id="info">
+        {{ awayTeam.linescore.score }}
+        <i class="tiny fa fa-trophy" aria-hidden="true" *ngIf="homeTeam.linescore.score < awayTeam.linescore.score"></i>
+      </div>
+      <img id="away-logo" src="../../../assets/images/teams/{{awayTeam.code}}.png" alt=" ">
+      <span class="team-name">&nbsp;{{ awayTeam.name }}</span>
+    </div>
+  </div>
+</div>
+<div class="row detail-border" *ngIf="homeTeam">
+  <div class="col s2 m2"></div>
+  <div class="col s4 m4">
+    <table class="table">
+      <tbody>
+        <tr>
+          <td class="padding-01">
+            <label>DATE</label>
+            <label class="label-blk"><i class="tiny material-icons">event</i> {{homeTeam.actualDate}}</label>
+          </td>
+          <td class="padding-01">
+            <label>TIME</label>
+            <label class="label-blk"><i
+                class="tiny material-icons">access_time</i>{{ getTime(homeTeam.startTime) }}</label>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col s6 m6">
+    <table class="table">
+      <tbody>
+        <tr>
+          <td class="padding-01">
+            <label>ATTENDANCE</label>
+            <label class="label-blk"><i class="tiny material-icons">person_pin_circle</i>
+              {{(homeTeam.attendance)  ?  homeTeam.attendance : 'N/A' }}</label>
+          </td>
+          <td class="padding-01">
+            <label>VENUE</label>
+            <label class="label-blk"><i class="tiny material-icons">business</i>
+              {{(homeTeam.geoLocation)  ?  homeTeam.geoLocation : 'N/A'}}</label>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="row" style="height: 2px;margin: 0px !important;"
+  [ngStyle]="{'background': 'linear-gradient(to right, '+ this.teamColors[homeTeam.code] +',white 50%, white 50%, '+ this.teamColors[awayTeam.code] +')'}"
+  *ngIf="homeTeam && awayTeam && gameInfo"></div>
+<div class="game-content">
+  <mat-tab-group class="game-tab-group">
+    <mat-tab label="SUMMARY">
+      <div *ngIf="homeTeam && awayTeam" [ngSwitch]="sportId">
+        <app-summary-football *ngSwitchCase="'MFB'" [gameId]="gameId" [homeTeam]="homeTeam" [awayTeam]="awayTeam" [sportId]="sportId"></app-summary-football>
+        <app-summary-baseball *ngSwitchCase="'MBA'" [gameId]="gameId" [homeTeam]="homeTeam" [awayTeam]="awayTeam" [sportId]="sportId"></app-summary-baseball>
+        <app-summary-baseball *ngSwitchCase="'WSB'" [gameId]="gameId" [homeTeam]="homeTeam" [awayTeam]="awayTeam" [sportId]="sportId"></app-summary-baseball>
+        <app-summary-basketball *ngSwitchCase="'MBB'" [gameId]="gameId" [homeTeam]="homeTeam" [awayTeam]="awayTeam" [sportId]="sportId"></app-summary-basketball>
+        <app-summary-basketball *ngSwitchCase="'WBB'" [gameId]="gameId" [homeTeam]="homeTeam" [awayTeam]="awayTeam" [sportId]="sportId"></app-summary-basketball>
+        <app-summary-soccer *ngSwitchCase="'WSO'" [gameId]="gameId" [homeTeam]="homeTeam" [awayTeam]="awayTeam" [sportId]="sportId"></app-summary-soccer>
+      </div>
+    </mat-tab>
+    <mat-tab label="PLAY-BY-PLAY">
+      <div matTabContent *ngIf="homeTeam && awayTeam">
+        <app-play-by-play [gameId]="gameId" [homeTeamTidyName]="homeTeam.tidyName"
+          [awayTeamTidyName]="awayTeam.tidyName" [sportId]="sportId" [homeTeamCode]="homeTeam.code"
+          [awayTeamCode]="awayTeam.code"></app-play-by-play>
+      </div>
+    </mat-tab>
+    <mat-tab label="ROSTERS">
+      <div *ngIf="homeTeam && awayTeam">
+        <app-rosters [gameId]="gameId" [homeTeamId]="homeTeam.code" [awayTeamId]="awayTeam.code"
+          [homeTeamName]="homeTeam.tidyName" [awayTeamName]="awayTeam.tidyName" [sportId]="sportId"></app-rosters>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

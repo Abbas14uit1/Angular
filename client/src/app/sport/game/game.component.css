@@ -1,0 +1,91 @@
+@import "../../../styles.css";
+.team-name{
+font-family: "Raleway";
+font-size: 28pt;
+color:#fff;
+}
+
+.game-page-row{
+  max-height: 100px;
+}
+.game-page-row-bb{
+  max-height: 100px;
+}
+.game-page-header{
+  margin-top: 1.2rem;
+}
+
+#home{
+  line-height: 100px;
+  text-align: left;
+}
+#away{
+  line-height: 100px;
+  text-align: right;
+}
+#home-bb{
+  line-height: 100px;
+  text-align: left;
+}
+#away-bb{
+  line-height: 100px;
+  text-align: right;
+}
+#home-logo {
+ vertical-align: middle;
+  min-width: 60px;
+  max-width: 60px;
+  font-family: "Raleway";
+  padding-bottom: 20px;
+}
+
+#away-logo{
+  vertical-align: middle;
+    min-width: 60px;
+    max-width: 60px;
+    font-family: "Raleway";
+     padding-bottom: 20px;
+}
+
+#info{
+      font-size: 30pt;
+    font-family: "BioRhyme";
+    color: #4D4D4D;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+.padding-0{
+  padding: 0px !important;
+   width: 20%;
+}
+.padding-team{
+  padding: 0px !important;
+  width: 30%;
+}
+
+.label-blk{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: "BioRhyme";
+    color: #4D4D4D;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.3em;
+}
+
+.detail-border{
+   
+    margin-top: -17px;
+    margin-bottom: 5px;
+}
+.padding-01{
+  padding: 0 0.75rem !important;
+}
+
+i.tiny {
+    font-size: 1rem;
+    padding-right: 5px;
+    line-height: 0px;
+}

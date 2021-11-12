@@ -1,0 +1,979 @@
+{
+  "playerIds": [
+    "player0",
+    "player1",
+    "player2"
+  ],
+  "playIds": [
+    "play0",
+    "play1",
+    "play2"
+  ],
+  "teamIds": {
+    "home": "team1",
+    "visitor": "team2"
+  },
+  "gameDate": "2020-03-09T05:00:00.000Z",
+  "actualDate" : "3/9/2020",
+  "season": 2020,
+  "sportCode": "MFB",
+  "meta": {
+    "startTime": "2017-07-15T00:14:00.000Z",
+    "endTime": "2017-07-15T03:33:00.000Z",
+    "officials": [
+      {
+        "pos": "ref",
+        "name": "Reggie Smith"
+      },
+      {
+        "pos": "ump",
+        "name": "Tab Slaughter"
+      },
+      {
+        "pos": "line",
+        "name": "Mike Moeller"
+      },
+      {
+        "pos": "lj",
+        "name": "Mark Stewart"
+      },
+      {
+        "pos": "bj",
+        "name": "Lyndon Nixon"
+      },
+      {
+        "pos": "fj",
+        "name": "Matt Mills"
+      },
+      {
+        "pos": "sj",
+        "name": "Tim Murray"
+      },
+      {
+        "pos": "cj",
+        "name": "Dan Scanlan"
+      },
+      {
+        "pos": "alt",
+        "name": "Dan Scanlan"
+      }
+    ],
+    "rules": {
+      "quarters": 4,
+      "minutes": 15,
+      "downs": 4,
+      "yards": 10,
+      "kickoffSpot": 35,
+      "touchbackSpot": 20,
+      "kickoffTouchbackSpot": 25
+    }
+  },
+  "venue": {
+    "geoLocation": "Arlington, Texas",
+    "stadiumName": "AT&T Stadium",
+    "neutralLocation": true,
+    "nightGame": true,
+    "conferenceGame": false,
+    "postseasonGame": false,
+    "attendance": 81359,
+    "temperatureF": 72,
+    "weather": "indoors",
+    "gameType": ["Regular Season"]
+  },
+  "team": {
+    "visitor": {
+      "id": "USC",
+      "name": "USC",
+      "score": 6,
+      "conf": "Big Ten Conference",
+      "confDivision": "West",
+      "code": 8
+    },
+    "home": {
+      "id": "UA",
+      "name": "Alabama",
+      "score": 52,
+      "conf": "Big Ten Conference",
+      "confDivision": "West",
+      "code": 8
+    }
+  },
+  "summary": {
+    "scores": [],
+    "drives": [
+      [
+        0,
+        2
+      ]
+    ],
+    "driveDetails": [
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "15:00",
+          "quarter": 1,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 25
+          }
+        },
+        "endPlay": {
+          "clock": "12:28",
+          "quarter": 1,
+          "playType": "FG",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 29
+          }
+        },
+        "plays": 6,
+        "yards": 46,
+        "timeOfPossession": "2:32"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "12:21",
+          "quarter": 1,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 24
+          }
+        },
+        "endPlay": {
+          "clock": "10:23",
+          "quarter": 1,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 31
+          }
+        },
+        "plays": 4,
+        "yards": 7,
+        "timeOfPossession": "1:58"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "10:23",
+          "quarter": 1,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 19
+          }
+        },
+        "endPlay": {
+          "clock": "06:08",
+          "quarter": 1,
+          "playType": "DOWNS",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 37
+          }
+        },
+        "plays": 10,
+        "yards": 44,
+        "timeOfPossession": "4:15"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "06:08",
+          "quarter": 1,
+          "playType": "DOWNS",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 37
+          }
+        },
+        "endPlay": {
+          "clock": "04:25",
+          "quarter": 1,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 44
+          }
+        },
+        "plays": 3,
+        "yards": 7,
+        "timeOfPossession": "1:43"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "04:25",
+          "quarter": 1,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 2
+          }
+        },
+        "endPlay": {
+          "clock": "02:44",
+          "quarter": 1,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 2
+          }
+        },
+        "plays": 3,
+        "yards": 0,
+        "timeOfPossession": "1:41"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "02:44",
+          "quarter": 1,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 46
+          }
+        },
+        "endPlay": {
+          "clock": "02:37",
+          "quarter": 1,
+          "playType": "FUMB",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 48
+          }
+        },
+        "plays": 1,
+        "yards": 2,
+        "timeOfPossession": "0:07"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "02:37",
+          "quarter": 1,
+          "playType": "FUMB",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 48
+          }
+        },
+        "endPlay": {
+          "clock": "01:08",
+          "quarter": 1,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 49
+          }
+        },
+        "plays": 3,
+        "yards": -3,
+        "timeOfPossession": "1:29"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "01:08",
+          "quarter": 1,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 10
+          }
+        },
+        "endPlay": {
+          "clock": "14:12",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 11
+          }
+        },
+        "plays": 3,
+        "yards": 1,
+        "timeOfPossession": "1:56"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "14:12",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 42
+          }
+        },
+        "endPlay": {
+          "clock": "12:22",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 34
+          }
+        },
+        "plays": 3,
+        "yards": -8,
+        "timeOfPossession": "1:50"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "12:22",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 25
+          }
+        },
+        "endPlay": {
+          "clock": "09:26",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 47
+          }
+        },
+        "plays": 8,
+        "yards": 28,
+        "timeOfPossession": "2:56"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "09:26",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 15
+          }
+        },
+        "endPlay": {
+          "clock": "09:02",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 15
+          }
+        },
+        "plays": 3,
+        "yards": 0,
+        "timeOfPossession": "0:24"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "09:02",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 36
+          }
+        },
+        "endPlay": {
+          "clock": "07:46",
+          "quarter": 2,
+          "playType": "TD",
+          "fieldPos": {
+            "endzone": true,
+            "side": 0,
+            "yardline": 0
+          }
+        },
+        "plays": 3,
+        "yards": 36,
+        "timeOfPossession": "1:16"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "07:46",
+          "quarter": 2,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 25
+          }
+        },
+        "endPlay": {
+          "clock": "06:25",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 29
+          }
+        },
+        "plays": 3,
+        "yards": 4,
+        "timeOfPossession": "1:21"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "06:25",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 25
+          }
+        },
+        "endPlay": {
+          "clock": "03:26",
+          "quarter": 2,
+          "playType": "FG",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 11
+          }
+        },
+        "plays": 7,
+        "yards": 64,
+        "timeOfPossession": "2:59"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "03:20",
+          "quarter": 2,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 10
+          }
+        },
+        "endPlay": {
+          "clock": "02:37",
+          "quarter": 2,
+          "playType": "INT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 12
+          }
+        },
+        "plays": 2,
+        "yards": 2,
+        "timeOfPossession": "0:43"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "02:37",
+          "quarter": 2,
+          "playType": "INT",
+          "fieldPos": {
+            "endzone": true,
+            "side": 0,
+            "yardline": 0
+          }
+        },
+        "endPlay": {
+          "clock": "02:37",
+          "quarter": 2,
+          "playType": "TD",
+          "fieldPos": {
+            "endzone": true,
+            "side": 0,
+            "yardline": 0
+          }
+        },
+        "plays": 0,
+        "yards": 0,
+        "timeOfPossession": "0:00"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "02:29",
+          "quarter": 2,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 40
+          }
+        },
+        "endPlay": {
+          "clock": "01:37",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 44
+          }
+        },
+        "plays": 4,
+        "yards": 16,
+        "timeOfPossession": "0:52"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "01:37",
+          "quarter": 2,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 13
+          }
+        },
+        "endPlay": {
+          "clock": "00:00",
+          "quarter": 2,
+          "playType": "HALF",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 15
+          }
+        },
+        "plays": 3,
+        "yards": 2,
+        "timeOfPossession": "1:37"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "15:00",
+          "quarter": 3,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 25
+          }
+        },
+        "endPlay": {
+          "clock": "13:43",
+          "quarter": 3,
+          "playType": "TD",
+          "fieldPos": {
+            "endzone": true,
+            "side": 0,
+            "yardline": 0
+          }
+        },
+        "plays": 3,
+        "yards": 75,
+        "timeOfPossession": "1:17"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "13:35",
+          "quarter": 3,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 33
+          }
+        },
+        "endPlay": {
+          "clock": "12:47",
+          "quarter": 3,
+          "playType": "DOWNS",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 13
+          }
+        },
+        "plays": 4,
+        "yards": -20,
+        "timeOfPossession": "0:48"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "12:47",
+          "quarter": 3,
+          "playType": "DOWNS",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 13
+          }
+        },
+        "endPlay": {
+          "clock": "10:55",
+          "quarter": 3,
+          "playType": "TD",
+          "fieldPos": {
+            "endzone": true,
+            "side": 0,
+            "yardline": 0
+          }
+        },
+        "plays": 4,
+        "yards": 13,
+        "timeOfPossession": "1:52"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "10:49",
+          "quarter": 3,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 20
+          }
+        },
+        "endPlay": {
+          "clock": "09:00",
+          "quarter": 3,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 22
+          }
+        },
+        "plays": 3,
+        "yards": 2,
+        "timeOfPossession": "1:49"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "09:00",
+          "quarter": 3,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 38
+          }
+        },
+        "endPlay": {
+          "clock": "08:03",
+          "quarter": 3,
+          "playType": "INT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 38
+          }
+        },
+        "plays": 3,
+        "yards": 0,
+        "timeOfPossession": "0:57"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "08:03",
+          "quarter": 3,
+          "playType": "INT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 42
+          }
+        },
+        "endPlay": {
+          "clock": "07:10",
+          "quarter": 3,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 43
+          }
+        },
+        "plays": 3,
+        "yards": 1,
+        "timeOfPossession": "0:53"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "07:10",
+          "quarter": 3,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 15
+          }
+        },
+        "endPlay": {
+          "clock": "05:53",
+          "quarter": 3,
+          "playType": "TD",
+          "fieldPos": {
+            "endzone": true,
+            "side": 0,
+            "yardline": 0
+          }
+        },
+        "plays": 3,
+        "yards": 85,
+        "timeOfPossession": "1:17"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "05:44",
+          "quarter": 3,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 21
+          }
+        },
+        "endPlay": {
+          "clock": "02:34",
+          "quarter": 3,
+          "playType": "FG",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 23
+          }
+        },
+        "plays": 8,
+        "yards": 56,
+        "timeOfPossession": "3:10"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "02:34",
+          "quarter": 3,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 35
+          }
+        },
+        "endPlay": {
+          "clock": "13:11",
+          "quarter": 4,
+          "playType": "TD",
+          "fieldPos": {
+            "endzone": true,
+            "side": 0,
+            "yardline": 0
+          }
+        },
+        "plays": 9,
+        "yards": 65,
+        "timeOfPossession": "4:23"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "13:11",
+          "quarter": 4,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 25
+          }
+        },
+        "endPlay": {
+          "clock": "11:19",
+          "quarter": 4,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 27
+          }
+        },
+        "plays": 3,
+        "yards": 2,
+        "timeOfPossession": "1:52"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "11:19",
+          "quarter": 4,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 33
+          }
+        },
+        "endPlay": {
+          "clock": "09:25",
+          "quarter": 4,
+          "playType": "TD",
+          "fieldPos": {
+            "endzone": true,
+            "side": 0,
+            "yardline": 0
+          }
+        },
+        "plays": 4,
+        "yards": 67,
+        "timeOfPossession": "1:54"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "09:25",
+          "quarter": 4,
+          "playType": "KO",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 25
+          }
+        },
+        "endPlay": {
+          "clock": "06:32",
+          "quarter": 4,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 43
+          }
+        },
+        "plays": 7,
+        "yards": 32,
+        "timeOfPossession": "2:53"
+      },
+      {
+        "drivingTeam": 1,
+        "drivingTeamName": "UA",
+        "startPlay": {
+          "clock": "06:32",
+          "quarter": 4,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 8
+          }
+        },
+        "endPlay": {
+          "clock": "02:08",
+          "quarter": 4,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 16
+          }
+        },
+        "plays": 6,
+        "yards": 8,
+        "timeOfPossession": "4:24"
+      },
+      {
+        "drivingTeam": 0,
+        "drivingTeamName": "USC",
+        "startPlay": {
+          "clock": "02:08",
+          "quarter": 4,
+          "playType": "PUNT",
+          "fieldPos": {
+            "endzone": false,
+            "side": 0,
+            "yardline": 47
+          }
+        },
+        "endPlay": {
+          "clock": "00:00",
+          "quarter": 4,
+          "playType": "HALF",
+          "fieldPos": {
+            "endzone": false,
+            "side": 1,
+            "yardline": 35
+          }
+        },
+        "plays": 4,
+        "yards": 18,
+        "timeOfPossession": "2:08"
+      }
+    ],
+    "fgas": [],
+    "longplay": []
+  },
+  "_id": "game1"
+}

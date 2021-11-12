@@ -1,0 +1,99 @@
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+
+import { FormsModule } from "@angular/forms";
+import { HttpModule } from "@angular/http";
+import { MATERIAL_COMPATIBILITY_MODE } from "@angular/material";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { RouterModule, Routes } from "@angular/router";
+import { AuthGuard } from "app/shared/guard/auth.guard";
+import { FileSelectDirective, FileUploadModule } from "ng2-file-upload";
+import { AdminLoginComponent } from "./admin/admin-login/admin-login.component";
+import { AdminComponent } from "./admin/admin.component";
+import { UploadComponent } from "./admin/upload/upload.component";
+import { AppComponent } from "./app.component";
+import { DashboardComponent } from "./football/dashboard/dashboard.component";
+import { RosterComponent } from "./football/dashboard/roster/roster.component";
+import { SeasonComponent } from "./football/dashboard/season/season.component";
+import { GameComponent } from "./football/game/game.component";
+import { PlayByPlayComponent } from "./football/game/play-by-play/play-by-play.component";
+import { FullRosterComponent } from "./football/game/rosters/full-roster/full-roster.component";
+import { RostersComponent } from "./football/game/rosters/rosters.component";
+import { StarterRosterComponent } from "./football/game/rosters/starter-roster/starter-roster.component";
+import { DefenseComponent } from "./football/game/summary/defense/defense.component";
+import { InterceptionsComponent } from "./football/game/summary/interceptions/interceptions.component";
+import { PassingComponent } from "./football/game/summary/passing/passing.component";
+import { ReceivingComponent } from "./football/game/summary/receiving/receiving.component";
+import { RushingComponent } from "./football/game/summary/rushing/rushing.component";
+import { SummaryFootballComponent } from "./football/game/summary/summary-football.component";
+import { TeamStatsComponent } from "./football/game/summary/team-stats/team-stats.component";
+import { PlayerComponent } from "./football/player/player.component";
+import { QueryComponent } from "./football/query/query.component";
+import { MaterialModule } from "./material/material.module";
+import { HeaderComponent } from "./shared/header/header.component";
+import { HomeComponent } from "./shared/home/home.component";
+
+
+const appRoutes: Routes = [
+  { path: "", component: HomeComponent },
+  // Football
+  { path: "football/dashboard/:teamCode", component: DashboardComponent },
+  { path: "football/dashboard", component: DashboardComponent },
+  { path: "football/query", component: QueryComponent },
+  // All
+  { path: "game/:gameId", component: GameComponent },
+  { path: "player/:playerId", component: PlayerComponent },
+  { path: "admin", canActivate: [AuthGuard], component: AdminComponent },
+  { path: "admin/login", component: AdminLoginComponent },
+  // { path: "**", component: PageNotFoundComponent }
+];
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    DashboardComponent,
+    HeaderComponent,
+    FooterComponent.
+    SeasonComponent,
+    GameComponent,
+    SummaryFootballComponent,
+    PlayByPlayComponent,
+    QueryComponent,
+    RostersComponent,
+    RushingComponent,
+    TeamStatsComponent,
+    RosterComponent,
+    PassingComponent,
+    ReceivingComponent,
+    PlayerComponent,
+    DefenseComponent,
+    FullRosterComponent,
+    StarterRosterComponent,
+    AdminComponent,
+    AdminLoginComponent,
+    InterceptionsComponent,
+    HomeComponent,
+    UploadComponent,
+  ],
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true }, // <-- debugging purposes only
+    ),
+    HttpModule,
+    FormsModule,
+    MaterialModule,
+    BrowserAnimationsModule,
+    FileUploadModule,
+  ],
+  exports: [
+    RouterModule,
+  ],
+  providers: [
+    {provide: MATERIAL_COMPATIBILITY_MODE, useValue: true},
+    AuthGuard,
+  ],
+  bootstrap: [AppComponent],
+})
+export class AppModule { }

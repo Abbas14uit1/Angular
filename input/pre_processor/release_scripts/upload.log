@@ -1,0 +1,39 @@
+Processing ../TAMU/Football_Preprocessed/
+Processing ../TAMU/Football_Preprocessed/MU_TAMU_11-30-2013.xml
+Completed Processing ../TAMU/Football_Preprocessed/MU_TAMU_11-30-2013.xml
+Processing ../TAMU/Football_Preprocessed/UTAH_TA_09-02-2004.xml
+Completed Processing ../TAMU/Football_Preprocessed/UTAH_TA_09-02-2004.xml
+Processing ../TAMU/Football_Preprocessed/TA_TT_09-30-2000.xml
+Completed Processing ../TAMU/Football_Preprocessed/TA_TT_09-30-2000.xml
+Processing ../TAMU/Football_Preprocessed/KS_TA_10-22-2005.xml
+Completed Processing ../TAMU/Football_Preprocessed/KS_TA_10-22-2005.xml
+Processing ../TAMU/Football_Preprocessed/MS_TAMU_11-03-2012.xml
+Completed Processing ../TAMU/Football_Preprocessed/MS_TAMU_11-03-2012.xml
+Processing ../TAMU/Football_Preprocessed/TA_WYO_09-11-2004.xml
+Completed Processing ../TAMU/Football_Preprocessed/TA_WYO_09-11-2004.xml
+Processing ../TAMU/Football_Preprocessed/TAMU_SHSU_11-17-2012.xml
+Completed Processing ../TAMU/Football_Preprocessed/TAMU_SHSU_11-17-2012.xml
+Processing ../TAMU/Football_Preprocessed/MIAMI_TAMU_09-20-2007.xml
+Completed Processing ../TAMU/Football_Preprocessed/MIAMI_TAMU_09-20-2007.xml
+Processing ../TAMU/Football_Preprocessed/MS_TAMU_10-04-2014.xml
+Completed Processing ../TAMU/Football_Preprocessed/MS_TAMU_10-04-2014.xml
+Processing ../TAMU/Football_Preprocessed/UA_TAMU_10-22-2016.xml
+Completed Processing ../TAMU/Football_Preprocessed/UA_TAMU_10-22-2016.xml
+Processing ../TAMU/Football_Preprocessed/TAMU_NMSU_10-29-2016.xml
+Completed Processing ../TAMU/Football_Preprocessed/TAMU_NMSU_10-29-2016.xml
+Processing ../TAMU/Football_Preprocessed/TA_KS_10-28-2000.xml
+Completed Processing ../TAMU/Football_Preprocessed/TA_KS_10-28-2000.xml
+Processing ../TAMU/Football_Preprocessed/TAMU_KS_10-11-2008.xml
+Completed Processing ../TAMU/Football_Preprocessed/TAMU_KS_10-11-2008.xml
+Processing ../TAMU/Football_Preprocessed/TA_MSU_12-31-2000.xml
+Completed Processing ../TAMU/Football_Preprocessed/TA_MSU_12-31-2000.xml
+Processing ../TAMU/Football_Preprocessed/UT_TA_11-24-2006.xml
+Completed Processing ../TAMU/Football_Preprocessed/UT_TA_11-24-2006.xml
+Processing ../TAMU/Football_Preprocessed/TA_ND_09-29-2001.xml
+Completed Processing ../TAMU/Football_Preprocessed/TA_ND_09-29-2001.xml
+Processing ../TAMU/Football_Preprocessed/TA_OU_11-09-2002.xml
+Completed Processing ../TAMU/Football_Preprocessed/TA_OU_11-09-2002.xml
+Processing ../TAMU/Football_Preprocessed/OU_TAMU_01-04-2013.xml
+Completed Processing ../TAMU/Football_Preprocessed/OU_TAMU_01-04-2013.xml
+Processing ../TAMU/Football_Preprocessed/A&M_BU_07-18-2002.xml
+Code: 500 Text: {"errors":[{"code":"XMLParseError","title":"Error occured while parsing XML file","detail":"TypeError: Cannot read property '0' of undefined\n    at quarters.map (/var/app/current/server/build/src/lib/importer/statcrew/helpers/teamParser.js:603:34)\n    at Array.map (native)\n    at parseQuarterSummaries (/var/app/current/server/build/src/lib/importer/statcrew/helpers/teamParser.js:601:10)\n    at Object.parseTeam (/var/app/current/server/build/src/lib/importer/statcrew/helpers/teamParser.js:19:23)\n    at Team.parse (/var/app/current/server/build/src/lib/importer/statcrew/football/team.js:157:40)\n    at FootballImporter.parse (/var/app/current/server/build/src/lib/importer/statcrew/football/footballImporter.js:78:29)\n    at Object.<anonymous> (/var/app/current/server/build/src/routes/api_v1/upload/game.route.js:53:25)\n    at next (native)\n    at fulfilled (/var/app/current/server/build/src/routes/api_v1/upload/game.route.js:4:58)"}]}

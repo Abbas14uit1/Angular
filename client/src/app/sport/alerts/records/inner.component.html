@@ -1,0 +1,33 @@
+<span *ngIf="inputDataType === 'Record'" [id]="buildId">
+  {{textBefore}} <span *ngIf="inputData.storyDetails.teamRecords"><a [routerLink]=""
+      (click)="startEdit(inputData.storyDetails.teamRecords, inputData.storyDetails.statLabel, inputData.storyDetails.statPeriod)">{{playerName}}</a></span><span
+    *ngIf="!inputData.storyDetails.teamRecords">{{playerName}}</span> {{textAfter}}
+</span>
+<span *ngIf="inputDataType === 'Lasttimewhen'" [id]="buildId">
+  {{textBefore}} <span *ngIf="inputData.storyDetails.previousOccurences"><a [routerLink]=""
+      (click)="startEdit(inputData.storyDetails.previousOccurences, inputData.storyDetails.statLabel, inputData.storyDetails.statPeriod)">{{playerName}}</a></span><span
+    *ngIf="!inputData.storyDetails.previousOccurences">{{playerName}}</span> {{textAfter}}
+</span>
+<span *ngIf="inputDataType === 'Streak'" [id]="buildId">
+  {{textBefore}} <span *ngIf="inputData.storyDetails.teamStreaks"><a [routerLink]=""
+      (click)="startEdit(inputData.storyDetails.teamStreaks, inputData.storyDetails.statLabel, inputData.storyDetails.statPeriod)">{{playerName}}</a></span><span
+    *ngIf="!inputData.storyDetails.teamStreaks">{{playerName}}</span> {{textAfter}}
+</span>
+&nbsp;
+<span>
+  <mat-icon matTooltip="Last Time When" *ngIf="inputDataType === 'Lasttimewhen'" style="margin-right: 10px;">
+    <img src="../../../assets/images/sports/LTW/LTW.png" style="width: 35px;vertical-align: middle;" />
+  </mat-icon>
+  <mat-icon matTooltip="Record" *ngIf="inputDataType === 'Record'">
+    <img src="../../../assets/images/sports/LTW/REC.png" style="width: 35px;vertical-align: middle;" />
+  </mat-icon>
+  <mat-icon matTooltip="Streak" *ngIf="inputDataType === 'Streak'" style="margin-right: 5px;">
+    <img src="../../../assets/images/sports/LTW/SRT.png" style="width: 40px;vertical-align: middle;" />
+  </mat-icon>
+  &nbsp;&nbsp;<span *ngIf="inputData.storyType === 'Progress'" class="postgamebtn"><i
+      class="fa fa-line-chart"></i>&nbsp;&nbsp;Progress</span>
+  <span *ngIf="inputData.storyType === 'Watch'" class="pregamebtn"><i class="fa fa-eye"></i>&nbsp;&nbsp;Watch</span>
+</span>
+&nbsp;
+<span><img [matTooltip]="matTooltipTitle" src="../../../assets/images/socialmedia/file-copy.png"
+    style="width: 21px;vertical-align: middle;" (click)="CopyStory()" /></span>

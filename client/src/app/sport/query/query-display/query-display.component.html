@@ -1,0 +1,121 @@
+<div class="row">
+  <span> Select the cells and click the copy button to copy to clipboard and press ctrl+v to paste the copied
+    cells</span>
+  <button mat-raised-button class="grey lighten-1 mat-raised-button pull-right" (click)="selectElementContents()">
+    Copy
+    <i class="material-icons">file_copy</i>
+  </button>
+</div>
+<input #filter placeholder="Filter" placeholder="Filter" style="display: none;">
+<div id="deTable" matSort #TABLE class="data-height">
+  <mat-table #deTable [dataSource]="dataSource">
+    <ng-container *ngFor="let col of displayedColumns" [matColumnDef]="col">
+      <mat-header-cell *matHeaderCellDef class="header"
+        [ngStyle]="{display: (col == 'TeamCode' || col == 'OpponentCode' || col == 'TeamScore' || col == 'OppScore' || col == 'gameDate' ? 'none' : 'inline')}">
+        <mat-checkbox *ngIf="col == 'select'" (change)="$event ? masterToggle() : null"
+          [checked]="selection.hasValue() && isAllSelected()"
+          [indeterminate]="selection.hasValue() && !isAllSelected()">
+        </mat-checkbox>
+        <span mat-sort-header class="pull-left"
+          [ngStyle]="{display: (col == 'select'  ? 'none' : 'inline')}">{{col}}</span>
+        &nbsp;
+        <span [ngStyle]="{display: (col == 'Id' || col == 'select'  ? 'none' : 'inline')}" [matMenuTriggerFor]="menu"
+          class="cursor" [ngStyle]="{'color': hightLightFilter(col)}">
+          <i class="fa fa-filter" aria-hidden="true"></i>
+        </span>
+        <mat-menu [ngStyle]="{display: (col == 'Id' || col == 'select'  ? 'none' : 'inline')}" #menu="matMenu"
+          [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+            <div class="row">
+              <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+                <input placeholder={{col}} type="text" ngModel name={{col}} id={{col}}>
+              </div>
+              <div class="col s12 l12 m12 center-align">
+                <button type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+                <button mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true"></i>
+                  Clear</button>
+              </div>
+            </div>
+          </form>
+        </mat-menu>
+      </mat-header-cell>
+      <mat-cell *matCellDef="let element; let i = index;"
+        [ngStyle]="{display: (col == 'TeamCode' || col == 'OpponentCode' || col == 'TeamScore' || col == 'OppScore' || col == 'gameDate' ? 'none' : 'inline')}">
+        <mat-checkbox *ngIf="col == 'select'" (click)="$event.stopPropagation()"
+          (change)="$event ? selection.toggle(element) : null" [checked]="selection.isSelected(element)">
+        </mat-checkbox>
+        <span *ngIf="col == 'Id'">{{ i+1 }}</span>
+        <span *ngIf="col == 'Name' || col == 'Game Type'">{{playerNameReadability(element[col])}}</span>
+        <span *ngIf="col == 'Total' || col == 'Average' || col == 'Avg'">{{valueReadability(element[col], col)}}</span>
+        <span *ngIf="col == 'Percentage'">
+          {{ valueReadability(element[col] * 100, col)}} %
+        </span>
+        <span *ngIf="col == 'Date'">
+          {{element[col] | utcdate:'ddd, MMM D'}}
+        </span>
+
+        <span *ngIf="col == 'Season'" [innerHTML]="seasonReadability(element[col])">
+
+        </span>
+        <span
+          *ngIf="col !== 'Name' && col !== 'Season' && col !== 'Average' && col !== 'Avg' && col !== 'Percentage' && col !== 'Date' && col !== 'Total'  && col !== 'Game Type' && col !== 'TeamCode' && col !== 'Team' && col !== 'OpponentCode' && col !== 'OPP' && col !== 'TeamScore' && col !== 'OppScore' && col !== 'Res' && col !== 'Id'  && col !== 'select'">
+          {{(element[col] == null) ? '-' : valueReadability(element[col], col)}}
+        </span>
+        <span *ngIf="col == 'Team'">
+          <img *ngIf="element['TeamCode']  !== 0 && element['TeamCode']  !== 1" id="logo"
+            src="../../../assets/images/teams/{{element['TeamCode'] }}.png" alt=" ">
+          &nbsp;{{ element[col]}}
+        </span>
+        <span *ngIf="col == 'OPP'">
+          <img *ngIf="element['OpponentCode']  !== 0 && element['OpponentCode']  !== 1" id="logo"
+            src="../../../assets/images/teams/{{element['OpponentCode'] }}.png" alt=" ">
+          &nbsp;{{ element[col]}}
+        </span>
+        <span *ngIf="col == 'Res' && (element[col] == 'W' || element[col] == 'L')"
+          [ngClass]="element[col] == 'W' ? 'dark' : 'dark red-text text-lighten-1'">{{ element['Res'] }}</span>
+        <span *ngIf="col == 'Res' && element[col] == 'D'"
+          [ngClass]="element[col] == 'D' ? 'dark grey-text text-darken-1' : 'dark red-text text-lighten-1'">{{
+          element['Res'] }}</span>
+      </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns" [ngStyle]="{'background': teamColor}" [style.min-height]="0">
+    </mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</div>
+<div id="dEResTableDiv">
+  <table id="dEResTable" *ngIf="selection.selected">
+    <thead>
+      <tr>
+        <th *ngFor="let col of clipboardCols;">{{col}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of selection.selected; let i = index;">
+        <td *ngFor="let col of clipboardCols;">
+          <span *ngIf="col == 'Id'">{{ i+1 }}</span>
+          <span *ngIf="col == 'Name' || col == 'Game Type'">{{playerNameReadability(row[col])}}</span>
+          <span *ngIf="col == 'Total' || col == 'Average' || col == 'Avg'">{{valueReadability(row[col], col)}}</span>
+          <span *ngIf="col == 'Percentage'">
+            {{ valueReadability(row[col] * 100, col)}} %
+          </span>
+          <span *ngIf="col == 'Date'">
+            {{row[col] | utcdate:'ddd, MMM D'}}
+          </span>
+          <span
+            *ngIf="col !== 'Name' && col !== 'Average' && col !== 'Avg' && col !== 'Percentage' && col !== 'Date' && col !== 'Total'  && col !== 'Game Type' && col !== 'TeamCode' && col !== 'Team' && col !== 'OpponentCode' && col !== 'OPP' && col !== 'TeamScore' && col !== 'OppScore' && col !== 'Res' && col !== 'Id'">
+            {{(row[col] == null) ? '-' : valueReadability(row[col], col) }}
+          </span>
+          <span *ngIf="col == 'Team'">
+            {{ row[col]}}
+          </span>
+          <span *ngIf="col == 'OPP'">
+            {{ row[col]}}
+          </span>
+          <span *ngIf="col == 'Res'" [ngClass]="row[col] == 'W' ? 'dark' : 'dark red-text text-lighten-1'">{{ row['Res']
+            }}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

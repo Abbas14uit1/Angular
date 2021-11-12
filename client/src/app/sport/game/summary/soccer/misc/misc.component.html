@@ -1,0 +1,53 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14"></mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="miscGWG">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">GWG</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.miscGWG }}
+        </mat-cell>
+      </ng-container>
+
+      <!-- <ng-container matColumnDef="miscCNR">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">CNR</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.miscCNR }}
+        </mat-cell>
+      </ng-container> -->
+       <ng-container matColumnDef="miscGOALS">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">GOALS</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.miscGOALS }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="miscATT">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">ATT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.miscATT }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container *matHeaderRowDef="displayedColumns">
+        <div class="mat-header-row header-group-row">
+          <div class="mat-header-cell header-group-cell first-cell-column " role="columnheader">MISCELLANEOUS  </div>
+          <div class="mat-header-cell" role="columnheader"></div>
+           <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell header-group-cell" role="columnheader" style="min-width: 142px;text-align: right !important;">PENALTY KICKS</div>
+        </div>
+        <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      </ng-container>
+
+      <mat-header-row  [ngStyle]="{'background-color':this.color}"  *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+    </mat-table>
+  </div>
+</div>

@@ -1,0 +1,1734 @@
+[{
+    "_id" : "teamGame1",
+    "code" : 8,
+    "name" : "Alabama",
+    "tidyName" : "UA",
+    "homeAway" : 1,
+    "opponentCode" : 6,
+    "opponentName" : "Alabama A&M",
+    "linescore" : {
+        "score" : 7,
+        "runs" : 7,
+        "hits" : 10,
+        "errs" : 1,
+        "lob" : 4,
+        "innings" : [ 
+            {
+                "inning" : 1,
+                "score" : 1
+            }, 
+            {
+                "inning" : 2,
+                "score" : 3
+            }, 
+            {
+                "inning" : 3,
+                "score" : 1
+            }, 
+            {
+                "inning" : 4,
+                "score" : 0
+            }, 
+            {
+                "inning" : 5,
+                "score" : 0
+            }, 
+            {
+                "inning" : 6,
+                "score" : 1
+            }, 
+            {
+                "inning" : 7,
+                "score" : 0
+            }, 
+            {
+                "inning" : 8,
+                "score" : 1
+            }, 
+            {
+                "inning" : 9,
+                "score" : 0
+            }
+        ]
+    },
+    "record" : 24,
+    "sportCode" : "MBA",
+    "gameDate" : "2015-05-05T00:00:00.000Z",
+    "starters" : [ 
+        {
+            "spot" : 1,
+            "name" : "Avant",
+            "uni" : 5,
+            "pos" : "2b"
+        }, 
+        {
+            "spot" : 2,
+            "name" : "Salem",
+            "uni" : 22,
+            "pos" : "cf"
+        }, 
+        {
+            "spot" : 3,
+            "name" : "White",
+            "uni" : 1,
+            "pos" : "ss"
+        }, 
+        {
+            "spot" : 4,
+            "name" : "Hughston",
+            "uni" : 7,
+            "pos" : "rf"
+        }, 
+        {
+            "spot" : 5,
+            "name" : "Overstreet",
+            "uni" : 6,
+            "pos" : "3b"
+        }, 
+        {
+            "spot" : 6,
+            "name" : "Henry",
+            "uni" : 9,
+            "pos" : "dh"
+        }, 
+        {
+            "spot" : 7,
+            "name" : "Vincent",
+            "uni" : 12,
+            "pos" : "1b"
+        }, 
+        {
+            "spot" : 8,
+            "name" : "Haynie",
+            "uni" : 24,
+            "pos" : "c"
+        }, 
+        {
+            "spot" : 9,
+            "name" : "Colburn",
+            "uni" : 45,
+            "pos" : "lf"
+        }, 
+        {
+            "spot" : 10,
+            "name" : "Eicholtz",
+            "uni" : 29,
+            "pos" : "p"
+        }
+    ],
+    "totals" : {
+        "hitting" : {
+            "appear" : 1,
+            "ab" : 29,
+            "r" : 7,
+            "h" : 10,
+            "rbi" : 6,
+            "double" : 0,
+            "triple" : 1,
+            "hr" : 0,
+            "bb" : 4,
+            "so" : 5,
+            "hbp" : 1,
+            "kl" : 1,
+            "sh" : 0,
+            "sf" : 1,
+            "ibb" : 0,
+            "sb" : 0,
+            "cs" : 3,
+            "rchci" : 0,
+            "rcherr" : 0,
+            "rchfc" : 0,
+            "gdp" : 0,
+            "picked" : 0,
+            "hitDp" : 0,
+            "ground" : 8,
+            "fly" : 6,
+            "tb" : 13,
+            "hwhp" : 15,
+            "abbhpsf" : 35,
+            "pa" : 35,
+            "babp" : 27
+        },
+        "fielding" : {
+            "appear" : 1,
+            "po" : 27,
+            "a" : 13,
+            "e" : 1,
+            "sba" : 1,
+            "csb" : 1,
+            "pb" : 0,
+            "ci" : 0,
+            "indp" : 2,
+            "intp" : 0,
+            "poa" : 40,
+            "poae" : 41
+        },
+        "pitching" : {
+            "appear" : 0,
+            "win" : 0,
+            "save" : 1,
+            "loss" : 0,
+            "gs" : 0,
+            "cg" : 0,
+            "sho" : 0,
+            "cbo" : 0,
+            "ip" : 9,
+            "h" : 6,
+            "r" : 2,
+            "er" : 2,
+            "bb" : 5,
+            "k" : 0,
+            "so" : 10,
+            "bf" : 36,
+            "ab" : 29,
+            "double" : 1,
+            "triple" : 0,
+            "hr" : 0,
+            "wp" : 1,
+            "bk" : 0,
+            "hbp" : 1,
+            "kl" : 1,
+            "ibb" : 0,
+            "inheritr" : 0,
+            "inherits" : 0,
+            "sfa" : 0,
+            "sha" : 1,
+            "cia" : 0,
+            "pitches" : 0,
+            "gdp" : 2,
+            "fly" : 4,
+            "ground" : 10,
+            "teamue" : 0,
+            "hhr" : 6,
+            "abkhrsf" : 29
+        },
+        "hitSummary" : {
+            "rchfc" : 3,
+            "rcherr" : 0,
+            "rchci" : 0,
+            "ground" : 8,
+            "fly" : 6,
+            "w2Outs" : [ 
+                6, 
+                10
+            ],
+            "wRunners" : [ 
+                6, 
+                17
+            ],
+            "wrBiops" : [ 
+                5, 
+                10
+            ],
+            "vsLeft" : [ 
+                0
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "leadOff" : [ 
+                4, 
+                8
+            ],
+            "rbiThird" : [ 
+                2, 
+                4
+            ],
+            "wLoaded" : [ 
+                0
+            ],
+            "advops" : [ 
+                12, 
+                19
+            ],
+            "adv" : 7,
+            "lob" : 5,
+            "rbi2Out" : 4
+        },
+        "pitchSummary" : {
+            "fly" : 4,
+            "ground" : 10,
+            "leadoff" : [ 
+                5, 
+                9
+            ],
+            "wRunners" : [ 
+                1, 
+                13
+            ],
+            "vsLeft" : [ 
+                0
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "w2Outs" : [ 
+                2, 
+                9
+            ],
+            "pitches" : 0,
+            "strikes" : 0
+        }
+    },
+    "actualDate" : "5/5/2015",
+    "season" : 2014,
+    "conference" : "Southeastern Conference",
+    "conferenceDivision" : "West",
+    "opponentConference" : "",
+    "opponentConferenceDivision" : null,
+    "homeTeam" : {
+        "id" : "UA",
+        "name" : "Alabama",
+        "code" : 8,
+        "score" : 7,
+        "runs" : 7,
+        "hits" : 10,
+        "errs" : 1,
+        "lob" : 4
+    },
+    "visitorTeam" : {
+        "id" : "AAMU",
+        "name" : "Alabama A&M",
+        "code" : 6,
+        "score" : 2,
+        "runs" : 2,
+        "hits" : 6,
+        "errs" : 2,
+        "lob" : 7
+    },
+    "gameType" : [ 
+        "Regular Season"
+    ],
+    "geoLocation" : "Hoover, Ala.",
+    "attendance" : 0,
+    "nightGame" : false,
+    "neutralLocation" : false,
+    "startTime" : "2020-03-10T13:05:00.000Z",
+    "players" : [ 
+        "5e67dbc2d2757e7031e5558d", 
+        "5e67dbc2d2757e7031e5558e", 
+        "5e67dbc2d2757e7031e5558f", 
+        "5e67dbc2d2757e7031e55590", 
+        "5e67dbc2d2757e7031e55591", 
+        "5e67dbc2d2757e7031e55593", 
+        "5e67dbc2d2757e7031e55592", 
+        "5e67dbc2d2757e7031e5559d", 
+        "5e67dbc2d2757e7031e555af", 
+        "5e67dbc2d2757e7031e55595", 
+        "5e67dbc2d2757e7031e55597", 
+        "5e67dbc2d2757e7031e555a2", 
+        "5e67dbc2d2757e7031e555ad", 
+        "5e67dbc2d2757e7031e55594", 
+        "5e67dbc2d2757e7031e5559b", 
+        "5e67dbc2d2757e7031e5559c", 
+        "5e67dbc2d2757e7031e5559e", 
+        "5e67dbc2d2757e7031e5559a", 
+        "5e67dbc2d2757e7031e5559f", 
+        "5e67dbc2d2757e7031e55599", 
+        "5e67dbc2d2757e7031e555a0", 
+        "5e67dbc2d2757e7031e555a1", 
+        "5e67dbc2d2757e7031e555a3", 
+        "5e67dbc2d2757e7031e55596", 
+        "5e67dbc2d2757e7031e555a4", 
+        "5e67dbc2d2757e7031e555a5", 
+        "5e67dbc2d2757e7031e555a6", 
+        "5e67dbc2d2757e7031e555a7", 
+        "5e67dbc2d2757e7031e555a8", 
+        "5e67dbc2d2757e7031e555a9", 
+        "5e67dbc2d2757e7031e555aa", 
+        "5e67dbc2d2757e7031e555ab", 
+        "5e67dbc2d2757e7031e555ac", 
+        "5e67dbc2d2757e7031e555ae", 
+        "5e67dbc2d2757e7031e55598", 
+        "5e67dbc2d2757e7031e555b0"
+    ],
+    "gameId" : "5e67ddc9d2757e7031e5d6ef",
+    "teamId" : "5c012705487b45235b880ca0"
+},{
+    "_id" : "teamGame2",
+    "code" : 8,
+    "name" : "Alabama Crimson Tide",
+    "tidyName" : "ALABAMA",
+    "homeAway" : 1,
+    "opponentCode" : 31,
+    "opponentName" : "Arkansas",
+    "linescore" : {
+        "score" : 8,
+        "runs" : 8,
+        "hits" : 14,
+        "errs" : 2,
+        "lob" : 18,
+        "innings" : [ 
+            {
+                "inning" : 1,
+                "score" : 1
+            }, 
+            {
+                "inning" : 2,
+                "score" : 1
+            }, 
+            {
+                "inning" : 3,
+                "score" : 0
+            }, 
+            {
+                "inning" : 4,
+                "score" : 2
+            }, 
+            {
+                "inning" : 5,
+                "score" : 0
+            }, 
+            {
+                "inning" : 6,
+                "score" : 0
+            }, 
+            {
+                "inning" : 7,
+                "score" : 1
+            }, 
+            {
+                "inning" : 8,
+                "score" : 2
+            }, 
+            {
+                "inning" : 9,
+                "score" : 1
+            }
+        ]
+    },
+    "record" : 38,
+    "sportCode" : "MBA",
+    "gameDate" : "1995-05-20T00:00:00.000Z",
+    "starters" : [ 
+        {
+            "spot" : 1,
+            "name" : "Caruso",
+            "uni" : 5,
+            "pos" : "2b"
+        }, 
+        {
+            "spot" : 2,
+            "name" : "Norris",
+            "uni" : 34,
+            "pos" : "c"
+        }, 
+        {
+            "spot" : 3,
+            "name" : "Moller",
+            "uni" : 10,
+            "pos" : "1b"
+        }, 
+        {
+            "spot" : 4,
+            "name" : "Mohr",
+            "uni" : 32,
+            "pos" : "rf"
+        }, 
+        {
+            "spot" : 5,
+            "name" : "Jordan",
+            "uni" : 12,
+            "pos" : "dh"
+        }, 
+        {
+            "spot" : 6,
+            "name" : "Taft",
+            "uni" : 1,
+            "pos" : "ss"
+        }, 
+        {
+            "spot" : 7,
+            "name" : "Loflin",
+            "uni" : 9,
+            "pos" : "lf"
+        }, 
+        {
+            "spot" : 8,
+            "name" : "DuBose",
+            "uni" : 2,
+            "pos" : "cf"
+        }, 
+        {
+            "spot" : 9,
+            "name" : "Duncan",
+            "uni" : 7,
+            "pos" : "3b"
+        }, 
+        {
+            "spot" : 10,
+            "name" : "Schleuss",
+            "uni" : 28,
+            "pos" : "p"
+        }
+    ],
+    "totals" : {
+        "hitting" : {
+            "appear" : 1,
+            "ab" : 41,
+            "r" : 8,
+            "h" : 14,
+            "rbi" : 7,
+            "double" : 2,
+            "triple" : 1,
+            "hr" : 1,
+            "bb" : 8,
+            "so" : 6,
+            "hbp" : 1,
+            "kl" : 1,
+            "sh" : 0,
+            "sf" : 2,
+            "ibb" : 1,
+            "sb" : 0,
+            "cs" : 0,
+            "rchci" : 0,
+            "rcherr" : 0,
+            "rchfc" : 0,
+            "gdp" : 0,
+            "picked" : 0,
+            "hitDp" : 0,
+            "ground" : 10,
+            "fly" : 10,
+            "tb" : 25,
+            "hwhp" : 23,
+            "abbhpsf" : 52,
+            "pa" : 52,
+            "babp" : 37
+        },
+        "fielding" : {
+            "appear" : 1,
+            "po" : 27,
+            "a" : 6,
+            "e" : 2,
+            "sba" : 4,
+            "csb" : 0,
+            "pb" : 1,
+            "ci" : 0,
+            "indp" : 0,
+            "intp" : 0,
+            "poa" : 33,
+            "poae" : 35
+        },
+        "pitching" : {
+            "appear" : 0,
+            "win" : 0,
+            "save" : 0,
+            "loss" : 0,
+            "gs" : 0,
+            "cg" : 0,
+            "sho" : 0,
+            "cbo" : 0,
+            "ip" : 9,
+            "h" : 17,
+            "r" : 7,
+            "er" : 7,
+            "bb" : 5,
+            "k" : 0,
+            "so" : 12,
+            "bf" : 48,
+            "ab" : 42,
+            "double" : 2,
+            "triple" : 2,
+            "hr" : 1,
+            "wp" : 0,
+            "bk" : 0,
+            "hbp" : 0,
+            "kl" : 6,
+            "ibb" : 0,
+            "inheritr" : 0,
+            "inherits" : 0,
+            "sfa" : 0,
+            "sha" : 1,
+            "cia" : 0,
+            "pitches" : 0,
+            "gdp" : 0,
+            "fly" : 8,
+            "ground" : 6,
+            "teamue" : 0,
+            "hhr" : 16,
+            "abkhrsf" : 41
+        },
+        "hitSummary" : {
+            "rchfc" : 2,
+            "rcherr" : 3,
+            "rchci" : 0,
+            "ground" : 10,
+            "fly" : 10,
+            "w2Outs" : [ 
+                5, 
+                14
+            ],
+            "wRunners" : [ 
+                6, 
+                25
+            ],
+            "wrBiops" : [ 
+                2, 
+                14
+            ],
+            "vsLeft" : [ 
+                4, 
+                18
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "leadOff" : [ 
+                5, 
+                9
+            ],
+            "rbiThird" : [ 
+                3, 
+                5
+            ],
+            "wLoaded" : [ 
+                1, 
+                6
+            ],
+            "advops" : [ 
+                17, 
+                32
+            ],
+            "adv" : 4,
+            "lob" : 15,
+            "rbi2Out" : 2
+        },
+        "pitchSummary" : {
+            "fly" : 8,
+            "ground" : 6,
+            "leadoff" : [ 
+                4, 
+                9
+            ],
+            "wRunners" : [ 
+                8, 
+                24
+            ],
+            "vsLeft" : [ 
+                0, 
+                8
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "w2Outs" : [ 
+                6, 
+                15
+            ],
+            "pitches" : 0,
+            "strikes" : 0
+        }
+    },
+    "actualDate" : "5/20/1995",
+    "season" : 1994,
+    "conference" : "Southeastern Conference",
+    "conferenceDivision" : "West",
+    "opponentConference" : "Southeastern Conference",
+    "opponentConferenceDivision" : "West",
+    "homeTeam" : {
+        "id" : "ALABAMA",
+        "name" : "Alabama Crimson Tide",
+        "code" : 8,
+        "score" : 8,
+        "runs" : 8,
+        "hits" : 14,
+        "errs" : 2,
+        "lob" : 18
+    },
+    "visitorTeam" : {
+        "id" : "ARK",
+        "name" : "Arkansas",
+        "code" : 31,
+        "score" : 7,
+        "runs" : 7,
+        "hits" : 17,
+        "errs" : 3,
+        "lob" : 14
+    },
+    "gameType" : [ 
+        "Post Season", 
+        "SEC TOURNAMENT"
+    ],
+    "geoLocation" : "Starkville, Miss",
+    "attendance" : 1336,
+    "nightGame" : true,
+    "neutralLocation" : false,
+    "startTime" : "2020-03-10T19:58:00.000Z",
+    "players" : [ 
+        "5e67d87dd2757e7031e4753b", 
+        "5e67d87dd2757e7031e47535", 
+        "5e67d87dd2757e7031e47537", 
+        "5e67d87dd2757e7031e47539", 
+        "5e67d87dd2757e7031e47538", 
+        "5e67d87dd2757e7031e4753a", 
+        "5e67d87dd2757e7031e47540", 
+        "5e67d87dd2757e7031e4753d", 
+        "5e67d87dd2757e7031e4753f", 
+        "5e67d87dd2757e7031e47549", 
+        "5e67d87dd2757e7031e47543", 
+        "5e67d87dd2757e7031e47548", 
+        "5e67d87dd2757e7031e47544", 
+        "5e67d87dd2757e7031e47545", 
+        "5e67d87dd2757e7031e47533", 
+        "5e67d87dd2757e7031e4753c", 
+        "5e67d87dd2757e7031e47541", 
+        "5e67d87dd2757e7031e47546", 
+        "5e67d87dd2757e7031e47542", 
+        "5e67d87dd2757e7031e47547", 
+        "5e67d87dd2757e7031e47536", 
+        "5e67d87dd2757e7031e47534", 
+        "5e67d87dd2757e7031e4753e", 
+        "5e67d87dd2757e7031e4754a", 
+        "5e67d87dd2757e7031e4754b"
+    ],
+    "gameId" : "5e67d88ed2757e7031e479fe",
+    "teamId" : "5c012705487b45235b880ca0"
+},
+{
+    "_id" : "teamGame3",
+    "code" : 8,
+    "name" : "Alabama Crimson Tide",
+    "tidyName" : "ALABAMA",
+    "homeAway" : 1,
+    "opponentCode" : 37,
+    "opponentName" : "Auburn",
+    "linescore" : {
+        "score" : 6,
+        "runs" : 6,
+        "hits" : 9,
+        "errs" : 0,
+        "lob" : 5,
+        "innings" : [ 
+            {
+                "inning" : 1,
+                "score" : 1
+            }, 
+            {
+                "inning" : 2,
+                "score" : 2
+            }, 
+            {
+                "inning" : 3,
+                "score" : 2
+            }, 
+            {
+                "inning" : 4,
+                "score" : 0
+            }, 
+            {
+                "inning" : 5,
+                "score" : 1
+            }, 
+            {
+                "inning" : 6,
+                "score" : 0
+            }, 
+            {
+                "inning" : 7,
+                "score" : 0
+            }, 
+            {
+                "inning" : 8,
+                "score" : 0
+            }, 
+            {
+                "inning" : 9,
+                "score" : 0
+            }
+        ]
+    },
+    "record" : 49,
+    "sportCode" : "MBA",
+    "gameDate" : "2002-06-01T00:00:00.000Z",
+    "starters" : [ 
+        {
+            "spot" : 1,
+            "name" : "Garner",
+            "uni" : 11,
+            "pos" : "rf"
+        }, 
+        {
+            "spot" : 2,
+            "name" : "Stonard",
+            "uni" : 1,
+            "pos" : "2b"
+        }, 
+        {
+            "spot" : 3,
+            "name" : "J. Brown",
+            "uni" : 14,
+            "pos" : "c"
+        }, 
+        {
+            "spot" : 4,
+            "name" : "McClanahan",
+            "uni" : 24,
+            "pos" : "cf"
+        }, 
+        {
+            "spot" : 5,
+            "name" : "Boyd",
+            "uni" : 6,
+            "pos" : "1b"
+        }, 
+        {
+            "spot" : 6,
+            "name" : "White",
+            "uni" : 36,
+            "pos" : "lf"
+        }, 
+        {
+            "spot" : 7,
+            "name" : "Welch",
+            "uni" : 12,
+            "pos" : "dh"
+        }, 
+        {
+            "spot" : 8,
+            "name" : "Pavkovich",
+            "uni" : 4,
+            "pos" : "ss"
+        }, 
+        {
+            "spot" : 9,
+            "name" : "Rice",
+            "uni" : 26,
+            "pos" : "3b"
+        }, 
+        {
+            "spot" : 10,
+            "name" : "Cormier",
+            "uni" : 18,
+            "pos" : "p"
+        }
+    ],
+    "totals" : {
+        "hitting" : {
+            "appear" : 1,
+            "ab" : 32,
+            "r" : 6,
+            "h" : 9,
+            "rbi" : 6,
+            "double" : 2,
+            "triple" : 1,
+            "hr" : 0,
+            "bb" : 3,
+            "so" : 7,
+            "hbp" : 0,
+            "kl" : 2,
+            "sh" : 0,
+            "sf" : 0,
+            "ibb" : 0,
+            "sb" : 2,
+            "cs" : 0,
+            "rchci" : 0,
+            "rcherr" : 0,
+            "rchfc" : 0,
+            "gdp" : 0,
+            "picked" : 0,
+            "hitDp" : 1,
+            "ground" : 6,
+            "fly" : 9,
+            "tb" : 16,
+            "hwhp" : 12,
+            "abbhpsf" : 35,
+            "pa" : 37,
+            "babp" : 30
+        },
+        "fielding" : {
+            "appear" : 1,
+            "po" : 27,
+            "a" : 11,
+            "e" : 0,
+            "sba" : 0,
+            "csb" : 1,
+            "pb" : 0,
+            "ci" : 0,
+            "indp" : 0,
+            "intp" : 0,
+            "poa" : 38,
+            "poae" : 38
+        },
+        "pitching" : {
+            "appear" : 0,
+            "win" : 0,
+            "save" : 1,
+            "loss" : 0,
+            "gs" : 0,
+            "cg" : 0,
+            "sho" : 0,
+            "cbo" : 0,
+            "ip" : 9,
+            "h" : 8,
+            "r" : 3,
+            "er" : 3,
+            "bb" : 2,
+            "k" : 0,
+            "so" : 9,
+            "bf" : 37,
+            "ab" : 34,
+            "double" : 2,
+            "triple" : 0,
+            "hr" : 0,
+            "wp" : 0,
+            "bk" : 0,
+            "hbp" : 1,
+            "kl" : 4,
+            "ibb" : 0,
+            "inheritr" : 0,
+            "inherits" : 0,
+            "sfa" : 0,
+            "sha" : 0,
+            "cia" : 0,
+            "pitches" : 0,
+            "gdp" : 0,
+            "fly" : 7,
+            "ground" : 10,
+            "teamue" : 0,
+            "hhr" : 8,
+            "abkhrsf" : 34
+        },
+        "hitSummary" : {
+            "rchfc" : 0,
+            "rcherr" : 1,
+            "rchci" : 0,
+            "ground" : 6,
+            "fly" : 9,
+            "w2Outs" : [ 
+                1, 
+                9
+            ],
+            "wRunners" : [ 
+                7, 
+                15
+            ],
+            "wrBiops" : [ 
+                5, 
+                11
+            ],
+            "vsLeft" : [ 
+                0
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "leadOff" : [ 
+                3, 
+                8
+            ],
+            "rbiThird" : [ 
+                3, 
+                4
+            ],
+            "wLoaded" : [ 
+                0
+            ],
+            "advops" : [ 
+                9, 
+                15
+            ],
+            "adv" : 4,
+            "lob" : 5,
+            "rbi2Out" : 1
+        },
+        "pitchSummary" : {
+            "fly" : 7,
+            "ground" : 10,
+            "leadoff" : [ 
+                3, 
+                9
+            ],
+            "wRunners" : [ 
+                5, 
+                15
+            ],
+            "vsLeft" : [ 
+                4, 
+                13
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "w2Outs" : [ 
+                0, 
+                8
+            ],
+            "pitches" : 157,
+            "strikes" : 0
+        }
+    },
+    "actualDate" : "6/1/2002",
+    "season" : 2001,
+    "conference" : "Southeastern Conference",
+    "conferenceDivision" : "West",
+    "opponentConference" : "Southeastern Conference",
+    "opponentConferenceDivision" : "West",
+    "homeTeam" : {
+        "id" : "ALABAMA",
+        "name" : "Alabama Crimson Tide",
+        "code" : 8,
+        "score" : 6,
+        "runs" : 6,
+        "hits" : 9,
+        "errs" : 0,
+        "lob" : 5
+    },
+    "visitorTeam" : {
+        "id" : "AU",
+        "name" : "Auburn",
+        "code" : 37,
+        "score" : 3,
+        "runs" : 3,
+        "hits" : 8,
+        "errs" : 1,
+        "lob" : 7
+    },
+    "gameType" : [ 
+        "Post Season", 
+        "NCAA TOURNAMENT", 
+        "NCAA REGIONALS"
+    ],
+    "geoLocation" : "TUSCALOOSA, ALABAMA",
+    "attendance" : 3696,
+    "nightGame" : false,
+    "neutralLocation" : false,
+    "startTime" : "2020-03-10T11:05:00.000Z",
+    "players" : [ 
+        "5e67d877d2757e7031e47357", 
+        "5e67d83ed2757e7031e4718d", 
+        "5e67d83ed2757e7031e47191", 
+        "5e67d83ed2757e7031e47192", 
+        "5e67d83ed2757e7031e4718f", 
+        "5e67d83ed2757e7031e47193", 
+        "5e67d877d2757e7031e4736b", 
+        "5e67d83ed2757e7031e47197", 
+        "5e67d877d2757e7031e47355", 
+        "5e67d83ed2757e7031e4719c", 
+        "5e67d877d2757e7031e4735a", 
+        "5e67d877d2757e7031e4735b", 
+        "5e67d877d2757e7031e4735c", 
+        "5e67d877d2757e7031e4735d", 
+        "5e67d877d2757e7031e4735e", 
+        "5e67d877d2757e7031e4735f", 
+        "5e67d83ed2757e7031e4719d", 
+        "5e67d877d2757e7031e47359", 
+        "5e67d877d2757e7031e47360", 
+        "5e67d83ed2757e7031e471a2", 
+        "5e67d877d2757e7031e47361", 
+        "5e67d83ed2757e7031e47194", 
+        "5e67d877d2757e7031e47362", 
+        "5e67d877d2757e7031e47363", 
+        "5e67d877d2757e7031e47364", 
+        "5e67d877d2757e7031e47358", 
+        "5e67d877d2757e7031e47365", 
+        "5e67d83ed2757e7031e471a7", 
+        "5e67d877d2757e7031e47366", 
+        "5e67d83ed2757e7031e471a9", 
+        "5e67d877d2757e7031e47367", 
+        "5e67d83ed2757e7031e47196", 
+        "5e67d877d2757e7031e47368", 
+        "5e67d83ed2757e7031e4719a", 
+        "5e67d83ed2757e7031e471aa", 
+        "5e67d83ed2757e7031e47195", 
+        "5e67d877d2757e7031e47356", 
+        "5e67d877d2757e7031e47369", 
+        "5e67d877d2757e7031e4736a", 
+        "5e67d83ed2757e7031e47199"
+    ],
+    "gameId" : "5e67d8cdd2757e7031e48be5",
+    "teamId" : "5c012705487b45235b880ca0"
+},
+{
+    "_id" : "teamGame4",
+    "code" : 8,
+    "name" : "Alabama",
+    "tidyName" : "UA",
+    "homeAway" : 0,
+    "opponentCode" : 147,
+    "opponentName" : "Clemson",
+    "linescore" : {
+        "score" : 5,
+        "runs" : 5,
+        "hits" : 10,
+        "errs" : 0,
+        "lob" : 7,
+        "innings" : [ 
+            {
+                "inning" : 1,
+                "score" : 0
+            }, 
+            {
+                "inning" : 2,
+                "score" : 1
+            }, 
+            {
+                "inning" : 3,
+                "score" : 4
+            }, 
+            {
+                "inning" : 4,
+                "score" : 0
+            }, 
+            {
+                "inning" : 5,
+                "score" : 0
+            }, 
+            {
+                "inning" : 6,
+                "score" : 0
+            }, 
+            {
+                "inning" : 7,
+                "score" : 0
+            }, 
+            {
+                "inning" : 8,
+                "score" : 0
+            }, 
+            {
+                "inning" : 9,
+                "score" : 0
+            }
+        ]
+    },
+    "record" : 42,
+    "sportCode" : "MBA",
+    "gameDate" : "2010-06-12T00:00:00.000Z",
+    "starters" : [ 
+        {
+            "spot" : 1,
+            "name" : "Dugas",
+            "uni" : 1,
+            "pos" : "cf"
+        }, 
+        {
+            "spot" : 2,
+            "name" : "Rutledge",
+            "uni" : 2,
+            "pos" : "ss"
+        }, 
+        {
+            "spot" : 3,
+            "name" : "Wilson",
+            "uni" : 3,
+            "pos" : "2b"
+        }, 
+        {
+            "spot" : 4,
+            "name" : "Jones",
+            "uni" : 16,
+            "pos" : "1b"
+        }, 
+        {
+            "spot" : 5,
+            "name" : "J. Smith",
+            "uni" : 14,
+            "pos" : "3b"
+        }, 
+        {
+            "spot" : 6,
+            "name" : "Kelton",
+            "uni" : 10,
+            "pos" : "lf"
+        }, 
+        {
+            "spot" : 7,
+            "name" : "Miller",
+            "uni" : 9,
+            "pos" : "rf"
+        }, 
+        {
+            "spot" : 8,
+            "name" : "Booth",
+            "uni" : 5,
+            "pos" : "dh"
+        }, 
+        {
+            "spot" : 9,
+            "name" : "Bennett",
+            "uni" : 41,
+            "pos" : "c"
+        }, 
+        {
+            "spot" : 10,
+            "name" : "Nelson",
+            "uni" : 40,
+            "pos" : "p"
+        }
+    ],
+    "totals" : {
+        "hitting" : {
+            "appear" : 1,
+            "ab" : 35,
+            "r" : 5,
+            "h" : 10,
+            "rbi" : 4,
+            "double" : 2,
+            "triple" : 0,
+            "hr" : 1,
+            "bb" : 0,
+            "so" : 10,
+            "hbp" : 1,
+            "kl" : 4,
+            "sh" : 3,
+            "sf" : 0,
+            "ibb" : 0,
+            "sb" : 0,
+            "cs" : 0,
+            "rchci" : 0,
+            "rcherr" : 0,
+            "rchfc" : 0,
+            "gdp" : 1,
+            "picked" : 0,
+            "hitDp" : 1,
+            "ground" : 9,
+            "fly" : 7,
+            "tb" : 18,
+            "hwhp" : 11,
+            "abbhpsf" : 36,
+            "pa" : 36,
+            "babp" : 30
+        },
+        "fielding" : {
+            "appear" : 1,
+            "po" : 27,
+            "a" : 12,
+            "e" : 0,
+            "sba" : 0,
+            "csb" : 0,
+            "pb" : 0,
+            "ci" : 0,
+            "indp" : 2,
+            "intp" : 0,
+            "poa" : 39,
+            "poae" : 39
+        },
+        "pitching" : {
+            "appear" : 0,
+            "win" : 0,
+            "save" : 0,
+            "loss" : 0,
+            "gs" : 0,
+            "cg" : 0,
+            "sho" : 0,
+            "cbo" : 0,
+            "ip" : 9,
+            "h" : 11,
+            "r" : 4,
+            "er" : 4,
+            "bb" : 5,
+            "k" : 0,
+            "so" : 6,
+            "bf" : 41,
+            "ab" : 35,
+            "double" : 1,
+            "triple" : 1,
+            "hr" : 0,
+            "wp" : 2,
+            "bk" : 0,
+            "hbp" : 0,
+            "kl" : 5,
+            "ibb" : 0,
+            "inheritr" : 0,
+            "inherits" : 0,
+            "sfa" : 1,
+            "sha" : 0,
+            "cia" : 0,
+            "pitches" : 0,
+            "gdp" : 2,
+            "fly" : 6,
+            "ground" : 13,
+            "teamue" : 0,
+            "hhr" : 11,
+            "abkhrsf" : 36
+        },
+        "hitSummary" : {
+            "rchfc" : 2,
+            "rcherr" : 2,
+            "rchci" : 0,
+            "ground" : 9,
+            "fly" : 7,
+            "w2Outs" : [ 
+                2, 
+                11
+            ],
+            "wRunners" : [ 
+                3, 
+                18
+            ],
+            "wrBiops" : [ 
+                2, 
+                14
+            ],
+            "vsLeft" : [ 
+                10, 
+                33
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "leadOff" : [ 
+                6, 
+                9
+            ],
+            "rbiThird" : [ 
+                0, 
+                1
+            ],
+            "wLoaded" : [ 
+                1, 
+                3
+            ],
+            "advops" : [ 
+                9, 
+                21
+            ],
+            "adv" : 5,
+            "lob" : 7,
+            "rbi2Out" : 3
+        },
+        "pitchSummary" : {
+            "fly" : 6,
+            "ground" : 13,
+            "leadoff" : [ 
+                2, 
+                9
+            ],
+            "wRunners" : [ 
+                7, 
+                17
+            ],
+            "vsLeft" : [ 
+                10, 
+                25
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "w2Outs" : [ 
+                4, 
+                11
+            ],
+            "pitches" : 147,
+            "strikes" : 0
+        }
+    },
+    "actualDate" : "6/12/2010",
+    "season" : 2009,
+    "conference" : "Southeastern Conference",
+    "conferenceDivision" : "West",
+    "opponentConference" : "Atlantic Coast Conference",
+    "opponentConferenceDivision" : "Atlantic",
+    "homeTeam" : {
+        "id" : "CU",
+        "name" : "Clemson",
+        "code" : 147,
+        "score" : 4,
+        "runs" : 4,
+        "hits" : 11,
+        "errs" : 2,
+        "lob" : 10
+    },
+    "visitorTeam" : {
+        "id" : "UA",
+        "name" : "Alabama",
+        "code" : 8,
+        "score" : 5,
+        "runs" : 5,
+        "hits" : 10,
+        "errs" : 0,
+        "lob" : 7
+    },
+    "gameType" : [ 
+        "Post Season", 
+        "NCAA TOURNAMENT", 
+        "NCAA SUPER REGIONALS"
+    ],
+    "geoLocation" : "Clemson, S.C.",
+    "attendance" : 6346,
+    "nightGame" : true,
+    "neutralLocation" : false,
+    "startTime" : "2020-03-10T18:06:00.000Z",
+    "players" : [ 
+        "5e67dbc1d2757e7031e554f1", 
+        "5e67d8afd2757e7031e48386", 
+        "5e67d8afd2757e7031e48387", 
+        "5e67dbc1d2757e7031e554ef", 
+        "5e67d8afd2757e7031e48388", 
+        "5e67dbc1d2757e7031e554f2", 
+        "5e67dbf0d2757e7031e5608f", 
+        "5e67dbf0d2757e7031e5608a", 
+        "5e67dbc1d2757e7031e554f0", 
+        "5e67d8afd2757e7031e4838a", 
+        "5e67d8afd2757e7031e4838e", 
+        "5e67dbf0d2757e7031e56092", 
+        "5e67dbf0d2757e7031e5608d", 
+        "5e67dbecd2757e7031e55f57", 
+        "5e67dbc1d2757e7031e554f4", 
+        "5e67dbf0d2757e7031e56089", 
+        "5e67d8afd2757e7031e4838c", 
+        "5e67dbf0d2757e7031e5608e", 
+        "5e67dbc1d2757e7031e554f3", 
+        "5e67dbf0d2757e7031e56090", 
+        "5e67dbf0d2757e7031e56091", 
+        "5e67dbc1d2757e7031e554f6", 
+        "5e67dbf0d2757e7031e56093", 
+        "5e67dbf0d2757e7031e56094", 
+        "5e67dbf0d2757e7031e56095", 
+        "5e67dbf0d2757e7031e5608b", 
+        "5e67dbf0d2757e7031e56096", 
+        "5e67dbf0d2757e7031e5608c", 
+        "5e67dbc1d2757e7031e554f7", 
+        "5e67dbf0d2757e7031e56097", 
+        "5e67dbf0d2757e7031e56098"
+    ],
+    "gameId" : "5e67dc5ed2757e7031e57b95",
+    "teamId" : "5c012705487b45235b880ca0"
+},
+{
+    "_id" : "teamGame5",
+    "code" : 8,
+    "name" : "Alabama Crimson Tide",
+    "tidyName" : "ALABAMA",
+    "homeAway" : 1,
+    "opponentCode" : 147,
+    "opponentName" : "Clemson Tigers",
+    "linescore" : {
+        "score" : 13,
+        "runs" : 13,
+        "hits" : 15,
+        "errs" : 1,
+        "lob" : 8,
+        "innings" : [ 
+            {
+                "inning" : 1,
+                "score" : 0
+            }, 
+            {
+                "inning" : 2,
+                "score" : 0
+            }, 
+            {
+                "inning" : 3,
+                "score" : 3
+            }, 
+            {
+                "inning" : 4,
+                "score" : 0
+            }, 
+            {
+                "inning" : 5,
+                "score" : 0
+            }, 
+            {
+                "inning" : 6,
+                "score" : 2
+            }, 
+            {
+                "inning" : 7,
+                "score" : 5
+            }, 
+            {
+                "inning" : 8,
+                "score" : 2
+            }, 
+            {
+                "inning" : 9,
+                "score" : 1
+            }
+        ]
+    },
+    "record" : 50,
+    "sportCode" : "MBA",
+    "gameDate" : "1996-06-04T00:00:00.000Z",
+    "starters" : [ 
+        {
+            "spot" : 1,
+            "name" : "Tidwell",
+            "uni" : 26,
+            "pos" : "lf"
+        }, 
+        {
+            "spot" : 2,
+            "name" : "Caruso",
+            "uni" : 5,
+            "pos" : "2b"
+        }, 
+        {
+            "spot" : 3,
+            "name" : "Norris",
+            "uni" : 4,
+            "pos" : "c"
+        }, 
+        {
+            "spot" : 4,
+            "name" : "Moller",
+            "uni" : 10,
+            "pos" : "1b"
+        }, 
+        {
+            "spot" : 5,
+            "name" : "Mohr",
+            "uni" : 32,
+            "pos" : "rf"
+        }, 
+        {
+            "spot" : 6,
+            "name" : "Spiers",
+            "uni" : 12,
+            "pos" : "dh"
+        }, 
+        {
+            "spot" : 7,
+            "name" : "Taft",
+            "uni" : 1,
+            "pos" : "ss"
+        }, 
+        {
+            "spot" : 8,
+            "name" : "Duncan",
+            "uni" : 7,
+            "pos" : "3b"
+        }, 
+        {
+            "spot" : 9,
+            "name" : "Hall",
+            "uni" : 27,
+            "pos" : "cf"
+        }, 
+        {
+            "spot" : 10,
+            "name" : "Young",
+            "uni" : 3,
+            "pos" : "p"
+        }
+    ],
+    "totals" : {
+        "hitting" : {
+            "appear" : 1,
+            "ab" : 43,
+            "r" : 13,
+            "h" : 15,
+            "rbi" : 12,
+            "double" : 2,
+            "triple" : 0,
+            "hr" : 4,
+            "bb" : 4,
+            "so" : 11,
+            "hbp" : 1,
+            "kl" : 5,
+            "sh" : 0,
+            "sf" : 0,
+            "ibb" : 0,
+            "sb" : 1,
+            "cs" : 0,
+            "rchci" : 0,
+            "rcherr" : 0,
+            "rchfc" : 0,
+            "gdp" : 0,
+            "picked" : 0,
+            "hitDp" : 0,
+            "ground" : 5,
+            "fly" : 11,
+            "tb" : 35,
+            "hwhp" : 20,
+            "abbhpsf" : 48,
+            "pa" : 49,
+            "babp" : 34
+        },
+        "fielding" : {
+            "appear" : 1,
+            "po" : 27,
+            "a" : 10,
+            "e" : 1,
+            "sba" : 1,
+            "csb" : 0,
+            "pb" : 0,
+            "ci" : 0,
+            "indp" : 1,
+            "intp" : 0,
+            "poa" : 37,
+            "poae" : 38
+        },
+        "pitching" : {
+            "appear" : 0,
+            "win" : 0,
+            "save" : 0,
+            "loss" : 0,
+            "gs" : 0,
+            "cg" : 0,
+            "sho" : 0,
+            "cbo" : 0,
+            "ip" : 9,
+            "h" : 17,
+            "r" : 14,
+            "er" : 14,
+            "bb" : 4,
+            "k" : 0,
+            "so" : 7,
+            "bf" : 48,
+            "ab" : 43,
+            "double" : 3,
+            "triple" : 1,
+            "hr" : 2,
+            "wp" : 0,
+            "bk" : 1,
+            "hbp" : 1,
+            "kl" : 2,
+            "ibb" : 0,
+            "inheritr" : 0,
+            "inherits" : 0,
+            "sfa" : 0,
+            "sha" : 0,
+            "cia" : 0,
+            "pitches" : 0,
+            "gdp" : 1,
+            "fly" : 8,
+            "ground" : 10,
+            "teamue" : 0,
+            "hhr" : 15,
+            "abkhrsf" : 41
+        },
+        "hitSummary" : {
+            "rchfc" : 1,
+            "rcherr" : 1,
+            "rchci" : 0,
+            "ground" : 5,
+            "fly" : 11,
+            "w2Outs" : [ 
+                7, 
+                17
+            ],
+            "wRunners" : [ 
+                10, 
+                24
+            ],
+            "wrBiops" : [ 
+                5, 
+                14
+            ],
+            "vsLeft" : [ 
+                6, 
+                24
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "leadOff" : [ 
+                5, 
+                9
+            ],
+            "rbiThird" : [ 
+                0, 
+                1
+            ],
+            "wLoaded" : [ 
+                1, 
+                1
+            ],
+            "advops" : [ 
+                13, 
+                25
+            ],
+            "adv" : 1,
+            "lob" : 8,
+            "rbi2Out" : 9
+        },
+        "pitchSummary" : {
+            "fly" : 8,
+            "ground" : 10,
+            "leadoff" : [ 
+                2, 
+                9
+            ],
+            "wRunners" : [ 
+                13, 
+                24
+            ],
+            "vsLeft" : [ 
+                5, 
+                13
+            ],
+            "vsRight" : [ 
+                0
+            ],
+            "w2Outs" : [ 
+                2, 
+                10
+            ],
+            "pitches" : 0,
+            "strikes" : 0
+        }
+    },
+    "actualDate" : "6/4/1996",
+    "season" : 1995,
+    "conference" : "Southeastern Conference",
+    "conferenceDivision" : "West",
+    "opponentConference" : "Atlantic Coast Conference",
+    "opponentConferenceDivision" : null,
+    "homeTeam" : {
+        "id" : "ALABAMA",
+        "name" : "Alabama Crimson Tide",
+        "code" : 8,
+        "score" : 13,
+        "runs" : 13,
+        "hits" : 15,
+        "errs" : 1,
+        "lob" : 8
+    },
+    "visitorTeam" : {
+        "id" : "CLEMSON",
+        "name" : "Clemson Tigers",
+        "code" : 147,
+        "score" : 14,
+        "runs" : 14,
+        "hits" : 17,
+        "errs" : 1,
+        "lob" : 7
+    },
+    "gameType" : [ 
+        "Post Season", 
+        "NCAA TOURNAMENT", 
+        "NCAA COLLEGE WORLD SERIES"
+    ],
+    "geoLocation" : "Omaha, Nebraska",
+    "attendance" : 21868,
+    "nightGame" : false,
+    "neutralLocation" : false,
+    "startTime" : "2020-03-10T14:36:00.000Z",
+    "players" : [ 
+        "5e67d896d2757e7031e47c1b", 
+        "5e67d87dd2757e7031e4753b", 
+        "5e67d87dd2757e7031e47535", 
+        "5e67d87dd2757e7031e47537", 
+        "5e67d87dd2757e7031e47539", 
+        "5e67d8c3d2757e7031e48946", 
+        "5e67d875d2757e7031e472c5", 
+        "5e67d87dd2757e7031e4753a", 
+        "5e67d87dd2757e7031e4753f", 
+        "5e67d87dd2757e7031e47540", 
+        "5e67d8c3d2757e7031e48945", 
+        "5e67d87dd2757e7031e47533", 
+        "5e67d87dd2757e7031e4754b", 
+        "5e67d8c3d2757e7031e48947", 
+        "5e67d8c0d2757e7031e4886a", 
+        "5e67d896d2757e7031e47c21", 
+        "5e67d87dd2757e7031e47541", 
+        "5e67d87dd2757e7031e47546", 
+        "5e67d875d2757e7031e472c7", 
+        "5e67d896d2757e7031e47c23", 
+        "5e67d87dd2757e7031e47543", 
+        "5e67d87dd2757e7031e47547", 
+        "5e67d8c3d2757e7031e48948", 
+        "5e67d8c3d2757e7031e48949", 
+        "5e67d8c3d2757e7031e4894a", 
+        "5e67d8c3d2757e7031e4894b", 
+        "5e67d875d2757e7031e472ce", 
+        "5e67d8c3d2757e7031e4894c", 
+        "5e67d896d2757e7031e47c1e", 
+        "5e67d896d2757e7031e47c2a"
+    ],
+    "gameId" : "5e67d8e6d2757e7031e493ee",
+    "teamId" : "5c012705487b45235b880ca0"
+}
+]

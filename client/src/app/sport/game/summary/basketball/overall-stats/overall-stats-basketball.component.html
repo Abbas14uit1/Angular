@@ -1,0 +1,186 @@
+<div id="work-collections">
+  <ul id="issues-collection" class="collection z-depth-1">
+    <li class="collection-item">
+      <div class="row">
+        <div class="col s6">
+          <span class="collection-header m-0">TEAM STATS</span>
+        </div>
+        <div class="col s3 right-align">
+          <img id="logo" src="../../../assets/images/teams/{{homeTeamStats.code}}.png" alt=" ">
+        </div>
+        <div class="col s3 right-align">
+          <img id="logo" src="../../../assets/images/teams/{{awayTeamStats.code}}.png" alt=" ">
+        </div>
+      </div>
+    </li>
+    <li class="collection-item">
+      <div class="row">
+        <div class="col s6">
+          <p class="collections-title">
+            Offense
+          </p>
+          <p class="collections-content">&nbsp;&nbsp;FGM/FGA</p>
+          <p class="collections-content">&nbsp;&nbsp;Field Goal %</p>
+          <p class="collections-content">&nbsp;&nbsp;FGM3/FGA3</p>
+          <p class="collections-content">&nbsp;&nbsp;Field Goal 3 Points %</p>
+          <p class="collections-content">&nbsp;&nbsp;FTM/FTA</p>
+          <p class="collections-content">&nbsp;&nbsp;Free Throw %</p>
+          <p class="collections-content">&nbsp;&nbsp;Total Points</p>
+          <p class="collections-content">&nbsp;&nbsp;Points off Turnovers</p>
+          <p class="collections-content">&nbsp;&nbsp;Points in Paint</p>
+          <p class="collections-content">&nbsp;&nbsp;Points from fast breaks</p>
+          <p class="collections-content">&nbsp;&nbsp;Number of Ties</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{homeTeamStats.statsFGM}}/{{homeTeamStats.statsFGA}}</p>
+          <p class="collections-content">{{homeTeamStats.statsFGPCT}}</p>
+          <p class="collections-content">{{homeTeamStats.statsFGM3}}/{{homeTeamStats.statsFGA3}}</p>
+          <p class="collections-content">{{homeTeamStats.statsFG3PCT}}</p>
+          <p class="collections-content">{{homeTeamStats.statsFTM}}/{{homeTeamStats.statsFTA}}</p>
+          <p class="collections-content">{{homeTeamStats.statsFTPCT}}</p>
+          <p class="collections-content">{{homeTeamStats.statsTP}}</p>
+          <p class="collections-content">{{homeTeamStats.specialPTSTO ? homeTeamStats.specialPTSTO : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialPTSPaint ? homeTeamStats.specialPTSPaint : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialPTSFastb ? homeTeamStats.specialPTSFastb : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialTies ? homeTeamStats.specialTies : 0}}</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{awayTeamStats.statsFGM}}/{{awayTeamStats.statsFGA}}</p>
+          <p class="collections-content">{{awayTeamStats.statsFGPCT }}</p>
+          <p class="collections-content">{{awayTeamStats.statsFGM3}}/{{awayTeamStats.statsFGA3}}</p>
+          <p class="collections-content">{{awayTeamStats.statsFG3PCT}}</p>
+          <p class="collections-content">{{awayTeamStats.statsFTM}}/{{awayTeamStats.statsFTA}}</p>
+          <p class="collections-content">{{awayTeamStats.statsFTPCT}}</p>
+          <p class="collections-content">{{awayTeamStats.statsTP}}</p>
+          <p class="collections-content">{{awayTeamStats.specialPTSTO ? awayTeamStats.specialPTSTO : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialPTSPaint ? awayTeamStats.specialPTSPaint : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialPTSFastb ? awayTeamStats.specialPTSFastb : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialTies ? awayTeamStats.specialTies : 0}}</p>
+        </div>
+      </div>
+    </li>
+    <li class="collection-item">
+      <div class="row">
+        <div class="col s6">
+          <p class="collections-title">
+            Defense
+          </p>
+          <p class="collections-content">&nbsp;&nbsp;Blocks</p>
+          <p class="collections-content">&nbsp;&nbsp;Steals</p>
+          <p class="collections-content">&nbsp;&nbsp;Assists</p>
+          <p class="collections-content">&nbsp;&nbsp;Turnovers</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{homeTeamStats.statsBLK}}</p>
+          <p class="collections-content">{{homeTeamStats.statsSTL}}</p>
+          <p class="collections-content">{{homeTeamStats.statsAST}}</p>
+          <p class="collections-content">{{homeTeamStats.statsTO}}</p>          
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{awayTeamStats.statsBLK}}</p>
+          <p class="collections-content">{{awayTeamStats.statsSTL}}</p>
+          <p class="collections-content">{{awayTeamStats.statsAST}}</p>
+          <p class="collections-content">{{awayTeamStats.statsTO}}</p>
+         
+        </div>
+      </div>
+    </li>
+    <li class="collection-item">
+      <div class="row">
+        <div class="col s6">
+          <p class="collections-title">
+            Rebounds
+          </p>
+          <p class="collections-content">&nbsp;&nbsp;Offensive Rebounds</p>
+          <p class="collections-content">&nbsp;&nbsp;Defensive Rebounds</p>
+          <p class="collections-content">&nbsp;&nbsp;Total Rebounds</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{homeTeamStats.statsOREB}}</p>
+          <p class="collections-content">{{homeTeamStats.statsDREB}}</p>
+          <p class="collections-content">{{homeTeamStats.statsTREB}}</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{awayTeamStats.statsOREB}}</p>
+          <p class="collections-content">{{awayTeamStats.statsDREB}}</p>
+          <p class="collections-content">{{awayTeamStats.statsTREB}}</p>
+        </div>
+      </div>
+    </li>
+    <li class="collection-item">
+      <div class="row">
+        <div class="col s6">
+          <p class="collections-title">
+            Fouls
+          </p>
+          <p class="collections-content">&nbsp;&nbsp;Personal Fouls</p>
+          <p class="collections-content">&nbsp;&nbsp;Technical Fouls</p>
+          <p class="collections-content">&nbsp;&nbsp;Deadball</p>
+          <p class="collections-content">&nbsp;&nbsp;Total Fouls</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{homeTeamStats.statsPF}}</p>
+          <p class="collections-content">{{homeTeamStats.statsTF}}</p>
+          <p class="collections-content">{{homeTeamStats.statsDeadball}}</p>
+          <p class="collections-content">{{homeTeamStats.statsPF + homeTeamStats.statsTF}}</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{awayTeamStats.statsPF}}</p>
+          <p class="collections-content">{{awayTeamStats.statsTF}}</p>
+          <p class="collections-content">{{awayTeamStats.statsDeadball}}</p>
+          <p class="collections-content">{{awayTeamStats.statsPF + awayTeamStats.statsTF}}</p>
+        </div>
+      </div>
+    </li>
+    <li class="collection-item">
+      <div class="row">
+        <div class="col s6">
+          <p class="collections-title">
+            Special stat
+          </p>
+          <p class="collections-content">&nbsp;&nbsp;Minutes played</p>
+          <p class="collections-content">&nbsp;&nbsp;Large lead</p>
+          <p class="collections-content">&nbsp;&nbsp;Large LeadTime</p>
+          <p class="collections-content">&nbsp;&nbsp;LeadTime</p>
+          <p class="collections-content">&nbsp;&nbsp;Leads</p>
+          <p class="collections-content">&nbsp;&nbsp;Possesion Count</p>
+          <p class="collections-content">&nbsp;&nbsp;Possesion time</p>
+          <p class="collections-content">&nbsp;&nbsp;Points from Bench</p>
+          <p class="collections-content">&nbsp;&nbsp;Second Chance Points</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{homeTeamStats.statsMIN ? homeTeamStats.statsMIN : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialLargeLead ? homeTeamStats.specialLargeLead : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialLargeLeadT ? homeTeamStats.specialLargeLeadT : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialLeadTime ? addColons(homeTeamStats.specialLeadTime) : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialLeads ? homeTeamStats.specialLeads : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialPOSSCount ? homeTeamStats.specialPOSSCount : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialPOSSTime ? homeTeamStats.specialPOSSTime : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialPTSBench ? homeTeamStats.specialPTSBench : 0}}</p>
+          <p class="collections-content">{{homeTeamStats.specialPTSCH2 ? homeTeamStats.specialPTSCH2 : 0}}</p>
+        </div>
+        <div class="col s3 right-align">
+          <br />
+          <p class="collections-content">{{awayTeamStats.statsMIN ? awayTeamStats.statsMIN : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialLargeLead ? awayTeamStats.specialLargeLead : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialLargeLeadT ? awayTeamStats.specialLargeLeadT : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialLeadTime ? addColons(awayTeamStats.specialLeadTime) : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialLeads ? awayTeamStats.specialLeads : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialPOSSCount ? awayTeamStats.specialPOSSCount : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialPOSSTime ? awayTeamStats.specialPOSSTime : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialPTSBench ? awayTeamStats.specialPTSBench : 0}}</p>
+          <p class="collections-content">{{awayTeamStats.specialPTSCH2 ? awayTeamStats.specialPTSCH2 : 0}}</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

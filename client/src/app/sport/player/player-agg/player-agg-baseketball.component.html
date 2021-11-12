@@ -1,0 +1,30 @@
+<!-- <div id="playerAggBBTbl"  *ngIf="displayedColumns.length > 0" >
+  <mat-table #playerAggBBTbl [dataSource]="dataSource" matSort>
+         <ng-container *ngFor="let col of displayedColumns" matColumnDef="{{ col }}">
+           <mat-header-cell *matHeaderCellDef class="header" >
+           {{ columnDisplayNames[col] }}</mat-header-cell>
+           <mat-cell *matCellDef="let element">
+             {{ element[col] }}
+           </mat-cell>
+         </ng-container>
+         <mat-header-row *matHeaderRowDef="displayedColumns" [ngStyle]="{'background': this.teamColors[teamCode]}"></mat-header-row>
+         <mat-row *matRowDef="let row; columns: displayedColumns;"
+         [ngClass]="row.season == 'TOTAL' ? 'font-weight-600' : ''"></mat-row>
+       </mat-table>
+</div> -->
+
+<div id="playerAggBBTbl">
+  <mat-table #playerAggBBTbl [dataSource]="dataSource" matSort>
+         <ng-container *ngFor="let col of displayedColumns" matColumnDef="{{ col }}">
+           <mat-header-cell *matHeaderCellDef class="header" >
+           {{ columnDisplayNames[col] }}</mat-header-cell>
+           <mat-cell *matCellDef="let element">
+             {{ element[col] }}
+           </mat-cell>
+         </ng-container>
+         <mat-header-row *matHeaderRowDef="displayedColumns" [ngStyle]="{'background': this.teamColors[teamCode]}"></mat-header-row>
+         <mat-row *matRowDef="let row; columns: displayedColumns;"
+         [ngClass]="row.season == 'TOTAL' ? 'font-weight-600' : ''"></mat-row>
+       </mat-table>
+</div>
+

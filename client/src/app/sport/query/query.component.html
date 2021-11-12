@@ -1,0 +1,81 @@
+<app-header [config]="headerConfig.normal"></app-header>
+<!-- <mat-tab-group class="game-tab-group" id="queryPageTabs" (selectedTabChange)="onTabChange($event)">
+      <mat-tab label="Data explorer"> -->
+<div class="row" style="margin-top: 1.1rem;" *ngIf="tabIndex == 0">
+  <div class="card col s12 m3 l3 filter-height" [ngStyle]="{display: (showFilter ? 'block' : 'none')}"
+    style="padding-bottom: 25px;width: 19%;">
+    <app-filter-menu-football *ngIf="sportId == 'MFB'" (results)="onResults($event)" (spinner)="onGetResults($event)"
+      id="filter-column" [sportId]="sportId" style="padding: 5px;" [selectedSplit]="selectedSplit"
+      (splitValue)="entityTypeChange($event)" (selectedTeamChange)="selectedTeamChange($event)"
+      (resultsMessage)="onResultsMessage($event)">
+    </app-filter-menu-football>
+    <app-filter-menu-basketball *ngIf="sportId == 'MBB' || sportId == 'WBB'" (results)="onResults($event)"
+      (spinner)="onGetResults($event)" id="filter-column" [sportId]="sportId" style="padding: 5px;"
+      [selectedSplit]="selectedSplit" (splitValue)="entityTypeChange($event)"
+      (selectedTeamChange)="selectedTeamChange($event)" (resultsMessage)="onResultsMessage($event)">
+    </app-filter-menu-basketball>
+
+    <app-filter-menu-baseball *ngIf="sportId == 'WSB' || sportId == 'MBA'" (results)="onResults($event)"
+      (spinner)="onGetResults($event)" id="filter-column" [sportId]="sportId" style="padding: 5px;"
+      [selectedSplit]="selectedSplit" (splitValue)="entityTypeChange($event)"
+      (selectedTeamChange)="selectedTeamChange($event)" (resultsMessage)="onResultsMessage($event)">
+    </app-filter-menu-baseball>
+
+    <app-filter-menu-soccer *ngIf="sportId == 'MSO' || sportId == 'WSO'" (results)="onResults($event)"
+      (spinner)="onGetResults($event)" id="filter-column" [sportId]="sportId" style="padding: 5px;"
+      [selectedSplit]="selectedSplit" (splitValue)="entityTypeChange($event)"
+      (selectedTeamChange)="selectedTeamChange($event)" (resultsMessage)="onResultsMessage($event)">
+    </app-filter-menu-soccer>
+
+  </div>
+  <div [ngClass]="showFilter== true ? 'col s12 m9 l9' : 'col s12 m12 l12'"
+    [ngStyle]="{width: (showFilter ? '80.75%' : '100%')}">
+    <div>
+      <div class="progress" *ngIf="spinner == true">
+        <div class="indeterminate"></div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row" style="margin-top:15px;">
+        <div class="col s12 l12 m12">
+          <button type="button" class="btn-flat" (click)="onClick($event,showFilter)" matTooltip="Toggle filter menu">
+            <i class="small material-icons">view_headline</i>
+          </button>
+          <div class="chip cursor" *ngFor="let split of splits" (click)="splitSectionChange(split.value)"
+            [ngClass]="selectedSplit == split.value ? 'white-text grey darken-2' : '' || storyresearch=='Player Statistics'?(split.value == 'quarter'?'my-disable': split.value == 'drive' ?'my-disable': split.value == 'half'?'my-disable':''):''">
+            {{split.viewValue}}
+          </div>
+          <div class=" chip cursor" (click)="exportAsExcelFile()" *ngIf="results?.length > 0 && spinner == false">
+            Export to excel
+          </div>
+
+        </div>
+      </div>
+      <div class="row center" *ngIf="results?.length == 0 && spinner == false && selectedSplit !== 'NA'"
+        style="padding: 20px;"> {{message}}</div>
+      <div class="row" *ngIf="results?.length > 0 && spinner == false">
+        <app-query-display [results]="results" id="display-column" *ngIf="spinner == false"
+          [selectedSplit]="selectedSplit" [showGameType]="showGameType" [teamColor]="this.teamColors[selectedTeam]">
+        </app-query-display>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row" style="margin-top: 1.1rem;" *ngIf="tabIndex == 1">
+  <app-query-builderdb-football *ngIf="tabIndex == 1 && sportId == 'MFB'"></app-query-builderdb-football>
+  <app-query-builderdb-basketball *ngIf="tabIndex == 1 && (sportId == 'MBB' || sportId == 'WBB')">
+  </app-query-builderdb-basketball>
+  <app-query-builderdb-baseball *ngIf="tabIndex == 1 && (sportId == 'MBA' || sportId == 'WSB')">
+  </app-query-builderdb-baseball>
+  <!-- <app-query-builderdb-soccer *ngIf="tabIndex == 1 && (sportId == 'WSO' || sportId == 'MSO')"></app-query-builderdb-soccer> -->
+  <app-newquery-builderdb-soccer *ngIf="tabIndex == 1 && (sportId == 'WSO' || sportId == 'MSO')">
+  </app-newquery-builderdb-soccer>
+</div>
+<!-- </mat-tab> -->
+<!--     <mat-tab label="Query Builder"> 
+         <app-query-builderdb-football *ngIf="tabIndex == 1 && sportId == 'MFB'"></app-query-builderdb-football>
+         <app-query-builderdb-basketball *ngIf="tabIndex == 1 && (sportId == 'MBB' || sportId == 'WBB')"></app-query-builderdb-basketball>
+         <app-query-builderdb-baseball *ngIf="tabIndex == 1 && (sportId == 'MBA' || sportId == 'WSB')"></app-query-builderdb-baseball>
+      </mat-tab> -->
+<!-- </mat-tab-group> -->

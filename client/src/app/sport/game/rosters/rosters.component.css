@@ -1,0 +1,97 @@
+.mat-row:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.home-column {
+  width: 50%;
+  float: left;
+}
+
+.mat-table {
+    height: 300px;
+    overflow-y: auto;
+  }
+
+.visitor-column {
+  width: 50%;
+  float: right;
+}
+
+.roster-select-group {
+  display: none;
+}
+
+#roster-select {
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.mat-column-position {
+  max-width: 40px;
+}
+
+.mat-column-class {
+  max-width: 70px;
+}
+
+.row {
+  display: table;
+  width: 100%;
+}
+
+.column {
+  display: table-cell;
+}
+
+#select-col {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.offset {
+  width: 25%;
+}
+
+.col-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  .visitor-column,
+  .home-column {
+    display: none;
+  }
+  .roster-select-group {
+    display: block;
+  }
+
+  .mat-column-position {
+    max-width: 100px;
+  }
+
+  .mat-column-class {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    .mat-row {
+        padding-left: 0;
+    }
+
+    .mat-header-row {
+        padding-left: 0;
+    }
+
+    .mat-column-position {
+        max-width: 70px;
+      }
+    
+      .mat-column-class {
+        max-width: 70px;
+      }
+}

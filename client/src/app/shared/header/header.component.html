@@ -1,0 +1,23 @@
+<mat-toolbar class="mat-elevation-z5" id="header" *ngIf="showLogout" style="background: rgba(255,255,255,.87)">
+  <mat-toolbar-row class="mat-elevation-z5" style="min-height: 70px !important;height: 70px !important;">
+    <h1 class="title" routerLink="/home" (click)="homeClick()" matTooltip="Click to view home page"
+      matTooltipPosition="right"><img id="home-logo" *ngIf="selectedTeam"
+        src="../../../assets/images/teams/{{selectedTeam}}.png" alt=" "
+        style="width:65px;height: 50px;margin-left: 15px;cursor: pointer;margin-top: 6px;"></h1>&nbsp;&nbsp;&nbsp;
+    <h1 class="title" *ngIf="!pageTitle">{{headerTitle}}</h1>
+    <h1 class="title" *ngIf="pageTitle">{{pageTitle}} - <strong style="color:#26a69a">{{sportTitle}}</strong></h1>
+    <span class="fill-space"></span>
+    <span class="form-text"></span>
+    <div>
+      <i class="material-icons header-icon" style="font-size: 40px;">notifications</i><span class="new badge"
+        style="margin-left: -13px;min-width: 2rem;">4</span></div>&nbsp;&nbsp;
+    <div style="margin-top: 8px;"><i class="material-icons" style="font-size: 40px;">supervised_user_circle</i></div>
+    <span mat-button [matMenuTriggerFor]="menu" style="font-size: 15px;">&nbsp;Hi, {{userName}}&nbsp;</span>
+    <div style="margin-top: 8px;cursor: pointer;" [matMenuTriggerFor]="menu">
+      <i class="material-icons header-icon">arrow_drop_down</i>&nbsp;&nbsp;</div>
+    <mat-menu #menu="matMenu" yPosition="below">
+      <button mat-menu-item (click)="redirectAdmin()">Admin</button>
+      <button mat-menu-item (click)="logout()">LOG OUT</button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>

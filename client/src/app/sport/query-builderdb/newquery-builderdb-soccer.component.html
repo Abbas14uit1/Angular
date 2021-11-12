@@ -1,0 +1,197 @@
+<div class="col l12 s12 m12  center" *ngIf="QBresults?.length == 0 && QBspinner == false && QBshowResults == true" style="padding: 20px;"> {{QBmessage}}</div>
+<div [ngClass]="QBresults?.length > 0 ? 'col l12 s12 m12 ' :'col l12 s12 m12 lighten-4 builder-height-noscroll '"
+  *ngIf="QBteams" id="mongoQB"> 
+      <div class="progress" *ngIf="QBspinner == true">
+            <div class="indeterminate">                  
+            </div>
+      </div>
+      <div class="QB_body">
+        <div class="QB_Group">
+          <button (click)="handleaddgroup()"> <div>+</div> Add Group</button>
+        </div>
+        <div class="Query_body">
+          <div class="Query_body_child" *ngFor="let item of Field;let i = index">
+            <div class="d_flex">
+            <ng-container>
+              <mat-form-field [style.width.px]="110">        
+                <mat-select   (change)="handledropTextChanges(i,$event,'category')" [(ngModel)]="item.category">
+                  <mat-option *ngFor="let item of config.entities" value="{{item.name}}">
+                    {{item.name}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </ng-container>
+      
+            <ng-container>
+              <mat-form-field [style.width.px]="110">        
+                <mat-select id='statistic_{{i}}' (change)="handledropTextChanges(i,$event,'statistic')" [(ngModel)]="item.statistic">
+                  <ng-container *ngFor="let a of config.entities">
+                    <ng-container  *ngIf="a.name==item.category">
+                  <mat-option *ngFor="let item of a.fields" value="{{item.field}}">
+                   {{item.name}}
+                  </mat-option>
+                </ng-container>
+              </ng-container>
+                </mat-select>
+              </mat-form-field>
+            </ng-container>
+      
+            <ng-container>
+              <mat-form-field [style.width.px]="110">        
+                <mat-select (change)="handledropTextChanges(i,$event,'operators')" [(ngModel)]="item.operators">
+                  <ng-container *ngFor="let a of config.entities">
+                    <ng-container  *ngIf="a.name==item.category">
+                      <ng-container *ngFor="let Operators of a.fields">
+                        <ng-container  *ngIf="Operators.field==item.statistic">
+                        <mat-option *ngFor="let a of Operators.operators" value="{{a.name}}">
+                          {{a.name}}
+                         </mat-option>
+                        </ng-container>
+                      </ng-container>
+                </ng-container>
+              </ng-container>
+                </mat-select>
+              </mat-form-field>
+            </ng-container>
+      
+            <div class="sel_pad">
+              <ng-container *ngFor="let a of config.entities">
+                <ng-container  *ngIf="a.name==item.category ">
+      <ng-container *ngFor="let statistics of a.fields">
+        <input type="{{statistics.type}}" matInput *ngIf="(statistics.type=='string' ||statistics.type=='number') && statistics.field==item.statistic" (change)="handleTextChanges(i, $event,statistics.type)" name="values" [(ngModel)]="item.values" id="" [style.width.px]="110" style="margin: 8px 0px 0px 10px;"/>
+        <ng-container *ngIf="statistics.type=='date' && statistics.field==item.statistic" [style.width.px]="110">      
+          <input matInput [matDatepicker]="picker"(change)="handleTextChanges(i, $event,statistics.type)"  [(ngModel)]="item.values"  [style.width.px]="200">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+      </ng-container> 
+        <mat-form-field [style.width.px]="110" *ngIf="statistics.type=='category' && statistics.field==item.statistic">        
+            <mat-select   name="values" id='statistic_{{i}}'  (change)="handledropTextChanges(i,$event,'values')" [(ngModel)]="item.values">
+              <mat-option *ngFor="let b of statistics.options" value="{{b.value}}">
+                {{b.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+            </ng-container>
+          </ng-container>
+           </ng-container>
+      
+          </div>      
+          <mat-button-toggle-group #group="matButtonToggleGroup" style="height: 33px;margin: 12px 28px;border-radius: 9px;align-items: center;">
+            <mat-button-toggle value="and"  [ngClass]="{'bg-red':this.Field[i].condition == 'and'}" name="condition" (change)="handleTextChanges(i, $event,'radio')">AND</mat-button-toggle>
+            <mat-button-toggle value="or" [ngClass]="{'bg-red':this.Field[i].condition == 'or'}" name="condition" (change)="handleTextChanges(i, $event,'radio')">OR</mat-button-toggle>
+          </mat-button-toggle-group>
+      
+             <div class="viewresult">
+               <button (click)="handleViewResult(i)">View Result <mat-icon>search</mat-icon></button>
+             </div>
+            </div>
+            <div class="close_query" (click)="delField(i, $event)">
+              <mat-icon>close</mat-icon>
+            </div>
+          </div>
+          <div class="addQuery" (click)=addfield()>
+            <mat-icon>add</mat-icon>
+          </div>
+        </div>
+<!-- Add Group Query Start -->
+        <div class="Query_body" *ngFor="let item of Group;let i = index">
+
+          <div class="d_flex">
+          <mat-button-toggle-group #groupone="matButtonToggleGroup" style="height: 33px;margin: 12px 28px;border-radius: 9px;align-items: center;">
+            <mat-button-toggle value="and"  [ngClass]="{'bg-red':this.Group[i].condition == 'and'}" name="condition" (change)="grouphandleTextChanges(i, $event)">AND</mat-button-toggle>
+            <mat-button-toggle value="or" [ngClass]="{'bg-red':this.Group[i].condition == 'or'}" name="condition" (change)="grouphandleTextChanges(i, $event)">OR</mat-button-toggle>
+          </mat-button-toggle-group>
+
+          <div class="viewresult" style="position: unset;border: unset;margin-top: 14px;padding: unset;">
+            <button (click)="handleGroupViewResult(i)" style="float: unset;">View Result <mat-icon>search</mat-icon></button>
+          </div>
+
+          <div class="addQuery" (click)="addGroupfield(i)" style="position: unset;margin: 13px;">
+            <mat-icon>add</mat-icon>
+          </div>
+
+          <div class="close_query" (click)="delGroup(i,$event)" style="position: unset;margin: 18px;">
+            <mat-icon>close</mat-icon>
+          </div>
+          </div>
+
+          <div style="display: inline-block;">
+            <div class="Query_body_child" *ngFor="let g of item.Field;let j = index" style="width: fit-content;float: left;margin: 0px 20px 20px 20px;">
+            <div class="d_flex">
+              <ng-container>
+                <mat-form-field [style.width.px]="110">        
+                  <mat-select   (change)="handledropGroupTextChanges(i,j,$event,'category')" [(ngModel)]="g.category">
+                    <mat-option *ngFor="let m of config.entities" value="{{m.name}}">
+                      {{m.name}}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </ng-container>
+
+              <ng-container>
+                <mat-form-field [style.width.px]="110">        
+                  <mat-select id='statistic_{{i}}' (change)="handledropGroupTextChanges(i,j,$event,'statistic')" [(ngModel)]="g.statistic">
+                    <ng-container *ngFor="let a of config.entities">
+                      <ng-container  *ngIf="a.name==g.category">
+                    <mat-option *ngFor="let stat of a.fields" value="{{stat.field}}">
+                     {{stat.name}}
+                    </mat-option>
+                  </ng-container>
+                </ng-container>
+                  </mat-select>
+                </mat-form-field>
+              </ng-container>
+
+              <ng-container>
+                <mat-form-field [style.width.px]="110">        
+                  <mat-select (change)="handledropGroupTextChanges(i,j,$event,'operators')" [(ngModel)]="g.operators">
+                    <ng-container *ngFor="let a of config.entities">
+                      <ng-container  *ngIf="a.name==g.category">
+                        <ng-container *ngFor="let Operators of a.fields">
+                          <ng-container  *ngIf="Operators.field==g.statistic">
+                          <mat-option *ngFor="let a of Operators.operators" value="{{a.name}}">
+                            {{a.name}}
+                           </mat-option>  
+                          </ng-container>
+                        </ng-container>
+                  </ng-container>
+                </ng-container>
+                  </mat-select>
+                </mat-form-field>
+              </ng-container>
+
+              <ng-container *ngFor="let a of config.entities">
+                <ng-container  *ngIf="a.name==g.category ">
+      <ng-container *ngFor="let statistics of a.fields">
+        <input type="{{statistics.type}}" matInput *ngIf="(statistics.type=='string' ||statistics.type=='number') && statistics.field==g.statistic" (change)="handledropGroupTextChanges(i,j, $event,statistics.type)" name="values" [(ngModel)]="g.values" id="" [style.width.px]="110" style="margin: 8px 0px 0px 10px;width: 200px;"/>
+        <ng-container *ngIf="statistics.type=='date' && statistics.field==g.statistic" [style.width.px]="110">      
+          <input matInput [matDatepicker]="picker"(change)="handledropGroupTextChanges(i,j, $event,statistics.type)"  [(ngModel)]="g.values"  [style.width.px]="200">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+      </ng-container> 
+        <mat-form-field [style.width.px]="110" *ngIf="statistics.type=='category' && statistics.field==g.statistic">        
+            <mat-select   name="values" id='statistic_{{i}}'  (change)="handledropGroupTextChanges(i,j,$event,'values')" [(ngModel)]="g.values">
+              <mat-option *ngFor="let b of statistics.options" value="{{b.value}}">
+                {{b.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+            </ng-container>
+          </ng-container>
+           </ng-container>
+              <div class="close_query" (click)="delGroupField(i,j, $event)">
+                <mat-icon>close</mat-icon>
+              </div>
+          </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Add Group Query End -->
+      
+        <div [ngClass]="QBresults?.length <= 0 ? 'col l12 s12 m12' :'col l12 s12 m12 qb-results'" *ngIf="QBresults?.length > 0" style="margin-top: 20px;">
+          <app-query-builder-results [results]="QBresults" id="display-column" [teamColor]="this.QBteamColors[QBteamId]"  [QBTime]="QBTime">
+          </app-query-builder-results>   
+      </div>
+      </div>
+      </div>

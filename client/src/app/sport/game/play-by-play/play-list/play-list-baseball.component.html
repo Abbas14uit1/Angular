@@ -1,0 +1,59 @@
+<mat-card>
+ 
+    <input  #filter placeholder="Filter plays">
+
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="playInGame">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column">PLAY</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.playInGame }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="inningNumber">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>INN</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.inningNumber }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="score">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>SCORE</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{element.results.runner == null || element.results.runner.scored != undefined ? 0 : element.results.runner.scored == null ? 0 : element.results.runner.scored}}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="battername">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>BTR</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.results.batter == null ? "" : element.results.batter.name }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="possession">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>TEAM</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+         <img id="logo" src="../../../assets/images/teams/{{homeTeamCode}}.png" alt=" "  *ngIf="element.possession != 0">
+          <img id="logo" src="../../../assets/images/teams/{{awayTeamCode}}.png" alt=" "  *ngIf="element.possession == 0">
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="pitchername">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>PTR</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+           {{ element.results.pitcher == null ? "" : element.results.pitcher.name }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="narrative">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>PLAY DESCRIPTION</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+           {{ element.narrative }}
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+</mat-card>

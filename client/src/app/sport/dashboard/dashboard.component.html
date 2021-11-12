@@ -1,0 +1,30 @@
+<app-header [config]="headerConfig.normal" ></app-header>
+<!-- [ngStyle]="{'background': 'linear-gradient(to right, '+ this.teamColors[selectedTeam] +',white)'}"  -->
+<!-- <div class="row" id="team-bar">
+<div id="home" class="col s11 m11" *ngIf="selectedTeam">
+  <span class="team-name">{{ teamName}}&nbsp;</span>
+  <img id="home-logo" src="../../../assets/images/teams/{{selectedTeam}}.png" alt=" ">
+</div>
+  <div id="away" class="col s1 m1">
+ <mat-select id="season-select" (ngModelChange)="onSeasonChange($event)" [(ngModel)]="selectedSeason" #season>
+        <mat-option *ngFor="let season of seasons" [value]="season.season">
+            {{ season.season }}
+        </mat-option>
+    </mat-select>
+</div>
+</div> -->
+<div *ngIf="teamId && selectedSeason" class="row">
+	<div class="row" style="margin-top: 5rem;">
+	<div class="col s4 m4"></div>
+	<div id="away" class="col s1 m1">
+	 <mat-select id="season-select" (ngModelChange)="onSeasonChange($event)" [(ngModel)]="selectedSeason" #season>
+	        <mat-option *ngFor="let season of seasons" [value]="season.season">
+	            {{seasonReadability(season.season)}}
+	        </mat-option>
+	    </mat-select>
+	</div>
+	<div class="col s7 m7"></div>
+	</div>
+    <app-season id="season-card" [selectedSeason]="selectedSeason" [teamId]="teamId" [sportId]="sportId" *ngIf="showSeasons"></app-season>
+    <app-roster id="roster-card" [ngStyle]="{'width':showSeasons == false ? '100%':'' }" [selectedSeason]="selectedSeason" [teamId]="teamId" [sportId]="sportId" *ngIf="showRoaters"></app-roster>
+</div>

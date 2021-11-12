@@ -1,0 +1,91 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text"></mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+     <ng-container matColumnDef="fgMade">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">MD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fgMade }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="fgAtt">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">ATT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fgAtt }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="fgPct">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">%</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fgPct }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="fgLong">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">LG</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fgLong }}
+        </mat-cell>
+      </ng-container>   
+      <ng-container matColumnDef="fgBlocked">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">BLKD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fgBlocked }}
+        </mat-cell>
+      </ng-container>
+           <ng-container matColumnDef="kickmade">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">MD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.kickmade }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="kickatt">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">ATT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.kickatt }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="kckMadePct">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">%</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.kckMadePct }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="pts">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">PTS</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.pts }}
+        </mat-cell>
+      </ng-container>
+     <ng-container *matHeaderRowDef="displayedColumns">
+        <div class="mat-header-row header-group-row">
+          <div class="mat-header-cell header-group-cell first-cell-column" role="columnheader" style="max-width: 130px !important;min-width: 130px!important;">KICKING</div>
+          <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell" role="columnheader"></div>
+           <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell header-group-cell" role="columnheader" style="max-width: 80px;min-width: 80px;float: right;">FIELD GOALS</div>
+          <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell border-right-cell" role="columnheader"></div>
+           <div class="mat-header-cell" role="columnheader"></div>
+            <div class="mat-header-cell header-group-cell" role="columnheader"
+            style="max-width: 80px;min-width: 80px">EXTRA POINTS</div>
+          <div class="mat-header-cell border-right-cell" role="columnheader"></div>
+          <div class="mat-header-cell" role="columnheader"></div>      
+        </div>
+        <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      </ng-container>
+      <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''" (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+
+    </mat-table>    
+  </div>
+</div>

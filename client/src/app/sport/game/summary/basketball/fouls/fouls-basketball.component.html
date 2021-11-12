@@ -1,0 +1,36 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text">FOULS</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="pf">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">PF</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.pf }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="tf">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TF</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.tf }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="tot">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TOTAL</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.tot}}
+        </mat-cell>
+      </ng-container>
+      <mat-header-row [ngStyle]="{'background-color':this.color}"  *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"  (click)="onClick(row._id)"  *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+</div>

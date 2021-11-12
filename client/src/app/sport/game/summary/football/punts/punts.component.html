@@ -1,0 +1,75 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">PUNTING</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="puntNum">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">ATT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.puntNum }}
+        </mat-cell>
+      </ng-container>     
+
+      <ng-container matColumnDef="puntYards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.puntYards }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="avg">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">AVG</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.avg }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="puntLong">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">LG</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.puntLong }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="puntTb">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TB</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.puntTb }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="puntFc">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">FC</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.puntFc }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="puntInside20">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">I20</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.puntInside20 }}
+        </mat-cell>
+      </ng-container>
+      
+      <ng-container matColumnDef="puntPlus50">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">50+</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.puntPlus50 }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="puntBlocked">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">BLKD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.puntBlocked }}
+        </mat-cell>
+      </ng-container>
+      <mat-header-row [ngStyle]="{'background-color':this.color}" *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+               (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+
+    </mat-table>    
+  </div>
+</div>

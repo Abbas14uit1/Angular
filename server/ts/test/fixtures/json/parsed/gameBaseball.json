@@ -1,0 +1,75 @@
+{
+    "_id" : "game1",
+    "playerIds" : [ 
+        "player1", 
+        "player2", 
+        "player3"
+    ],
+    "playIds" : [ 
+        "plays1", 
+        "plays2", 
+        "plays3", 
+    ],
+    "sportCode" : "MBB",
+    "teamIds" : {
+        "home" : "5b1030d4dfa6bc5d68e6f55e",
+        "visitor" : "5b1030d4dfa6bc5d68e6f55f"
+    },
+    "gameDate" : "2012-12-29T18:30:00.000Z",
+    "actualDate" : "12/30/2012",
+    "season" : 2012,
+    "meta" : {
+        "startTime" : "1970-01-01T00:00:00.000Z",
+        "endTime" : "1970-01-01T00:00:00.000Z",
+        "officials" : [ 
+            {
+                "pos" : "",
+                "name" : "0"
+            }, 
+            {
+                "pos" : "",
+                "name" : "1"
+            }, 
+            {
+                "pos" : "",
+                "name" : "2"
+            }
+        ],
+        "rules" : {
+            "minutes" : 20,
+            "prds" : 2,
+            "minutesot" : 5,
+            "fouls" : 5,
+            "qh" : "H"
+        }
+    },
+    "venue" : {
+        "geoLocation" : "Stan Sheriff Center - Honolulu, O`ahu",
+        "stadiumName" : "Stan Sheriff Center ",
+        "neutralLocation" : false,
+        "nightGame" : false,
+        "conferenceGame" : false,
+        "postseasonGame" : false,
+        "attendance" : 1454
+    },
+    "team" : {
+        "visitor" : {
+            "id" : "UA",
+            "name" : "Alabama",
+            "code" : 8,
+            "score" : 44,
+            "record" : "10-3"
+        },
+        "home" : {
+            "id" : "UH",
+            "name" : "Hawai`i",
+            "code" : 7,
+            "score" : 43,
+            "record" : "4-7"
+        }
+    },
+    "summary" : {
+        "periodSpecial" : [],
+        "periodSummary" : []
+    }
+}

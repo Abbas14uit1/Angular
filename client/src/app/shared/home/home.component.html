@@ -1,0 +1,181 @@
+<app-header [config]="headerConfig.homePage" [selectedTeam]="selectedTeam"></app-header>
+<mat-card style="box-shadow: 0px 0px 0px 0px; padding-bottom: 1px; margin-top: -0.9rem;">
+  <mat-grid-list cols="12">
+       <mat-grid-tile colspan="2">
+      <mat-select #teamSelect (ngModelChange)="onTeamChange($event, teamSelect)" 
+      [(ngModel)]="selectedTeam"  placeholder="Select Team"  style="padding: 7px 30px;background-color: #fff;box-shadow: #ddd 0px 0px 7px 1px;border-radius: 20px;margin: 4px 6px 12px 22px;font-size: 12px;">
+      <mat-select-trigger>
+        <div style="position: relative;">
+        <img src="../../../assets/images/teams/{{selectedTeam}}.png" style="width: 20px;height: 20px;margin-right: 10px;">
+        <span class="uni_dr"> {{teamText}}</span>
+      </div>
+      </mat-select-trigger>
+        <mat-option *ngFor="let team of teams" matTooltip="{{team.name}}" [value]="team.code">
+          <img src="../../../assets/images/teams/{{team.code}}.png" class="D_Icons" alt="{{team.name}}"> <span class="txt">{{team.name}}</span>
+        </mat-option>
+      </mat-select>
+    </mat-grid-tile>
+ 
+
+    <mat-grid-tile colspan="10" mat-align-tabs="end">
+      <mat-tab-group class="admin-tab-group" colspan="12" style="width: 100%;"
+        (selectedTabChange)="onSportChange($event)"  [(selectedIndex)]="sportIndex">
+        <mat-tab *ngFor="let sport of sports">
+          <ng-template mat-tab-label>
+            <div matTooltip="{{sport.gender}} {{sport.name}}" class="mat_Label_group">
+            <div class="menuiconset">
+              <img src="../../../assets/images/sports/{{ sport.iconClass }}.png" alt="icon" class="GameIcon" alt="{{sport.iconClass}}">
+            </div>
+              <div> 
+                {{sport.name}}
+              </div>
+            </div>
+          </ng-template>
+        </mat-tab>
+      </mat-tab-group>
+    </mat-grid-tile>
+    
+  </mat-grid-list>
+</mat-card>
+
+
+<mat-card class="mat-elevation-z0" style="padding-top: 0px; margin-top: -2.5rem; box-shadow: 0px !important;">
+  <div class="row"></div>
+  <div class="row" *ngIf="showDashboard">
+    <div class="two-column-layout">
+      <div class="column" id="home-column">
+        <div class="column-content">
+          <div class="row">
+            <mat-card>
+              <mat-card-header class="card-header-style" [ngStyle]="{
+                  background: '' + this.teamColors[selectedTeam] + ''
+                }">
+                <mat-card-title class="font-700">Story Research</mat-card-title>
+              </mat-card-header>
+              <mat-card-content class="margin-20">
+                <mat-list dense>
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/searchplayer/man.png" style="width: 25px;" />
+                    </mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && [
+                        '/',
+                        selectedSport,
+                        'playerdashboard',
+                        selectedTeam
+                      ]" (click)="selected_Sport.isMenuActive && OnclickLink('Roster')">Search Player Information</a>
+                  </mat-list-item>
+
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/searchgame/success.png" style="width: 25px;" />
+                    </mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && [
+                        '/',
+                        selectedSport,
+                        'gamedashboard',
+                        selectedTeam
+                      ]" (click)="selected_Sport.isMenuActive && OnclickLink('Game Schedule')" >Search Game Information</a>
+                  </mat-list-item>
+
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/playerteamstats/analytics.png"
+                        style="width: 25px;" /></mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && ['/', selectedSport, 'query']"
+                      (click)="selected_Sport.isMenuActive && OnQueryClick('Player Statistics')">Player Statistics Search</a>
+                  </mat-list-item>
+
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/playerteamstats/graph.png" style="width: 25px;" />
+                    </mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && ['/', selectedSport, 'query']"
+                      (click)="selected_Sport.isMenuActive && OnQueryClick('Team Statistics')">Team Statistics Search</a>
+                  </mat-list-item>
+
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/as/database.png" style="width: 25px;" />
+                    </mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && ['/', selectedSport, 'query']"
+                      (click)="selected_Sport.isMenuActive && OnQBClick('Advance Player Statistics Search')">Advance Player Statistics Search</a>
+                  </mat-list-item>
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/as/team.png" style="width: 25px;" /></mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]=" selected_Sport.isMenuActive && ['/', selectedSport, 'query']"
+                      (click)="selected_Sport.isMenuActive && OnQBClick('Advance Team Statistics Search')">Advance Team Statistics Search</a>
+                  </mat-list-item>
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/recordbooksearch/search.png"
+                        style="width: 25px;" /></mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]=" selected_Sport.isMenuActive && [
+                        '/',
+                        selectedSport,
+                        'record',
+                        selectedTeam
+                      ]" (click)="selected_Sport.isMenuActive && OnclickLink('Record')">Record Book Search</a>
+                  </mat-list-item>
+
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/recordbooksearch/search(2).png"
+                        style="width: 25px;" /></mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && [
+                        '/',
+                        selectedSport,
+                        'analytics',
+                        selectedTeam
+                      ]" (click)="selected_Sport.isMenuActive && OnclickLinkAnalytics('Record', 1)">Search for Specific Record</a>
+                  </mat-list-item>
+
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/streak/team.png" style="width: 25px;" />
+                    </mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && [
+                        '/',
+                        selectedSport,
+                        'analytics',
+                        selectedTeam
+                      ]" (click)="selected_Sport.isMenuActive && OnclickLinkAnalytics('Streak', 2)">Search for Streak
+                      <span style="font-size: 10px;">(Player or Team)</span></a>
+                  </mat-list-item>
+                </mat-list>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+      <div class="column" id="home-column">
+        <div class="column-content">
+          <div class="row">
+            <mat-card>
+              <mat-card-header class="card-header-style" [ngStyle]="{
+                  background: '' + this.teamColors[selectedTeam] + ''
+                }">
+                <mat-card-title class="font-700">Automated Story Recommendations</mat-card-title>
+              </mat-card-header>
+              <mat-card-content class="margin-20">
+                <mat-list dense>
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/AutomatedSearch/gamenotes/writing.png"
+                        style="width: 25px;" /></mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && [
+                    '/',
+                    'automatedstory'
+                    ]" (click)="selected_Sport.isMenuActive && OnclickLink('Game Note Topics')">Game
+                      Note Topics</a>
+                  </mat-list-item>
+                  <mat-list-item [class.disabled]="!selected_Sport.isMenuActive">
+                    <mat-icon><img src="../../../assets/images/sports/recordbooksearch/search.png"
+                        style="width: 25px;" /></mat-icon>
+                    &nbsp;&nbsp;&nbsp;<a [routerLink]="selected_Sport.isMenuActive && [
+                        '/',
+                        selectedSport,
+                        'alerts',
+                        selectedTeam
+                      ]" (click)="selected_Sport.isMenuActive && OnclickLink('Stories')">Stories</a>
+                  </mat-list-item>
+                </mat-list>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</mat-card>

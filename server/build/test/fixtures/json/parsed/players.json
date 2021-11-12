@@ -1,0 +1,149 @@
+[
+  {
+    "_id": "player0",
+    "name": "Rogers, Darreus",
+    "teamId": "team1",
+    "teamName": "UA",
+    "teamCode": 8,
+    "tidyName": "ROGERS,DARREUS",
+    "sportCode": "MFB",
+    "games": [
+      {
+        "codeInGame": "H0A",
+        "side": 1,
+        "gameDate": "2016-09-03T05:00:00.000Z",
+        "actualDate": "03/09/2016",
+        "season": 2016,
+        "opponentCode": 508,
+        "opponentName": "Northwestern St.",
+        "pos": {
+          "opos": "WR"
+        },
+        "stats": {
+          "receiving": {
+            "rcvLong": 36,
+            "rcvNum": 2,
+            "rcvTd": 0,
+            "rcvYards": 45
+          }
+        },
+        "started": true,
+        "plays": [],
+        "playerClass": "SR",
+        "uniform": "0A",
+        "gameId": "game1"
+      }
+    ]
+  },
+  {
+    "_id": "player1",
+    "name": "Browne, Max",
+    "teamId": "team1",
+    "teamName": "UA",
+    "teamCode": 8,
+    "tidyName": "BROWNE,MAX",
+    "sportCode": "MFB",
+    "games": [
+      {
+        "codeInGame": "H0D",
+        "side": 1,
+        "gameDate": "2016-09-03T05:00:00.000Z",
+        "actualDate": "03/09/2016",
+        "season": 2016,
+        "opponentCode": 508,
+        "opponentName": "Northwestern St.",
+        "pos": {
+          "opos": "QB"
+        },
+        "stats": {
+          "rushing": {
+            "rushAtt": 4,
+            "rushGain": 17,
+            "rushLong": 17,
+            "rushLoss": 20,
+            "rushTd": 0,
+            "rushYards": -3
+          },
+          "pass": {
+            "passAtt": 29,
+            "passComp": 14,
+            "passInt": 1,
+            "passLong": 36,
+            "passSacks": 3,
+            "passSackYards": 20,
+            "passTd": 0,
+            "passYards": 101
+          }
+        },
+        "started": true,
+        "plays": [],
+        "playerClass": "JR",
+        "uniform": "0D",
+        "gameId": "game1"
+      }
+    ]
+  },
+  {
+    "_id": "player2",
+    "name": "Pittman, Michae",
+    "teamId": "team1",
+    "teamName": "UA",
+    "teamCode": 8,
+    "tidyName": "PITTMAN,MICHAE",
+    "sportCode": "MFB",
+    "games": [
+      {
+        "codeInGame": "H0F",
+        "side": 1,
+        "gameDate": "2016-09-03T05:00:00.000Z",
+        "actualDate": "03/09/2016",
+        "season": 2016,
+        "opponentCode": 508,
+        "opponentName": "Northwestern St.",
+        "pos": {
+          "dpos": null,
+          "opos": null
+        },
+        "stats": {
+          "receiving": null,
+          "rushing": null,
+          "pass": null,
+          "defense": {
+            "dTackUa": 2,
+            "dTackA": 0,
+            "dTackTot": 2,
+            "dTflua": 1,
+            "dTfla": 0,
+            "dTflyds": 1,
+            "dSacks": 0,
+            "dSackUa": 0,
+            "dSackA": 0,
+            "dSackYards": 0,
+            "dBrup": 0,
+            "dFf": 0,
+            "dFr": 0,
+            "dFryds": 0,
+            "dInt": 0,
+            "dIntYards": 0,
+            "dQbh": 0,
+            "dblkd": 0
+          },
+          "kickReceiving": null,
+          "fumbles": null,
+          "intReturn": null,
+          "scoring": null,
+          "kickoff": null,
+          "fieldgoal": null,
+          "pointAfter": null,
+          "punt": null,
+          "puntReturn": null
+        },
+        "started": false,
+        "plays": [],
+        "playerClass": "FR",
+        "uniform": "0F",
+        "gameId": "game1"
+      }
+    ]
+  }
+]

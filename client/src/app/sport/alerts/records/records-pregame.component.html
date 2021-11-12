@@ -1,0 +1,311 @@
+<div class="row card" id="recordsPre">
+  <input #filter placeholder="Filter Alerts" style="display: none;">
+  <mat-table #recordsPre [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="_id">
+      <mat-header-cell *matHeaderCellDef mat-sort-header
+                       class="first-cell-col white-text">ID</mat-header-cell>
+      <mat-cell *matCellDef="let element; let i = index;" class="first-cell-col">
+        <span class="grey-text text-darken-2"> {{ i+1 }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="playerName">
+      <mat-header-cell *matHeaderCellDef class="border-right-cell">
+        <span mat-sort-header class="pull-left white-text "
+         >Name </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter(entity == 'Team' ? 'teamName' : 'playerName')}"
+
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Name" type="text" ngModel name="{{entity == 'Team' ? 'teamName' : 'playerName'}}" id="playerName">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu></mat-header-cell>
+      <mat-cell *matCellDef="let element" class="ellipsis"
+      >
+        <span class="blue-text text-lighten-1" 
+        *ngIf="element.records?.length <= 0"
+        matTooltip="{{entity == 'Team' ? element.teamName : element.playerName}}">{{ entity == 'Team' ? element.teamName : element.playerName }}</span>
+        <span class="blue-text text-lighten-1 text-line cursor"
+         (click)="startEdit(element.records,element.statType,element.statPeriod)" *ngIf="element.records?.length > 0"
+         matTooltip="{{entity == 'Team' ? element.teamName : element.playerName}}">{{entity == "Team" ? element.teamName : element.playerName }}</span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="statType">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text ">
+                       <span mat-sort-header class="pull-left white-text "
+         >Stat </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('statType')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Stat" type="text" ngModel name="statType" id="statType">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu>
+                     </mat-header-cell>
+      <mat-cell *matCellDef="let element" class="ellipsis">
+        <span  matTooltip="{{element.statType}}" class="grey-text text-darken-2"> {{ element.statType }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="statPeriod">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text border-right-cell">
+                       <span mat-sort-header class="pull-left white-text "
+         >Period </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('statPeriod')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Period" type="text" ngModel name="statPeriod" id="statPeriod">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu></mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.statPeriod }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="recordType">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text">
+                       <span mat-sort-header class="pull-left white-text "
+         >Record Type (Min/Max) </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('recordType')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Name" type="text" ngModel name="recordType" id="recordType">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu>
+                     </mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.recordType }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="threshold">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text border-right-cell">
+                       <span mat-sort-header class="pull-left white-text "
+         >Distance from threshold </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('threshold')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Threshold" type="text" ngModel name="threshold" id="threshold">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu>
+                     </mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.threshold }} </span>
+      </mat-cell>
+    </ng-container> 
+    <ng-container matColumnDef="statValue">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text">                      <span mat-sort-header class="pull-left white-text "
+         >Stat Value </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('statValue')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Value" type="text" ngModel name="statValue" id="statValue">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu></mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.statValue }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="position">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text border-right-cell"><span mat-sort-header class="pull-left white-text "
+         >Position in List </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('position')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Position" type="text" ngModel name="position" id="position">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu>
+                     </mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.position }} </span>
+      </mat-cell>
+    </ng-container>
+  <ng-container matColumnDef="tiedPlayerName">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text"><span mat-sort-header class="pull-left white-text "
+         >Name </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('nextName')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Name" type="text" ngModel name="nextName" id="nextName">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu></mat-header-cell>
+      <mat-cell *matCellDef="let element" class="ellipsis ">
+        <span class="grey-text text-darken-2" matTooltip="{{element.nextName}}"> 
+        {{element.nextName }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="nextStatValue">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text "><span mat-sort-header class="pull-left white-text "
+         >Stat Value </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('nextStatValue')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Value" type="text" ngModel name="nextStatValue" id="nextStatValue">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu></mat-header-cell>
+      <mat-cell *matCellDef="let element" >
+        <span class="grey-text text-darken-2"> {{ element.nextStatValue }} </span>
+      </mat-cell>
+    </ng-container> 
+    <ng-container matColumnDef="nextPosition">
+      <mat-header-cell *matHeaderCellDef 
+                       class="white-text"><span mat-sort-header class="pull-left white-text "
+         >Position in List </span>
+        &nbsp;
+         <span [matMenuTriggerFor]="menu" class="cursor"  
+          [ngStyle]="{'color': hightLightFilter('nextPosition')}"
+          > 
+          <i class="fa fa-filter" aria-hidden="true" ></i>
+         </span>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <form #f="ngForm" (ngSubmit)="onFilterClick(f)">
+          <div class="row">
+            <div class="input-field col s12 l12 m12" (click)="$event.stopPropagation();">
+              <input placeholder="Position" type="text" ngModel name="nextPosition" id="nextPosition">
+            </div>
+            <div class="col s12 l12 m12 center-align">
+              <button  type="submit" mat-button><i class="fa fa-search" aria-hidden="true"></i> Filter</button>
+              <button  mat-button (click)="onFilterClearClick(f)"><i class="fa fa-remove" aria-hidden="true" ></i> Clear</button>
+            </div>
+          </div>
+        </form>
+        </mat-menu></mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.nextPosition }} </span>
+      </mat-cell>
+    </ng-container>
+    
+    <ng-container *matHeaderRowDef="displayedColumns">
+        <div class="mat-header-row" [ngStyle]="{'background':  teamColor}">        
+          <div class="mat-header-cell white-text border-right-cell" role="columnheader" style="max-width: 15%;"></div>
+          <div class="mat-header-cell white-text border-right-cell" style="text-align: center;max-width: 20%;" role="columnheader">Record</div>
+          <div class="mat-header-cell white-text border-right-cell" role="columnheader" style="max-width: 20%;" >Parameters</div>
+          <div class="mat-header-cell white-text border-right-cell" role="columnheader" style="max-width: 20%;" >Currently At</div>          
+          <div class="mat-header-cell white-text " role="columnheader" >Chasing</div> 
+        </div>
+        <mat-header-row [ngStyle]="{'background': teamColor}"></mat-header-row>
+</ng-container>
+
+    <mat-row *matRowDef="let row; columns: displayedColumns;" class="cursor"></mat-row>
+  </mat-table>
+</div>

@@ -1,0 +1,52 @@
+<div class="row">
+	<div class="col l5 m5 s12" *ngIf="gameId">    
+      <div class="row">
+        <div *ngIf="homeShootingData && awayShootingLength != undefined" class="stat-column">
+          <app-shootings-baseketball [data]="homeShootingData" [sportId]="sportId" [color]="this.teamColors[homeTeam.code]" [otherLength]="awayShootingLength" title="STARTERS"></app-shootings-baseketball>
+        </div>
+        <div *ngIf="homeShootingBenchData && awayShootingBenchLength != undefined" class="stat-column">
+          <app-shootings-baseketball [data]="homeShootingBenchData" [sportId]="sportId" [color]="this.teamColors[homeTeam.code]" [otherLength]="awayShootingBenchLength" title="BENCH"></app-shootings-baseketball>
+        </div>
+      </div>
+      <div class="row">
+       
+        <div *ngIf="homeOtherData && awayOtherLength != undefined" class="stat-column">
+          <app-other-basketball [data]="homeOtherData" [sportId]="sportId" [color]="this.teamColors[homeTeam.code]" [otherLength]="awayOtherLength"
+          title="STARTERS"></app-other-basketball>
+        </div>
+      
+        <div *ngIf="homeOtherBenchData && awayOtherBenchLength != undefined" class="stat-column">
+          <app-other-basketball [data]="homeOtherBenchData" [sportId]="sportId" [color]="this.teamColors[homeTeam.code]" [otherLength]="awayOtherBenchLength" title="BENCH"></app-other-basketball>
+        </div>
+      </div>       
+	</div>
+   <div class="col l3 m3 s12" *ngIf="overallTeamStats && scoringPlays">
+			<div class="row">
+				<div class="overall-stat-column">
+					<app-overall-stats-basketball [overallTeamStats]="overallTeamStats" [sportId]="sportId"></app-overall-stats-basketball>
+				</div>
+			</div>
+		</div>
+    <div class="col l5 m5 s12"  *ngIf="gameId">
+      <div class="row">
+        <div *ngIf="awayShootingData && homeShootingLength != undefined" class="stat-column">
+          <app-shootings-baseketball [color]="this.teamColors[awayTeam.code]" [data]="awayShootingData" [otherLength]="homeShootingLength" [sportId]="sportId" title="STARTERS">
+          </app-shootings-baseketball>
+        </div>
+        <div *ngIf="awayShootingBenchData && homeShootingBenchLength != undefined" class="stat-column">
+          <app-shootings-baseketball [color]="this.teamColors[awayTeam.code]" [data]="awayShootingBenchData" [otherLength]="homeShootingBenchLength" [sportId]="sportId" title="BENCH">
+          </app-shootings-baseketball>
+        </div>
+      </div>      
+      <div class="row">
+       
+        <div *ngIf="awayOtherData && homeOtherLength != undefined" class="stat-column">
+          <app-other-basketball [color]="this.teamColors[awayTeam.code]" [data]="awayOtherData" [otherLength]="homeOtherLength" [sportId]="sportId" title="STARTERS"></app-other-basketball>
+        </div>
+      
+        <div *ngIf="awayOtherBenchData && homeOtherBenchLength != undefined" class="stat-column">
+          <app-other-basketball [color]="this.teamColors[awayTeam.code]" [data]="awayOtherBenchData" [otherLength]="homeOtherBenchLength" [sportId]="sportId" title="BENCH"></app-other-basketball>
+        </div>
+      </div>    
+    </div>
+</div>

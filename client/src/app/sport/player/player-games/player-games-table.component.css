@@ -1,0 +1,14 @@
+
+#playerGames .mat-header-row {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+#playerGames .mat-table {
+  max-height: calc(100vh - 230px);
+  overflow: auto;
+}
+
+#playerGames .mat-sort-header-button[button]:focus {
+  background-color: none !important;
+}

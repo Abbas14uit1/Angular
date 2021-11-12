@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# exit on fails
+set -e
+
+# Install deps
+apk update
+apk add python-dev py-pip
+
+# Install AWS CLI
+#curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+#python get-pip.py
+pip install awscli --ignore-installed six
+aws --version
+
+#copy the corp site
+cp -R ./corp/* ./client/dist/
+# Send frontend to S3
+aws s3 sync ./client/dist s3://athlytesports.com/ --delete

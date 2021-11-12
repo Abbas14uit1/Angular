@@ -1,0 +1,142 @@
+[
+ {
+    "_id" : "player1",
+    "name" : "Haydel, Sydney",
+    "sportCode" : "MBA",
+    "teamCode" : 7,
+    "teamId" : "5b1030d4dfa6bc5d68e6f55e",
+    "teamName" : "Hawai`i",
+    "teamTidyName" : "UH",
+    "tidyName" : "HAYDEL,SYDNEY",
+    "games" : [ 
+        {
+            "codeInGame" : "H2",
+            "side" : 1,
+            "gameDate" : "2012-12-29T18:30:00.000Z",
+            "actualDate" : "12/30/2012",
+            "opponentCode" : 8,
+            "opponentName" : "Alabama",
+            "season" : 2012,
+            "pos" : {
+                "pos" : "g",
+                "gp" : 1,
+                "gs" : 1
+            },
+            "started" : true,
+            "plays" : [ 
+                "plays1"                 
+            ],            
+            "uniform" : "2",
+            "stats" : {
+                "fgm" : 2,
+                "fga" : 2,
+                "fgm3" : 0,
+                "fga3" : 0,
+                "ftm" : 1,
+                "fta" : 5,
+                "tp" : 5,
+                "blk" : 0,
+                "stl" : 0,
+                "ast" : 0,
+                "min" : 24,
+                "oreb" : 1,
+                "dreb" : 3,
+                "treb" : 4,
+                "pf" : 3,
+                "tf" : 0,
+                "to" : 2,
+                "deadball" : 0,
+                "fgpct" : 0,
+                "fg3pct" : 0,
+                "ftpct" : 0
+            },
+            "gameId" : "game1"
+        }
+    ]
+},
+{
+    "_id" : "player2",
+    "name" : "Wimbley, Marissa",
+    "sportCode" : "MBA",
+    "teamCode" : 7,
+    "teamId" : "team1",
+    "teamName" : "Hawai`i",
+    "teamTidyName" : "UH",
+    "tidyName" : "WIMBLEY,MARISSA",
+    "games" : [ 
+        {
+            "codeInGame" : "H3",
+            "side" : 1,
+            "gameDate" : "2012-12-29T18:30:00.000Z",
+            "actualDate" : "12/30/2012",
+            "opponentCode" : 8,
+            "opponentName" : "Alabama",
+            "season" : 2012,
+            "pos" : {
+                "pos" : null,
+                "gp" : 0,
+                "gs" : null
+            },
+            "started" : false,
+            "plays" : ["plays2"],
+            "uniform" : "3",
+            "gameId" : "game1"
+        }
+    ]
+},
+{
+    "_id" : "player3",
+    "name" : "Martin, Kamilah",
+    "sportCode" : "MBA",
+    "teamCode" : 7,
+    "teamId" : "team1",
+    "teamName" : "Hawai`i",
+    "teamTidyName" : "UH",
+    "tidyName" : "MARTIN,KAMILAH",
+    "games" : [ 
+        {
+            "codeInGame" : "H5",
+            "side" : 1,
+            "gameDate" : "2012-12-29T18:30:00.000Z",
+            "actualDate" : "12/30/2012",
+            "opponentCode" : 8,
+            "opponentName" : "Alabama",
+            "season" : 2012,
+            "pos" : {
+                "pos" : "f",
+                "gp" : 1,
+                "gs" : 1
+            },
+            "started" : true,
+            "plays" : [ 
+                "plays3"                
+            ],
+            "uniform" : "5",
+            "stats" : {
+                "fgm" : 4,
+                "fga" : 8,
+                "fgm3" : 0,
+                "fga3" : 0,
+                "ftm" : 7,
+                "fta" : 9,
+                "tp" : 15,
+                "blk" : 0,
+                "stl" : 0,
+                "ast" : 1,
+                "min" : 37,
+                "oreb" : 4,
+                "dreb" : 6,
+                "treb" : 10,
+                "pf" : 2,
+                "tf" : 0,
+                "to" : 4,
+                "deadball" : 0,
+                "fgpct" : 0,
+                "fg3pct" : 0,
+                "ftpct" : 0
+            },
+            "gameId" : "game1"
+        }
+    ]
+}
+]

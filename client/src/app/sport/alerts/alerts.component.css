@@ -1,0 +1,80 @@
+@import "../../../styles.css";
+
+#team-bar {
+  padding-left: 10px;
+}
+
+#home-logo {
+  vertical-align: middle;
+  min-width: 60px;
+  max-width: 60px;
+  font-family: "Raleway";
+}
+
+.team-name {
+  font-family: "Raleway";
+  font-size: 28pt;
+  color: #fff;
+}
+
+.example-container {
+  width: 100%;
+}
+
+
+.mat-radio-button {
+  padding-right: 5px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.font20 {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.row {
+  margin-bottom: 8px !important;
+}
+
+
+.selected-Colors {
+  background-color: #9e9e9e;
+}
+
+.data-height {
+  height: calc(100vh - 248px);
+  overflow: auto;
+}
+
+
+.mat-radio-label-content{
+  font-size: 15px !important;
+}
+
+.label-time{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;    
+}
+ .mat-tab-label, .mat-tab-link
+{
+  font-weight: 300 ;
+}
+
+.mat-tab-label-active{
+     background-color: #e4e4e4 !important;
+      font-weight: 900 !important;
+ } 
+
+
+.mat-button-toggle-checked {
+    background-color: #26a69a !important;
+    color: white !important;
+}
+.mat-button-toggle-checked > .mat-button-toggle-label{
+  color: white !important;
+}

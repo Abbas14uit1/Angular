@@ -1,0 +1,31 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text">FUMBLES</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="total">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TOT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.total }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="lost">
+          <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">LOST</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ element.lost }}
+          </mat-cell>
+        </ng-container>
+
+      <mat-header-row [ngStyle]="{'background-color':this.color}" *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+    </mat-table>
+  </div>
+</div>

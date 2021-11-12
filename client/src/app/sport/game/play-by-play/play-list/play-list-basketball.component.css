@@ -1,0 +1,43 @@
+.mat-card {
+  margin: 15px 15px 30px 15px;
+}
+
+.mat-column-period {
+  max-width: 60px;
+}
+.mat-column-type {
+  max-width: 120px;
+}
+
+.mat-column-possession {
+  max-width: 90px;
+}
+
+.mat-column-score {
+  font-weight:bold;
+  max-width: 120px;
+}
+
+.mat-column-gameClockStartTime {
+  max-width: 100px;
+}
+
+.mat-column-playInGame {
+  max-width: 60px;
+}
+
+
+#logo {
+  width: auto;
+  height: auto;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .mat-column-description {
+    display: none;
+  }
+
+}

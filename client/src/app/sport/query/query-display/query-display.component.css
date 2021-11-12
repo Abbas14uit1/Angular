@@ -1,0 +1,76 @@
+.header {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#deTable .mat-header-row,#deTable .mat-row {
+  height: 100% !important;
+  padding: 0px !important;
+}
+
+#deTable  .mat-header-row {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+
+#deTable .mat-cell {
+  margin: 10px !important;
+  word-break: break-all;
+  text-align: left;
+}
+
+
+
+#logo {
+  width: auto;
+  height: auto;
+  max-width: 25px;
+  max-height: 17px;
+}
+
+
+
+#deTable .mat-header-cell {
+  margin: 10px !important;
+}
+
+
+.light {
+  color: #9E9E9E
+}
+
+.dark {
+  font-weight: 900;
+}
+
+#deTable .mat-column-Id {
+  max-width: 3%;
+}
+
+#deTable .mat-column-select {
+  max-width: 3%;
+}
+
+#dEResTableDiv {
+  position: absolute;
+  opacity: 0;
+}
+
+#deTable .mat-sort-header-button {
+  display: flex !important;
+}
+
+#deTable .mat-table {
+  max-height: calc(100vh - 265px);
+  overflow: auto;
+}
+
+.text-secondary{
+  color: #868383 !important;
+}
+
+.fa-sx {
+  font-size: 0.7em !important;
+}

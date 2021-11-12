@@ -1,0 +1,75 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">PASSING</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="completed">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">CMP</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.completed }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="attempts">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">ATT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.attempts }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="pct">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">%</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.pct }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="yards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.yards }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="touchdowns">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.touchdowns }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="interceptions">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">INT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.interceptions }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="yardsComp">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">Y/C</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.yardsComp }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="yardsAtt">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">Y/A</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.yardsAtt }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="rating">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">EFF</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{valueReadability(element.rating)}}
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row  [ngStyle]="{'background-color':this.color}"  *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+    </mat-table>
+  </div>
+</div>

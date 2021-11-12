@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col l10 m10 s10">
+    <h3 mat-dialog-title>{{data.title}}</h3>
+  </div>
+  <div class="col l2 m2 s2" style="text-align: right; padding: 0px;">
+    <span class="cursor" (click)="onNoClick()">X</span>
+  </div>
+</div>
+<div class="tableContainer">
+  <table>
+    <thead>
+      <tr [ngStyle]="{'background': data.teamColor}">
+        <th class="header text-upper" *ngFor="let col of displayedColumns">
+          {{col}}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let player of records;let i = index;">
+        <td *ngFor="let col of displayedColumns">
+          <span> {{player[col]}}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

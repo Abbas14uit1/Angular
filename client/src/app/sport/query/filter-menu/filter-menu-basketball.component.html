@@ -1,0 +1,189 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(selectedSplit)">
+  <table id="query-filter">
+    <!-- <tr>
+      <td>
+        <label class="font20">Entity</label>
+      </td>
+      <td>
+        <mat-radio-group name="entity" [(ngModel)]="entity" (ngModelChange)="onEntityChange($event)">
+          <mat-radio-button color="primary" *ngFor="let entity of entities" value={{entity.value}}>{{entity.viewValue}}</mat-radio-button>
+        </mat-radio-group>
+      </td>
+    </tr> -->
+    <tr>
+      <td>
+        <label class="font20">Team</label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="team" name="team" (change)="onTeamChange($event)">
+            <mat-select-trigger>
+              <span>
+                <img *ngIf="team !== 0 && team !== 1"
+                     id="logo" src="../../../assets/images/teams/{{team}}.png" alt=" "> &nbsp;{{selectedTeamText}}
+              </span>
+            </mat-select-trigger>
+            <ng-container *ngFor="let team of teams;">
+
+              <mat-option *ngIf="opponent !== team.code || opponent == 0"
+                          [value]="team.code">
+                <img *ngIf="team.code !== 0 && team.code !== 1"
+                     id="logo" src="../../../assets/images/teams/{{team.code}}.png" alt=" "> &nbsp;{{ team.name }}
+              </mat-option>
+            </ng-container>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr *ngIf="team == 1">
+      <td>
+        <label class="font20">
+          Conference
+        </label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="selectedTeamConference" (ngModelChange)="onTeamConferenceChange($event)"
+                      name="selectedTeamConference">
+            <mat-option *ngFor="let team of conferences" [value]="team.key">{{ team.key }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr *ngIf="team == 1 && (conferences[conferenceTeamDict[selectedTeamConference]].divisions.length > 0) && selectedTeamConference !== 'All'">
+      <td>
+        <label class="font20">
+          Division
+        </label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="selectedTeamDivision" name="selectedTeamDivision">
+            <mat-option *ngFor="let division of conferences[conferenceTeamDict[selectedTeamConference]].divisions" [value]="division">{{ division }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label class="font20">Opponent</label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="opponent" name="opponent" (change)="onOppChange($event)">
+            <mat-select-trigger>
+              <span>
+                <img *ngIf="opponent !== 0 && opponent !== 1"
+                     id="logo" src="../../../assets/images/teams/{{opponent}}.png" alt=" "> &nbsp;{{selectedOppText}}
+              </span>
+            </mat-select-trigger>
+            <ng-container *ngFor="let opp of availableTeams">
+              <mat-option *ngIf="team !== opp.code || team == 0" [value]="opp.code">
+                <img *ngIf="opp.code !== 0 && opp.code !== 1"
+                     id="logo" src="../../../assets/images/teams/{{opp.code}}.png" alt=" ">&nbsp; {{ opp.name }}
+              </mat-option>
+            </ng-container>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr *ngIf="opponent == 1">
+      <td>
+        <label class="font20">
+          Conference
+        </label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="selectedOpponentConference" (ngModelChange)="onOppConferenceChange($event)"
+                      name="selectedOpponentConference">
+            <mat-option *ngFor="let team of conferences" [value]="team.key">{{ team.key }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr *ngIf="opponent == 1 && (conferences[conferenceOppDict[selectedOpponentConference]].divisions.length > 0) && selectedOpponentConference !== 'All'">
+      <td>
+        <label class="font20">
+          Division
+        </label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="selectedOpponentDivision" name="selectedOpponentDivision">
+            <mat-option *ngFor="let division of conferences[conferenceOppDict[selectedOpponentConference]].divisions" [value]="division">{{ division }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label class="font20">Location</label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="selectedlocation" name="selectedlocation">
+            <mat-option *ngFor="let team of location" [value]="team">{{ team }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label class="font20">GameType</label>
+      </td>
+      <td *ngIf="gameTypes">
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="selectedgameType" name="selectedgameType">
+            <mat-option *ngFor="let gameType of gameTypes" [value]="gameType">{{ gameType }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label class="font20">Category</label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="category" name="category" (ngModelChange)="onChange($event)">
+            <mat-option *ngFor="let statcategory of stats" [value]="statcategory.key">{{ statcategory.name }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label class="font20">Statistic</label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never">
+          <mat-select [(ngModel)]="statistic" name="statistic" #stat (ngModelChange)="onStatsChange($event,stat)">
+            <mat-option *ngFor="let stat of stats[categoryDict[category]].values" [value]="stat.value">{{ stat.name }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label class="font20">Operator</label>
+      </td>
+      <td>
+        <mat-form-field floatPlaceholder="never" style="width: 30%;padding-right: 10px;">
+          <mat-select [(ngModel)]="operator" name="operator">
+            <mat-option *ngFor="let op of operators" [value]="op.value">{{ op.name }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <input style="width: 30%;" matInput placeholder="Value" name="value" [(ngModel)]="value" type="number">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button mat-raised-button class="grey lighten-1 mat-raised-button" id="submit" type="submit">
+          Search
+          <i class="material-icons">search</i>
+        </button>
+      </td>
+    </tr>
+  </table>
+</form>

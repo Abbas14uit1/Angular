@@ -1,0 +1,71 @@
+.mat-radio-inner-circle {
+  border-color: #7f7b7b  !important;
+}
+
+.mat-radio-outer-circle {
+  background-color: #7f7b7b  !important;
+}
+
+.mat-radio-label-content{
+  color: white !important;
+}
+
+#team-bar{
+padding-left:10px;
+}
+
+#home-logo {
+ vertical-align: middle;
+  min-width: 60px;
+  max-width: 60px;
+  font-family: "Raleway";
+}
+.team-name{
+font-family: "Raleway";
+font-size: 28pt;
+color: #fff;
+
+}
+
+
+.builder-height {
+  height: calc(100vh - 240px);
+}
+
+.builder-height-noscroll {
+  overflow: auto;
+  max-height: 100%;
+}
+
+
+label.q-switch-label::after {
+    border: none !important;
+    background: none !important;
+    display: none !important;
+}
+.label-for{
+    padding-bottom: 5px;
+    color: white;
+    font-size: 1rem;
+}
+.mat-radio-button {
+  padding-right: 5px;
+}
+.qb-height{
+  overflow: auto;
+  max-height: 30%;
+  min-height: 30%;
+}
+
+.qb-results{
+  overflow: auto;  
+  max-height: 67%;
+}
+
+.mat-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #7f7b7b !important;
+}
+
+.mat-radio-button.mat-primary .mat-radio-inner-circle {
+  background-color: #7f7b7b !important;
+}

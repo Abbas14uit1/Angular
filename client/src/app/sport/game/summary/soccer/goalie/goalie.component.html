@@ -1,0 +1,58 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">GOALIE</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="GA">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">GA</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.GA }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="GAA">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">GAA</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.GAA }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="SV">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SV</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.SV }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="SVPCT">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SV%</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.SVPCT }}
+        </mat-cell>
+      </ng-container>
+
+       <ng-container matColumnDef="SHO">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SHO</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.SHO }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="SF">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SF</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{element.SF}}
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row  [ngStyle]="{'background-color':this.color}"  *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+
+    </mat-table>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+<mat-card (window:resize)="onResize($event)">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text">SHOOTINGS</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="fgm">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">FGM</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fgm }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="fga">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">FGA</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fga }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="fgpct">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">FGPCT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fgpct }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="fgm3">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">FGM3</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fgm3 }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="fga3">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">FGA3</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fga3 }}
+        </mat-cell>
+      </ng-container>  
+      <ng-container matColumnDef="ftm">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">FTM</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.ftm }}
+        </mat-cell>
+      </ng-container>  
+        
+
+      <mat-header-row [ngStyle]="{'background-color':this.color}"  *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row (click)="onClick(row._id)" *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+</mat-card>

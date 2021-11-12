@@ -1,0 +1,35 @@
+<div *ngIf="displayedTabs.length > 0" class="col s12 m12 l12">
+  <h2 [ngStyle]="{'border-bottom': '5px solid '+ this.teamColors[teamCode]+''}">Game Log</h2>
+  <mat-card *ngIf="sportId == 'MBB' || sportId == 'WBB'">
+    <div *ngFor="let tab of displayedTabs">
+      <app-player-games-table *ngIf="getDataSource(tab).length > 0"
+        [teamColor]="this.teamColors[teamCode]"
+                                [displayedColumnsWithSeason]="displayedColumnsWithSeason[tab]"
+                                [displayedColumns]="displayedColumns[tab]"
+                                [columnDisplayNames]="columnDisplayNames"
+                                [columnGroups] ="columnGroups[tab]"
+                                [results]="getDataSource(tab)"
+                                [sportId]="sportId"
+                                [teamCode]="teamCode"
+                                title="DATE">
+                                 </app-player-games-table>
+                                  <br/>
+    </div>
+   
+  </mat-card>
+  <mat-card *ngIf="sportId !== 'MBB' && sportId !== 'WBB'">
+    <mat-tab-group *ngIf="tabsDone">
+      <mat-tab *ngFor="let tab of displayedTabs" label="{{tab == 'Punting' ? 'Punting and Kickoffs': tab == 'Interceptions' ? 'Interceptions & Fumbles' : tab }}">       
+        <app-player-games-table [teamColor]="this.teamColors[teamCode]"
+                                [displayedColumnsWithSeason]="displayedColumnsWithSeason[tab]"
+                                [displayedColumns]="displayedColumns[tab]"
+                                [columnDisplayNames]="columnDisplayNames"
+                                [columnGroups] ="columnGroups[tab]"
+                                [results]="getDataSource(tab)"
+                                [sportId]="sportId"
+                                [teamCode]="teamCode"
+                                title="DATE"></app-player-games-table>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card>
+</div>

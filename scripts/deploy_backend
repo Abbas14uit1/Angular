@@ -1,0 +1,47 @@
+#!/bin/sh
+
+# exit on errors
+set -e
+
+# Install deps
+apk update
+apk add python-dev zip py-pip
+
+# Get AWS cli
+#curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+#python get-pip.py
+pip install --upgrade awscli
+aws --version
+
+# Zip up backend
+ts=`date +%s`
+fn="$EB_APP_NAME-$ts.zip"
+find ./ -path "\./server/build/src/*" -o -path "\./package.json"  -o -path "\./.elasticbeanstalk/*" -o -path "\./.ebextensions/*" | zip $fn -@
+S3_BACKEND_KEY="$S3_BACKEND_KEY/$fn"
+
+# Copy to S3
+aws s3 cp $fn "s3://$S3_BACKEND_BUCKET/$S3_BACKEND_KEY"
+
+# Create new app version
+aws elasticbeanstalk create-application-version --application-name backend \
+ --version-label "$EB_APP_NAME-$ts" \
+ --source-bundle S3Bucket="$S3_BACKEND_BUCKET",S3Key="$S3_BACKEND_KEY" \
+ --auto-create-application
+
+# Deploy new app version
+skip_env="staging"
+for server in $(aws elasticbeanstalk describe-environments --application-name backend  | grep "EnvironmentName" | cut -d'"' -f4)
+do
+  if [ $server = $skip_env ]
+  then
+        echo "Skipping Environment: $server"  
+        continue
+  fi
+  aws elasticbeanstalk update-environment \
+  --application-name $EB_APP_NAME \
+  --environment-name $server \
+  --version-label "$EB_APP_NAME-$ts"
+  echo "Deployed version $EB_APP_NAME-$ts in $server"
+done
+
+echo "All Done! Deployed version $EB_APP_NAME-$ts"

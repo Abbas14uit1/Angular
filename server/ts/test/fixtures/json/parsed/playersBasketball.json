@@ -1,0 +1,167 @@
+[
+ {
+    "_id" : "player1",
+    "name" : "Haydel, Sydney",
+    "sportCode" : "MBB",
+    "teamCode" : 7,
+    "teamId" : "team1",
+    "teamName" : "Hawai`i",
+    "teamTidyName" : "UH",
+    "tidyName" : "HAYDEL,SYDNEY",
+    "games" : [ 
+        {
+            "codeInGame" : "H2",
+            "side" : 1,
+            "gameDate" : "2012-12-29T18:30:00.000Z",
+            "actualDate" : "12/30/2012",
+            "opponentCode" : 8,
+            "opponentName" : "Alabama",
+            "season" : 2012,
+            "pos" : {
+                "pos" : "g",
+                "gp" : 1,
+                "gs" : 1
+            },
+            "started" : true,
+            "plays" : [ 
+                "play1"                
+            ],
+            "uniform" : "2",
+            "stats" : {
+                "fgm" : 2,
+                "fga" : 2,
+                "fgm3" : 0,
+                "fga3" : 0,
+                "ftm" : 1,
+                "fta" : 5,
+                "tp" : 5,
+                "blk" : 0,
+                "stl" : 0,
+                "ast" : 0,
+                "min" : 24,
+                "oreb" : 1,
+                "dreb" : 3,
+                "treb" : 4,
+                "pf" : 3,
+                "tf" : 0,
+                "to" : 2,
+                "deadball" : 0,
+                "fgpct" : 0,
+                "fg3pct" : 0,
+                "ftpct" : 0
+            },
+            "gameId" : "game1"
+        }
+    ]
+},
+{
+    "_id" : "player2",
+    "name" : "DeAngelis, Monica",
+    "sportCode" : "MBB",
+    "teamCode" : 7,
+    "teamId" : "team1",
+    "teamName" : "Hawai`i",
+    "teamTidyName" : "UH",
+    "tidyName" : "DEANGELIS,MONICA",
+    "games" : [ 
+        {
+            "codeInGame" : "H10",
+            "side" : 1,
+            "gameDate" : "2012-12-29T18:30:00.000Z",
+            "actualDate" : "12/30/2012",
+            "opponentCode" : 8,
+            "opponentName" : "Alabama",
+            "season" : 2012,
+            "pos" : {
+                "pos" : "g",
+                "gp" : 1,
+                "gs" : 1
+            },
+            "started" : true,
+            "plays" : [ 
+                "play2"
+            ],            
+            "uniform" : "10",
+            "stats" : {
+                "fgm" : 0,
+                "fga" : 9,
+                "fgm3" : 0,
+                "fga3" : 4,
+                "ftm" : 7,
+                "fta" : 10,
+                "tp" : 7,
+                "blk" : 0,
+                "stl" : 0,
+                "ast" : 2,
+                "min" : 40,
+                "oreb" : 1,
+                "dreb" : 1,
+                "treb" : 2,
+                "pf" : 0,
+                "tf" : 0,
+                "to" : 5,
+                "deadball" : 0,
+                "fgpct" : 0,
+                "fg3pct" : 0,
+                "ftpct" : 0
+            },
+            "gameId" : "game1"
+        }
+    ]
+},
+{
+    "_id" : "player3",
+    "name" : "Martin, Kamilah",
+    "sportCode" : "MBB",
+    "teamCode" : 7,
+    "teamId" : "team1",
+    "teamName" : "Hawai`i",
+    "teamTidyName" : "UH",
+    "tidyName" : "MARTIN,KAMILAH",
+    "games" : [ 
+        {
+            "codeInGame" : "H5",
+            "side" : 1,
+            "gameDate" : "2012-12-29T18:30:00.000Z",
+            "actualDate" : "12/30/2012",
+            "opponentCode" : 8,
+            "opponentName" : "Alabama",
+            "season" : 2012,
+            "pos" : {
+                "pos" : "f",
+                "gp" : 1,
+                "gs" : 1
+            },
+            "started" : true,
+            "plays" : [ 
+                "play3"
+            ],
+            "uniform" : "5",
+            "stats" : {
+                "fgm" : 4,
+                "fga" : 8,
+                "fgm3" : 0,
+                "fga3" : 0,
+                "ftm" : 7,
+                "fta" : 9,
+                "tp" : 15,
+                "blk" : 0,
+                "stl" : 0,
+                "ast" : 1,
+                "min" : 37,
+                "oreb" : 4,
+                "dreb" : 6,
+                "treb" : 10,
+                "pf" : 2,
+                "tf" : 0,
+                "to" : 4,
+                "deadball" : 0,
+                "fgpct" : 0,
+                "fg3pct" : 0,
+                "ftpct" : 0
+            },
+            "gameId" : "game1"
+        }
+    ]
+}
+]

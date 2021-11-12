@@ -1,0 +1,29 @@
+.my-drop-zone {
+    /*border: dotted 1px lightgray;*/
+  }
+
+  .nv-file-over {
+    opacity: 0.2;
+  }
+  /* Default class applied to drop zones on over */
+
+  .another-file-over-class {
+    border: dotted 3px green;
+  }
+
+  input[type='file'] {
+    color: transparent;
+  }
+
+#uploadTbl .mat-table {
+  overflow: auto !important;
+  max-height: calc(100vh - 235px);
+}
+
+#uploadTbl .mat-header-row {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+
+

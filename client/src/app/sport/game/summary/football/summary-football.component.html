@@ -1,0 +1,124 @@
+<div class="row">
+  <div class="col l4 m4 s12" *ngIf="gameId">
+     <div class="row">
+      <div *ngIf="homePassingData && awayPassingLength != undefined">
+        <app-passing [color]="this.teamColors[homeTeam.code]" [data]="homePassingData" [otherLength]="awayPassingLength" [sportId]="sportId"></app-passing>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngIf="homeRushingData && awayRushingLength != undefined">
+        <app-rushing [color]="this.teamColors[homeTeam.code]" [data]="homeRushingData" [otherLength]="awayRushingLength" [sportId]="sportId"></app-rushing>
+      </div>
+    </div>   
+    <div class="row">
+      <div *ngIf="homeReceivingData && awayReceivingLength != undefined">
+        <app-receiving [color]="this.teamColors[homeTeam.code]" [data]="homeReceivingData" [otherLength]="awayReceivingLength" [sportId]="sportId"></app-receiving>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngIf="homeDefenseData && awayDefenseLength != undefined">
+        <app-defense [color]="this.teamColors[homeTeam.code]" [data]="homeDefenseData" [otherLength]="awayDefenseLength" [sportId]="sportId"></app-defense>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngIf="homeInterceptionsData && awayInterceptionsLength != undefined">
+        <app-interceptions [color]="this.teamColors[homeTeam.code]" [data]="homeInterceptionsData" [otherLength]="awayInterceptionsLength" [sportId]="sportId"></app-interceptions>
+      </div>
+    </div>
+   
+    
+    
+        <div class="row">
+      <div *ngIf="homeAllReturns && awayAllReturnsLength != undefined">
+        <app-allreturns [color]="this.teamColors[homeTeam.code]" [data]="homeAllReturns" [otherLength]="awayAllReturnsLength" [sportId]="sportId"></app-allreturns>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngIf="homeFieldGoals && awayFieldGoalsLength != undefined">
+        <app-fieldgoals [color]="this.teamColors[homeTeam.code]" [data]="homeFieldGoals" [otherLength]="awayFieldGoalsLength" [sportId]="sportId"></app-fieldgoals>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngIf="homePuntings && awayPuntingsLength != undefined">
+        <app-punts [color]="this.teamColors[homeTeam.code]" [data]="homePuntings" [otherLength]="awayPuntingsLength" [sportId]="sportId"></app-punts>
+      </div>
+    </div>
+     <div class="row">
+      <div *ngIf="homeKickOffs && awayKickOffsLength != undefined">
+        <app-kickoffs [color]="this.teamColors[homeTeam.code]" [data]="homeKickOffs" [otherLength]="awayKickOffsLength" [sportId]="sportId"></app-kickoffs>
+      </div>
+    </div>
+
+  </div>
+   <div class="col l4 m4 s12" *ngIf="overallTeamStats && scoringPlays && overallOffensePlays">      
+         <mat-card>
+            <div *ngIf="!showFullStas" [ngClass] = "showFullStas ? 'sidebar' : 'sidebar sidebar-active sidebar-good'" >
+               <app-overall-stats-football [overallTeamStats]="overallTeamStats" [overallOffensePlays] = "overallOffensePlays" [sportId]="sportId">
+               </app-overall-stats-football>
+               <a class="btn-floating halfway-fab waves-effect waves-light grey right-way-mid" matTooltipPosition = "left"
+                  matTooltip="View Full Team stats" (click)="onClick($event,showFullStas)"><i class="material-icons">library_books</i></a>
+            </div>
+            <div  *ngIf="showFullStas" [ngClass] = "showFullStas ? 'sidebar sidebar-active sidebar-good' : 'sidebar'" >
+               <app-overall-stats-football-modal
+               [overallTeamStats]="overallTeamStats" [overallOffensePlays] = "overallOffensePlays" [sportId]="sportId">    
+               </app-overall-stats-football-modal>          
+               <a class="btn-floating halfway-fab waves-effect waves-light grey right-way-mid" matTooltipPosition = "left"
+                  matTooltip="View Minimal Team stats" (click)="onClick($event,showFullStas)"><i class="material-icons">library_books</i></a>
+            </div>
+         </mat-card>
+      <br/>
+      <app-scoring-plays-football [homeTeam]="homeTeam" [awayTeam]="awayTeam" [scoringPlays]="scoringPlays" [sportId]="sportId"></app-scoring-plays-football>       
+   </div>
+   <div class="col l4 m4 s12" *ngIf="gameId">
+    <div class="row">
+       <div *ngIf="awayPassingData && homePassingLength != undefined">
+         <app-passing [color]="this.teamColors[awayTeam.code]" [data]="awayPassingData" [otherLength]="homePassingLength" [sportId]="sportId"></app-passing>
+       </div>
+     </div>
+     <div class="row">
+       <div *ngIf="awayRushingData && homeRushingLength != undefined">
+         <app-rushing [color]="this.teamColors[awayTeam.code]" [data]="awayRushingData" [otherLength]="homeRushingLength" [sportId]="sportId"></app-rushing>
+       </div>
+     </div>
+     
+     <div class="row">
+       <div *ngIf="awayReceivingData && homeReceivingLength != undefined">
+         <app-receiving [color]="this.teamColors[awayTeam.code]" [data]="awayReceivingData" [otherLength]="homeReceivingLength" [sportId]="sportId"></app-receiving>
+       </div>
+     </div>
+     <div class="row">
+       <div *ngIf="awayDefenseData && homeDefenseLength != undefined">
+         <app-defense [color]="this.teamColors[awayTeam.code]" [data]="awayDefenseData" [otherLength]="homeDefenseLength" [sportId]="sportId"></app-defense>
+       </div>
+     </div>
+     <div class="row">
+       <div *ngIf="awayInterceptionsData && homeInterceptionsLength != undefined">
+         <app-interceptions [color]="this.teamColors[awayTeam.code]" [data]="awayInterceptionsData" [otherLength]="homeInterceptionsLength" [sportId]="sportId"></app-interceptions>
+       </div>
+     </div>
+     
+     
+    
+
+     <div class="row">
+       <div *ngIf="awayAllReturns && homeAllReturnsLength != undefined">
+         <app-allreturns [color]="this.teamColors[awayTeam.code]" [data]="awayAllReturns" [otherLength]="homeAllReturnsLength" [sportId]="sportId"></app-allreturns>
+       </div>
+     </div>
+      <div class="row">
+       <div *ngIf="awayFieldGoals && homeFieldGoalsLength != undefined">
+         <app-fieldgoals [color]="this.teamColors[awayTeam.code]" [data]="awayFieldGoals" [otherLength]="homeFieldGoalsLength" [sportId]="sportId"></app-fieldgoals>
+       </div>
+     </div>
+      <div class="row">
+       <div *ngIf="awayPuntings && homePuntingsLength != undefined">
+         <app-punts [color]="this.teamColors[awayTeam.code]" [data]="awayPuntings" [otherLength]="homePuntingsLength" [sportId]="sportId"></app-punts>
+       </div>
+     </div>
+     <div class="row">
+       <div *ngIf="awayKickOffs && homeKickOffsLength != undefined">
+         <app-kickoffs [color]="this.teamColors[awayTeam.code]" [data]="awayKickOffs" [otherLength]="homeKickOffsLength" [sportId]="sportId"></app-kickoffs>
+       </div>
+     </div>
+   </div>
+</div>

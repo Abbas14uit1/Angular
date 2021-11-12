@@ -1,0 +1,69 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">FIELDING</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="a">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">A</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.a }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="e">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">E</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.e }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="sba">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SBA</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.sba }}
+        </mat-cell>
+      </ng-container>
+
+       <ng-container matColumnDef="csb">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">CSB</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.csb }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="pb">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">PB</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.pb }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="ci">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">CI</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.ci }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="indp">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">INDP</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.indp }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="intp">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="last-column" class="sort-btn-align-right white-text">INTP</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="last-column">
+          {{ element.intp }}
+        </mat-cell>
+      </ng-container>      
+      <mat-header-row [ngStyle]="{'background-color':this.color}" *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined ?'':onClick(row._id)"></mat-row>
+      
+    </mat-table>    
+  </div>
+</div>

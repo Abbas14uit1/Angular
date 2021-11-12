@@ -1,0 +1,1596 @@
+<fbgame source="Tas Football" version="4.16.07" generated="8/21/2017">
+ <venue gameid="PIT" visid="TA" homeid="PIT" visname="Texas A&amp;M" homename="Pittsburgh"
+      date="9/7/2002" location="Pittsburgh, PA" stadium="Heinz Field"
+      start="12:00 PM" end="3:22 PM"
+      duration="3:17" attend="45489" temp="76 deg" wind="Light" weather="Sunny">
+  <officials ref="Usechek, Steve" ump="Davidson, John" line="Kapral, Don" lj="Bowers, Derick" bj="Jackson, Homer" fj="Laurie, Phil" sj="Burks, Greg" cj="Fetchet, John" alt="Fetchet, John"></officials>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="697" id="TA" name="Texas A&amp;M" record="2-0" abb="T" rank="20">
+  <linescore prds="4" line="0,7,7,0" score="14">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="63" totoff_yards="281" totoff_avg="4.5">
+   <firstdowns no="14" rush="4" pass="9" penalty="1"></firstdowns>
+   <penalties no="13" yds="99"></penalties>
+   <conversions thirdconv="4" thirdatt="14" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="27:29" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="2" scores="2" points="14" tdrush="2" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="32" yds="82" gain="116" loss="34" td="2" long="21"></rush>
+   <pass comp="14" att="31" int="0" yds="199" td="0" long="37" sacks="3" sackyds="25"></pass>
+   <rcv no="14" yds="199" td="0" long="37"></rcv>
+   <punt no="9" yds="375" long="58" blkd="0" tb="1" fc="1" plus50="2" inside20="4" avg="41.7"></punt>
+   <ko no="3" yds="190" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="58" tacka="35" tot_tack="93" tflua="12" tfla="0" tflyds="58" sacks="8" sackyds="54" brup="1" qbh="4" ff="1" fr="1" fryds="0" int="1" intyds="27"></defense>
+   <kr no="3" yds="46" td="0" long="23"></kr>
+   <pr no="3" yds="10" td="0" long="10"></pr>
+   <ir no="1" yds="27" td="0" long="27"></ir>
+   <scoring td="2" patkick="2"></scoring>
+  </totals>
+  <player name="Farmer, Derek" shortname="Farmer, Derek" checkname="FARMER,DEREK" uni="1" class="SO" gp="1" gs="1" opos="TB" code="1">
+   <rush att="21" yds="91" gain="94" loss="3" td="2" long="21"></rush>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Taylor, Jamaar" shortname="Taylor, Jamaar" checkname="TAYLOR,JAMAAR" uni="2" class="JR" gp="1" gs="1" opos="WR" code="2">
+   <rcv no="5" yds="51" td="0" long="15"></rcv>
+   <kr no="1" yds="1" td="0" long="1"></kr>
+  </player>
+  <player name="Thomas, Ter." shortname="Thomas, Ter." checkname="THOMAS,TER" uni="3" class="SO" gp="1" code="3">
+   <rcv no="1" yds="10" td="0" long="10"></rcv>
+   <kr no="1" yds="22" td="0" long="22"></kr>
+  </player>
+  <player name="Goynes, Dwain" shortname="Goynes, Dwain" checkname="GOYNES,DWAIN" uni="4" class="SR" gp="1" code="4">
+   <rush att="4" yds="9" gain="13" loss="4" td="0" long="9"></rush>
+  </player>
+  <player name="Murphy, Ter." shortname="Murphy, Ter." checkname="MURPHY,TER" uni="5" class="SO" gp="1" code="5">
+   <rcv no="3" yds="88" td="0" long="37"></rcv>
+  </player>
+  <player name="Singleton, Bry." shortname="Singleton, Bry." checkname="SINGLETON,BRY" uni="6" class="FR" gp="1" code="6">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Carter, Jason" shortname="Carter, Jason" checkname="CARTER,JASON" uni="7" class="SO" gp="1" code="7">
+   <kr no="1" yds="23" td="0" long="23"></kr>
+   <pr no="3" yds="10" td="0" long="10"></pr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Johnson, Bethel" shortname="Johnson, Bethel" checkname="JOHNSON,BETHEL" uni="9" class="SR" gp="1" gs="1" opos="WR" code="9">
+   <rcv no="1" yds="19" td="0" long="19"></rcv>
+  </player>
+  <player name="Farris, Mark" shortname="Farris, Mark" checkname="FARRIS,MARK" uni="10" class="SR" gp="1" gs="1" opos="QB" code="10">
+   <rush att="2" yds="-17" gain="0" loss="17" td="0" long="0"></rush>
+   <pass comp="5" att="13" int="0" yds="80" td="0" long="35" sacks="2" sackyds="17"></pass>
+  </player>
+  <player name="Jones, Byron" shortname="Jones, Byron" checkname="JONES,BYRON" uni="11" class="SO" gp="1" code="11">
+   <defense tackua="3" tacka="1" tot_tack="4" brup="1"></defense>
+  </player>
+  <player name="Kendrick, Blake" shortname="Kendrick, Blake" checkname="KENDRICK,BLAKE" uni="12" class="SO" gp="1" code="12"></player>
+  <player name="Pegram, Todd" shortname="Pegram, Todd" checkname="PEGRAM,TODD" uni="13" class="FR" gp="1" code="13">
+   <pat kickatt="2" kickmade="2"></pat>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Gamble, Brian" shortname="Gamble, Brian" checkname="GAMBLE,BRIAN" uni="17" class="SR" gp="1" gs="1" dpos="ILB" code="17">
+   <defense tackua="5" tacka="2" tot_tack="7" tflua="2" tfla="0" tflyds="10" sackua="1" sacka="0" sackyds="9"></defense>
+  </player>
+  <player name="Long, Dustin" shortname="Long, Dustin" checkname="LONG,DUSTIN" uni="18" class="SO" gp="1" code="18">
+   <rush att="3" yds="-2" gain="8" loss="10" td="0" long="8"></rush>
+   <pass comp="9" att="18" int="0" yds="119" td="0" long="37" sacks="1" sackyds="8"></pass>
+  </player>
+  <player name="Appel, Jaxson" shortname="Appel, Jaxson" checkname="APPEL,JAXSON" uni="19" class="FR" gp="1" gs="1" dpos="FS" code="19">
+   <defense tackua="5" tacka="2" tot_tack="7" tflua="1" tfla="0" tflyds="3" sackua="1" sacka="0" sackyds="3" qbh="1" int="1" intyds="27"></defense>
+   <ir no="1" yds="27" td="0" long="27"></ir>
+  </player>
+  <player name="Scates, Cody" shortname="Scates, Cody" checkname="SCATES,CODY" uni="20" class="JR" gp="1" code="20">
+   <punt no="9" yds="375" long="58" blkd="0" tb="1" fc="1" plus50="2" inside20="4" avg="41.7"></punt>
+   <ko no="3" yds="190" ob="0" tb="0"></ko>
+  </player>
+  <player name="Davis, Sammy" shortname="Davis, Sammy" checkname="DAVIS,SAMMY" uni="22" class="SR" gp="1" gs="1" dpos="RCB" code="22">
+   <defense tackua="10" tacka="2" tot_tack="12"></defense>
+  </player>
+  <player name="Hunnicutt, Jes." shortname="Hunnicutt, Jes." checkname="HUNNICUTT,JES" uni="27" class="SR" gp="1" gs="1" dpos="LOLB" code="27">
+   <defense tackua="4" tacka="2" tot_tack="6" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Weber, Joe" shortname="Weber, Joe" checkname="WEBER,JOE" uni="28" class="SR" gp="1" gs="1" opos="FB" code="28">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+  </player>
+  <player name="Weston, Sean" shortname="Weston, Sean" checkname="WESTON,SEAN" uni="31" class="JR" gp="1" gs="1" dpos="LCB" code="31">
+   <defense tackua="3" tacka="1" tot_tack="4"></defense>
+  </player>
+  <player name="Flemming, Osch." shortname="Flemming, Osch." checkname="FLEMMING,OSCH" uni="32" class="JR" gp="1" code="32">
+   <rush att="1" yds="1" gain="1" loss="0" td="0" long="1"></rush>
+  </player>
+  <player name="Jackson, Keelan" shortname="Jackson, Keelan" checkname="JACKSON,KEELAN" uni="33" class="SO" gp="1" code="33"></player>
+  <player name="Joseph, Keith" shortname="Joseph, Keith" checkname="JOSEPH,KEITH" uni="34" class="SO" gp="1" code="34"></player>
+  <player name="Squillante, A." shortname="Squillante, A." checkname="SQUILLANTE,A" uni="35" class="JR" gp="1" code="35"></player>
+  <player name="Jones, Stacy" shortname="Jones, Stacy" checkname="JONES,STACY" uni="38" class="SR" gp="1" code="38"></player>
+  <player name="Crutchfield, E." shortname="Crutchfield, E." checkname="CRUTCHFIELD,E" uni="39" class="SO" gp="1" code="39"></player>
+  <player name="Mangum, Kevin" shortname="Mangum, Kevin" checkname="MANGUM,KEVIN" uni="40" class="SO" gp="1" code="40"></player>
+  <player name="McDaniel, Arch." shortname="McDaniel, Arch." checkname="MCDANIEL,ARCH" uni="41" class="FR" gp="1" code="41"></player>
+  <player name="Smith, Everett" shortname="Smith, Everett" checkname="SMITH,EVERETT" uni="42" class="JR" gp="1" code="42">
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+  </player>
+  <player name="Penright, Jar." shortname="Penright, Jar." checkname="PENRIGHT,JAR" uni="43" class="SR" gp="1" gs="1" dpos="ROLB" code="43">
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="2" tfla="0" tflyds="9" sackua="2" sacka="0" sackyds="9" qbh="1" ff="1"></defense>
+  </player>
+  <player name="Porter, Greg" shortname="Porter, Greg" checkname="PORTER,GREG" uni="44" class="SR" gp="1" code="44">
+   <rcv no="4" yds="31" td="0" long="12"></rcv>
+  </player>
+  <player name="Morris, Jared" shortname="Morris, Jared" checkname="MORRIS,JARED" uni="45" class="JR" gp="1" gs="1" dpos="ILB" code="45">
+   <defense tackua="2" tacka="3" tot_tack="5" qbh="1"></defense>
+  </player>
+  <player name="Kiel, Terrence" shortname="Kiel, Terrence" checkname="KIEL,TERRENCE" uni="48" class="SR" gp="1" gs="1" dpos="SS" code="48">
+   <defense tackua="7" tacka="6" tot_tack="13" tflua="2" tfla="0" tflyds="14" sackua="1" sacka="0" sackyds="13"></defense>
+  </player>
+  <player name="Kirk, John" shortname="Kirk, John" checkname="KIRK,JOHN" uni="50" class="JR" gp="1" code="50"></player>
+  <player name="Whitley, Taylor" shortname="Whitley, Taylor" checkname="WHITLEY,TAYLOR" uni="51" class="SR" gp="1" gs="1" opos="RG" code="51"></player>
+  <player name="Webb, Randall" shortname="Webb, Randall" checkname="WEBB,RANDALL" uni="55" class="SO" gp="1" code="55">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="2" tfla="0" tflyds="10" sackua="2" sacka="0" sackyds="10" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Johnson, Bran." shortname="Johnson, Bran." checkname="JOHNSON,BRAN" uni="56" class="SO" gp="1" code="56"></player>
+  <player name="Patrick, Brian" shortname="Patrick, Brian" checkname="PATRICK,BRIAN" uni="59" class="FR" gp="1" code="59"></player>
+  <player name="Jolly, Johnny" shortname="Jolly, Johnny" checkname="JOLLY,JOHNNY" uni="60" class="FR" gp="1" code="60">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Pearce, Chance" shortname="Pearce, Chance" checkname="PEARCE,CHANCE" uni="63" class="SR" gp="1" code="63"></player>
+  <player name="Brooks, Andre" shortname="Brooks, Andre" checkname="BROOKS,ANDRE" uni="65" class="JR" gp="1" gs="1" opos="LG" code="65"></player>
+  <player name="Hangartner, G." shortname="Hangartner, G." checkname="HANGARTNER,G" uni="66" class="SO" gp="1" gs="1" opos="C" code="66"></player>
+  <player name="Reuber, Alan" shortname="Reuber, Alan" checkname="REUBER,ALAN" uni="73" class="JR" gp="1" gs="1" opos="RT" code="73"></player>
+  <player name="Hightower, Jami" shortname="Hightower, Jami" checkname="HIGHTOWER,JAMI" uni="75" class="SO" gp="1" gs="1" opos="LT" code="75"></player>
+  <player name="De La Garza, A." shortname="De La Garza, A." checkname="DE LA GARZA,A" uni="76" class="FR" gp="1" code="76"></player>
+  <player name="Van Zant, Tim" shortname="Van Zant, Tim" checkname="VAN ZANT,TIM" uni="83" class="JR" gp="1" code="83"></player>
+  <player name="Smith, Linnis" shortname="Smith, Linnis" checkname="SMITH,LINNIS" uni="88" class="JR" gp="1" gs="1" dpos="RE" code="88">
+   <defense tackua="4" tacka="4" tot_tack="8" qbh="1"></defense>
+  </player>
+  <player name="Massey, Haven" shortname="Massey, Haven" checkname="MASSEY,HAVEN" uni="89" class="SO" gp="1" code="89"></player>
+  <player name="Jasmin, Marcus" shortname="Jasmin, Marcus" checkname="JASMIN,MARCUS" uni="91" class="SO" gp="1" gs="1" dpos="NT" code="91">
+   <defense tackua="1" tacka="4" tot_tack="5" tflua="1" tfla="0" tflyds="10" sackua="1" sacka="0" sackyds="10"></defense>
+  </player>
+  <player name="Losada, Nick" shortname="Losada, Nick" checkname="LOSADA,NICK" uni="92" class="JR" gp="1" code="92">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Warren, Ty" shortname="Warren, Ty" checkname="WARREN,TY" uni="94" class="SR" gp="1" gs="1" dpos="LE" code="94">
+   <defense tackua="4" tacka="3" tot_tack="7" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Stickane, Scott" shortname="Stickane, Scott" checkname="STICKANE,SCOTT" uni="97" class="JR" gp="1" code="97"></player>
+  <player name="Carriger, Thom." shortname="Carriger, Thom." checkname="CARRIGER,THOM" uni="98" class="SO" gp="1" gs="1" opos="TE" code="98"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="" gp="1" code="198"></player>
+ </team>
+ <team vh="H" code="545" id="PIT" name="Pittsburgh" record="1-1" abb="P">
+  <linescore prds="4" line="0,0,0,12" score="12">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="12"></lineprd>
+  </linescore>
+  <totals totoff_plays="72" totoff_yards="232" totoff_avg="3.2">
+   <firstdowns no="18" rush="5" pass="10" penalty="3"></firstdowns>
+   <penalties no="6" yds="44"></penalties>
+   <conversions thirdconv="6" thirdatt="17" fourthconv="1" fourthatt="3"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="32:31" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="3" scores="2" points="12" tdrush="1" tdpass="1" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="39" yds="56" gain="114" loss="58" td="1" long="16"></rush>
+   <pass comp="21" att="33" int="1" yds="176" td="1" long="20" sacks="8" sackyds="54"></pass>
+   <rcv no="21" yds="176" td="1" long="20"></rcv>
+   <punt no="7" yds="325" long="73" blkd="0" tb="1" fc="1" plus50="2" inside20="2" avg="46.4"></punt>
+   <ko no="3" yds="128" ob="0" tb="0"></ko>
+   <pat kickatt="1" kickmade="0" passatt="1" passmade="0"></pat>
+   <defense tackua="41" tacka="14" tot_tack="55" tflua="6" tfla="2" tflyds="32" sacks="3" sackyds="25" brup="9" fr="1" fryds="0"></defense>
+   <kr no="2" yds="72" td="0" long="36"></kr>
+   <pr no="4" yds="20" td="0" long="10"></pr>
+   <scoring td="2"></scoring>
+  </totals>
+  <player name="FITZGERALD,L." shortname="FITZGERALD,L." checkname="FITZGERALD,L" uni="1" class="" gp="1" code="1">
+   <rcv no="10" yds="103" td="0" long="20"></rcv>
+  </player>
+  <player name="FURMAN,Marcus" shortname="FURMAN,Marcus" checkname="FURMAN,MARCUS" uni="2" class="" gp="1" gs="1" opos="TB" code="2">
+   <rush att="2" yds="2" gain="3" loss="1" td="0" long="3"></rush>
+  </player>
+  <player name="GRAY,Taron" shortname="GRAY,Taron" checkname="GRAY,TARON" uni="3" class="" gp="1" code="3">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="CURD,Chris" shortname="CURD,Chris" checkname="CURD,CHRIS" uni="4" class="" gp="1" code="4"></player>
+  <player name="COX,Torrie" shortname="COX,Torrie" checkname="COX,TORRIE" uni="5" class="" gp="1" gs="1" dpos="CB" code="5">
+   <defense tackua="3" tacka="2" tot_tack="5" brup="5"></defense>
+   <kr no="1" yds="36" td="0" long="36"></kr>
+  </player>
+  <player name="POSTELL,Malcolm" shortname="POSTELL,Malcolm" checkname="POSTELL,MALCOLM" uni="6" class="SO" gp="1" code="6">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="8" sackua="1" sacka="0" sackyds="8"></defense>
+  </player>
+  <player name="ROBINSON,Shawn" shortname="ROBINSON,Shawn" checkname="ROBINSON,SHAWN" uni="7" class="" gp="1" code="7">
+   <defense tackua="4" tacka="1" tot_tack="5" tflua="1" tfla="0" tflyds="2" brup="2"></defense>
+  </player>
+  <player name="LAY,Bernard" shortname="LAY,Bernard" checkname="LAY,BERNARD" uni="9" class="FR" gp="1" code="9"></player>
+  <player name="PALKO,Tyler" shortname="PALKO,Tyler" checkname="PALKO,TYLER" uni="10" class="" gp="1" code="10">
+   <rush att="2" yds="-9" gain="0" loss="9" td="0" long="0"></rush>
+   <pass comp="1" att="1" int="0" yds="7" td="0" long="7" sacks="1" sackyds="9"></pass>
+  </player>
+  <player name="RUTHERFORD,Rod" shortname="RUTHERFORD,Rod" checkname="RUTHERFORD,ROD" uni="12" class="JR" gp="1" gs="1" opos="QB" code="12">
+   <rush att="17" yds="-10" gain="35" loss="45" td="1" long="13"></rush>
+   <pass comp="20" att="32" int="1" yds="169" td="1" long="20" sacks="7" sackyds="45"></pass>
+   <pat passatt="1" passmade="0"></pat>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="BEINECKE,Brian" shortname="BEINECKE,Brian" checkname="BEINECKE,BRIAN" uni="15" class="" gp="1" gs="1" dpos="WLB" code="15">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="ABDUL,David" shortname="ABDUL,David" checkname="ABDUL,DAVID" uni="16" class="" gp="1" code="16">
+   <ko no="3" yds="128" ob="0" tb="0"></ko>
+  </player>
+  <player name="JUNKO,Jay" shortname="JUNKO,Jay" checkname="JUNKO,JAY" uni="18" class="" gp="1" code="18"></player>
+  <player name="SPENCER,S." shortname="SPENCER,S." checkname="SPENCER,S" uni="19" class="JR" gp="1" gs="1" dpos="CB" code="19">
+   <defense tackua="4" tacka="0" tot_tack="4" brup="1"></defense>
+   <kr no="1" yds="36" td="0" long="36"></kr>
+  </player>
+  <player name="MORRIS,Tez" shortname="MORRIS,Tez" checkname="MORRIS,TEZ" uni="20" class="" gp="1" gs="1" dpos="FS" code="20">
+   <defense tackua="8" tacka="3" tot_tack="11" tflua="0" tfla="1" tflyds="0" brup="1"></defense>
+  </player>
+  <player name="LEICHTY, Shane" shortname="LEICHTY, Shane" checkname="LEICHTY,SHANE" uni="22" class="" gp="1" code="22"></player>
+  <player name="MURPHY,Tim" shortname="MURPHY,Tim" checkname="MURPHY,TIM" uni="23" class="" gp="1" code="23"></player>
+  <player name="JEMISON,Mike" shortname="JEMISON,Mike" checkname="JEMISON,MIKE" uni="24" class="" gp="1" code="24"></player>
+  <player name="MIREE,Brandon" shortname="MIREE,Brandon" checkname="MIREE,BRANDON" uni="25" class="" gp="1" code="25">
+   <rush att="14" yds="63" gain="65" loss="2" td="0" long="16"></rush>
+  </player>
+  <player name="FERGUSON, W." shortname="FERGUSON, W." checkname="FERGUSON,W" uni="27" class="JR" gp="1" code="27">
+   <defense fr="1" fryds="0"></defense>
+  </player>
+  <player name="GAINES,Billy" shortname="GAINES,Billy" checkname="GAINES,BILLY" uni="29" class="" gp="1" code="29">
+   <pr no="4" yds="20" td="0" long="10"></pr>
+  </player>
+  <player name="GIBBONEY, J.B." shortname="GIBBONEY, J.B." checkname="GIBBONEY,JB" uni="30" class="" gp="1" code="30">
+   <pat kickatt="1" kickmade="0"></pat>
+  </player>
+  <player name="GILLIARD,Tyrone" shortname="GILLIARD,Tyrone" checkname="GILLIARD,TYRONE" uni="31" class="SO" gp="1" gs="1" dpos="SS" code="31">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="POLITE,Lousaka" shortname="POLITE,Lousaka" checkname="POLITE,LOUSAKA" uni="32" class="" gp="1" gs="1" opos="FB" code="32">
+   <rush att="4" yds="10" gain="11" loss="1" td="0" long="9"></rush>
+   <rcv no="2" yds="10" td="0" long="8"></rcv>
+  </player>
+  <player name="MOORE,Larry" shortname="MOORE,Larry" checkname="MOORE,LARRY" uni="35" class="" gp="1" code="35"></player>
+  <player name="LEE,Andy" shortname="LEE,Andy" checkname="LEE,ANDY" uni="36" class="" gp="1" code="36">
+   <punt no="7" yds="325" long="73" blkd="0" tb="1" fc="1" plus50="2" inside20="2" avg="46.4"></punt>
+  </player>
+  <player name="YOUNG,Tyre" shortname="YOUNG,Tyre" checkname="YOUNG,TYRE" uni="38" class="" gp="1" code="38"></player>
+  <player name="McCURLEY,Scott" shortname="McCURLEY,Scott" checkname="MCCURLEY,SCOTT" uni="41" class="" gp="1" code="41">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="GILL,Erik" shortname="GILL,Erik" checkname="GILL,ERIK" uni="45" class="" gp="1" code="45">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="GUZEK,Brian" shortname="GUZEK,Brian" checkname="GUZEK,BRIAN" uni="47" class="" gp="1" gs="1" dpos="DE" code="47">
+   <defense tackua="1" tacka="2" tot_tack="3" tflua="1" tfla="0" tflyds="9" sackua="1" sacka="0" sackyds="9"></defense>
+  </player>
+  <player name="MOORE,Lewis" shortname="MOORE,Lewis" checkname="MOORE,LEWIS" uni="48" class="" gp="1" gs="1" dpos="SLB" code="48">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="HAYES,Gerald" shortname="HAYES,Gerald" checkname="HAYES,GERALD" uni="51" class="" gp="1" gs="1" dpos="MLB" code="51">
+   <defense tackua="5" tacka="1" tot_tack="6" tflua="2" tfla="0" tflyds="4"></defense>
+  </player>
+  <player name="LACARTE,Dan" shortname="LACARTE,Dan" checkname="LACARTE,DAN" uni="52" class="" gp="1" gs="1" opos="LG" code="52"></player>
+  <player name="SMITH,Thomas" shortname="SMITH,Thomas" checkname="SMITH,THOMAS" uni="55" class="" gp="1" code="55"></player>
+  <player name="SPENCER,Charles" shortname="SPENCER,Charles" checkname="SPENCER,CHARLES" uni="56" class="FR" gp="1" code="56">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="ALLEMAN,Andy" shortname="ALLEMAN,Andy" checkname="ALLEMAN,ANDY" uni="57" class="" gp="1" code="57"></player>
+  <player name="REED,Chad" shortname="REED,Chad" checkname="REED,CHAD" uni="64" class="" gp="1" gs="1" opos="C" code="64">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="JOHNSON,Kurt" shortname="JOHNSON,Kurt" checkname="JOHNSON,KURT" uni="69" class="" gp="1" code="69"></player>
+  <player name="SCHALL,Jon" shortname="SCHALL,Jon" checkname="SCHALL,JON" uni="71" class="" gp="1" code="71"></player>
+  <player name="MORGAN,Matt" shortname="MORGAN,Matt" checkname="MORGAN,MATT" uni="75" class="" gp="1" gs="1" opos="RT" code="75"></player>
+  <player name="ANDERSON,Bryan" shortname="ANDERSON,Bryan" checkname="ANDERSON,BRYAN" uni="77" class="" gp="1" gs="1" opos="RG" code="77"></player>
+  <player name="PETITTI,Rob" shortname="PETITTI,Rob" checkname="PETITTI,ROB" uni="78" class="" gp="1" gs="1" opos="LT" code="78"></player>
+  <player name="WILSON,Kris" shortname="WILSON,Kris" checkname="WILSON,KRIS" uni="83" class="" gp="1" gs="1" opos="TE" code="83">
+   <rcv no="1" yds="2" td="1" long="2"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="SLADE,Lamar" shortname="SLADE,Lamar" checkname="SLADE,LAMAR" uni="86" class="" gp="1" gs="1" opos="SE" code="86">
+   <rcv no="6" yds="45" td="0" long="13"></rcv>
+  </player>
+  <player name="BYNES,Roosevelt" shortname="BYNES,Roosevelt" checkname="BYNES,ROOSEVELT" uni="87" class="" gp="1" gs="1" opos="FL" code="87">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="WESTON,Darryl" shortname="WESTON,Darryl" checkname="WESTON,DARRYL" uni="88" class="" gp="1" code="88"></player>
+  <player name="HARRIOTT,Claude" shortname="HARRIOTT,Claude" checkname="HARRIOTT,CLAUDE" uni="90" class="JR" gp="1" gs="1" dpos="DE" code="90">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="SITTER,Jonathan" shortname="SITTER,Jonathan" checkname="SITTER,JONATHAN" uni="91" class="JR" gp="1" code="91"></player>
+  <player name="HOLTHAUS,Jake" shortname="HOLTHAUS,Jake" checkname="HOLTHAUS,JAKE" uni="93" class="" gp="1" code="93">
+   <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="STEPHENS, Dan" shortname="STEPHENS, Dan" checkname="STEPHENS,DAN" uni="94" class="" gp="1" gs="1" dpos="DT" code="94">
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="8" sackua="1" sacka="0" sackyds="8"></defense>
+  </player>
+  <player name="CROCHUNIS,Vince" shortname="CROCHUNIS,Vince" checkname="CROCHUNIS,VINCE" uni="96" class="SO" gp="1" gs="1" dpos="NT" code="96">
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+  </player>
+  <player name="HARRIS,Kevin" shortname="HARRIS,Kevin" checkname="HARRIS,KEVIN" uni="97" class="" gp="1" code="97"></player>
+ </team>
+ <scores>
+  <score vh="V" team="TA" qtr="2" clock="09:51" type="TD" how="RUSH" yds="1" scorer="Farmer, Derek" patby="Pegram, Todd" pattype="KICK" patres="GOOD" vscore="7" hscore="0" driveindex="9"></score>
+  <score vh="V" team="TA" qtr="3" clock="08:42" type="TD" how="RUSH" yds="3" scorer="Farmer, Derek" patby="Pegram, Todd" pattype="KICK" patres="GOOD" vscore="14" hscore="0" driveindex="16"></score>
+  <score vh="H" team="PIT" qtr="4" clock="13:49" type="TD" how="RUSH" yds="1" scorer="RUTHERFORD,Rod" patby="GIBBONEY, J.B." pattype="KICK" patres="FAIL" vscore="14" hscore="6" driveindex="21"></score>
+  <score vh="H" team="PIT" qtr="4" clock="02:02" type="TD" how="PASS" yds="2" scorer="WILSON,Kris" passer="RUTHERFORD,Rod" patby="RUTHERFORD,Rod" pattype="PASS" patres="FAIL" vscore="14" hscore="12" driveindex="25"></score>
+ </scores>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="TA" down="1" togo="10" spot="TA35" context="V,1,10,V35" playid="0,1,0" tokens="CMT:Pitt wins toss will defer to second half"
+      text="Pitt wins toss will defer to second half" newcontext="V,1,10,V35">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA35" context="V,1,10,V35" playid="0,2,1" type="#" clock="15:00" tokens="SPOT:H,H35,N Q:1 T:15:00"
+      text="PIT ball on PIT35, start of 1st quarter, clock 15:00." newcontext="H,1,10,H35">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT35" context="H,1,10,H35" playid="0,3,2" type="K" tokens="KO:16,V07 RET:7,V30 TACK:20"
+      text="ABDUL,David kickoff 58 yards to the TA7, Carter, Jason return 23 yards to the TA30 (MORRIS,Tez)." newcontext="V,1,10,V30">
+    <p_ko vh="H" name="ABDUL,David" gain="58"></p_ko>
+    <p_kr vh="V" name="Carter, Jason" gain="23"></p_kr>
+    <p_tk vh="H" name="MORRIS,Tez"></p_tk>
+   </play>
+   <drivestart poss="V,V30,15:00" vh="V" spot="V30" clock="15:00" driveindex="1,2"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA30" context="V,1,10,V30" playid="1,1,3" type="R" tokens="RUSH:1,V33, TACK:96"
+      text="Farmer, Derek rush for 3 yards to the TA33 (CROCHUNIS,Vince)." newcontext="V,2,7,V33">
+    <p_ru vh="V" name="Farmer, Derek" gain="3"></p_ru>
+    <p_tk vh="H" name="CROCHUNIS,Vince"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="7" spot="TA33" context="V,2,7,V33" playid="1,2,4" type="R" tokens="RUSH:1,V35, TACK:96,5"
+      text="Farmer, Derek rush for 2 yards to the TA35 (CROCHUNIS,Vince;COX,Torrie)." newcontext="V,3,5,V35">
+    <p_ru vh="V" name="Farmer, Derek" gain="2"></p_ru>
+    <p_tk vh="H" name="CROCHUNIS,Vince" assist="Y"></p_tk>
+    <p_tk vh="H" name="COX,Torrie" assist="Y"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="5" spot="TA35" context="V,3,5,V35" playid="1,3,5" type="P" tokens="PASS:10,I,5,* BRUP:5"
+      text="Farris, Mark pass incomplete to Murphy, Ter. (COX,Torrie)." newcontext="V,4,5,V35">
+    <p_pa vh="V" qb="Farris, Mark" result="INC" rcv="Murphy, Ter."></p_pa>
+    <p_bu vh="H" name="COX,Torrie"></p_bu>
+   </play>
+   <play hasball="TA" down="4" togo="5" spot="TA35" context="V,4,5,V35" playid="1,4,6" type="U" tokens="PUNT:20,H20 RET:29,H30 TACK:48"
+      text="Scates, Cody punt 45 yards to the PIT20, GAINES,Billy return 10 yards to the PIT30 (Kiel, Terrence)." newcontext="H,1,10,H30">
+    <p_pu vh="V" name="Scates, Cody" gain="45"></p_pu>
+    <p_pr vh="H" name="GAINES,Billy" gain="10"></p_pr>
+    <p_tk vh="V" name="Kiel, Terrence"></p_tk>
+   </play>
+   <drivesum plays="3" yards="5" top="15:00" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,H30,13:17" vh="H" spot="H30" clock="13:17" driveindex="2,6"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT30" context="H,1,10,H30" playid="2,1,7" clock="13:17" tokens="{DRIVE}:13:17"
+      text="PITTSBURGH drive start at 13:17." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT30" context="H,1,10,H30" playid="2,2,8" type="P" tokens="PASS:12,I,32,*"
+      text="RUTHERFORD,Rod pass incomplete to POLITE,Lousaka." newcontext="H,2,10,H30">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="POLITE,Lousaka"></p_pa>
+   </play>
+   <play hasball="PIT" down="2" togo="10" spot="PIT30" context="H,2,10,H30" playid="2,3,9" type="R" tokens="RUSH:2,H33, TACK:48"
+      text="FURMAN,Marcus rush for 3 yards to the PIT33 (Kiel, Terrence)." newcontext="H,3,7,H33">
+    <p_ru vh="H" name="FURMAN,Marcus" gain="3"></p_ru>
+    <p_tk vh="V" name="Kiel, Terrence"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="7" spot="PIT33" context="H,3,7,H33" playid="2,4,10" type="#" clock="12:40" tokens="TOUT:H T:12:40"
+      text="Timeout Pittsburgh, clock 12:40." newcontext="H,3,7,H33">
+    <p_to vh="H" team="Pittsburgh"></p_to>
+   </play>
+   <play hasball="PIT" down="3" togo="7" spot="PIT33" context="H,3,7,H33" playid="2,5,11" type="R" tokens="RUSH:12,H46, TACK:48 PEN:H,HO,A,TM,H36,N"
+      text="RUTHERFORD,Rod rush for 13 yards to the PIT46 (Kiel, Terrence), PENALTY PIT holding 10 yards to the PIT36." newcontext="H,3,4,H36">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="13"></p_ru>
+    <p_tk vh="V" name="Kiel, Terrence"></p_tk>
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="H46" yards="10"></p_pn>
+   </play>
+   <play hasball="PIT" down="3" togo="4" spot="PIT36" context="H,3,4,H36" playid="2,6,12" type="P" tokens="PASS:12,C,1,H39 TACK:22"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 3 yards to the PIT39 (Davis, Sammy)." newcontext="H,4,1,H39">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="3"></p_pa>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="1" spot="PIT39" context="H,4,1,H39" playid="2,7,13" tokens="D:4,1"
+      text="4th and 1." newcontext="H,4,1,H39">
+   </play>
+   <play hasball="PIT" down="4" togo="1" spot="PIT39" context="H,4,1,H39" playid="2,8,14" type="U" tokens="PUNT:36,V20 RET:7,V15 TACK:3"
+      text="LEE,Andy punt 41 yards to the TA20, Carter, Jason return -5 yards to the TA15 (GRAY,Taron)." newcontext="V,1,10,V15">
+    <p_pu vh="H" name="LEE,Andy" gain="41"></p_pu>
+    <p_pr vh="V" name="Carter, Jason" gain="-5"></p_pr>
+    <p_tk vh="H" name="GRAY,Taron"></p_tk>
+   </play>
+   <drivesum plays="4" yards="9" top="0:00" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V15,11:10" vh="V" spot="V15" clock="11:10" driveindex="3,14"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA15" context="V,1,10,V15" playid="3,1,15" clock="11:10" tokens="{DRIVE}:11:10"
+      text="TEXAS A&amp;M drive start at 11:10." newcontext="V,1,10,V15">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA15" context="V,1,10,V15" playid="3,2,16" type="R" tokens="RUSH:1,V17, TACK:48"
+      text="Farmer, Derek rush for 2 yards to the TA17 (MOORE,Lewis)." newcontext="V,2,8,V17">
+    <p_ru vh="V" name="Farmer, Derek" gain="2"></p_ru>
+    <p_tk vh="H" name="MOORE,Lewis"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="8" spot="TA17" context="V,2,8,V17" playid="3,3,17" type="P" first="P" tokens="PASS:10,C,44,V28 TACK:20"
+      text="Farris, Mark pass complete to Porter, Greg for 11 yards to the TA28, 1ST DOWN TA (MORRIS,Tez)." newcontext="V,1,10,V28">
+    <p_pa vh="V" qb="Farris, Mark" result="COMP" rcv="Porter, Greg" gain="11"></p_pa>
+    <p_tk vh="H" name="MORRIS,Tez"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA28" context="V,1,10,V28" playid="3,4,18" type="R" tokens="RUSH:1,V33, TACK:15"
+      text="Farmer, Derek rush for 5 yards to the TA33 (BEINECKE,Brian)." newcontext="V,2,5,V33">
+    <p_ru vh="V" name="Farmer, Derek" gain="5"></p_ru>
+    <p_tk vh="H" name="BEINECKE,Brian"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="5" spot="TA33" context="V,2,5,V33" playid="3,5,19" type="R" first="R" tokens="RUSH:1,H46, TACK:90"
+      text="Farmer, Derek rush for 21 yards to the PIT46, 1ST DOWN TA (HARRIOTT,Claude)." newcontext="V,1,10,H46">
+    <p_ru vh="V" name="Farmer, Derek" gain="21"></p_ru>
+    <p_tk vh="H" name="HARRIOTT,Claude"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT46" context="V,1,10,H46" playid="3,6,20" type="R" tokens="RUSH:1,H41, TACK:51,90"
+      text="Farmer, Derek rush for 5 yards to the PIT41 (HAYES,Gerald;HARRIOTT,Claude)." newcontext="V,2,5,H41">
+    <p_ru vh="V" name="Farmer, Derek" gain="5"></p_ru>
+    <p_tk vh="H" name="HAYES,Gerald" assist="Y"></p_tk>
+    <p_tk vh="H" name="HARRIOTT,Claude" assist="Y"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="5" spot="PIT41" context="V,2,5,H41" playid="3,7,21" type="R" tokens="RUSH:32,H40, TACK:15"
+      text="Flemming, Osch. rush for 1 yard to the PIT40 (BEINECKE,Brian)." newcontext="V,3,4,H40">
+    <p_ru vh="V" name="Flemming, Osch." gain="1"></p_ru>
+    <p_tk vh="H" name="BEINECKE,Brian"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="4" spot="PIT40" context="V,3,4,H40" playid="3,8,22" type="P" tokens="PASS:10,I,44,* BRUP:20"
+      text="Farris, Mark pass incomplete to Porter, Greg (MORRIS,Tez)." newcontext="V,4,4,H40">
+    <p_pa vh="V" qb="Farris, Mark" result="INC" rcv="Porter, Greg"></p_pa>
+    <p_bu vh="H" name="MORRIS,Tez"></p_bu>
+   </play>
+   <play hasball="TA" down="4" togo="4" spot="PIT40" context="V,4,4,H40" playid="3,9,23" type="U" tokens="PUNT:20,H00 TB:"
+      text="Scates, Cody punt 40 yards to the PIT0, touchback." newcontext="H,1,10,H20">
+    <p_pu vh="V" name="Scates, Cody" gain="40" tb="Y"></p_pu>
+   </play>
+   <drivesum plays="7" yards="45" top="0:00" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H20,07:23" vh="H" spot="H20" clock="07:23" driveindex="4,23"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT20" context="H,1,10,H20" playid="4,1,24" clock="07:23" tokens="{DRIVE}:07:23"
+      text="PITTSBURGH drive start at 07:23." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT20" context="H,1,10,H20" playid="4,2,25" type="R" tokens="RUSH:2,H19, TACK:27"
+      text="FURMAN,Marcus rush for loss of 1 yard to the PIT19 (Hunnicutt, Jes.)." newcontext="H,2,11,H19">
+    <p_ru vh="H" name="FURMAN,Marcus" gain="-1"></p_ru>
+    <p_tk vh="V" name="Hunnicutt, Jes."></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="11" spot="PIT19" context="H,2,11,H19" playid="4,3,26" type="P" tokens="PASS:12,I,86,*"
+      text="RUTHERFORD,Rod pass incomplete to SLADE,Lamar." newcontext="H,3,11,H19">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="SLADE,Lamar"></p_pa>
+   </play>
+   <play hasball="PIT" down="3" togo="11" spot="PIT19" context="H,3,11,H19" playid="4,4,27" type="P" tokens="PASS:12,C,32,H27 TACK:22"
+      text="RUTHERFORD,Rod pass complete to POLITE,Lousaka for 8 yards to the PIT27 (Davis, Sammy)." newcontext="H,4,3,H27">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="POLITE,Lousaka" gain="8"></p_pa>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="3" spot="PIT27" context="H,4,3,H27" playid="4,5,28" type="U" tokens="PUNT:36,V00 TB:"
+      text="LEE,Andy punt 73 yards to the TA0, touchback." newcontext="V,1,10,V20">
+    <p_pu vh="H" name="LEE,Andy" gain="73" tb="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="7" top="0:00" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V20,05:46" vh="V" spot="V20" clock="05:46" driveindex="5,28"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA20" context="V,1,10,V20" playid="5,1,29" clock="05:46" tokens="{DRIVE}:05:46"
+      text="TEXAS A&amp;M drive start at 05:46." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA20" context="V,1,10,V20" playid="5,2,30" type="P" tokens="PASS:10,C,2,V23 TACK:7"
+      text="Farris, Mark pass complete to Taylor, Jamaar for 3 yards to the TA23 (ROBINSON,Shawn)." newcontext="V,2,7,V23">
+    <p_pa vh="V" qb="Farris, Mark" result="COMP" rcv="Taylor, Jamaar" gain="3"></p_pa>
+    <p_tk vh="H" name="ROBINSON,Shawn"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="7" spot="TA23" context="V,2,7,V23" playid="5,3,31" type="P" tokens="PASS:10,S,TM,V15 SACK:6"
+      text="Farris, Mark sacked for loss of 8 yards to the TA15 (POSTELL,Malcolm)." newcontext="V,3,15,V15">
+    <p_pa vh="V" qb="Farris, Mark" result="SACK" gain="-8"></p_pa>
+    <p_tk vh="H" name="POSTELL,Malcolm" sack="Y"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="15" spot="TA15" context="V,3,15,V15" playid="5,4,32" type="P" tokens="PASS:10,I,2,* BRUP:5"
+      text="Farris, Mark pass incomplete to Taylor, Jamaar (COX,Torrie)." newcontext="V,4,15,V15">
+    <p_pa vh="V" qb="Farris, Mark" result="INC" rcv="Taylor, Jamaar"></p_pa>
+    <p_bu vh="H" name="COX,Torrie"></p_bu>
+   </play>
+   <play hasball="TA" down="4" togo="15" spot="TA15" context="V,4,15,V15" playid="5,5,33" type="U" tokens="PUNT:20,H27 RET:29,H34 TACK:11"
+      text="Scates, Cody punt 58 yards to the PIT27, GAINES,Billy return 7 yards to the PIT34 (Jones, Byron)." newcontext="H,1,10,H34">
+    <p_pu vh="V" name="Scates, Cody" gain="58"></p_pu>
+    <p_pr vh="H" name="GAINES,Billy" gain="7"></p_pr>
+    <p_tk vh="V" name="Jones, Byron"></p_tk>
+   </play>
+   <drivesum plays="3" yards="-5" top="0:00" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H34,04:10" vh="H" spot="H34" clock="04:10" driveindex="6,33"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT34" context="H,1,10,H34" playid="6,1,34" clock="04:10" tokens="{DRIVE}:04:10"
+      text="PITTSBURGH drive start at 04:10." newcontext="H,1,10,H34">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT34" context="H,1,10,H34" playid="6,2,35" type="P" tokens="PASS:12,S,TM,H24 SACK:91"
+      text="RUTHERFORD,Rod sacked for loss of 10 yards to the PIT24 (Jasmin, Marcus)." newcontext="H,2,20,H24">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="SACK" gain="-10"></p_pa>
+    <p_tk vh="V" name="Jasmin, Marcus" sack="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="20" spot="PIT24" context="H,2,20,H24" playid="6,3,36" type="P" tokens="PASS:12,S,TM,H21 SACK:55"
+      text="RUTHERFORD,Rod sacked for loss of 3 yards to the PIT21 (Webb, Randall)." newcontext="H,3,23,H21">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="SACK" gain="-3"></p_pa>
+    <p_tk vh="V" name="Webb, Randall" sack="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="23" spot="PIT21" context="H,3,23,H21" playid="6,4,37" type="P" tokens="PASS:12,I,1,*"
+      text="RUTHERFORD,Rod pass incomplete to FITZGERALD,L.." newcontext="H,4,23,H21">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="FITZGERALD,L."></p_pa>
+   </play>
+   <play hasball="PIT" down="4" togo="23" spot="PIT21" context="H,4,23,H21" playid="6,5,38" type="U" tokens="PUNT:36,V18 RET:7,V28 TACK:48"
+      text="LEE,Andy punt 61 yards to the TA18, Carter, Jason return 10 yards to the TA28 (MOORE,Lewis)." newcontext="V,1,10,V28">
+    <p_pu vh="H" name="LEE,Andy" gain="61"></p_pu>
+    <p_pr vh="V" name="Carter, Jason" gain="10"></p_pr>
+    <p_tk vh="H" name="MOORE,Lewis"></p_tk>
+   </play>
+   <drivesum plays="3" yards="-13" top="0:00" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,V28,02:29" vh="V" spot="V28" clock="02:29" driveindex="7,38"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA28" context="V,1,10,V28" playid="7,1,39" clock="02:29" tokens="{DRIVE}:02:29"
+      text="TEXAS A&amp;M drive start at 02:29." newcontext="V,1,10,V28">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA28" context="V,1,10,V28" playid="7,2,40" type="P" tokens="PASS:10,I,2,* BRUP:5"
+      text="Farris, Mark pass incomplete to Taylor, Jamaar (COX,Torrie)." newcontext="V,2,10,V28">
+    <p_pa vh="V" qb="Farris, Mark" result="INC" rcv="Taylor, Jamaar"></p_pa>
+    <p_bu vh="H" name="COX,Torrie"></p_bu>
+   </play>
+   <play hasball="TA" down="2" togo="10" spot="TA28" context="V,2,10,V28" playid="7,3,41" type="R" tokens="RUSH:1,V26, TACK:7"
+      text="Farmer, Derek rush for loss of 2 yards to the TA26 (ROBINSON,Shawn)." newcontext="V,3,12,V26">
+    <p_ru vh="V" name="Farmer, Derek" gain="-2"></p_ru>
+    <p_tk vh="H" name="ROBINSON,Shawn"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="12" spot="TA26" context="V,3,12,V26" playid="7,4,42" type="P" first="P" tokens="PASS:10,C,44,V38 TACK:19"
+      text="Farris, Mark pass complete to Porter, Greg for 12 yards to the TA38, 1ST DOWN TA (SPENCER,S.)." newcontext="V,1,10,V38">
+    <p_pa vh="V" qb="Farris, Mark" result="COMP" rcv="Porter, Greg" gain="12"></p_pa>
+    <p_tk vh="H" name="SPENCER,S."></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA38" context="V,1,10,V38" playid="7,5,43" type="P" tokens="PASS:10,I,5,* BRUP:7"
+      text="Farris, Mark pass incomplete to Murphy, Ter. (ROBINSON,Shawn)." newcontext="V,2,10,V38">
+    <p_pa vh="V" qb="Farris, Mark" result="INC" rcv="Murphy, Ter."></p_pa>
+    <p_bu vh="H" name="ROBINSON,Shawn"></p_bu>
+   </play>
+   <play hasball="TA" down="2" togo="10" spot="TA38" context="V,2,10,V38" playid="7,6,44" type="P" first="P" tokens="PASS:10,C,9,H43 TACK:7"
+      text="Farris, Mark pass complete to Johnson, Bethel for 19 yards to the PIT43, 1ST DOWN TA (ROBINSON,Shawn)." newcontext="V,1,10,H43">
+    <p_pa vh="V" qb="Farris, Mark" result="COMP" rcv="Johnson, Bethel" gain="19"></p_pa>
+    <p_tk vh="H" name="ROBINSON,Shawn"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT43" context="V,1,10,H43" playid="7,7,45" type="R" tokens="RUSH:1,H42, TACK:56,41"
+      text="Farmer, Derek rush for 1 yard to the PIT42 (SPENCER,Charles;McCURLEY,Scott)." newcontext="V,2,9,H42">
+    <p_ru vh="V" name="Farmer, Derek" gain="1"></p_ru>
+    <p_tk vh="H" name="SPENCER,Charles" assist="Y"></p_tk>
+    <p_tk vh="H" name="McCURLEY,Scott" assist="Y"></p_tk>
+   </play>
+   <score qtr="1" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="TA">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:35"></misc>
+    <rush att="10" yds="30" gain="40" loss="10" td="0" long="21"></rush>
+    <pass comp="4" att="9" int="0" yds="45" td="0" long="19" sacks="1" sackyds="8"></pass>
+    <rcv no="4" yds="45" td="0" long="19"></rcv>
+    <punt no="3" yds="143" long="58" blkd="0" tb="1" fc="0" plus50="1" inside20="0" avg="47.7"></punt>
+    <defense tackua="9" tacka="0" tot_tack="9" tflua="3" tfla="0" tflyds="14" sacks="2" sackyds="13"></defense>
+    <kr no="1" yds="23" td="0" long="23"></kr>
+    <pr no="2" yds="5" td="0" long="10"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PIT">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:25"></misc>
+    <rush att="5" yds="2" gain="16" loss="14" td="0" long="13"></rush>
+    <pass comp="2" att="5" int="0" yds="11" td="0" long="8" sacks="2" sackyds="13"></pass>
+    <rcv no="2" yds="11" td="0" long="8"></rcv>
+    <punt no="3" yds="175" long="73" blkd="0" tb="1" fc="0" plus50="2" inside20="0" avg="58.3"></punt>
+    <ko no="1" yds="58" ob="0" tb="0"></ko>
+    <defense tackua="14" tacka="6" tot_tack="20" tflua="2" tfla="0" tflyds="10" sacks="1" sackyds="8" brup="5"></defense>
+    <pr no="2" yds="17" td="0" long="10"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="TA" down="2" togo="9" spot="PIT42" context="V,2,9,H42" playid="7,8,46" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00." newcontext="V,2,9,H42">
+   </play>
+   <play hasball="TA" down="2" togo="9" spot="PIT42" context="V,2,9,H42" playid="7,9,47" type="P" tokens="PASS:10,S,TM,V49 SACK:47"
+      text="Farris, Mark sacked for loss of 9 yards to the TA49 (GUZEK,Brian)." newcontext="V,3,18,V49">
+    <p_pa vh="V" qb="Farris, Mark" result="SACK" gain="-9"></p_pa>
+    <p_tk vh="H" name="GUZEK,Brian" sack="Y"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="18" spot="TA49" context="V,3,18,V49" playid="7,10,48" type="E" tokens="PEN:V,FS,A,TM,V44,N"
+      text="PENALTY TA false start 5 yards to the TA44." newcontext="V,3,23,V44">
+    <p_pn vh="V" code="FS" type="false start" result="ACCEPT" at="V49" yards="5"></p_pn>
+   </play>
+   <play hasball="TA" down="3" togo="23" spot="TA44" context="V,3,23,V44" playid="7,11,49" type="P" tokens="PASS:10,I,5,* BRUP:7"
+      text="Farris, Mark pass incomplete to Murphy, Ter. (ROBINSON,Shawn)." newcontext="V,4,23,V44">
+    <p_pa vh="V" qb="Farris, Mark" result="INC" rcv="Murphy, Ter."></p_pa>
+    <p_bu vh="H" name="ROBINSON,Shawn"></p_bu>
+   </play>
+   <play hasball="TA" down="4" togo="23" spot="TA44" context="V,4,23,V44" playid="7,12,50" type="U" tokens="PUNT:20,H16 RET:29,H17 TACK:6"
+      text="Scates, Cody punt 40 yards to the PIT16, GAINES,Billy return 1 yards to the PIT17 (Singleton, Bry.)." newcontext="H,1,10,H17">
+    <p_pu vh="V" name="Scates, Cody" gain="40" in20="Y"></p_pu>
+    <p_pr vh="H" name="GAINES,Billy" gain="1"></p_pr>
+    <p_tk vh="V" name="Singleton, Bry."></p_tk>
+   </play>
+   <drivesum plays="8" yards="16" top="0:00" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H17,13:44" vh="H" spot="H17" clock="13:44" driveindex="8,50"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT17" context="H,1,10,H17" playid="8,1,51" clock="13:44" tokens="{DRIVE}:13:44"
+      text="PITTSBURGH drive start at 13:44." newcontext="H,1,10,H17">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT17" context="H,1,10,H17" playid="8,2,52" type="R" tokens="RUSH:25,H19, TACK:45,94"
+      text="MIREE,Brandon rush for 2 yards to the PIT19 (Morris, Jared;Warren, Ty)." newcontext="H,2,8,H19">
+    <p_ru vh="H" name="MIREE,Brandon" gain="2"></p_ru>
+    <p_tk vh="V" name="Morris, Jared" assist="Y"></p_tk>
+    <p_tk vh="V" name="Warren, Ty" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="8" spot="PIT19" context="H,2,8,H19" playid="8,3,53" type="P" tokens="PASS:12,C,32,H21 TACK:27"
+      text="RUTHERFORD,Rod pass complete to POLITE,Lousaka for 2 yards to the PIT21 (Hunnicutt, Jes.)." newcontext="H,3,6,H21">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="POLITE,Lousaka" gain="2"></p_pa>
+    <p_tk vh="V" name="Hunnicutt, Jes."></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="6" spot="PIT21" context="H,3,6,H21" playid="8,4,54" type="P" first="P" tokens="PASS:12,C,1,H34 TACK:19"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 13 yards to the PIT34, 1ST DOWN PIT (Appel, Jaxson)." newcontext="H,1,10,H34">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="13"></p_pa>
+    <p_tk vh="V" name="Appel, Jaxson"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT34" context="H,1,10,H34" playid="8,5,55" type="P" tokens="PASS:12,I,87,*"
+      text="RUTHERFORD,Rod pass incomplete to BYNES,Roosevelt." newcontext="H,2,10,H34">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="BYNES,Roosevelt"></p_pa>
+   </play>
+   <play hasball="PIT" down="2" togo="10" spot="PIT34" context="H,2,10,H34" playid="8,6,56" type="P" tokens="PASS:12,I,1,*"
+      text="RUTHERFORD,Rod pass incomplete to FITZGERALD,L.." newcontext="H,3,10,H34">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="FITZGERALD,L."></p_pa>
+   </play>
+   <play hasball="PIT" down="3" togo="10" spot="PIT34" context="H,3,10,H34" playid="8,7,57" type="P" tokens="PASS:12,S,TM,H21 SACK:48"
+      text="RUTHERFORD,Rod sacked for loss of 13 yards to the PIT21 (Kiel, Terrence)." newcontext="H,4,23,H21">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="SACK" gain="-13"></p_pa>
+    <p_tk vh="V" name="Kiel, Terrence" sack="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="23" spot="PIT21" context="H,4,23,H21" playid="8,8,58" type="U" tokens="PUNT:36,H49 OB:"
+      text="LEE,Andy punt 28 yards to the PIT49, out-of-bounds." ob="Y" newcontext="V,1,10,H49">
+    <p_pu vh="H" name="LEE,Andy" gain="28" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="6" yards="4" top="0:00" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,H49,10:49" vh="V" spot="H49" clock="10:49" driveindex="9,58"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="PIT49" context="V,1,10,H49" playid="9,1,59" clock="10:49" tokens="{DRIVE}:10:49"
+      text="TEXAS A&amp;M drive start at 10:49." newcontext="V,1,10,H49">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT49" context="V,1,10,H49" playid="9,2,60" type="P" first="P" tokens="PASS:10,C,5,H14 TACK:19"
+      text="Farris, Mark pass complete to Murphy, Ter. for 35 yards to the PIT14, 1ST DOWN TA (SPENCER,S.)." newcontext="V,1,10,H14">
+    <p_pa vh="V" qb="Farris, Mark" result="COMP" rcv="Murphy, Ter." gain="35"></p_pa>
+    <p_tk vh="H" name="SPENCER,S."></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT14" context="V,1,10,H14" playid="9,3,61" type="R" first="R" tokens="RUSH:1,H01, TACK:51"
+      text="Farmer, Derek rush for 13 yards to the PIT1, 1ST DOWN TA (HAYES,Gerald)." newcontext="V,1,0,H01">
+    <p_ru vh="V" name="Farmer, Derek" gain="13"></p_ru>
+    <p_tk vh="H" name="HAYES,Gerald"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="0" spot="PIT01" context="V,1,0,H01" playid="9,4,62" type="R" score="Y" vscore="6" hscore="0" clock="09:51" tokens="RUSH:1,H00, T:09:51"
+      text="Farmer, Derek rush for 1 yard to the PIT0, TOUCHDOWN, clock 09:51." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Farmer, Derek" gain="1"></p_ru>
+   </play>
+   <play hasball="TA" down="1" togo="0" spot="PIT03" context="V,1,0,H03" playid="9,5,63" type="X" score="Y" vscore="7" hscore="0" tokens="PAT:K,13,G"
+      text="Pegram, Todd kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Pegram, Todd" qb="Pegram, Todd" type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="0"></score>
+   <drivesum plays="3" yards="49" top="0:00" driveindex="9" complete="Y"></drivesum>
+   <play hasball="TA" down="1" togo="0" spot="TA35" context="V,1,0,V35" playid="9,6,64" type="K" tokens="KO:20,H00 RET:19,H36 TACK:31"
+      text="Scates, Cody kickoff 65 yards to the PIT0, SPENCER,S. return 36 yards to the PIT36 (Weston, Sean)." newcontext="H,1,10,H36">
+    <p_ko vh="V" name="Scates, Cody" gain="65"></p_ko>
+    <p_kr vh="H" name="SPENCER,S." gain="36"></p_kr>
+    <p_tk vh="V" name="Weston, Sean"></p_tk>
+   </play>
+   <drivestart poss="H,H36,09:51" vh="H" spot="H36" clock="09:51" driveindex="10,64"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT36" context="H,1,10,H36" playid="10,1,65" clock="09:51" tokens="{DRIVE}:09:51"
+      text="PITTSBURGH drive start at 09:51." newcontext="H,1,10,H36">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT36" context="H,1,10,H36" playid="10,2,66" type="R" tokens="RUSH:12,H37, TACK:88,19"
+      text="RUTHERFORD,Rod rush for 1 yard to the PIT37 (Smith, Linnis;Appel, Jaxson)." newcontext="H,2,9,H37">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="1"></p_ru>
+    <p_tk vh="V" name="Smith, Linnis" assist="Y"></p_tk>
+    <p_tk vh="V" name="Appel, Jaxson" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="9" spot="PIT37" context="H,2,9,H37" playid="10,3,67" type="R" tokens="RUSH:25,H40, TACK:88,27"
+      text="MIREE,Brandon rush for 3 yards to the PIT40 (Smith, Linnis;Hunnicutt, Jes.)." newcontext="H,3,6,H40">
+    <p_ru vh="H" name="MIREE,Brandon" gain="3"></p_ru>
+    <p_tk vh="V" name="Smith, Linnis" assist="Y"></p_tk>
+    <p_tk vh="V" name="Hunnicutt, Jes." assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="6" spot="PIT40" context="H,3,6,H40" playid="10,4,68" type="P" tokens="PASS:12,S,TM,H37 SACK:19"
+      text="RUTHERFORD,Rod sacked for loss of 3 yards to the PIT37 (Appel, Jaxson)." newcontext="H,4,9,H37">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="SACK" gain="-3"></p_pa>
+    <p_tk vh="V" name="Appel, Jaxson" sack="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="9" spot="PIT37" context="H,4,9,H37" playid="10,5,69" type="U" tokens="PUNT:36,V27 FC:7 PEN:V,FC,A,TM,V22,N D:1,10 SPOT:V,V22,Y"
+      text="LEE,Andy punt 36 yards to the TA27, fair catch by Carter, Jason, PENALTY TA illegal fair catch signal 5 yards to the TA22, 1st and 10, TA ball on TA22." newcontext="V,1,10,V22">
+    <p_pu vh="H" name="LEE,Andy" gain="36" fc="Carter, Jason"></p_pu>
+    <p_pn vh="V" code="FC" type="illegal fair catch signal" result="ACCEPT" at="V27" yards="5"></p_pn>
+   </play>
+   <drivesum plays="3" yards="1" top="0:00" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V22,07:36" vh="V" spot="V22" clock="07:36" driveindex="11,69"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA22" context="V,1,10,V22" playid="11,1,70" clock="07:36" tokens="{DRIVE}:07:36"
+      text="TEXAS A&amp;M drive start at 07:36." newcontext="V,1,10,V22">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA22" context="V,1,10,V22" playid="11,2,71" type="R" tokens="RUSH:4,V31, TACK:20"
+      text="Goynes, Dwain rush for 9 yards to the TA31 (MORRIS,Tez)." newcontext="V,2,1,V31">
+    <p_ru vh="V" name="Goynes, Dwain" gain="9"></p_ru>
+    <p_tk vh="H" name="MORRIS,Tez"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="1" spot="TA31" context="V,2,1,V31" playid="11,3,72" type="R" first="R" tokens="RUSH:1,V35, TACK:7"
+      text="Farmer, Derek rush for 4 yards to the TA35, 1ST DOWN TA (ROBINSON,Shawn)." newcontext="V,1,10,V35">
+    <p_ru vh="V" name="Farmer, Derek" gain="4"></p_ru>
+    <p_tk vh="H" name="ROBINSON,Shawn"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA35" context="V,1,10,V35" playid="11,4,73" type="R" tokens="RUSH:4,V33, TACK:51"
+      text="Goynes, Dwain rush for loss of 2 yards to the TA33 (HAYES,Gerald)." newcontext="V,2,12,V33">
+    <p_ru vh="V" name="Goynes, Dwain" gain="-2"></p_ru>
+    <p_tk vh="H" name="HAYES,Gerald"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="12" spot="TA33" context="V,2,12,V33" playid="11,5,74" type="E" tokens="PASS:10,C,9,V45 TACK:51 PEN:V,ID,A,TM,V28,N NOPLAY:"
+      text="Farris, Mark pass complete to Johnson, Bethel for 12 yards to the TA45 (HAYES,Gerald), PENALTY TA ineligible downfield on pass 5 yards to the TA28, NO PLAY." newcontext="V,2,17,V28">
+    <p_pn vh="V" code="ID" type="ineligible downfield on pass" result="ACCEPT" at="V33" yards="5"></p_pn>
+   </play>
+   <play hasball="TA" down="2" togo="17" spot="TA28" context="V,2,17,V28" playid="11,6,75" type="P" tokens="PASS:10,I,2,*"
+      text="Farris, Mark pass incomplete to Taylor, Jamaar." newcontext="V,3,17,V28">
+    <p_pa vh="V" qb="Farris, Mark" result="INC" rcv="Taylor, Jamaar"></p_pa>
+   </play>
+   <play hasball="TA" down="3" togo="17" spot="TA28" context="V,3,17,V28" playid="11,7,76" type="P" tokens="PASS:10,I,44,*"
+      text="Farris, Mark pass incomplete to Porter, Greg." newcontext="V,4,17,V28">
+    <p_pa vh="V" qb="Farris, Mark" result="INC" rcv="Porter, Greg"></p_pa>
+   </play>
+   <play hasball="TA" down="4" togo="17" spot="TA28" context="V,4,17,V28" playid="11,8,77" type="U" tokens="PUNT:20,H27 DN:"
+      text="Scates, Cody punt 45 yards to the PIT27, downed." newcontext="H,1,10,H27">
+    <p_pu vh="V" name="Scates, Cody" gain="45"></p_pu>
+   </play>
+   <drivesum plays="5" yards="6" top="0:00" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H27,05:14" vh="H" spot="H27" clock="05:14" driveindex="12,77"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT27" context="H,1,10,H27" playid="12,1,78" clock="05:14" tokens="{DRIVE}:05:14"
+      text="PITTSBURGH drive start at 05:14." newcontext="H,1,10,H27">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT27" context="H,1,10,H27" playid="12,2,79" type="E" first="E" tokens="PASS:10,I,87,* PEN:V,PI,A,TM,H42,N NOPLAY:"
+      text="PALKO,Tyler pass incomplete to BYNES,Roosevelt, PENALTY TA pass interference 15 yards to the PIT42, 1ST DOWN PIT, NO PLAY." newcontext="H,1,10,H42">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="H27" yards="15"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT42" context="H,1,10,H42" playid="12,3,80" type="P" tokens="PASS:10,C,86,H49 OB: TACK:22"
+      text="PALKO,Tyler pass complete to SLADE,Lamar for 7 yards to the PIT49, out-of-bounds (Davis, Sammy)." ob="Y" newcontext="H,2,3,H49">
+    <p_pa vh="H" qb="PALKO,Tyler" result="COMP" rcv="SLADE,Lamar" gain="7"></p_pa>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="3" spot="PIT49" context="H,2,3,H49" playid="12,4,81" type="E" tokens="PEN:H,FS,A,TM,H44,N"
+      text="PENALTY PIT false start 5 yards to the PIT44." newcontext="H,2,8,H44">
+    <p_pn vh="H" code="FS" type="false start" result="ACCEPT" at="H49" yards="5"></p_pn>
+   </play>
+   <play hasball="PIT" down="2" togo="8" spot="PIT44" context="H,2,8,H44" playid="12,5,82" type="R" tokens="RUSH:10,H44, TACK:88"
+      text="PALKO,Tyler rush for no gain to the PIT44 (Smith, Linnis)." newcontext="H,3,8,H44">
+    <p_ru vh="H" name="PALKO,Tyler" gain="0"></p_ru>
+    <p_tk vh="V" name="Smith, Linnis"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="8" spot="PIT44" context="H,3,8,H44" playid="12,6,83" type="P" tokens="PASS:10,S,TM,H35 SACK:17"
+      text="PALKO,Tyler sacked for loss of 9 yards to the PIT35 (Gamble, Brian)." newcontext="H,4,17,H35">
+    <p_pa vh="H" qb="PALKO,Tyler" result="SACK" gain="-9"></p_pa>
+    <p_tk vh="V" name="Gamble, Brian" sack="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="17" spot="PIT35" context="H,4,17,H35" playid="12,7,84" type="U" tokens="PUNT:36,V18 DN:"
+      text="LEE,Andy punt 47 yards to the TA18, downed." newcontext="V,1,10,V18">
+    <p_pu vh="H" name="LEE,Andy" gain="47" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="8" top="0:00" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V18,03:30" vh="V" spot="V18" clock="03:30" driveindex="13,84"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA18" context="V,1,10,V18" playid="13,1,85" clock="03:30" tokens="{DRIVE}:03:30"
+      text="TEXAS A&amp;M drive start at 03:30." newcontext="V,1,10,V18">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA18" context="V,1,10,V18" playid="13,2,86" type="E" tokens="RUSH:1,V19, TACK:93 PEN:V,FS,A,TM,V13,N NOPLAY:"
+      text="Farmer, Derek rush for 1 yard to the TA19 (HOLTHAUS,Jake), PENALTY TA false start 5 yards to the TA13, NO PLAY." newcontext="V,1,15,V13">
+    <p_pn vh="V" code="FS" type="false start" result="ACCEPT" at="V18" yards="5"></p_pn>
+   </play>
+   <play hasball="TA" down="1" togo="15" spot="TA13" context="V,1,15,V13" playid="13,3,87" type="P" tokens="PASS:18,C,2,V23 TACK:5"
+      text="Long, Dustin pass complete to Taylor, Jamaar for 10 yards to the TA23 (COX,Torrie)." newcontext="V,2,5,V23">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Taylor, Jamaar" gain="10"></p_pa>
+    <p_tk vh="H" name="COX,Torrie"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="5" spot="TA23" context="V,2,5,V23" playid="13,4,88" type="P" tokens="PASS:18,I,9,*"
+      text="Long, Dustin pass incomplete to Johnson, Bethel." newcontext="V,3,5,V23">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Johnson, Bethel"></p_pa>
+   </play>
+   <play hasball="TA" down="3" togo="5" spot="TA23" context="V,3,5,V23" playid="13,5,89" type="P" first="P" tokens="PASS:18,C,3,V33 TACK:48"
+      text="Long, Dustin pass complete to Thomas, Ter. for 10 yards to the TA33, 1ST DOWN TA (MOORE,Lewis)." newcontext="V,1,10,V33">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Thomas, Ter." gain="10"></p_pa>
+    <p_tk vh="H" name="MOORE,Lewis"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA33" context="V,1,10,V33" playid="13,6,90" type="P" tokens="PASS:18,C,44,V37 TACK:51"
+      text="Long, Dustin pass complete to Porter, Greg for 4 yards to the TA37 (HAYES,Gerald)." newcontext="V,2,6,V37">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Porter, Greg" gain="4"></p_pa>
+    <p_tk vh="H" name="HAYES,Gerald"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="6" spot="TA37" context="V,2,6,V37" playid="13,7,91" type="P" tokens="PASS:18,C,44,V41 TACK:20"
+      text="Long, Dustin pass complete to Porter, Greg for 4 yards to the TA41 (MORRIS,Tez)." newcontext="V,3,2,V41">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Porter, Greg" gain="4"></p_pa>
+    <p_tk vh="H" name="MORRIS,Tez"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="2" spot="TA41" context="V,3,2,V41" playid="13,8,92" type="P" tokens="PASS:18,I,5,* BRUP:5"
+      text="Long, Dustin pass incomplete to Murphy, Ter. (COX,Torrie)." newcontext="V,4,2,V41">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Murphy, Ter."></p_pa>
+    <p_bu vh="H" name="COX,Torrie"></p_bu>
+   </play>
+   <play hasball="TA" down="4" togo="2" spot="TA41" context="V,4,2,V41" playid="13,9,93" type="U" tokens="PUNT:20,H10 DN:"
+      text="Scates, Cody punt 49 yards to the PIT10, downed." newcontext="H,1,10,H10">
+    <p_pu vh="V" name="Scates, Cody" gain="49" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="6" yards="23" top="0:00" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H10,00:54" vh="H" spot="H10" clock="00:54" driveindex="14,93"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT10" context="H,1,10,H10" playid="14,1,94" clock="00:54" tokens="{DRIVE}:00:54"
+      text="PITTSBURGH drive start at 00:54." newcontext="H,1,10,H10">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT10" context="H,1,10,H10" playid="14,2,95" type="P" tokens="PASS:12,I,86,*"
+      text="RUTHERFORD,Rod pass incomplete to SLADE,Lamar." newcontext="H,2,10,H10">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="SLADE,Lamar"></p_pa>
+   </play>
+   <play hasball="PIT" down="2" togo="10" spot="PIT10" context="H,2,10,H10" playid="14,3,96" type="R" tokens="RUSH:32,H19, TACK:42"
+      text="POLITE,Lousaka rush for 9 yards to the PIT19 (Smith, Everett)." newcontext="H,3,1,H19">
+    <p_ru vh="H" name="POLITE,Lousaka" gain="9"></p_ru>
+    <p_tk vh="V" name="Smith, Everett"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="1" spot="PIT19" context="H,3,1,H19" playid="14,4,97" type="#" clock="00:43" tokens="TOUT:V T:00:43"
+      text="Timeout Texas A&amp;M, clock 00:43." newcontext="H,3,1,H19">
+    <p_to vh="V" team="Texas A&amp;M"></p_to>
+   </play>
+   <play hasball="PIT" down="3" togo="1" spot="PIT19" context="H,3,1,H19" playid="14,5,98" type="R" first="R" tokens="RUSH:32,H21, TACK:60,94"
+      text="POLITE,Lousaka rush for 2 yards to the PIT21, 1ST DOWN PIT (Jolly, Johnny;Warren, Ty)." newcontext="H,1,10,H21">
+    <p_ru vh="H" name="POLITE,Lousaka" gain="2"></p_ru>
+    <p_tk vh="V" name="Jolly, Johnny" assist="Y"></p_tk>
+    <p_tk vh="V" name="Warren, Ty" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT21" context="H,1,10,H21" playid="14,6,99" type="#" clock="00:39" tokens="TOUT:V T:00:39"
+      text="Timeout Texas A&amp;M, clock 00:39." newcontext="H,1,10,H21">
+    <p_to vh="V" team="Texas A&amp;M"></p_to>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT21" context="H,1,10,H21" playid="14,7,100" type="R" tokens="RUSH:32,H21, TACK:94 PEN:V,FM,A,TM,H26,N"
+      text="POLITE,Lousaka rush for no gain to the PIT21 (Warren, Ty), PENALTY TA face mask 5 yards to the PIT26." newcontext="H,1,5,H26">
+    <p_ru vh="H" name="POLITE,Lousaka" gain="0"></p_ru>
+    <p_tk vh="V" name="Warren, Ty"></p_tk>
+    <p_pn vh="V" code="FM" type="face mask" result="ACCEPT" at="H21" yards="5"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="5" spot="PIT26" context="H,1,5,H26" playid="14,8,101" type="R" first="R" tokens="RUSH:25,H33, TACK:47"
+      text="MIREE,Brandon rush for 7 yards to the PIT33, 1ST DOWN PIT (FLOOD, Kelvin)." newcontext="H,1,10,H33">
+    <p_ru vh="H" name="MIREE,Brandon" gain="7"></p_ru>
+    <p_tk vh="V" name="FLOOD, Kelvin"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT33" context="H,1,10,H33" playid="14,9,102" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00." newcontext="H,1,10,H33">
+   </play>
+   <drivesum plays="5" yards="23" top="0:00" driveindex="14" complete="Y"></drivesum>
+   <score qtr="2" V="7" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="TA">
+    <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+    <penalties no="6" yds="40"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:06"></misc>
+    <rush att="6" yds="16" gain="27" loss="11" td="1" long="0"></rush>
+    <pass comp="5" att="10" int="0" yds="63" td="0" long="16" sacks="1" sackyds="9"></pass>
+    <rcv no="5" yds="63" td="0" long="16"></rcv>
+    <punt no="3" yds="134" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="2" avg="44.7"></punt>
+    <ko no="1" yds="65" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="8" tot_tack="20" tflua="3" tfla="0" tflyds="25" sacks="3" sackyds="25"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PIT">
+    <firstdowns no="4" rush="2" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:54"></misc>
+    <rush att="11" yds="-1" gain="24" loss="25" td="0" long="0"></rush>
+    <pass comp="3" att="6" int="0" yds="22" td="0" long="5" sacks="3" sackyds="25"></pass>
+    <rcv no="3" yds="22" td="0" long="5"></rcv>
+    <punt no="3" yds="111" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="37.0"></punt>
+    <defense tackua="10" tacka="0" tot_tack="10" tflua="2" tfla="0" tflyds="11" sacks="1" sackyds="9" brup="2"></defense>
+    <kr no="1" yds="36" td="0" long="36"></kr>
+    <pr no="1" yds="1" td="0" long="0"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="PIT" down="1" togo="10" spot="PIT33" context="H,1,10,H33" playid="14,10,103" type="#" clock="15:00" tokens="Q:3 T:15:00"
+      text="Start of 3rd quarter, clock 15:00." newcontext="H,1,10,H33">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT33" context="H,1,10,H33" playid="14,11,104" tokens="SPOT:V,V35,Y"
+      text="TA ball on TA35." newcontext="V,1,10,V35">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA35" context="V,1,10,V35" playid="14,12,105" type="K" tokens="KO:20,H05 RET:5,H41 TACK:11"
+      text="Scates, Cody kickoff 60 yards to the PIT5, COX,Torrie return 36 yards to the PIT41 (Jones, Byron)." newcontext="H,1,10,H41">
+    <p_ko vh="V" name="Scates, Cody" gain="60"></p_ko>
+    <p_kr vh="H" name="COX,Torrie" gain="36"></p_kr>
+    <p_tk vh="V" name="Jones, Byron"></p_tk>
+   </play>
+   <drivestart poss="H,H41,15:00" vh="H" spot="H41" clock="15:00" driveindex="15,105"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT41" context="H,1,10,H41" playid="15,1,106" clock="15:00" tokens="{DRIVE}:15:00"
+      text="PITTSBURGH drive start at 15:00." newcontext="H,1,10,H41">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT41" context="H,1,10,H41" playid="15,2,107" type="R" tokens="RUSH:12,H42, TACK:19,91"
+      text="RUTHERFORD,Rod rush for 1 yard to the PIT42 (Appel, Jaxson;Jasmin, Marcus)." newcontext="H,2,9,H42">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="1"></p_ru>
+    <p_tk vh="V" name="Appel, Jaxson" assist="Y"></p_tk>
+    <p_tk vh="V" name="Jasmin, Marcus" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="9" spot="PIT42" context="H,2,9,H42" playid="15,3,108" type="R" tokens="RUSH:25,H49, TACK:98,45"
+      text="MIREE,Brandon rush for 7 yards to the PIT49 (Carriger, Thom.;Morris, Jared)." newcontext="H,3,2,H49">
+    <p_ru vh="H" name="MIREE,Brandon" gain="7"></p_ru>
+    <p_tk vh="V" name="Carriger, Thom." assist="Y"></p_tk>
+    <p_tk vh="V" name="Morris, Jared" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="2" spot="PIT49" context="H,3,2,H49" playid="15,4,109" type="R" first="R" tokens="RUSH:25,V45, TACK:22"
+      text="MIREE,Brandon rush for 6 yards to the TA45, 1ST DOWN PIT (Davis, Sammy)." newcontext="H,1,10,V45">
+    <p_ru vh="H" name="MIREE,Brandon" gain="6"></p_ru>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="TA45" context="H,1,10,V45" playid="15,5,110" type="R" tokens="RUSH:25,V36, TACK:17,22"
+      text="MIREE,Brandon rush for 9 yards to the TA36 (Gamble, Brian;Davis, Sammy)." newcontext="H,2,1,V36">
+    <p_ru vh="H" name="MIREE,Brandon" gain="9"></p_ru>
+    <p_tk vh="V" name="Gamble, Brian" assist="Y"></p_tk>
+    <p_tk vh="V" name="Davis, Sammy" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="1" spot="TA36" context="H,2,1,V36" playid="15,6,111" type="R" tokens="RUSH:32,V37, TACK:94,91"
+      text="POLITE,Lousaka rush for loss of 1 yard to the TA37 (Warren, Ty;Jasmin, Marcus)." newcontext="H,3,2,V37">
+    <p_ru vh="H" name="POLITE,Lousaka" gain="-1"></p_ru>
+    <p_tk vh="V" name="Warren, Ty" assist="Y"></p_tk>
+    <p_tk vh="V" name="Jasmin, Marcus" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="2" spot="TA37" context="H,3,2,V37" playid="15,7,112" type="R" tokens="RUSH:12,V36, TACK:48"
+      text="RUTHERFORD,Rod rush for 1 yard to the TA36 (Kiel, Terrence)." newcontext="H,4,1,V36">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="1"></p_ru>
+    <p_tk vh="V" name="Kiel, Terrence"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="1" spot="TA36" context="H,4,1,V36" playid="15,8,113" type="R" tokens="RUSH:12,V36, TACK:43"
+      text="RUTHERFORD,Rod rush for no gain to the TA36 (Penright, Jar.)." newcontext="V,1,10,V36">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="0"></p_ru>
+    <p_tk vh="V" name="Penright, Jar."></p_tk>
+   </play>
+   <drivesum plays="7" yards="23" top="0:00" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V36,11:30" vh="V" spot="V36" clock="11:30" driveindex="16,113"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA36" context="V,1,10,V36" playid="16,1,114" clock="11:30" tokens="{DRIVE}:11:30"
+      text="TEXAS A&amp;M drive start at 11:30." newcontext="V,1,10,V36">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA36" context="V,1,10,V36" playid="16,2,115" type="R" first="R" tokens="RUSH:1,V47, TACK:31"
+      text="Farmer, Derek rush for 11 yards to the TA47, 1ST DOWN TA (GILLIARD,Tyrone)." newcontext="V,1,10,V47">
+    <p_ru vh="V" name="Farmer, Derek" gain="11"></p_ru>
+    <p_tk vh="H" name="GILLIARD,Tyrone"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA47" context="V,1,10,V47" playid="16,3,116" type="P" tokens="PASS:18,S,TM,V39 SACK:94"
+      text="Long, Dustin sacked for loss of 8 yards to the TA39 (STEPHENS, Dan)." newcontext="V,2,18,V39">
+    <p_pa vh="V" qb="Long, Dustin" result="SACK" gain="-8"></p_pa>
+    <p_tk vh="H" name="STEPHENS, Dan" sack="Y"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="18" spot="TA39" context="V,2,18,V39" playid="16,4,117" type="E" tokens="PEN:V,DG,A,TM,V34,N"
+      text="PENALTY TA delay of game 5 yards to the TA34." newcontext="V,2,23,V34">
+    <p_pn vh="V" code="DG" type="delay of game" result="ACCEPT" at="V39" yards="5"></p_pn>
+   </play>
+   <play hasball="TA" down="2" togo="23" spot="TA34" context="V,2,23,V34" playid="16,5,118" type="P" tokens="PASS:18,C,5,V50 TACK:20"
+      text="Long, Dustin pass complete to Murphy, Ter. for 16 yards to the 50 yardline (MORRIS,Tez)." newcontext="V,3,7,V50">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Murphy, Ter." gain="16"></p_pa>
+    <p_tk vh="H" name="MORRIS,Tez"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="7" spot="TA50" context="V,3,7,V50" playid="16,6,119" type="P" first="P" tokens="PASS:18,C,5,H13 TACK:19 PEN:H,PI,D"
+      text="Long, Dustin pass complete to Murphy, Ter. for 37 yards to the PIT13, 1ST DOWN TA (SPENCER,S.), PENALTY PIT pass interference declined." newcontext="V,1,10,H13">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Murphy, Ter." gain="37"></p_pa>
+    <p_tk vh="H" name="SPENCER,S."></p_tk>
+    <p_pn vh="H" code="PI" type="pass interference" result="DECLINE"></p_pn>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT13" context="V,1,10,H13" playid="16,7,120" type="R" tokens="RUSH:1,H14, TACK:93,20"
+      text="Farmer, Derek rush for loss of 1 yard to the PIT14 (HOLTHAUS,Jake;MORRIS,Tez)." newcontext="V,2,11,H14">
+    <p_ru vh="V" name="Farmer, Derek" gain="-1"></p_ru>
+    <p_tk vh="H" name="HOLTHAUS,Jake" assist="Y"></p_tk>
+    <p_tk vh="H" name="MORRIS,Tez" assist="Y"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="11" spot="PIT14" context="V,2,11,H14" playid="16,8,121" type="E" first="E" tokens="PASS:18,I,13,* BRUP:19 PEN:H,PI,A,TM,H03,N NOPLAY:"
+      text="Long, Dustin pass incomplete to Pegram, Todd (SPENCER,S.), PENALTY PIT pass interference 11 yards to the PIT3, 1ST DOWN TA, NO PLAY." newcontext="V,1,0,H03">
+    <p_pn vh="H" code="PI" type="pass interference" result="ACCEPT" at="H14" yards="11"></p_pn>
+   </play>
+   <play hasball="TA" down="1" togo="0" spot="PIT03" context="V,1,0,H03" playid="16,9,122" type="R" tokens="RUSH:1,H03, TACK:19"
+      text="Farmer, Derek rush for no gain to the PIT3 (SPENCER,S.)." newcontext="V,2,0,H03">
+    <p_ru vh="V" name="Farmer, Derek" gain="0"></p_ru>
+    <p_tk vh="H" name="SPENCER,S."></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="0" spot="PIT03" context="V,2,0,H03" playid="16,10,123" type="R" score="Y" vscore="13" hscore="0" clock="08:42" tokens="RUSH:1,H00, T:08:42"
+      text="Farmer, Derek rush for 3 yards to the PIT0, TOUCHDOWN, clock 08:42." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Farmer, Derek" gain="3"></p_ru>
+   </play>
+   <play hasball="TA" down="1" togo="0" spot="PIT03" context="V,1,0,H03" playid="16,11,124" type="X" score="Y" vscore="14" hscore="0" tokens="PAT:K,13,G"
+      text="Pegram, Todd kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Pegram, Todd" qb="Pegram, Todd" type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="14" H="0"></score>
+   <drivesum plays="7" yards="64" top="0:00" driveindex="16" complete="Y"></drivesum>
+   <play hasball="TA" down="1" togo="0" spot="TA35" context="V,1,0,V35" playid="16,12,125" type="K" tokens="KO:20,H00 TB:"
+      text="Scates, Cody kickoff 65 yards to the PIT0, touchback." newcontext="H,1,10,H20">
+    <p_ko vh="V" name="Scates, Cody" gain="65" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H20,08:42" vh="H" spot="H20" clock="08:42" driveindex="17,125"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT20" context="H,1,10,H20" playid="17,1,126" clock="08:42" tokens="{DRIVE}:08:42"
+      text="PITTSBURGH drive start at 08:42." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT20" context="H,1,10,H20" playid="17,2,127" type="R" tokens="RUSH:25,H22, TACK:94,48"
+      text="MIREE,Brandon rush for 2 yards to the PIT22 (Warren, Ty;Kiel, Terrence)." newcontext="H,2,8,H22">
+    <p_ru vh="H" name="MIREE,Brandon" gain="2"></p_ru>
+    <p_tk vh="V" name="Warren, Ty" assist="Y"></p_tk>
+    <p_tk vh="V" name="Kiel, Terrence" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="8" spot="PIT22" context="H,2,8,H22" playid="17,3,128" type="P" tokens="PASS:12,C,86,H29"
+      text="RUTHERFORD,Rod pass complete to SLADE,Lamar for 7 yards to the PIT29." newcontext="H,3,1,H29">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="SLADE,Lamar" gain="7"></p_pa>
+   </play>
+   <play hasball="PIT" down="3" togo="1" spot="PIT29" context="H,3,1,H29" playid="17,4,129" type="R" tokens="RUSH:25,H27, TACK:48,17"
+      text="MIREE,Brandon rush for loss of 2 yards to the PIT27 (Kiel, Terrence;Gamble, Brian)." newcontext="H,4,3,H27">
+    <p_ru vh="H" name="MIREE,Brandon" gain="-2"></p_ru>
+    <p_tk vh="V" name="Kiel, Terrence" assist="Y"></p_tk>
+    <p_tk vh="V" name="Gamble, Brian" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="3" spot="PIT27" context="H,4,3,H27" playid="17,5,130" type="U" turnover="F" tokens="PUNT:36,V34 RET:7,V34 FUMB:H,V39,27"
+      text="LEE,Andy punt 39 yards to the TA34, Carter, Jason return 0 yards to the TA34, fumble by Carter, Jason recovered by PIT FERGUSON, W. at TA39." newcontext="H,1,10,V39">
+    <p_pu vh="H" name="LEE,Andy" gain="39"></p_pu>
+    <p_pr vh="V" name="Carter, Jason" gain="0"></p_pr>
+    <p_fumb vh="V" name="Carter, Jason" at="V39" frvh="H" frname="FERGUSON, W."></p_fumb>
+   </play>
+   <drivesum plays="3" yards="7" top="0:00" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,V39,06:31" vh="H" spot="V39" clock="06:31" driveindex="19,130"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="TA39" context="H,1,10,V39" playid="19,1,131" clock="06:31" tokens="{DRIVE}:06:31"
+      text="PITTSBURGH drive start at 06:31." newcontext="H,1,10,V39">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="TA39" context="H,1,10,V39" playid="19,2,132" type="R" tokens="RUSH:25,V37, TACK:91"
+      text="MIREE,Brandon rush for 2 yards to the TA37 (Jasmin, Marcus)." newcontext="H,2,8,V37">
+    <p_ru vh="H" name="MIREE,Brandon" gain="2"></p_ru>
+    <p_tk vh="V" name="Jasmin, Marcus"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="8" spot="TA37" context="H,2,8,V37" playid="19,3,133" type="P" tokens="PASS:12,I,87,*"
+      text="RUTHERFORD,Rod pass incomplete to BYNES,Roosevelt." newcontext="H,3,8,V37">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="BYNES,Roosevelt"></p_pa>
+   </play>
+   <play hasball="PIT" down="3" togo="8" spot="TA37" context="H,3,8,V37" playid="19,4,134" type="P" first="P" tokens="PASS:12,C,1,V26 TACK:22"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 11 yards to the TA26, 1ST DOWN PIT (Davis, Sammy)." newcontext="H,1,10,V26">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="11"></p_pa>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="TA26" context="H,1,10,V26" playid="19,5,135" type="P" tokens="PASS:12,I,86,*"
+      text="RUTHERFORD,Rod pass incomplete to SLADE,Lamar." newcontext="H,2,10,V26">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="SLADE,Lamar"></p_pa>
+   </play>
+   <play hasball="PIT" down="2" togo="10" spot="TA26" context="H,2,10,V26" playid="19,6,136" type="P" tokens="PASS:12,I,87,* BRUP:11"
+      text="RUTHERFORD,Rod pass incomplete to BYNES,Roosevelt (Jones, Byron)." newcontext="H,3,10,V26">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="BYNES,Roosevelt"></p_pa>
+    <p_bu vh="V" name="Jones, Byron"></p_bu>
+   </play>
+   <play hasball="PIT" down="3" togo="10" spot="TA26" context="H,3,10,V26" playid="19,7,137" type="R" tokens="RUSH:12,V18, TACK:17"
+      text="RUTHERFORD,Rod rush for 8 yards to the TA18 (Gamble, Brian)." newcontext="H,4,2,V18">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="8"></p_ru>
+    <p_tk vh="V" name="Gamble, Brian"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="2" spot="TA18" context="H,4,2,V18" playid="19,8,138" type="R" tokens="RUSH:12,V17, TACK:27,22"
+      text="RUTHERFORD,Rod rush for 1 yard to the TA17 (Hunnicutt, Jes.;Davis, Sammy)." newcontext="V,1,10,V17">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="1"></p_ru>
+    <p_tk vh="V" name="Hunnicutt, Jes." assist="Y"></p_tk>
+    <p_tk vh="V" name="Davis, Sammy" assist="Y"></p_tk>
+   </play>
+   <drivesum plays="7" yards="22" top="0:00" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,V17,04:29" vh="V" spot="V17" clock="04:29" driveindex="20,138"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA17" context="V,1,10,V17" playid="20,1,139" clock="04:29" tokens="{DRIVE}:04:29"
+      text="TEXAS A&amp;M drive start at 04:29." newcontext="V,1,10,V17">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA17" context="V,1,10,V17" playid="20,2,140" type="R" tokens="RUSH:4,V15, TACK:51"
+      text="Goynes, Dwain rush for loss of 2 yards to the TA15 (HAYES,Gerald)." newcontext="V,2,12,V15">
+    <p_ru vh="V" name="Goynes, Dwain" gain="-2"></p_ru>
+    <p_tk vh="H" name="HAYES,Gerald"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="12" spot="TA15" context="V,2,12,V15" playid="20,3,141" type="P" first="P" tokens="PASS:18,C,2,V30 TACK:31"
+      text="Long, Dustin pass complete to Taylor, Jamaar for 15 yards to the TA30, 1ST DOWN TA (GILLIARD,Tyrone)." newcontext="V,1,10,V30">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Taylor, Jamaar" gain="15"></p_pa>
+    <p_tk vh="H" name="GILLIARD,Tyrone"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA30" context="V,1,10,V30" playid="20,4,142" type="P" tokens="PASS:18,I,2,*"
+      text="Long, Dustin pass incomplete to Taylor, Jamaar." newcontext="V,2,10,V30">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Taylor, Jamaar"></p_pa>
+   </play>
+   <play hasball="TA" down="2" togo="10" spot="TA30" context="V,2,10,V30" playid="20,5,143" type="R" tokens="RUSH:4,V34, TACK:20"
+      text="Goynes, Dwain rush for 4 yards to the TA34 (MORRIS,Tez)." newcontext="V,3,6,V34">
+    <p_ru vh="V" name="Goynes, Dwain" gain="4"></p_ru>
+    <p_tk vh="H" name="MORRIS,Tez"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="6" spot="TA34" context="V,3,6,V34" playid="20,6,144" type="P" tokens="PASS:18,I,5,*"
+      text="Long, Dustin pass incomplete to Murphy, Ter.." newcontext="V,4,6,V34">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Murphy, Ter."></p_pa>
+   </play>
+   <play hasball="TA" down="4" togo="6" spot="TA34" context="V,4,6,V34" playid="20,7,145" type="U" tokens="PUNT:20,H14 RET:29,H16 TACK:11,63"
+      text="Scates, Cody punt 52 yards to the PIT14, GAINES,Billy return 2 yards to the PIT16 (Jones, Byron;Pearce, Chance)." newcontext="H,1,10,H16">
+    <p_pu vh="V" name="Scates, Cody" gain="52" in20="Y"></p_pu>
+    <p_pr vh="H" name="GAINES,Billy" gain="2"></p_pr>
+    <p_tk vh="V" name="Jones, Byron" assist="Y"></p_tk>
+    <p_tk vh="V" name="Pearce, Chance" assist="Y"></p_tk>
+   </play>
+   <drivesum plays="5" yards="17" top="0:00" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,H16,02:50" vh="H" spot="H16" clock="02:50" driveindex="21,145"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT16" context="H,1,10,H16" playid="21,1,146" clock="02:50" tokens="{DRIVE}:02:50"
+      text="PITTSBURGH drive start at 02:50." newcontext="H,1,10,H16">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT16" context="H,1,10,H16" playid="21,2,147" type="E" tokens="PASS:12,C,83,H28 TACK:11 PEN:H,HO,A,TM,H08,N NOPLAY:"
+      text="RUTHERFORD,Rod pass complete to WILSON,Kris for 12 yards to the PIT28 (Jones, Byron), PENALTY PIT holding 8 yards to the PIT8, NO PLAY." newcontext="H,1,18,H08">
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="H16" yards="8"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="18" spot="PIT08" context="H,1,18,H08" playid="21,3,148" type="E" tokens="PEN:V,OD,A,TM,H13,N"
+      text="PENALTY TA offside defense 5 yards to the PIT13." newcontext="H,1,13,H13">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="H08" yards="5"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="13" spot="PIT13" context="H,1,13,H13" playid="21,4,149" type="P" tokens="PASS:12,C,86,H20"
+      text="RUTHERFORD,Rod pass complete to SLADE,Lamar for 7 yards to the PIT20." newcontext="H,2,6,H20">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="SLADE,Lamar" gain="7"></p_pa>
+   </play>
+   <play hasball="PIT" down="2" togo="6" spot="PIT20" context="H,2,6,H20" playid="21,5,150" type="P" first="P" tokens="PASS:12,C,87,H28 TACK:48,11"
+      text="RUTHERFORD,Rod pass complete to BYNES,Roosevelt for 8 yards to the PIT28, 1ST DOWN PIT (Kiel, Terrence;Jones, Byron)." newcontext="H,1,10,H28">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="BYNES,Roosevelt" gain="8"></p_pa>
+    <p_tk vh="V" name="Kiel, Terrence" assist="Y"></p_tk>
+    <p_tk vh="V" name="Jones, Byron" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT28" context="H,1,10,H28" playid="21,6,151" type="E" first="E" tokens="PASS:12,I,87,* BRUP:22 PEN:V,PI,A,TM,H44,N NOPLAY:"
+      text="RUTHERFORD,Rod pass incomplete to BYNES,Roosevelt (Davis, Sammy), PENALTY TA pass interference 16 yards to the PIT44, 1ST DOWN PIT, NO PLAY." newcontext="H,1,10,H44">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="H28" yards="16"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT44" context="H,1,10,H44" playid="21,7,152" type="P" first="P" tokens="PASS:12,C,1,V36 TACK:22"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 20 yards to the TA36, 1ST DOWN PIT (Davis, Sammy)." newcontext="H,1,10,V36">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="20"></p_pa>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="TA36" context="H,1,10,V36" playid="21,8,153" type="P" first="P" tokens="PASS:12,C,1,V24"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 12 yards to the TA24, 1ST DOWN PIT." newcontext="H,1,10,V24">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="12"></p_pa>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="TA24" context="H,1,10,V24" playid="21,9,154" type="P" tokens="PASS:12,C,86,V21 OB: TACK:11"
+      text="RUTHERFORD,Rod pass complete to SLADE,Lamar for 3 yards to the TA21, out-of-bounds (Jones, Byron)." ob="Y" newcontext="H,2,7,V21">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="SLADE,Lamar" gain="3"></p_pa>
+    <p_tk vh="V" name="Jones, Byron"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="7" spot="TA21" context="H,2,7,V21" playid="21,10,155" type="R" tokens="RUSH:12,V16, TACK:19,88"
+      text="RUTHERFORD,Rod rush for 5 yards to the TA16 (Appel, Jaxson;Smith, Linnis)." newcontext="H,3,2,V16">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="5"></p_ru>
+    <p_tk vh="V" name="Appel, Jaxson" assist="Y"></p_tk>
+    <p_tk vh="V" name="Smith, Linnis" assist="Y"></p_tk>
+   </play>
+   <score qtr="3" V="14" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="TA">
+    <firstdowns no="4" rush="1" pass="2" penalty="1"></firstdowns>
+    <penalties no="3" yds="26"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="04:27"></misc>
+    <rush att="7" yds="7" gain="18" loss="11" td="1" long="0"></rush>
+    <pass comp="3" att="5" int="0" yds="68" td="0" long="2" sacks="1" sackyds="8"></pass>
+    <rcv no="3" yds="68" td="0" long="2"></rcv>
+    <punt no="1" yds="52" long="0" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="52.0"></punt>
+    <ko no="2" yds="125" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="9" tacka="20" tot_tack="29" tflua="0" tfla="4" tflyds="3" sacks="0" sackyds="0" brup="1"></defense>
+    <pr no="1" yds="5" td="0" long="0"></pr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PIT">
+    <firstdowns no="6" rush="1" pass="4" penalty="1"></firstdowns>
+    <penalties no="2" yds="19"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="10:33"></misc>
+    <rush att="13" yds="39" gain="42" loss="3" td="0" long="0"></rush>
+    <pass comp="7" att="10" int="0" yds="68" td="0" long="7" sacks="0" sackyds="0"></pass>
+    <rcv no="7" yds="68" td="0" long="7"></rcv>
+    <punt no="1" yds="39" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="39.0"></punt>
+    <defense tackua="8" tacka="2" tot_tack="10" tflua="2" tfla="2" tflyds="11" sacks="1" sackyds="8" fr="1" fryds="0"></defense>
+    <kr no="1" yds="36" td="0" long="0"></kr>
+    <pr no="1" yds="2" td="0" long="0"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="PIT" down="3" togo="2" spot="TA16" context="H,3,2,V16" playid="21,11,156" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00." newcontext="H,3,2,V16">
+   </play>
+   <play hasball="PIT" down="3" togo="2" spot="TA16" context="H,3,2,V16" playid="21,12,157" type="P" first="P" tokens="PASS:12,C,1,V09 TACK:22"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 7 yards to the TA9, 1ST DOWN PIT (Davis, Sammy)." newcontext="H,1,0,V09">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="7"></p_pa>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="0" spot="TA09" context="H,1,0,V09" playid="21,13,158" type="#" clock="14:31" tokens="TOUT:H T:14:31"
+      text="Timeout Pittsburgh, clock 14:31." newcontext="H,1,0,V09">
+    <p_to vh="H" team="Pittsburgh"></p_to>
+   </play>
+   <play hasball="PIT" down="1" togo="0" spot="TA09" context="H,1,0,V09" playid="21,14,159" type="P" tokens="PASS:12,C,45,V01 TACK:11"
+      text="RUTHERFORD,Rod pass complete to GILL,Erik for 8 yards to the TA1 (Jones, Byron)." newcontext="H,2,0,V01">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="GILL,Erik" gain="8"></p_pa>
+    <p_tk vh="V" name="Jones, Byron"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="0" spot="TA01" context="H,2,0,V01" playid="21,15,160" type="R" score="Y" vscore="14" hscore="6" clock="13:49" tokens="RUSH:12,V00, T:13:49"
+      text="RUTHERFORD,Rod rush for 1 yard to the TA0, TOUCHDOWN, clock 13:49." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="1"></p_ru>
+   </play>
+   <play hasball="PIT" down="1" togo="0" spot="TA03" context="H,1,0,V03" playid="21,16,161" type="E" tokens="PAT:K,30,G PEN:H,SH,A,TM,H08,N NOPLAY:"
+      text="GIBBONEY, J.B. kick attempt good, PENALTY PIT illegal shift 89 yards to the PIT8, NO PLAY." newcontext="H,1,0,H08">
+    <p_pn vh="H" code="SH" type="illegal shift" result="ACCEPT" at="V03" yards="89"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="0" spot="PIT08" context="H,1,0,H08" playid="21,17,162" type="E" tokens="PAT:K,30,G PEN:H,SH,A,TM,H13,N NOPLAY:"
+      text="GIBBONEY, J.B. kick attempt good, PENALTY PIT illegal shift 5 yards to the PIT13, NO PLAY." newcontext="H,1,0,H13">
+    <p_pn vh="H" code="SH" type="illegal shift" result="ACCEPT" at="H08" yards="5"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="0" spot="PIT13" context="H,1,0,H13" playid="21,18,163" type="X" tokens="PAT:K,30,M"
+      text="GIBBONEY, J.B. kick attempt failed." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="GIBBONEY, J.B." qb="GIBBONEY, J.B." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="14" H="6"></score>
+   <drivesum plays="9" yards="84" top="0:00" driveindex="21" complete="Y"></drivesum>
+   <play hasball="PIT" down="1" togo="0" spot="PIT35" context="H,1,0,H35" playid="21,19,164" type="K" tokens="KO:16,V04 RET:3,V26 TACK:5"
+      text="ABDUL,David kickoff 61 yards to the TA4, Thomas, Ter. return 22 yards to the TA26 (COX,Torrie)." newcontext="V,1,10,V26">
+    <p_ko vh="H" name="ABDUL,David" gain="61"></p_ko>
+    <p_kr vh="V" name="Thomas, Ter." gain="22"></p_kr>
+    <p_tk vh="H" name="COX,Torrie"></p_tk>
+   </play>
+   <drivestart poss="V,V26,13:49" vh="V" spot="V26" clock="13:49" driveindex="22,164"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="TA26" context="V,1,10,V26" playid="22,1,165" clock="13:49" tokens="{DRIVE}:13:49"
+      text="TEXAS A&amp;M drive start at 13:49." newcontext="V,1,10,V26">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA26" context="V,1,10,V26" playid="22,2,166" type="P" tokens="PASS:18,I,5,*"
+      text="Long, Dustin pass incomplete to Murphy, Ter.." newcontext="V,2,10,V26">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Murphy, Ter."></p_pa>
+   </play>
+   <play hasball="TA" down="2" togo="10" spot="TA26" context="V,2,10,V26" playid="22,3,167" type="P" first="P" tokens="PASS:18,C,2,V41 TACK:5"
+      text="Long, Dustin pass complete to Taylor, Jamaar for 15 yards to the TA41, 1ST DOWN TA (COX,Torrie)." newcontext="V,1,10,V41">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Taylor, Jamaar" gain="15"></p_pa>
+    <p_tk vh="H" name="COX,Torrie"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="TA41" context="V,1,10,V41" playid="22,4,168" type="R" tokens="RUSH:1,V46, TACK:20"
+      text="Farmer, Derek rush for 5 yards to the TA46 (MORRIS,Tez)." newcontext="V,2,5,V46">
+    <p_ru vh="V" name="Farmer, Derek" gain="5"></p_ru>
+    <p_tk vh="H" name="MORRIS,Tez"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="5" spot="TA46" context="V,2,5,V46" playid="22,5,169" type="P" tokens="PASS:18,I,5,* BRUP:5"
+      text="Long, Dustin pass incomplete to Murphy, Ter. (COX,Torrie)." newcontext="V,3,5,V46">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Murphy, Ter."></p_pa>
+    <p_bu vh="H" name="COX,Torrie"></p_bu>
+   </play>
+   <play hasball="TA" down="3" togo="5" spot="TA46" context="V,3,5,V46" playid="22,6,170" type="P" first="P" tokens="PASS:18,C,2,H46 TACK:20"
+      text="Long, Dustin pass complete to Taylor, Jamaar for 8 yards to the PIT46, 1ST DOWN TA (MORRIS,Tez)." newcontext="V,1,10,H46">
+    <p_pa vh="V" qb="Long, Dustin" result="COMP" rcv="Taylor, Jamaar" gain="8"></p_pa>
+    <p_tk vh="H" name="MORRIS,Tez"></p_tk>
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT46" context="V,1,10,H46" playid="22,7,171" type="E" tokens="RUSH:4,H40, TACK:93 PEN:V,HO,A,TM,V44,N NOPLAY:"
+      text="Goynes, Dwain rush for 6 yards to the PIT40 (HOLTHAUS,Jake), PENALTY TA holding 10 yards to the TA44, NO PLAY." newcontext="V,1,20,V44">
+    <p_pn vh="V" code="HO" type="holding" result="ACCEPT" at="H46" yards="10"></p_pn>
+   </play>
+   <play hasball="TA" down="1" togo="20" spot="TA44" context="V,1,20,V44" playid="22,8,172" type="#" clock="11:51" tokens="TOUT:V T:11:51"
+      text="Timeout Texas A&amp;M, clock 11:51." newcontext="V,1,20,V44">
+    <p_to vh="V" team="Texas A&amp;M"></p_to>
+   </play>
+   <play hasball="TA" down="1" togo="20" spot="TA44" context="V,1,20,V44" playid="22,9,173" type="P" tokens="PASS:18,I,2,*"
+      text="Long, Dustin pass incomplete to Taylor, Jamaar." newcontext="V,2,20,V44">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Taylor, Jamaar"></p_pa>
+   </play>
+   <play hasball="TA" down="2" togo="20" spot="TA44" context="V,2,20,V44" playid="22,10,174" type="R" tokens="RUSH:18,H48, OB: TACK:96"
+      text="Long, Dustin rush for 8 yards to the PIT48, out-of-bounds (CROCHUNIS,Vince)." ob="Y" newcontext="V,3,12,H48">
+    <p_ru vh="V" name="Long, Dustin" gain="8"></p_ru>
+    <p_tk vh="H" name="CROCHUNIS,Vince"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="12" spot="PIT48" context="V,3,12,H48" playid="22,11,175" type="P" tokens="PASS:18,I,2,*"
+      text="Long, Dustin pass incomplete to Taylor, Jamaar." newcontext="V,4,12,H48">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Taylor, Jamaar"></p_pa>
+   </play>
+   <play hasball="TA" down="4" togo="12" spot="PIT48" context="V,4,12,H48" playid="22,12,176" type="U" tokens="PUNT:20,H23 DN:"
+      text="Scates, Cody punt 25 yards to the PIT23, downed." newcontext="H,1,10,H23">
+    <p_pu vh="V" name="Scates, Cody" gain="25"></p_pu>
+   </play>
+   <drivesum plays="8" yards="26" top="0:00" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="H,H23,11:25" vh="H" spot="H23" clock="11:25" driveindex="23,176"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT23" context="H,1,10,H23" playid="23,1,177" clock="11:25" tokens="{DRIVE}:11:25"
+      text="PITTSBURGH drive start at 11:25." newcontext="H,1,10,H23">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT23" context="H,1,10,H23" playid="23,2,178" type="R" tokens="RUSH:12,H27, TACK:22"
+      text="RUTHERFORD,Rod rush for 4 yards to the PIT27 (Davis, Sammy)." newcontext="H,2,6,H27">
+    <p_ru vh="H" name="RUTHERFORD,Rod" gain="4"></p_ru>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="6" spot="PIT27" context="H,2,6,H27" playid="23,3,179" type="R" tokens="RUSH:25,H29, TACK:45,17"
+      text="MIREE,Brandon rush for 2 yards to the PIT29 (Morris, Jared;Gamble, Brian)." newcontext="H,3,4,H29">
+    <p_ru vh="H" name="MIREE,Brandon" gain="2"></p_ru>
+    <p_tk vh="V" name="Morris, Jared" assist="Y"></p_tk>
+    <p_tk vh="V" name="Gamble, Brian" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="4" spot="PIT29" context="H,3,4,H29" playid="23,4,180" type="P" first="P" tokens="PASS:12,C,86,H37 TACK:31"
+      text="RUTHERFORD,Rod pass complete to SLADE,Lamar for 8 yards to the PIT37, 1ST DOWN PIT (Weston, Sean)." newcontext="H,1,10,H37">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="SLADE,Lamar" gain="8"></p_pa>
+    <p_tk vh="V" name="Weston, Sean"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT37" context="H,1,10,H37" playid="23,5,181" type="P" turnover="I" tokens="PASS:12,X,19,V38 RET:19,H35 TACK:64"
+      text="RUTHERFORD,Rod pass intercepted by Appel, Jaxson at the TA38, Appel, Jaxson return 27 yards to the PIT35 (REED,Chad)." newcontext="V,1,10,H35">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INT"></p_pa>
+    <p_ir vh="V" name="Appel, Jaxson" at="V38" gain="27"></p_ir>
+    <p_tk vh="H" name="REED,Chad"></p_tk>
+   </play>
+   <drivesum plays="4" yards="14" top="0:00" driveindex="23" complete="Y"></drivesum>
+   <drivestart poss="V,H35,09:20" vh="V" spot="H35" clock="09:20" driveindex="24,181"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="PIT35" context="V,1,10,H35" playid="24,1,182" clock="09:20" tokens="{DRIVE}:09:20"
+      text="TEXAS A&amp;M drive start at 09:20." newcontext="V,1,10,H35">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT35" context="V,1,10,H35" playid="24,2,183" type="R" tokens="RUSH:1,H26, TACK:51"
+      text="Farmer, Derek rush for 9 yards to the PIT26 (HAYES,Gerald)." newcontext="V,2,1,H26">
+    <p_ru vh="V" name="Farmer, Derek" gain="9"></p_ru>
+    <p_tk vh="H" name="HAYES,Gerald"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="1" spot="PIT26" context="V,2,1,H26" playid="24,3,184" type="P" tokens="PASS:18,I,9,* BRUP:19"
+      text="Long, Dustin pass incomplete to Johnson, Bethel (SPENCER,S.)." newcontext="V,3,1,H26">
+    <p_pa vh="V" qb="Long, Dustin" result="INC" rcv="Johnson, Bethel"></p_pa>
+    <p_bu vh="H" name="SPENCER,S."></p_bu>
+   </play>
+   <play hasball="TA" down="3" togo="1" spot="PIT26" context="V,3,1,H26" playid="24,4,185" type="R" tokens="RUSH:1,H26, TACK:94"
+      text="Farmer, Derek rush for no gain to the PIT26 (STEPHENS, Dan)." newcontext="V,4,1,H26">
+    <p_ru vh="V" name="Farmer, Derek" gain="0"></p_ru>
+    <p_tk vh="H" name="STEPHENS, Dan"></p_tk>
+   </play>
+   <play hasball="TA" down="4" togo="1" spot="PIT26" context="V,4,1,H26" playid="24,5,186" type="R" tokens="RUSH:28,H26, TACK:5,20"
+      text="Weber, Joe rush for no gain to the PIT26 (COX,Torrie;MORRIS,Tez)." newcontext="H,1,10,H26">
+    <p_ru vh="V" name="Weber, Joe" gain="0"></p_ru>
+    <p_tk vh="H" name="COX,Torrie" assist="Y"></p_tk>
+    <p_tk vh="H" name="MORRIS,Tez" assist="Y"></p_tk>
+   </play>
+   <drivesum plays="4" yards="9" top="0:00" driveindex="24" complete="Y"></drivesum>
+   <drivestart poss="H,H26,07:44" vh="H" spot="H26" clock="07:44" driveindex="25,186"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT26" context="H,1,10,H26" playid="25,1,187" clock="07:44" tokens="{DRIVE}:07:44"
+      text="PITTSBURGH drive start at 07:44." newcontext="H,1,10,H26">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT26" context="H,1,10,H26" playid="25,2,188" type="P" tokens="PASS:12,S,TM,H23 SACK:43"
+      text="RUTHERFORD,Rod sacked for loss of 3 yards to the PIT23 (Penright, Jar.)." newcontext="H,2,13,H23">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="SACK" gain="-3"></p_pa>
+    <p_tk vh="V" name="Penright, Jar." sack="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="13" spot="PIT23" context="H,2,13,H23" playid="25,3,189" type="P" first="P" tokens="PASS:12,C,86,H36 TACK:31"
+      text="RUTHERFORD,Rod pass complete to SLADE,Lamar for 13 yards to the PIT36, 1ST DOWN PIT (Weston, Sean)." newcontext="H,1,10,H36">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="SLADE,Lamar" gain="13"></p_pa>
+    <p_tk vh="V" name="Weston, Sean"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT36" context="H,1,10,H36" playid="25,4,190" type="P" tokens="PASS:12,C,1,H42 TACK:48,19"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 6 yards to the PIT42 (Kiel, Terrence;Appel, Jaxson)." newcontext="H,2,4,H42">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="6"></p_pa>
+    <p_tk vh="V" name="Kiel, Terrence" assist="Y"></p_tk>
+    <p_tk vh="V" name="Appel, Jaxson" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="4" spot="PIT42" context="H,2,4,H42" playid="25,5,191" type="R" first="R" tokens="RUSH:25,H47, TACK:17"
+      text="MIREE,Brandon rush for 5 yards to the PIT47, 1ST DOWN PIT (Gamble, Brian)." newcontext="H,1,10,H47">
+    <p_ru vh="H" name="MIREE,Brandon" gain="5"></p_ru>
+    <p_tk vh="V" name="Gamble, Brian"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT47" context="H,1,10,H47" playid="25,6,192" type="R" first="R" tokens="RUSH:25,V37, TACK:27 PEN:V,FM,A,TM,V32,N"
+      text="MIREE,Brandon rush for 16 yards to the TA37, 1ST DOWN PIT (Hunnicutt, Jes.), PENALTY TA face mask 5 yards to the TA32." newcontext="H,1,5,V32">
+    <p_ru vh="H" name="MIREE,Brandon" gain="16"></p_ru>
+    <p_tk vh="V" name="Hunnicutt, Jes."></p_tk>
+    <p_pn vh="V" code="FM" type="face mask" result="ACCEPT" at="V37" yards="5"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="5" spot="TA32" context="H,1,5,V32" playid="25,7,193" tokens="D:1,10"
+      text="1st and 10." newcontext="H,1,10,V32">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="TA32" context="H,1,10,V32" playid="25,8,194" type="R" tokens="RUSH:25,V30, TACK:91,92"
+      text="MIREE,Brandon rush for 2 yards to the TA30 (Jasmin, Marcus;Losada, Nick)." newcontext="H,2,8,V30">
+    <p_ru vh="H" name="MIREE,Brandon" gain="2"></p_ru>
+    <p_tk vh="V" name="Jasmin, Marcus" assist="Y"></p_tk>
+    <p_tk vh="V" name="Losada, Nick" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="8" spot="TA30" context="H,2,8,V30" playid="25,9,195" type="P" tokens="PASS:12,I,87,*"
+      text="RUTHERFORD,Rod pass incomplete to BYNES,Roosevelt." newcontext="H,3,8,V30">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC" rcv="BYNES,Roosevelt"></p_pa>
+   </play>
+   <play hasball="PIT" down="3" togo="8" spot="TA30" context="H,3,8,V30" playid="25,10,196" type="P" tokens="PASS:12,C,1,V25 TACK:19"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 5 yards to the TA25 (Appel, Jaxson)." newcontext="H,4,3,V25">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="5"></p_pa>
+    <p_tk vh="V" name="Appel, Jaxson"></p_tk>
+   </play>
+   <play hasball="PIT" down="4" togo="3" spot="TA25" context="H,4,3,V25" playid="25,11,197" type="P" first="P" tokens="PASS:12,C,1,V17 TACK:22"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 8 yards to the TA17, 1ST DOWN PIT (Davis, Sammy)." newcontext="H,1,10,V17">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="8"></p_pa>
+    <p_tk vh="V" name="Davis, Sammy"></p_tk>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="TA17" context="H,1,10,V17" playid="25,12,198" type="R" tokens="RUSH:25,V15, TACK:45"
+      text="MIREE,Brandon rush for 2 yards to the TA15 (Morris, Jared)." newcontext="H,2,8,V15">
+    <p_ru vh="H" name="MIREE,Brandon" gain="2"></p_ru>
+    <p_tk vh="V" name="Morris, Jared"></p_tk>
+   </play>
+   <play hasball="PIT" down="2" togo="8" spot="TA15" context="H,2,8,V15" playid="25,13,199" type="E" first="E" tokens="PASS:12,I,86,* BRUP:22 PEN:V,PI,A,TM,V02,1 NOPLAY:"
+      text="RUTHERFORD,Rod pass incomplete to SLADE,Lamar (Davis, Sammy), PENALTY TA pass interference 13 yards to the TA2, 1ST DOWN PIT, NO PLAY." newcontext="H,1,0,V02">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="V15" yards="13"></p_pn>
+   </play>
+   <play hasball="PIT" down="1" togo="0" spot="TA02" context="H,1,0,V02" playid="25,14,200" type="P" score="Y" vscore="14" hscore="12" clock="02:02" tokens="PASS:12,C,83,V00 T:02:02"
+      text="RUTHERFORD,Rod pass complete to WILSON,Kris for 2 yards to the TA0, TOUCHDOWN, clock 02:02." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="WILSON,Kris" gain="2"></p_pa>
+   </play>
+   <play hasball="PIT" down="1" togo="0" spot="TA03" context="H,1,0,V03" playid="25,15,201" type="X" tokens="PAT:P,12,M"
+      text="RUTHERFORD,Rod pass attempt failed." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="RUTHERFORD,Rod" qb="RUTHERFORD,Rod" type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="14" H="12"></score>
+   <drivesum plays="11" yards="74" top="0:00" driveindex="25" complete="Y"></drivesum>
+   <play hasball="PIT" down="1" togo="0" spot="PIT35" context="H,1,0,H35" playid="25,16,202" type="K" tokens="KO:16,H44 RET:2,H43"
+      text="ABDUL,David kickoff 9 yards to the PIT44, Taylor, Jamaar return 1 yards to the PIT43." newcontext="V,1,10,H43">
+    <p_ko vh="H" name="ABDUL,David" gain="9"></p_ko>
+    <p_kr vh="V" name="Taylor, Jamaar" gain="1"></p_kr>
+   </play>
+   <drivestart poss="V,H43,02:02" vh="V" spot="H43" clock="02:02" driveindex="26,202"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="PIT43" context="V,1,10,H43" playid="26,1,203" clock="02:02" tokens="{DRIVE}:02:02"
+      text="TEXAS A&amp;M drive start at 02:02." newcontext="V,1,10,H43">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT43" context="V,1,10,H43" playid="26,2,204" type="R" tokens="RUSH:1,H38, TACK:20,47"
+      text="Farmer, Derek rush for 5 yards to the PIT38 (MORRIS,Tez;GUZEK,Brian)." newcontext="V,2,5,H38">
+    <p_ru vh="V" name="Farmer, Derek" gain="5"></p_ru>
+    <p_tk vh="H" name="MORRIS,Tez" assist="Y"></p_tk>
+    <p_tk vh="H" name="GUZEK,Brian" assist="Y"></p_tk>
+   </play>
+   <play hasball="TA" down="2" togo="5" spot="PIT38" context="V,2,5,H38" playid="26,3,205" type="#" clock="01:54" tokens="TOUT:H T:01:54"
+      text="Timeout Pittsburgh, clock 01:54." newcontext="V,2,5,H38">
+    <p_to vh="H" team="Pittsburgh"></p_to>
+   </play>
+   <play hasball="TA" down="2" togo="5" spot="PIT38" context="V,2,5,H38" playid="26,4,206" type="R" tokens="RUSH:1,H36, TACK:94"
+      text="Farmer, Derek rush for 2 yards to the PIT36 (STEPHENS, Dan)." newcontext="V,3,3,H36">
+    <p_ru vh="V" name="Farmer, Derek" gain="2"></p_ru>
+    <p_tk vh="H" name="STEPHENS, Dan"></p_tk>
+   </play>
+   <play hasball="TA" down="3" togo="3" spot="PIT36" context="V,3,3,H36" playid="26,5,207" type="R" tokens="RUSH:1,H34, TACK:7,47"
+      text="Farmer, Derek rush for 2 yards to the PIT34 (ROBINSON,Shawn;GUZEK,Brian)." newcontext="V,4,1,H34">
+    <p_ru vh="V" name="Farmer, Derek" gain="2"></p_ru>
+    <p_tk vh="H" name="ROBINSON,Shawn" assist="Y"></p_tk>
+    <p_tk vh="H" name="GUZEK,Brian" assist="Y"></p_tk>
+   </play>
+   <play hasball="TA" down="4" togo="1" spot="PIT34" context="V,4,1,H34" playid="26,6,208" type="E" tokens="PEN:V,DG,A,TM,H39,N"
+      text="PENALTY TA delay of game 5 yards to the PIT39." newcontext="V,4,6,H39">
+    <p_pn vh="V" code="DG" type="delay of game" result="ACCEPT" at="H34" yards="5"></p_pn>
+   </play>
+   <play hasball="TA" down="4" togo="6" spot="PIT39" context="V,4,6,H39" playid="26,7,209" type="U" tokens="PUNT:20,H18 FC:29"
+      text="Scates, Cody punt 21 yards to the PIT18, fair catch by GAINES,Billy." newcontext="H,1,10,H18">
+    <p_pu vh="V" name="Scates, Cody" gain="21" in20="Y" fc="GAINES,Billy"></p_pu>
+   </play>
+   <drivesum plays="3" yards="4" top="0:00" driveindex="26" complete="Y"></drivesum>
+   <drivestart poss="H,H18,00:52" vh="H" spot="H18" clock="00:52" driveindex="27,209"></drivestart>
+   <play hasball="PIT" down="1" togo="10" spot="PIT18" context="H,1,10,H18" playid="27,1,210" clock="00:52" tokens="{DRIVE}:00:52"
+      text="PITTSBURGH drive start at 00:52." newcontext="H,1,10,H18">
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT18" context="H,1,10,H18" playid="27,2,211" type="P" first="P" tokens="PASS:12,C,1,H36"
+      text="RUTHERFORD,Rod pass complete to FITZGERALD,L. for 18 yards to the PIT36, 1ST DOWN PIT." newcontext="H,1,10,H36">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="COMP" rcv="FITZGERALD,L." gain="18"></p_pa>
+   </play>
+   <play hasball="PIT" down="1" togo="10" spot="PIT36" context="H,1,10,H36" playid="27,3,212" type="P" tokens="PASS:12,I,TM,*"
+      text="RUTHERFORD,Rod pass incomplete." newcontext="H,2,10,H36">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="INC"></p_pa>
+   </play>
+   <play hasball="PIT" down="2" togo="10" spot="PIT36" context="H,2,10,H36" playid="27,4,213" type="P" tokens="PASS:12,S,TM,H29 SACK:91,55"
+      text="RUTHERFORD,Rod sacked for loss of 7 yards to the PIT29 (Jasmin, Marcus;Webb, Randall)." newcontext="H,3,17,H29">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="SACK" gain="-7"></p_pa>
+    <p_tk vh="V" name="Jasmin, Marcus" sack="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Webb, Randall" sack="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="PIT" down="3" togo="17" spot="PIT29" context="H,3,17,H29" playid="27,5,214" type="P" turnover="F" tokens="PASS:12,F,TM,H23 SACK:43 FUMB:V,H23,55"
+      text="RUTHERFORD,Rod sacked for loss of 6 yards to the PIT23 (Penright, Jar.), fumble by RUTHERFORD,Rod recovered by TA Webb, Randall at PIT23." newcontext="V,1,10,H23">
+    <p_pa vh="H" qb="RUTHERFORD,Rod" result="FUMB" gain="-6"></p_pa>
+    <p_fumb vh="H" name="RUTHERFORD,Rod" at="H23" frvh="V" frname="Webb, Randall"></p_fumb>
+    <p_tk vh="V" name="Penright, Jar." sack="Y"></p_tk>
+   </play>
+   <drivesum plays="4" yards="5" top="0:00" driveindex="27" complete="Y"></drivesum>
+   <drivestart poss="V,H23,00:11" vh="V" spot="H23" clock="00:11" driveindex="28,214"></drivestart>
+   <play hasball="TA" down="1" togo="10" spot="PIT23" context="V,1,10,H23" playid="28,1,215" clock="00:11" tokens="{DRIVE}:00:11"
+      text="TEXAS A&amp;M drive start at 00:11." newcontext="V,1,10,H23">
+   </play>
+   <play hasball="TA" down="1" togo="10" spot="PIT23" context="V,1,10,H23" playid="28,2,216" type="R" tokens="RUSH:18,H25,"
+      text="Long, Dustin rush for loss of 2 yards to the PIT25." newcontext="V,2,12,H25">
+    <p_ru vh="V" name="Long, Dustin" gain="-2"></p_ru>
+   </play>
+   <play hasball="TA" down="2" togo="12" spot="PIT25" context="V,2,12,H25" playid="28,3,217" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00." newcontext="V,2,12,H25">
+   </play>
+   <drivesum plays="1" yards="-2" top="0:00" driveindex="28" complete="Y"></drivesum>
+   <score final="Y" V="14" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="TA">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="4" yds="33"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:21"></misc>
+    <rush att="9" yds="29" gain="31" loss="2" td="0" long="0"></rush>
+    <pass comp="2" att="7" int="0" yds="23" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="23" td="0" long="0"></rcv>
+    <punt no="2" yds="46" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="23.0"></punt>
+    <defense tackua="12" tacka="8" tot_tack="20" tflua="2" tfla="2" tflyds="16" sacks="3" sackyds="16" ff="1" fr="1" fryds="0" int="1" intyds="27"></defense>
+    <kr no="2" yds="23" td="0" long="0"></kr>
+    <ir no="1" yds="27" td="0" long="27"></ir>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PIT">
+    <firstdowns no="8" rush="2" pass="5" penalty="1"></firstdowns>
+    <penalties no="2" yds="94"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="09:39"></misc>
+    <rush att="10" yds="16" gain="32" loss="16" td="1" long="3"></rush>
+    <pass comp="9" att="12" int="1" yds="75" td="1" long="0" sacks="3" sackyds="16"></pass>
+    <rcv no="9" yds="75" td="1" long="0"></rcv>
+    <ko no="2" yds="70" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0" passatt="1" passmade="0"></pat>
+    <defense tackua="9" tacka="6" tot_tack="15" sacks="0" sackyds="0" brup="2"></defense>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="TA" down="2" togo="12" spot="PIT25" context="V,2,12,H25" qtr="4" clock="00:00" vtoh="1" htoh="2"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <dnp vh="V" id="TA">
+  <player name="MASSEY, Haven" checkname="MASSEY,HAVEN" uni="8B" class="" gp="0" code="8B"></player>
+  <player name="Gentry, Dawon" checkname="GENTRY,DAWON" uni="14" class="JR" gp="0" code="14"></player>
+  <player name="McNeal, Reggie" checkname="MCNEAL,REGGIE" uni="16" class="FR" gp="0" code="16"></player>
+  <player name="Jones, Ronald" checkname="JONES,RONALD" uni="23" class="" gp="0" code="23"></player>
+  <player name="WHITAKER, Rich" checkname="WHITAKER,RICH" uni="24" class="" gp="0" code="24"></player>
+  <player name="BUHL, Jonte'" checkname="BUHL,JONTE'" uni="26" class="" gp="0" code="26"></player>
+  <player name="Mays, Jarvis" checkname="MAYS,JARVIS" uni="29" class="FR" gp="0" code="29"></player>
+  <player name="RHODES, Nick" checkname="RHODES,NICK" uni="30" class="" gp="0" code="30"></player>
+  <player name="Squillante, A." checkname="SQUILLANTE,A" uni="35" class="JR" gp="0" code="35"></player>
+  <player name="SCHROEDER, Chad" checkname="SCHROEDER,CHAD" uni="36" class="" gp="0" code="36"></player>
+  <player name="WEBER, Jerome" checkname="WEBER,JEROME" uni="37" class="" gp="0" code="37"></player>
+  <player name="MATAKIS, Andy" checkname="MATAKIS,ANDY" uni="46" class="" gp="0" code="46"></player>
+  <player name="FLOOD, Kelvin" checkname="FLOOD,KELVIN" uni="47" class="" gp="0" code="47"></player>
+  <player name="MANNING,Nurahda" checkname="MANNING,NURAHDA" uni="49" class="" gp="0" code="49"></player>
+  <player name="Wooldridge, T." checkname="WOOLDRIDGE,T" uni="53" class="JR" gp="0" code="53"></player>
+  <player name="Milkavich, Jam." checkname="MILKAVICH,JAM" uni="54" class="JR" gp="0" code="54"></player>
+  <player name="Bailey, Robert" checkname="BAILEY,ROBERT" uni="61" class="" gp="0" code="61"></player>
+  <player name="KOTZUR, Alex" checkname="KOTZUR,ALEX" uni="67" class="" gp="0" code="67"></player>
+  <player name="Muhlbach, Don" checkname="MUHLBACH,DON" uni="69" class="JR" gp="0" code="69"></player>
+  <player name="Holman, Quentin" checkname="HOLMAN,QUENTIN" uni="71" class="FR" gp="0" code="71"></player>
+  <player name="Yates, Billy" checkname="YATES,BILLY" uni="72" class="" gp="0" code="72"></player>
+  <player name="Steamer, Domin." checkname="STEAMER,DOMIN" uni="74" class="FR" gp="0" code="74"></player>
+  <player name="FLANAGAN, B." checkname="FLANAGAN,B" uni="77" class="" gp="0" code="77"></player>
+  <player name="CHESHIER, Kasey" checkname="CHESHIER,KASEY" uni="78" class="" gp="0" code="78"></player>
+  <player name="SMITH, Cole" checkname="SMITH,COLE" uni="79" class="" gp="0" code="79"></player>
+  <player name="Riley, L'Tyd." checkname="RILEY,L'TYD" uni="80" class="FR" gp="0" code="80"></player>
+  <player name="PEROT, Joey" checkname="PEROT,JOEY" uni="81" class="" gp="0" code="81"></player>
+  <player name="Fleming, Pat." checkname="FLEMING,PAT" uni="82" class="FR" gp="0" code="82"></player>
+  <player name="Woods, Jesse" checkname="WOODS,JESSE" uni="84" class="FR" gp="0" code="84"></player>
+  <player name="SCHUSTER,Taylor" checkname="SCHUSTER,TAYLOR" uni="85" class="" gp="0" code="85"></player>
+  <player name="Germany, Quin." checkname="GERMANY,QUIN" uni="87" class="FR" gp="0" code="87"></player>
+  <player name="HOOPER,Lawrence" checkname="HOOPER,LAWRENCE" uni="90" class="" gp="0" code="90"></player>
+  <player name="PARKS, Julian" checkname="PARKS,JULIAN" uni="93" class="" gp="0" code="93"></player>
+  <player name="STRINGER, Scott" checkname="STRINGER,SCOTT" uni="96" class="" gp="0" code="96"></player>
+  <player name="Ross, David" checkname="ROSS,DAVID" uni="99" class="FR" gp="0" code="99"></player>
+ </dnp>
+ <dnp vh="H" id="PIT">
+  <player name="PRYKE,Ken" checkname="PRYKE,KEN" uni="1D" class="SO" gp="0" code="1D"></player>
+  <player name="KNIGHT,Tremaine" checkname="KNIGHT,TREMAINE" uni="3D" class="FR" gp="0" code="3D"></player>
+  <player name="ACIERNO,Justin" checkname="ACIERNO,JUSTIN" uni="4D" class="FR" gp="0" code="4D"></player>
+  <player name="ROST,Mark" checkname="ROST,MARK" uni="8D" class="FR" gp="0" code="8D"></player>
+  <player name="PATRICK,Donny" checkname="PATRICK,DONNY" uni="8" class="SO" gp="0" code="8"></player>
+  <player name="REGULA,Ryan" checkname="REGULA,RYAN" uni="9D" class="FR" gp="0" code="9D"></player>
+  <player name="GETSY,Luke" checkname="GETSY,LUKE" uni="11" class="FR" gp="0" code="11"></player>
+  <player name="HODERNY,Pat" checkname="HODERNY,PAT" uni="14" class="SO" gp="0" code="14"></player>
+  <player name="HUMPHRIES,Corey" checkname="HUMPHRIES,COREY" uni="17" class="JR" gp="0" code="17"></player>
+  <player name="HORNE, J.J." checkname="HORNE,JJ" uni="21" class="FR" gp="0" code="21"></player>
+  <player name="McCRAY,Darren" checkname="MCCRAY,DARREN" uni="26" class="FR" gp="0" code="26"></player>
+  <player name="URSCHLER,Gary" checkname="URSCHLER,GARY" uni="28" class="SR" gp="0" code="28"></player>
+  <player name="WALKER,Jawan" checkname="WALKER,JAWAN" uni="34" class="FR" gp="0" code="34"></player>
+  <player name="BEAGNYAM,Azzie" checkname="BEAGNYAM,AZZIE" uni="37" class="FR" gp="0" code="37"></player>
+  <player name="SCHNEIDER, A.J." checkname="SCHNEIDER,AJ" uni="39" class="FR" gp="0" code="39"></player>
+  <player name="DIPRE,Joe" checkname="DIPRE,JOE" uni="40" class="FR" gp="0" code="40"></player>
+  <player name="KIRKLEY,Raymond" checkname="KIRKLEY,RAYMOND" uni="43" class="SO" gp="0" code="43"></player>
+  <player name="BENNETT,Brian" checkname="BENNETT,BRIAN" uni="44" class="FR" gp="0" code="44"></player>
+  <player name="BRYANT,Sam" checkname="BRYANT,SAM" uni="46" class="FR" gp="0" code="46"></player>
+  <player name="ABDULLAH,Abdur" checkname="ABDULLAH,ABDUR" uni="49" class="FR" gp="0" code="49"></player>
+  <player name="BANNER,Troy" checkname="BANNER,TROY" uni="53" class="SO" gp="0" code="53"></player>
+  <player name="SALLET,Charles" checkname="SALLET,CHARLES" uni="54" class="FR" gp="0" code="54"></player>
+  <player name="PIETRACATELLO,N" checkname="PIETRACATELLO,N" uni="59" class="JR" gp="0" code="59"></player>
+  <player name="SIMONITIS,John" checkname="SIMONITIS,JOHN" uni="60" class="FR" gp="0" code="60"></player>
+  <player name="FRITZ, Eric" checkname="FRITZ,ERIC" uni="61" class="FR" gp="0" code="61"></player>
+  <player name="BELARSKI,Justin" checkname="BELARSKI,JUSTIN" uni="62" class="SO" gp="0" code="62"></player>
+  <player name="McMURRAY,D." checkname="MCMURRAY,D" uni="63" class="JR" gp="0" code="63"></player>
+  <player name="SAMAIA,Penny" checkname="SAMAIA,PENNY" uni="66" class="JR" gp="0" code="66"></player>
+  <player name="MAIERS,Matt" checkname="MAIERS,MATT" uni="68" class="SO" gp="0" code="68"></player>
+  <player name="CAPIZZI,Jason" checkname="CAPIZZI,JASON" uni="70" class="FR" gp="0" code="70"></player>
+  <player name="WILLIAMS,Dale" checkname="WILLIAMS,DALE" uni="74" class="FR" gp="0" code="74"></player>
+  <player name="TINOR,Marco" checkname="TINOR,MARCO" uni="80" class="SO" gp="0" code="80"></player>
+  <player name="STEPHENS,Joe" checkname="STEPHENS,JOE" uni="81" class="FR" gp="0" code="81"></player>
+  <player name="ROTH,Yogi" checkname="ROTH,YOGI" uni="82" class="JR" gp="0" code="82"></player>
+  <player name="BUCHES,Steve" checkname="BUCHES,STEVE" uni="84" class="FR" gp="0" code="84"></player>
+  <player name="BROCKENBROUGH,P" checkname="BROCKENBROUGH,P" uni="85" class="JR" gp="0" code="85"></player>
+  <player name="STEFFY,Charles" checkname="STEFFY,CHARLES" uni="92" class="SR" gp="0" code="92"></player>
+  <player name="PINDER,Malcolm" checkname="PINDER,MALCOLM" uni="95" class="JR" gp="0" code="95"></player>
+  <player name="BOTTS,Vernon" checkname="BOTTS,VERNON" uni="98" class="FR" gp="0" code="98"></player>
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="H" id="PIT" yds="73" play="PUNTING" players="LEE,Andy" td="N"></longplay>
+ </longplays>
+</fbgame>

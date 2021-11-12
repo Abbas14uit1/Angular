@@ -1,0 +1,55 @@
+<app-header [config]="headerConfig.normal"></app-header>
+<div class="row" *ngIf="teamId" style="margin-top: 1.6rem;">
+  <app-records *ngIf="tabIndex == 1 && sportId == 'MFB'" [teamColor]="this.teamColors[teamId]" [teamCode]="teamId"
+    [sportCode]="sportId"></app-records>
+  <app-records-basketball *ngIf="tabIndex == 1 && (sportId == 'MBB' || sportId == 'WBB')"
+    [teamColor]="this.teamColors[teamId]" [teamCode]="teamId" [sportCode]="sportId"></app-records-basketball>
+  <app-streaks *ngIf="tabIndex == 2" [teamColor]="this.teamColors[teamId]" [teamCode]="teamId" [sportCode]="sportId">
+  </app-streaks>
+
+  <div *ngIf="tabIndex == 3" class="row card">
+    <div class="col l2 s12 m2" style="padding-top: 10px; text-align: center;">
+      <div class="label-for">Entity</div>
+      <mat-radio-group>
+        <mat-radio-button value="2" checked="true">Team</mat-radio-button>
+        <mat-radio-button value="3">Player</mat-radio-button>
+      </mat-radio-group>
+    </div>
+    <div class="col l3 s12 m3" style="padding-top: 10px; text-align: center;">
+      <div class="label-for">Time Bucket</div>
+      <div class="chip cursor" *ngFor="let split of splits" [ngClass]="
+          selectedSplit == split.value ? 'white-text grey darken-2' : ''
+        ">
+        {{ split.viewValue }}
+      </div>
+    </div>
+    <div class="col l2 s12 m2" style="padding-top: 10px; text-align: center;">
+      <div class="label-for">Category</div>
+      <mat-select value="option1">
+        <mat-option value="option1">Passing</mat-option>
+        <mat-option value="option3">Option 3</mat-option>
+      </mat-select>
+    </div>
+    <div class="col l2 s12 m2" style="padding-top: 10px; text-align: center;">
+      <div class="label-for">Statistic</div>
+      <mat-select value="option1">
+        <mat-option value="option1">Passing Yards</mat-option>
+        <mat-option value="option3">Option 3</mat-option>
+      </mat-select>
+    </div>
+    <div class="col l2 s12 m2" style="padding-top: 10px; text-align: center;">
+      <div class="label-for">Descriptor</div>
+      <mat-select value="option1">
+        <mat-option value="option1">At least</mat-option>
+        <mat-option value="option3">Option 3</mat-option>
+      </mat-select>
+    </div>
+    <div class="col l1 s12 m1" style="padding-top: 10px; text-align: center;">
+      <div class="label-for">Stat Value</div>
+      <mat-select value="option1">
+        <mat-option value="option1">300</mat-option>
+        <mat-option value="option3">Option 3</mat-option>
+      </mat-select>
+    </div>
+  </div>
+</div>

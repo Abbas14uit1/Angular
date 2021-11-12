@@ -1,0 +1,15 @@
+.header{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#recordTable .mat-header-row, #recordTable .mat-row {
+    height: 100% !important;   
+}
+
+
+#recordTable .mat-cell,#recordTable .mat-header-cell {
+  margin: 10px !important;
+  word-break: break-all;
+}

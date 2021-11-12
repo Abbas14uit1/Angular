@@ -1,0 +1,1004 @@
+<fbgame source="Tas Football" version="4.16.07" generated="9/15/2016">
+ <venue gameid="UA010912" visid="UA" homeid="LSU" visname="Alabama" homename="LSU"
+      date="1/9/2012" location="New Orleans, La." stadium="Superdome"
+      start="7:30 PM" end="10:31" neutralgame="Y" nitegame="Y" postseason="Y"
+      duration="3:01" attend="78237" temp="Indoors" wind="N/A" weather="Indoors">
+  <officials ref="Scott Novak" ump="Michael Cooper" line="George Gusman" lj="David Oliver" bj="Brad Van Vark" fj="Scott Gaines" sj="Gene Semko" cj="Gayle Letulle" alt="Gayle Letulle"></officials>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="30" tbspot="20" kotbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="8" id="UA" name="Alabama" record="12-1" conf-record="7-1" abb="A" rank="2">
+  <linescore prds="4" line="3,6,6,6" score="21">
+   <lineprd prd="1" score="3"></lineprd>
+   <lineprd prd="2" score="6"></lineprd>
+   <lineprd prd="3" score="6"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="21" rush="9" pass="12" penalty="0"></firstdowns>
+   <penalties no="1" yds="5"></penalties>
+   <conversions thirdconv="3" thirdatt="14" fourthconv="2" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="35:26" ona="0" onm="0" ptsto="6"></misc>
+   <redzone att="3" scores="3" points="9" tdrush="0" tdpass="0" fgmade="3" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="35" yds="150" gain="165" loss="15" td="1" long="34"></rush>
+   <pass comp="23" att="34" int="0" yds="234" td="0" long="26" sacks="2" sackyds="9"></pass>
+   <rcv no="23" yds="234" td="0" long="26"></rcv>
+   <punt no="3" yds="133" long="52" blkd="0" tb="1" fc="0" plus50="1" inside20="0"></punt>
+   <ko no="6" yds="400" ob="0" tb="0"></ko>
+   <fg made="5" att="7" long="44" blkd="1"></fg>
+   <pat kickatt="1" kickmade="0"></pat>
+   <defense tackua="37" tacka="16" tflua="9" tfla="4" tflyds="39" sacks="4" sackyds="26" brup="1" ff="1" fr="1" fryds="0" int="1" intyds="1"></defense>
+   <kr no="1" yds="32" td="0" long="32"></kr>
+   <pr no="3" yds="67" td="0" long="49"></pr>
+   <ir no="1" yds="1" td="0" long="1"></ir>
+   <fr no="1" yds="0" td="0" long="0"></fr>
+   <scoring td="1" fg="5"></scoring>
+  </totals>
+  <player name="Cody Mandell" shortname="Cody Mandell" checkname="MANDELL,CODY" uni="2F" class="SO" gp="1" code="2F">
+   <punt no="3" yds="133" long="52" blkd="0" tb="1" fc="0" plus50="1" inside20="0"></punt>
+  </player>
+  <player name="DeAndrew White" shortname="DeAndrew White" checkname="WHITE,DEANDREW" uni="2A" class="FR" gp="1" code="2A"></player>
+  <player name="Vinnie Sunseri" shortname="Vinnie Sunseri" checkname="SUNSERI,VINNIE" uni="3A" class="FR" gp="1" code="3A">
+   <defense brup="1"></defense>
+  </player>
+  <player name="Trent Richardson" shortname="T. Richardson" checkname="RICHARDSON,T" uni="3" class="JR" gp="1" gs="1" opos="RB" code="3">
+   <rush att="20" yds="96" gain="100" loss="4" td="1" long="34"></rush>
+   <rcv no="2" yds="11" td="0" long="6"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Mark Barron" shortname="Mark Barron" checkname="BARRON,MARK" uni="4A" class="SR" gp="1" gs="1" dpos="FS" code="4A">
+   <defense tackua="1" tacka="1" tflua="1" tfla="0" tflyds="2" sackua="1" sacka="0" sackyds="2"></defense>
+  </player>
+  <player name="Adrian Hubbard" shortname="Adrian Hubbard" checkname="HUBBARD,ADRIAN" uni="4B" class="FR" gp="1" code="4B"></player>
+  <player name="Marquis Maze" shortname="Marquis Maze" checkname="MAZE,MARQUIS" uni="4" class="SR" gp="1" gs="1" opos="WR" code="4">
+   <pr no="2" yds="52" td="0" long="49"></pr>
+  </player>
+  <player name="Carson Tinker" shortname="Carson Tinker" checkname="TINKER,CARSON" uni="5C" class="JR" gp="1" code="5C"></player>
+  <player name="Jerrell Harris" shortname="Jerrell Harris" checkname="HARRIS,JERRELL" uni="5" class="SR" gp="1" gs="1" dpos="SLB" code="5">
+   <defense tackua="5" tacka="2" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Ha'Seaon Clinton-Dix" shortname="H. Clinton-Dix" checkname="CLINTON-DIX,H" uni="6A" class="FR" gp="1" code="6A"></player>
+  <player name="Kenny Bell" shortname="Kenny Bell" checkname="BELL,KENNY" uni="7" class="SO" gp="1" code="7">
+   <rcv no="1" yds="26" td="0" long="26"></rcv>
+  </player>
+  <player name="Quinton Dial" shortname="Quinton Dial" checkname="DIAL,QUINTON" uni="9A" class="JR" gp="1" code="9A"></player>
+  <player name="AJ McCarron" shortname="AJ McCarron" checkname="MCCARRON,AJ" uni="10" class="SO" gp="1" gs="1" opos="QB" code="10">
+   <rush att="4" yds="11" gain="20" loss="9" td="0" long="13"></rush>
+   <pass comp="23" att="34" int="0" yds="234" td="0" long="26" sacks="2" sackyds="9"></pass>
+  </player>
+  <player name="Brandon Gibson" shortname="Brandon Gibson" checkname="GIBSON,BRANDON" uni="11" class="SR" gp="1" gs="1" opos="WR" code="11"></player>
+  <player name="Darius Hanks" shortname="Darius Hanks" checkname="HANKS,DARIUS" uni="15" class="SR" gp="1" code="15">
+   <rcv no="5" yds="58" td="0" long="19"></rcv>
+  </player>
+  <player name="Brad Smelley" shortname="Brad Smelley" checkname="SMELLEY,BRAD" uni="17" class="SR" gp="1" gs="1" opos="TE" code="17">
+   <rcv no="7" yds="39" td="0" long="15"></rcv>
+  </player>
+  <player name="Jarrick Williams" shortname="J. Williams" checkname="WILLIAMS,J" uni="20" class="SO" gp="1" code="20">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Dre Kirkpatrick" shortname="Dre Kirkpatrick" checkname="KIRKPATRICK,DRE" uni="21" class="JR" gp="1" gs="1" dpos="CB" code="21">
+   <defense tackua="1" tacka="3" tflua="1" tfla="2" tflyds="3"></defense>
+  </player>
+  <player name="Christion Jones" shortname="Christion Jones" checkname="JONES,CHRISTION" uni="22" class="FR" gp="1" code="22">
+   <kr no="1" yds="32" td="0" long="32"></kr>
+   <pr no="1" yds="15" td="0" long="15"></pr>
+  </player>
+  <player name="DeQuan Menzie" shortname="DeQuan Menzie" checkname="MENZIE,DEQUAN" uni="24" class="SR" gp="1" gs="1" dpos="CB" code="24">
+   <defense tackua="4" tacka="0" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="DeMarcus Milliner" shortname="D. Milliner" checkname="MILLINER,D" uni="28" class="SO" gp="1" code="28">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Dont'a Hightower" shortname="D. Hightower" checkname="HIGHTOWER,D" uni="30" class="JR" gp="1" gs="1" dpos="MLB" code="30">
+   <defense tackua="3" tacka="1" tflua="1" tfla="1" tflyds="11" sackua="1" sacka="0" sackyds="10" ff="1"></defense>
+  </player>
+  <player name="C.J. Mosley" shortname="C.J. Mosley" checkname="MOSLEY,CJ" uni="32" class="SO" gp="1" code="32">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="3" int="1" intyds="1"></defense>
+   <ir no="1" yds="1" td="0" long="1"></ir>
+  </player>
+  <player name="Trey Depriest" shortname="Trey Depriest" checkname="DEPRIEST,TREY" uni="33" class="FR" gp="1" code="33">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Nico Johnson" shortname="Nico Johnson" checkname="JOHNSON,NICO" uni="35" class="JR" gp="1" gs="1" dpos="WLB" code="35">
+   <defense tackua="2" tacka="2" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Chris Jordan" shortname="Chris Jordan" checkname="JORDAN,CHRIS" uni="36" class="SR" gp="1" code="36"></player>
+  <player name="Robert Lester" shortname="Robert Lester" checkname="LESTER,ROBERT" uni="37" class="JR" gp="1" gs="1" dpos="SS" code="37">
+   <defense tackua="1" tacka="2" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Courtney Upshaw" shortname="Courtney Upshaw" checkname="UPSHAW,COURTNEY" uni="41" class="SR" gp="1" gs="1" dpos="JACK" code="41">
+   <defense tackua="6" tacka="1" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5"></defense>
+  </player>
+  <player name="Eddie Lacy" shortname="Eddie Lacy" checkname="LACY,EDDIE" uni="42" class="SO" gp="1" code="42">
+   <rush att="11" yds="43" gain="45" loss="2" td="0" long="11"></rush>
+  </player>
+  <player name="Cade Foster" shortname="Cade Foster" checkname="FOSTER,CADE" uni="43" class="SO" gp="1" code="43">
+   <ko no="6" yds="400" ob="0" tb="0"></ko>
+  </player>
+  <player name="Jalston Fowler" shortname="Jalston Fowler" checkname="FOWLER,JALSTON" uni="45" class="SO" gp="1" code="45"></player>
+  <player name="Xzavier Dickson" shortname="Xzavier Dickson" checkname="DICKSON,XZAVIER" uni="47" class="FR" gp="1" code="47">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Ed Stinson" shortname="Ed Stinson" checkname="STINSON,ED" uni="49" class="SO" gp="1" code="49">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Alfred McCullough" shortname="A. McCullough" checkname="MCCULLOUGH,A" uni="52" class="SR" gp="1" gs="1" opos="RG" code="52"></player>
+  <player name="Jesse Williams" shortname="Jesse Williams" checkname="WILLIAMS,JESSE" uni="54" class="JR" gp="1" gs="1" dpos="DE" code="54">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Nick Gentry" shortname="Nick Gentry" checkname="GENTRY,NICK" uni="58" class="SR" gp="1" code="58">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="9" sackua="1" sacka="0" sackyds="9" fr="1" fryds="0"></defense>
+   <fr no="1" yds="0" td="0" long="0"></fr>
+  </player>
+  <player name="Anthony Steen" shortname="Anthony Steen" checkname="STEEN,ANTHONY" uni="61" class="SO" gp="1" code="61"></player>
+  <player name="Chance Warmack" shortname="Chance Warmack" checkname="WARMACK,CHANCE" uni="65" class="JR" gp="1" gs="1" opos="LG" code="65"></player>
+  <player name="William Vlachos" shortname="William Vlachos" checkname="VLACHOS,WILLIAM" uni="73" class="SR" gp="1" gs="1" opos="C" code="73"></player>
+  <player name="Barrett Jones" shortname="Barrett Jones" checkname="JONES,BARRETT" uni="75" class="JR" gp="1" gs="1" opos="LT" code="75"></player>
+  <player name="D.J. Fluker" shortname="D.J. Fluker" checkname="FLUKER,DJ" uni="76" class="SO" gp="1" gs="1" opos="RT" code="76"></player>
+  <player name="Hardie Buck" shortname="Hardie Buck" checkname="BUCK,HARDIE" uni="81" class="JR" gp="1" code="81">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Kevin Norwood" shortname="Kevin Norwood" checkname="NORWOOD,KEVIN" uni="83" class="SO" gp="1" code="83">
+   <rcv no="4" yds="78" td="0" long="26"></rcv>
+  </player>
+  <player name="Undra Billingsley" shortname="U. Billingsley" checkname="BILLINGSLEY,U" uni="86" class="JR" gp="1" code="86"></player>
+  <player name="Chris Underwood" shortname="Chris Underwood" checkname="UNDERWOOD,CHRIS" uni="87" class="SR" gp="1" code="87">
+   <rcv no="2" yds="12" td="0" long="8"></rcv>
+  </player>
+  <player name="Michael Williams" shortname="M. Williams" checkname="WILLIAMS,M" uni="89" class="JR" gp="1" gs="1" opos="TE" code="89">
+   <rcv no="2" yds="10" td="0" long="6"></rcv>
+  </player>
+  <player name="Jeremy Shelley" shortname="Jeremy Shelley" checkname="SHELLEY,JEREMY" uni="90" class="JR" gp="1" code="90">
+   <fg made="5" att="7" long="44" blkd="1"></fg>
+   <pat kickatt="1" kickmade="0"></pat>
+   <defense tackua="1" tacka="0"></defense>
+   <scoring fg="5"></scoring>
+  </player>
+  <player name="Alex Watkins" shortname="Alex Watkins" checkname="WATKINS,ALEX" uni="91" class="SR" gp="1" code="91"></player>
+  <player name="Damion Square" shortname="Damion Square" checkname="SQUARE,DAMION" uni="92" class="JR" gp="1" gs="1" dpos="DE" code="92">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Josh Chapman" shortname="Josh Chapman" checkname="CHAPMAN,JOSH" uni="99" class="SR" gp="1" gs="1" dpos="NG" code="99">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="365" id="LSU" name="LSU" record="13-1" conf-record="8-0" abb="L" rank="1">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="5" rush="4" pass="1" penalty="0"></firstdowns>
+   <penalties no="5" yds="35"></penalties>
+   <conversions thirdconv="2" thirdatt="12" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="3" lost="1"></fumbles>
+   <misc yds="0" top="24:34" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="27" yds="39" gain="79" loss="40" td="0" long="18"></rush>
+   <pass comp="11" att="17" int="1" yds="53" td="0" long="19" sacks="4" sackyds="26"></pass>
+   <rcv no="11" yds="53" td="0" long="19"></rcv>
+   <punt no="9" yds="411" long="59" blkd="0" tb="0" fc="3" plus50="2" inside20="4"></punt>
+   <ko no="1" yds="70" ob="0" tb="0"></ko>
+   <defense tackua="49" tacka="26" tflua="6" tfla="4" tflyds="17" sacks="2" sackyds="9" brup="4" blkd="1"></defense>
+   <kr no="6" yds="125" td="0" long="26"></kr>
+   <pr no="1" yds="1" td="0" long="1"></pr>
+  </totals>
+  <player name="Eric Reid" shortname="Eric Reid" checkname="REID,ERIC" uni="1" class="SO" gp="1" gs="1" dpos="FS" code="1">
+   <defense tackua="9" tacka="2" brup="1"></defense>
+  </player>
+  <player name="Rueben Randle" shortname="Rueben Randle" checkname="RANDLE,RUEBEN" uni="2" class="JR" gp="1" gs="1" opos="WR" code="2">
+   <rcv no="3" yds="13" td="0" long="8"></rcv>
+  </player>
+  <player name="James Hairston" shortname="James Hairston" checkname="HAIRSTON,JAMES" uni="3H" class="FR" gp="1" code="3H">
+   <ko no="1" yds="70" ob="0" tb="0"></ko>
+  </player>
+  <player name="Alfred Blue" shortname="Alfred Blue" checkname="BLUE,ALFRED" uni="4" class="SO" gp="1" code="4">
+   <rcv no="1" yds="-3" td="0" long="0"></rcv>
+  </player>
+  <player name="Craig Loston" shortname="Craig Loston" checkname="LOSTON,CRAIG" uni="6" class="SO" gp="1" code="6"></player>
+  <player name="Tyrann Mathieu" shortname="Tyrann Mathieu" checkname="MATHIEU,TYRANN" uni="7" class="SO" gp="1" gs="1" dpos="CB" code="7">
+   <defense tackua="6" tacka="0" tflua="1" tfla="0" tflyds="1" brup="2"></defense>
+   <pr no="1" yds="1" td="0" long="1"></pr>
+  </player>
+  <player name="Ego Ferguson" shortname="Ego Ferguson" checkname="FERGUSON,EGO" uni="9F" class="FR" gp="1" code="9F"></player>
+  <player name="Jo. Jefferson" shortname="Jo. Jefferson" checkname="JEFFERSON,JO" uni="9" class="SR" gp="1" gs="1" opos="QB" code="9">
+   <rush att="14" yds="15" gain="51" loss="36" td="0" long="18"></rush>
+   <pass comp="11" att="17" int="1" yds="53" td="0" long="19" sacks="4" sackyds="26"></pass>
+   <defense tackua="2" tacka="0"></defense>
+   <fumbles no="3" lost="1"></fumbles>
+  </player>
+  <player name="Russell Shepard" shortname="Russell Shepard" checkname="SHEPARD,RUSSELL" uni="10" class="JR" gp="1" code="10">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Spencer Ware" shortname="Spencer Ware" checkname="WARE,SPENCER" uni="11" class="SO" gp="1" code="11">
+   <rush att="3" yds="7" gain="7" loss="0" td="0" long="5"></rush>
+   <rcv no="1" yds="-2" td="0" long="0"></rcv>
+  </player>
+  <player name="Ron Brooks" shortname="Ron Brooks" checkname="BROOKS,RON" uni="13" class="SR" gp="1" code="13">
+   <defense tackua="1" tacka="0"></defense>
+   <kr no="1" yds="16" td="0" long="16"></kr>
+  </player>
+  <player name="Mo. Claiborne" shortname="Mo. Claiborne" checkname="CLAIBORNE,MO" uni="17" class="JR" gp="1" gs="1" dpos="CB" code="17">
+   <defense tackua="4" tacka="1"></defense>
+   <kr no="5" yds="109" td="0" long="26"></kr>
+  </player>
+  <player name="Brandon Taylor" shortname="Brandon Taylor" checkname="TAYLOR,BRANDON" uni="18" class="SR" gp="1" gs="1" dpos="SS" code="18">
+   <defense tackua="4" tacka="0" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="De. Peterson" shortname="De. Peterson" checkname="PETERSON,DE" uni="19" class="SR" gp="1" gs="1" opos="WR" code="19">
+   <rcv no="1" yds="7" td="0" long="7"></rcv>
+  </player>
+  <player name="Ryan Baker" shortname="Ryan Baker" checkname="BAKER,RYAN" uni="22" class="SR" gp="1" gs="1" dpos="WLB" code="22">
+   <defense tackua="4" tacka="2"></defense>
+  </player>
+  <player name="S. Francois" shortname="S. Francois" checkname="FRANCOIS,S" uni="23" class="SR" gp="1" gs="1" dpos="SLB" code="23"></player>
+  <player name="Tharold Simon" shortname="Tharold Simon" checkname="SIMON,THAROLD" uni="24" class="SO" gp="1" code="24">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Kenny Hilliard" shortname="Kenny Hilliard" checkname="HILLIARD,KENNY" uni="27" class="FR" gp="1" code="27">
+   <rush att="5" yds="16" gain="16" loss="0" td="0" long="7"></rush>
+  </player>
+  <player name="Odell Beckham" shortname="Odell Beckham" checkname="BECKHAM,ODELL" uni="33" class="FR" gp="1" gs="1" opos="WR" code="33">
+   <rcv no="5" yds="38" td="0" long="19"></rcv>
+  </player>
+  <player name="James Stampley" shortname="James Stampley" checkname="STAMPLEY,JAMES" uni="35" class="SR" gp="1" code="35"></player>
+  <player name="Karnell Hatcher" shortname="Karnell Hatcher" checkname="HATCHER,KARNELL" uni="37" class="SR" gp="1" code="37">
+   <defense tackua="1" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Brad Wing" shortname="Brad Wing" checkname="WING,BRAD" uni="38" class="FR" gp="1" code="38">
+   <punt no="9" yds="411" long="59" blkd="0" tb="0" fc="3" plus50="2" inside20="4"></punt>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Josh Johns" shortname="Josh Johns" checkname="JOHNS,JOSH" uni="39" class="SO" gp="1" code="39"></player>
+  <player name="R. Duplessis" shortname="R. Duplessis" checkname="DUPLESSIS,R" uni="40" class="SO" gp="1" code="40"></player>
+  <player name="Michael Ford" shortname="Michael Ford" checkname="FORD,MICHAEL" uni="42" class="SO" gp="1" gs="1" opos="RB" code="42">
+   <rush att="4" yds="1" gain="5" loss="4" td="0" long="3"></rush>
+  </player>
+  <player name="J.C. Copeland" shortname="J.C. Copeland" checkname="COPELAND,JC" uni="44" class="SO" gp="1" code="44">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Kevin Minter" shortname="Kevin Minter" checkname="MINTER,KEVIN" uni="46" class="SO" gp="1" gs="1" dpos="MLB" code="46">
+   <defense tackua="3" tacka="2" tflua="1" tfla="0" tflyds="7" sackua="1" sacka="0" sackyds="7"></defense>
+  </player>
+  <player name="Bark. Mingo" shortname="Bark. Mingo" checkname="MINGO,BARK" uni="49" class="SO" gp="1" gs="1" dpos="DE" code="49">
+   <defense tackua="2" tacka="3" tflua="1" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Joey Crappell" shortname="Joey Crappell" checkname="CRAPPELL,JOEY" uni="50" class="SR" gp="1" code="50"></player>
+  <player name="Luke Muncie" shortname="Luke Muncie" checkname="MUNCIE,LUKE" uni="52" class="SO" gp="1" code="52">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Anthony Johnson" shortname="Anthony Johnson" checkname="JOHNSON,ANTHONY" uni="56" class="FR" gp="1" code="56"></player>
+  <player name="Lamin Barrow" shortname="Lamin Barrow" checkname="BARROW,LAMIN" uni="57" class="SO" gp="1" code="57"></player>
+  <player name="Tahj Jones" shortname="Tahj Jones" checkname="JONES,TAHJ" uni="58" class="SO" gp="1" code="58">
+   <defense tackua="1" tacka="2" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Will Blackwell" shortname="Will Blackwell" checkname="BLACKWELL,WILL" uni="60" class="SR" gp="1" gs="1" opos="LG" code="60"></player>
+  <player name="P.J. Lonergan" shortname="P.J. Lonergan" checkname="LONERGAN,PJ" uni="64" class="JR" gp="1" gs="1" opos="C" code="64"></player>
+  <player name="Alex Hurst" shortname="Alex Hurst" checkname="HURST,ALEX" uni="72" class="JR" gp="1" gs="1" opos="RT" code="72"></player>
+  <player name="Josh Williford" shortname="Josh Williford" checkname="WILLIFORD,JOSH" uni="74" class="SO" gp="1" gs="1" opos="RG" code="74"></player>
+  <player name="Chris Faulk" shortname="Chris Faulk" checkname="FAULK,CHRIS" uni="76" class="SO" gp="1" gs="1" opos="LT" code="76"></player>
+  <player name="Josh Downs" shortname="Josh Downs" checkname="DOWNS,JOSH" uni="77" class="JR" gp="1" code="77"></player>
+  <player name="Jarvis Landry" shortname="Jarvis Landry" checkname="LANDRY,JARVIS" uni="80" class="FR" gp="1" code="80"></player>
+  <player name="James Wright" shortname="James Wright" checkname="WRIGHT,JAMES" uni="82" class="SO" gp="1" gs="1" opos="TE" code="82"></player>
+  <player name="Mitch Joseph" shortname="Mitch Joseph" checkname="JOSEPH,MITCH" uni="83" class="SR" gp="1" code="83"></player>
+  <player name="Alex Russian" shortname="Alex Russian" checkname="RUSSIAN,ALEX" uni="85" class="SR" gp="1" code="85"></player>
+  <player name="Kadron Boone" shortname="Kadron Boone" checkname="BOONE,KADRON" uni="86" class="SO" gp="1" code="86"></player>
+  <player name="Chase Clement" shortname="Chase Clement" checkname="CLEMENT,CHASE" uni="88" class="JR" gp="1" code="88"></player>
+  <player name="Lavar Edwards" shortname="Lavar Edwards" checkname="EDWARDS,LAVAR" uni="89" class="JR" gp="1" code="89">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Mi. Brockers" shortname="Mi. Brockers" checkname="BROCKERS,MI" uni="90" class="SO" gp="1" gs="1" dpos="LT" code="90">
+   <defense tackua="3" tacka="4" tflua="0" tfla="1" tflyds="0" blkd="1"></defense>
+  </player>
+  <player name="Bennie Logan" shortname="Bennie Logan" checkname="LOGAN,BENNIE" uni="93" class="SO" gp="1" gs="1" dpos="RT" code="93">
+   <defense tackua="1" tacka="5" tflua="1" tfla="1" tflyds="3" sackua="1" sacka="0" sackyds="2"></defense>
+  </player>
+  <player name="Kendrick Adams" shortname="Kendrick Adams" checkname="ADAMS,KENDRICK" uni="94" class="SR" gp="1" gs="1" dpos="DE" code="94">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Sam Montgomery" shortname="Sam Montgomery" checkname="MONTGOMERY,SAM" uni="99" class="SO" gp="1" code="99">
+   <defense tackua="2" tacka="3" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="UA" qtr="1" clock="05:00" type="FG" yds="23" scorer="Jeremy Shelley" plays="5" drive="20" top="1:54" vscore="3" hscore="0" driveindex="4"></score>
+  <score vh="V" team="UA" qtr="2" clock="04:18" type="FG" yds="34" scorer="Jeremy Shelley" plays="11" drive="58" top="6:12" vscore="6" hscore="0" driveindex="8"></score>
+  <score vh="V" team="UA" qtr="2" clock="00:00" type="FG" yds="41" scorer="Jeremy Shelley" plays="9" drive="52" top="1:59" vscore="9" hscore="0" driveindex="10"></score>
+  <score vh="V" team="UA" qtr="3" clock="12:49" type="FG" yds="35" scorer="Jeremy Shelley" plays="6" drive="50" top="2:11" vscore="12" hscore="0" driveindex="11"></score>
+  <score vh="V" team="UA" qtr="3" clock="00:22" type="FG" yds="44" scorer="Jeremy Shelley" plays="6" drive="20" top="3:01" vscore="15" hscore="0" driveindex="17"></score>
+  <score vh="V" team="UA" qtr="4" clock="04:36" type="TD" how="RUSH" yds="34" scorer="T. Richardson" patby="Jeremy Shelley" pattype="KICK" patres="FAIL" plays="4" drive="50" top="1:39" vscore="21" hscore="0" driveindex="21"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="UA" kicker="Jeremy Shelley" qtr="1" clock="05:00" distance="23" result="good"></fga>
+  <fga vh="V" team="UA" kicker="Jeremy Shelley" qtr="2" clock="11:57" distance="42" result="blkd"></fga>
+  <fga vh="V" team="UA" kicker="Jeremy Shelley" qtr="2" clock="04:18" distance="34" result="good"></fga>
+  <fga vh="V" team="UA" kicker="Jeremy Shelley" qtr="2" clock="00:00" distance="41" result="good"></fga>
+  <fga vh="V" team="UA" kicker="Jeremy Shelley" qtr="3" clock="12:49" distance="35" result="good"></fga>
+  <fga vh="V" team="UA" kicker="Jeremy Shelley" qtr="3" clock="05:38" distance="41" result="missed"></fga>
+  <fga vh="V" team="UA" kicker="Jeremy Shelley" qtr="3" clock="00:22" distance="44" result="good"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="LSU" start="KO,1,15:00,28" end="PUNT,1,13:04,34" plays="3" yards="6" top="1:56" driveindex="1"></drive>
+  <drive vh="V" team="UA" start="PUNT,1,13:04,10" end="PUNT,1,08:59,46" plays="7" yards="36" top="4:05" driveindex="2"></drive>
+  <drive vh="H" team="LSU" start="PUNT,1,08:59,21" end="PUNT,1,06:54,21" plays="3" yards="0" top="2:05" driveindex="3"></drive>
+  <drive vh="V" team="UA" start="PUNT,1,06:54,74" end="FG,1,05:00,94" plays="5" yards="20" top="1:54" rz="1" driveindex="4"></drive>
+  <drive vh="H" team="LSU" start="KO,1,05:00,27" end="PUNT,1,02:35,44" plays="5" yards="17" top="2:25" driveindex="5"></drive>
+  <drive vh="V" team="UA" start="PUNT,1,02:35,11" end="FGA,2,11:57,75" plays="13" yards="64" top="5:38" driveindex="6"></drive>
+  <drive vh="H" team="LSU" start="FGA,2,11:57,25" end="PUNT,2,10:30,28" plays="3" yards="3" top="1:27" driveindex="7"></drive>
+  <drive vh="V" team="UA" start="PUNT,2,10:30,25" end="FG,2,04:18,83" plays="11" yards="58" top="6:12" rz="1" driveindex="8"></drive>
+  <drive vh="H" team="LSU" start="KO,2,04:18,21" end="PUNT,2,01:59,28" plays="3" yards="7" top="2:19" driveindex="9"></drive>
+  <drive vh="V" team="UA" start="PUNT,2,01:59,24" end="FG,3,15:00,76" plays="9" yards="52" top="1:59" driveindex="10"></drive>
+  <drive vh="V" team="UA" start="KO,3,15:00,32" end="FG,3,12:49,82" plays="6" yards="50" top="2:11" rz="1" driveindex="11"></drive>
+  <drive vh="H" team="LSU" start="KO,3,12:49,24" end="PUNT,3,10:04,47" plays="5" yards="23" top="2:45" driveindex="12"></drive>
+  <drive vh="V" team="UA" start="PUNT,3,10:04,25" end="PUNT,3,07:48,52" plays="4" yards="27" top="2:16" driveindex="13"></drive>
+  <drive vh="H" team="LSU" start="PUNT,3,07:48,20" end="INT,3,06:59,19" plays="2" yards="-1" top="0:49" driveindex="14"></drive>
+  <drive vh="V" team="UA" start="INT,3,06:59,73" end="FGA,3,05:38,77" plays="4" yards="4" top="1:21" driveindex="15"></drive>
+  <drive vh="H" team="LSU" start="FGA,3,05:38,24" end="PUNT,3,03:23,18" plays="3" yards="-6" top="2:15" driveindex="16"></drive>
+  <drive vh="V" team="UA" start="PUNT,3,03:23,53" end="FG,3,00:22,73" plays="6" yards="20" top="3:01" driveindex="17"></drive>
+  <drive vh="H" team="LSU" start="KO,3,00:22,22" end="PUNT,4,12:07,39" plays="6" yards="17" top="3:15" driveindex="18"></drive>
+  <drive vh="V" team="UA" start="PUNT,4,12:07,17" end="PUNT,4,09:44,14" plays="3" yards="-3" top="2:23" driveindex="19"></drive>
+  <drive vh="H" team="LSU" start="PUNT,4,09:44,35" end="FUMB,4,06:15,50" plays="8" yards="15" top="3:29" driveindex="20"></drive>
+  <drive vh="V" team="UA" start="FUMB,4,06:15,50" end="TD,4,04:36,100" plays="4" yards="50" top="1:39" driveindex="21"></drive>
+  <drive vh="H" team="LSU" start="KO,4,04:36,23" end="PUNT,4,02:47,24" plays="3" yards="1" top="1:49" driveindex="22"></drive>
+  <drive vh="V" team="UA" start="PUNT,4,02:47,49" end="HALF,4,00:00,60" plays="4" yards="11" top="2:47" driveindex="23"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0" tokens="CMT:Alabama wins the toss and defers; LSU will receive to start the game;"
+      text="Alabama wins the toss and defers; LSU will receive to start the game;"></play>
+   <comment text="Alabama will kick off and defend the North goal."></comment>
+   <play context="V,1,10,V30" playid="0,2,2" type="#" clock="15:00" tokens="Q:1 T:15:00 SPOT:V,V30,N"
+      text="Start of 1st quarter, clock 15:00, UA ball on UA30."></play>
+   <play context="V,1,10,V30" playid="0,3,3" type="K" tokens="KO:43,H02 RET:17,H28 TACK:33"
+      text="Cade Foster kickoff 68 yards to the LSU2, Mo. Claiborne return 26 yards to the LSU28 (Trey Depriest)."></play>
+   <drivestart poss="H,H28,15:00" vh="H" spot="H28" clock="15:00" driveindex="1,3"></drivestart>
+   <play context="H,1,10,H28" playid="1,1,4" type="R" pcode="RG" tokens="RUSH:42,H30,RG TACK:92,54"
+      text="Michael Ford rush over right guard for 2 yards to the LSU30 (Damion Square;Jesse Williams)."></play>
+   <play context="H,2,8,H30" playid="1,2,5" type="P" pcode="SI" tokens="PASS:9,C,2,H36,SI TACK:41"
+      text="Jo. Jefferson sideline pass complete to Rueben Randle for 6 yards to the LSU36 (Courtney Upshaw)."></play>
+   <play context="H,3,2,H36" playid="1,3,6" type="R" tokens="RUSH:9,H34, FUMB:H,H34,9 +:9,H34 TACK:35"
+      text="Jo. Jefferson rush for loss of 2 yards to the LSU34, fumble by Jo. Jefferson recovered by LSU Jo. Jefferson at LSU34, Jo. Jefferson for no gain to the LSU34 (Nico Johnson)."></play>
+   <play context="H,4,4,H34" playid="1,4,7" type="U" tokens="PUNT:38,V07 RET:4,V10 TACK:7"
+      text="Brad Wing punt 59 yards to the UA7, Marquis Maze return 3 yards to the UA10 (Tyrann Mathieu)."></play>
+   <drivesum plays="3" yards="6" top="1:56" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,V10,13:04" vh="V" spot="V10" clock="13:04" driveindex="2,7"></drivestart>
+   <play context="V,1,10,V10" playid="2,1,8" clock="13:04" tokens="{DRIVE}:13:04"
+      text="ALABAMA drive start at 13:04."></play>
+   <play context="V,1,10,V10" playid="2,2,9" type="P" first="P" tokens="PASS:10,C,17,V25 TACK:1"
+      text="AJ McCarron pass complete to Brad Smelley for 15 yards to the UA25, 1ST DOWN UA (Eric Reid)."></play>
+   <play context="V,1,10,V25" playid="2,3,10" type="P" tokens="PASS:10,C,17,V29 TACK:18"
+      text="AJ McCarron pass complete to Brad Smelley for 4 yards to the UA29 (Brandon Taylor)."></play>
+   <play context="V,2,6,V29" playid="2,4,11" type="R" pcode="LG" form="GUN" tokens="FORM:GUN RUSH:3,V31,LG TACK:93,90"
+      text="[GUN], T. Richardson rush over left guard for 2 yards to the UA31 (Bennie Logan;Mi. Brockers)."></play>
+   <play context="V,3,4,V31" playid="2,5,12" type="P" first="P" form="GUN" tokens="FORM:GUN PASS:10,C,89,V37 TACK:46,89"
+      text="[GUN], AJ McCarron pass complete to M. Williams for 6 yards to the UA37, 1ST DOWN UA (Kevin Minter;Lavar Edwards)."></play>
+   <play context="V,1,10,V37" playid="2,6,13" type="P" form="GUN" tokens="FORM:GUN PASS:10,I,4,*"
+      text="[GUN], AJ McCarron pass incomplete to Marquis Maze."></play>
+   <play context="V,2,10,V37" playid="2,7,14" type="R" pcode="LG" tokens="RUSH:3,V42,LG TACK:99"
+      text="T. Richardson rush over left guard for 5 yards to the UA42 (Sam Montgomery)."></play>
+   <play context="V,3,5,V42" playid="2,8,15" type="R" pcode="LT" tokens="RUSH:3,V46,LT TACK:99"
+      text="T. Richardson rush over left tackle for 4 yards to the UA46 (Sam Montgomery)."></play>
+   <play context="V,4,1,V46" playid="2,9,16" type="U" tokens="PUNT:2F,H21 OB:"
+      text="Cody Mandell punt 33 yards to the LSU21, out-of-bounds."></play>
+   <drivesum plays="7" yards="36" top="4:05" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,H21,08:59" vh="H" spot="H21" clock="08:59" driveindex="3,16"></drivestart>
+   <play context="H,1,10,H21" playid="3,1,17" clock="08:59" tokens="{DRIVE}:08:59"
+      text="LSU drive start at 08:59."></play>
+   <play context="H,1,10,H21" playid="3,2,18" type="E" form="GUN" tokens="FORM:GUN PEN:H,FS,A,72,H16,N NOPLAY:"
+      text="[GUN], PENALTY LSU false start (Alex Hurst) 5 yards to the LSU16, NO PLAY."></play>
+   <play context="H,1,15,H16" playid="3,3,19" type="R" pcode="RG" form="GUN" tokens="FORM:GUN RUSH:27,H19,RG TACK:41"
+      text="[GUN], Kenny Hilliard rush over right guard for 3 yards to the LSU19 (Courtney Upshaw)."></play>
+   <play context="H,2,12,H19" playid="3,4,20" type="R" pcode="LE" form="GUN" tokens="FORM:GUN RUSH:9,H21,LE TACK:41"
+      text="[GUN], Jo. Jefferson rush over left end for 2 yards to the LSU21 (Courtney Upshaw)."></play>
+   <play context="H,3,10,H21" playid="3,5,21" type="R" pcode="LE" form="GUN" tokens="FORM:GUN RUSH:11,H21,LE TACK:41"
+      text="[GUN], Spencer Ware rush over left end for no gain to the LSU21 (Courtney Upshaw)."></play>
+   <play context="H,4,10,H21" playid="3,6,22" type="U" tokens="PUNT:38,V25 RET:4,H26 OB: TACK:38"
+      text="Brad Wing punt 54 yards to the UA25, Marquis Maze return 49 yards to the LSU26, out-of-bounds (Brad Wing)."></play>
+   <drivesum plays="3" yards="0" top="2:05" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,H26,06:54" vh="V" spot="H26" clock="06:54" driveindex="4,22"></drivestart>
+   <play context="V,1,10,H26" playid="4,1,23" clock="06:54" tokens="{DRIVE}:06:54"
+      text="ALABAMA drive start at 06:54."></play>
+   <play context="V,1,10,H26" playid="4,2,24" type="P" first="P" tokens="PASS:10,C,15,H10 OB: TACK:37"
+      text="AJ McCarron pass complete to Darius Hanks for 16 yards to the LSU10, 1ST DOWN UA, out-of-bounds (Karnell Hatcher)."></play>
+   <play context="V,1,0,H10" playid="4,3,25" type="R" pcode="RG" tokens="RUSH:3,H10,RG TACK:22"
+      text="T. Richardson rush over right guard for no gain to the LSU10 (Ryan Baker)."></play>
+   <play context="V,2,0,H10" playid="4,4,26" type="P" form="GUN" tokens="FORM:GUN PASS:10,I,89,*"
+      text="[GUN], AJ McCarron pass incomplete to M. Williams."></play>
+   <play context="V,3,0,H10" playid="4,5,27" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,17,H06 OB: TACK:22"
+      text="[GUN], AJ McCarron pass complete to Brad Smelley for 4 yards to the LSU6, out-of-bounds (Ryan Baker)."></play>
+   <play context="V,4,0,H06" playid="4,6,28" type="F" score="Y" vscore="3" hscore="0" clock="05:00" tokens="FGA:90,23,G T:05:00"
+      text="Jeremy Shelley field goal attempt from 23 GOOD, clock 05:00."></play>
+   <score V="3" H="0"></score>
+   <drivesum plays="5" yards="20" top="1:54" driveindex="4" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="4,7,29" type="K" tokens="KO:43,H08 RET:17,H27 TACK:47"
+      text="Cade Foster kickoff 62 yards to the LSU8, Mo. Claiborne return 19 yards to the LSU27 (Xzavier Dickson)."></play>
+   <drivestart poss="H,H27,05:00" vh="H" spot="H27" clock="05:00" driveindex="5,29"></drivestart>
+   <play context="H,1,10,H27" playid="5,1,30" clock="05:00" tokens="{DRIVE}:05:00"
+      text="LSU drive start at 05:00."></play>
+   <play context="H,1,10,H27" playid="5,2,31" type="P" tokens="PASS:9,C,33,H35 TACK:21,37"
+      text="Jo. Jefferson pass complete to Odell Beckham for 8 yards to the LSU35 (Dre Kirkpatrick;Robert Lester)."></play>
+   <play context="H,2,2,H35" playid="5,3,32" type="R" pcode="LG" first="R" tokens="RUSH:9,H41,LG TACK:5"
+      text="Jo. Jefferson rush over left guard for 6 yards to the LSU41, 1ST DOWN LSU (Jerrell Harris)."></play>
+   <play context="H,1,10,H41" playid="5,4,33" type="R" pcode="RE" tokens="RUSH:9,H40,RE TACK:21"
+      text="Jo. Jefferson rush over right end for loss of 1 yard to the LSU40 (Dre Kirkpatrick)."></play>
+   <play context="H,2,11,H40" playid="5,5,34" type="P" form="GUN" tokens="FORM:GUN PASS:9,C,33,H47 TACK:24"
+      text="[GUN], Jo. Jefferson pass complete to Odell Beckham for 7 yards to the LSU47 (DeQuan Menzie)."></play>
+   <play context="H,3,4,H47" playid="5,6,35" type="P" form="GUN" tokens="FORM:GUN PASS:9,C,4,H44 TACK:32"
+      text="[GUN], Jo. Jefferson pass complete to Alfred Blue for loss of 3 yards to the LSU44 (C.J. Mosley)."></play>
+   <play context="H,4,7,H44" playid="5,7,36" type="U" tokens="PUNT:38,V11 FC:22"
+      text="Brad Wing punt 45 yards to the UA11, fair catch by Christion Jones."></play>
+   <drivesum plays="5" yards="17" top="2:25" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V11,02:35" vh="V" spot="V11" clock="02:35" driveindex="6,36"></drivestart>
+   <play context="V,1,10,V11" playid="6,1,37" clock="02:35" tokens="{DRIVE}:02:35"
+      text="ALABAMA drive start at 02:35."></play>
+   <play context="V,1,10,V11" playid="6,2,38" type="P" form="GUN" tokens="FORM:GUN PASS:10,B,15,* BRUP:7"
+      text="[GUN], AJ McCarron pass incomplete to Darius Hanks (Tyrann Mathieu)."></play>
+   <play context="V,2,10,V11" playid="6,3,39" type="E" pcode="LE" tokens="RUSH:42,V11,LE TACK:7,46 PEN:H,EN,A,94,V16,N NOPLAY:"
+      text="Eddie Lacy rush over left end for no gain to the UA11 (Tyrann Mathieu;Kevin Minter), PENALTY LSU encroachment (Kendrick Adams) 5 yards to the UA16, NO PLAY."></play>
+   <play context="V,2,5,V16" playid="6,4,40" type="P" first="P" form="GUN" tokens="FORM:GUN PASS:10,C,17,V25 TACK:22"
+      text="[GUN], AJ McCarron pass complete to Brad Smelley for 9 yards to the UA25, 1ST DOWN UA (Ryan Baker)."></play>
+   <play context="V,1,10,V25" playid="6,5,41" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,87,V33 TACK:17"
+      text="[GUN], AJ McCarron pass complete to Chris Underwood for 8 yards to the UA33 (Mo. Claiborne)."></play>
+   <play context="V,2,2,V33" playid="6,6,42" type="R" pcode="RG" first="R" tokens="RUSH:42,V36,RG TACK:46"
+      text="Eddie Lacy rush over right guard for 3 yards to the UA36, 1ST DOWN UA (Kevin Minter)."></play>
+   <play context="V,1,10,V36" playid="6,7,43" type="P" first="P" tokens="PASS:10,C,83,H38 TACK:7"
+      text="AJ McCarron pass complete to Kevin Norwood for 26 yards to the LSU38, 1ST DOWN UA (Tyrann Mathieu)."></play>
+   <score qtr="1" V="3" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="6" rush="1" pass="5" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:34"></misc>
+    <rush att="5" yds="14" gain="14" loss="0" td="0" long="5"></rush>
+    <pass comp="8" att="11" int="0" yds="88" td="0" long="26" sacks="0" sackyds="0"></pass>
+    <rcv no="8" yds="88" td="0" long="26"></rcv>
+    <punt no="1" yds="33" long="33" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="130" ob="0" tb="0"></ko>
+    <fg made="1" att="1" long="23" blkd="0"></fg>
+    <defense tackua="11" tacka="4" tflua="3" tfla="0" tflyds="6" sacks="0" sackyds="0"></defense>
+    <pr no="2" yds="52" td="0" long="49"></pr>
+    <scoring fg="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LSU">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="06:26"></misc>
+    <rush att="7" yds="10" gain="13" loss="3" td="0" long="6"></rush>
+    <pass comp="4" att="4" int="0" yds="18" td="0" long="8" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="18" td="0" long="8"></rcv>
+    <punt no="3" yds="158" long="59" blkd="0" tb="0" fc="1" plus50="2" inside20="2"></punt>
+    <defense tackua="13" tacka="4" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="2" yds="45" td="0" long="26"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,1,10,H38" playid="6,8,44" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00."></play>
+   <play context="V,1,10,H38" playid="6,9,45" type="P" tokens="PASS:10,I,17,*"
+      text="AJ McCarron pass incomplete to Brad Smelley."></play>
+   <play context="V,2,10,H38" playid="6,10,46" type="R" pcode="UM" tokens="RUSH:10,H31,UM TACK:17"
+      text="AJ McCarron rush UM for 7 yards to the LSU31 (Mo. Claiborne)."></play>
+   <play context="V,3,3,H31" playid="6,11,47" type="R" pcode="RT" tokens="RUSH:42,H32,RT TACK:7"
+      text="Eddie Lacy rush over right tackle for loss of 1 yard to the LSU32 (Tyrann Mathieu)."></play>
+   <play context="V,4,4,H32" playid="6,12,48" type="P" first="P" form="FG" tokens="FORM:FG PASS:10,C,87,H28 TACK:49,93"
+      text="[FG], AJ McCarron pass complete to Chris Underwood for 4 yards to the LSU28, 1ST DOWN UA (Bark. Mingo;Bennie Logan)."></play>
+   <comment text="Previous play was under review for spot and was upheld."></comment>
+   <play context="V,1,10,H28" playid="6,13,50" type="P" tokens="PASS:10,I,15,*"
+      text="AJ McCarron pass incomplete to Darius Hanks."></play>
+   <play context="V,2,10,H28" playid="6,14,51" type="R" pcode="LE" tokens="RUSH:3,H25,LE TACK:7"
+      text="T. Richardson rush over left end for 3 yards to the LSU25 (Tyrann Mathieu)."></play>
+   <play context="V,3,7,H25" playid="6,15,52" type="P" form="GUN" tokens="FORM:GUN PASS:10,B,83,* BRUP:7"
+      text="[GUN], AJ McCarron pass incomplete to Kevin Norwood (Tyrann Mathieu)."></play>
+   <play context="V,4,7,H25" playid="6,16,53" type="F" clock="11:57" tokens="FGA:90,42,B,H25,V,TM T:11:57 BLOCK:90"
+      text="Jeremy Shelley field goal attempt from 42 BLOCKED, recovered by UA TEAM at LSU25 spot at LSU25, clock 11:57 (blocked by Mi. Brockers)."></play>
+   <drivesum plays="13" yards="64" top="5:38" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H25,11:57" vh="H" spot="H25" clock="11:57" driveindex="7,53"></drivestart>
+   <play context="H,1,10,H25" playid="7,1,54" type="E" tokens="PEN:H,FS,A,72,H20,N"
+      text="PENALTY LSU false start (Alex Hurst) 5 yards to the LSU20."></play>
+   <play context="H,1,15,H20" playid="7,2,55" type="P" tokens="PASS:9,C,33,H20 TACK:24"
+      text="Jo. Jefferson pass complete to Odell Beckham for no gain to the LSU20 (DeQuan Menzie)."></play>
+   <play context="H,2,15,H20" playid="7,3,56" type="P" tokens="PASS:9,C,2,H28 TACK:5,35"
+      text="Jo. Jefferson pass complete to Rueben Randle for 8 yards to the LSU28 (Jerrell Harris;Nico Johnson)."></play>
+   <play context="H,3,7,H28" playid="7,4,57" type="P" form="GUN" tokens="FORM:GUN PASS:9,I,11,*"
+      text="[GUN], Jo. Jefferson pass incomplete to Spencer Ware."></play>
+   <play context="H,4,7,H28" playid="7,5,58" type="U" tokens="PUNT:38,V25 DN:"
+      text="Brad Wing punt 47 yards to the UA25, downed."></play>
+   <drivesum plays="3" yards="3" top="1:27" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V25,10:30" vh="V" spot="V25" clock="10:30" driveindex="8,58"></drivestart>
+   <play context="V,1,10,V25" playid="8,1,59" clock="10:30" tokens="{DRIVE}:10:30"
+      text="ALABAMA drive start at 10:30."></play>
+   <play context="V,1,10,V25" playid="8,2,60" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,3,V30 TACK:17"
+      text="[GUN], AJ McCarron pass complete to T. Richardson for 5 yards to the UA30 (Mo. Claiborne)."></play>
+   <play context="V,2,5,V30" playid="8,3,61" type="R" pcode="RG" tokens="RUSH:3,V29,RG TACK:49"
+      text="T. Richardson rush over right guard for loss of 1 yard to the UA29 (Bark. Mingo)."></play>
+   <play context="V,3,6,V29" playid="8,4,62" type="P" first="P" form="GUN" tokens="FORM:GUN PASS:10,C,15,V38 TACK:1"
+      text="[GUN], AJ McCarron pass complete to Darius Hanks for 9 yards to the UA38, 1ST DOWN UA (Eric Reid)."></play>
+   <play context="V,1,10,V38" playid="8,5,63" type="R" pcode="RT" tokens="RUSH:3,V43,RT TACK:94,17"
+      text="T. Richardson rush over right tackle for 5 yards to the UA43 (Kendrick Adams;Mo. Claiborne)."></play>
+   <play context="V,2,5,V43" playid="8,6,64" type="R" pcode="LG" first="R" form="GUN" tokens="FORM:GUN RUSH:3,V50,LG TACK:1"
+      text="[GUN], T. Richardson rush over left guard for 7 yards to the 50 yardline, 1ST DOWN UA (Eric Reid)."></play>
+   <play context="V,1,10,V50" playid="8,7,65" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,17,H45 OB: TACK:22"
+      text="[GUN], AJ McCarron pass complete to Brad Smelley for 5 yards to the LSU45, out-of-bounds (Ryan Baker)."></play>
+   <play context="V,2,5,H45" playid="8,8,66" type="R" pcode="LE" first="R" tokens="RUSH:3,H25,LE TACK:1"
+      text="T. Richardson rush over left end for 20 yards to the LSU25, 1ST DOWN UA (Eric Reid)."></play>
+   <play context="V,1,10,H25" playid="8,9,67" type="P" form="GUN" tokens="FORM:GUN PASS:10,B,89,* BRUP:37"
+      text="[GUN], AJ McCarron pass incomplete to M. Williams (Karnell Hatcher)."></play>
+   <play context="V,2,10,H25" playid="8,10,68" type="R" pcode="LG" form="GUN" tokens="FORM:GUN RUSH:42,H16,LG TACK:17"
+      text="[GUN], Eddie Lacy rush over left guard for 9 yards to the LSU16 (Mo. Claiborne)."></play>
+   <play context="V,3,1,H16" playid="8,11,69" type="R" pcode="RT" tokens="RUSH:42,H17,RT TACK:49,90"
+      text="Eddie Lacy rush over right tackle for loss of 1 yard to the LSU17 (Bark. Mingo;Mi. Brockers)."></play>
+   <play context="V,4,2,H17" playid="8,12,70" type="F" score="Y" vscore="6" hscore="0" clock="04:18" tokens="FGA:90,34,G T:04:18"
+      text="Jeremy Shelley field goal attempt from 34 GOOD, clock 04:18."></play>
+   <score V="6" H="0"></score>
+   <drivesum plays="11" yards="58" top="6:12" driveindex="8" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="8,13,71" type="K" tokens="KO:43,H03 RET:17,H21 TACK:81"
+      text="Cade Foster kickoff 67 yards to the LSU3, Mo. Claiborne return 18 yards to the LSU21 (Hardie Buck)."></play>
+   <drivestart poss="H,H21,04:18" vh="H" spot="H21" clock="04:18" driveindex="9,71"></drivestart>
+   <play context="H,1,10,H21" playid="9,1,72" clock="04:18" tokens="{DRIVE}:04:18"
+      text="LSU drive start at 04:18."></play>
+   <play context="H,1,10,H21" playid="9,2,73" type="R" pcode="LE" tokens="RUSH:27,H23,LE TACK:49,35"
+      text="Kenny Hilliard rush over left end for 2 yards to the LSU23 (Ed Stinson;Nico Johnson)."></play>
+   <play context="H,2,8,H23" playid="9,3,74" type="R" pcode="RE" tokens="RUSH:9,H26,RE TACK:49"
+      text="Jo. Jefferson rush over right end for 3 yards to the LSU26 (Ed Stinson)."></play>
+   <play context="H,3,5,H26" playid="9,4,75" type="#" clock="02:44" form="GUN" tokens="FORM:GUN TOUT:H T:02:44"
+      text="[GUN], timeout LSU, clock 02:44."></play>
+   <play context="H,3,5,H26" playid="9,5,76" type="R" pcode="UM" form="GUN" tokens="FORM:GUN RUSH:9,H19,UM FUMB:H,H19,9 +:9,H28 TACK:41"
+      text="[GUN], Jo. Jefferson rush UM for loss of 7 yards to the LSU19, fumble by Jo. Jefferson recovered by LSU Jo. Jefferson at LSU19, Jo. Jefferson for 9 yards to the LSU28 (Courtney Upshaw)."></play>
+   <play context="H,4,3,H28" playid="9,6,77" type="U" tokens="PUNT:38,V24 FC:22"
+      text="Brad Wing punt 48 yards to the UA24, fair catch by Christion Jones."></play>
+   <drivesum plays="3" yards="7" top="2:19" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="V,V24,01:59" vh="V" spot="V24" clock="01:59" driveindex="10,77"></drivestart>
+   <play context="V,1,10,V24" playid="10,1,78" clock="01:59" tokens="{DRIVE}:01:59"
+      text="ALABAMA drive start at 01:59."></play>
+   <play context="V,1,10,V24" playid="10,2,79" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,3,V30 TACK:46,93"
+      text="[GUN], AJ McCarron pass complete to T. Richardson for 6 yards to the UA30 (Kevin Minter;Bennie Logan)."></play>
+   <play context="V,2,4,V30" playid="10,3,80" type="R" pcode="RG" form="GUN" tokens="FORM:GUN RUSH:3,V32,RG TACK:90"
+      text="[GUN], T. Richardson rush over right guard for 2 yards to the UA32 (Mi. Brockers)."></play>
+   <play context="V,3,2,V32" playid="10,4,81" type="R" pcode="LG" first="R" tokens="RUSH:3,V37,LG TACK:90"
+      text="T. Richardson rush over left guard for 5 yards to the UA37, 1ST DOWN UA (Mi. Brockers)."></play>
+   <play context="V,1,10,V37" playid="10,5,82" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,17,V35 TACK:18"
+      text="[GUN], AJ McCarron pass complete to Brad Smelley for loss of 2 yards to the UA35 (Brandon Taylor)."></play>
+   <play context="V,2,12,V35" playid="10,6,83" type="#" clock="00:37" tokens="TOUT:V T:00:37"
+      text="Timeout Alabama, clock 00:37."></play>
+   <play context="V,2,12,V35" playid="10,7,84" type="P" first="P" form="GUN" tokens="FORM:GUN PASS:10,C,83,H45 TACK:24"
+      text="[GUN], AJ McCarron pass complete to Kevin Norwood for 20 yards to the LSU45, 1ST DOWN UA (Tharold Simon)."></play>
+   <play context="V,1,10,H45" playid="10,8,85" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,89,H41 TACK:24"
+      text="[GUN], AJ McCarron pass complete to M. Williams for 4 yards to the LSU41 (Tharold Simon)."></play>
+   <play context="V,2,6,H41" playid="10,9,86" type="#" clock="00:21" tokens="TOUT:V T:00:21"
+      text="Timeout Alabama, clock 00:21."></play>
+   <play context="V,2,6,H41" playid="10,10,87" type="P" first="P" form="GUN" tokens="FORM:GUN PASS:10,C,83,H33 OB:"
+      text="[GUN], AJ McCarron pass complete to Kevin Norwood for 8 yards to the LSU33, 1ST DOWN UA, out-of-bounds."></play>
+   <play context="V,1,10,H33" playid="10,11,88" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,15,H24 TACK:7"
+      text="[GUN], AJ McCarron pass complete to Darius Hanks for 9 yards to the LSU24 (Tyrann Mathieu)."></play>
+   <play context="V,2,1,H24" playid="10,12,89" type="#" clock="00:04" tokens="TOUT:V T:00:04"
+      text="Timeout Alabama, clock 00:04."></play>
+   <play context="V,2,1,H24" playid="10,13,90" type="F" score="Y" vscore="9" hscore="0" clock="00:00" tokens="FGA:90,41,G T:00:00"
+      text="Jeremy Shelley field goal attempt from 41 GOOD, clock 00:00."></play>
+   <score V="9" H="0"></score>
+   <play context="V,1,0,V30" playid="10,14,91" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="9" yards="52" top="1:59" driveindex="10" complete="Y"></drivesum>
+   <score qtr="2" V="9" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="7" rush="3" pass="4" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="11:14"></misc>
+    <rush att="11" yds="55" gain="58" loss="3" td="0" long="15"></rush>
+    <pass comp="10" att="14" int="0" yds="68" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="10" yds="68" td="0" long="0"></rcv>
+    <ko no="1" yds="67" ob="0" tb="0"></ko>
+    <fg made="2" att="3" long="18" blkd="1"></fg>
+    <defense tackua="4" tacka="4" sacks="0" sackyds="0"></defense>
+    <scoring fg="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LSU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="03:46"></misc>
+    <rush att="3" yds="7" gain="14" loss="7" td="0" long="0"></rush>
+    <pass comp="2" att="3" int="0" yds="8" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="8" td="0" long="0"></rcv>
+    <punt no="2" yds="95" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="0"></punt>
+    <defense tackua="16" tacka="8" tflua="3" tfla="2" tflyds="5" sacks="0" sackyds="0" brup="2" blkd="1"></defense>
+    <kr no="1" yds="18" td="0" long="0"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <comment text="Alabama will receive to start the second half; LSU will kick off and"></comment>
+   <comment text="defend the North goal."></comment>
+   <play context="V,1,0,V30" playid="10,15,92" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:H,H30,N"
+      text="Start of 3rd quarter, clock 15:00, LSU ball on LSU30."></play>
+   <play context="H,1,0,H30" playid="10,16,95" type="K" tokens="KO:3H,V00 RET:22,V32 TACK:10"
+      text="James Hairston kickoff 70 yards to the UA0, Christion Jones return 32 yards to the UA32 (Russell Shepard)."></play>
+   <drivestart poss="V,V32,15:00" vh="V" spot="V32" clock="15:00" driveindex="11,95"></drivestart>
+   <play context="V,1,10,V32" playid="11,1,96" clock="15:00" tokens="{DRIVE}:15:00"
+      text="ALABAMA drive start at 15:00."></play>
+   <play context="V,1,10,V32" playid="11,2,97" type="P" first="P" form="GUN" tokens="FORM:GUN PASS:10,C,15,H49 OB: TACK:7"
+      text="[GUN], AJ McCarron pass complete to Darius Hanks for 19 yards to the LSU49, 1ST DOWN UA, out-of-bounds (Tyrann Mathieu)."></play>
+   <play context="V,1,10,H49" playid="11,3,98" type="P" first="P" form="GUN" tokens="FORM:GUN PASS:10,C,7,H23 OB: TACK:1"
+      text="[GUN], AJ McCarron pass complete to Kenny Bell for 26 yards to the LSU23, 1ST DOWN UA, out-of-bounds (Eric Reid)."></play>
+   <play context="V,1,10,H23" playid="11,4,99" type="R" pcode="RE" form="GUN" tokens="FORM:GUN RUSH:3,H23,RE TACK:1,99"
+      text="[GUN], T. Richardson rush over right end for no gain to the LSU23 (Eric Reid;Sam Montgomery)."></play>
+   <play context="V,2,10,H23" playid="11,5,100" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,15,H18 TACK:46"
+      text="[GUN], AJ McCarron pass complete to Darius Hanks for 5 yards to the LSU18 (Kevin Minter)."></play>
+   <play context="V,3,5,H18" playid="11,6,101" type="P" form="GUN" tokens="FORM:GUN PASS:10,I,83,*"
+      text="[GUN], AJ McCarron pass incomplete to Kevin Norwood."></play>
+   <play context="V,4,5,H18" playid="11,7,102" type="F" score="Y" vscore="12" hscore="0" clock="12:49" tokens="FGA:90,35,G T:12:49"
+      text="Jeremy Shelley field goal attempt from 35 GOOD, clock 12:49."></play>
+   <score V="12" H="0"></score>
+   <drivesum plays="6" yards="50" top="2:11" driveindex="11" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="11,8,103" type="K" tokens="KO:43,H00 RET:17,H24 TACK:35"
+      text="Cade Foster kickoff 70 yards to the LSU0, Mo. Claiborne return 24 yards to the LSU24 (Nico Johnson)."></play>
+   <drivestart poss="H,H24,12:49" vh="H" spot="H24" clock="12:49" driveindex="12,103"></drivestart>
+   <play context="H,1,10,H24" playid="12,1,104" clock="12:49" tokens="{DRIVE}:12:49"
+      text="LSU drive start at 12:49."></play>
+   <play context="H,1,10,H24" playid="12,2,105" type="P" tokens="PASS:9,I,33,*"
+      text="Jo. Jefferson pass incomplete to Odell Beckham."></play>
+   <play context="H,2,10,H24" playid="12,3,106" type="P" first="P" tokens="PASS:9,C,33,H43 OB: TACK:37"
+      text="Jo. Jefferson pass complete to Odell Beckham for 19 yards to the LSU43, 1ST DOWN LSU, out-of-bounds (Robert Lester)."></play>
+   <play context="H,1,10,H43" playid="12,4,107" type="R" pcode="LG" tokens="RUSH:11,H45,LG TACK:58"
+      text="Spencer Ware rush over left guard for 2 yards to the LSU45 (Nick Gentry)."></play>
+   <play context="H,2,8,H45" playid="12,5,108" type="P" form="GUN" tokens="FORM:GUN PASS:9,S,TM,H40 SACK:41"
+      text="[GUN], Jo. Jefferson sacked for loss of 5 yards to the LSU40 (Courtney Upshaw)."></play>
+   <play context="H,3,13,H40" playid="12,6,109" type="R" pcode="RE" form="GUN" tokens="FORM:GUN RUSH:9,H47,RE OB: TACK:24"
+      text="[GUN], Jo. Jefferson rush over right end for 7 yards to the LSU47, out-of-bounds (DeQuan Menzie)."></play>
+   <play context="H,4,6,H47" playid="12,7,110" type="U" tokens="PUNT:38,V10 FC:22 PEN:H,PF,A,13,V25,N D:1,10 SPOT:V,V25,Y"
+      text="Brad Wing punt 43 yards to the UA10, fair catch by Christion Jones, PENALTY LSU personal foul (Ron Brooks) 15 yards to the UA25, 1st and 10, UA ball on UA25."></play>
+   <drivesum plays="5" yards="23" top="2:45" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V25,10:04" vh="V" spot="V25" clock="10:04" driveindex="13,110"></drivestart>
+   <play context="V,1,10,V25" playid="13,1,111" clock="10:04" tokens="{DRIVE}:10:04"
+      text="ALABAMA drive start at 10:04."></play>
+   <play context="V,1,10,V25" playid="13,2,112" type="P" first="P" form="GUN" tokens="FORM:GUN PASS:10,C,83,V49 TACK:18"
+      text="[GUN], AJ McCarron pass complete to Kevin Norwood for 24 yards to the UA49, 1ST DOWN UA (Brandon Taylor)."></play>
+   <play context="V,1,10,V49" playid="13,3,113" type="P" tokens="PASS:10,I,15,*"
+      text="AJ McCarron pass incomplete to Darius Hanks."></play>
+   <play context="V,2,10,V49" playid="13,4,114" type="R" pcode="RE" form="GUN" tokens="FORM:GUN RUSH:3,V48,RE TACK:93,99"
+      text="[GUN], T. Richardson rush over right end for loss of 1 yard to the UA48 (Bennie Logan;Sam Montgomery)."></play>
+   <play context="V,3,11,V48" playid="13,5,115" type="P" form="GUN" tokens="FORM:GUN PASS:10,C,17,H48 TACK:13"
+      text="[GUN], AJ McCarron pass complete to Brad Smelley for 4 yards to the LSU48 (Ron Brooks)."></play>
+   <play context="V,4,7,H48" playid="13,6,116" type="U" tokens="PUNT:2F,H00 TB:"
+      text="Cody Mandell punt 48 yards to the LSU0, touchback."></play>
+   <drivesum plays="4" yards="27" top="2:16" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H20,07:48" vh="H" spot="H20" clock="07:48" driveindex="14,116"></drivestart>
+   <play context="H,1,10,H20" playid="14,1,117" clock="07:48" tokens="{DRIVE}:07:48"
+      text="LSU drive start at 07:48."></play>
+   <play context="H,1,10,H20" playid="14,2,118" type="R" pcode="RE" tokens="RUSH:42,H19,RE TACK:5"
+      text="Michael Ford rush over right end for loss of 1 yard to the LSU19 (Jerrell Harris)."></play>
+   <play context="H,2,11,H19" playid="14,3,119" type="P" turnover="I" tokens="PASS:9,X,32,H28 RET:32,H27 TACK:9"
+      text="Jo. Jefferson pass intercepted by C.J. Mosley at the LSU28, C.J. Mosley return 1 yards to the LSU27 (Jo. Jefferson)."></play>
+   <drivesum plays="2" yards="-1" top="0:49" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,H27,06:59" vh="V" spot="H27" clock="06:59" driveindex="15,119"></drivestart>
+   <play context="V,1,10,H27" playid="15,1,120" clock="06:59" tokens="{DRIVE}:06:59"
+      text="ALABAMA drive start at 06:59."></play>
+   <play context="V,1,10,H27" playid="15,2,121" type="R" pcode="RG" tokens="RUSH:3,H29,RG TACK:58"
+      text="T. Richardson rush over right guard for loss of 2 yards to the LSU29 (Tahj Jones)."></play>
+   <play context="V,2,12,H29" playid="15,3,122" type="R" pcode="LE" tokens="RUSH:3,H23,LE OB: TACK:18"
+      text="T. Richardson rush over left end for 6 yards to the LSU23, out-of-bounds (Brandon Taylor)."></play>
+   <play context="V,3,6,H23" playid="15,4,123" type="P" form="GUN" tokens="FORM:GUN PASS:10,I,7,*"
+      text="[GUN], AJ McCarron pass incomplete to Kenny Bell."></play>
+   <play context="V,4,6,H23" playid="15,5,124" type="F" clock="05:38" tokens="FGA:90,41,M,H24,R T:05:38"
+      text="Jeremy Shelley field goal attempt from 41 MISSED - wide right, spot at LSU24, clock 05:38."></play>
+   <drivesum plays="4" yards="4" top="1:21" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H24,05:38" vh="H" spot="H24" clock="05:38" driveindex="16,124"></drivestart>
+   <play context="H,1,10,H24" playid="16,1,125" clock="05:38" tokens="{DRIVE}:05:38"
+      text="LSU drive start at 05:38."></play>
+   <play context="H,1,10,H24" playid="16,2,126" type="P" tokens="PASS:9,C,33,H28 TACK:5"
+      text="Jo. Jefferson pass complete to Odell Beckham for 4 yards to the LSU28 (Jerrell Harris)."></play>
+   <play context="H,2,6,H28" playid="16,3,127" type="P" form="GUN" tokens="FORM:GUN PASS:9,C,2,H27 TACK:21,37"
+      text="[GUN], Jo. Jefferson pass complete to Rueben Randle for loss of 1 yard to the LSU27 (Dre Kirkpatrick;Robert Lester)."></play>
+   <play context="H,3,7,H27" playid="16,4,128" type="P" form="GUN" tokens="FORM:GUN PASS:9,S,TM,H18 SACK:58"
+      text="[GUN], Jo. Jefferson sacked for loss of 9 yards to the LSU18 (Nick Gentry)."></play>
+   <play context="H,4,16,H18" playid="16,5,129" type="U" tokens="PUNT:38,V38 RET:22,H47 TACK:52"
+      text="Brad Wing punt 44 yards to the UA38, Christion Jones return 15 yards to the LSU47 (Luke Muncie)."></play>
+   <drivesum plays="3" yards="-6" top="2:15" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,H47,03:23" vh="V" spot="H47" clock="03:23" driveindex="17,129"></drivestart>
+   <play context="V,1,10,H47" playid="17,1,130" clock="03:23" tokens="{DRIVE}:03:23"
+      text="ALABAMA drive start at 03:23."></play>
+   <play context="V,1,10,H47" playid="17,2,131" type="R" pcode="LG" first="R" tokens="RUSH:42,H36,LG TACK:1"
+      text="Eddie Lacy rush over left guard for 11 yards to the LSU36, 1ST DOWN UA (Eric Reid)."></play>
+   <play context="V,1,10,H36" playid="17,3,132" type="R" pcode="LG" first="R" tokens="RUSH:42,H25,LG TACK:22,58"
+      text="Eddie Lacy rush over left guard for 11 yards to the LSU25, 1ST DOWN UA (Ryan Baker;Tahj Jones)."></play>
+   <play context="V,1,10,H25" playid="17,4,133" type="R" pcode="LE" form="GUN" tokens="FORM:GUN RUSH:42,H25,LE TACK:1,49"
+      text="[GUN], Eddie Lacy rush over left end for no gain to the LSU25 (Eric Reid;Bark. Mingo)."></play>
+   <play context="V,2,10,H25" playid="17,5,134" type="P" tokens="PASS:10,B,11,* BRUP:1"
+      text="AJ McCarron pass incomplete to Brandon Gibson (Eric Reid)."></play>
+   <play context="V,3,10,H25" playid="17,6,135" type="#" clock="01:15" tokens="TOUT:V T:01:15"
+      text="Timeout Alabama, clock 01:15."></play>
+   <play context="V,3,10,H25" playid="17,7,136" type="P" form="GUN" tokens="FORM:GUN PASS:10,S,TM,H27 SACK:93"
+      text="[GUN], AJ McCarron sacked for loss of 2 yards to the LSU27 (Bennie Logan)."></play>
+   <play context="V,4,12,H27" playid="17,8,137" type="F" score="Y" vscore="15" hscore="0" clock="00:22" tokens="FGA:90,44,G T:00:22"
+      text="Jeremy Shelley field goal attempt from 44 GOOD, clock 00:22."></play>
+   <score V="15" H="0"></score>
+   <drivesum plays="6" yards="20" top="3:01" driveindex="17" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="17,9,138" type="K" tokens="KO:43,H00 RET:17,H22 TACK:28"
+      text="Cade Foster kickoff 70 yards to the LSU0, Mo. Claiborne return 22 yards to the LSU22 (D. Milliner)."></play>
+   <drivestart poss="H,H22,00:22" vh="H" spot="H22" clock="00:22" driveindex="18,138"></drivestart>
+   <play context="H,1,10,H22" playid="18,1,139" clock="00:22" tokens="{DRIVE}:00:22"
+      text="LSU drive start at 00:22."></play>
+   <play context="H,1,10,H22" playid="18,2,140" type="P" tokens="PASS:9,C,19,H29 TACK:30"
+      text="Jo. Jefferson pass complete to De. Peterson for 7 yards to the LSU29 (D. Hightower)."></play>
+   <score qtr="3" V="15" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="5" rush="2" pass="3" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:49"></misc>
+    <rush att="8" yds="23" gain="28" loss="5" td="0" long="0"></rush>
+    <pass comp="5" att="9" int="0" yds="78" td="0" long="0" sacks="1" sackyds="2"></pass>
+    <rcv no="5" yds="78" td="0" long="0"></rcv>
+    <punt no="1" yds="48" long="15" blkd="0" tb="1" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="140" ob="0" tb="0"></ko>
+    <fg made="2" att="3" long="3" blkd="0"></fg>
+    <defense tackua="10" tacka="2" tflua="3" tfla="2" tflyds="16" sacks="2" sackyds="14" int="1" intyds="1"></defense>
+    <kr no="1" yds="32" td="0" long="32"></kr>
+    <pr no="1" yds="15" td="0" long="0"></pr>
+    <ir no="1" yds="1" td="0" long="1"></ir>
+    <scoring fg="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LSU">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:11"></misc>
+    <rush att="5" yds="-6" gain="9" loss="15" td="0" long="1"></rush>
+    <pass comp="4" att="6" int="1" yds="29" td="0" long="11" sacks="2" sackyds="14"></pass>
+    <rcv no="4" yds="29" td="0" long="11"></rcv>
+    <punt no="2" yds="87" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="70" ob="0" tb="0"></ko>
+    <defense tackua="12" tacka="8" tflua="2" tfla="2" tflyds="5" sacks="1" sackyds="2" brup="1"></defense>
+    <kr no="2" yds="46" td="0" long="0"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,2,3,H29" playid="18,3,141" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00."></play>
+   <play context="H,2,3,H29" playid="18,4,142" type="R" pcode="RT" tokens="RUSH:27,H31,RT TACK:99"
+      text="Kenny Hilliard rush over right tackle for 2 yards to the LSU31 (Josh Chapman)."></play>
+   <play context="H,3,1,H31" playid="18,5,143" type="R" pcode="RG" first="R" tokens="RUSH:27,H33,RG TACK:30"
+      text="Kenny Hilliard rush over right guard for 2 yards to the LSU33, 1ST DOWN LSU (D. Hightower)."></play>
+   <play context="H,1,10,H33" playid="18,6,144" type="R" pcode="LG" form="GUN" tokens="FORM:GUN RUSH:42,H36,LG TACK:92"
+      text="[GUN], Michael Ford rush over left guard for 3 yards to the LSU36 (Damion Square)."></play>
+   <play context="H,2,7,H36" playid="18,7,145" type="R" pcode="RE" form="RUN" tokens="FORM:RUN RUSH:9,H39,RE OB: TACK:5"
+      text="[RUN], Jo. Jefferson rush over right end for 3 yards to the LSU39, out-of-bounds (Jerrell Harris)."></play>
+   <play context="H,3,4,H39" playid="18,8,146" type="R" pcode="RT" tokens="RUSH:44,H39,RT TACK:58"
+      text="J.C. Copeland rush over right tackle for no gain to the LSU39 (Nick Gentry)."></play>
+   <play context="H,4,4,H39" playid="18,9,147" type="U" tokens="PUNT:38,V17 OB:"
+      text="Brad Wing punt 44 yards to the UA17, out-of-bounds."></play>
+   <drivesum plays="6" yards="17" top="3:15" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="V,V17,12:07" vh="V" spot="V17" clock="12:07" driveindex="19,147"></drivestart>
+   <play context="V,1,10,V17" playid="19,1,148" clock="12:07" tokens="{DRIVE}:12:07"
+      text="ALABAMA drive start at 12:07."></play>
+   <play context="V,1,10,V17" playid="19,2,149" type="R" pcode="LG" tokens="RUSH:3,V20,LG TACK:22,93"
+      text="T. Richardson rush over left guard for 3 yards to the UA20 (Ryan Baker;Bennie Logan)."></play>
+   <play context="V,2,7,V20" playid="19,3,150" type="R" pcode="LE" tokens="RUSH:3,V21,LE TACK:49"
+      text="T. Richardson rush over left end for 1 yard to the UA21 (Bark. Mingo)."></play>
+   <play context="V,3,6,V21" playid="19,4,151" type="P" form="GUN" tokens="FORM:GUN PASS:10,S,TM,V14 SACK:46"
+      text="[GUN], AJ McCarron sacked for loss of 7 yards to the UA14 (Kevin Minter)."></play>
+   <play context="V,4,13,V14" playid="19,5,152" type="U" tokens="PUNT:2F,H34 RET:7,H35 TACK:5"
+      text="Cody Mandell punt 52 yards to the LSU34, Tyrann Mathieu return 1 yards to the LSU35 (Jerrell Harris)."></play>
+   <drivesum plays="3" yards="-3" top="2:23" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H35,09:44" vh="H" spot="H35" clock="09:44" driveindex="20,152"></drivestart>
+   <play context="H,1,10,H35" playid="20,1,153" clock="09:44" tokens="{DRIVE}:09:44"
+      text="LSU drive start at 09:44."></play>
+   <play context="H,1,10,H35" playid="20,2,154" type="R" pcode="RT" tokens="RUSH:11,H40,RT TACK:90"
+      text="Spencer Ware rush over right tackle for 5 yards to the LSU40 (Jeremy Shelley)."></play>
+   <play context="H,2,5,H40" playid="20,3,155" type="R" pcode="UM" form="GUN" tokens="FORM:GUN RUSH:9,H43,UM TACK:33"
+      text="[GUN], Jo. Jefferson rush UM for 3 yards to the LSU43 (Trey Depriest)."></play>
+   <play context="H,3,2,H43" playid="20,4,156" type="R" pcode="LG" first="R" tokens="RUSH:27,V50,LG TACK:41,54"
+      text="Kenny Hilliard rush over left guard for 7 yards to the 50 yardline, 1ST DOWN LSU (Courtney Upshaw;Jesse Williams)."></play>
+   <play context="H,1,10,H50" playid="20,5,157" type="R" pcode="LG" first="R" tokens="RUSH:9,V32,LG TACK:5,4A"
+      text="Jo. Jefferson rush over left guard for 18 yards to the UA32, 1ST DOWN LSU (Jerrell Harris;Mark Barron)."></play>
+   <play context="H,1,10,V32" playid="20,6,158" type="R" pcode="LE" tokens="RUSH:42,V35,LE OB: TACK:24"
+      text="Michael Ford rush over left end for loss of 3 yards to the UA35, out-of-bounds (DeQuan Menzie)."></play>
+   <play context="H,2,13,V35" playid="20,7,159" type="E" tokens="PEN:H,FS,A,76,V40,N"
+      text="PENALTY LSU false start (Chris Faulk) 5 yards to the UA40."></play>
+   <play context="H,2,18,V40" playid="20,8,160" type="P" form="GUN" tokens="FORM:GUN PASS:9,I,11,*"
+      text="[GUN], Jo. Jefferson pass incomplete to Spencer Ware."></play>
+   <play context="H,3,18,V40" playid="20,9,161" type="P" form="GUN" tokens="FORM:GUN PASS:9,B,80,* BRUP:3A"
+      text="[GUN], Jo. Jefferson pass incomplete to Jarvis Landry (Vinnie Sunseri)."></play>
+   <play context="H,4,18,V40" playid="20,10,162" type="P" turnover="F" form="GUN" tokens="FORM:GUN PASS:9,F,TM,V50 SACK:30 FUMB:V,V50,58 +:58,V50 TACK:9"
+      text="[GUN], Jo. Jefferson sacked for loss of 10 yards to the 50 yardline (D. Hightower), fumble by Jo. Jefferson recovered by UA Nick Gentry at 50 yardline, Nick Gentry for no gain to the 50 yardline (Jo. Jefferson)."></play>
+   <drivesum plays="8" yards="15" top="3:29" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="V,V50,06:15" vh="V" spot="V50" clock="06:15" driveindex="21,162"></drivestart>
+   <play context="V,1,10,V50" playid="21,1,163" clock="06:15" tokens="{DRIVE}:06:15"
+      text="ALABAMA drive start at 06:15."></play>
+   <play context="V,1,10,V50" playid="21,2,164" type="R" pcode="LG" tokens="RUSH:3,H48,LG TACK:90,58"
+      text="T. Richardson rush over left guard for 2 yards to the LSU48 (Mi. Brockers;Tahj Jones)."></play>
+   <play context="V,2,8,H48" playid="21,3,165" type="#" clock="06:10" tokens="TOUT:H T:06:10"
+      text="Timeout LSU, clock 06:10."></play>
+   <play context="V,2,8,H48" playid="21,4,166" type="R" pcode="LE" first="R" tokens="RUSH:10,H35,LE TACK:1"
+      text="AJ McCarron rush over left end for 13 yards to the LSU35, 1ST DOWN UA (Eric Reid)."></play>
+   <play context="V,1,10,H35" playid="21,5,167" type="R" pcode="LE" tokens="RUSH:3,H34,LE TACK:1"
+      text="T. Richardson rush over left end for 1 yard to the LSU34 (Eric Reid)."></play>
+   <play context="V,2,9,H34" playid="21,6,168" type="R" pcode="LE" first="R" score="Y" vscore="21" hscore="0" clock="04:36" tokens="RUSH:3,H00,LE T:04:36"
+      text="T. Richardson rush over left end for 34 yards to the LSU0, 1ST DOWN UA, TOUCHDOWN, clock 04:36."></play>
+   <play context="V,1,0,H03" playid="21,7,169" type="X" tokens="PAT:K,90,M"
+      text="Jeremy Shelley kick attempt failed."></play>
+   <score V="21" H="0"></score>
+   <drivesum plays="4" yards="50" top="1:39" driveindex="21" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="21,8,170" type="K" tokens="KO:43,H07 RET:13,H23 TACK:20"
+      text="Cade Foster kickoff 63 yards to the LSU7, Ron Brooks return 16 yards to the LSU23 (J. Williams)."></play>
+   <drivestart poss="H,H23,04:36" vh="H" spot="H23" clock="04:36" driveindex="22,170"></drivestart>
+   <play context="H,1,10,H23" playid="22,1,171" clock="04:36" tokens="{DRIVE}:04:36"
+      text="LSU drive start at 04:36."></play>
+   <play context="H,1,10,H23" playid="22,2,172" type="P" form="GUN" tokens="FORM:GUN PASS:9,I,19,*"
+      text="[GUN], Jo. Jefferson pass incomplete to De. Peterson."></play>
+   <play context="H,2,10,H23" playid="22,3,173" type="P" form="GUN" tokens="FORM:GUN PASS:9,C,11,H21 TACK:30,21"
+      text="[GUN], Jo. Jefferson pass complete to Spencer Ware for loss of 2 yards to the LSU21 (D. Hightower;Dre Kirkpatrick)."></play>
+   <play context="H,3,12,H21" playid="22,4,174" type="P" form="GUN" tokens="FORM:GUN PASS:9,S,TM,H19 SACK:4A"
+      text="[GUN], Jo. Jefferson sacked for loss of 2 yards to the LSU19 (Mark Barron)."></play>
+   <play context="H,4,14,H19" playid="22,5,175" type="E" tokens="PUNT:38,V46 OB: PEN:V,OD,A,TM,H24,N NOPLAY:"
+      text="Brad Wing punt 35 yards to the UA46, out-of-bounds, PENALTY UA offside defense 5 yards to the LSU24, NO PLAY."></play>
+   <play context="H,4,9,H24" playid="22,6,176" type="U" tokens="PUNT:38,V49 OB:"
+      text="Brad Wing punt 27 yards to the UA49, out-of-bounds."></play>
+   <drivesum plays="3" yards="1" top="1:49" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,V49,02:47" vh="V" spot="V49" clock="02:47" driveindex="23,176"></drivestart>
+   <play context="V,1,10,V49" playid="23,1,177" clock="02:47" tokens="{DRIVE}:02:47"
+      text="ALABAMA drive start at 02:47."></play>
+   <play context="V,1,10,V49" playid="23,2,178" type="R" pcode="RE" tokens="RUSH:42,H47,RE TACK:1"
+      text="Eddie Lacy rush over right end for 4 yards to the LSU47 (Eric Reid)."></play>
+   <play context="V,2,6,H47" playid="23,3,179" type="R" pcode="RG" tokens="RUSH:42,H46,RG TACK:90"
+      text="Eddie Lacy rush over right guard for 1 yard to the LSU46 (Mi. Brockers)."></play>
+   <play context="V,3,5,H46" playid="23,4,180" type="R" pcode="LE" tokens="RUSH:42,H43,LE TACK:99,90"
+      text="Eddie Lacy rush over left end for 3 yards to the LSU43 (Sam Montgomery;Mi. Brockers)."></play>
+   <play context="V,4,2,H43" playid="23,5,181" type="R" pcode="RG" first="R" tokens="RUSH:42,H40,RG TACK:44"
+      text="Eddie Lacy rush over right guard for 3 yards to the LSU40, 1ST DOWN UA (J.C. Copeland)."></play>
+   <play context="V,1,10,H40" playid="23,6,182" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="4" yards="11" top="2:47" driveindex="23" complete="Y"></drivesum>
+   <score final="Y" V="21" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:49"></misc>
+    <rush att="11" yds="58" gain="65" loss="7" td="1" long="14"></rush>
+    <pass comp="0" att="0" int="0" yds="0" td="0" long="0" sacks="1" sackyds="7"></pass>
+    <punt no="1" yds="52" long="4" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <ko no="1" yds="63" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="12" tacka="6" tflua="3" tfla="2" tflyds="17" sacks="2" sackyds="12" brup="1" ff="1" fr="1" fryds="0"></defense>
+    <fr no="1" yds="0" td="0" long="0"></fr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LSU">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="08:11"></misc>
+    <rush att="12" yds="28" gain="43" loss="15" td="0" long="11"></rush>
+    <pass comp="1" att="4" int="0" yds="-2" td="0" long="0" sacks="2" sackyds="12"></pass>
+    <rcv no="1" yds="-2" td="0" long="0"></rcv>
+    <punt no="2" yds="71" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <defense tackua="8" tacka="6" tflua="1" tfla="0" tflyds="7" sacks="1" sackyds="7"></defense>
+    <kr no="1" yds="16" td="0" long="0"></kr>
+    <pr no="1" yds="1" td="0" long="1"></pr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,1,10,H40" qtr="4" clock="00:00" vtoh="1" htoh="1"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="UA">
+  <player name="Nate Carlson" checkname="CARLSON,NATE" uni="2B" class="JR" gp="0" code="2B"></player>
+  <player name="Brent Calloway" checkname="CALLOWAY,BRENT" uni="2G" class="FR" gp="0" code="2G"></player>
+  <player name="Ben Howell" checkname="HOWELL,BEN" uni="3E" class="JR" gp="0" code="3E"></player>
+  <player name="Kelly Johnson" checkname="JOHNSON,KELLY" uni="3D" class="SR" gp="0" code="3D"></player>
+  <player name="Ranzell Watkins" checkname="WATKINS,RANZELL" uni="1B" class="SO" gp="0" code="1B"></player>
+  <player name="LaMichael Fanning" checkname="FANNING,L" uni="4C" class="FR" gp="0" code="4C"></player>
+  <player name="William Strickland" checkname="STRICKLAND,W" uni="4E" class="SR" gp="0" code="4E"></player>
+  <player name="Ronald Carswell" checkname="CARSWELL,RONALD" uni="5A" class="FR" gp="0" code="5A"></player>
+  <player name="Blake Sims" checkname="SIMS,BLAKE" uni="6" class="FR" gp="0" code="6"></player>
+  <player name="Jeoffrey Pagan" checkname="PAGAN,JEOFFREY" uni="8A" class="FR" gp="0" code="8A"></player>
+  <player name="Phelon Jones" checkname="JONES,PHELON" uni="9" class="SR" gp="0" code="9"></player>
+  <player name="John Fulton" checkname="FULTON,JOHN" uni="1A" class="SO" gp="0" code="1A"></player>
+  <player name="Phillip Ely" checkname="ELY,PHILLIP" uni="12" class="FR" gp="0" code="12"></player>
+  <player name="Phillip Sims" checkname="SIMS,PHILLIP" uni="14" class="FR" gp="0" code="14"></player>
+  <player name="Nathan McAlister" checkname="MCALISTER,N" uni="2D" class="SO" gp="0" code="2D"></player>
+  <player name="Bradley Sylve" checkname="SYLVE,BRADLEY" uni="16" class="FR" gp="0" code="16"></player>
+  <player name="Dee Hart" checkname="HART,DEE" uni="1" class="FR" gp="0" code="1"></player>
+  <player name="Jonathan Atchison" checkname="ATCHISON,J" uni="19" class="SO" gp="0" code="19"></player>
+  <player name="Danny Woodson, Jr." checkname="WOODSON,DANNY" uni="25" class="FR" gp="0" code="25"></player>
+  <player name="Jabriel Washington" checkname="WASHINGTON,J" uni="26" class="FR" gp="0" code="26"></player>
+  <player name="Nick Perry" checkname="PERRY,NICK" uni="27" class="SO" gp="0" code="27"></player>
+  <player name="Will Lowery" checkname="LOWERY,WILL" uni="29" class="JR" gp="0" code="29"></player>
+  <player name="DeMarcus DuBose" checkname="DUBOSE,DEMARCUS" uni="40" class="SR" gp="0" code="40"></player>
+  <player name="Morgan Ogilivie" checkname="OGILIVIE,MORGAN" uni="1D" class="JR" gp="0" code="1D"></player>
+  <player name="Jay Williams" checkname="WILLIAMS,JAY" uni="44" class="FR" gp="0" code="44"></player>
+  <player name="Wilson Whorton" checkname="WHORTON,WILSON" uni="46" class="FR" gp="0" code="46"></player>
+  <player name="Rowdy Harrell" checkname="HARRELL,ROWDY" uni="48" class="SR" gp="0" code="48"></player>
+  <player name="Wilson Love" checkname="LOVE,WILSON" uni="51" class="FR" gp="0" code="51"></player>
+  <player name="Anthony Orr" checkname="ORR,ANTHONY" uni="53" class="FR" gp="0" code="53"></player>
+  <player name="William Ming" checkname="MING,WILLIAM" uni="56" class="SO" gp="0" code="56"></player>
+  <player name="D.J. Pettway" checkname="PETTWAY,DJ" uni="57" class="FR" gp="0" code="57"></player>
+  <player name="Arie Kouandjio" checkname="KOUANDJIO,A" uni="59" class="FR" gp="0" code="59"></player>
+  <player name="Brandon Ivory" checkname="IVORY,BRANDON" uni="62" class="FR" gp="0" code="62"></player>
+  <player name="Kellen Williams" checkname="WILLIAMS,KELLEN" uni="63" class="SO" gp="0" code="63"></player>
+  <player name="John Michael Boswell" checkname="BOSWELL,J" uni="67" class="SR" gp="0" code="67"></player>
+  <player name="Issac Luatua" checkname="LUATUA,ISSAC" uni="68" class="FR" gp="0" code="68"></player>
+  <player name="Ryan Kelly" checkname="KELLY,RYAN" uni="70" class="FR" gp="0" code="70"></player>
+  <player name="Cyrus Kouandjio" checkname="KOUANDJIO,C" uni="71" class="FR" gp="0" code="71"></player>
+  <player name="Tyler Love" checkname="LOVE,TYLER" uni="72" class="JR" gp="0" code="72"></player>
+  <player name="Chad Lindsay" checkname="LINDSAY,CHAD" uni="78" class="FR" gp="0" code="78"></player>
+  <player name="Austin Shepherd" checkname="SHEPHERD,AUSTIN" uni="79" class="FR" gp="0" code="79"></player>
+  <player name="Marvin Shinn" checkname="SHINN,MARVIN" uni="80" class="FR" gp="0" code="80"></player>
+  <player name="Harrison Jones" checkname="JONES,HARRISON" uni="82" class="FR" gp="0" code="82"></player>
+  <player name="Brian Vogler" checkname="VOGLER,BRIAN" uni="84" class="FR" gp="0" code="84"></player>
+  <player name="Malcolm Faciane" checkname="FACIANE,MALCOLM" uni="85" class="FR" gp="0" code="85"></player>
+  <player name="Michael Bowman" checkname="BOWMAN,MICHAEL" uni="88" class="JR" gp="0" code="88"></player>
+  <player name="Tana Patrick" checkname="PATRICK,TANA" uni="2" class="SO" gp="0" code="2"></player>
+  <player name="Chris Bonds" checkname="BONDS,CHRIS" uni="93" class="SO" gp="0" code="93"></player>
+  <player name="Parker Stinnett" checkname="STINNETT,PARKER" uni="94" class="SR" gp="0" code="94"></player>
+  <player name="Brandon Lewis" checkname="LEWIS,BRANDON" uni="95" class="JR" gp="0" code="95"></player>
+ </dnp>
+ <dnp vh="H" id="LSU">
+  <player name="Austin Kinchen" checkname="KINCHEN,AUSTIN" uni="4I" class="SO" gp="0" code="4I"></player>
+  <player name="C. Neighbors" checkname="NEIGHBORS,C" uni="4C" class="SO" gp="0" code="4C"></player>
+  <player name="Jarrett Fobbs" checkname="FOBBS,JARRETT" uni="5" class="FR" gp="0" code="5"></player>
+  <player name="Z. Mettenberger" checkname="METTENBERGER,Z" uni="8" class="SO" gp="0" code="8"></player>
+  <player name="Jakhari Gore" checkname="GORE,JAKHARI" uni="3" class="FR" gp="0" code="3"></player>
+  <player name="Jarrett Lee" checkname="LEE,JARRETT" uni="12" class="SR" gp="0" code="12"></player>
+  <player name="Terrence Magee" checkname="MAGEE,TERRENCE" uni="14" class="FR" gp="0" code="14"></player>
+  <player name="Jerrard Randall" checkname="RANDALL,JERRARD" uni="15" class="FR" gp="0" code="15"></player>
+  <player name="Stephen Rivers" checkname="RIVERS,STEPHEN" uni="16" class="FR" gp="0" code="16"></player>
+  <player name="Paul Turner" checkname="TURNER,PAUL" uni="21" class="FR" gp="0" code="21"></player>
+  <player name="David Jenkins" checkname="JENKINS,DAVID" uni="25" class="FR" gp="0" code="25"></player>
+  <player name="Ronald Martin" checkname="MARTIN,RONALD" uni="26" class="FR" gp="0" code="26"></player>
+  <player name="Ronnie Vinson" checkname="VINSON,RONNIE" uni="28" class="FR" gp="0" code="28"></player>
+  <player name="Sam Gibson" checkname="GIBSON,SAM" uni="29" class="FR" gp="0" code="29"></player>
+  <player name="Drew Alleman" checkname="ALLEMAN,DREW" uni="30" class="JR" gp="0" code="30"></player>
+  <player name="D.J. Welter" checkname="WELTER,DJ" uni="31" class="FR" gp="0" code="31"></player>
+  <player name="Collins,Jalen" checkname="COLLINS,JALEN" uni="32" class="FR" gp="0" code="32"></player>
+  <player name="Micah Eugene" checkname="EUGENE,MICAH" uni="34" class="FR" gp="0" code="34"></player>
+  <player name="Derrick Bryant" checkname="BRYANT,DERRICK" uni="36" class="SR" gp="0" code="36"></player>
+  <player name="Travis Dickson" checkname="DICKSON,TRAVIS" uni="41" class="FR" gp="0" code="41"></player>
+  <player name="D.J. Howard" checkname="HOWARD,DJ" uni="3A" class="SR" gp="0" code="3A"></player>
+  <player name="Tyler Edwards" checkname="EDWARDS,TYLER" uni="47" class="JR" gp="0" code="47"></player>
+  <player name="Seth Fruge" checkname="FRUGE,SETH" uni="48" class="SO" gp="0" code="48"></player>
+  <player name="Trevon Randle" checkname="RANDLE,TREVON" uni="51" class="FR" gp="0" code="51"></player>
+  <player name="T-Bob Hebert" checkname="HEBERT,T-BOB" uni="53" class="SR" gp="0" code="53"></player>
+  <player name="Justin Maclin" checkname="MACLIN,JUSTIN" uni="54" class="SO" gp="0" code="54"></player>
+  <player name="J.Hardnett" checkname="HARDNETT,J" uni="55" class="SO" gp="0" code="55"></player>
+  <player name="Jermauria Rasco" checkname="RASCO,JERMAURIA" uni="59" class="FR" gp="0" code="59"></player>
+  <player name="Ben Domingue" checkname="DOMINGUE,BEN" uni="61" class="SO" gp="0" code="61"></player>
+  <player name="Trai Turner" checkname="TURNER,TRAI" uni="63" class="FR" gp="0" code="63"></player>
+  <player name="Elliott Porter" checkname="PORTER,ELLIOTT" uni="65" class="FR" gp="0" code="65"></player>
+  <player name="Corey White" checkname="WHITE,COREY" uni="67" class="FR" gp="0" code="67"></player>
+  <player name="Josh Dworaczyk" checkname="DWORACZYK,JOSH" uni="68" class="SR" gp="0" code="68"></player>
+  <player name="Alex Bonnette" checkname="BONNETTE,ALEX" uni="69" class="FR" gp="0" code="69"></player>
+  <player name="Evan Washington" checkname="WASHINGTON,EVAN" uni="70" class="FR" gp="0" code="70"></player>
+  <player name="Jonah Austin" checkname="AUSTIN,JONAH" uni="71" class="FR" gp="0" code="71"></player>
+  <player name="Chris Davenport" checkname="DAVENPORT,CHRIS" uni="73" class="SO" gp="0" code="73"></player>
+  <player name="Greg Shaw" checkname="SHAW,GREG" uni="75" class="SR" gp="0" code="75"></player>
+  <player name="La'el Collins" checkname="COLLINS,LA'EL" uni="78" class="FR" gp="0" code="78"></player>
+  <player name="Matt Branch" checkname="BRANCH,MATT" uni="79" class="JR" gp="0" code="79"></player>
+  <player name="Armand Williams" checkname="WILLIAMS,ARMAND" uni="81" class="FR" gp="0" code="81"></player>
+  <player name="Nic Jacobs" checkname="JACOBS,NIC" uni="84" class="FR" gp="0" code="84"></player>
+  <player name="Ch. Aghayere" checkname="AGHAYERE,CH" uni="87" class="JR" gp="0" code="87"></player>
+  <player name="Quentin Thomas" checkname="THOMAS,QUENTIN" uni="95" class="FR" gp="0" code="95"></player>
+  <player name="Dennis Johnson" checkname="JOHNSON,DENNIS" uni="97" class="SR" gp="0" code="97"></player>
+  <player name="Jordan Allen" checkname="ALLEN,JORDAN" uni="98" class="FR" gp="0" code="98"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

@@ -1,0 +1,91 @@
+<mat-card>
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort >
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text"></mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="tackles">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SOLO</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.tackles }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="assists">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">AST</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.assists }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="total">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TOT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.total }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="tfl">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TFL</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.tfl }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="tflYards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.tflYards }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="sacks">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SACKS</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.sacks }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="sackYards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.sackYards }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="dQbh">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">QBH</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.dQbh }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="dblkd">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">BLK</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.dblkd }}
+        </mat-cell>
+      </ng-container>
+      <ng-container *matHeaderRowDef="displayedColumns">
+        <div class="mat-header-row header-group-row">
+          <div class="mat-header-cell header-group-cell first-cell-column " role="columnheader">DEFENSE  </div>
+          <div class="mat-header-cell" role="columnheader"></div>
+           <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell header-group-cell" role="columnheader">TACKLES</div>
+          <div class="mat-header-cell border-right-cell" role="columnheader"></div>
+          
+          <div class="mat-header-cell header-group-cell border-right-cell" 
+          role="columnheader" [attr.colspan]="2" style="max-width: 100px">TFLS</div>
+          <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell header-group-cell" role="columnheader">SACKS</div>
+          <div class="mat-header-cell border-right-cell" role="columnheader"></div>
+          <div class="mat-header-cell" role="columnheader"></div>
+        </div>
+        <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      </ng-container>
+      <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''" (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+
+    </mat-table>
+  </div>
+</mat-card>

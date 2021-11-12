@@ -1,0 +1,47 @@
+<div class="row card"> 
+	<div class="col l2 m2 s2">
+	  <ul class="collection">
+	  	<li class="collection-item"><h4 style="font-size: 17px;font-weight: bold;">Statistics</h4></li>
+	  	<li class="collection-item">
+			<svg height="100" id="legendSvg">				
+				<circle cx="20" cy="15" fill="#bab6b6" r="10" stroke="#9e1b32" stroke-width="3"></circle>
+				<text fill="black" text-anchor="middle" x="80" y="20">Centriods</text>
+				<circle cx="20" cy="45" fill="#9e1b32" r="5" stroke="#f77e94" stroke-width="3"></circle>
+				<text fill="black" text-anchor="middle" x="73" y="50">Players</text>
+				<circle cx="20" cy="70" fill="#f77e94" r="5" stroke="#ffd740" stroke-width="3"></circle>
+				<text fill="black" text-anchor="middle" x="70" y="75">Active</text>
+				 <rect x="13" y="95" width="20" height="3" fill="#bab6b6" />
+                <text fill="black" text-anchor="middle" x="76" y="100">Distance</text>  
+			</svg> 
+        </li>         
+        <li class="collection-item">Total<span class="badge" data-badge-caption=""
+        	[ngStyle]="{'color': teamColor }">{{total.length}}</span></li>
+        <li class="collection-item">Best<span class="badge" data-badge-caption="" [ngStyle]="{'color': teamColor }">{{bestTot.length}}</span></li>
+        <li class="collection-item">Better<span class="badge" data-badge-caption="" [ngStyle]="{'color': teamColor }">{{betterTot.length}}</span></li>
+        <li class="collection-item">Good<span class="badge" data-badge-caption="" [ngStyle]="{'color':teamColor }">{{goodTot.length}}</span></li>              
+      </ul>
+
+	</div>
+	<div class="col l7 m7 s7" id="cluster-bubble" >
+	    <div id="clusterChart"></div>
+	</div>
+	<div class="col l3 m3 s3">
+		<ul class="collection with-header" *ngIf="showDetails">		
+		    <li class="collection-header"><h4 style="font-size: 17px;font-weight: bold;">{{player.name}}</h4></li>	
+		    <li class="collection-item">Group 
+		    <span class="badge">{{player.group}}</span>
+		   </li>			
+			<li class="collection-item">Tackles  <span class="badge">{{player.tackles}}</span></li>
+<li class="collection-item">Sacks  <span class="badge">{{player.sacks}}</span></li>
+<li class="collection-item">Tackle for loss  <span class="badge">{{player.tfl}}</span></li>
+<li class="collection-item">Break Ups  <span class="badge">{{player.breakUps}}</span></li>
+<li class="collection-item">Forced fumble  <span class="badge">{{player.statFF}}</span></li>
+<li class="collection-item">Fumble recovery  <span class="badge">{{player.statFR}}</span></li>
+<li class="collection-item">Interceptions  <span class="badge">{{player.statINT}}</span></li>
+<li class="collection-item">QBH  <span class="badge">{{player.statQBH}}</span></li>
+<li class="collection-item">Passes blocked  <span class="badge">{{player.statPB}}</span></li>
+<li class="collection-item">Games Played  <span class="badge">{{player.statGP}}</span></li>
+
+        </ul>
+	</div>
+</div>

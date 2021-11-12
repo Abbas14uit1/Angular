@@ -1,0 +1,104 @@
+<app-header [config]="headerConfig.normal"></app-header>
+<mat-card class="searchQuery">
+  <mat-card-content>
+    <h5>Frequently asked queries.</h5>
+    <input
+      placeholder="Start typing your search..."
+      type="text"
+      class="search-box validate white search-circle search-shadow valid"
+      [(ngModel)]="searchTerm"
+      (keydown.enter)="searchTermEnterKey()"
+    />
+  </mat-card-content>
+</mat-card>
+<mat-card
+  style="margin-left: 2rem; margin-top: 0.2rem; margin-right: 2rem;"
+  *ngIf="adhocQueriesList.length > 0"
+>
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let query of adhocFilteredQueriesList">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ query.queryDescription }}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="row">
+        <div *ngFor="let field of query.inputFields">
+          <label class="font1r col s2">{{ field.fieldDisplayName }}</label>
+          <mat-form-field
+            *ngIf="field.fieldType == 'List'"
+            class="col s2"
+            floatPlaceholder="never"
+          >
+            <mat-select placeholder="Select" [(ngModel)]="field.fieldValue">
+              <mat-option *ngFor="let fld of field.fieldData" [value]="fld">
+                {{ fld }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field
+            *ngIf="field.fieldType == 'dict'"
+            class="col s2"
+            floatPlaceholder="never"
+          >
+            <mat-select placeholder="Select" [(ngModel)]="field.fieldValue">
+              <mat-option
+                *ngFor="let fld of field.fieldData"
+                [value]="fld.name"
+              >
+                {{ fld.displayName }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <label
+            class="font1r col s2"
+            *ngIf="
+              field.fieldType == 'dict' &&
+              field.fieldValue &&
+              field.fieldValue != ''
+            "
+            >Statistics</label
+          >
+          <mat-form-field
+            *ngIf="
+              field.fieldType == 'dict' &&
+              field.fieldValue &&
+              field.fieldValue != ''
+            "
+            class="col s2"
+            floatPlaceholder="never"
+          >
+            <mat-select
+              placeholder="Select"
+              [(ngModel)]="field.allowedStatsValue"
+            >
+              <mat-option
+                *ngFor="
+                  let fld of getAllowedStats(field.fieldValue, field.fieldData)
+                "
+                [value]="fld"
+              >
+                {{ fld }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <div *ngIf="field.fieldType == 'string'" class="col s2">
+            <input
+              matInput
+              placeholder="{{ field.fieldDisplayName }}"
+              type="text"
+              [(ngModel)]="field.fieldValue"
+            />
+          </div>
+        </div>
+      </div>
+
+      <mat-action-row>
+        <button mat-button color="primary" (click)="getAdhocData(query)">
+          Submit
+        </button>
+      </mat-action-row>
+    </mat-expansion-panel>
+  </mat-accordion>
+</mat-card>

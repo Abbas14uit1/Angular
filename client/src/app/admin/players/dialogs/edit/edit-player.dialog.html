@@ -1,0 +1,96 @@
+<div class="row">
+  <h3 mat-dialog-title>{{data.name}}</h3>
+
+  <form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+    <div class="row">
+      <div class="col s2 l2 m2"> <label>Name</label></div>
+      <div class="col s10 l10 m10"><input class="form-control" placeholder="Name" [(ngModel)]="data.name" name="name"
+          required></div>
+    </div>
+    <div class="row">
+      <div class="col s2 l2 m2"> <label>Class</label></div>
+      <div class="col s10 l10 m10">
+        <mat-form-field>
+          <mat-select [(ngModel)]="data.classValue" [ngModelOptions]="{ standalone : true }">
+            <mat-option *ngFor="let pos of playerClass" [value]="pos">
+              {{pos}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="form" *ngIf="data.playerStats && data.sportCode == 'MFB'">
+      <table class="responsive-table">
+        <thead>
+          <tr class="row">
+            <th class="col l4 m4 s4 header">GAME DATE</th>
+            <th class="col l4 m4 s4 header">JERSEY #</th>
+            <th class="col l4 m4 s4 header">POS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let game of data.playerStats" class="row">
+            <td class="col l4 m4 s4" style="line-height:3;">
+              <span matTooltip="{{game.opponentName}}"><img id="logo"
+                  src="../../../assets/images/teams/{{game.opponentCode}}.png" alt=" "></span> &nbsp;&nbsp;
+              <span>
+                {{game.gameDate | utcdate:'ddd, MMM D'}}
+              </span>
+            </td>
+            <td class="col l4 m4 s4"><input class="form-control" placeholder="Jersey" [(ngModel)]="game.uniform"
+                name="game.uniform" [ngModelOptions]="{ standalone : true }"></td>
+            <td class="col l4 m4 s4">
+              <mat-form-field *ngIf="MFBPos">
+                <mat-select [(ngModel)]="game.position" [ngModelOptions]="{ standalone : true }">
+                  <mat-option *ngFor="let pos of MFBPos" [value]="pos.name">
+                    {{pos.name}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="form" *ngIf="data.playerStats && (data.sportCode == 'MBB' || data.sportCode == 'WBB') ">
+      <table class="responsive-table">
+        <thead>
+          <tr class="row">
+            <th class="col l4 m4 s4 header">GAME DATE</th>
+            <th class="col l4 m4 s4 header">JERSEY #</th>
+            <th class="col l4 m4 s4 header">POS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let game of data.playerStats" class="row">
+            <td class="col l4 m4 s4" style="line-height:3;">
+              <span matTooltip="{{game.opponentName}}"><img id="logo"
+                  src="../../../assets/images/teams/{{game.opponentCode}}.png" alt=" "></span> &nbsp;&nbsp;
+              <span>
+                {{game.gameDate | utcdate:'ddd, MMM D'}}
+              </span>
+            </td>
+            <td class="col l4 m4 s4"><input class="form-control" placeholder="Jersey" [(ngModel)]="game.uniform"
+                name="game.uniform" [ngModelOptions]="{ standalone : true }"></td>
+            <td class="col l4 m4 s4">
+              <mat-form-field>
+                <mat-select [(ngModel)]="game.pos.pos" [ngModelOptions]="{ standalone : true }">
+                  <mat-option *ngFor="let pos of MBBPos" [value]="pos">
+                    {{pos}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </form>
+  <div class="mat-dialog-actions pull-right">
+    <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1"
+      (click)="stopEdit()">Save</button>
+    <button mat-button (click)="onNoClick()" tabindex="-1">Cancel</button>
+  </div>
+
+</div>

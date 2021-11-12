@@ -1,0 +1,155 @@
+<app-header [config]="headerConfig.normal"></app-header>
+<div class="row" style="margin-top: 3.5rem;">
+
+<h4 style="margin-left: 5rem;">Story Recommendation</h4>
+
+<div class="card">
+<mat-card class="example-card mat-elevation-z0">
+  <mat-card-header>
+    <mat-card-title><img title="Share Facebook" src="../../../assets/images/socialmedia/facebook.png" style="width: 26px;"/>&nbsp;&nbsp;&nbsp;<img title="Share Twitter" src="../../../assets/images/socialmedia/twitter.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Share Instagram" src="../../../assets/images/socialmedia/instagram.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Copy Story" src="../../../assets/images/socialmedia/file-copy.png" style="width: 19px;"/></mat-card-title>
+    <mat-card-subtitle>Season Opener</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      When playing at any stadium, Purdue is 76-49-6 in the season opener. This is the first meeting between Purdue and Nebraska in a season opener.
+      When playing at any stadium, Purdue is 76-49-6 in the season opener. This is the first meeting between Purdue and Nebraska in a season opener.When playing at any stadium, Purdue is 76-49-6 in the season opener. This is the first meeting between Purdue and Nebraska in a season opener.When playing at any stadium, Purdue is 76-49-6 in the season opener. This is the first meeting between Purdue and Nebraska in a season opener.When playing at any stadium, Purdue is 76-49-6 in the season opener. This is the first meeting between Purdue and Nebraska in a season opener.When playing at any stadium, Purdue is 76-49-6 in the season opener. This is the first meeting between Purdue and Nebraska in a season opener.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button class="warn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+  </mat-card-actions>
+</mat-card>
+
+<mat-card class="example-card mat-elevation-z0">
+  <mat-card-header>
+    <mat-card-title><img title="Share Facebook" src="../../../assets/images/socialmedia/facebook.png" style="width: 26px;"/>&nbsp;&nbsp;&nbsp;<img title="Share Twitter" src="../../../assets/images/socialmedia/twitter.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Share Instagram" src="../../../assets/images/socialmedia/instagram.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Copy Story" src="../../../assets/images/socialmedia/file-copy.png" style="width: 19px;"/></mat-card-title>
+    <mat-card-subtitle>Opponent series</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      Purdue has played Nebraska four times with 4-4-0 record in these meetings.
+      Purdue has played Nebraska four times with 4-4-0 record in these meetings.
+      Purdue has played Nebraska four times with 4-4-0 record in these meetings.
+      Purdue has played Nebraska four times with 4-4-0 record in these meetings.
+      Purdue has played Nebraska four times with 4-4-0 record in these meetings.
+      Purdue has played Nebraska four times with 4-4-0 record in these meetings.
+      Purdue has played Nebraska four times with 4-4-0 record in these meetings.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button class="warn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+  </mat-card-actions>
+</mat-card>
+
+<mat-card class="example-card mat-elevation-z0">
+  <mat-card-header>
+    <mat-card-title><img title="Share Facebook" src="../../../assets/images/socialmedia/facebook.png" style="width: 26px;"/>&nbsp;&nbsp;&nbsp;<img title="Share Twitter" src="../../../assets/images/socialmedia/twitter.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Share Instagram" src="../../../assets/images/socialmedia/instagram.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Copy Story" src="../../../assets/images/socialmedia/file-copy.png" style="width: 19px;"/></mat-card-title>
+    <mat-card-subtitle>All Time</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      In all games played at any stadium, Purdue is 618-575-48.In all games played at any stadium, Purdue is 618-575-48.In all games played at any stadium, Purdue is 618-575-48.In all games played at any stadium, Purdue is 618-575-48.In all games played at any stadium, Purdue is 618-575-48.In all games played at any stadium, Purdue is 618-575-48.In all games played at any stadium, Purdue is 618-575-48.In all games played at any stadium, Purdue is 618-575-48.In all games played at any stadium, Purdue is 618-575-48.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button class="warn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+  </mat-card-actions>
+</mat-card>
+</div>
+ <!--<div class="card" style="margin-top: -2rem;">
+    
+   <div class="card-content">
+   <span class="card-title grey-text text-darken-2"></span>  
+    <div id="table">
+   <mat-table #table [dataSource]="dataSource">
+<ng-container matColumnDef="topics">
+  <mat-header-cell *matHeaderCellDef> Topic </mat-header-cell>
+  <mat-cell *matCellDef="let element"> {{element.topics}} </mat-cell>
+</ng-container>
+
+
+<ng-container matColumnDef="story">
+  <mat-header-cell *matHeaderCellDef> Story </mat-header-cell>
+  <mat-cell *matCellDef="let element"> {{element.story}} </mat-cell>
+</ng-container>
+
+<ng-container matColumnDef="icon">
+  <mat-header-cell *matHeaderCellDef></mat-header-cell>
+  <mat-cell *matCellDef="let element"><img title="Share Facebook" src="../../../assets/images/socialmedia/facebook.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Share Twitter" src="../../../assets/images/socialmedia/twitter.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Share Instagram" src="../../../assets/images/socialmedia/instagram.png" style="width: 23px;"/>&nbsp;&nbsp;&nbsp;<img title="Copy Story" src="../../../assets/images/socialmedia/file-copy.png" style="width: 23px;"/></mat-cell>
+</ng-container>
+
+<mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+<mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+   </div>
+    </div>
+</div> -->
+
+<div class="row">
+
+<!-- <mat-grid-list cols="3" rowHeight="23rem">
+  <mat-grid-tile>
+    <div class="card">
+      <div class="row">
+        <div class="col s12 m5">
+          <div class="card-panel teal">
+            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+          </div>
+        </div>
+        <div class="col s12 m7">
+          <span class="white-text">
+            <h1>John Doe</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <div style="margin: 24px 0;">               
+              <a href="#"><i class="fa fa-twitter"></i></a>  
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>  
+              <a href="#"><i class="fa fa-files-o"></i></a>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <div class="card">
+      <img src="https://i.ytimg.com/vi/oTLzQr_PE3I/maxresdefault.jpg" alt="John" style="width:96%;height: 170px;">
+      <p>Purdue is 76-49-6 in the season opener.</p>
+      <div style="margin: 24px 0;">
+        <a href="#"><i class="fa fa-twitter"></i></a>  
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>  
+        <a href="#"><i class="fa fa-files-o"></i></a>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <div class="card">
+      <div class="row">
+        <div class="col s12 m7">
+          <span class="white-text">
+            <p class="title">Purdue has played Nebraska four times with 4-4-0 record in these meetings.</p>
+            <div style="margin: 24px 0;">               
+              <a href="#"><i class="fa fa-twitter"></i></a>  
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>  
+              <a href="#"><i class="fa fa-files-o"></i></a>
+            </div>
+          </span>
+        </div>
+        <div class="col s12 m5">
+          <div class="card-panel teal">
+            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list> -->
+</div>
+

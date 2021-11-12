@@ -1,0 +1,1239 @@
+<fbgame source="Tas Football" version="4.16.07" generated="9/15/2016">
+ <venue gameid="2016CFP" visid="UA" homeid="CU" visname="Alabama" homename="Clemson"
+      date="1/11/2016" location="Glendale, Ariz." stadium="UOP Stadium" sportcode="MFB" gametype="Post Season,Bowl, Rose Bowl"
+      start="6:33 pm" end="10:18 pm" neutralgame="Y" nitegame="Y" postseason="Y"
+      duration="3:45" attend="75765" temp="" wind="" weather="Indoors">
+  <officials ref="Terry Leyden" ump="Matt Jordan" line="Darryl Johnson" lj="Michael Feldman" bj="Justin Nelson" fj="Jeff Yock" sj="Ryan Dickson" cj="Jim Wharrie" alt="Jim Wharrie"></officials>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="8" id="UA" name="Alabama" record="14-1" abb="V" rank="2" conf="Big Ten Conference" confdivision="West">
+  <linescore prds="4" line="7,7,7,24" score="45">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="24"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="18" rush="6" pass="11" penalty="1"></firstdowns>
+   <penalties no="2" yds="21"></penalties>
+   <conversions thirdconv="9" thirdatt="18" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="30:31" ona="1" onm="1" ptsto="7"></misc>
+   <redzone att="3" scores="3" points="17" tdrush="2" tdpass="0" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="46" yds="138" gain="179" loss="41" td="3" long="50"></rush>
+   <pass comp="16" att="25" int="0" yds="335" td="2" long="63" sacks="5" sackyds="31"></pass>
+   <rcv no="16" yds="335" td="2" long="63"></rcv>
+   <punt no="7" yds="297" long="52" blkd="0" tb="0" fc="5" plus50="1" inside20="3"></punt>
+   <ko no="7" yds="422" ob="0" tb="4"></ko>
+   <fg made="1" att="2" long="33" blkd="0"></fg>
+   <pat kickatt="6" kickmade="6"></pat>
+   <defense tackua="54" tacka="12" tflua="7" tfla="0" tflyds="28" sacks="2" sackyds="14" brup="7" blkd="1" ff="1" int="1" intyds="0"></defense>
+   <kr no="5" yds="196" td="1" long="95"></kr>
+   <pr no="1" yds="12" td="0" long="12"></pr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <scoring td="6" fg="1" patkick="6"></scoring>
+  </totals>
+  <player name="Ronnie Harrison" shortname="Ronnie Harrison" checkname="HARRISON,RONNIE" uni="1B" class="FR" gp="1" code="1B">
+   <defense tackua="1" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Derrick Henry" shortname="Derrick Henry" checkname="HENRY,DERRICK" uni="2" class="JR" gp="1" gs="1" opos="RB" code="2">
+   <rush att="36" yds="158" gain="167" loss="9" td="3" long="50"></rush>
+   <scoring td="3"></scoring>
+  </player>
+  <player name="Bradley Sylve" shortname="Bradley Sylve" checkname="SYLVE,BRADLEY" uni="3" class="SR" gp="1" code="3">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Calvin Ridley" shortname="Calvin Ridley" checkname="RIDLEY,CALVIN" uni="3A" class="FR" gp="1" gs="1" opos="WR" code="3A">
+   <rcv no="6" yds="14" td="0" long="9"></rcv>
+  </player>
+  <player name="Eddie Jackson" shortname="Eddie Jackson" checkname="JACKSON,EDDIE" uni="4" class="JR" gp="1" gs="1" dpos="SS" code="4">
+   <defense tackua="2" tacka="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Cyrus Jones" shortname="Cyrus Jones" checkname="JONES,CYRUS" uni="5" class="SR" gp="1" gs="1" dpos="CB" code="5">
+   <defense tackua="4" tacka="1" ff="1"></defense>
+   <pr no="1" yds="12" td="0" long="12"></pr>
+  </player>
+  <player name="Da'Ron Payne" shortname="Da'Ron Payne" checkname="PAYNE,DA'RON" uni="9B" class="FR" gp="1" code="9B"></player>
+  <player name="Da'Shawn Hand" shortname="Da'Shawn Hand" checkname="HAND,DA'SHAWN" uni="9" class="SO" gp="1" code="9">
+   <defense tackua="3" tacka="1" tflua="2" tfla="0" tflyds="6"></defense>
+  </player>
+  <player name="Bo Scarbrough" shortname="Bo Scarbrough" checkname="SCARBROUGH,BO" uni="9A" class="FR" gp="1" code="9A"></player>
+  <player name="Reuben Foster" shortname="Reuben Foster" checkname="FOSTER,REUBEN" uni="10" class="JR" gp="1" gs="1" dpos="WILL" code="10">
+   <defense tackua="8" tacka="1" tflua="1" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="A. Stewart" shortname="A. Stewart" checkname="STEWART,A" uni="13" class="SO" gp="1" gs="1" opos="WR" code="13">
+   <rcv no="2" yds="63" td="0" long="38"></rcv>
+  </player>
+  <player name="Jake Coker" shortname="Jake Coker" checkname="COKER,JAKE" uni="14" class="SR" gp="1" gs="1" opos="QB" code="14">
+   <rush att="8" yds="-20" gain="11" loss="31" td="0" long="8"></rush>
+   <pass comp="16" att="25" int="0" yds="335" td="2" long="63" sacks="5" sackyds="31"></pass>
+  </player>
+  <player name="JK Scott" shortname="JK Scott" checkname="SCOTT,JK" uni="15" class="SO" gp="1" code="15">
+   <punt no="7" yds="297" long="52" blkd="0" tb="0" fc="5" plus50="1" inside20="3"></punt>
+  </player>
+  <player name="R. Mullaney" shortname="R. Mullaney" checkname="MULLANEY,R" uni="16" class="SR" gp="1" gs="1" opos="WR" code="16">
+   <rcv no="1" yds="29" td="0" long="29"></rcv>
+  </player>
+  <player name="Kenyan Drake" shortname="Kenyan Drake" checkname="DRAKE,KENYAN" uni="17" class="SR" gp="1" code="17">
+   <rush att="1" yds="1" gain="1" loss="0" td="0" long="1"></rush>
+   <rcv no="2" yds="21" td="0" long="7"></rcv>
+   <kr no="5" yds="196" td="1" long="95"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Cooper Bateman" shortname="Cooper Bateman" checkname="BATEMAN,COOPER" uni="18" class="SO" gp="1" code="18"></player>
+  <player name="Reggie Ragland" shortname="Reggie Ragland" checkname="RAGLAND,REGGIE" uni="19" class="SR" gp="1" gs="1" dpos="MIKE" code="19">
+   <defense tackua="4" tacka="1"></defense>
+  </player>
+  <player name="S. Hamilton" shortname="S. Hamilton" checkname="HAMILTON,S" uni="20" class="SO" gp="1" code="20"></player>
+  <player name="Maurice Smith" shortname="Maurice Smith" checkname="SMITH,MAURICE" uni="21" class="JR" gp="1" code="21">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Ryan Anderson" shortname="Ryan Anderson" checkname="ANDERSON,RYAN" uni="22" class="JR" gp="1" code="22"></player>
+  <player name="G. Matias-Smith" shortname="G. Matias-Smith" checkname="MATIAS-SMITH,G" uni="24" class="SR" gp="1" gs="1" dpos="FS" code="24">
+   <defense tackua="11" tacka="0"></defense>
+  </player>
+  <player name="Dillon Lee" shortname="Dillon Lee" checkname="LEE,DILLON" uni="25" class="SR" gp="1" code="25">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Marlon Humphrey" shortname="Marlon Humphrey" checkname="HUMPHREY,MARLON" uni="26" class="FR" gp="1" gs="1" dpos="CB" code="26">
+   <defense tackua="3" tacka="2" tflua="1" tfla="0" tflyds="2" brup="2"></defense>
+  </player>
+  <player name="M. Fitzpatrick" shortname="M. Fitzpatrick" checkname="FITZPATRICK,M" uni="29" class="FR" gp="1" gs="1" dpos="CB" code="29">
+   <defense tackua="3" tacka="1" brup="2"></defense>
+  </player>
+  <player name="Denzel Devall" shortname="Denzel Devall" checkname="DEVALL,DENZEL" uni="30" class="SR" gp="1" gs="1" dpos="JACK" code="30">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Rashaan Evans" shortname="Rashaan Evans" checkname="EVANS,RASHAAN" uni="32" class="SO" gp="1" code="32">
+   <defense tackua="3" tacka="0" tflua="2" tfla="0" tflyds="14" sackua="2" sacka="0" sackyds="14"></defense>
+  </player>
+  <player name="Derrick Gore" shortname="Derrick Gore" checkname="GORE,DERRICK" uni="33" class="SO" gp="1" code="33"></player>
+  <player name="Damien Harris" shortname="Damien Harris" checkname="HARRIS,DAMIEN" uni="34" class="FR" gp="1" code="34"></player>
+  <player name="Keith Holcombe" shortname="Keith Holcombe" checkname="HOLCOMBE,KEITH" uni="42" class="FR" gp="1" code="42">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="M. Nysewander" shortname="M. Nysewander" checkname="NYSEWANDER,M" uni="46" class="SR" gp="1" code="46"></player>
+  <player name="C. Miller" shortname="C. Miller" checkname="MILLER,C" uni="47" class="FR" gp="1" code="47"></player>
+  <player name="A. Taylor" shortname="A. Taylor" checkname="TAYLOR,A" uni="50" class="JR" gp="1" gs="1" opos="RG" code="50"></player>
+  <player name="D. Tomlinson" shortname="D. Tomlinson" checkname="TOMLINSON,D" uni="54" class="JR" gp="1" code="54">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Cole Mazza" shortname="Cole Mazza" checkname="MAZZA,COLE" uni="55" class="JR" gp="1" code="55"></player>
+  <player name="Tim Williams" shortname="Tim Williams" checkname="WILLIAMS,TIM" uni="56" class="JR" gp="1" code="56"></player>
+  <player name="D.J. Pettway" shortname="D.J. Pettway" checkname="PETTWAY,DJ" uni="57" class="SR" gp="1" code="57">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="1" brup="2" blkd="1"></defense>
+  </player>
+  <player name="Brandon Greene" shortname="Brandon Greene" checkname="GREENE,BRANDON" uni="58" class="JR" gp="1" code="58"></player>
+  <player name="Ryan Kelly" shortname="Ryan Kelly" checkname="KELLY,RYAN" uni="70" class="SR" gp="1" gs="1" opos="C" code="70"></player>
+  <player name="Pierschbacher" shortname="Pierschbacher" checkname="PIERSCHBACHER" uni="71" class="FR" gp="1" gs="1" opos="LG" code="71"></player>
+  <player name="Cam Robinson" shortname="Cam Robinson" checkname="ROBINSON,CAM" uni="74" class="SO" gp="1" gs="1" opos="LT" code="74"></player>
+  <player name="B. Bozeman" shortname="B. Bozeman" checkname="BOZEMAN,B" uni="75" class="SO" gp="1" code="75"></player>
+  <player name="D. Jackson" shortname="D. Jackson" checkname="JACKSON,D" uni="76" class="SR" gp="1" gs="1" opos="RT" code="76"></player>
+  <player name="Derek Kief" shortname="Derek Kief" checkname="KIEF,DEREK" uni="81" class="FR" gp="1" code="81"></player>
+  <player name="Hale Hentges" shortname="Hale Hentges" checkname="HENTGES,HALE" uni="84" class="FR" gp="1" code="84"></player>
+  <player name="A. Robinson" shortname="A. Robinson" checkname="ROBINSON,A" uni="86" class="JR" gp="1" gs="1" dpos="DL" code="86">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="O.J. Howard" shortname="O.J. Howard" checkname="HOWARD,OJ" uni="88" class="JR" gp="1" gs="1" opos="TE" code="88">
+   <rcv no="5" yds="208" td="2" long="63"></rcv>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Jarran Reed" shortname="Jarran Reed" checkname="REED,JARRAN" uni="90" class="SR" gp="1" gs="1" dpos="DL" code="90">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Jonathan Allen" shortname="Jonathan Allen" checkname="ALLEN,JONATHAN" uni="93" class="JR" gp="1" gs="1" dpos="DL" code="93"></player>
+  <player name="Dakota Ball" shortname="Dakota Ball" checkname="BALL,DAKOTA" uni="94" class="JR" gp="1" code="94"></player>
+  <player name="Darren Lake" shortname="Darren Lake" checkname="LAKE,DARREN" uni="95" class="SR" gp="1" code="95"></player>
+  <player name="Adam Griffith" shortname="Adam Griffith" checkname="GRIFFITH,ADAM" uni="99" class="JR" gp="1" code="99">
+   <ko no="7" yds="422" ob="0" tb="4"></ko>
+   <fg made="1" att="2" long="33" blkd="0"></fg>
+   <pat kickatt="6" kickmade="6"></pat>
+   <defense tackua="1" tacka="0"></defense>
+   <scoring fg="1" patkick="6"></scoring>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198">
+   <rush att="1" yds="-1" gain="0" loss="1" td="0" long="0"></rush>
+  </player>
+ </team>
+ <team vh="H" code="147" id="CU" name="Clemson" record="14-1" abb="H" rank="1" conf="Big Ten Conference" confdivision="West">
+  <linescore prds="4" line="14,0,10,16" score="40">
+   <lineprd prd="1" score="14"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="10"></lineprd>
+   <lineprd prd="4" score="16"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="31" rush="9" pass="20" penalty="2"></firstdowns>
+   <penalties no="4" yds="27"></penalties>
+   <conversions thirdconv="6" thirdatt="14" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="2" lost="0"></fumbles>
+   <misc yds="0" top="29:29" ona="1" onm="0" ptsto="0"></misc>
+   <redzone att="5" scores="5" points="26" tdrush="1" tdpass="2" fgmade="2" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="38" yds="145" gain="175" loss="30" td="1" long="34"></rush>
+   <pass comp="30" att="47" int="1" yds="405" td="4" long="39" sacks="2" sackyds="14"></pass>
+   <rcv no="30" yds="405" td="4" long="39"></rcv>
+   <punt no="6" yds="265" long="57" blkd="0" tb="1" fc="0" plus50="2" inside20="2"></punt>
+   <ko no="7" yds="448" ob="0" tb="2"></ko>
+   <fg made="2" att="3" long="37" blkd="0"></fg>
+   <pat kickatt="4" kickmade="4" rushatt="1" rushmade="0"></pat>
+   <defense tackua="48" tacka="18" tflua="9" tfla="0" tflyds="40" sacks="5" sackyds="31" brup="1"></defense>
+   <kr no="3" yds="68" td="0" long="43"></kr>
+   <pr no="2" yds="22" td="0" long="13"></pr>
+   <scoring td="5" fg="2" patkick="4"></scoring>
+  </totals>
+  <player name="Thompson" shortname="Thompson" checkname="THOMPSON" uni="1T" class="FR" gp="1" code="1T"></player>
+  <player name="Kearse" shortname="Kearse" checkname="KEARSE" uni="1" class="JR" gp="1" gs="1" dpos="SS" code="1">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Alexander" shortname="Alexander" checkname="ALEXANDER" uni="2" class="SO" gp="1" gs="1" dpos="CB" code="2">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Fields" shortname="Fields" checkname="FIELDS" uni="2F" class="FR" gp="1" code="2F">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Baker" shortname="Baker" checkname="BAKER" uni="2A" class="SO" gp="1" code="2A">
+   <defense tackua="0" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Joseph" shortname="Joseph" checkname="JOSEPH" uni="3J" class="FR" gp="1" code="3J"></player>
+  <player name="A. Scott" shortname="A. Scott" checkname="SCOTT,A" uni="3" class="SO" gp="1" gs="1" opos="WR" code="3">
+   <rush att="2" yds="19" gain="19" loss="0" td="0" long="10"></rush>
+   <rcv no="4" yds="33" td="1" long="15"></rcv>
+   <kr no="2" yds="59" td="0" long="43"></kr>
+   <pr no="2" yds="22" td="0" long="13"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Watson" shortname="Watson" checkname="WATSON" uni="4" class="SO" gp="1" gs="1" opos="QB" code="4">
+   <rush att="20" yds="73" gain="93" loss="20" td="0" long="20"></rush>
+   <pass comp="30" att="47" int="1" yds="405" td="4" long="39" sacks="2" sackyds="14"></pass>
+   <pat rushatt="1" rushmade="0"></pat>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="G. Williams" shortname="G. Williams" checkname="WILLIAMS,G" uni="4W" class="FR" gp="1" code="4W"></player>
+  <player name="Falcinelli" shortname="Falcinelli" checkname="FALCINELLI" uni="5F" class="FR" gp="1" code="5F"></player>
+  <player name="Hopper" shortname="Hopper" checkname="HOPPER" uni="5" class="JR" gp="1" code="5"></player>
+  <player name="O'Daniel" shortname="O'Daniel" checkname="O'DANIEL" uni="6" class="SO" gp="1" code="6">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Ryan" shortname="Ryan" checkname="RYAN" uni="8R" class="SO" gp="1" code="8R"></player>
+  <player name="Cain" shortname="Cain" checkname="CAIN" uni="8" class="FR" gp="1" code="8"></player>
+  <player name="Gallman" shortname="Gallman" checkname="GALLMAN" uni="9" class="SO" gp="1" gs="1" opos="RB" code="9">
+   <rush att="14" yds="45" gain="55" loss="10" td="1" long="34"></rush>
+   <rcv no="3" yds="61" td="0" long="39"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Boulware" shortname="Boulware" checkname="BOULWARE" uni="10" class="JR" gp="1" gs="1" dpos="WLB" code="10">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Blanks" shortname="Blanks" checkname="BLANKS" uni="11" class="JR" gp="1" gs="1" dpos="SLB" code="11">
+   <defense tackua="4" tacka="0"></defense>
+  </player>
+  <player name="Renfrow" shortname="Renfrow" checkname="RENFROW" uni="13" class="FR" gp="1" gs="1" opos="WR" code="13">
+   <rcv no="7" yds="88" td="2" long="31"></rcv>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="T. Green" shortname="T. Green" checkname="GREEN,T" uni="15" class="JR" gp="1" gs="1" dpos="FS" code="15">
+   <defense tackua="6" tacka="5"></defense>
+  </player>
+  <player name="Leggett" shortname="Leggett" checkname="LEGGETT" uni="16" class="JR" gp="1" gs="1" opos="TE" code="16">
+   <rcv no="5" yds="78" td="1" long="24"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Gibson" shortname="Gibson" checkname="GIBSON" uni="17" class="FR" gp="1" code="17"></player>
+  <player name="J. Johnson" shortname="J. Johnson" checkname="JOHNSON,J" uni="18" class="JR" gp="1" code="18"></player>
+  <player name="Peake" shortname="Peake" checkname="PEAKE" uni="19" class="SR" gp="1" gs="1" opos="WR" code="19">
+   <rcv no="6" yds="99" td="0" long="28"></rcv>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Davidson" shortname="Davidson" checkname="DAVIDSON" uni="21" class="SR" gp="1" code="21"></player>
+  <player name="V. Smith" shortname="V. Smith" checkname="SMITH,V" uni="23" class="FR" gp="1" code="23">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Brooks" shortname="Brooks" checkname="BROOKS" uni="24" class="SR" gp="1" code="24">
+   <rush att="1" yds="4" gain="4" loss="0" td="0" long="4"></rush>
+   <rcv no="4" yds="39" td="0" long="22"></rcv>
+  </player>
+  <player name="Tankersley" shortname="Tankersley" checkname="TANKERSLEY" uni="25" class="JR" gp="1" gs="1" dpos="CB" code="25">
+   <defense tackua="2" tacka="2" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Fuller" shortname="Fuller" checkname="FULLER" uni="27" class="FR" gp="1" code="27"></player>
+  <player name="Edmond" shortname="Edmond" checkname="EDMOND" uni="29" class="SO" gp="1" code="29"></player>
+  <player name="J. Williams" shortname="J. Williams" checkname="WILLIAMS,J" uni="30" class="FR" gp="1" code="30"></player>
+  <player name="Carter" shortname="Carter" checkname="CARTER" uni="31" class="SO" gp="1" code="31"></player>
+  <player name="Teasdall" shortname="Teasdall" checkname="TEASDALL" uni="32" class="JR" gp="1" code="32">
+   <punt no="6" yds="265" long="57" blkd="0" tb="1" fc="0" plus50="2" inside20="2"></punt>
+  </player>
+  <player name="J.D. Davis" shortname="J.D. Davis" checkname="DAVIS,JD" uni="33" class="FR" gp="1" code="33">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Mccloud" shortname="Mccloud" checkname="MCCLOUD" uni="34" class="FR" gp="1" code="34">
+   <rush att="1" yds="4" gain="4" loss="0" td="0" long="4"></rush>
+   <rcv no="1" yds="7" td="0" long="7"></rcv>
+  </player>
+  <player name="Ju. Davis" shortname="Ju. Davis" checkname="DAVIS,JU" uni="37" class="FR" gp="1" code="37"></player>
+  <player name="Byers" shortname="Byers" checkname="BYERS" uni="40" class="SR" gp="1" code="40"></player>
+  <player name="Wilkins" shortname="Wilkins" checkname="WILKINS" uni="42" class="FR" gp="1" code="42">
+   <defense tackua="1" tacka="2"></defense>
+  </player>
+  <player name="Goodson" shortname="Goodson" checkname="GOODSON" uni="44" class="SR" gp="1" gs="1" dpos="MLB" code="44">
+   <defense tackua="10" tacka="0"></defense>
+  </player>
+  <player name="Reader" shortname="Reader" checkname="READER" uni="48" class="SR" gp="1" gs="1" dpos="DT" code="48">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Yeargin" shortname="Yeargin" checkname="YEARGIN" uni="49" class="FR" gp="1" code="49"></player>
+  <player name="Hearn" shortname="Hearn" checkname="HEARN" uni="51" class="FR" gp="1" code="51"></player>
+  <player name="Crowder" shortname="Crowder" checkname="CROWDER" uni="55" class="SO" gp="1" gs="1" opos="RG" code="55"></player>
+  <player name="Pagano" shortname="Pagano" checkname="PAGANO" uni="56" class="SO" gp="1" code="56">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Guillermo" shortname="Guillermo" checkname="GUILLERMO" uni="57" class="JR" gp="1" gs="1" opos="C" code="57"></player>
+  <player name="Morris" shortname="Morris" checkname="MORRIS" uni="69" class="SO" gp="1" code="69"></player>
+  <player name="Gore" shortname="Gore" checkname="GORE" uni="73" class="SR" gp="1" gs="1" opos="RT" code="73"></player>
+  <player name="Hyatt" shortname="Hyatt" checkname="HYATT" uni="75" class="FR" gp="1" gs="1" opos="LT" code="75"></player>
+  <player name="J. Brown" shortname="J. Brown" checkname="BROWN,J" uni="76" class="SR" gp="1" code="76"></player>
+  <player name="E. Mac Lain" shortname="E. Mac Lain" checkname="LAIN,E MAC" uni="78" class="SR" gp="1" gs="1" opos="LG" code="78"></player>
+  <player name="Richard" shortname="Richard" checkname="RICHARD" uni="80" class="FR" gp="1" code="80">
+   <kr no="1" yds="9" td="0" long="9"></kr>
+  </player>
+  <player name="Seckinger" shortname="Seckinger" checkname="SECKINGER" uni="81" class="SR" gp="1" code="81"></player>
+  <player name="Ca. Smith" shortname="Ca. Smith" checkname="SMITH,CA" uni="84" class="FR" gp="1" code="84"></player>
+  <player name="Greenlee" shortname="Greenlee" checkname="GREENLEE" uni="87" class="SO" gp="1" code="87"></player>
+  <player name="Lawson" shortname="Lawson" checkname="LAWSON" uni="90" class="JR" gp="1" gs="1" dpos="DE" code="90">
+   <defense tackua="3" tacka="1" tflua="2" tfla="0" tflyds="11" sackua="2" sacka="0" sackyds="11"></defense>
+  </player>
+  <player name="A. Bryant" shortname="A. Bryant" checkname="BRYANT,A" uni="91" class="FR" gp="1" code="91">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Huegel" shortname="Huegel" checkname="HUEGEL" uni="92" class="FR" gp="1" code="92">
+   <ko no="7" yds="448" ob="0" tb="2"></ko>
+   <fg made="2" att="3" long="37" blkd="0"></fg>
+   <pat kickatt="4" kickmade="4"></pat>
+   <defense tackua="1" tacka="0"></defense>
+   <scoring fg="2" patkick="4"></scoring>
+  </player>
+  <player name="Watkins" shortname="Watkins" checkname="WATKINS" uni="94" class="JR" gp="1" gs="1" dpos="DT" code="94">
+   <defense tackua="1" tacka="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Dodd" shortname="Dodd" checkname="DODD" uni="98" class="JR" gp="1" gs="1" dpos="DE" code="98">
+   <defense tackua="7" tacka="0" tflua="5" tfla="0" tflyds="26" sackua="3" sacka="0" sackyds="20"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="UA" qtr="1" clock="07:55" type="TD" how="RUSH" yds="50" scorer="Derrick Henry" patby="Adam Griffith" pattype="KICK" patres="GOOD" plays="3" drive="59" top="0:55" vscore="7" hscore="0" driveindex="3"></score>
+  <score vh="H" team="CU" qtr="1" clock="05:18" type="TD" how="PASS" yds="31" scorer="Renfrow" passer="Watson" patby="Huegel" pattype="KICK" patres="GOOD" plays="6" drive="54" top="2:29" vscore="7" hscore="7" driveindex="4"></score>
+  <score vh="H" team="CU" qtr="1" clock="00:00" type="TD" how="PASS" yds="11" scorer="Renfrow" passer="Watson" patby="Huegel" pattype="KICK" patres="GOOD" plays="7" drive="73" top="2:17" vscore="7" hscore="14" driveindex="6"></score>
+  <score vh="V" team="UA" qtr="2" clock="09:35" type="TD" how="RUSH" yds="1" scorer="Derrick Henry" patby="Adam Griffith" pattype="KICK" patres="GOOD" plays="7" drive="42" top="2:23" vscore="14" hscore="14" driveindex="9"></score>
+  <score vh="V" team="UA" qtr="3" clock="12:53" type="TD" how="PASS" yds="53" scorer="O.J. Howard" passer="Jake Coker" patby="Adam Griffith" pattype="KICK" patres="GOOD" plays="3" drive="64" top="0:53" vscore="21" hscore="14" driveindex="17"></score>
+  <score vh="H" team="CU" qtr="3" clock="10:10" type="FG" yds="37" scorer="Huegel" plays="9" drive="55" top="2:43" vscore="21" hscore="17" driveindex="18"></score>
+  <score vh="H" team="CU" qtr="3" clock="04:48" type="TD" how="RUSH" yds="1" scorer="Gallman" patby="Huegel" pattype="KICK" patres="GOOD" plays="9" drive="60" top="3:38" vscore="21" hscore="24" driveindex="20"></score>
+  <score vh="V" team="UA" qtr="4" clock="10:34" type="FG" yds="33" scorer="Adam Griffith" plays="8" drive="64" top="2:33" vscore="24" hscore="24" driveindex="25"></score>
+  <score vh="V" team="UA" qtr="4" clock="09:45" type="TD" how="PASS" yds="51" scorer="O.J. Howard" passer="Jake Coker" patby="Adam Griffith" pattype="KICK" patres="GOOD" plays="2" drive="50" top="0:49" vscore="31" hscore="24" driveindex="26"></score>
+  <score vh="H" team="CU" qtr="4" clock="07:47" type="FG" yds="31" scorer="Huegel" plays="6" drive="61" top="1:58" vscore="31" hscore="27" driveindex="27"></score>
+  <score vh="V" team="UA" qtr="4" clock="07:31" type="TD" how="KO" yds="95" scorer="Kenyan Drake" patby="Adam Griffith" pattype="KICK" patres="GOOD" vscore="38" hscore="27" driveindex="28"></score>
+  <score vh="H" team="CU" qtr="4" clock="04:40" type="TD" how="PASS" yds="15" scorer="A. Scott" passer="Watson" patby="Watson" pattype="RUSH" patres="FAIL" plays="8" drive="75" top="2:51" vscore="38" hscore="33" driveindex="29"></score>
+  <score vh="V" team="UA" qtr="4" clock="01:07" type="TD" how="RUSH" yds="1" scorer="Derrick Henry" patby="Adam Griffith" pattype="KICK" patres="GOOD" plays="8" drive="75" top="3:33" vscore="45" hscore="33" driveindex="30"></score>
+  <score vh="H" team="CU" qtr="4" clock="00:12" type="TD" how="PASS" yds="24" scorer="Leggett" passer="Watson" patby="Huegel" pattype="KICK" patres="GOOD" plays="6" drive="68" top="0:50" vscore="45" hscore="40" driveindex="31"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="UA" kicker="Adam Griffith" qtr="1" clock="02:17" distance="44" result="missed"></fga>
+  <fga vh="H" team="CU" kicker="Huegel" qtr="2" clock="00:05" distance="44" result="missed"></fga>
+  <fga vh="H" team="CU" kicker="Huegel" qtr="3" clock="10:10" distance="37" result="good"></fga>
+  <fga vh="V" team="UA" kicker="Adam Griffith" qtr="4" clock="10:34" distance="33" result="good"></fga>
+  <fga vh="H" team="CU" kicker="Huegel" qtr="4" clock="07:47" distance="31" result="good"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="UA" start="KO,1,15:00,21" end="PUNT,1,10:59,47" plays="9" yards="26" top="4:01" driveindex="1"></drive>
+  <drive vh="H" team="CU" start="PUNT,1,10:59,9" end="PUNT,1,08:50,35" plays="8" yards="26" top="2:09" driveindex="2"></drive>
+  <drive vh="V" team="UA" start="PUNT,1,08:50,41" end="TD,1,07:55,100" plays="3" yards="59" top="0:55" driveindex="3"></drive>
+  <drive vh="H" team="CU" start="KO,1,07:47,46" end="TD,1,05:18,100" plays="6" yards="54" top="2:29" driveindex="4"></drive>
+  <drive vh="V" team="UA" start="KO,1,05:09,39" end="FGA,1,02:17,73" plays="7" yards="34" top="2:52" driveindex="5"></drive>
+  <drive vh="H" team="CU" start="FGA,1,02:17,27" end="TD,1,00:00,100" plays="7" yards="73" top="2:17" rz="1" driveindex="6"></drive>
+  <drive vh="V" team="UA" start="KO,2,15:00,25" end="PUNT,2,12:31,47" plays="4" yards="22" top="2:29" driveindex="7"></drive>
+  <drive vh="H" team="CU" start="PUNT,2,12:31,17" end="INT,2,11:58,24" plays="2" yards="7" top="0:33" driveindex="8"></drive>
+  <drive vh="V" team="UA" start="INT,2,11:58,58" end="TD,2,09:35,100" plays="7" yards="42" top="2:23" rz="1" driveindex="9"></drive>
+  <drive vh="H" team="CU" start="KO,2,09:35,25" end="PUNT,2,07:55,33" plays="3" yards="8" top="1:40" driveindex="10"></drive>
+  <drive vh="V" team="UA" start="PUNT,2,07:55,10" end="PUNT,2,04:25,30" plays="6" yards="20" top="3:30" driveindex="11"></drive>
+  <drive vh="H" team="CU" start="PUNT,2,04:25,18" end="PUNT,2,01:45,30" plays="7" yards="12" top="2:40" driveindex="12"></drive>
+  <drive vh="V" team="UA" start="PUNT,2,01:45,24" end="PUNT,2,00:37,21" plays="3" yards="-3" top="1:08" driveindex="13"></drive>
+  <drive vh="H" team="CU" start="PUNT,2,00:37,34" end="FGA,2,00:05,74" plays="4" yards="40" top="0:32" driveindex="14"></drive>
+  <drive vh="V" team="UA" start="FGA,2,00:05,27" end="HALF,2,00:00,39" plays="1" yards="12" top="0:05" driveindex="15"></drive>
+  <drive vh="H" team="CU" start="KO,3,14:55,23" end="PUNT,3,13:46,30" plays="3" yards="7" top="1:09" driveindex="16"></drive>
+  <drive vh="V" team="UA" start="PUNT,3,13:46,36" end="TD,3,12:53,100" plays="3" yards="64" top="0:53" driveindex="17"></drive>
+  <drive vh="H" team="CU" start="KO,3,12:53,25" end="FG,3,10:10,80" plays="9" yards="55" top="2:43" rz="1" driveindex="18"></drive>
+  <drive vh="V" team="UA" start="KO,3,10:02,26" end="PUNT,3,08:26,25" plays="3" yards="-1" top="1:36" driveindex="19"></drive>
+  <drive vh="H" team="CU" start="PUNT,3,08:26,40" end="TD,3,04:48,100" plays="9" yards="60" top="3:38" rz="1" driveindex="20"></drive>
+  <drive vh="V" team="UA" start="KO,3,04:42,17" end="PUNT,3,02:44,37" plays="5" yards="20" top="1:58" driveindex="21"></drive>
+  <drive vh="H" team="CU" start="PUNT,3,02:44,38" end="PUNT,3,00:43,43" plays="6" yards="5" top="2:01" driveindex="22"></drive>
+  <drive vh="V" team="UA" start="PUNT,3,00:43,5" end="PUNT,4,14:48,12" plays="3" yards="7" top="0:55" driveindex="23"></drive>
+  <drive vh="H" team="CU" start="PUNT,4,14:48,50" end="PUNT,4,13:07,60" plays="4" yards="10" top="1:41" driveindex="24"></drive>
+  <drive vh="V" team="UA" start="PUNT,4,13:07,20" end="FG,4,10:34,84" plays="8" yards="64" top="2:33" rz="1" driveindex="25"></drive>
+  <drive vh="V" team="UA" start="KO,4,10:34,50" end="TD,4,09:45,100" plays="2" yards="50" top="0:49" driveindex="26"></drive>
+  <drive vh="H" team="CU" start="KO,4,09:45,25" end="FG,4,07:47,86" plays="6" yards="61" top="1:58" rz="1" driveindex="27"></drive>
+  <drive vh="V" team="UA" start="KO,4,07:31,100" end="TD,4,07:31,100" plays="0" yards="0" top="0:00" driveindex="28"></drive>
+  <drive vh="H" team="CU" start="KO,4,07:31,25" end="TD,4,04:40,100" plays="8" yards="75" top="2:51" rz="1" driveindex="29"></drive>
+  <drive vh="V" team="UA" start="KO,4,04:40,25" end="TD,4,01:07,100" plays="8" yards="75" top="3:33" rz="1" driveindex="30"></drive>
+  <drive vh="H" team="CU" start="KO,4,01:02,32" end="TD,4,00:12,100" plays="6" yards="68" top="0:50" driveindex="31"></drive>
+  <drive vh="V" team="UA" start="KO,4,00:12,53" end="HALF,4,00:00,52" plays="1" yards="-1" top="0:12" driveindex="32"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V35" playid="0,1,0" tokens="CMT:CLEM wins toss, defers; BAMA elects to rec; CLEM to kick, defend N"
+      text="CLEM wins toss, defers; BAMA elects to rec; CLEM to kick, defend N"></play>
+   <play context="V,1,10,V35" playid="0,2,1" tokens="SPOT:H,H35,N"
+      text="CU ball on CU35."></play>
+   <play context="H,1,10,H35" playid="0,3,2" type="K" tokens="KO:92,V00 RET:17,V21 TACK:33"
+      text="Huegel kickoff 65 yards to the UA0, Kenyan Drake return 21 yards to the UA21 (J.D. Davis)."></play>
+   <drivestart poss="V,V21,15:00" vh="V" spot="V21" clock="15:00" driveindex="1,2"></drivestart>
+   <play context="V,1,10,V21" playid="1,1,3" type="P" tokens="PASS:14,C,3A,V21 TACK:2"
+      text="Jake Coker pass complete to Calvin Ridley for no gain to the UA21 (Alexander)."></play>
+   <play context="V,2,10,V21" playid="1,2,4" type="E" tokens="RUSH:2,V16, TACK:10 PEN:H,OD,A,90,V26,N NOPLAY:"
+      text="Derrick Henry rush for loss of 5 yards to the UA16 (Boulware), PENALTY CU offside defense (Lawson) 5 yards to the UA26, NO PLAY."></play>
+   <play context="V,2,5,V26" playid="1,3,5" type="R" tokens="RUSH:2,V30, TACK:11"
+      text="Derrick Henry rush for 4 yards to the UA30 (Blanks)."></play>
+   <play context="V,3,1,V30" playid="1,4,6" type="R" first="R" tokens="RUSH:2,V34, TACK:44"
+      text="Derrick Henry rush for 4 yards to the UA34, 1ST DOWN UA (Goodson)."></play>
+   <play context="V,1,10,V34" playid="1,5,7" type="P" tokens="PASS:14,I,3A,*"
+      text="Jake Coker pass incomplete to Calvin Ridley."></play>
+   <play context="V,2,10,V34" playid="1,6,8" type="R" tokens="RUSH:2,V35, TACK:91,25"
+      text="Derrick Henry rush for 1 yard to the UA35 (A. Bryant;Tankersley)."></play>
+   <play context="V,3,9,V35" playid="1,7,9" type="P" first="P" tokens="PASS:14,C,3A,V44 TACK:44"
+      text="Jake Coker pass complete to Calvin Ridley for 9 yards to the UA44, 1ST DOWN UA (Goodson)."></play>
+   <play context="V,1,10,V44" playid="1,8,10" type="R" tokens="RUSH:2,V47, TACK:48"
+      text="Derrick Henry rush for 3 yards to the UA47 (Reader)."></play>
+   <play context="V,2,7,V47" playid="1,9,11" type="P" tokens="PASS:14,C,17,V47 OB:44"
+      text="Jake Coker pass complete to Kenyan Drake for no gain to the UA47, out-of-bounds."></play>
+   <play context="V,3,7,V47" playid="1,10,12" type="P" tokens="PASS:14,I,16,*"
+      text="Jake Coker pass incomplete to R. Mullaney."></play>
+   <play context="V,4,7,V47" playid="1,11,13" type="U" tokens="PUNT:15,H09 FC:3"
+      text="JK Scott punt 44 yards to the CU9, fair catch by A. Scott."></play>
+   <drivesum plays="9" yards="26" top="4:01" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,H09,10:59" vh="H" spot="H09" clock="10:59" driveindex="2,13"></drivestart>
+   <play context="H,1,10,H09" playid="2,1,14" clock="10:59" tokens="{DRIVE}:10:59"
+      text="CLEMSON drive start at 10:59."></play>
+   <play context="H,1,10,H09" playid="2,2,15" type="P" tokens="PASS:4,C,3,H13 TACK:24"
+      text="Watson pass complete to A. Scott for 4 yards to the CU13 (G. Matias-Smith)."></play>
+   <play context="H,2,6,H13" playid="2,3,16" type="R" first="R" tokens="RUSH:9,H20, TACK:5"
+      text="Gallman rush for 7 yards to the CU20, 1ST DOWN CU (Cyrus Jones)."></play>
+   <play context="H,1,10,H20" playid="2,4,17" type="P" tokens="PASS:4,I,3,*"
+      text="Watson pass incomplete to A. Scott."></play>
+   <play context="H,2,10,H20" playid="2,5,18" type="R" tokens="RUSH:9,H20, TACK:24"
+      text="Gallman rush for no gain to the CU20 (G. Matias-Smith)."></play>
+   <play context="H,3,10,H20" playid="2,6,19" type="P" first="P" tokens="PASS:4,C,16,H33 TACK:1B"
+      text="Watson pass complete to Leggett for 13 yards to the CU33, 1ST DOWN CU (Ronnie Harrison)."></play>
+   <play context="H,1,10,H33" playid="2,7,20" type="R" tokens="RUSH:9,H35, TACK:90"
+      text="Gallman rush for 2 yards to the CU35 (Jarran Reed)."></play>
+   <play context="H,2,8,H35" playid="2,8,21" type="P" tokens="PASS:4,I,9,*"
+      text="Watson pass incomplete to Gallman."></play>
+   <play context="H,3,8,H35" playid="2,9,22" type="P" tokens="PASS:4,I,34,*"
+      text="Watson pass incomplete to Mccloud."></play>
+   <play context="H,4,8,H35" playid="2,10,23" type="U" tokens="PUNT:32,V29 RET:5,V41 TACK:15"
+      text="Teasdall punt 36 yards to the UA29, Cyrus Jones return 12 yards to the UA41 (T. Green)."></play>
+   <drivesum plays="8" yards="26" top="2:09" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V41,08:50" vh="V" spot="V41" clock="08:50" driveindex="3,23"></drivestart>
+   <play context="V,1,10,V41" playid="3,1,24" clock="08:50" tokens="{DRIVE}:08:50"
+      text="ALABAMA drive start at 08:50."></play>
+   <play context="V,1,10,V41" playid="3,2,25" type="R" tokens="RUSH:2,V43, TACK:10"
+      text="Derrick Henry rush for 2 yards to the UA43 (Boulware)."></play>
+   <play context="V,2,8,V43" playid="3,3,26" type="R" tokens="RUSH:2,H50, TACK:15"
+      text="Derrick Henry rush for 7 yards to the 50 yardline (T. Green)."></play>
+   <play context="V,3,1,V50" playid="3,4,27" type="R" first="R" score="Y" vscore="6" hscore="0" clock="07:55" tokens="RUSH:2,H00, T:07:55"
+      text="Derrick Henry rush for 50 yards to the CU0, 1ST DOWN UA, TOUCHDOWN, clock 07:55."></play>
+   <play context="V,1,0,H03" playid="3,5,28" type="X" score="Y" vscore="7" hscore="0" tokens="PAT:K,99,G"
+      text="Adam Griffith kick attempt good."></play>
+   <score V="7" H="0"></score>
+   <drivesum plays="3" yards="59" top="0:55" driveindex="3" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="3,6,29" type="K" tokens="KO:99,H03 RET:3,H46 TACK:99"
+      text="Adam Griffith kickoff 62 yards to the CU3, A. Scott return 43 yards to the CU46 (Adam Griffith)."></play>
+   <drivestart poss="H,H46,07:47" vh="H" spot="H46" clock="07:47" driveindex="4,29"></drivestart>
+   <play context="H,1,10,H46" playid="4,1,30" clock="07:47" tokens="{DRIVE}:07:47"
+      text="CLEMSON drive start at 07:47."></play>
+   <play context="H,1,10,H46" playid="4,2,31" type="P" tokens="PASS:4,C,13,V49 TACK:10"
+      text="Watson pass complete to Renfrow for 5 yards to the UA49 (Reuben Foster)."></play>
+   <play context="H,2,5,V49" playid="4,3,32" type="R" tokens="RUSH:9,V49, TACK:29"
+      text="Gallman rush for no gain to the UA49 (M. Fitzpatrick)."></play>
+   <play context="H,3,5,V49" playid="4,4,33" type="E" first="E" tokens="PASS:4,I,16,* PEN:V,PI,A,10,V43,1 NOPLAY:"
+      text="Watson pass incomplete to Leggett, PENALTY UA pass interference (Reuben Foster) 6 yards to the UA43, 1ST DOWN CU, NO PLAY."></play>
+   <play context="H,1,10,V43" playid="4,5,34" type="R" tokens="RUSH:4,V38,"
+      text="Watson rush for 5 yards to the UA38."></play>
+   <play context="H,2,5,V38" playid="4,6,35" type="R" tokens="RUSH:9,V37, TACK:30"
+      text="Gallman rush for 1 yard to the UA37 (Denzel Devall)."></play>
+   <play context="H,3,4,V37" playid="4,7,36" type="R" first="R" tokens="RUSH:4,V31, OB:"
+      text="Watson rush for 6 yards to the UA31, 1ST DOWN CU, out-of-bounds."></play>
+   <play context="H,1,10,V31" playid="4,8,37" type="P" first="P" score="Y" vscore="7" hscore="6" clock="05:18" tokens="PASS:4,C,13,V00 T:05:18"
+      text="Watson pass complete to Renfrow for 31 yards to the UA0, 1ST DOWN CU, TOUCHDOWN, clock 05:18."></play>
+   <play context="H,1,0,V03" playid="4,9,38" type="X" score="Y" vscore="7" hscore="7" tokens="PAT:K,92,G"
+      text="Huegel kick attempt good."></play>
+   <score V="7" H="7"></score>
+   <drivesum plays="6" yards="54" top="2:29" driveindex="4" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="4,10,39" type="K" tokens="KO:92,V00 RET:17,V39 TACK:92"
+      text="Huegel kickoff 65 yards to the UA0, Kenyan Drake return 39 yards to the UA39 (Huegel)."></play>
+   <drivestart poss="V,V39,05:09" vh="V" spot="V39" clock="05:09" driveindex="5,39"></drivestart>
+   <play context="V,1,10,V39" playid="5,1,40" clock="05:09" tokens="{DRIVE}:05:09"
+      text="ALABAMA drive start at 05:09."></play>
+   <play context="V,1,10,V39" playid="5,2,41" type="R" tokens="RUSH:2,V46, TACK:11"
+      text="Derrick Henry rush for 7 yards to the UA46 (Blanks)."></play>
+   <play context="V,2,3,V46" playid="5,3,42" type="R" tokens="RUSH:2,V46, TACK:48"
+      text="Derrick Henry rush for no gain to the UA46 (Reader)."></play>
+   <play context="V,3,3,V46" playid="5,4,43" type="P" first="P" tokens="PASS:14,C,88,H29 TACK:15"
+      text="Jake Coker pass complete to O.J. Howard for 25 yards to the CU29, 1ST DOWN UA (T. Green)."></play>
+   <play context="V,1,10,H29" playid="5,5,44" type="P" tokens="PASS:14,S,TM,H35 SACK:90"
+      text="Jake Coker sacked for loss of 6 yards to the CU35 (Lawson)."></play>
+   <play context="V,2,16,H35" playid="5,6,45" type="#" clock="03:05" tokens="TOUT:V T:03:05"
+      text="Timeout Alabama, clock 03:05."></play>
+   <play context="V,2,16,H35" playid="5,7,46" type="P" tokens="PASS:14,I,3A,*"
+      text="Jake Coker pass incomplete to Calvin Ridley."></play>
+   <play context="V,3,16,H35" playid="5,8,47" type="R" tokens="RUSH:2,H27, TACK:91"
+      text="Derrick Henry rush for 8 yards to the CU27 (A. Bryant)."></play>
+   <play context="V,4,8,H27" playid="5,9,48" type="F" clock="02:17" tokens="FGA:99,44,M,H27,R T:02:17"
+      text="Adam Griffith field goal attempt from 44 MISSED - wide right, spot at CU27, clock 02:17."></play>
+   <drivesum plays="7" yards="34" top="2:52" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H27,02:17" vh="H" spot="H27" clock="02:17" driveindex="6,48"></drivestart>
+   <play context="H,1,10,H27" playid="6,1,49" clock="02:17" tokens="{DRIVE}:02:17"
+      text="CLEMSON drive start at 02:17."></play>
+   <play context="H,1,10,H27" playid="6,2,50" type="R" first="R" tokens="RUSH:4,H38, OB:"
+      text="Watson rush for 11 yards to the CU38, 1ST DOWN CU, out-of-bounds."></play>
+   <play context="H,1,10,H38" playid="6,3,51" type="R" tokens="RUSH:9,H44, TACK:29,30"
+      text="Gallman rush for 6 yards to the CU44 (M. Fitzpatrick;Denzel Devall)."></play>
+   <play context="H,2,4,H44" playid="6,4,52" type="P" first="P" tokens="PASS:4,C,19,V32 OB: TACK:26"
+      text="Watson pass complete to Peake for 24 yards to the UA32, 1ST DOWN CU, out-of-bounds (Marlon Humphrey)."></play>
+   <play context="H,1,10,V32" playid="6,5,53" type="P" first="P" tokens="PASS:4,C,16,V12 TACK:24"
+      text="Watson pass complete to Leggett for 20 yards to the UA12, 1ST DOWN CU (G. Matias-Smith)."></play>
+   <play context="H,1,10,V12" playid="6,6,54" type="R" tokens="RUSH:4,V11, TACK:19"
+      text="Watson rush for 1 yard to the UA11 (Reggie Ragland)."></play>
+   <play context="H,2,9,V11" playid="6,7,55" type="P" tokens="PASS:4,I,13,*"
+      text="Watson pass incomplete to Renfrow."></play>
+   <play context="H,3,9,V11" playid="6,8,56" type="P" first="P" score="Y" vscore="7" hscore="13" clock="00:00" tokens="PASS:4,C,13,V00 T:00:00"
+      text="Watson pass complete to Renfrow for 11 yards to the UA0, 1ST DOWN CU, TOUCHDOWN, clock 00:00."></play>
+   <play context="H,1,0,V03" playid="6,9,57" type="X" score="Y" vscore="7" hscore="14" tokens="PAT:K,92,G"
+      text="Huegel kick attempt good."></play>
+   <score V="7" H="14"></score>
+   <score qtr="1" V="7" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="6"></penalties>
+    <conversions thirdconv="4" thirdatt="6" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:57"></misc>
+    <rush att="11" yds="80" gain="86" loss="6" td="1" long="50"></rush>
+    <pass comp="4" att="7" int="0" yds="34" td="0" long="25" sacks="1" sackyds="6"></pass>
+    <rcv no="4" yds="34" td="0" long="25"></rcv>
+    <punt no="1" yds="44" long="44" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="62" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="2" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="60" td="0" long="39"></kr>
+    <pr no="1" yds="12" td="0" long="12"></pr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CU">
+    <firstdowns no="9" rush="3" pass="5" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:03"></misc>
+    <rush att="10" yds="39" gain="39" loss="0" td="0" long="11"></rush>
+    <pass comp="7" att="11" int="0" yds="108" td="2" long="31" sacks="0" sackyds="0"></pass>
+    <rcv no="7" yds="108" td="2" long="31"></rcv>
+    <punt no="1" yds="36" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="130" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="15" tacka="2" tflua="1" tfla="0" tflyds="6" sacks="1" sackyds="6"></defense>
+    <kr no="1" yds="43" td="0" long="43"></kr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="H,1,0,H35" playid="6,10,58" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00."></play>
+   <play context="H,1,0,H35" playid="6,11,59" type="#" clock="15:00" tokens="T:15:00"
+      text="Clock 15:00."></play>
+   <drivesum plays="7" yards="73" top="2:17" driveindex="6" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="6,12,60" type="K" tokens="KO:92,V00 TB:"
+      text="Huegel kickoff 65 yards to the UA0, touchback."></play>
+   <drivestart poss="V,V25,15:00" vh="V" spot="V25" clock="15:00" driveindex="7,60"></drivestart>
+   <play context="V,1,10,V25" playid="7,1,61" clock="15:00" tokens="{DRIVE}:15:00"
+      text="ALABAMA drive start at 15:00."></play>
+   <play context="V,1,10,V25" playid="7,2,62" clock="15:00" tokens="{DRIVE}:15:00"
+      text="ALABAMA drive start at 15:00."></play>
+   <play context="V,1,10,V25" playid="7,3,63" type="P" first="P" tokens="PASS:14,C,16,H46 TACK:1"
+      text="Jake Coker pass complete to R. Mullaney for 29 yards to the CU46, 1ST DOWN UA (Kearse)."></play>
+   <play context="V,1,10,H46" playid="7,4,64" type="R" tokens="RUSH:2,H50, TACK:98"
+      text="Derrick Henry rush for loss of 4 yards to the 50 yardline (Dodd)."></play>
+   <play context="V,2,14,V50" playid="7,5,65" type="P" tokens="PASS:14,S,TM,V46 SACK:98"
+      text="Jake Coker sacked for loss of 4 yards to the UA46 (Dodd)."></play>
+   <play context="V,3,18,V46" playid="7,6,66" type="P" tokens="PASS:14,C,3A,V47 TACK:2"
+      text="Jake Coker pass complete to Calvin Ridley for 1 yard to the UA47 (Alexander)."></play>
+   <play context="V,4,17,V47" playid="7,7,67" type="U" tokens="PUNT:15,H17 FC:3"
+      text="JK Scott punt 36 yards to the CU17, fair catch by A. Scott."></play>
+   <drivesum plays="4" yards="22" top="2:29" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H17,12:31" vh="H" spot="H17" clock="12:31" driveindex="8,67"></drivestart>
+   <play context="H,1,10,H17" playid="8,1,68" clock="12:31" tokens="{DRIVE}:12:31"
+      text="CLEMSON drive start at 12:31."></play>
+   <play context="H,1,10,H17" playid="8,2,69" type="R" tokens="RUSH:4,H24, TACK:10"
+      text="Watson rush for 7 yards to the CU24 (Reuben Foster)."></play>
+   <play context="H,2,3,H24" playid="8,3,70" type="P" turnover="I" tokens="PASS:4,X,4,H42 RET:4,H42"
+      text="Watson pass intercepted by Eddie Jackson at the CU42, Eddie Jackson return 0 yards to the CU42."></play>
+   <drivesum plays="2" yards="7" top="0:33" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,H42,11:58" vh="V" spot="H42" clock="11:58" driveindex="9,70"></drivestart>
+   <play context="V,1,10,H42" playid="9,1,71" clock="11:58" tokens="{DRIVE}:11:58"
+      text="ALABAMA drive start at 11:58."></play>
+   <play context="V,1,10,H42" playid="9,2,72" type="P" tokens="PASS:14,C,3A,H50 +:17,H36"
+      text="Jake Coker pass complete to Calvin Ridley for loss of 8 yards to the 50 yardline, Kenyan Drake for 14 yards to the CU36."></play>
+   <play context="V,2,4,H36" playid="9,3,73" type="R" first="R" tokens="RUSH:2,H24, TACK:44 PEN:H,FM,A,44,H12,1"
+      text="Derrick Henry rush for 12 yards to the CU24, 1ST DOWN UA (Goodson), PENALTY CU face mask (Goodson) 12 yards to the CU12, 1ST DOWN UA."></play>
+   <play context="V,1,10,H12" playid="9,4,74" tokens="D:1,10"
+      text="1st and 10."></play>
+   <play context="V,1,10,H12" playid="9,5,75" type="#" clock="11:08" tokens="TOUT:V T:11:08"
+      text="Timeout Alabama, clock 11:08."></play>
+   <play context="V,1,10,H12" playid="9,6,76" type="R" tokens="RUSH:2,H09, TACK:15"
+      text="Derrick Henry rush for 3 yards to the CU9 (T. Green)."></play>
+   <play context="V,2,7,H09" playid="9,7,77" type="P" tokens="PASS:14,I,3A,*"
+      text="Jake Coker pass incomplete to Calvin Ridley."></play>
+   <play context="V,3,7,H09" playid="9,8,78" type="P" first="P" tokens="PASS:14,C,3A,H02 TACK:15,94"
+      text="Jake Coker pass complete to Calvin Ridley for 7 yards to the CU2, 1ST DOWN UA (T. Green;Watkins)."></play>
+   <play context="V,1,0,H02" playid="9,9,79" type="R" tokens="RUSH:17,H01, TACK:90"
+      text="Kenyan Drake rush for 1 yard to the CU1 (Lawson)."></play>
+   <play context="V,2,0,H01" playid="9,10,80" type="R" score="Y" vscore="13" hscore="14" clock="09:35" tokens="RUSH:2,H00, T:09:35"
+      text="Derrick Henry rush for 1 yard to the CU0, TOUCHDOWN, clock 09:35."></play>
+   <play context="V,1,0,H03" playid="9,11,81" type="X" score="Y" vscore="14" hscore="14" tokens="PAT:K,99,G"
+      text="Adam Griffith kick attempt good."></play>
+   <score V="14" H="14"></score>
+   <drivesum plays="7" yards="42" top="2:23" driveindex="9" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="9,12,82" type="K" tokens="KO:99,H00 TB:"
+      text="Adam Griffith kickoff 65 yards to the CU0, touchback."></play>
+   <drivestart poss="H,H25,09:35" vh="H" spot="H25" clock="09:35" driveindex="10,82"></drivestart>
+   <play context="H,1,10,H25" playid="10,1,83" clock="09:35" tokens="{DRIVE}:09:35"
+      text="CLEMSON drive start at 09:35."></play>
+   <play context="H,1,10,H25" playid="10,2,84" type="R" tokens="RUSH:4,H29, OB: TACK:24"
+      text="Watson rush for 4 yards to the CU29, out-of-bounds (G. Matias-Smith)."></play>
+   <play context="H,2,6,H29" playid="10,3,85" type="R" tokens="RUSH:4,H31, TACK:19"
+      text="Watson rush for 2 yards to the CU31 (Reggie Ragland)."></play>
+   <play context="H,3,4,H31" playid="10,4,86" type="P" tokens="PASS:4,C,13,H33"
+      text="Watson pass complete to Renfrow for 2 yards to the CU33."></play>
+   <play context="H,4,2,H33" playid="10,5,87" type="U" tokens="PUNT:32,V10 DN:"
+      text="Teasdall punt 57 yards to the UA10, downed."></play>
+   <drivesum plays="3" yards="8" top="1:40" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V10,07:55" vh="V" spot="V10" clock="07:55" driveindex="11,87"></drivestart>
+   <play context="V,1,10,V10" playid="11,1,88" clock="07:55" tokens="{DRIVE}:07:55"
+      text="ALABAMA drive start at 07:55."></play>
+   <play context="V,1,10,V10" playid="11,2,89" type="R" tokens="RUSH:2,V13, TACK:56"
+      text="Derrick Henry rush for 3 yards to the UA13 (Pagano)."></play>
+   <play context="V,2,7,V13" playid="11,3,90" type="R" tokens="RUSH:2,V19, TACK:44"
+      text="Derrick Henry rush for 6 yards to the UA19 (Goodson)."></play>
+   <play context="V,3,1,V19" playid="11,4,91" type="R" first="R" tokens="RUSH:2,V22, TACK:44"
+      text="Derrick Henry rush for 3 yards to the UA22, 1ST DOWN UA (Goodson)."></play>
+   <play context="V,1,10,V22" playid="11,5,92" type="R" tokens="RUSH:2,V27, TACK:98"
+      text="Derrick Henry rush for 5 yards to the UA27 (Dodd)."></play>
+   <play context="V,2,5,V27" playid="11,6,93" type="P" tokens="PASS:14,S,TM,V22 SACK:90"
+      text="Jake Coker sacked for loss of 5 yards to the UA22 (Lawson)."></play>
+   <play context="V,3,10,V22" playid="11,7,94" type="R" tokens="RUSH:14,V30, TACK:44"
+      text="Jake Coker rush for 8 yards to the UA30 (Goodson)."></play>
+   <play context="V,4,2,V30" playid="11,8,95" type="U" tokens="PUNT:15,H18 FC:3"
+      text="JK Scott punt 52 yards to the CU18, fair catch by A. Scott."></play>
+   <drivesum plays="6" yards="20" top="3:30" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H18,04:25" vh="H" spot="H18" clock="04:25" driveindex="12,95"></drivestart>
+   <play context="H,1,10,H18" playid="12,1,96" clock="04:25" tokens="{DRIVE}:04:25"
+      text="CLEMSON drive start at 04:25."></play>
+   <play context="H,1,10,H18" playid="12,2,97" type="R" tokens="RUSH:24,H22, TACK:24"
+      text="Brooks rush for 4 yards to the CU22 (G. Matias-Smith)."></play>
+   <play context="H,2,6,H22" playid="12,3,98" type="R" first="R" tokens="RUSH:4,H31, TACK:10"
+      text="Watson rush for 9 yards to the CU31, 1ST DOWN CU (Reuben Foster)."></play>
+   <play context="H,1,10,H31" playid="12,4,99" type="P" tokens="PASS:4,I,13,* BRUP:57"
+      text="Watson pass incomplete to Renfrow (D.J. Pettway)."></play>
+   <play context="H,2,10,H31" playid="12,5,100" type="P" first="P" tokens="PASS:4,C,3,H43 TACK:24"
+      text="Watson pass complete to A. Scott for 12 yards to the CU43, 1ST DOWN CU (G. Matias-Smith)."></play>
+   <play context="H,1,10,H43" playid="12,6,101" type="E" tokens="PASS:4,C,24,V45 TACK:90 PEN:H,ID,A,73,H38,N NOPLAY:"
+      text="Watson pass complete to Brooks for 12 yards to the UA45 (Jarran Reed), PENALTY CU ineligible downfield on pass (Gore) 5 yards to the CU38, NO PLAY."></play>
+   <play context="H,1,15,H38" playid="12,7,102" type="R" tokens="RUSH:9,H33, TACK:10"
+      text="Gallman rush for loss of 5 yards to the CU33 (Reuben Foster)."></play>
+   <play context="H,2,20,H33" playid="12,8,103" type="R" tokens="RUSH:9,H30, TACK:9"
+      text="Gallman rush for loss of 3 yards to the CU30 (Da'Shawn Hand)."></play>
+   <play context="H,3,23,H30" playid="12,9,104" type="R" tokens="RUSH:4,H30, TACK:32"
+      text="Watson rush for no gain to the CU30 (Rashaan Evans)."></play>
+   <play context="H,4,23,H30" playid="12,10,105" type="#" clock="01:52" tokens="TOUT:V T:01:52"
+      text="Timeout Alabama, clock 01:52."></play>
+   <play context="H,4,23,H30" playid="12,11,106" type="U" tokens="PUNT:32,V24 OB:"
+      text="Teasdall punt 46 yards to the UA24, out-of-bounds."></play>
+   <drivesum plays="7" yards="12" top="2:40" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V24,01:45" vh="V" spot="V24" clock="01:45" driveindex="13,106"></drivestart>
+   <play context="V,1,10,V24" playid="13,1,107" clock="01:45" tokens="{DRIVE}:01:45"
+      text="ALABAMA drive start at 01:45."></play>
+   <play context="V,1,10,V24" playid="13,2,108" type="P" tokens="PASS:14,S,TM,V15 SACK:98"
+      text="Jake Coker sacked for loss of 9 yards to the UA15 (Dodd)."></play>
+   <play context="V,2,19,V15" playid="13,3,109" type="R" tokens="RUSH:2,V16, TACK:48"
+      text="Derrick Henry rush for 1 yard to the UA16 (Reader)."></play>
+   <play context="V,3,18,V16" playid="13,4,110" type="#" clock="00:55" tokens="TOUT:H T:00:55"
+      text="Timeout Clemson, clock 00:55."></play>
+   <play context="V,3,18,V16" playid="13,5,111" type="P" tokens="PASS:14,C,3A,V21 OB: TACK:11"
+      text="Jake Coker pass complete to Calvin Ridley for 5 yards to the UA21, out-of-bounds (Blanks)."></play>
+   <play context="V,4,13,V21" playid="13,6,112" type="U" tokens="PUNT:15,H34 FC:3"
+      text="JK Scott punt 45 yards to the CU34, fair catch by A. Scott."></play>
+   <drivesum plays="3" yards="-3" top="1:08" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H34,00:37" vh="H" spot="H34" clock="00:37" driveindex="14,112"></drivestart>
+   <play context="H,1,10,H34" playid="14,1,113" clock="00:37" tokens="{DRIVE}:00:37"
+      text="CLEMSON drive start at 00:37."></play>
+   <play context="H,1,10,H34" playid="14,2,114" type="P" first="P" tokens="PASS:4,C,19,V39 TACK:24"
+      text="Watson pass complete to Peake for 27 yards to the UA39, 1ST DOWN CU (G. Matias-Smith)."></play>
+   <play context="H,1,10,V39" playid="14,3,115" type="P" clock="00:25" tokens="T:00:25 PASS:4,C,24,V37 TACK:10"
+      text="Clock 00:25, Watson pass complete to Brooks for 2 yards to the UA37 (Reuben Foster)."></play>
+   <play context="H,2,8,V37" playid="14,4,116" type="#" clock="00:20" tokens="TOUT:H T:00:20"
+      text="Timeout Clemson, clock 00:20."></play>
+   <play context="H,2,8,V37" playid="14,5,117" type="P" first="P" tokens="PASS:4,C,24,V26 TACK:5"
+      text="Watson pass complete to Brooks for 11 yards to the UA26, 1ST DOWN CU (Cyrus Jones)."></play>
+   <play context="H,1,10,V26" playid="14,6,118" type="#" clock="00:09" tokens="TOUT:H T:00:09"
+      text="Timeout Clemson, clock 00:09."></play>
+   <play context="H,1,10,V26" playid="14,7,119" type="F" clock="00:05" tokens="FGA:92,44,M,V27,S T:00:05 BLOCK:57"
+      text="Huegel field goal attempt from 44 MISSED - short, spot at UA27, clock 00:05 (blocked by D.J. Pettway)."></play>
+   <drivesum plays="4" yards="40" top="0:32" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V27,00:05" vh="V" spot="V27" clock="00:05" driveindex="15,119"></drivestart>
+   <play context="V,1,10,V27" playid="15,1,120" clock="00:05" tokens="{DRIVE}:00:05"
+      text="ALABAMA drive start at 00:05."></play>
+   <play context="V,1,10,V27" playid="15,2,121" type="R" first="R" tokens="RUSH:2,V39, TACK:1"
+      text="Derrick Henry rush for 12 yards to the UA39, 1ST DOWN UA (Kearse)."></play>
+   <play context="V,1,10,V39" playid="15,3,122" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="1" yards="12" top="0:05" driveindex="15" complete="Y"></drivesum>
+   <score qtr="2" V="14" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="6" rush="3" pass="2" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:35"></misc>
+    <rush att="15" yds="33" gain="55" loss="22" td="1" long="0"></rush>
+    <pass comp="5" att="6" int="0" yds="48" td="0" long="4" sacks="3" sackyds="18"></pass>
+    <rcv no="5" yds="48" td="0" long="4"></rcv>
+    <punt no="3" yds="133" long="8" blkd="0" tb="0" fc="3" plus50="1" inside20="2"></punt>
+    <ko no="1" yds="65" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="0" tflua="2" tfla="0" tflyds="8" sacks="0" sackyds="0" brup="1" blkd="1" int="1" intyds="0"></defense>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CU">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="2" yds="17"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:25"></misc>
+    <rush att="8" yds="18" gain="26" loss="8" td="0" long="0"></rush>
+    <pass comp="5" att="7" int="1" yds="54" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="54" td="0" long="0"></rcv>
+    <punt no="2" yds="103" long="21" blkd="0" tb="0" fc="0" plus50="1" inside20="1"></punt>
+    <ko no="1" yds="65" ob="0" tb="1"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <defense tackua="17" tacka="2" tflua="4" tfla="0" tflyds="22" sacks="3" sackyds="18"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,1,10,V39" playid="15,4,123" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:V,V35,N"
+      text="Start of 3rd quarter, clock 15:00, UA ball on UA35."></play>
+   <play context="V,1,10,V35" playid="15,5,124" type="K" tokens="KO:99,H07 RET:3,H23 TACK:25"
+      text="Adam Griffith kickoff 58 yards to the CU7, A. Scott return 16 yards to the CU23 (Dillon Lee)."></play>
+   <drivestart poss="H,H23,14:55" vh="H" spot="H23" clock="14:55" driveindex="16,124"></drivestart>
+   <play context="H,1,10,H23" playid="16,1,125" clock="14:55" tokens="{DRIVE}:14:55"
+      text="CLEMSON drive start at 14:55."></play>
+   <play context="H,1,10,H23" playid="16,2,126" type="R" tokens="RUSH:9,H21, TACK:26"
+      text="Gallman rush for loss of 2 yards to the CU21 (Marlon Humphrey)."></play>
+   <play context="H,2,12,H21" playid="16,3,127" type="P" tokens="PASS:4,C,13,H30 TACK:19"
+      text="Watson pass complete to Renfrow for 9 yards to the CU30 (Reggie Ragland)."></play>
+   <play context="H,3,3,H30" playid="16,4,128" type="P" tokens="PASS:4,I,19,* BRUP:26"
+      text="Watson pass incomplete to Peake (Marlon Humphrey)."></play>
+   <play context="H,4,3,H30" playid="16,5,129" type="U" tokens="PUNT:32,V36 DN:"
+      text="Teasdall punt 34 yards to the UA36, downed."></play>
+   <drivesum plays="3" yards="7" top="1:09" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,V36,13:46" vh="V" spot="V36" clock="13:46" driveindex="17,129"></drivestart>
+   <play context="V,1,10,V36" playid="17,1,130" clock="13:46" tokens="{DRIVE}:13:46"
+      text="ALABAMA drive start at 13:46."></play>
+   <play context="V,1,10,V36" playid="17,2,131" type="R" tokens="RUSH:2,V40, TACK:98"
+      text="Derrick Henry rush for 4 yards to the UA40 (Dodd)."></play>
+   <play context="V,2,6,V40" playid="17,3,132" type="P" first="P" tokens="PASS:14,C,17,V47 OB:"
+      text="Jake Coker pass complete to Kenyan Drake for 7 yards to the UA47, 1ST DOWN UA, out-of-bounds."></play>
+   <play context="V,1,10,V47" playid="17,4,133" type="P" first="P" score="Y" vscore="20" hscore="14" clock="12:53" tokens="PASS:14,C,88,H00 T:12:53"
+      text="Jake Coker pass complete to O.J. Howard for 53 yards to the CU0, 1ST DOWN UA, TOUCHDOWN, clock 12:53."></play>
+   <play context="V,1,0,H03" playid="17,5,134" type="X" score="Y" vscore="21" hscore="14" tokens="PAT:K,99,G"
+      text="Adam Griffith kick attempt good."></play>
+   <score V="21" H="14"></score>
+   <drivesum plays="3" yards="64" top="0:53" driveindex="17" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="17,6,135" type="K" tokens="KO:99,H00 TB:"
+      text="Adam Griffith kickoff 65 yards to the CU0, touchback."></play>
+   <drivestart poss="H,H25,12:53" vh="H" spot="H25" clock="12:53" driveindex="18,135"></drivestart>
+   <play context="H,1,10,H25" playid="18,1,136" clock="12:53" tokens="{DRIVE}:12:53"
+      text="CLEMSON drive start at 12:53."></play>
+   <play context="H,1,10,H25" playid="18,2,137" type="R" tokens="RUSH:3,H34, TACK:9"
+      text="A. Scott rush for 9 yards to the CU34 (Da'Shawn Hand)."></play>
+   <play context="H,2,1,H34" playid="18,3,138" type="R" first="R" tokens="RUSH:9,H38, TACK:24"
+      text="Gallman rush for 4 yards to the CU38, 1ST DOWN CU (G. Matias-Smith)."></play>
+   <play context="H,1,10,H38" playid="18,4,139" type="R" tokens="RUSH:9,H38, TACK:29"
+      text="Gallman rush for no gain to the CU38 (M. Fitzpatrick)."></play>
+   <play context="H,2,10,H38" playid="18,5,140" type="P" first="P" tokens="PASS:4,C,24,V40 TACK:26,4"
+      text="Watson pass complete to Brooks for 22 yards to the UA40, 1ST DOWN CU (Marlon Humphrey;Eddie Jackson)."></play>
+   <play context="H,1,10,V40" playid="18,6,141" type="R" tokens="RUSH:4,V36, TACK:54"
+      text="Watson rush for 4 yards to the UA36 (D. Tomlinson)."></play>
+   <play context="H,2,6,V36" playid="18,7,142" type="E" first="E" tokens="PASS:4,I,13,* PEN:V,PI,A,29,V21,1 NOPLAY:"
+      text="Watson pass incomplete to Renfrow, PENALTY UA pass interference (M. Fitzpatrick) 15 yards to the UA21, 1ST DOWN CU, NO PLAY."></play>
+   <play context="H,1,10,V21" playid="18,8,143" type="R" tokens="RUSH:4,V20, TACK:9,86"
+      text="Watson rush for 1 yard to the UA20 (Da'Shawn Hand;A. Robinson)."></play>
+   <play context="H,2,9,V20" playid="18,9,144" type="P" tokens="PASS:4,I,5,* BRUP:29"
+      text="Watson pass incomplete to Hopper (M. Fitzpatrick)."></play>
+   <play context="H,3,9,V20" playid="18,10,145" type="P" tokens="PASS:4,I,3,* BRUP:1B"
+      text="Watson pass incomplete to A. Scott (Ronnie Harrison)."></play>
+   <play context="H,4,9,V20" playid="18,11,146" type="F" score="Y" vscore="21" hscore="17" clock="10:10" tokens="FGA:92,37,G T:10:10"
+      text="Huegel field goal attempt from 37 GOOD, clock 10:10."></play>
+   <score V="21" H="17"></score>
+   <drivesum plays="9" yards="55" top="2:43" driveindex="18" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="18,12,147" type="K" tokens="KO:92,V01 RET:17,V26 TACK:6"
+      text="Huegel kickoff 64 yards to the UA1, Kenyan Drake return 25 yards to the UA26 (O'Daniel)."></play>
+   <drivestart poss="V,V26,10:02" vh="V" spot="V26" clock="10:02" driveindex="19,147"></drivestart>
+   <play context="V,1,10,V26" playid="19,1,148" clock="10:02" tokens="{DRIVE}:10:02"
+      text="ALABAMA drive start at 10:02."></play>
+   <play context="V,1,10,V26" playid="19,2,149" type="P" tokens="PASS:14,S,TM,V19 SACK:98 PEN:V,HO,D"
+      text="Jake Coker sacked for loss of 7 yards to the UA19 (Dodd), PENALTY UA holding declined."></play>
+   <play context="V,2,17,V19" playid="19,3,150" type="R" tokens="RUSH:2,V21, TACK:90,15"
+      text="Derrick Henry rush for 2 yards to the UA21 (Lawson;T. Green)."></play>
+   <play context="V,3,15,V21" playid="19,4,151" type="R" tokens="RUSH:2,V25, TACK:48,15 PEN:V,HO,D"
+      text="Derrick Henry rush for 4 yards to the UA25 (Reader;T. Green), PENALTY UA holding declined."></play>
+   <play context="V,4,11,V25" playid="19,5,152" type="U" tokens="PUNT:15,H27 RET:3,H40 TACK:3,42"
+      text="JK Scott punt 48 yards to the CU27, A. Scott return 13 yards to the CU40 (Bradley Sylve;Keith Holcombe)."></play>
+   <drivesum plays="3" yards="-1" top="1:36" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H40,08:26" vh="H" spot="H40" clock="08:26" driveindex="20,152"></drivestart>
+   <play context="H,1,10,H40" playid="20,1,153" clock="08:26" tokens="{DRIVE}:08:26"
+      text="CLEMSON drive start at 08:26."></play>
+   <play context="H,1,10,H40" playid="20,2,154" type="R" first="R" tokens="RUSH:4,V40, OB: TACK:5"
+      text="Watson rush for 20 yards to the UA40, 1ST DOWN CU, out-of-bounds (Cyrus Jones)."></play>
+   <play context="H,1,10,V40" playid="20,3,155" type="P" first="P" tokens="PASS:4,C,16,V29"
+      text="Watson pass complete to Leggett for 11 yards to the UA29, 1ST DOWN CU."></play>
+   <play context="H,1,10,V29" playid="20,4,156" type="P" tokens="PASS:4,I,13,* BRUP:29"
+      text="Watson pass incomplete to Renfrow (M. Fitzpatrick)."></play>
+   <play context="H,2,10,V29" playid="20,5,157" type="E" tokens="PEN:H,FS,A,34,V34,N"
+      text="PENALTY CU false start (Mccloud) 5 yards to the UA34."></play>
+   <play context="H,2,15,V34" playid="20,6,158" type="R" first="R" tokens="RUSH:4,V18, OB:"
+      text="Watson rush for 16 yards to the UA18, 1ST DOWN CU, out-of-bounds."></play>
+   <play context="H,1,10,V18" playid="20,7,159" type="P" tokens="PASS:4,C,19,V14 TACK:24"
+      text="Watson pass complete to Peake for 4 yards to the UA14 (G. Matias-Smith)."></play>
+   <play context="H,2,6,V14" playid="20,8,160" type="P" first="P" tokens="PASS:4,C,9,V06 TACK:26"
+      text="Watson pass complete to Gallman for 8 yards to the UA6, 1ST DOWN CU (Marlon Humphrey)."></play>
+   <play context="H,1,0,V06" playid="20,9,161" type="#" clock="05:54" tokens="TOUT:H T:05:54"
+      text="Timeout Clemson, clock 05:54."></play>
+   <play context="H,1,0,V06" playid="20,10,162" type="R" tokens="RUSH:4,V01, TACK:19"
+      text="Watson rush for 5 yards to the UA1 (Reggie Ragland)."></play>
+   <play context="H,2,0,V01" playid="20,11,163" type="R" tokens="RUSH:9,V01, TACK:86"
+      text="Gallman rush for no gain to the UA1 (A. Robinson)."></play>
+   <play context="H,3,0,V01" playid="20,12,164" type="R" score="Y" vscore="21" hscore="23" clock="04:48" tokens="RUSH:9,V00, T:04:48"
+      text="Gallman rush for 1 yard to the UA0, TOUCHDOWN, clock 04:48."></play>
+   <play context="H,1,0,V03" playid="20,13,165" type="X" score="Y" vscore="21" hscore="24" tokens="PAT:K,92,G"
+      text="Huegel kick attempt good."></play>
+   <score V="21" H="24"></score>
+   <drivesum plays="9" yards="60" top="3:38" driveindex="20" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="20,14,166" type="K" tokens="KO:92,V01 RET:17,V17 TACK:6,23"
+      text="Huegel kickoff 64 yards to the UA1, Kenyan Drake return 16 yards to the UA17 (O'Daniel;V. Smith)."></play>
+   <drivestart poss="V,V17,04:42" vh="V" spot="V17" clock="04:42" driveindex="21,166"></drivestart>
+   <play context="V,1,10,V17" playid="21,1,167" clock="04:42" tokens="{DRIVE}:04:42"
+      text="ALABAMA drive start at 04:42."></play>
+   <play context="V,1,10,V17" playid="21,2,168" type="R" tokens="RUSH:2,V20, TACK:44"
+      text="Derrick Henry rush for 3 yards to the UA20 (Goodson)."></play>
+   <play context="V,2,7,V20" playid="21,3,169" type="P" first="P" tokens="PASS:14,C,88,V36 TACK:2A,15"
+      text="Jake Coker pass complete to O.J. Howard for 16 yards to the UA36, 1ST DOWN UA (Baker;T. Green)."></play>
+   <play context="V,1,10,V36" playid="21,4,170" type="R" tokens="RUSH:2,V37, TACK:25,42"
+      text="Derrick Henry rush for 1 yard to the UA37 (Tankersley;Wilkins)."></play>
+   <play context="V,2,9,V37" playid="21,5,171" type="P" tokens="PASS:14,I,13,*"
+      text="Jake Coker pass incomplete to A. Stewart."></play>
+   <play context="V,3,9,V37" playid="21,6,172" type="P" tokens="PASS:14,I,16,*"
+      text="Jake Coker pass incomplete to R. Mullaney."></play>
+   <play context="V,4,9,V37" playid="21,7,173" type="U" tokens="PUNT:15,H29 RET:3,H38 TACK:25"
+      text="JK Scott punt 34 yards to the CU29, A. Scott return 9 yards to the CU38 (Dillon Lee)."></play>
+   <drivesum plays="5" yards="20" top="1:58" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,H38,02:44" vh="H" spot="H38" clock="02:44" driveindex="22,173"></drivestart>
+   <play context="H,1,10,H38" playid="22,1,174" clock="02:44" tokens="{DRIVE}:02:44"
+      text="CLEMSON drive start at 02:44."></play>
+   <play context="H,1,10,H38" playid="22,2,175" type="R" tokens="RUSH:34,H42, OB: TACK:29"
+      text="Mccloud rush for 4 yards to the CU42, out-of-bounds (M. Fitzpatrick)."></play>
+   <play context="H,2,6,H42" playid="22,3,176" type="P" tokens="PASS:4,I,13,*"
+      text="Watson pass incomplete to Renfrow."></play>
+   <play context="H,3,6,H42" playid="22,4,177" type="P" first="P" tokens="PASS:4,C,16,V48 TACK:10"
+      text="Watson pass complete to Leggett for 10 yards to the UA48, 1ST DOWN CU (Reuben Foster)."></play>
+   <play context="H,1,10,V48" playid="22,5,178" type="P" tokens="PASS:4,C,3,V46 OB: TACK:30"
+      text="Watson pass complete to A. Scott for 2 yards to the UA46, out-of-bounds (Denzel Devall)."></play>
+   <play context="H,2,8,V46" playid="22,6,179" type="P" tokens="PASS:4,I,24,*"
+      text="Watson pass incomplete to Brooks."></play>
+   <play context="H,3,8,V46" playid="22,7,180" type="P" tokens="PASS:4,S,TM,H43 SACK:32"
+      text="Watson sacked for loss of 11 yards to the CU43 (Rashaan Evans)."></play>
+   <play context="H,4,19,H43" playid="22,8,181" type="U" tokens="PUNT:32,V05 OB:"
+      text="Teasdall punt 52 yards to the UA5, out-of-bounds."></play>
+   <drivesum plays="6" yards="5" top="2:01" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,V05,00:43" vh="V" spot="V05" clock="00:43" driveindex="23,181"></drivestart>
+   <play context="V,1,10,V05" playid="23,1,182" clock="00:43" tokens="{DRIVE}:00:43"
+      text="ALABAMA drive start at 00:43."></play>
+   <play context="V,1,10,V05" playid="23,2,183" type="R" tokens="RUSH:2,V10, TACK:25"
+      text="Derrick Henry rush for 5 yards to the UA10 (Tankersley)."></play>
+   <play context="V,2,5,V10" playid="23,3,184" type="R" tokens="RUSH:2,V12, TACK:10"
+      text="Derrick Henry rush for 2 yards to the UA12 (Boulware)."></play>
+   <score qtr="3" V="21" H="24"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="3" rush="0" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:24"></misc>
+    <rush att="8" yds="14" gain="21" loss="7" td="0" long="0"></rush>
+    <pass comp="3" att="5" int="0" yds="76" td="1" long="24" sacks="1" sackyds="7"></pass>
+    <rcv no="3" yds="76" td="1" long="24"></rcv>
+    <punt no="2" yds="82" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="123" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="17" tacka="6" tflua="2" tfla="0" tflyds="13" sacks="1" sackyds="11" brup="4"></defense>
+    <kr no="2" yds="41" td="0" long="0"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CU">
+    <firstdowns no="8" rush="3" pass="4" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:36"></misc>
+    <rush att="13" yds="51" gain="64" loss="13" td="1" long="9"></rush>
+    <pass comp="7" att="13" int="0" yds="66" td="0" long="0" sacks="1" sackyds="11"></pass>
+    <rcv no="7" yds="66" td="0" long="0"></rcv>
+    <punt no="2" yds="86" long="0" blkd="0" tb="0" fc="0" plus50="1" inside20="1"></punt>
+    <ko no="2" yds="128" ob="0" tb="0"></ko>
+    <fg made="1" att="1" long="37" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="6" tacka="10" tflua="1" tfla="0" tflyds="7" sacks="1" sackyds="7"></defense>
+    <kr no="1" yds="16" td="0" long="0"></kr>
+    <pr no="2" yds="22" td="0" long="13"></pr>
+    <scoring td="1" fg="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,3,3,V12" playid="23,4,185" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00."></play>
+   <play context="V,3,3,V12" playid="23,5,186" type="P" tokens="PASS:14,I,3A,*"
+      text="Jake Coker pass incomplete to Calvin Ridley."></play>
+   <play context="V,4,3,V12" playid="23,6,187" type="U" tokens="PUNT:15,V50 FC:3"
+      text="JK Scott punt 38 yards to the 50 yardline, fair catch by A. Scott."></play>
+   <drivesum plays="3" yards="7" top="0:55" driveindex="23" complete="Y"></drivesum>
+   <drivestart poss="H,H50,14:48" vh="H" spot="H50" clock="14:48" driveindex="24,187"></drivestart>
+   <play context="H,1,10,H50" playid="24,1,188" clock="14:48" tokens="{DRIVE}:14:48"
+      text="CLEMSON drive start at 14:48."></play>
+   <play context="H,1,10,H50" playid="24,2,189" type="R" first="R" tokens="RUSH:3,V40, TACK:4"
+      text="A. Scott rush for 10 yards to the UA40, 1ST DOWN CU (Eddie Jackson)."></play>
+   <play context="H,1,10,V40" playid="24,3,190" type="R" tokens="RUSH:4,V42, FUMB:H,V42,4"
+      text="Watson rush for loss of 2 yards to the UA42, fumble by Watson recovered by CU Watson at UA42."></play>
+   <play context="H,2,12,V42" playid="24,4,191" type="R" tokens="RUSH:4,V40, TACK:86"
+      text="Watson rush for 2 yards to the UA40 (A. Robinson)."></play>
+   <play context="H,3,10,V40" playid="24,5,192" type="P" tokens="PASS:4,I,3,* BRUP:26"
+      text="Watson pass incomplete to A. Scott (Marlon Humphrey)."></play>
+   <play context="H,4,10,V40" playid="24,6,193" type="U" tokens="PUNT:32,V00 TB:"
+      text="Teasdall punt 40 yards to the UA0, touchback."></play>
+   <drivesum plays="4" yards="10" top="1:41" driveindex="24" complete="Y"></drivesum>
+   <drivestart poss="V,V20,13:07" vh="V" spot="V20" clock="13:07" driveindex="25,193"></drivestart>
+   <play context="V,1,10,V20" playid="25,1,194" clock="13:07" tokens="{DRIVE}:13:07"
+      text="ALABAMA drive start at 13:07."></play>
+   <play context="V,1,10,V20" playid="25,2,195" type="P" first="P" tokens="PASS:14,C,13,V45 TACK:44"
+      text="Jake Coker pass complete to A. Stewart for 25 yards to the UA45, 1ST DOWN UA (Goodson)."></play>
+   <play context="V,1,10,V45" playid="25,3,196" type="R" tokens="RUSH:2,V46, TACK:44"
+      text="Derrick Henry rush for 1 yard to the UA46 (Goodson)."></play>
+   <play context="V,2,9,V46" playid="25,4,197" type="R" tokens="RUSH:2,V44, TACK:25"
+      text="Derrick Henry rush for loss of 2 yards to the UA44 (Tankersley)."></play>
+   <play context="V,3,11,V44" playid="25,5,198" type="P" first="P" tokens="PASS:14,C,13,H18 TACK:15"
+      text="Jake Coker pass complete to A. Stewart for 38 yards to the CU18, 1ST DOWN UA (T. Green)."></play>
+   <play context="V,1,10,H18" playid="25,6,199" type="R" tokens="RUSH:2,H16, TACK:11"
+      text="Derrick Henry rush for 2 yards to the CU16 (Blanks)."></play>
+   <play context="V,2,8,H16" playid="25,7,200" type="P" tokens="PASS:14,I,3A,* BRUP:2A"
+      text="Jake Coker pass incomplete to Calvin Ridley (Baker)."></play>
+   <play context="V,3,8,H16" playid="25,8,201" type="P" tokens="PASS:14,I,13,*"
+      text="Jake Coker pass incomplete to A. Stewart."></play>
+   <play context="V,4,8,H16" playid="25,9,202" type="F" score="Y" vscore="24" hscore="24" clock="10:34" tokens="FGA:99,33,G T:10:34"
+      text="Adam Griffith field goal attempt from 33 GOOD, clock 10:34."></play>
+   <score V="24" H="24"></score>
+   <drivesum plays="8" yards="64" top="2:33" driveindex="25" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="25,10,203" type="K" tokens="KO:99,H50 ONSIDE:V,26 SPOT:V,H50,Y"
+      text="Adam Griffith kickoff 15 yards to the 50 yardline, on-side kick, recovered by UA Marlon Humphrey on 50 yardline."></play>
+   <drivestart poss="V,V50,10:34" vh="V" spot="V50" clock="10:34" driveindex="26,203"></drivestart>
+   <play context="V,1,10,V50" playid="26,1,204" clock="10:34" tokens="{DRIVE}:10:34"
+      text="ALABAMA drive start at 10:34."></play>
+   <play context="V,1,10,V50" playid="26,2,205" type="R" tokens="RUSH:2,V49, TACK:94"
+      text="Derrick Henry rush for loss of 1 yard to the UA49 (Watkins)."></play>
+   <play context="V,2,11,V49" playid="26,3,206" type="P" first="P" score="Y" vscore="30" hscore="24" clock="09:45" tokens="PASS:14,C,88,H00 T:09:45"
+      text="Jake Coker pass complete to O.J. Howard for 51 yards to the CU0, 1ST DOWN UA, TOUCHDOWN, clock 09:45."></play>
+   <play context="V,1,0,H03" playid="26,4,207" type="X" score="Y" vscore="31" hscore="24" tokens="PAT:K,99,G"
+      text="Adam Griffith kick attempt good."></play>
+   <score V="31" H="24"></score>
+   <drivesum plays="2" yards="50" top="0:49" driveindex="26" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="26,5,208" type="K" tokens="KO:99,H00 TB:"
+      text="Adam Griffith kickoff 65 yards to the CU0, touchback."></play>
+   <drivestart poss="H,H25,09:45" vh="H" spot="H25" clock="09:45" driveindex="27,208"></drivestart>
+   <play context="H,1,10,H25" playid="27,1,209" clock="09:45" tokens="{DRIVE}:09:45"
+      text="CLEMSON drive start at 09:45."></play>
+   <play context="H,1,10,H25" playid="27,2,210" type="P" first="P" tokens="PASS:4,C,13,H49 TACK:10"
+      text="Watson pass complete to Renfrow for 24 yards to the CU49, 1ST DOWN CU (Reuben Foster)."></play>
+   <play context="H,1,10,H49" playid="27,3,211" type="R" first="R" tokens="RUSH:9,V17, OB: TACK:4"
+      text="Gallman rush for 34 yards to the UA17, 1ST DOWN CU, out-of-bounds (Eddie Jackson)."></play>
+   <play context="H,1,10,V17" playid="27,4,212" type="R" tokens="RUSH:4,V20, TACK:9"
+      text="Watson rush for loss of 3 yards to the UA20 (Da'Shawn Hand)."></play>
+   <play context="H,2,13,V20" playid="27,5,213" type="P" tokens="PASS:4,C,13,V14 TACK:10"
+      text="Watson pass complete to Renfrow for 6 yards to the UA14 (Reuben Foster)."></play>
+   <play context="H,3,7,V14" playid="27,6,214" type="P" tokens="PASS:4,I,16,*"
+      text="Watson pass incomplete to Leggett."></play>
+   <play context="H,4,7,V14" playid="27,7,215" type="F" score="Y" vscore="31" hscore="27" clock="07:47" tokens="FGA:92,31,G T:07:47"
+      text="Huegel field goal attempt from 31 GOOD, clock 07:47."></play>
+   <score V="31" H="27"></score>
+   <comment text="Previous play, ruled KR for TD, reviewed; confirmed"></comment>
+   <drivesum plays="6" yards="61" top="1:58" driveindex="27" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="27,8,216" type="K" score="Y" vscore="37" hscore="27" clock="07:31" tokens="KO:92,V05 RET:17,H00 T:07:31"
+      text="Huegel kickoff 60 yards to the UA5, Kenyan Drake return 95 yards to the CU0, TOUCHDOWN, clock 07:31."></play>
+   <drivestart poss="V,H03,07:31" vh="V" spot="H03" clock="07:31" driveindex="28,216"></drivestart>
+   <play context="V,1,0,H03" playid="28,1,218" type="X" score="Y" vscore="38" hscore="27" tokens="PAT:K,99,G"
+      text="Adam Griffith kick attempt good."></play>
+   <score V="38" H="27"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="28" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="28,2,219" type="K" tokens="KO:99,H00 TB:"
+      text="Adam Griffith kickoff 65 yards to the CU0, touchback."></play>
+   <drivestart poss="H,H25,07:31" vh="H" spot="H25" clock="07:31" driveindex="29,219"></drivestart>
+   <play context="H,1,10,H25" playid="29,1,220" clock="07:31" tokens="{DRIVE}:07:31"
+      text="CLEMSON drive start at 07:31."></play>
+   <play context="H,1,10,H25" playid="29,2,221" type="R" tokens="RUSH:4,H24, TACK:57"
+      text="Watson rush for loss of 1 yard to the CU24 (D.J. Pettway)."></play>
+   <play context="H,2,11,H24" playid="29,3,222" type="P" first="P" tokens="PASS:4,C,9,H38 OB: TACK:24"
+      text="Watson pass complete to Gallman for 14 yards to the CU38, 1ST DOWN CU, out-of-bounds (G. Matias-Smith)."></play>
+   <play context="H,1,10,H38" playid="29,4,223" type="P" tokens="PASS:4,S,TM,H35 SACK:32"
+      text="Watson sacked for loss of 3 yards to the CU35 (Rashaan Evans)."></play>
+   <play context="H,2,13,H35" playid="29,5,224" type="P" first="P" tokens="PASS:4,C,9,V26 OB: TACK:21"
+      text="Watson pass complete to Gallman for 39 yards to the UA26, 1ST DOWN CU, out-of-bounds (Maurice Smith)."></play>
+   <play context="H,1,10,V26" playid="29,6,225" type="#" clock="05:40" tokens="TOUT:V T:05:40"
+      text="Timeout Alabama, clock 05:40."></play>
+   <play context="H,1,10,V26" playid="29,7,226" type="P" tokens="PASS:4,C,34,V19 TACK:19,5"
+      text="Watson pass complete to Mccloud for 7 yards to the UA19 (Reggie Ragland;Cyrus Jones)."></play>
+   <play context="H,2,3,V19" playid="29,8,227" type="P" tokens="PASS:4,I,TM,* BRUP:57"
+      text="Watson pass incomplete (D.J. Pettway)."></play>
+   <play context="H,3,3,V19" playid="29,9,228" type="P" first="P" tokens="PASS:4,C,24,V15 TACK:26,10"
+      text="Watson pass complete to Brooks for 4 yards to the UA15, 1ST DOWN CU (Marlon Humphrey;Reuben Foster)."></play>
+   <play context="H,1,10,V15" playid="29,10,229" type="P" first="P" score="Y" vscore="38" hscore="33" clock="04:40" tokens="PASS:4,C,3,V00 T:04:40"
+      text="Watson pass complete to A. Scott for 15 yards to the UA0, 1ST DOWN CU, TOUCHDOWN, clock 04:40."></play>
+   <play context="H,1,0,V03" playid="29,11,230" type="X" tokens="PAT:R,4,M"
+      text="Watson rush attempt failed."></play>
+   <score V="38" H="33"></score>
+   <drivesum plays="8" yards="75" top="2:51" driveindex="29" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="29,12,231" type="K" tokens="KO:92,V00 TB:"
+      text="Huegel kickoff 65 yards to the UA0, touchback."></play>
+   <drivestart poss="V,V25,04:40" vh="V" spot="V25" clock="04:40" driveindex="30,231"></drivestart>
+   <play context="V,1,10,V25" playid="30,1,232" clock="04:40" tokens="{DRIVE}:04:40"
+      text="ALABAMA drive start at 04:40."></play>
+   <play context="V,1,10,V25" playid="30,2,233" type="R" tokens="RUSH:2,V23, TACK:98"
+      text="Derrick Henry rush for loss of 2 yards to the UA23 (Dodd)."></play>
+   <play context="V,2,12,V23" playid="30,3,234" type="#" clock="04:00" tokens="TOUT:V T:04:00"
+      text="Timeout Alabama, clock 04:00."></play>
+   <play context="V,2,12,V23" playid="30,4,235" type="P" first="P" tokens="PASS:14,C,88,H14 OB: TACK:15"
+      text="Jake Coker pass complete to O.J. Howard for 63 yards to the CU14, 1ST DOWN UA, out-of-bounds (T. Green)."></play>
+   <play context="V,1,10,H14" playid="30,5,236" type="R" tokens="RUSH:2,H11, TACK:44"
+      text="Derrick Henry rush for 3 yards to the CU11 (Goodson)."></play>
+   <play context="V,2,7,H11" playid="30,6,237" type="R" tokens="RUSH:2,H06, TACK:10,2F"
+      text="Derrick Henry rush for 5 yards to the CU6 (Boulware;Fields)."></play>
+   <play context="V,3,2,H06" playid="30,7,238" type="#" clock="02:16" tokens="TOUT:V T:02:16"
+      text="Timeout Alabama, clock 02:16."></play>
+   <play context="V,3,2,H06" playid="30,8,239" type="R" first="R" tokens="RUSH:14,H03,"
+      text="Jake Coker rush for 3 yards to the CU3, 1ST DOWN UA."></play>
+   <play context="V,1,0,H03" playid="30,9,240" type="#" clock="02:11" tokens="TOUT:H T:02:11"
+      text="Timeout Clemson, clock 02:11."></play>
+   <play context="V,1,0,H03" playid="30,10,241" type="R" tokens="RUSH:2,H01, TACK:15,42"
+      text="Derrick Henry rush for 2 yards to the CU1 (T. Green;Wilkins)."></play>
+   <play context="V,2,0,H01" playid="30,11,242" type="R" tokens="RUSH:14,H01, TACK:42"
+      text="Jake Coker rush for no gain to the CU1 (Wilkins)."></play>
+   <play context="V,3,0,H01" playid="30,12,243" type="#" clock="01:22" tokens="TOUT:H T:01:22"
+      text="Timeout Clemson, clock 01:22."></play>
+   <play context="V,3,0,H01" playid="30,13,244" type="R" score="Y" vscore="44" hscore="33" clock="01:07" tokens="RUSH:2,H00, T:01:07"
+      text="Derrick Henry rush for 1 yard to the CU0, TOUCHDOWN, clock 01:07."></play>
+   <comment text="Previous play, ruled TD, reviewed; confirmed"></comment>
+   <play context="V,1,0,H03" playid="30,14,246" type="X" score="Y" vscore="45" hscore="33" tokens="PAT:K,99,G"
+      text="Adam Griffith kick attempt good."></play>
+   <score V="45" H="33"></score>
+   <drivesum plays="8" yards="75" top="3:33" driveindex="30" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="30,15,247" type="K" tokens="KO:99,H23 RET:80,H32 TACK:25"
+      text="Adam Griffith kickoff 42 yards to the CU23, Richard return 9 yards to the CU32 (Dillon Lee)."></play>
+   <drivestart poss="H,H32,01:02" vh="H" spot="H32" clock="01:02" driveindex="31,247"></drivestart>
+   <play context="H,1,10,H32" playid="31,1,248" clock="01:02" tokens="{DRIVE}:01:02"
+      text="CLEMSON drive start at 01:02."></play>
+   <play context="H,1,10,H32" playid="31,2,249" type="P" tokens="PASS:4,C,19,H38 OB:"
+      text="Watson pass complete to Peake for 6 yards to the CU38, out-of-bounds."></play>
+   <play context="H,2,4,H38" playid="31,3,250" type="P" first="P" clock="00:56" tokens="T:00:56 PASS:4,C,19,V34 TACK:24"
+      text="Clock 00:56, Watson pass complete to Peake for 28 yards to the UA34, 1ST DOWN CU (G. Matias-Smith)."></play>
+   <play context="H,1,10,V34" playid="31,4,251" type="P" clock="00:43" tokens="T:00:43 PASS:4,I,24,*"
+      text="Clock 00:43, Watson pass incomplete to Brooks."></play>
+   <play context="H,2,10,V34" playid="31,5,252" type="P" first="P" clock="00:37" tokens="T:00:37 PASS:4,C,19,V24 FORCE:5 FUMB:H,V24,TM"
+      text="Clock 00:37, Watson pass complete to Peake for 10 yards to the UA24, fumble forced by Cyrus Jones, fumble by Peake recovered by CU Team at UA24, 1ST DOWN CU."></play>
+   <play context="H,1,10,V24" playid="31,6,253" type="P" clock="00:31" tokens="T:00:31 PASS:4,I,TM,*"
+      text="Clock 00:31, Watson pass incomplete."></play>
+   <play context="H,2,10,V24" playid="31,7,254" type="P" first="P" score="Y" vscore="45" hscore="39" clock="00:12" tokens="T:00:17 PASS:4,C,16,V00 T:00:12"
+      text="Clock 00:17, Watson pass complete to Leggett for 24 yards to the UA0, 1ST DOWN CU, TOUCHDOWN, clock 00:12."></play>
+   <play context="H,1,0,V03" playid="31,8,255" type="X" score="Y" vscore="45" hscore="40" tokens="PAT:K,92,G"
+      text="Huegel kick attempt good."></play>
+   <score V="45" H="40"></score>
+   <drivesum plays="6" yards="68" top="0:50" driveindex="31" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="31,9,256" type="K" tokens="KO:92,H47 ONSIDE:V,TM SPOT:V,H47,Y OB:"
+      text="Huegel kickoff 12 yards to the CU47, on-side kick, recovered by UA TEAM on CU47, out-of-bounds."></play>
+   <drivestart poss="V,H47,00:12" vh="V" spot="H47" clock="00:12" driveindex="32,256"></drivestart>
+   <play context="V,1,10,H47" playid="32,1,257" tokens="SPOT:V,H47,Y"
+      text="UA ball on CU47."></play>
+   <play context="V,1,10,H47" playid="32,2,258" clock="00:12" tokens="{DRIVE}:00:12"
+      text="ALABAMA drive start at 00:12."></play>
+   <play context="V,1,10,H47" playid="32,3,259" type="R" tokens="RUSH:TM,H48,"
+      text="TEAM rush for loss of 1 yard to the CU48."></play>
+   <play context="V,2,11,H48" playid="32,4,260" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="1" yards="-1" top="0:12" driveindex="32" complete="Y"></drivesum>
+   <score final="Y" V="45" H="40"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="5" rush="1" pass="4" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="3" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:35"></misc>
+    <rush att="12" yds="11" gain="17" loss="6" td="1" long="0"></rush>
+    <pass comp="4" att="7" int="0" yds="177" td="1" long="10" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="177" td="1" long="10"></rcv>
+    <punt no="1" yds="38" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="0"></punt>
+    <ko no="3" yds="172" ob="0" tb="2"></ko>
+    <fg made="1" att="1" long="33" blkd="0"></fg>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="13" tacka="4" tflua="3" tfla="0" tflyds="7" sacks="1" sackyds="3" brup="2" ff="1"></defense>
+    <kr no="1" yds="95" td="1" long="56"></kr>
+    <scoring td="3" fg="1" patkick="3"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CU">
+    <firstdowns no="10" rush="2" pass="8" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="0"></fumbles>
+    <misc yds="0" top="07:25"></misc>
+    <rush att="7" yds="37" gain="46" loss="9" td="0" long="14"></rush>
+    <pass comp="11" att="16" int="0" yds="177" td="2" long="8" sacks="1" sackyds="3"></pass>
+    <rcv no="11" yds="177" td="2" long="8"></rcv>
+    <punt no="1" yds="40" long="0" blkd="0" tb="1" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="125" ob="0" tb="1"></ko>
+    <fg made="1" att="1" long="0" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1" rushatt="1" rushmade="0"></pat>
+    <defense tackua="10" tacka="4" tflua="3" tfla="0" tflyds="5" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="1" yds="9" td="0" long="0"></kr>
+    <fumbles no="2" lost="0"></fumbles>
+    <scoring td="2" fg="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,2,11,H48" qtr="4" clock="00:00" vtoh="3" htoh="3"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="UA">
+  <player name="Jamey Mosley" checkname="MOSLEY,JAMEY" uni="1C" class="FR" gp="0" code="1C"></player>
+  <player name="K. Anderson" checkname="ANDERSON,K" uni="1E" class="FR" gp="0" code="1E"></player>
+  <player name="Chris Black" checkname="BLACK,CHRIS" uni="1" class="JR" gp="0" code="1"></player>
+  <player name="Adonis Thomas" checkname="THOMAS,ADONIS" uni="1D" class="FR" gp="0" code="1D"></player>
+  <player name="K. Sheffield" checkname="SHEFFIELD,K" uni="1A" class="FR" gp="0" code="1A"></player>
+  <player name="D. Thompson" checkname="THOMPSON,D" uni="2A" class="FR" gp="0" code="2A"></player>
+  <player name="Thomas Woods" checkname="WOODS,THOMAS" uni="3C" class="SO" gp="0" code="3C"></player>
+  <player name="Jacob Parker" checkname="PARKER,JACOB" uni="4B" class="SO" gp="0" code="4B"></player>
+  <player name="Hunter Bryant" checkname="BRYANT,HUNTER" uni="4C" class="SO" gp="0" code="4C"></player>
+  <player name="Charlot, Daylon" checkname="CHARLOT,DAYLON" uni="4A" class="FR" gp="0" code="4A"></player>
+  <player name="Harrelson, Alex" checkname="HARRELSON,ALEX" uni="5C" class="SR" gp="0" code="5C"></player>
+  <player name="B. Kennedy" checkname="KENNEDY,B" uni="5B" class="FR" gp="0" code="5B"></player>
+  <player name="Ronnie Clark" checkname="CLARK,RONNIE" uni="5A" class="FR" gp="0" code="5A"></player>
+  <player name="Blake Barnett" checkname="BARNETT,BLAKE" uni="6A" class="FR" gp="0" code="6A"></player>
+  <player name="Hootie Jones" checkname="JONES,HOOTIE" uni="6" class="SO" gp="0" code="6"></player>
+  <player name="Tony Brown" checkname="BROWN,TONY" uni="7" class="SO" gp="0" code="7"></player>
+  <player name="Cam Sims" checkname="SIMS,CAM" uni="7A" class="SO" gp="0" code="7A"></player>
+  <player name="A. Purifoye" checkname="PURIFOYE,A" uni="8B" class="SO" gp="0" code="8B"></player>
+  <player name="Truett Harris" checkname="HARRIS,TRUETT" uni="8A" class="SR" gp="0" code="8A"></player>
+  <player name="Robert Foster" checkname="FOSTER,ROBERT" uni="8" class="SO" gp="0" code="8"></player>
+  <player name="Stephen Hodge" checkname="HODGE,STEPHEN" uni="9C" class="SR" gp="0" code="9C"></player>
+  <player name="Alec Morris" checkname="MORRIS,ALEC" uni="11" class="JR" gp="0" code="11"></player>
+  <player name="David Cornwel" checkname="CORNWEL,DAVID" uni="12" class="FR" gp="0" code="12"></player>
+  <player name="J. Washington" checkname="WASHINGTON,J" uni="23" class="SR" gp="0" code="23"></player>
+  <player name="Burgess-Becker" checkname="BURGESS-BECKER" uni="27" class="FR" gp="0" code="27"></player>
+  <player name="A. Averett" checkname="AVERETT,A" uni="28" class="SO" gp="0" code="28"></player>
+  <player name="Xavian Marks" checkname="MARKS,XAVIAN" uni="31" class="FR" gp="0" code="31"></player>
+  <player name="Walker Jones" checkname="JONES,WALKER" uni="35" class="SO" gp="0" code="35"></player>
+  <player name="Johnny Dwight" checkname="DWIGHT,JOHNNY" uni="36" class="FR" gp="0" code="36"></player>
+  <player name="J. McMillon" checkname="MCMILLON,J" uni="40" class="FR" gp="0" code="40"></player>
+  <player name="L. Erekosima" checkname="EREKOSIMA,L" uni="43" class="SO" gp="0" code="43"></player>
+  <player name="Levi Wallace" checkname="WALLACE,LEVI" uni="44" class="SO" gp="0" code="44"></player>
+  <player name="Cedric Powell" checkname="POWELL,CEDRIC" uni="45" class="SO" gp="0" code="45"></player>
+  <player name="Mekhi Brown" checkname="BROWN,MEKHI" uni="48" class="FR" gp="0" code="48"></player>
+  <player name="Jake Long" checkname="LONG,JAKE" uni="51" class="JR" gp="0" code="51"></player>
+  <player name="Dallas Warmack" checkname="WARMACK,DALLAS" uni="59" class="FR" gp="0" code="59"></player>
+  <player name="Brandon Moore" checkname="MOORE,BRANDON" uni="60" class="SR" gp="0" code="60"></player>
+  <player name="Will Davis" checkname="DAVIS,WILL" uni="62" class="JR" gp="0" code="62"></player>
+  <player name="J. Hassenauer" checkname="HASSENAUER,J" uni="63" class="SO" gp="0" code="63"></player>
+  <player name="Chris Posa" checkname="POSA,CHRIS" uni="65" class="JR" gp="0" code="65"></player>
+  <player name="Lester Cotton" checkname="COTTON,LESTER" uni="66" class="FR" gp="0" code="66"></player>
+  <player name="Josh Casher" checkname="CASHER,JOSH" uni="67" class="FR" gp="0" code="67"></player>
+  <player name="Isaac Luatua" checkname="LUATUA,ISAAC" uni="68" class="SR" gp="0" code="68"></player>
+  <player name="Joshua Frazier" checkname="FRAZIER,JOSHUA" uni="69" class="SO" gp="0" code="69"></player>
+  <player name="R. Petitbon" checkname="PETITBON,R" uni="72" class="FR" gp="0" code="72"></player>
+  <player name="Matt Womack" checkname="WOMACK,MATT" uni="77" class="FR" gp="0" code="77"></player>
+  <player name="Korren Kirven" checkname="KIRVEN,KORREN" uni="78" class="JR" gp="0" code="78"></player>
+  <player name="Raheem Falkins" checkname="FALKINS,RAHEEM" uni="80" class="JR" gp="0" code="80"></player>
+  <player name="J. Willis" checkname="WILLIS,J" uni="82" class="JR" gp="0" code="82"></player>
+  <player name="Flournoy-Smith" checkname="FLOURNOY-SMITH" uni="83" class="SR" gp="0" code="83"></player>
+  <player name="P. Barrineau" checkname="BARRINEAU,P" uni="87" class="SR" gp="0" code="87"></player>
+  <player name="Bernel Jones" checkname="JONES,BERNEL" uni="89" class="SR" gp="0" code="89"></player>
+  <player name="O.J. Smith" checkname="SMITH,OJ" uni="91" class="FR" gp="0" code="91"></player>
+  <player name="Gunnar Raborn" checkname="RABORN,GUNNAR" uni="96" class="SO" gp="0" code="96"></player>
+ </dnp>
+ <dnp vh="H" id="CU">
+  <player name="Israel" checkname="ISRAEL" uni="1I" class="FR" gp="0" code="1I"></player>
+  <player name="Muse" checkname="MUSE" uni="1M" class="FR" gp="0" code="1M"></player>
+  <player name="Bell" checkname="BELL" uni="1B" class="FR" gp="0" code="1B"></player>
+  <player name="K. Bryant" checkname="BRYANT,K" uni="2B" class="FR" gp="0" code="2B"></player>
+  <player name="Trapp" checkname="TRAPP" uni="3T" class="FR" gp="0" code="3T"></player>
+  <player name="Groomes" checkname="GROOMES" uni="3G" class="FR" gp="0" code="3G"></player>
+  <player name="C. Scott" checkname="SCOTT,C" uni="3S" class="FR" gp="0" code="3S"></player>
+  <player name="Brice" checkname="BRICE" uni="4B" class="SO" gp="0" code="4B"></player>
+  <player name="Tatko" checkname="TATKO" uni="5T" class="SO" gp="0" code="5T"></player>
+  <player name="Au. Spence" checkname="SPENCE,AU" uni="5S" class="FR" gp="0" code="5S"></player>
+  <player name="Estes" checkname="ESTES" uni="6E" class="JR" gp="0" code="6E"></player>
+  <player name="M. Williams" checkname="WILLIAMS,M" uni="7" class="JR" gp="0" code="7"></player>
+  <player name="Schuessler" checkname="SCHUESSLER" uni="12" class="JR" gp="0" code="12"></player>
+  <player name="D. Johnson" checkname="JOHNSON,D" uni="14" class="FR" gp="0" code="14"></player>
+  <player name="Chalmers" checkname="CHALMERS" uni="20" class="FR" gp="0" code="20"></player>
+  <player name="Dye" checkname="DYE" uni="22" class="SO" gp="0" code="22"></player>
+  <player name="Choice" checkname="CHOICE" uni="26" class="SO" gp="0" code="26"></player>
+  <player name="Hall" checkname="HALL" uni="35" class="SR" gp="0" code="35"></player>
+  <player name="Lakip" checkname="LAKIP" uni="36" class="SR" gp="0" code="36"></player>
+  <player name="Goodnature" checkname="GOODNATURE" uni="38" class="SR" gp="0" code="38"></player>
+  <player name="Bianchi" checkname="BIANCHI" uni="39" class="SR" gp="0" code="39"></player>
+  <player name="Burrell" checkname="BURRELL" uni="41" class="JR" gp="0" code="41"></player>
+  <player name="Ch. Smith" checkname="SMITH,CH" uni="43" class="FR" gp="0" code="43"></player>
+  <player name="Register" checkname="REGISTER" uni="45" class="FR" gp="0" code="45"></player>
+  <player name="Magwood" checkname="MAGWOOD" uni="46" class="FR" gp="0" code="46"></player>
+  <player name="Al. Spence" checkname="SPENCE,AL" uni="47" class="FR" gp="0" code="47"></player>
+  <player name="Robinson" checkname="ROBINSON" uni="50" class="FR" gp="0" code="50"></player>
+  <player name="Prevost" checkname="PREVOST" uni="52" class="SO" gp="0" code="52"></player>
+  <player name="Aiken" checkname="AIKEN" uni="53" class="JR" gp="0" code="53"></player>
+  <player name="Riggs" checkname="RIGGS" uni="54" class="SO" gp="0" code="54"></player>
+  <player name="Norton" checkname="NORTON" uni="58" class="SR" gp="0" code="58"></player>
+  <player name="Mauldin" checkname="MAULDIN" uni="59" class="SR" gp="0" code="59"></player>
+  <player name="Ke. Bevelle" checkname="BEVELLE,KE" uni="60" class="SO" gp="0" code="60"></player>
+  <player name="Cockerill" checkname="COCKERILL" uni="61" class="SR" gp="0" code="61"></player>
+  <player name="Ka. Bevelle" checkname="BEVELLE,KA" uni="62" class="SO" gp="0" code="62"></player>
+  <player name="Fruhmorgen" checkname="FRUHMORGEN" uni="63" class="FR" gp="0" code="63"></player>
+  <player name="Stone" checkname="STONE" uni="65" class="SR" gp="0" code="65"></player>
+  <player name="Huggins" checkname="HUGGINS" uni="67" class="FR" gp="0" code="67"></player>
+  <player name="N. Green" checkname="GREEN,N" uni="71" class="FR" gp="0" code="71"></player>
+  <player name="Giella" checkname="GIELLA" uni="77" class="FR" gp="0" code="77"></player>
+  <player name="Tucker" checkname="TUCKER" uni="79" class="SR" gp="0" code="79"></player>
+  <player name="Dunn" checkname="DUNN" uni="82" class="SO" gp="0" code="82"></player>
+  <player name="Rogers" checkname="ROGERS" uni="85" class="SO" gp="0" code="85"></player>
+  <player name="S. Mac Lain" checkname="LAIN,S MAC" uni="88" class="JR" gp="0" code="88"></player>
+  <player name="Mccullough" checkname="MCCULLOUGH" uni="89" class="JR" gp="0" code="89"></player>
+  <player name="S. Johnson" checkname="JOHNSON,S" uni="93" class="FR" gp="0" code="93"></player>
+  <player name="Cervenka" checkname="CERVENKA" uni="95" class="FR" gp="0" code="95"></player>
+  <player name="Ferrell" checkname="FERRELL" uni="99" class="FR" gp="0" code="99"></player>
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="V" id="UA" yds="95" play="KO" players="Kenyan Drake" td="Y"></longplay>
+ </longplays>
+</fbgame>

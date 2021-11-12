@@ -1,0 +1,36 @@
+<div *ngIf="displayedTabs.length > 0" class="col s12 m12">
+  <h2 [ngStyle]="{'border-bottom': '5px solid '+ this.teamColors[teamCode]+''}">Seasons</h2>
+  <mat-card>
+    <mat-tab-group *ngIf="tabsDone">
+      <mat-tab *ngFor="let tab of displayedTabs" label="{{getTabLabels(tab)}}">
+        <div id="col-groups" *ngIf="columnGroups[tab].length !== 0">
+          <app-col-groups [data]="columnGroups[tab]"></app-col-groups>
+        </div>
+        <div id="playerAggTbl" [ngStyle]="{'margin-top': columnGroups[tab].length !== 0 ? '-45px' : ''}">
+         
+          <mat-table #playerAggTbl [dataSource]="dataSources[tab]" matSort>
+            <ng-container matColumnDef="season">
+              <mat-header-cell *matHeaderCellDef [ngClass]="sportId == 'MSO' || sportId == 'WSO' ? 'first-column header' : 'first-column header mat-cell-width'" >SEASON</mat-header-cell>
+              <mat-cell *matCellDef="let element" [ngClass]="sportId == 'MSO' || sportId == 'WSO' ? 'first-column' : 'first-column mat-cell-width'" >
+                {{ element.season }} 
+              </mat-cell>
+            </ng-container>
+            <ng-container *ngFor="let col of displayedColumns[tab]" matColumnDef="{{col}}">
+              <mat-header-cell *matHeaderCellDef [ngClass]="sportId == 'MSO' || sportId == 'WSO' ? 'header' : 'header mat-cell-width'" >{{ columnDisplayNames[col] }}</mat-header-cell>
+              <mat-cell *matCellDef="let element" [ngClass]="sportId == 'MSO' || sportId == 'WSO' ? '' : 'mat-cell-width'" >
+                {{ element[col] }}
+              </mat-cell>
+            </ng-container>
+            <mat-header-row *matHeaderRowDef="displayedColumnsWithSeason[tab]" [ngStyle]="{'background': this.teamColors[teamCode]}"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: displayedColumnsWithSeason[tab];"
+            [ngClass]="row.season == 'TOTAL' ? 'font-weight-600' : ''"></mat-row>
+          </mat-table>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card>
+</div>
+<div *ngIf="displayedTabs.length === 0">
+  <p class="light center">No data to display.</p>
+</div>
+

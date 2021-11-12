@@ -1,0 +1,60 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-cell-column white-text font-size-14"></mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-cell-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="num">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">INT</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.num }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="yards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.yards }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="touchdowns">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.touchdowns }}
+        </mat-cell>
+      </ng-container>
+
+      
+    <ng-container matColumnDef="fbTotal">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">FUM</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fbTotal }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="fbLost">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">LOST</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fbLost }}
+        </mat-cell>
+      </ng-container>
+      <ng-container *matHeaderRowDef="displayedColumns">
+        <div class="mat-header-row header-group-row">
+          <div class="mat-header-cell header-group-cell first-cell-column" role="columnheader">INTERCEPTIONS & FUMBLES</div>          
+          <div class="mat-header-cell header-group-cell border-right-cell" role="columnheader" style="max-width: 7vw;">INTERCEPTIONS</div>         
+          <div class="mat-header-cell header-group-cell" role="columnheader" style="max-width: 5vw;">FUMBLES</div>
+                 
+        </div>
+        
+        <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      </ng-container>
+      <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''" (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+    </mat-table>
+  </div>
+</div>

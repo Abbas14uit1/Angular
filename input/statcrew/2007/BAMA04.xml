@@ -1,0 +1,956 @@
+<fbgame source="Tas Football" version="4.16.07" generated="9/15/2016">
+  <venue gameid="BAMA04" visid="UGA" homeid="UA" visname="Georgia" homename="Alabama Crimson Tide" date="9/22/2007" location="Tuscaloosa, Alabama" stadium="Bryant-Denny Stadium" start="6:47 PM" end="10:21 PM" leaguegame="Y" nitegame="Y" duration="3:34" attend="92138" temp="88 deg" wind="ESE 9" weather="Partly Cloudy">
+    <officials ref="Jeff ROBERSON" ump="Doug LINEBARGER" line="Johnny CRAWFORD" lj="Terry WALTERS" bj="Jimmy BUCHANAN" fj="Mike WILLIAMS" sj="Bobby MOREAU" cj="Buddy JONES" alt="Buddy JONES"></officials>
+    <rules qtrs="4" mins="15" downs="4" yds="10" kospot="30" tbspot="20" kotbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+  </venue>
+  <team vh="V" code="257" id="UGA" name="Georgia" record="3-1" conf-record="1-1" abb="G" rank="22">
+    <linescore prds="5" line="7,3,7,3,6" score="26">
+      <lineprd prd="1" score="7"></lineprd>
+      <lineprd prd="2" score="3"></lineprd>
+      <lineprd prd="3" score="7"></lineprd>
+      <lineprd prd="4" score="3"></lineprd>
+      <lineprd prd="5" score="6"></lineprd>
+    </linescore>
+    <totals>
+      <firstdowns no="20" rush="6" pass="13" penalty="1"></firstdowns>
+      <penalties no="9" yds="71"></penalties>
+      <conversions thirdconv="9" thirdatt="19" fourthconv="1" fourthatt="1"></conversions>
+      <fumbles no="0" lost="0"></fumbles>
+      <misc yds="0" top="34:22" ona="0" onm="0" ptsto="0"></misc>
+      <redzone att="2" scores="2" points="14" tdrush="1" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+      <rush att="40" yds="153" gain="165" loss="12" td="1" long="19"></rush>
+      <pass comp="19" att="36" int="2" yds="224" td="2" long="33" sacks="0" sackyds="0"></pass>
+      <rcv no="19" yds="224" td="2" long="33"></rcv>
+      <punt no="5" yds="194" long="48" blkd="0" tb="0" fc="2" plus50="0" inside20="2"></punt>
+      <ko no="5" yds="298" ob="0" tb="0"></ko>
+      <fg made="2" att="4" long="47" blkd="0"></fg>
+      <pat kickatt="2" kickmade="2"></pat>
+      <defense tackua="38" tacka="30" tflua="3" tfla="2" tflyds="9" sacks="1" sackyds="3" brup="5" qbh="3" fr="1" fryds="0"></defense>
+      <kr no="4" yds="84" td="0" long="25"></kr>
+      <pr no="3" yds="39" td="0" long="22"></pr>
+      <scoring td="3" fg="2" patkick="2"></scoring>
+    </totals>
+    <player name="Mohamed Massaquoi" shortname="M. Massaquoi" checkname="MASSAQUOI,M" uni="1" class="JR" gp="1" gs="1" opos="WR" code="01">
+      <rcv no="2" yds="23" td="0" long="18"></rcv>
+    </player>
+    <player name="Asher Allen" shortname="Asher Allen" checkname="ALLEN,ASHER" uni="2" class="SO" gp="1" gs="1" dpos="SC" code="02">
+      <defense tackua="6" tacka="5" tflua="0" tfla="1" tflyds="2" brup="1"></defense>
+    </player>
+    <player name="Bryan Evans" shortname="Bryan Evans" checkname="EVANS,BRYAN" uni="3" class="SO" gp="1" code="03">
+      <defense tackua="1" tacka="1"></defense>
+    </player>
+    <player name="Sean Bailey" shortname="Sean Bailey" checkname="BAILEY,SEAN" uni="4" class="SR" gp="1" gs="1" opos="SE" code="04">
+      <rcv no="5" yds="74" td="0" long="33"></rcv>
+    </player>
+    <player name="CJ Byrd" shortname="CJ Byrd" checkname="BYRD,CJ" uni="5" class="JR" gp="1" gs="1" dpos="FS" code="05">
+      <defense tackua="1" tacka="3"></defense>
+    </player>
+    <player name="Kregg Lumpkin" shortname="Kregg Lumpkin" checkname="LUMPKIN,KREGG" uni="6" class="SR" gp="1" code="06"></player>
+    <player name="Matthew Stafford" shortname="M. Stafford" checkname="STAFFORD,M" uni="7" class="SO" gp="1" gs="1" opos="QB" code="07">
+      <rush att="2" yds="5" gain="5" loss="0" td="0" long="3"></rush>
+      <pass comp="19" att="35" int="2" yds="224" td="2" long="33" sacks="0" sackyds="0"></pass>
+    </player>
+    <player name="Reshad Jones" shortname="Reshad Jones" checkname="JONES,RESHAD" uni="9" class="FR" gp="1" code="09">
+      <defense tackua="2" tacka="2" brup="1"></defense>
+    </player>
+    <player name="Donavon Baldwin" shortname="Donavon Baldwin" checkname="BALDWIN,DONAVON" uni="10" class="SO" gp="1" code="10"></player>
+    <player name="Ramarcus Brown" shortname="Ramarcus Brown" checkname="BROWN,RAMARCUS" uni="11" class="JR" gp="1" code="11"></player>
+    <player name="Brandon Miller" shortname="Brandon Miller" checkname="MILLER,BRANDON" uni="12" class="SR" gp="1" gs="1" dpos="SAM" code="12">
+      <defense tackua="1" tacka="0" fr="1" fryds="0"></defense>
+    </player>
+    <player name="Rowdy Francis" shortname="Rowdy Francis" checkname="FRANCIS,ROWDY" uni="15" class="JR" gp="1" code="15"></player>
+    <player name="Kris Durham" shortname="Kris Durham" checkname="DURHAM,KRIS" uni="16" class="SO" gp="1" code="16">
+      <rcv no="1" yds="19" td="0" long="19"></rcv>
+    </player>
+    <player name="Thomas Brown" shortname="Thomas Brown" checkname="BROWN,THOMAS" uni="20" class="SR" gp="1" gs="1" opos="TB" code="20">
+      <rush att="20" yds="74" gain="84" loss="10" td="0" long="16"></rush>
+      <rcv no="5" yds="39" td="1" long="12"></rcv>
+      <defense tackua="1" tacka="0"></defense>
+      <kr no="3" yds="68" td="0" long="25"></kr>
+      <scoring td="1"></scoring>
+    </player>
+    <player name="Prince Miller" shortname="Prince Miller" checkname="MILLER,PRINCE" uni="23" class="SO" gp="1" code="23">
+      <defense tackua="0" tacka="1" brup="2"></defense>
+    </player>
+    <player name="Knowshon Moreno" shortname="Knowshon Moreno" checkname="MORENO,KNOWSHON" uni="24" class="FR" gp="1" code="24">
+      <rush att="17" yds="74" gain="76" loss="2" td="1" long="19"></rush>
+      <rcv no="2" yds="22" td="0" long="14"></rcv>
+      <scoring td="1"></scoring>
+    </player>
+    <player name="Tony Wilson" shortname="Tony Wilson" checkname="WILSON,TONY" uni="26" class="FR" gp="1" code="26"></player>
+    <player name="Mikey Henderson" shortname="Mikey Henderson" checkname="HENDERSON,MIKEY" uni="27" class="SR" gp="1" gs="1" opos="FL" code="27">
+      <rcv no="3" yds="36" td="1" long="25"></rcv>
+      <pr no="3" yds="39" td="0" long="22"></pr>
+      <scoring td="1"></scoring>
+    </player>
+    <player name="Thomas Flowers" shortname="Thomas Flowers" checkname="FLOWERS,THOMAS" uni="29" class="SR" gp="1" gs="1" dpos="WC" code="29">
+      <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+    </player>
+    <player name="Kelin Johnson" shortname="Kelin Johnson" checkname="JOHNSON,KELIN" uni="30" class="SR" gp="1" gs="1" dpos="SS" code="30">
+      <defense tackua="2" tacka="3" qbh="1"></defense>
+    </player>
+    <player name="Quintin Banks" shortname="Quintin Banks" checkname="BANKS,QUINTIN" uni="31" class="FR" gp="1" code="31"></player>
+    <player name="Brian Mimbs" shortname="Brian Mimbs" checkname="MIMBS,BRIAN" uni="32" class="JR" gp="1" code="32">
+      <punt no="5" yds="194" long="48" blkd="0" tb="0" fc="2" plus50="0" inside20="2"></punt>
+    </player>
+    <player name="Dannell Ellerbe" shortname="Dannell Ellerbe" checkname="ELLERBE,DANNELL" uni="33" class="JR" gp="1" gs="1" dpos="WILL" code="33">
+      <defense tackua="5" tacka="3" qbh="1"></defense>
+    </player>
+    <player name="Brannan Southerland" shortname="B. Southerland" checkname="SOUTHERLAND,B" uni="36" class="JR" gp="1" code="36">
+      <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+    </player>
+    <player name="Marcus Howard" shortname="Marcus Howard" checkname="HOWARD,MARCUS" uni="38" class="SR" gp="1" gs="1" dpos="DE" code="38">
+      <defense tackua="4" tacka="0" brup="1" qbh="1"></defense>
+    </player>
+    <player name="Jason Johnson" shortname="Jason Johnson" checkname="JOHNSON,JASON" uni="39" class="SR" gp="1" code="39"></player>
+    <player name="Roderick Battle" shortname="Roderick Battle" checkname="BATTLE,RODERICK" uni="41" class="SO" gp="1" gs="1" dpos="DE" code="41">
+      <defense tackua="1" tacka="1"></defense>
+    </player>
+    <player name="Marcus Washington" shortname="M. Washington" checkname="WASHINGTON,M" uni="44" class="JR" gp="1" gs="1" dpos="MIKE" code="44">
+      <defense tackua="5" tacka="3" tflua="1" tfla="0" tflyds="3" sackua="1" sacka="0" sackyds="3"></defense>
+    </player>
+    <player name="Andrew Williams" shortname="Andrew Williams" checkname="WILLIAMS,ANDREW" uni="47" class="SR" gp="1" code="47">
+      <defense tackua="1" tacka="1"></defense>
+    </player>
+    <player name="Fred Munzenmaier" shortname="F. Munzenmaier" checkname="MUNZENMAIER,F" uni="48" class="FR" gp="1" code="48"></player>
+    <player name="Shaun Chapas" shortname="Shaun Chapas" checkname="CHAPAS,SHAUN" uni="49" class="FR" gp="1" code="49">
+      <kr no="1" yds="16" td="0" long="16"></kr>
+    </player>
+    <player name="Darryl Gamble" shortname="Darryl Gamble" checkname="GAMBLE,DARRYL" uni="50" class="FR" gp="1" code="50"></player>
+    <player name="Akeem Dent" shortname="Akeem Dent" checkname="DENT,AKEEM" uni="51" class="FR" gp="1" code="51">
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Darius Dewberry" shortname="Darius Dewberry" checkname="DEWBERRY,DARIUS" uni="52" class="SO" gp="1" code="52">
+      <defense tackua="0" tacka="1"></defense>
+    </player>
+    <player name="Chris Gaunder" shortname="Chris Gaunder" checkname="GAUNDER,CHRIS" uni="53" class="SR" gp="1" code="53">
+      <defense tackua="0" tacka="1"></defense>
+    </player>
+    <player name="Jeremy Lomax" shortname="Jeremy Lomax" checkname="LOMAX,JEREMY" uni="55" class="JR" gp="1" code="55"></player>
+    <player name="Geno Atkins" shortname="Geno Atkins" checkname="ATKINS,GENO" uni="56" class="SO" gp="1" code="56">
+      <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="2"></defense>
+    </player>
+    <player name="Benjamin Boyd" shortname="Benjamin Boyd" checkname="BOYD,BENJAMIN" uni="57" class="JR" gp="1" code="57">
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Demarcus Dobbs" shortname="Demarcus Dobbs" checkname="DOBBS,DEMARCUS" uni="58" class="FR" gp="1" code="58"></player>
+    <player name="Clint Boling" shortname="Clint Boling" checkname="BOLING,CLINT" uni="60" class="FR" gp="1" gs="1" opos="RG" code="60"></player>
+    <player name="Chris Davis" shortname="Chris Davis" checkname="DAVIS,CHRIS" uni="63" class="FR" gp="1" gs="1" opos="LG" code="63"></player>
+    <player name="Jeff Henson" shortname="Jeff Henson" checkname="HENSON,JEFF" uni="65" class="JR" gp="1" code="65"></player>
+    <player name="Chester Adams" shortname="Chester Adams" checkname="ADAMS,CHESTER" uni="67" class="SR" gp="1" gs="1" opos="RT" code="67"></player>
+    <player name="Vince Vance" shortname="Vince Vance" checkname="VANCE,VINCE" uni="72" class="JR" gp="1" code="72"></player>
+    <player name="Fernando Velasco" shortname="F. Velasco" checkname="VELASCO,F" uni="75" class="SR" gp="1" gs="1" opos="C" code="75"></player>
+    <player name="Trinton Sturdivant" shortname="T. Sturdivant" checkname="STURDIVANT,T" uni="77" class="FR" gp="1" gs="1" opos="LT" code="77"></player>
+    <player name="Michael Moore" shortname="Michael Moore" checkname="MOORE,MICHAEL" uni="82" class="SO" gp="1" code="82"></player>
+    <player name="Demiko Goodman" shortname="Demiko Goodman" checkname="GOODMAN,DEMIKO" uni="85" class="JR" gp="1" code="85"></player>
+    <player name="Tripp Chandler" shortname="Tripp Chandler" checkname="CHANDLER,TRIPP" uni="86" class="JR" gp="1" gs="1" opos="TE" code="86">
+      <rcv no="1" yds="11" td="0" long="11"></rcv>
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Kenneth Harris" shortname="Kenneth Harris" checkname="HARRIS,KENNETH" uni="88" class="JR" gp="1" code="88"></player>
+    <player name="Bruce Figgins" shortname="Bruce Figgins" checkname="FIGGINS,BRUCE" uni="89" class="FR" gp="1" code="89"></player>
+    <player name="Corvey Irvin" shortname="Corvey Irvin" checkname="IRVIN,CORVEY" uni="90" class="JR" gp="1" code="90">
+      <defense tackua="0" tacka="1"></defense>
+    </player>
+    <player name="Kade Weston" shortname="Kade Weston" checkname="WESTON,KADE" uni="91" class="SO" gp="1" gs="1" dpos="DT" code="91">
+      <defense tackua="0" tacka="1"></defense>
+    </player>
+    <player name="Jeff Owens" shortname="Jeff Owens" checkname="OWENS,JEFF" uni="95" class="JR" gp="1" gs="1" dpos="DT" code="95">
+      <defense tackua="1" tacka="3" tflua="0" tfla="1" tflyds="1"></defense>
+    </player>
+    <player name="Brandon Coutu" shortname="Brandon Coutu" checkname="COUTU,BRANDON" uni="96" class="SR" gp="1" code="96">
+      <ko no="5" yds="298" ob="0" tb="0"></ko>
+      <fg made="2" att="4" long="47" blkd="0"></fg>
+      <pat kickatt="2" kickmade="2"></pat>
+      <scoring fg="2" patkick="2"></scoring>
+    </player>
+    <player name="Jarius Wynn" shortname="Jarius Wynn" checkname="WYNN,JARIUS" uni="99" class="JR" gp="1" code="99"></player>
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198">
+      <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    </player>
+  </team>
+  <team vh="H" code="8" id="UA" name="Alabama Crimson Tide" record="3-1" conf-record="2-1" abb="A" rank="16">
+    <linescore prds="5" line="0,3,7,10,0" score="23">
+      <lineprd prd="1" score="0"></lineprd>
+      <lineprd prd="2" score="3"></lineprd>
+      <lineprd prd="3" score="7"></lineprd>
+      <lineprd prd="4" score="10"></lineprd>
+      <lineprd prd="5" score="0"></lineprd>
+    </linescore>
+    <totals>
+      <firstdowns no="18" rush="9" pass="7" penalty="2"></firstdowns>
+      <penalties no="4" yds="39"></penalties>
+      <conversions thirdconv="3" thirdatt="15" fourthconv="0" fourthatt="1"></conversions>
+      <fumbles no="1" lost="1"></fumbles>
+      <misc yds="0" top="25:38" ona="0" onm="0" ptsto="7"></misc>
+      <redzone att="3" scores="3" points="17" tdrush="2" tdpass="0" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+      <rush att="35" yds="164" gain="176" loss="12" td="2" long="30"></rush>
+      <pass comp="17" att="35" int="0" yds="185" td="0" long="43" sacks="1" sackyds="3"></pass>
+      <rcv no="17" yds="185" td="0" long="43"></rcv>
+      <punt no="7" yds="270" long="46" blkd="0" tb="1" fc="1" plus50="0" inside20="2"></punt>
+      <ko no="4" yds="235" ob="0" tb="0"></ko>
+      <fg made="3" att="3" long="42" blkd="0"></fg>
+      <pat kickatt="2" kickmade="2"></pat>
+      <defense tackua="39" tacka="40" tflua="5" tfla="0" tflyds="12" sacks="0" sackyds="0" brup="3" qbh="4" int="2" intyds="33"></defense>
+      <kr no="5" yds="80" td="0" long="16"></kr>
+      <pr no="1" yds="9" td="0" long="9"></pr>
+      <ir no="2" yds="33" td="0" long="26"></ir>
+      <scoring td="2" fg="3" patkick="2"></scoring>
+    </totals>
+    <player name="P.J. Fitzgerald" shortname="P.J. Fitzgerald" checkname="FITZGERALD,PJ" uni="1A" class="SO" gp="1" code="1A">
+      <punt no="7" yds="270" long="46" blkd="0" tb="1" fc="1" plus50="0" inside20="2"></punt>
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Simeon Castille" shortname="Simeon Castille" checkname="CASTILLE,SIMEON" uni="2" class="SR" gp="1" gs="1" dpos="LC" code="2">
+      <defense tackua="5" tacka="2" tflua="1" tfla="0" tflyds="1" brup="1"></defense>
+    </player>
+    <player name="Kareem Jackson" shortname="Kareem Jackson" checkname="JACKSON,KAREEM" uni="3" class="FR" gp="1" gs="1" dpos="NICK" code="3"></player>
+    <player name="Tyrone King" shortname="Tyrone King" checkname="KING,TYRONE" uni="5A" class="SO" gp="1" code="5A"></player>
+    <player name="Roy Upchurch" shortname="Roy Upchurch" checkname="UPCHURCH,ROY" uni="5" class="SO" gp="1" code="5">
+      <rush att="2" yds="19" gain="19" loss="0" td="0" long="10"></rush>
+    </player>
+    <player name="Marcel Stamps" shortname="Marcel Stamps" checkname="STAMPS,MARCEL" uni="6" class="SR" gp="1" code="6"></player>
+    <player name="Chris Rogers" shortname="Chris Rogers" checkname="ROGERS,CHRIS" uni="8" class="SO" gp="1" code="8">
+      <defense tackua="2" tacka="0"></defense>
+    </player>
+    <player name="Jimmy Johns" shortname="Jimmy Johns" checkname="JOHNS,JIMMY" uni="10" class="JR" gp="1" code="10"></player>
+    <player name="Matt Caddell" shortname="Matt Caddell" checkname="CADDELL,MATT" uni="11" class="SR" gp="1" gs="1" opos="FL" code="11">
+      <rcv no="1" yds="5" td="0" long="5"></rcv>
+    </player>
+    <player name="Cory Reamer" shortname="Cory Reamer" checkname="REAMER,CORY" uni="13" class="SO" gp="1" code="13"></player>
+    <player name="John Parker Wilson" shortname="Wilson" checkname="WILSON" uni="14" class="JR" gp="1" gs="1" opos="QB" code="14">
+      <rush att="6" yds="3" gain="11" loss="8" td="2" long="6"></rush>
+      <pass comp="17" att="35" int="0" yds="185" td="0" long="43" sacks="1" sackyds="3"></pass>
+      <scoring td="2"></scoring>
+    </player>
+    <player name="Lionel Mitchell" shortname="Lionel Mitchell" checkname="MITCHELL,LIONEL" uni="16" class="JR" gp="1" gs="1" dpos="RC" code="16">
+      <defense tackua="2" tacka="4" int="1" intyds="7"></defense>
+      <ir no="1" yds="7" td="0" long="7"></ir>
+    </player>
+    <player name="Marcus Carter" shortname="Marcus Carter" checkname="CARTER,MARCUS" uni="20" class="SR" gp="1" gs="1" dpos="SS" code="20">
+      <defense tackua="1" tacka="3"></defense>
+    </player>
+    <player name="Prince Hall" shortname="Prince Hall" checkname="HALL,PRINCE" uni="21" class="SO" gp="1" gs="1" dpos="WILL" code="21">
+      <defense tackua="6" tacka="6" qbh="1"></defense>
+    </player>
+    <player name="DJ Hall" shortname="DJ Hall" checkname="HALL,DJ" uni="22" class="SR" gp="1" gs="1" opos="WR" code="22">
+      <rcv no="3" yds="46" td="0" long="21"></rcv>
+    </player>
+    <player name="Marquis Johnson" shortname="Marquis Johnson" checkname="JOHNSON,MARQUIS" uni="24" class="FR" gp="1" code="24">
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Rolando McClain" shortname="Rolando McClain" checkname="MCCLAIN,ROLANDO" uni="25" class="FR" gp="1" gs="1" dpos="MIKE" code="25">
+      <defense tackua="6" tacka="5" tflua="1" tfla="0" tflyds="1"></defense>
+    </player>
+    <player name="Ali Sharrief" shortname="Ali Sharrief" checkname="SHARRIEF,ALI" uni="26" class="SO" gp="1" code="26">
+      <defense tackua="1" tacka="1"></defense>
+    </player>
+    <player name="Javier Arenas" shortname="Javier Arenas" checkname="ARENAS,JAVIER" uni="28" class="SO" gp="1" code="28">
+      <defense tackua="1" tacka="0"></defense>
+      <kr no="2" yds="32" td="0" long="16"></kr>
+      <pr no="1" yds="9" td="0" long="9"></pr>
+    </player>
+    <player name="Terry Grant" shortname="Terry Grant" checkname="GRANT,TERRY" uni="29" class="FR" gp="1" gs="1" opos="RB" code="29">
+      <rush att="11" yds="80" gain="83" loss="3" td="0" long="30"></rush>
+      <rcv no="3" yds="9" td="0" long="8"></rcv>
+    </player>
+    <player name="Jonathan Lowe" shortname="Jonathan Lowe" checkname="LOWE,JONATHAN" uni="30" class="FR" gp="1" code="30">
+      <kr no="3" yds="48" td="0" long="16"></kr>
+      <fumbles no="1" lost="1"></fumbles>
+    </player>
+    <player name="Forress Rayford" shortname="Forress Rayford" checkname="RAYFORD,FORRESS" uni="31" class="SR" gp="1" code="31"></player>
+    <player name="Eryk Anders" shortname="Eryk Anders" checkname="ANDERS,ERYK" uni="32" class="SO" gp="1" code="32"></player>
+    <player name="Eric Gray" shortname="Eric Gray" checkname="GRAY,ERIC" uni="36" class="SR" gp="1" code="36"></player>
+    <player name="Glen Coffee" shortname="Glen Coffee" checkname="COFFEE,GLEN" uni="38" class="SO" gp="1" code="38">
+      <rush att="16" yds="62" gain="63" loss="1" td="0" long="13"></rush>
+    </player>
+    <player name="Baron Huber" shortname="Baron Huber" checkname="HUBER,BARON" uni="40" class="SO" gp="1" code="40"></player>
+    <player name="Demarcus Waldrop" shortname="D. Waldrop" checkname="WALDROP,D" uni="44" class="SR" gp="1" code="44"></player>
+    <player name="Ezekial Knight" shortname="Ezekial Knight" checkname="KNIGHT,EZEKIAL" uni="47" class="JR" gp="1" gs="1" dpos="SAM" code="47">
+      <defense tackua="1" tacka="4" tflua="1" tfla="0" tflyds="5" brup="1" qbh="1"></defense>
+    </player>
+    <player name="Rashad Johnson" shortname="Rashad Johnson" checkname="JOHNSON,RASHAD" uni="49" class="JR" gp="1" gs="1" dpos="FS" code="49">
+      <defense tackua="4" tacka="4" tflua="1" tfla="0" tflyds="1" brup="1" int="1" intyds="26"></defense>
+      <ir no="1" yds="26" td="0" long="26"></ir>
+    </player>
+    <player name="Justin Britt" shortname="Justin Britt" checkname="BRITT,JUSTIN" uni="50" class="SR" gp="1" gs="1" opos="LG" code="50"></player>
+    <player name="Chavis Williams" shortname="Chavis Williams" checkname="WILLIAMS,CHAVIS" uni="55" class="FR" gp="1" code="55">
+      <defense tackua="1" tacka="0"></defense>
+    </player>
+    <player name="Nick Gentry" shortname="Nick Gentry" checkname="GENTRY,NICK" uni="58" class="FR" gp="1" code="58"></player>
+    <player name="Antoine Caldwell" shortname="A. Caldwell" checkname="CALDWELL,A" uni="59" class="JR" gp="1" gs="1" opos="C" code="59"></player>
+    <player name="B.J. Stabler" shortname="B.J. Stabler" checkname="STABLER,BJ" uni="61" class="JR" gp="1" code="61"></player>
+    <player name="Brian Selman" shortname="Brian Selman" checkname="SELMAN,BRIAN" uni="67" class="JR" gp="1" code="67"></player>
+    <player name="Andre Smith" shortname="Andre Smith" checkname="SMITH,ANDRE" uni="71" class="SO" gp="1" gs="1" opos="LT" code="71"></player>
+    <player name="David Ross" shortname="David Ross" checkname="ROSS,DAVID" uni="74" class="FR" gp="1" code="74"></player>
+    <player name="Marlon Davis" shortname="Marlon Davis" checkname="DAVIS,MARLON" uni="76" class="JR" gp="1" gs="1" opos="RG" code="76"></player>
+    <player name="Mike Johnson" shortname="Mike Johnson" checkname="JOHNSON,MIKE" uni="78" class="SO" gp="1" gs="1" opos="RT" code="78"></player>
+    <player name="Mike McCoy" shortname="Mike McCoy" checkname="MCCOY,MIKE" uni="80" class="SO" gp="1" gs="1" opos="WR" code="80">
+      <rcv no="6" yds="47" td="0" long="14"></rcv>
+    </player>
+    <player name="Keith Brown" shortname="Keith Brown" checkname="BROWN,KEITH" uni="81" class="SR" gp="1" code="81">
+      <rcv no="3" yds="73" td="0" long="43"></rcv>
+    </player>
+    <player name="Earl Alexander" shortname="Earl Alexander" checkname="ALEXANDER,EARL" uni="82" class="FR" gp="1" code="82"></player>
+    <player name="Travis McCall" shortname="Travis McCall" checkname="MCCALL,TRAVIS" uni="83" class="JR" gp="1" code="83"></player>
+    <player name="Nick Walker" shortname="Nick Walker" checkname="WALKER,NICK" uni="88" class="JR" gp="1" gs="1" opos="TE" code="88">
+      <rcv no="1" yds="5" td="0" long="5"></rcv>
+    </player>
+    <player name="Milton Talbert" shortname="Milton Talbert" checkname="TALBERT,MILTON" uni="90" class="FR" gp="1" code="90"></player>
+    <player name="Wallace Gilberry" shortname="W. Gilberry" checkname="GILBERRY,W" uni="92" class="SR" gp="1" gs="1" dpos="DE" code="92">
+      <defense tackua="3" tacka="3" tflua="1" tfla="0" tflyds="4" qbh="2"></defense>
+    </player>
+    <player name="Bobby Greenwood" shortname="Bobby Greenwood" checkname="GREENWOOD,BOBBY" uni="93" class="JR" gp="1" gs="1" dpos="DE" code="93">
+      <defense tackua="0" tacka="2"></defense>
+    </player>
+    <player name="Keith Saunders" shortname="Keith Saunders" checkname="SAUNDERS,KEITH" uni="94" class="SR" gp="1" code="94">
+      <defense tackua="2" tacka="2"></defense>
+    </player>
+    <player name="Brandon Deaderick" shortname="B. Deaderick" checkname="DEADERICK,B" uni="95" class="SO" gp="1" code="95">
+      <defense tackua="1" tacka="1"></defense>
+    </player>
+    <player name="Lorenzo Washington" shortname="L. Washington" checkname="WASHINGTON,L" uni="97" class="SO" gp="1" gs="1" dpos="NG" code="97">
+      <defense tackua="1" tacka="3"></defense>
+    </player>
+    <player name="Brandon Fanney" shortname="Brandon Fanney" checkname="FANNEY,BRANDON" uni="98" class="SO" gp="1" code="98"></player>
+    <player name="Leigh Tiffin" shortname="Leigh Tiffin" checkname="TIFFIN,LEIGH" uni="99" class="SO" gp="1" code="99">
+      <ko no="4" yds="235" ob="0" tb="0"></ko>
+      <fg made="3" att="3" long="42" blkd="0"></fg>
+      <pat kickatt="2" kickmade="2"></pat>
+      <scoring fg="3" patkick="2"></scoring>
+    </player>
+  </team>
+  <scores>
+    <score vh="V" team="UGA" qtr="1" clock="09:30" type="TD" how="PASS" yds="10" scorer="Thomas Brown" passer="M. Stafford" patby="Brandon Coutu" pattype="KICK" patres="GOOD" plays="10" drive="70" top="5:30" vscore="7" hscore="0" driveindex="1"></score>
+    <score vh="V" team="UGA" qtr="2" clock="06:21" type="FG" yds="45" scorer="Brandon Coutu" plays="10" drive="42" top="4:30" vscore="10" hscore="0" driveindex="7"></score>
+    <score vh="H" team="UA" qtr="2" clock="00:00" type="FG" yds="40" scorer="Leigh Tiffin" plays="7" drive="46" top="0:44" vscore="10" hscore="3" driveindex="12"></score>
+    <score vh="H" team="UA" qtr="3" clock="10:15" type="TD" how="RUSH" yds="1" scorer="Wilson" patby="Leigh Tiffin" pattype="KICK" patres="GOOD" plays="3" drive="37" top="0:48" vscore="10" hscore="10" driveindex="17"></score>
+    <score vh="V" team="UGA" qtr="3" clock="06:08" type="TD" how="RUSH" yds="6" scorer="Knowshon Moreno" patby="Brandon Coutu" pattype="KICK" patres="GOOD" plays="9" drive="73" top="4:07" vscore="17" hscore="10" driveindex="18"></score>
+    <score vh="V" team="UGA" qtr="4" clock="12:23" type="FG" yds="47" scorer="Brandon Coutu" plays="9" drive="31" top="3:50" vscore="20" hscore="10" driveindex="22"></score>
+    <score vh="H" team="UA" qtr="4" clock="06:30" type="FG" yds="22" scorer="Leigh Tiffin" plays="13" drive="61" top="5:53" vscore="20" hscore="13" driveindex="23"></score>
+    <score vh="H" team="UA" qtr="4" clock="01:09" type="TD" how="RUSH" yds="6" scorer="Wilson" patby="Leigh Tiffin" pattype="KICK" patres="GOOD" plays="10" drive="88" top="3:35" vscore="20" hscore="20" driveindex="25"></score>
+    <score vh="H" team="UA" qtr="5" clock="15:00" type="FG" yds="42" scorer="Leigh Tiffin" plays="4" drive="0" top="0:00" vscore="20" hscore="23" driveindex="27"></score>
+    <score vh="V" team="UGA" qtr="5" clock="15:00" type="TD" how="PASS" yds="25" scorer="Mikey Henderson" passer="M. Stafford" plays="1" drive="25" top="0:00" vscore="26" hscore="23" driveindex="28"></score>
+  </scores>
+  <fgas>
+    <fga vh="V" team="UGA" kicker="Brandon Coutu" qtr="2" clock="06:21" distance="45" result="good"></fga>
+    <fga vh="H" team="UA" kicker="Leigh Tiffin" qtr="2" clock="00:00" distance="40" result="good"></fga>
+    <fga vh="V" team="UGA" kicker="Brandon Coutu" qtr="3" clock="13:58" distance="50" result="missed"></fga>
+    <fga vh="V" team="UGA" kicker="Brandon Coutu" qtr="4" clock="12:23" distance="47" result="good"></fga>
+    <fga vh="H" team="UA" kicker="Leigh Tiffin" qtr="4" clock="06:30" distance="22" result="good"></fga>
+    <fga vh="V" team="UGA" kicker="Brandon Coutu" qtr="4" clock="00:00" distance="47" result="missed"></fga>
+    <fga vh="H" team="UA" kicker="Leigh Tiffin" qtr="5" clock="15:00" distance="42" result="good"></fga>
+  </fgas>
+  <drives>
+    <drive vh="V" team="UGA" start="KO,1,15:00,30" end="TD,1,09:30,100" plays="10" yards="70" top="5:30" rz="1" driveindex="1"></drive>
+    <drive vh="H" team="UA" start="KO,1,09:30,23" end="PUNT,1,07:55,47" plays="4" yards="24" top="1:35" driveindex="2"></drive>
+    <drive vh="V" team="UGA" start="PUNT,1,07:55,28" end="INT,1,05:01,40" plays="5" yards="12" top="2:54" driveindex="3"></drive>
+    <drive vh="H" team="UA" start="INT,1,05:01,39" end="PUNT,1,03:28,47" plays="3" yards="8" top="1:33" driveindex="4"></drive>
+    <drive vh="V" team="UGA" start="PUNT,1,03:28,15" end="PUNT,2,14:04,41" plays="9" yards="26" top="4:24" driveindex="5"></drive>
+    <drive vh="H" team="UA" start="PUNT,2,14:04,27" end="DOWNS,2,10:51,70" plays="9" yards="43" top="3:13" driveindex="6"></drive>
+    <drive vh="V" team="UGA" start="DOWNS,2,10:51,30" end="FG,2,06:21,72" plays="10" yards="42" top="4:30" driveindex="7"></drive>
+    <drive vh="H" team="UA" start="KO,2,06:21,22" end="PUNT,2,04:57,42" plays="4" yards="20" top="1:24" driveindex="8"></drive>
+    <drive vh="V" team="UGA" start="PUNT,2,04:57,12" end="PUNT,2,03:55,20" plays="3" yards="8" top="1:02" driveindex="9"></drive>
+    <drive vh="H" team="UA" start="PUNT,2,03:55,41" end="PUNT,2,02:18,60" plays="5" yards="19" top="1:37" driveindex="10"></drive>
+    <drive vh="V" team="UGA" start="PUNT,2,02:18,20" end="PUNT,2,00:39,29" plays="3" yards="9" top="1:39" driveindex="11"></drive>
+    <drive vh="H" team="UA" start="PUNT,2,00:39,31" end="FG,3,14:55,77" plays="7" yards="46" top="0:44" driveindex="12"></drive>
+    <drive vh="H" team="UA" start="KO,3,15:00,10" end="FUMB,3,14:55,27" plays="0" yards="17" top="0:05" driveindex="13"></drive>
+    <drive vh="V" team="UGA" start="FUMB,3,14:55,73" end="FGA,3,13:58,68" plays="4" yards="-5" top="0:57" driveindex="14"></drive>
+    <drive vh="H" team="UA" start="FGA,3,13:58,32" end="PUNT,3,11:58,35" plays="3" yards="3" top="2:00" driveindex="15"></drive>
+    <drive vh="V" team="UGA" start="PUNT,3,11:58,45" end="INT,3,11:03,43" plays="2" yards="-2" top="0:55" driveindex="16"></drive>
+    <drive vh="H" team="UA" start="INT,3,11:03,63" end="TD,3,10:15,100" plays="3" yards="37" top="0:48" rz="1" driveindex="17"></drive>
+    <drive vh="V" team="UGA" start="KO,3,10:15,27" end="TD,3,06:08,100" plays="9" yards="73" top="4:07" rz="1" driveindex="18"></drive>
+    <drive vh="H" team="UA" start="KO,3,06:08,26" end="PUNT,3,05:02,23" plays="3" yards="-3" top="1:06" driveindex="19"></drive>
+    <drive vh="V" team="UGA" start="PUNT,3,05:02,39" end="PUNT,3,03:23,48" plays="3" yards="9" top="1:39" driveindex="20"></drive>
+    <drive vh="H" team="UA" start="PUNT,3,03:23,15" end="PUNT,3,01:13,27" plays="5" yards="12" top="2:10" driveindex="21"></drive>
+    <drive vh="V" team="UGA" start="PUNT,3,01:13,39" end="FG,4,12:23,70" plays="9" yards="31" top="3:50" driveindex="22"></drive>
+    <drive vh="H" team="UA" start="KO,4,12:23,34" end="FG,4,06:30,95" plays="13" yards="61" top="5:53" rz="1" driveindex="23"></drive>
+    <drive vh="V" team="UGA" start="KO,4,06:30,38" end="PUNT,4,04:44,53" plays="4" yards="15" top="1:46" driveindex="24"></drive>
+    <drive vh="H" team="UA" start="PUNT,4,04:44,12" end="TD,4,01:09,100" plays="10" yards="88" top="3:35" rz="1" driveindex="25"></drive>
+    <drive vh="V" team="UGA" start="KO,4,01:09,34" end="FGA,4,00:00,70" plays="8" yards="36" top="1:09" driveindex="26"></drive>
+    <drive vh="H" team="UA" start="FGA,5,15:00,75" end="FG,4,00:00,75" plays="4" yards="0" top="0:00" driveindex="27"></drive>
+    <drive vh="V" team="UGA" start="POSS,5,15:00,75" end="TD,5,15:00,100" plays="1" yards="25" top="0:00" driveindex="28"></drive>
+  </drives>
+  <plays format="summary">
+    <qtr number="1" text="1st">
+      <play context="V,1,10,V30" playid="0,1,0" tokens="CMT:Georgia won the toss and will receive. Alabama will defend the North" text="Georgia won the toss and will receive. Alabama will defend the North"></play>
+      <comment text="goal."></comment>
+      <play context="V,1,10,V30" playid="0,2,2" tokens="SPOT:H,H30,N" text="UA ball on UA30."></play>
+      <play context="H,1,10,H30" playid="0,3,3" type="K" tokens="KO:99,V05 RET:20,V30 TACK:28" text="Leigh Tiffin kickoff 65 yards to the UGA5, Thomas Brown return 25 yards to the UGA30 (Javier Arenas)."></play>
+      <drivestart poss="V,V30,15:00" vh="V" spot="V30" clock="15:00" driveindex="1,3"></drivestart>
+      <play context="V,1,10,V30" playid="1,1,4" type="P" pcode="CR" first="P" tokens="PASS:7,C,1,V48,CR" text="M. Stafford crossing pass complete to M. Massaquoi for 18 yards to the UGA48, 1ST DOWN UGA."></play>
+      <play context="V,1,10,V48" playid="1,2,5" type="P" pcode="SI" tokens="PASS:7,I,4,*,SI" text="M. Stafford sideline pass incomplete to Sean Bailey."></play>
+      <play context="V,2,10,V48" playid="1,3,6" type="P" pcode="MI" tokens="PASS:7,C,20,V50,MI" text="M. Stafford middle pass complete to Thomas Brown for 2 yards to the 50 yardline."></play>
+      <play context="V,3,8,V50" playid="1,4,7" type="P" pcode="SC" first="P" tokens="PASS:7,C,4,H30,SC TACK:49,20" text="M. Stafford screen pass complete to Sean Bailey for 20 yards to the UA30, 1ST DOWN UGA (Rashad Johnson;Marcus Carter)."></play>
+      <play context="V,1,10,H30" playid="1,5,8" type="R" pcode="RT" tokens="RUSH:20,H29,RT TACK:94" text="Thomas Brown rush over right tackle for 1 yard to the UA29 (Keith Saunders)."></play>
+      <play context="V,2,9,H29" playid="1,6,9" type="R" pcode="LE" tokens="RUSH:20,H26,LE TACK:21,16" text="Thomas Brown rush over left end for 3 yards to the UA26 (Prince Hall;Lionel Mitchell)."></play>
+      <play context="V,3,6,H26" playid="1,7,10" type="P" pcode="RF" first="P" tokens="PASS:7,C,24,H12,RF TACK:21" text="M. Stafford RF pass complete to Knowshon Moreno for 14 yards to the UA12, 1ST DOWN UGA (Prince Hall)."></play>
+      <play context="V,1,10,H12" playid="1,8,11" type="R" pcode="RE" tokens="RUSH:20,H11,RE TACK:25,92" text="Thomas Brown rush over right end for 1 yard to the UA11 (Rolando McClain;W. Gilberry)."></play>
+      <play context="V,2,9,H11" playid="1,9,12" type="R" pcode="RT" tokens="RUSH:20,H10,RT TACK:2" text="Thomas Brown rush over right tackle for 1 yard to the UA10 (Simeon Castille)."></play>
+      <play context="V,3,8,H10" playid="1,10,13" type="P" pcode="MI" first="P" score="Y" vscore="6" hscore="0" clock="09:30" tokens="PASS:7,C,20,H00,MI T:09:30" text="M. Stafford middle pass complete to Thomas Brown for 10 yards to the UA0, 1ST DOWN UGA, TOUCHDOWN, clock 09:30."></play>
+      <play context="V,1,0,H03" playid="1,11,14" type="X" score="Y" vscore="7" hscore="0" tokens="PAT:K,96,G" text="Brandon Coutu kick attempt good."></play>
+      <score V="7" H="0"></score>
+      <drivesum plays="10" yards="70" top="5:30" driveindex="1" complete="Y"></drivesum>
+      <play context="V,1,0,V30" playid="1,12,15" type="K" tokens="KO:96,H09 RET:30,H23 TACK:57" text="Brandon Coutu kickoff 61 yards to the UA9, Jonathan Lowe return 14 yards to the UA23 (Benjamin Boyd)."></play>
+      <drivestart poss="H,H23,09:30" vh="H" spot="H23" clock="09:30" driveindex="2,15"></drivestart>
+      <play context="H,1,10,H23" playid="2,1,16" clock="09:30" tokens="{DRIVE}:09:30" text="ALABAMA CRIMSON TIDE drive start at 09:30."></play>
+      <play context="H,1,10,H23" playid="2,2,17" type="R" pcode="LE" first="R" tokens="RUSH:29,H44,LE TACK:5" text="Terry Grant rush over left end for 21 yards to the UA44, 1ST DOWN UA (CJ Byrd)."></play>
+      <play context="H,1,10,H44" playid="2,3,18" type="P" pcode="SC" tokens="PASS:14,I,29,*,SC" text="Wilson screen pass incomplete to Terry Grant."></play>
+      <play context="H,2,10,H44" playid="2,4,19" type="P" pcode="RF" tokens="PASS:14,C,29,H47,RF TACK:2" text="Wilson RF pass complete to Terry Grant for 3 yards to the UA47 (Asher Allen)."></play>
+      <play context="H,3,7,H47" playid="2,5,20" type="P" pcode="SI" tokens="PASS:14,I,38,*,SI" text="Wilson sideline pass incomplete to Glen Coffee."></play>
+      <play context="H,4,7,H47" playid="2,6,21" type="U" tokens="PUNT:1A,V28 OB:" text="P.J. Fitzgerald punt 25 yards to the UGA28, out-of-bounds."></play>
+      <drivesum plays="4" yards="24" top="1:35" driveindex="2" complete="Y"></drivesum>
+      <drivestart poss="V,V28,07:55" vh="V" spot="V28" clock="07:55" driveindex="3,21"></drivestart>
+      <play context="V,1,10,V28" playid="3,1,22" clock="07:55" tokens="{DRIVE}:07:55" text="GEORGIA drive start at 07:55."></play>
+      <play context="V,1,10,V28" playid="3,2,23" type="R" pcode="RE" tokens="RUSH:20,V33,RE TACK:94" text="Thomas Brown rush over right end for 5 yards to the UGA33 (Keith Saunders)."></play>
+      <play context="V,2,5,V33" playid="3,3,24" type="#" clock="07:14" tokens="TOUT:V T:07:14" text="Timeout Georgia, clock 07:14."></play>
+      <play context="V,2,5,V33" playid="3,4,25" type="R" pcode="RG" first="R" tokens="RUSH:20,V39,RG TACK:94,20" text="Thomas Brown rush over right guard for 6 yards to the UGA39, 1ST DOWN UGA (Keith Saunders;Marcus Carter)."></play>
+      <play context="V,1,10,V39" playid="3,5,26" type="R" pcode="RT" tokens="RUSH:24,V38,RT TACK:25" text="Knowshon Moreno rush over right tackle for loss of 1 yard to the UGA38 (Rolando McClain)."></play>
+      <play context="V,2,11,V38" playid="3,6,27" type="R" pcode="RE" tokens="RUSH:24,V40,RE TACK:25,49" text="Knowshon Moreno rush over right end for 2 yards to the UGA40 (Rolando McClain;Rashad Johnson)."></play>
+      <play context="V,3,9,V40" playid="3,7,28" type="P" pcode="LF" turnover="I" tokens="PASS:7,X,16,H47,LF RET:16,V46 TACK:86 PEN:H,PF,A,3,H39,N D:1,10 SPOT:H,H39,Y" text="M. Stafford LF pass intercepted by Lionel Mitchell at the UA47, Lionel Mitchell return 7 yards to the UGA46 (Tripp Chandler), PENALTY UA personal foul (Kareem Jackson) 15 yards to the UA39, 1st and 10, UA ball on UA39."></play>
+      <drivesum plays="5" yards="12" top="2:54" driveindex="3" complete="Y"></drivesum>
+      <drivestart poss="H,H39,05:01" vh="H" spot="H39" clock="05:01" driveindex="4,28"></drivestart>
+      <play context="H,1,10,H39" playid="4,1,29" clock="05:01" tokens="{DRIVE}:05:01" text="ALABAMA CRIMSON TIDE drive start at 05:01."></play>
+      <play context="H,1,10,H39" playid="4,2,30" type="R" pcode="LE" tokens="RUSH:29,H40,LE TACK:2,95" text="Terry Grant rush over left end for 1 yard to the UA40 (Asher Allen;Jeff Owens)."></play>
+      <play context="H,2,9,H40" playid="4,3,31" type="P" pcode="CR" tokens="PASS:14,I,22,*,CR" text="Wilson crossing pass incomplete to DJ Hall."></play>
+      <play context="H,3,9,H40" playid="4,4,32" type="R" pcode="DR" tokens="RUSH:38,H47,DR TACK:9" text="Glen Coffee rush draw play for 7 yards to the UA47 (Reshad Jones)."></play>
+      <play context="H,4,2,H47" playid="4,5,33" type="U" tokens="PUNT:1A,V15 DN:" text="P.J. Fitzgerald punt 38 yards to the UGA15, downed."></play>
+      <drivesum plays="3" yards="8" top="1:33" driveindex="4" complete="Y"></drivesum>
+      <drivestart poss="V,V15,03:28" vh="V" spot="V15" clock="03:28" driveindex="5,33"></drivestart>
+      <play context="V,1,10,V15" playid="5,1,34" clock="03:28" tokens="{DRIVE}:03:28" text="GEORGIA drive start at 03:28."></play>
+      <play context="V,1,10,V15" playid="5,2,35" type="P" pcode="LF" tokens="PASS:7,C,27,V21,LF TACK:16" text="M. Stafford LF pass complete to Mikey Henderson for 6 yards to the UGA21 (Lionel Mitchell)."></play>
+      <comment text="Alabama's Simeon Castille shaken up on the play."></comment>
+      <play context="V,2,4,V21" playid="5,3,37" type="P" pcode="MI" tokens="PASS:7,I,86,*,MI" text="M. Stafford middle pass incomplete to Tripp Chandler."></play>
+      <play context="V,3,4,V21" playid="5,4,38" type="P" pcode="SI" first="P" tokens="PASS:7,C,1,V26,SI OB: TACK:2" text="M. Stafford sideline pass complete to M. Massaquoi for 5 yards to the UGA26, 1ST DOWN UGA, out-of-bounds (Simeon Castille)."></play>
+      <play context="V,1,10,V26" playid="5,5,39" type="P" pcode="CR" tokens="PASS:7,D,86,*,CR" text="M. Stafford crossing pass incomplete to Tripp Chandler, dropped pass."></play>
+      <play context="V,2,10,V26" playid="5,6,40" type="R" pcode="LE" tokens="RUSH:24,V35,LE TACK:16,21" text="Knowshon Moreno rush over left end for 9 yards to the UGA35 (Lionel Mitchell;Prince Hall)."></play>
+      <play context="V,3,1,V35" playid="5,7,41" type="R" pcode="LT" first="R" tokens="RUSH:24,V36,LT TACK:25" text="Knowshon Moreno rush over left tackle for 1 yard to the UGA36, 1ST DOWN UGA (Rolando McClain)."></play>
+      <play context="V,1,10,V36" playid="5,8,42" type="E" tokens="PEN:V,FS,A,63,V31,N" text="PENALTY UGA false start (Chris Davis) 5 yards to the UGA31."></play>
+      <play context="V,1,15,V31" playid="5,9,43" type="R" pcode="LT" tokens="RUSH:24,V32,LT TACK:97,95" text="Knowshon Moreno rush over left tackle for 1 yard to the UGA32 (L. Washington;B. Deaderick)."></play>
+      <play context="V,2,14,V32" playid="5,10,44" type="R" pcode="RE" tokens="RUSH:24,V35,RE TACK:2" text="Knowshon Moreno rush over right end for 3 yards to the UGA35 (Simeon Castille)."></play>
+      <score qtr="1" V="7" H="0"></score>
+      <endqtr></endqtr>
+      <qtrsummary vh="V" id="UGA">
+        <firstdowns no="7" rush="2" pass="5" penalty="0"></firstdowns>
+        <penalties no="1" yds="5"></penalties>
+        <conversions thirdconv="3" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="11:52"></misc>
+        <rush att="12" yds="32" gain="33" loss="1" td="0" long="9"></rush>
+        <pass comp="7" att="11" int="1" yds="75" td="1" long="20" sacks="0" sackyds="0"></pass>
+        <rcv no="7" yds="75" td="1" long="20"></rcv>
+        <ko no="1" yds="61" ob="0" tb="0"></ko>
+        <pat kickatt="1" kickmade="1"></pat>
+        <defense tackua="5" tacka="2" sacks="0" sackyds="0"></defense>
+        <kr no="1" yds="25" td="0" long="25"></kr>
+        <scoring td="1" patkick="1"></scoring>
+      </qtrsummary>
+      <qtrsummary vh="H" id="UA">
+        <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+        <penalties no="1" yds="15"></penalties>
+        <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="03:08"></misc>
+        <rush att="3" yds="29" gain="29" loss="0" td="0" long="21"></rush>
+        <pass comp="1" att="4" int="0" yds="3" td="0" long="3" sacks="0" sackyds="0"></pass>
+        <rcv no="1" yds="3" td="0" long="3"></rcv>
+        <punt no="2" yds="63" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+        <ko no="1" yds="65" ob="0" tb="0"></ko>
+        <defense tackua="10" tacka="14" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" int="1" intyds="7"></defense>
+        <kr no="1" yds="14" td="0" long="14"></kr>
+        <ir no="1" yds="7" td="0" long="7"></ir>
+      </qtrsummary>
+    </qtr>
+    <qtr number="2" text="2nd">
+      <play context="V,3,11,V35" playid="5,11,45" type="#" clock="15:00" tokens="Q:2 T:15:00" text="Start of 2nd quarter, clock 15:00."></play>
+      <play context="V,3,11,V35" playid="5,12,46" type="P" pcode="LF" tokens="PASS:7,C,20,V41,LF TACK:21" text="M. Stafford LF pass complete to Thomas Brown for 6 yards to the UGA41 (Prince Hall)."></play>
+      <play context="V,4,5,V41" playid="5,13,47" type="U" tokens="PUNT:32,H27 DN:" text="Brian Mimbs punt 32 yards to the UA27, downed."></play>
+      <drivesum plays="9" yards="26" top="4:24" driveindex="5" complete="Y"></drivesum>
+      <drivestart poss="H,H27,14:04" vh="H" spot="H27" clock="14:04" driveindex="6,47"></drivestart>
+      <play context="H,1,10,H27" playid="6,1,48" clock="14:04" tokens="{DRIVE}:14:04" text="ALABAMA CRIMSON TIDE drive start at 14:04."></play>
+      <play context="H,1,10,H27" playid="6,2,49" type="P" pcode="SI" tokens="PASS:14,I,22,*,SI" text="Wilson sideline pass incomplete to DJ Hall."></play>
+      <play context="H,2,10,H27" playid="6,3,50" type="R" pcode="LE" tokens="RUSH:29,H27,LE TACK:38" text="Terry Grant rush over left end for no gain to the UA27 (Marcus Howard)."></play>
+      <play context="H,3,10,H27" playid="6,4,51" type="P" pcode="CR" first="P" tokens="PASS:14,C,80,H38,CR OB: TACK:2" text="Wilson crossing pass complete to Mike McCoy for 11 yards to the UA38, 1ST DOWN UA, out-of-bounds (Asher Allen)."></play>
+      <play context="H,1,10,H38" playid="6,5,52" type="R" pcode="MI" tokens="RUSH:14,H41,MI TACK:44" text="Wilson rush up middle for 3 yards to the UA41 (M. Washington)."></play>
+      <play context="H,2,7,H41" playid="6,6,53" type="P" pcode="SI" first="P" tokens="PASS:14,C,22,V39,SI TACK:33" text="Wilson sideline pass complete to DJ Hall for 20 yards to the UGA39, 1ST DOWN UA (Dannell Ellerbe)."></play>
+      <play context="H,1,10,V39" playid="6,7,54" type="R" pcode="LE" tokens="RUSH:29,V33,LE TACK:3,23" text="Terry Grant rush over left end for 6 yards to the UGA33 (Bryan Evans;Prince Miller)."></play>
+      <play context="H,2,4,V33" playid="6,8,55" type="P" pcode="RF" tokens="PASS:14,B,81,*,RF BRUP:38" text="Wilson RF pass incomplete to Keith Brown (Marcus Howard)."></play>
+      <play context="H,3,4,V33" playid="6,9,56" type="#" clock="11:44" tokens="TOUT:V T:11:44" text="Timeout Georgia, clock 11:44."></play>
+      <play context="H,3,4,V33" playid="6,10,57" type="R" pcode="LT" tokens="RUSH:38,V30,LT TACK:33,91" text="Glen Coffee rush over left tackle for 3 yards to the UGA30 (Dannell Ellerbe;Kade Weston)."></play>
+      <play context="H,4,1,V30" playid="6,11,58" type="P" pcode="SI" tokens="PASS:14,I,88,*,SI QBH:V,38" text="Wilson sideline pass incomplete to Nick Walker, QB hurry by Marcus Howard."></play>
+      <drivesum plays="9" yards="43" top="3:13" driveindex="6" complete="Y"></drivesum>
+      <drivestart poss="V,V30,10:51" vh="V" spot="V30" clock="10:51" driveindex="7,58"></drivestart>
+      <play context="V,1,10,V30" playid="7,1,59" clock="10:51" tokens="{DRIVE}:10:51" text="GEORGIA drive start at 10:51."></play>
+      <play context="V,1,10,V30" playid="7,2,60" type="R" pcode="MI" tokens="RUSH:20,V33,MI TACK:25,47" text="Thomas Brown rush up middle for 3 yards to the UGA33 (Rolando McClain;Ezekial Knight)."></play>
+      <play context="V,2,7,V33" playid="7,3,61" type="R" pcode="MI" tokens="RUSH:24,V36,MI TACK:25,47" text="Knowshon Moreno rush up middle for 3 yards to the UGA36 (Rolando McClain;Ezekial Knight)."></play>
+      <play context="V,3,4,V36" playid="7,4,62" type="#" clock="09:28" tokens="TOUT:V T:09:28" text="Timeout Georgia, clock 09:28."></play>
+      <play context="V,3,4,V36" playid="7,5,63" type="P" pcode="LF" first="P" tokens="PASS:7,C,20,V48,LF TACK:49" text="M. Stafford LF pass complete to Thomas Brown for 12 yards to the UGA48, 1ST DOWN UGA (Rashad Johnson)."></play>
+      <play context="V,1,10,V48" playid="7,6,64" type="P" pcode="CR" first="P" tokens="PASS:7,C,16,H33,CR TACK:49" text="M. Stafford crossing pass complete to Kris Durham for 19 yards to the UA33, 1ST DOWN UGA (Rashad Johnson)."></play>
+      <play context="V,1,10,H33" playid="7,7,65" type="R" pcode="RE" tokens="RUSH:24,H28,RE TACK:49" text="Knowshon Moreno rush over right end for 5 yards to the UA28 (Rashad Johnson)."></play>
+      <play context="V,2,5,H28" playid="7,8,66" type="R" pcode="RT" first="R" tokens="RUSH:20,H22,RT TACK:25" text="Thomas Brown rush over right tackle for 6 yards to the UA22, 1ST DOWN UGA (Rolando McClain)."></play>
+      <play context="V,1,10,H22" playid="7,9,67" type="P" pcode="CR" tokens="PASS:7,B,88,*,CR BRUP:49 QBH:H,92" text="M. Stafford crossing pass incomplete to Kenneth Harris (Rashad Johnson), QB hurry by W. Gilberry."></play>
+      <play context="V,2,10,H22" playid="7,10,68" type="E" tokens="PEN:V,DG,A,7,H27,N" text="PENALTY UGA delay of game (M. Stafford) 5 yards to the UA27."></play>
+      <play context="V,2,15,H27" playid="7,11,69" type="E" tokens="PEN:V,FS,A,72,H33,N" text="PENALTY UGA false start (Vince Vance) 6 yards to the UA33."></play>
+      <play context="V,2,21,H33" playid="7,12,70" type="R" pcode="RE" tokens="RUSH:24,H27,RE TACK:21" text="Knowshon Moreno rush over right end for 6 yards to the UA27 (Prince Hall)."></play>
+      <play context="V,3,15,H27" playid="7,13,71" type="R" pcode="LT" tokens="RUSH:24,H28,LT TACK:49" text="Knowshon Moreno rush over left tackle for loss of 1 yard to the UA28 (Rashad Johnson)."></play>
+      <play context="V,4,16,H28" playid="7,14,72" type="F" score="Y" vscore="10" hscore="0" clock="06:21" tokens="FGA:96,45,G T:06:21" text="Brandon Coutu field goal attempt from 45 GOOD, clock 06:21."></play>
+      <score V="10" H="0"></score>
+      <drivesum plays="10" yards="42" top="4:30" driveindex="7" complete="Y"></drivesum>
+      <play context="V,1,0,V30" playid="7,15,73" type="K" tokens="KO:96,H06 RET:30,H22 TACK:47" text="Brandon Coutu kickoff 64 yards to the UA6, Jonathan Lowe return 16 yards to the UA22 (Andrew Williams)."></play>
+      <drivestart poss="H,H22,06:21" vh="H" spot="H22" clock="06:21" driveindex="8,73"></drivestart>
+      <play context="H,1,10,H22" playid="8,1,74" clock="06:21" tokens="{DRIVE}:06:21" text="ALABAMA CRIMSON TIDE drive start at 06:21."></play>
+      <play context="H,1,10,H22" playid="8,2,75" type="R" pcode="RG" first="R" tokens="RUSH:38,H35,RG TACK:5,30" text="Glen Coffee rush over right guard for 13 yards to the UA35, 1ST DOWN UA (CJ Byrd;Kelin Johnson)."></play>
+      <play context="H,1,10,H35" playid="8,3,76" type="R" pcode="RG" tokens="RUSH:38,H37,RG TACK:33" text="Glen Coffee rush over right guard for 2 yards to the UA37 (Dannell Ellerbe)."></play>
+      <play context="H,2,8,H37" playid="8,4,77" type="P" pcode="SI" tokens="PASS:14,I,22,*,SI" text="Wilson sideline pass incomplete to DJ Hall."></play>
+      <play context="H,3,8,H37" playid="8,5,78" type="P" pcode="RF" tokens="PASS:14,C,22,H42,RF TACK:33" text="Wilson RF pass complete to DJ Hall for 5 yards to the UA42 (Dannell Ellerbe)."></play>
+      <play context="H,4,3,H42" playid="8,6,79" type="U" tokens="PUNT:1A,V12 FC:27" text="P.J. Fitzgerald punt 46 yards to the UGA12, fair catch by Mikey Henderson."></play>
+      <drivesum plays="4" yards="20" top="1:24" driveindex="8" complete="Y"></drivesum>
+      <drivestart poss="V,V12,04:57" vh="V" spot="V12" clock="04:57" driveindex="9,79"></drivestart>
+      <play context="V,1,10,V12" playid="9,1,80" clock="04:57" tokens="{DRIVE}:04:57" text="GEORGIA drive start at 04:57."></play>
+      <play context="V,1,10,V12" playid="9,2,81" type="P" pcode="CR" tokens="PASS:7,B,1,*,CR BRUP:2" text="M. Stafford crossing pass incomplete to M. Massaquoi (Simeon Castille)."></play>
+      <play context="V,2,10,V12" playid="9,3,82" type="R" pcode="LE" tokens="RUSH:20,V20,LE TACK:25" text="Thomas Brown rush over left end for 8 yards to the UGA20 (Rolando McClain)."></play>
+      <play context="V,3,2,V20" playid="9,4,83" type="P" pcode="LF" tokens="PASS:7,B,20,*,LF BRUP:47" text="M. Stafford LF pass incomplete to Thomas Brown (Ezekial Knight)."></play>
+      <play context="V,4,2,V20" playid="9,5,84" type="U" tokens="PUNT:32,H32 RET:28,H41 TACK:51" text="Brian Mimbs punt 48 yards to the UA32, Javier Arenas return 9 yards to the UA41 (Akeem Dent)."></play>
+      <drivesum plays="3" yards="8" top="1:02" driveindex="9" complete="Y"></drivesum>
+      <drivestart poss="H,H41,03:55" vh="H" spot="H41" clock="03:55" driveindex="10,84"></drivestart>
+      <play context="H,1,10,H41" playid="10,1,85" clock="03:55" tokens="{DRIVE}:03:55" text="ALABAMA CRIMSON TIDE drive start at 03:55."></play>
+      <play context="H,1,10,H41" playid="10,2,86" type="P" pcode="SI" tokens="PASS:14,C,80,H46,SI OB: TACK:9" text="Wilson sideline pass complete to Mike McCoy for 5 yards to the UA46, out-of-bounds (Reshad Jones)."></play>
+      <play context="H,2,5,H46" playid="10,3,87" type="R" pcode="LE" first="R" tokens="RUSH:38,V46,LE TACK:44" text="Glen Coffee rush over left end for 8 yards to the UGA46, 1ST DOWN UA (M. Washington)."></play>
+      <play context="H,1,10,V46" playid="10,4,88" type="R" pcode="RT" tokens="RUSH:38,V45,RT TACK:56" text="Glen Coffee rush over right tackle for 1 yard to the UGA45 (Geno Atkins)."></play>
+      <play context="H,2,9,V45" playid="10,5,89" type="P" pcode="SI" tokens="PASS:14,I,80,*,SI QBH:V,33" text="Wilson sideline pass incomplete to Mike McCoy, QB hurry by Dannell Ellerbe."></play>
+      <play context="H,3,9,V45" playid="10,6,90" type="P" pcode="SL" tokens="PASS:14,C,11,V40,SL" text="Wilson slant pass complete to Matt Caddell for 5 yards to the UGA40."></play>
+      <play context="H,4,4,V40" playid="10,7,91" type="#" clock="02:28" tokens="TOUT:H T:02:28" text="Timeout Alabama Crimson Tide, clock 02:28."></play>
+      <play context="H,4,4,V40" playid="10,8,92" type="U" tokens="PUNT:1A,V00 TB:" text="P.J. Fitzgerald punt 40 yards to the UGA0, touchback."></play>
+      <drivesum plays="5" yards="19" top="1:37" driveindex="10" complete="Y"></drivesum>
+      <drivestart poss="V,V20,02:18" vh="V" spot="V20" clock="02:18" driveindex="11,92"></drivestart>
+      <play context="V,1,10,V20" playid="11,1,93" clock="02:18" tokens="{DRIVE}:02:18" text="GEORGIA drive start at 02:18."></play>
+      <play context="V,1,10,V20" playid="11,2,94" type="R" pcode="RG" tokens="RUSH:20,V24,RG TACK:97,21" text="Thomas Brown rush over right guard for 4 yards to the UGA24 (L. Washington;Prince Hall)."></play>
+      <play context="V,2,6,V24" playid="11,3,95" type="R" pcode="LT" tokens="RUSH:20,V28,LT TACK:21" text="Thomas Brown rush over left tackle for 4 yards to the UGA28 (Prince Hall)."></play>
+      <play context="V,3,2,V28" playid="11,4,96" type="R" pcode="RT" tokens="RUSH:20,V29,RT TACK:2,47" text="Thomas Brown rush over right tackle for 1 yard to the UGA29 (Simeon Castille;Ezekial Knight)."></play>
+      <play context="V,4,1,V29" playid="11,5,97" type="#" clock="00:47" tokens="TOUT:H T:00:47" text="Timeout Alabama Crimson Tide, clock 00:47."></play>
+      <play context="V,4,1,V29" playid="11,6,98" type="U" tokens="PUNT:32,H30 FC:28" text="Brian Mimbs punt 41 yards to the UA30, fair catch by Javier Arenas."></play>
+      <drivesum plays="3" yards="9" top="1:39" driveindex="11" complete="Y"></drivesum>
+      <drivestart poss="H,H30,00:39" vh="H" spot="H30" clock="00:39" driveindex="12,98"></drivestart>
+      <play context="H,1,10,H30" playid="12,1,99" clock="00:39" tokens="{DRIVE}:00:39" text="ALABAMA CRIMSON TIDE drive start at 00:39."></play>
+      <play context="H,1,10,H30" playid="12,2,100" tokens="SPOT:H,H31,Y" text="UA ball on UA31."></play>
+      <play context="H,1,10,H31" playid="12,3,101" type="P" pcode="CR" first="P" tokens="PASS:14,C,80,H45,CR OB: TACK:3" text="Wilson crossing pass complete to Mike McCoy for 14 yards to the UA45, 1ST DOWN UA, out-of-bounds (Bryan Evans)."></play>
+      <play context="H,1,10,H45" playid="12,4,102" type="E" pcode="RF" first="E" tokens="PASS:14,I,TM,*,RF PEN:V,FM,A,99,V40,N NOPLAY:" text="Wilson RF pass incomplete, PENALTY UGA face mask (Jarius Wynn) 15 yards to the UGA40, 1ST DOWN UA, NO PLAY."></play>
+      <play context="H,1,10,V40" playid="12,5,103" type="P" pcode="CR" tokens="PASS:14,C,80,V34,CR TACK:38" text="Wilson crossing pass complete to Mike McCoy for 6 yards to the UGA34 (Marcus Howard)."></play>
+      <play context="H,2,4,V34" playid="12,6,104" type="P" pcode="SI" first="P" tokens="PASS:14,C,80,V29,SI OB: TACK:2" text="Wilson sideline pass complete to Mike McCoy for 5 yards to the UGA29, 1ST DOWN UA, out-of-bounds (Asher Allen)."></play>
+      <play context="H,1,10,V29" playid="12,7,105" type="P" pcode="MI" tokens="PASS:14,I,11,*,MI" text="Wilson middle pass incomplete to Matt Caddell."></play>
+      <play context="H,2,10,V29" playid="12,8,106" type="P" pcode="SI" tokens="PASS:14,C,80,V23,SI OB: TACK:2" text="Wilson sideline pass complete to Mike McCoy for 6 yards to the UGA23, out-of-bounds (Asher Allen)."></play>
+      <play context="H,3,4,V23" playid="12,9,107" type="P" pcode="MI" tokens="PASS:14,I,22,*,MI" text="Wilson middle pass incomplete to DJ Hall."></play>
+      <play context="H,4,4,V23" playid="12,10,108" type="F" score="Y" vscore="10" hscore="3" clock="00:00" tokens="FGA:99,40,G T:00:00" text="Leigh Tiffin field goal attempt from 40 GOOD, clock 00:00."></play>
+      <score V="10" H="3"></score>
+      <comment text="Alabama will receive the kickoff.  Georgia will defend the South goal."></comment>
+      <play context="H,1,0,H30" playid="12,11,109" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of half, clock 00:00."></play>
+      <drivesum plays="7" yards="46" top="0:44" driveindex="12" complete="Y"></drivesum>
+      <score qtr="2" V="10" H="3"></score>
+      <endqtr></endqtr>
+      <qtrsummary vh="V" id="UGA">
+        <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+        <penalties no="3" yds="26"></penalties>
+        <conversions thirdconv="3" thirdatt="7" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="08:07"></misc>
+        <rush att="10" yds="39" gain="40" loss="1" td="0" long="0"></rush>
+        <pass comp="3" att="6" int="0" yds="37" td="0" long="0" sacks="0" sackyds="0"></pass>
+        <rcv no="3" yds="37" td="0" long="0"></rcv>
+        <punt no="3" yds="121" long="48" blkd="0" tb="0" fc="1" plus50="0" inside20="0"></punt>
+        <ko no="1" yds="64" ob="0" tb="0"></ko>
+        <fg made="1" att="1" long="45" blkd="0"></fg>
+        <defense tackua="15" tacka="6" sacks="0" sackyds="0" brup="1" qbh="2"></defense>
+        <scoring fg="1"></scoring>
+      </qtrsummary>
+      <qtrsummary vh="H" id="UA">
+        <firstdowns no="7" rush="2" pass="4" penalty="1"></firstdowns>
+        <penalties no="0" yds="0"></penalties>
+        <conversions thirdconv="1" thirdatt="5" fourthconv="0" fourthatt="1"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="06:53"></misc>
+        <rush att="8" yds="36" gain="36" loss="0" td="0" long="0"></rush>
+        <pass comp="9" att="16" int="0" yds="77" td="0" long="17" sacks="0" sackyds="0"></pass>
+        <rcv no="9" yds="77" td="0" long="17"></rcv>
+        <punt no="2" yds="86" long="8" blkd="0" tb="1" fc="1" plus50="0" inside20="1"></punt>
+        <fg made="1" att="1" long="40" blkd="0"></fg>
+        <defense tackua="9" tacka="8" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" brup="3" qbh="1"></defense>
+        <kr no="1" yds="16" td="0" long="2"></kr>
+        <pr no="1" yds="9" td="0" long="9"></pr>
+        <scoring fg="1"></scoring>
+      </qtrsummary>
+    </qtr>
+    <qtr number="3" text="3rd">
+      <play context="H,1,0,H30" playid="12,12,111" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:V,V30,N" text="Start of 3rd quarter, clock 15:00, UGA ball on UGA30."></play>
+      <play context="V,1,0,V30" playid="12,13,112" type="K" turnover="F" tokens="KO:96,H09 RET:30,H10 FUMB:V,H27,12" text="Brandon Coutu kickoff 61 yards to the UA9, Jonathan Lowe return 1 yards to the UA10, fumble by Jonathan Lowe recovered by UGA Brandon Miller at UA27."></play>
+      <drivestart poss="V,H27,14:55" vh="V" spot="H27" clock="14:55" driveindex="14,112"></drivestart>
+      <play context="V,1,10,H27" playid="14,1,113" clock="14:55" tokens="{DRIVE}:14:55" text="GEORGIA drive start at 14:55."></play>
+      <play context="V,1,10,H27" playid="14,2,114" type="R" pcode="RE" tokens="RUSH:20,H32,RE TACK:47" text="Thomas Brown rush over right end for loss of 5 yards to the UA32 (Ezekial Knight)."></play>
+      <play context="V,2,15,H32" playid="14,3,115" type="P" pcode="SL" tokens="PASS:7,D,1,*,SL" text="M. Stafford slant pass incomplete to M. Massaquoi, dropped pass."></play>
+      <play context="V,3,15,H32" playid="14,4,116" type="P" pcode="RF" tokens="PASS:7,I,20,*,RF QBH:H,92" text="M. Stafford RF pass incomplete to Thomas Brown, QB hurry by W. Gilberry."></play>
+      <play context="V,4,15,H32" playid="14,5,117" type="F" clock="13:58" tokens="FGA:96,50,M,H32,S T:13:58" text="Brandon Coutu field goal attempt from 50 MISSED - short, spot at UA32, clock 13:58."></play>
+      <drivesum plays="4" yards="-5" top="0:57" driveindex="14" complete="Y"></drivesum>
+      <drivestart poss="H,H32,13:58" vh="H" spot="H32" clock="13:58" driveindex="15,117"></drivestart>
+      <play context="H,1,10,H32" playid="15,1,118" type="R" pcode="LE" tokens="RUSH:14,H33,LE TACK:95" text="Wilson rush over left end for 1 yard to the UA33 (Jeff Owens)."></play>
+      <play context="H,2,9,H33" playid="15,2,119" type="P" pcode="LF" tokens="PASS:14,C,88,H38,LF TACK:41,52" text="Wilson LF pass complete to Nick Walker for 5 yards to the UA38 (Roderick Battle;Darius Dewberry)."></play>
+      <play context="H,3,4,H38" playid="15,3,120" type="P" tokens="PASS:14,S,TM,H35 SACK:44" text="Wilson sacked for loss of 3 yards to the UA35 (M. Washington)."></play>
+      <play context="H,4,7,H35" playid="15,4,121" type="U" tokens="PUNT:1A,V23 RET:27,V45 OB: TACK:1A" text="P.J. Fitzgerald punt 42 yards to the UGA23, Mikey Henderson return 22 yards to the UGA45, out-of-bounds (P.J. Fitzgerald)."></play>
+      <drivesum plays="3" yards="3" top="2:00" driveindex="15" complete="Y"></drivesum>
+      <drivestart poss="V,V45,11:58" vh="V" spot="V45" clock="11:58" driveindex="16,121"></drivestart>
+      <play context="V,1,10,V45" playid="16,1,122" clock="11:58" tokens="{DRIVE}:11:58" text="GEORGIA drive start at 11:58."></play>
+      <play context="V,1,10,V45" playid="16,2,123" type="E" pcode="SL" tokens="PASS:7,I,4,*,SL PEN:V,HO,A,72,V35,N NOPLAY:" text="M. Stafford slant pass incomplete to Sean Bailey, PENALTY UGA holding (Vince Vance) 10 yards to the UGA35, NO PLAY."></play>
+      <play context="V,1,20,V35" playid="16,3,124" type="R" pcode="LE" tokens="RUSH:24,V43,LE TACK:92" text="Knowshon Moreno rush over left end for 8 yards to the UGA43 (W. Gilberry)."></play>
+      <play context="V,2,12,V43" playid="16,4,125" type="P" pcode="MI" turnover="I" tokens="PASS:7,X,49,H37,MI RET:49,V37 TACK:20" text="M. Stafford middle pass intercepted by Rashad Johnson at the UA37, Rashad Johnson return 26 yards to the UGA37 (Thomas Brown)."></play>
+      <drivesum plays="2" yards="-2" top="0:55" driveindex="16" complete="Y"></drivesum>
+      <drivestart poss="H,V37,11:03" vh="H" spot="V37" clock="11:03" driveindex="17,125"></drivestart>
+      <play context="H,1,10,V37" playid="17,1,126" clock="11:03" tokens="{DRIVE}:11:03" text="ALABAMA CRIMSON TIDE drive start at 11:03."></play>
+      <play context="H,1,10,V37" playid="17,2,127" type="R" pcode="LE" tokens="RUSH:29,V31,LE TACK:2,44" text="Terry Grant rush over left end for 6 yards to the UGA31 (Asher Allen;M. Washington)."></play>
+      <play context="H,2,4,V31" playid="17,3,128" type="R" pcode="LE" first="R" tokens="RUSH:29,V01,LE TACK:2" text="Terry Grant rush over left end for 30 yards to the UGA1, 1ST DOWN UA (Asher Allen)."></play>
+      <play context="H,1,0,V01" playid="17,4,129" type="#" clock="10:20" tokens="TOUT:V T:10:20" text="Timeout Georgia, clock 10:20."></play>
+      <play context="H,1,0,V01" playid="17,5,130" type="R" pcode="QS" score="Y" vscore="10" hscore="9" clock="10:15" tokens="RUSH:14,V00,QS T:10:15" text="Wilson rush quarterback sneak for 1 yard to the UGA0, TOUCHDOWN, clock 10:15."></play>
+      <comment text="The previous play was reviewed and confirmed as called on the field."></comment>
+      <play context="H,1,0,V03" playid="17,6,132" type="X" score="Y" vscore="10" hscore="10" tokens="PAT:K,99,G" text="Leigh Tiffin kick attempt good."></play>
+      <score V="10" H="10"></score>
+      <drivesum plays="3" yards="37" top="0:48" driveindex="17" complete="Y"></drivesum>
+      <play context="H,1,0,H30" playid="17,7,133" type="K" tokens="KO:99,V06 RET:20,V27 TACK:8" text="Leigh Tiffin kickoff 64 yards to the UGA6, Thomas Brown return 21 yards to the UGA27 (Chris Rogers)."></play>
+      <drivestart poss="V,V27,10:15" vh="V" spot="V27" clock="10:15" driveindex="18,133"></drivestart>
+      <play context="V,1,10,V27" playid="18,1,134" clock="10:15" tokens="{DRIVE}:10:15" text="GEORGIA drive start at 10:15."></play>
+      <play context="V,1,10,V27" playid="18,2,135" type="R" pcode="RT" tokens="RUSH:20,V31,RT TACK:95" text="Thomas Brown rush over right tackle for 4 yards to the UGA31 (B. Deaderick)."></play>
+      <play context="V,2,6,V31" playid="18,3,136" type="P" pcode="MI" tokens="PASS:7,D,86,*,MI" text="M. Stafford middle pass incomplete to Tripp Chandler, dropped pass."></play>
+      <play context="V,3,6,V31" playid="18,4,137" type="P" pcode="SL" first="P" tokens="PASS:7,C,4,V39,SL TACK:16" text="M. Stafford slant pass complete to Sean Bailey for 8 yards to the UGA39, 1ST DOWN UGA (Lionel Mitchell)."></play>
+      <play context="V,1,10,V39" playid="18,5,138" type="P" pcode="LF" tokens="PASS:7,C,4,V44,LF" text="M. Stafford LF pass complete to Sean Bailey for 5 yards to the UGA44."></play>
+      <play context="V,2,5,V44" playid="18,6,139" type="R" pcode="RT" tokens="RUSH:24,V48,RT TACK:21,92" text="Knowshon Moreno rush over right tackle for 4 yards to the UGA48 (Prince Hall;W. Gilberry)."></play>
+      <play context="V,3,1,V48" playid="18,7,140" type="R" pcode="RE" first="R" tokens="RUSH:7,V50,RE OB: TACK:25" text="M. Stafford rush over right end for 2 yards to the 50 yardline, 1ST DOWN UGA, out-of-bounds (Rolando McClain)."></play>
+      <play context="V,1,10,V50" playid="18,8,141" type="P" pcode="SL" first="P" tokens="PASS:7,C,4,H17,SL TACK:2" text="M. Stafford slant pass complete to Sean Bailey for 33 yards to the UA17, 1ST DOWN UGA (Simeon Castille)."></play>
+      <play context="V,1,10,H17" playid="18,9,142" type="R" pcode="RE" tokens="RUSH:7,H14,RE TACK:25,93" text="M. Stafford rush over right end for 3 yards to the UA14 (Rolando McClain;Bobby Greenwood)."></play>
+      <play context="V,2,7,H14" playid="18,10,143" type="E" pcode="SL" first="E" tokens="PASS:7,I,85,*,SL PEN:H,PI,A,2,H06,1 NOPLAY:" text="M. Stafford slant pass incomplete to Demiko Goodman, PENALTY UA pass interference (Simeon Castille) 8 yards to the UA6, 1ST DOWN UGA, NO PLAY."></play>
+      <play context="V,1,0,H06" playid="18,11,144" type="R" pcode="RE" score="Y" vscore="16" hscore="10" clock="06:08" tokens="RUSH:24,H00,RE T:06:08" text="Knowshon Moreno rush over right end for 6 yards to the UA0, TOUCHDOWN, clock 06:08."></play>
+      <play context="V,1,0,H03" playid="18,12,145" type="X" score="Y" vscore="17" hscore="10" tokens="PAT:K,96,G" text="Brandon Coutu kick attempt good."></play>
+      <score V="17" H="10"></score>
+      <drivesum plays="9" yards="73" top="4:07" driveindex="18" complete="Y"></drivesum>
+      <play context="V,1,0,V30" playid="18,13,146" type="K" tokens="KO:96,H10 RET:28,H26 TACK:53,47" text="Brandon Coutu kickoff 60 yards to the UA10, Javier Arenas return 16 yards to the UA26 (Chris Gaunder;Andrew Williams)."></play>
+      <drivestart poss="H,H26,06:08" vh="H" spot="H26" clock="06:08" driveindex="19,146"></drivestart>
+      <play context="H,1,10,H26" playid="19,1,147" clock="06:08" tokens="{DRIVE}:06:08" text="ALABAMA CRIMSON TIDE drive start at 06:08."></play>
+      <play context="H,1,10,H26" playid="19,2,148" type="R" pcode="LE" tokens="RUSH:29,H23,LE TACK:2,95" text="Terry Grant rush over left end for loss of 3 yards to the UA23 (Asher Allen;Jeff Owens)."></play>
+      <play context="H,2,13,H23" playid="19,3,149" type="P" pcode="SI" tokens="PASS:14,I,80,*,SI QBH:V,30" text="Wilson sideline pass incomplete to Mike McCoy, QB hurry by Kelin Johnson."></play>
+      <play context="H,3,13,H23" playid="19,4,150" type="P" pcode="CR" tokens="PASS:14,B,22,*,CR BRUP:23" text="Wilson crossing pass incomplete to DJ Hall (Prince Miller)."></play>
+      <play context="H,4,13,H23" playid="19,5,151" type="U" tokens="PUNT:1A,V38 RET:27,V39 TACK:26" text="P.J. Fitzgerald punt 39 yards to the UGA38, Mikey Henderson return 1 yards to the UGA39 (Ali Sharrief)."></play>
+      <drivesum plays="3" yards="-3" top="1:06" driveindex="19" complete="Y"></drivesum>
+      <drivestart poss="V,V39,05:02" vh="V" spot="V39" clock="05:02" driveindex="20,151"></drivestart>
+      <play context="V,1,10,V39" playid="20,1,152" clock="05:02" tokens="{DRIVE}:05:02" text="GEORGIA drive start at 05:02."></play>
+      <play context="V,1,10,V39" playid="20,2,153" type="P" pcode="DP" tokens="PASS:7,I,27,*,DP" text="M. Stafford deep pass incomplete to Mikey Henderson."></play>
+      <play context="V,2,10,V39" playid="20,3,154" type="E" pcode="RT" tokens="RUSH:24,V40,RT TACK:21 PEN:V,HO,A,75,V29,N NOPLAY:" text="Knowshon Moreno rush over right tackle for 1 yard to the UGA40 (Prince Hall), PENALTY UGA holding (F. Velasco) 10 yards to the UGA29, NO PLAY."></play>
+      <play context="V,2,20,V29" playid="20,4,155" type="R" pcode="LE" tokens="RUSH:24,V48,LE TACK:20" text="Knowshon Moreno rush over left end for 19 yards to the UGA48 (Marcus Carter)."></play>
+      <play context="V,3,1,V48" playid="20,5,156" type="R" pcode="RG" tokens="RUSH:36,V48,RG TACK:92" text="B. Southerland rush over right guard for no gain to the UGA48 (W. Gilberry)."></play>
+      <play context="V,4,1,V48" playid="20,6,157" type="U" tokens="PUNT:32,H15 FC:28" text="Brian Mimbs punt 37 yards to the UA15, fair catch by Javier Arenas."></play>
+      <drivesum plays="3" yards="9" top="1:39" driveindex="20" complete="Y"></drivesum>
+      <drivestart poss="H,H15,03:23" vh="H" spot="H15" clock="03:23" driveindex="21,157"></drivestart>
+      <play context="H,1,10,H15" playid="21,1,158" clock="03:23" tokens="{DRIVE}:03:23" text="ALABAMA CRIMSON TIDE drive start at 03:23."></play>
+      <play context="H,1,10,H15" playid="21,2,159" type="P" pcode="SC" tokens="PASS:14,C,29,H23,SC TACK:38" text="Wilson screen pass complete to Terry Grant for 8 yards to the UA23 (Marcus Howard)."></play>
+      <play context="H,2,2,H23" playid="21,3,160" type="R" pcode="LT" first="R" tokens="RUSH:29,H25,LT TACK:30,90" text="Terry Grant rush over left tackle for 2 yards to the UA25, 1ST DOWN UA (Kelin Johnson;Corvey Irvin)."></play>
+      <play context="H,1,10,H25" playid="21,4,161" type="R" pcode="LE" tokens="RUSH:29,H29,LE TACK:33" text="Terry Grant rush over left end for 4 yards to the UA29 (Dannell Ellerbe)."></play>
+      <play context="H,2,6,H29" playid="21,5,162" type="P" pcode="SC" tokens="PASS:14,C,29,H27,SC TACK:56" text="Wilson screen pass complete to Terry Grant for loss of 2 yards to the UA27 (Geno Atkins)."></play>
+      <play context="H,3,8,H27" playid="21,6,163" type="P" pcode="CR" tokens="PASS:14,I,81,*,CR BRUP:23" text="Wilson crossing pass incomplete to Keith Brown (Prince Miller)."></play>
+      <play context="H,4,8,H27" playid="21,7,164" type="U" tokens="PUNT:1A,V33 RET:27,V49 OB: TACK:24 PEN:V,BL,A,1,V39,N D:1,10 SPOT:V,V39,Y" text="P.J. Fitzgerald punt 40 yards to the UGA33, Mikey Henderson return 16 yards to the UGA49, out-of-bounds (Marquis Johnson), PENALTY UGA illegal block (M. Massaquoi) 10 yards to the UGA39, 1st and 10, UGA ball on UGA39."></play>
+      <drivesum plays="5" yards="12" top="2:10" driveindex="21" complete="Y"></drivesum>
+      <drivestart poss="V,V39,01:13" vh="V" spot="V39" clock="01:13" driveindex="22,164"></drivestart>
+      <play context="V,1,10,V39" playid="22,1,165" clock="01:13" tokens="{DRIVE}:01:13" text="GEORGIA drive start at 01:13."></play>
+      <play context="V,1,10,V39" playid="22,2,166" type="R" pcode="RE" tokens="RUSH:24,V42,RE TACK:97" text="Knowshon Moreno rush over right end for 3 yards to the UGA42 (L. Washington)."></play>
+      <play context="V,2,7,V42" playid="22,3,167" type="P" pcode="RF" tokens="PASS:7,I,86,*,RF QBH:H,21" text="M. Stafford RF pass incomplete to Tripp Chandler, QB hurry by Prince Hall."></play>
+      <play context="V,3,7,V42" playid="22,4,168" type="P" pcode="LF" first="P" tokens="PASS:7,C,24,V50,LF TACK:21" text="M. Stafford LF pass complete to Knowshon Moreno for 8 yards to the 50 yardline, 1ST DOWN UGA (Prince Hall)."></play>
+      <play context="V,1,10,V50" playid="22,5,169" type="R" pcode="RG" tokens="RUSH:24,H47,RG TACK:97,21" text="Knowshon Moreno rush over right guard for 3 yards to the UA47 (L. Washington;Prince Hall)."></play>
+      <score qtr="3" V="17" H="10"></score>
+      <endqtr></endqtr>
+      <qtrsummary vh="V" id="UGA">
+        <firstdowns no="5" rush="1" pass="3" penalty="1"></firstdowns>
+        <penalties no="3" yds="30"></penalties>
+        <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="08:51"></misc>
+        <rush att="11" yds="47" gain="52" loss="5" td="1" long="10"></rush>
+        <pass comp="4" att="10" int="1" yds="54" td="0" long="13" sacks="0" sackyds="0"></pass>
+        <rcv no="4" yds="54" td="0" long="13"></rcv>
+        <punt no="1" yds="37" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+        <ko no="2" yds="121" ob="0" tb="0"></ko>
+        <fg made="0" att="1" long="0" blkd="0"></fg>
+        <pat kickatt="1" kickmade="1"></pat>
+        <defense tackua="7" tacka="10" tflua="2" tfla="2" tflyds="8" sacks="1" sackyds="3" brup="2" qbh="1" fr="1" fryds="0"></defense>
+        <kr no="1" yds="21" td="0" long="0"></kr>
+        <pr no="3" yds="39" td="0" long="22"></pr>
+        <scoring td="1" patkick="1"></scoring>
+      </qtrsummary>
+      <qtrsummary vh="H" id="UA">
+        <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+        <penalties no="1" yds="8"></penalties>
+        <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="1" lost="1"></fumbles>
+        <misc yds="0" top="06:09"></misc>
+        <rush att="8" yds="38" gain="44" loss="6" td="1" long="9"></rush>
+        <pass comp="3" att="6" int="0" yds="11" td="0" long="0" sacks="1" sackyds="3"></pass>
+        <rcv no="3" yds="11" td="0" long="0"></rcv>
+        <punt no="3" yds="121" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+        <ko no="1" yds="64" ob="0" tb="0"></ko>
+        <pat kickatt="1" kickmade="1"></pat>
+        <defense tackua="14" tacka="6" tflua="1" tfla="0" tflyds="5" sacks="0" sackyds="0" qbh="2" int="1" intyds="26"></defense>
+        <kr no="2" yds="34" td="0" long="0"></kr>
+        <ir no="1" yds="26" td="0" long="19"></ir>
+        <fumbles no="1" lost="1"></fumbles>
+        <scoring td="1" patkick="1"></scoring>
+      </qtrsummary>
+    </qtr>
+    <qtr number="4" text="4th">
+      <play context="V,2,7,H47" playid="22,6,170" type="#" clock="15:00" tokens="Q:4 T:15:00" text="Start of 4th quarter, clock 15:00."></play>
+      <play context="V,2,7,H47" playid="22,7,171" type="R" pcode="RG" first="R" tokens="RUSH:20,H37,RG TACK:47,16" text="Thomas Brown rush over right guard for 10 yards to the UA37, 1ST DOWN UGA (Ezekial Knight;Lionel Mitchell)."></play>
+      <play context="V,1,10,H37" playid="22,8,172" type="R" pcode="RT" tokens="RUSH:20,H38,RT TACK:2" text="Thomas Brown rush over right tackle for loss of 1 yard to the UA38 (Simeon Castille)."></play>
+      <play context="V,2,11,H38" playid="22,9,173" type="R" pcode="RT" tokens="RUSH:24,H35,RT TACK:93,21" text="Knowshon Moreno rush over right tackle for 3 yards to the UA35 (Bobby Greenwood;Prince Hall)."></play>
+      <play context="V,3,8,H35" playid="22,10,174" type="P" pcode="SI" tokens="PASS:7,C,27,H30,SI" text="M. Stafford sideline pass complete to Mikey Henderson for 5 yards to the UA30."></play>
+      <play context="V,4,3,H30" playid="22,11,175" type="F" score="Y" vscore="20" hscore="10" clock="12:23" tokens="FGA:96,47,G T:12:23" text="Brandon Coutu field goal attempt from 47 GOOD, clock 12:23."></play>
+      <score V="20" H="10"></score>
+      <drivesum plays="9" yards="31" top="3:50" driveindex="22" complete="Y"></drivesum>
+      <play context="V,1,0,V30" playid="22,12,176" type="K" tokens="KO:96,H18 RET:28,H34 TACK:9,5" text="Brandon Coutu kickoff 52 yards to the UA18, Javier Arenas return 16 yards to the UA34 (Reshad Jones;CJ Byrd)."></play>
+      <drivestart poss="H,H34,12:23" vh="H" spot="H34" clock="12:23" driveindex="23,176"></drivestart>
+      <play context="H,1,10,H34" playid="23,1,177" clock="12:23" tokens="{DRIVE}:12:23" text="ALABAMA CRIMSON TIDE drive start at 12:23."></play>
+      <play context="H,1,10,H34" playid="23,2,178" type="R" pcode="LT" tokens="RUSH:29,H41,LT TACK:30" text="Terry Grant rush over left tackle for 7 yards to the UA41 (Kelin Johnson)."></play>
+      <play context="H,2,3,H41" playid="23,3,179" type="E" tokens="PASS:14,S,TM,H40 SACK:91 PEN:H,HO,A,29,H30,N NOPLAY:" text="Wilson sacked for loss of 1 yard to the UA40 (Kade Weston), PENALTY UA holding (Terry Grant) 11 yards to the UA30, NO PLAY."></play>
+      <play context="H,2,14,H30" playid="23,4,180" type="P" pcode="CR" first="P" tokens="PASS:14,C,81,V48,CR TACK:9,30" text="Wilson crossing pass complete to Keith Brown for 22 yards to the UGA48, 1ST DOWN UA (Reshad Jones;Kelin Johnson)."></play>
+      <comment text="Georgia's Kelin Johnson shaken up on the play."></comment>
+      <play context="H,1,10,V48" playid="23,5,182" type="R" pcode="LE" tokens="RUSH:38,V41,LE OB: TACK:2" text="Glen Coffee rush over left end for 7 yards to the UGA41, out-of-bounds (Asher Allen)."></play>
+      <play context="H,2,3,V41" playid="23,6,183" type="P" pcode="DP" tokens="PASS:14,I,80,*,DP BRUP:9" text="Wilson deep pass incomplete to Mike McCoy (Reshad Jones)."></play>
+      <play context="H,3,3,V41" playid="23,7,184" type="R" pcode="LG" first="R" tokens="RUSH:38,V37,LG TACK:41" text="Glen Coffee rush over left guard for 4 yards to the UGA37, 1ST DOWN UA (Roderick Battle)."></play>
+      <play context="H,1,10,V37" playid="23,8,185" type="E" pcode="LT" tokens="RUSH:38,V35,LT TACK:33 PEN:V,OD,A,30,V33,N NOPLAY:" text="Glen Coffee rush over left tackle for 2 yards to the UGA35 (Dannell Ellerbe), PENALTY UGA offside defense (Kelin Johnson) 4 yards to the UGA33, NO PLAY."></play>
+      <play context="H,1,6,V33" playid="23,9,186" type="R" pcode="LE" tokens="RUSH:38,V28,LE TACK:29" text="Glen Coffee rush over left end for 5 yards to the UGA28 (Thomas Flowers)."></play>
+      <play context="H,2,1,V28" playid="23,10,187" type="R" pcode="LT" tokens="RUSH:38,V29,LT TACK:29" text="Glen Coffee rush over left tackle for loss of 1 yard to the UGA29 (Thomas Flowers)."></play>
+      <play context="H,3,2,V29" playid="23,11,188" type="R" pcode="MI" tokens="RUSH:14,V34,MI" text="Wilson rush up middle for loss of 5 yards to the UGA34."></play>
+      <comment text="Wilson tripped on the play."></comment>
+      <play context="H,4,7,V34" playid="23,12,190" type="E" pcode="LF" first="E" tokens="PASS:14,I,22,*,LF PEN:V,PI,A,23,V28,1 NOPLAY:" text="Wilson LF pass incomplete to DJ Hall, PENALTY UGA pass interference (Prince Miller) 6 yards to the UGA28, 1ST DOWN UA, NO PLAY."></play>
+      <play context="H,1,10,V28" playid="23,13,191" type="P" pcode="SI" first="P" tokens="PASS:14,C,22,V07,SI" text="Wilson sideline pass complete to DJ Hall for 21 yards to the UGA7, 1ST DOWN UA."></play>
+      <comment text="The previous play was reversed after review. It was ruled incomplete."></comment>
+      <play context="H,1,0,V07" playid="23,14,193" type="R" pcode="LT" tokens="RUSH:38,V07,LT TACK:95,33" text="Glen Coffee rush over left tackle for no gain to the UGA7 (Jeff Owens;Dannell Ellerbe)."></play>
+      <play context="H,2,0,V07" playid="23,15,194" type="R" pcode="RG" tokens="RUSH:38,V05,RG TACK:38" text="Glen Coffee rush over right guard for 2 yards to the UGA5 (Marcus Howard)."></play>
+      <play context="H,3,0,V05" playid="23,16,195" type="P" pcode="CR" tokens="PASS:14,I,80,*,CR" text="Wilson crossing pass incomplete to Mike McCoy."></play>
+      <play context="H,4,0,V05" playid="23,17,196" type="F" score="Y" vscore="20" hscore="13" clock="06:30" tokens="FGA:99,22,G T:06:30" text="Leigh Tiffin field goal attempt from 22 GOOD, clock 06:30."></play>
+      <score V="20" H="13"></score>
+      <drivesum plays="13" yards="61" top="5:53" driveindex="23" complete="Y"></drivesum>
+      <play context="H,1,0,H30" playid="23,18,197" type="K" tokens="KO:99,V22 RET:49,V38 TACK:55" text="Leigh Tiffin kickoff 48 yards to the UGA22, Shaun Chapas return 16 yards to the UGA38 (Chavis Williams)."></play>
+      <drivestart poss="V,V38,06:30" vh="V" spot="V38" clock="06:30" driveindex="24,197"></drivestart>
+      <play context="V,1,10,V38" playid="24,1,198" clock="06:30" tokens="{DRIVE}:06:30" text="GEORGIA drive start at 06:30."></play>
+      <play context="V,1,10,V38" playid="24,2,199" type="R" pcode="MI" first="R" tokens="RUSH:20,H46,MI TACK:20,49" text="Thomas Brown rush up middle for 16 yards to the UA46, 1ST DOWN UGA (Marcus Carter;Rashad Johnson)."></play>
+      <play context="V,1,10,H46" playid="24,3,200" type="R" pcode="LE" tokens="RUSH:20,H43,LE OB: TACK:25" text="Thomas Brown rush over left end for 3 yards to the UA43, out-of-bounds (Rolando McClain)."></play>
+      <play context="V,2,7,H43" playid="24,4,201" type="R" pcode="RT" tokens="RUSH:20,H47,RT TACK:92" text="Thomas Brown rush over right tackle for loss of 4 yards to the UA47 (W. Gilberry)."></play>
+      <play context="V,3,11,H47" playid="24,5,202" type="P" pcode="SI" tokens="PASS:7,I,85,*,SI" text="M. Stafford sideline pass incomplete to Demiko Goodman."></play>
+      <play context="V,4,11,H47" playid="24,6,203" type="U" tokens="PUNT:32,H11 OB:" text="Brian Mimbs punt 36 yards to the UA11, out-of-bounds."></play>
+      <drivesum plays="4" yards="15" top="1:46" driveindex="24" complete="Y"></drivesum>
+      <drivestart poss="H,H11,04:44" vh="H" spot="H11" clock="04:44" driveindex="25,203"></drivestart>
+      <play context="H,1,10,H11" playid="25,1,204" clock="04:44" tokens="{DRIVE}:04:44" text="ALABAMA CRIMSON TIDE drive start at 04:44."></play>
+      <play context="H,1,10,H11" playid="25,2,205" tokens="SPOT:H,H12,Y" text="UA ball on UA12."></play>
+      <play context="H,1,10,H12" playid="25,3,206" type="P" pcode="SI" tokens="PASS:14,I,22,*,SI" text="Wilson sideline pass incomplete to DJ Hall."></play>
+      <play context="H,2,10,H12" playid="25,4,207" type="P" pcode="DP" first="P" tokens="PASS:14,C,81,V45,DP" text="Wilson deep pass complete to Keith Brown for 43 yards to the UGA45, 1ST DOWN UA."></play>
+      <play context="H,1,10,V45" playid="25,5,208" type="R" pcode="LE" tokens="RUSH:38,V40,LE TACK:2,44" text="Glen Coffee rush over left end for 5 yards to the UGA40 (Asher Allen;M. Washington)."></play>
+      <play context="H,2,5,V40" playid="25,6,209" type="R" pcode="DR" first="R" tokens="RUSH:5,V31,DR TACK:44" text="Roy Upchurch rush draw play for 9 yards to the UGA31, 1ST DOWN UA (M. Washington)."></play>
+      <play context="H,1,10,V31" playid="25,7,210" type="#" clock="03:45" tokens="TOUT:V T:03:45" text="Timeout Georgia, clock 03:45."></play>
+      <play context="H,1,10,V31" playid="25,8,211" type="R" pcode="LG" tokens="RUSH:29,V25,LG TACK:33" text="Terry Grant rush over left guard for 6 yards to the UGA25 (Dannell Ellerbe)."></play>
+      <play context="H,2,4,V25" playid="25,9,212" type="R" pcode="RG" tokens="RUSH:38,V22,RG TACK:33,5" text="Glen Coffee rush over right guard for 3 yards to the UGA22 (Dannell Ellerbe;CJ Byrd)."></play>
+      <play context="H,3,1,V22" playid="25,10,213" type="R" pcode="LT" first="R" tokens="RUSH:38,V19,LT TACK:44" text="Glen Coffee rush over left tackle for 3 yards to the UGA19, 1ST DOWN UA (M. Washington)."></play>
+      <play context="H,1,10,V19" playid="25,11,214" type="E" pcode="CR" tokens="PASS:14,C,80,V08,CR OB: TACK:44 PEN:H,ID,A,22,V24,N NOPLAY:" text="Wilson crossing pass complete to Mike McCoy for 11 yards to the UGA8, out-of-bounds (M. Washington), PENALTY UA ineligible downfield on pass (DJ Hall) 5 yards to the UGA24, NO PLAY."></play>
+      <play context="H,1,15,V24" playid="25,12,215" type="P" pcode="LF" tokens="PASS:14,C,81,V16,LF TACK:2,44" text="Wilson LF pass complete to Keith Brown for 8 yards to the UGA16 (Asher Allen;M. Washington)."></play>
+      <comment text="Georgia's Marcus Washington shaken up on the play."></comment>
+      <play context="H,2,7,V16" playid="25,13,217" type="R" pcode="DR" first="R" tokens="RUSH:5,V06,DR TACK:30" text="Roy Upchurch rush draw play for 10 yards to the UGA6, 1ST DOWN UA (Kelin Johnson)."></play>
+      <play context="H,1,0,V06" playid="25,14,218" type="R" pcode="MI" score="Y" vscore="20" hscore="19" clock="01:09" tokens="RUSH:14,V00,MI T:01:09" text="Wilson rush up middle for 6 yards to the UGA0, TOUCHDOWN, clock 01:09."></play>
+      <play context="H,1,0,V03" playid="25,15,219" type="X" score="Y" vscore="20" hscore="20" tokens="PAT:K,99,G" text="Leigh Tiffin kick attempt good."></play>
+      <score V="20" H="20"></score>
+      <drivesum plays="10" yards="88" top="3:35" driveindex="25" complete="Y"></drivesum>
+      <play context="H,1,0,H30" playid="25,16,220" type="K" tokens="KO:99,V12 RET:20,V34 TACK:8" text="Leigh Tiffin kickoff 58 yards to the UGA12, Thomas Brown return 22 yards to the UGA34 (Chris Rogers)."></play>
+      <drivestart poss="V,V34,01:09" vh="V" spot="V34" clock="01:09" driveindex="26,220"></drivestart>
+      <play context="V,1,10,V34" playid="26,1,221" clock="01:09" tokens="{DRIVE}:01:09" text="GEORGIA drive start at 01:09."></play>
+      <play context="V,1,10,V34" playid="26,2,222" type="P" pcode="CR" tokens="PASS:7,C,20,V43,CR TACK:21" text="M. Stafford crossing pass complete to Thomas Brown for 9 yards to the UGA43 (Prince Hall)."></play>
+      <play context="V,2,1,V43" playid="26,3,223" type="P" pcode="LF" first="P" tokens="PASS:7,C,4,H49,LF TACK:92,94" text="M. Stafford LF pass complete to Sean Bailey for 8 yards to the UA49, 1ST DOWN UGA (W. Gilberry;Keith Saunders)."></play>
+      <play context="V,1,10,H49" playid="26,4,224" type="P" pcode="MI" tokens="PASS:7,I,86,*,MI" text="M. Stafford middle pass incomplete to Tripp Chandler."></play>
+      <play context="V,2,10,H49" playid="26,5,225" type="P" pcode="RF" tokens="PASS:7,I,20,*,RF QBH:H,47" text="M. Stafford RF pass incomplete to Thomas Brown, QB hurry by Ezekial Knight."></play>
+      <play context="V,3,10,H49" playid="26,6,226" type="R" pcode="LE" tokens="RUSH:20,H41,LE TACK:16,26" text="Thomas Brown rush over left end for 8 yards to the UA41 (Lionel Mitchell;Ali Sharrief)."></play>
+      <play context="V,4,2,H41" playid="26,7,227" type="#" clock="00:12" tokens="TOUT:V T:00:12" text="Timeout Georgia, clock 00:12."></play>
+      <play context="V,4,2,H41" playid="26,8,228" type="P" pcode="CR" first="P" tokens="PASS:7,C,86,H30,CR TACK:49,2" text="M. Stafford crossing pass complete to Tripp Chandler for 11 yards to the UA30, 1ST DOWN UGA (Rashad Johnson;Simeon Castille)."></play>
+      <play context="V,1,10,H30" playid="26,9,229" type="P" pcode="SP" tokens="PASS:TM,I,TM,*,SP" text="TEAM SP pass incomplete."></play>
+      <play context="V,2,10,H30" playid="26,10,230" type="#" clock="00:03" tokens="TOUT:H T:00:03" text="Timeout Alabama Crimson Tide, clock 00:03."></play>
+      <play context="V,2,10,H30" playid="26,11,231" type="#" clock="00:03" tokens="TOUT:H T:00:03" text="Timeout Alabama Crimson Tide, clock 00:03."></play>
+      <play context="V,2,10,H30" playid="26,12,232" type="F" clock="00:00" tokens="FGA:96,47,M,H30,L T:00:00" text="Brandon Coutu field goal attempt from 47 MISSED - wide left, spot at UA30, clock 00:00."></play>
+      <drivesum plays="8" yards="36" top="1:09" driveindex="26" complete="Y"></drivesum>
+      <drivestart poss="H,H30,00:00" vh="H" spot="H30" clock="00:00" driveindex="27,232"></drivestart>
+      <score qtr="4" V="20" H="20"></score>
+      <endqtr></endqtr>
+      <qtrsummary vh="V" id="UGA">
+        <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+        <penalties no="2" yds="10"></penalties>
+        <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="1"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="05:32"></misc>
+        <rush att="7" yds="35" gain="40" loss="5" td="0" long="0"></rush>
+        <pass comp="4" att="8" int="0" yds="33" td="0" long="0" sacks="0" sackyds="0"></pass>
+        <rcv no="4" yds="33" td="0" long="0"></rcv>
+        <punt no="1" yds="36" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+        <ko no="1" yds="52" ob="0" tb="0"></ko>
+        <fg made="1" att="2" long="2" blkd="0"></fg>
+        <defense tackua="10" tacka="12" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" brup="1"></defense>
+        <kr no="2" yds="38" td="0" long="0"></kr>
+        <scoring fg="1"></scoring>
+      </qtrsummary>
+      <qtrsummary vh="H" id="UA">
+        <firstdowns no="8" rush="4" pass="3" penalty="1"></firstdowns>
+        <penalties no="2" yds="16"></penalties>
+        <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="09:28"></misc>
+        <rush att="15" yds="61" gain="67" loss="6" td="1" long="0"></rush>
+        <pass comp="4" att="7" int="0" yds="94" td="0" long="23" sacks="0" sackyds="0"></pass>
+        <rcv no="4" yds="94" td="0" long="23"></rcv>
+        <ko no="2" yds="106" ob="0" tb="0"></ko>
+        <fg made="1" att="1" long="0" blkd="0"></fg>
+        <pat kickatt="1" kickmade="1"></pat>
+        <defense tackua="6" tacka="12" tflua="2" tfla="0" tflyds="5" sacks="0" sackyds="0" qbh="1"></defense>
+        <kr no="1" yds="16" td="0" long="0"></kr>
+        <scoring td="1" fg="1" patkick="1"></scoring>
+      </qtrsummary>
+    </qtr>
+    <qtr number="5" text="OT">
+      <comment text="Georgia won the toss and will play defense. Alabama will drive toward"></comment>
+      <comment text="the South goal."></comment>
+      <play context="H,1,10,H30" playid="27,1,233" type="#" clock="15:00" tokens="Q:5 T:15:00" text="Start of OT  quarter, clock 15:00."></play>
+      <play context="H,1,10,H30" playid="27,2,236" tokens="SPOT:H,V25,Y" text="UA ball on UGA25."></play>
+      <play context="H,1,10,V25" playid="27,3,237" type="R" pcode="LT" tokens="RUSH:38,V25,LT TACK:12" text="Glen Coffee rush over left tackle for no gain to the UGA25 (Brandon Miller)."></play>
+      <play context="H,2,10,V25" playid="27,4,238" type="P" pcode="SI" tokens="PASS:14,I,11,*,SI" text="Wilson sideline pass incomplete to Matt Caddell."></play>
+      <play context="H,3,10,V25" playid="27,5,239" type="P" pcode="CR" tokens="PASS:14,B,22,*,CR BRUP:2" text="Wilson crossing pass incomplete to DJ Hall (Asher Allen)."></play>
+      <play context="H,4,10,V25" playid="27,6,240" type="F" score="Y" vscore="20" hscore="23" clock="15:00" tokens="FGA:99,42,G T:15:00" text="Leigh Tiffin field goal attempt from 42 GOOD, clock 15:00."></play>
+      <score V="20" H="23"></score>
+      <play context="H,1,0,H30" playid="27,7,241" tokens="POSS: SPOT:V,H25,Y D:1,10" text="Change of possession, UGA ball on UA25, 1st and 10."></play>
+      <drivesum plays="4" yards="0" top="0:00" driveindex="27" complete="Y"></drivesum>
+      <drivestart poss="V,H25,15:00" vh="V" spot="H25" clock="15:00" driveindex="28,241"></drivestart>
+      <play context="V,1,10,H25" playid="28,1,242" clock="15:00" tokens="{DRIVE}:15:00" text="GEORGIA drive start at 15:00."></play>
+      <play context="V,1,10,H25" playid="28,2,243" type="P" pcode="FL" first="P" score="Y" vscore="26" hscore="23" clock="15:00" tokens="PASS:7,C,27,H00,FL T:15:00" text="M. Stafford flag pass complete to Mikey Henderson for 25 yards to the UA0, 1ST DOWN UGA, TOUCHDOWN, clock 15:00."></play>
+      <score V="26" H="23"></score>
+      <drivesum plays="1" yards="25" top="0:00" driveindex="28" complete="Y"></drivesum>
+      <score V="26" H="23"></score>
+      <qtrsummary vh="V" id="UGA">
+        <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+        <penalties no="0" yds="0"></penalties>
+        <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="00:00"></misc>
+        <pass comp="1" att="1" int="0" yds="25" td="1" long="0" sacks="0" sackyds="0"></pass>
+        <rcv no="1" yds="25" td="1" long="0"></rcv>
+        <defense tackua="1" tacka="0" sacks="0" sackyds="0" brup="1"></defense>
+        <scoring td="1"></scoring>
+      </qtrsummary>
+      <qtrsummary vh="H" id="UA">
+        <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+        <penalties no="0" yds="0"></penalties>
+        <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+        <fumbles no="0" lost="0"></fumbles>
+        <misc yds="0" top="00:00"></misc>
+        <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+        <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+        <fg made="1" att="1" long="2" blkd="0"></fg>
+        <scoring fg="1"></scoring>
+      </qtrsummary>
+    </qtr>
+    <downtogo context="V,1,0,H03" qtr="5" clock="00:00"></downtogo>
+  </plays>
+  <message text=""></message>
+  <dnp vh="V" id="UGA">
+    <player name="Blake Barnes" checkname="BARNES,BLAKE" uni="1Q" class="JR" gp="0" code="1Q"></player>
+    <player name="Kalvin Daniels" checkname="DANIELS,KALVIN" uni="3D" class="FR" gp="0" code="3D"></player>
+    <player name="Bo Fowler" checkname="FOWLER,BO" uni="5F" class="JR" gp="0" code="5F"></player>
+    <player name="Vernon Spellman" checkname="SPELLMAN,VERNON" uni="8" class="SO" gp="0" code="8"></player>
+    <player name="Drew Butler" checkname="BUTLER,DREW" uni="13" class="FR" gp="0" code="13"></player>
+    <player name="Joe Cox" checkname="COX,JOE" uni="14" class="SO" gp="0" code="14"></player>
+    <player name="J. DeLaureal" checkname="DELAUREAL,J" uni="17" class="FR" gp="0" code="17"></player>
+    <player name="A.J. Bryant" checkname="BRYANT,AJ" uni="18" class="SR" gp="0" code="18"></player>
+    <player name="Caleb King" checkname="KING,CALEB" uni="22" class="FR" gp="0" code="22"></player>
+    <player name="Vance Cuff" checkname="CUFF,VANCE" uni="25" class="FR" gp="0" code="25"></player>
+    <player name="Ben Wilson" checkname="WILSON,BEN" uni="28" class="SR" gp="0" code="28"></player>
+    <player name="Rennie Curran" checkname="CURRAN,RENNIE" uni="35" class="FR" gp="0" code="35"></player>
+    <player name="Mitchell Pittman" checkname="PITTMAN,M" uni="37" class="SR" gp="0" code="37"></player>
+    <player name="Justin Houston" checkname="HOUSTON,JUSTIN" uni="42" class="FR" gp="0" code="42"></player>
+    <player name="Charles White" checkname="WHITE,CHARLES" uni="43" class="FR" gp="0" code="43"></player>
+    <player name="Tripp Taylor" checkname="TAYLOR,TRIPP" uni="45" class="SO" gp="0" code="45"></player>
+    <player name="Jeff Potterbaum" checkname="POTTERBAUM,JEFF" uni="46" class="SO" gp="0" code="46"></player>
+    <player name="Tanner Strickland" checkname="STRICKLAND,T" uni="54" class="FR" gp="0" code="54"></player>
+    <player name="Michael Lemon" checkname="LEMON,MICHAEL" uni="59" class="FR" gp="0" code="59"></player>
+    <player name="Justin Fields" checkname="FIELDS,JUSTIN" uni="61" class="FR" gp="0" code="61"></player>
+    <player name="Kiante Tripp" checkname="TRIPP,KIANTE" uni="64" class="FR" gp="0" code="64"></player>
+    <player name="Micky White" checkname="WHITE,MICKY" uni="66" class="FR" gp="0" code="66"></player>
+    <player name="Wes Jacobs" checkname="JACOBS,WES" uni="68" class="SO" gp="0" code="68"></player>
+    <player name="Andrew Gully" checkname="GULLY,ANDREW" uni="69" class="SO" gp="0" code="69"></player>
+    <player name="Scott Haverkamp" checkname="HAVERKAMP,SCOTT" uni="70" class="JR" gp="0" code="70"></player>
+    <player name="Justin Lyles" checkname="LYLES,JUSTIN" uni="71" class="SR" gp="0" code="71"></player>
+    <player name="Chris Little" checkname="LITTLE,CHRIS" uni="73" class="FR" gp="0" code="73"></player>
+    <player name="Kevin Perez" checkname="PEREZ,KEVIN" uni="74" class="FR" gp="0" code="74"></player>
+    <player name="Ben Harden" checkname="HARDEN,BEN" uni="76" class="FR" gp="0" code="76"></player>
+    <player name="Josh Davis" checkname="DAVIS,JOSH" uni="78" class="FR" gp="0" code="78"></player>
+    <player name="Justin Anderson" checkname="ANDERSON,JUSTIN" uni="79" class="FR" gp="0" code="79"></player>
+    <player name="NaDerris Ward" checkname="WARD,NADERRIS" uni="81" class="FR" gp="0" code="81"></player>
+    <player name="T.J. Gartrell" checkname="GARTRELL,TJ" uni="83" class="SR" gp="0" code="83"></player>
+    <player name="Coleman Watson" checkname="WATSON,COLEMAN" uni="84" class="SR" gp="0" code="84"></player>
+    <player name="Aron White" checkname="WHITE,ARON" uni="87" class="FR" gp="0" code="87"></player>
+    <player name="Neland Ball" checkname="BALL,NELAND" uni="92" class="FR" gp="0" code="92"></player>
+    <player name="Andy Bailey" checkname="BAILEY,ANDY" uni="93" class="SR" gp="0" code="93"></player>
+    <player name="Brandon Wood" checkname="WOOD,BRANDON" uni="97" class="FR" gp="0" code="97"></player>
+    <player name="Ricardo Crawford" checkname="CRAWFORD,R" uni="98" class="FR" gp="0" code="98"></player>
+  </dnp>
+  <dnp vh="H" id="UA">
+    <player name="Andrew Friedman" checkname="FRIEDMAN,ANDREW" uni="1B" class="SO" gp="0" code="1B"></player>
+    <player name="Josh Chapman" checkname="CHAPMAN,JOSH" uni="2B" class="FR" gp="0" code="2B"></player>
+    <player name="Ross Applegate" checkname="APPLEGATE,ROSS" uni="2A" class="FR" gp="0" code="2A"></player>
+    <player name="Demetrius Goode" checkname="GOODE,DEMETRIUS" uni="3A" class="FR" gp="0" code="3A"></player>
+    <player name="Marquis Maze" checkname="MAZE,MARQUIS" uni="4" class="FR" gp="0" code="4"></player>
+    <player name="Courtney Moore" checkname="MOORE,COURTNEY" uni="4A" class="JR" gp="0" code="4A"></player>
+    <player name="A.J. Walker" checkname="WALKER,AJ" uni="6A" class="FR" gp="0" code="6A"></player>
+    <player name="Kyle Pennington" checkname="PENNINGTON,KYLE" uni="7A" class="FR" gp="0" code="7A"></player>
+    <player name="Will Oakley" checkname="OAKLEY,WILL" uni="7" class="JR" gp="0" code="7"></player>
+    <player name="Colin Gallagher" checkname="GALLAGHER,COLIN" uni="8A" class="FR" gp="0" code="8A"></player>
+    <player name="Daniel Wood" checkname="WOOD,DANIEL" uni="9A" class="SO" gp="0" code="9A"></player>
+    <player name="Nikita Stover" checkname="STOVER,NIKITA" uni="9" class="JR" gp="0" code="9"></player>
+    <player name="Darius Hanks" checkname="HANKS,DARIUS" uni="15" class="FR" gp="0" code="15"></player>
+    <player name="Greg McElroy" checkname="MCELROY,GREG" uni="17" class="FR" gp="0" code="17"></player>
+    <player name="Nick Fanuzzi" checkname="FANUZZI,NICK" uni="18" class="FR" gp="0" code="18"></player>
+    <player name="Tarence Farmer" checkname="FARMER,TARENCE" uni="19" class="FR" gp="0" code="19"></player>
+    <player name="Tremayne Coger" checkname="COGER,TREMAYNE" uni="23" class="FR" gp="0" code="23"></player>
+    <player name="Justin Woodall" checkname="WOODALL,JUSTIN" uni="27" class="SO" gp="0" code="27"></player>
+    <player name="Patrick Hanrahan" checkname="HANRAHAN,P" uni="33" class="FR" gp="0" code="33"></player>
+    <player name="Jeramie Griffin" checkname="GRIFFIN,JERAMIE" uni="34" class="FR" gp="0" code="34"></player>
+    <player name="Charlie Kirschman" checkname="KIRSCHMAN,C" uni="35" class="FR" gp="0" code="35"></player>
+    <player name="Trent Dean" checkname="DEAN,TRENT" uni="37" class="JR" gp="0" code="37"></player>
+    <player name="Darwin Salaam" checkname="SALAAM,DARWIN" uni="39" class="JR" gp="0" code="39"></player>
+    <player name="Chris Lett" checkname="LETT,CHRIS" uni="41" class="FR" gp="0" code="41"></player>
+    <player name="Jennings Hester" checkname="HESTER,JENNINGS" uni="42" class="FR" gp="0" code="42"></player>
+    <player name="Sam Burnthall" checkname="BURNTHALL,SAM" uni="43" class="SO" gp="0" code="43"></player>
+    <player name="Charlie Higgenbotham" checkname="HIGGENBOTHAM,C" uni="45" class="FR" gp="0" code="45"></player>
+    <player name="Zach Schreiber" checkname="SCHREIBER,ZACH" uni="46" class="SO" gp="0" code="46"></player>
+    <player name="Travis Sikes" checkname="SIKES,TRAVIS" uni="48" class="FR" gp="0" code="48"></player>
+    <player name="Michael DeJohn" checkname="DEJOHN,MICHAEL" uni="51" class="FR" gp="0" code="51"></player>
+    <player name="Alfred McCullough" checkname="MCCULLOUGH,A" uni="52" class="FR" gp="0" code="52"></player>
+    <player name="Paul Silvey" checkname="SILVEY,PAUL" uni="53" class="FR" gp="0" code="53"></player>
+    <player name="Jeremy Elder" checkname="ELDER,JEREMY" uni="54" class="FR" gp="0" code="54"></player>
+    <player name="Matt Collins" checkname="COLLINS,MATT" uni="56" class="SR" gp="0" code="56"></player>
+    <player name="Darren Mustin" checkname="MUSTIN,DARREN" uni="57" class="SR" gp="0" code="57"></player>
+    <player name="Scott Deaton" checkname="DEATON,SCOTT" uni="60" class="SO" gp="0" code="60"></player>
+    <player name="Alex Stadler" checkname="STADLER,ALEX" uni="62" class="FR" gp="0" code="62"></player>
+    <player name="Morgan Garner" checkname="GARNER,MORGAN" uni="63" class="SR" gp="0" code="63"></player>
+    <player name="Layne Rinks" checkname="RINKS,LAYNE" uni="64" class="JR" gp="0" code="64"></player>
+    <player name="Joshua Curry" checkname="CURRY,JOSHUA" uni="65" class="SR" gp="0" code="65"></player>
+    <player name="Brian Motley" checkname="MOTLEY,BRIAN" uni="66" class="FR" gp="0" code="66"></player>
+    <player name="Taylor Pharr" checkname="PHARR,TAYLOR" uni="68" class="FR" gp="0" code="68"></player>
+    <player name="Patrick Crump" checkname="CRUMP,PATRICK" uni="69" class="FR" gp="0" code="69"></player>
+    <player name="Evan Cardwell" checkname="CARDWELL,EVAN" uni="70" class="SO" gp="0" code="70"></player>
+    <player name="Chris Capps" checkname="CAPPS,CHRIS" uni="72" class="SR" gp="0" code="72"></player>
+    <player name="William Vlachos" checkname="VLACHOS,WILLIAM" uni="73" class="FR" gp="0" code="73"></player>
+    <player name="Cody Davis" checkname="DAVIS,CODY" uni="75" class="JR" gp="0" code="75"></player>
+    <player name="Adam Hill" checkname="HILL,ADAM" uni="77" class="FR" gp="0" code="77"></player>
+    <player name="Drew Davis" checkname="DAVIS,DREW" uni="79" class="SO" gp="0" code="79"></player>
+    <player name="Brandon Gibson" checkname="GIBSON,BRANDON" uni="84" class="FR" gp="0" code="84"></player>
+    <player name="Preston Dial" checkname="DIAL,PRESTON" uni="85" class="FR" gp="0" code="85"></player>
+    <player name="Jamie Christensen" checkname="CHRISTENSEN,J" uni="86" class="JR" gp="0" code="86"></player>
+    <player name="Chris Underwood" checkname="UNDERWOOD,CHRIS" uni="87" class="FR" gp="0" code="87"></player>
+    <player name="Charles Hoke" checkname="HOKE,CHARLES" uni="89" class="JR" gp="0" code="89"></player>
+    <player name="Alex Watkins" checkname="WATKINS,ALEX" uni="91" class="FR" gp="0" code="91"></player>
+    <player name="Luther Davis" checkname="DAVIS,LUTHER" uni="96" class="FR" gp="0" code="96"></player>
+  </dnp>
+  <longplays thresh="70"></longplays>
+</fbgame>

@@ -1,0 +1,45 @@
+.icon-circle{
+z-index: 1;
+width: 40px;
+line-height: 50px;
+text-align: center;
+height: 40px;
+border-radius: 100%;
+color: #ffffff;
+}
+
+#usersTbl .mat-column-isActive{
+  min-width: 8%;
+  max-width: 8%;
+}
+#usersTbl .mat-column-username{
+  min-width: 15%;
+  max-width: 15%;
+}
+#usersTbl .mat-column-email{
+  min-width: 20%;
+  max-width: 20%;
+}
+#usersTbl .mat-column-createdOn{
+  min-width: 20%;
+  max-width: 20%;
+}
+#usersTbl .mat-column-lastUpdatedOn{
+  min-width: 20%;
+  max-width: 20%;
+}
+#usersTbl .mat-column-id{
+  min-width: 10%;
+  max-width: 10%;
+}
+
+#usersTbl .mat-header-row {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;  
+}
+
+#usersTbl .mat-table {
+  overflow: auto;  
+  max-height: calc(100vh - 370px);
+}

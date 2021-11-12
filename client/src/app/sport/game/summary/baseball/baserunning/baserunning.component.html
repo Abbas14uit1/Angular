@@ -1,0 +1,44 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">BASE RUNNING</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="sb">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SB</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.sb }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="sba">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SBA</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.sba }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="cs">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">CS</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.cs }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="po">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="last-column sort-btn-align-right white-text">PO</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="last-column">
+          {{ element.po }}
+        </mat-cell>
+      </ng-container>      
+      <mat-header-row [ngStyle]="{'background-color':this.color}" *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined ?'':onClick(row._id)"></mat-row>
+      
+    </mat-table>    
+  </div>
+</div>

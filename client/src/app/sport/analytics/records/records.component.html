@@ -1,0 +1,209 @@
+<div class="row card">
+  <div class="col l2 s12 m2" style="padding: 5px; text-align: center;">
+    <mat-button-toggle-group
+      color="primary"
+      name="entity"
+      [(ngModel)]="entity"
+      (ngModelChange)="onEntityChange($event)"
+    >
+      <mat-button-toggle
+        *ngFor="let entity of entities"
+        value="{{ entity.value }}"
+        >{{ entity.viewValue }}&nbsp;<i class="{{ entity.class }}"></i
+      ></mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+
+  <div class="col l3 s12 m3" style="padding: 5px; text-align: center;">
+    <div
+      class="chip cursor"
+      *ngFor="let split of splits"
+      (click)="splitSectionChange(split.value)"
+      [ngClass]="selectedSplit == split.value ? 'white-text grey darken-2' : ''"
+    >
+      {{ split.viewValue }}
+    </div>
+  </div>
+  <div
+    class="col l1 s12 m1 label-for"
+    style="padding-top: 10px; text-align: right;"
+  >
+    Category
+  </div>
+  <div class="col l2 s12 m2" style="padding-top: 10px; text-align: center;">
+    <mat-select
+      [(ngModel)]="selectedCategory"
+      (ngModelChange)="onChangeCategory($event)"
+    >
+      <mat-option *ngFor="let stat of categories" [value]="stat.name">
+        {{ stat.name }}
+      </mat-option>
+    </mat-select>
+  </div>
+  <div
+    class="col l1 s12 m1 label-for"
+    style="padding-top: 10px; text-align: right;"
+  >
+    Record
+  </div>
+  <div
+    class="col l1 s12 m1"
+    style="padding-top: 10px; text-align: center; width: 20%;"
+  >
+    <mat-select
+      [(ngModel)]="selectedStats"
+      (ngModelChange)="onStatCategory($event)"
+    >
+      <mat-option *ngFor="let stat of stats" [value]="stat">
+        {{ stat }}
+      </mat-option>
+    </mat-select>
+  </div>
+</div>
+<div class="row" *ngIf="spinner == true">
+  <div class="progress" *ngIf="spinner == true">
+    <div class="indeterminate"></div>
+  </div>
+</div>
+<div
+  class="row"
+  *ngIf="records?.length == 0 && spinner == false"
+  style="padding: 20px;"
+>
+  Data Not Available
+</div>
+<div
+  class="row card"
+  id="recordsTbl"
+  style="overflow: auto; height: 100vh; padding-bottom: 15rem;"
+>
+  <input #filter placeholder="Filter Alerts" style="display: none;" />
+  <mat-table
+    #recordsTbl
+    [dataSource]="dataSource"
+    matSort
+    [ngStyle]="{ display: records?.length > 0 ? 'inline' : 'none' }"
+  >
+    <ng-container matColumnDef="_id">
+      <mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        class="first-cell-col white-text border-right-cell"
+        >ID</mat-header-cell
+      >
+      <mat-cell *matCellDef="let element; let i = index" class="first-cell-col">
+        <span class="grey-text text-darken-2"> {{ i + 1 }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="playerName">
+      <mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        class="white-text border-right-cell"
+        [ngStyle]="getWidthStyles()"
+        >Name</mat-header-cell
+      >
+      <mat-cell *matCellDef="let element" [ngStyle]="getWidthStyles()">
+        <span class="grey-text text-darken-2">
+          {{ element.playerName ? element.playerName : element.teamName }}
+        </span>
+      </mat-cell>
+    </ng-container>
+   <!--  <ng-container matColumnDef="playerClass">
+      <mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        class="white-text border-right-cell"
+        [ngStyle]="{ display: selectedSplit == 'Game' ? 'flex' : 'none ' }"
+        >Class</mat-header-cell
+      >
+      <mat-cell
+        *matCellDef="let element"
+        [ngStyle]="{ display: selectedSplit == 'Game' ? 'flex' : 'none' }"
+      >
+        <span class="grey-text text-darken-2">
+          {{
+            element.playerClass && element.playerClass !== "NaN"
+              ? element.playerClass
+              : "NA"
+          }}</span
+        >
+      </mat-cell>
+    </ng-container> -->
+    <ng-container matColumnDef="gameDate">
+      <mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        class="white-text border-right-cell"
+        [ngStyle]="{ display: selectedSplit == 'Game' ? 'flex' : 'none' }"
+        >Date</mat-header-cell
+      >
+      <mat-cell
+        *matCellDef="let element"
+        [ngStyle]="{ display: selectedSplit == 'Game' ? 'flex' : 'none' }"
+      >
+        <span class="grey-text text-darken-2">        
+         {{element.gameDate | utcdate:'ddd, MMM D'}}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="season">
+      <mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        class="white-text border-right-cell"
+        >Season</mat-header-cell
+      >
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          {{
+            element.season && element.season !== "NaN" ? element.season : "NA"
+          }}</span
+        >
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="oppoTeamName">
+      <mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        class="white-text border-right-cell"
+        [ngStyle]="{ display: selectedSplit == 'Game' ? 'flex' : 'none' }"
+        >Opponent</mat-header-cell
+      >
+      <mat-cell
+        *matCellDef="let element"
+        [ngStyle]="{ display: selectedSplit == 'Game' ? 'flex' : 'none' }"
+      >
+        <span class="grey-text text-darken-2">
+          <img
+            *ngIf="
+              element['opponentCode'] !== 0 && element['opponentCode'] !== 1
+            "
+            id="logo"
+            src="../../../assets/images/teams/{{ element['opponentCode'] }}.png"
+            alt=" "
+          />
+          &nbsp;{{ element.opponentName }}
+        </span>
+      </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="statValue">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text"
+        >Stat Value</mat-header-cell
+      >
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          {{ valueReadability(element.statValue) }}
+        </span>
+      </mat-cell>
+    </ng-container>
+
+    <mat-header-row
+      *matHeaderRowDef="displayedColumns"
+      [ngStyle]="{ background: teamColor }"
+      [style.min-height]="0"
+    ></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+  </mat-table>
+</div>

@@ -1,0 +1,23 @@
+<!-- <app-header [config]="headerConfig.adminLoginPage"></app-header> -->
+<h2></h2>
+<div class="container" id="container">
+  <div class="form-container sign-in-container">
+    <form (ngSubmit)="login()">
+      <h1>Sign In</h1>
+      <input type="text" [(ngModel)]="user.username" name="username" placeholder="Username *">
+      <input type="password" [(ngModel)]="user.password" name="password" placeholder="Password *">
+      <a href="#"><!-- Forgot your password? --></a>
+      <button type="submit">Sign In</button>
+      <mat-error>{{errorMsg}}</mat-error>
+    </form>
+  </div>
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-right">
+        <h1>Welcome Back!</h1>
+        <p>To keep connected with us please signin with your personal info</p>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,959 @@
+<fbgame source="Tas Football" version="4.16.07" generated="9/15/2016">
+ <venue gameid="BAMA01" visid="ALABAMA" homeid="VANDY" visname="Alabama" homename="Vanderbilt"
+      date="9/4/1999" location="Nashville, Tennessee" stadium="Vanderbilt Stadium"
+      start="11:40 AM" end="2:40 PM" leaguegame="Y" schednote="*"
+      duration="3:00" attend="41600" temp="84" wind="Light" weather="Mostly Sunny and HOT">
+  <officials ref="Al Ford" ump="Bud Williams" line="Billy Schroer" lj="James Bing, Sr." bj="Ronnie Fugua" fj="Ben Oldham" sj="Blake Parks" cj="Brent Ross" alt="Brent Ross"></officials>
+  <notes>
+   <note text="Alabama has won nine straight season openers, dating back to"></note>
+   <note text="the 1990 season...Bama's 15th straight win over Vandy...UA"></note>
+   <note text="played 26 first-time players today...The Tide started two"></note>
+   <note text="true freshmen (Rasheed/Ellington), a first in school history"></note>
+  </notes>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="20" patspot="2" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="8" id="ALABAMA" name="Alabama" record="1-0" conf-record="1-0" abb="A">
+  <linescore prds="4" line="0,7,7,14" score="28">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="14"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="18" rush="8" pass="8" penalty="2"></firstdowns>
+   <penalties no="9" yds="65"></penalties>
+   <conversions thirdconv="5" thirdatt="13" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="3" lost="1"></fumbles>
+   <misc yds="0" top="31:22" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="3" scores="3" points="21" tdrush="2" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="37" yds="142" gain="166" loss="24" td="2" long="25"></rush>
+   <pass comp="15" att="24" int="0" yds="201" td="2" long="51" sacks="3" sackyds="17"></pass>
+   <rcv no="15" yds="201" td="2" long="51"></rcv>
+   <punt no="8" yds="338" long="59" blkd="0" tb="0" fc="2" plus50="2" inside20="3"></punt>
+   <pat kickatt="4" kickmade="4"></pat>
+   <defense tackua="45" tacka="30" tflua="5" tfla="0" tflyds="13" sacks="6" sackyds="31" brup="3" qbh="7" ff="2"></defense>
+   <kr no="2" yds="29" td="0" long="17"></kr>
+   <pr no="7" yds="53" td="0" long="20"></pr>
+   <scoring td="4" patkick="4"></scoring>
+  </totals>
+  <player name="Antonio Carter" shortname="Antonio Carter" checkname="CARTER,ANTONIO" uni="2" class="FR" gp="1" code="13"></player>
+  <player name="Gerald Dixon" shortname="Gerald Dixon" checkname="DIXON,GERALD" uni="4" class="FR" gp="1" code="16">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Andrew Zow" shortname="Andrew Zow" checkname="ZOW,ANDREW" uni="5" class="SO" gp="1" gs="1" opos="QB" code="95">
+   <rush att="2" yds="-15" gain="0" loss="15" td="0" long="0"></rush>
+   <pass comp="15" att="24" int="0" yds="201" td="2" long="51" sacks="2" sackyds="15"></pass>
+  </player>
+  <player name="Marvin Brown" shortname="Marvin Brown" checkname="BROWN,MARVIN" uni="6" class="SO" gp="1" code="11">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Sam Collins" shortname="Sam Collins" checkname="COLLINS,SAM" uni="7" class="FR" gp="1" code="15"></player>
+  <player name="Tim Bowens" shortname="Tim Bowens" checkname="BOWENS,TIM" uni="8" class="SR" gp="1" code="10"></player>
+  <player name="Victor Ellis" shortname="Victor Ellis" checkname="ELLIS,VICTOR" uni="9" class="SO" gp="1" code="9">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Saleem Rasheed" shortname="Saleem Rasheed" checkname="RASHEED,SALEEM" uni="11" class="FR" gp="1" gs="1" dpos="SLB" code="11">
+   <defense tackua="2" tacka="5" qbh="1"></defense>
+  </player>
+  <player name="Ryan Pflugner" shortname="Ryan Pflugner" checkname="PFLUGNER,RYAN" uni="12" class="SR" gp="1" code="68">
+   <pat kickatt="4" kickmade="4"></pat>
+   <scoring patkick="4"></scoring>
+  </player>
+  <player name="Kecalf Bailey" shortname="Kecalf Bailey" checkname="BAILEY,KECALF" uni="13" class="JR" gp="1" code="04">
+   <defense tackua="1" tacka="2"></defense>
+  </player>
+  <player name="Tyler Watts" shortname="Tyler Watts" checkname="WATTS,TYLER" uni="14" class="FR" gp="1" code="89">
+   <rush att="1" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+   <pass comp="0" att="0" int="0" yds="0" td="0" long="0" sacks="1" sackyds="2"></pass>
+  </player>
+  <player name="Freddie Milons" shortname="Freddie Milons" checkname="MILONS,FREDDIE" uni="15" class="SO" gp="1" gs="1" opos="FL" code="57">
+   <rush att="2" yds="13" gain="13" loss="0" td="0" long="10"></rush>
+   <rcv no="5" yds="58" td="0" long="25"></rcv>
+   <pr no="6" yds="33" td="0" long="11"></pr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Patrick Morgan" shortname="Patrick Morgan" checkname="MORGAN,PATRICK" uni="16" class="SR" gp="1" code="60">
+   <punt no="8" yds="338" long="59" blkd="0" tb="0" fc="2" plus50="2" inside20="3"></punt>
+  </player>
+  <player name="Jason Jones" shortname="Jason Jones" checkname="JONES,JASON" uni="19" class="JR" gp="1" code="19"></player>
+  <player name="Milo Lewis" shortname="Milo Lewis" checkname="LEWIS,MILO" uni="21" class="JR" gp="1" gs="1" dpos="LCB" code="47">
+   <defense tackua="2" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Reggie Myles" shortname="Reggie Myles" checkname="MYLES,REGGIE" uni="23" class="SO" gp="1" gs="1" dpos="RCB" code="61">
+   <defense tackua="6" tacka="0"></defense>
+  </player>
+  <player name="Tony Dixon" shortname="Tony Dixon" checkname="DIXON,TONY" uni="24" class="JR" gp="1" gs="1" dpos="FS" code="19">
+   <defense tackua="5" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Hirchel Bolden" shortname="Hirchel Bolden" checkname="BOLDEN,HIRCHEL" uni="25" class="FR" gp="1" code="25"></player>
+  <player name="Arvin Richard" shortname="Arvin Richard" checkname="RICHARD,ARVIN" uni="26" class="JR" gp="1" code="73">
+   <pr no="1" yds="20" td="0" long="20"></pr>
+  </player>
+  <player name="Jeremy Walker" shortname="Jeremy Walker" checkname="WALKER,JEREMY" uni="27" class="FR" gp="1" code="27">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Shaun Bohanon" shortname="Shaun Bohanon" checkname="BOHANON,SHAUN" uni="28" class="JR" gp="1" code="08">
+   <rush att="2" yds="5" gain="5" loss="0" td="0" long="5"></rush>
+  </player>
+  <player name="Ahmaad Galloway" shortname="Ahmaad Galloway" checkname="GALLOWAY,AHMAAD" uni="29" class="FR" gp="1" code="29">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="D. McClintock" shortname="D. McClintock" checkname="MCCLINTOCK,D" uni="30" class="JR" gp="1" gs="1" opos="FB" code="54">
+   <rush att="3" yds="7" gain="7" loss="0" td="0" long="3"></rush>
+   <rcv no="1" yds="18" td="1" long="18"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Adam Cox" shortname="Adam Cox" checkname="COX,ADAM" uni="31" class="SO" gp="1" code="31">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Philip Weeks" shortname="Philip Weeks" checkname="WEEKS,PHILIP" uni="32" class="FR" gp="1" code="32"></player>
+  <player name="Shontua Ray" shortname="Shontua Ray" checkname="RAY,SHONTUA" uni="33" class="SO" gp="1" code="70">
+   <kr no="2" yds="29" td="0" long="17"></kr>
+  </player>
+  <player name="Jay Stubbs" shortname="Jay Stubbs" checkname="STUBBS,JAY" uni="36" class="FR" gp="1" code="36"></player>
+  <player name="Shaun Alexander" shortname="Shaun Alexander" checkname="ALEXANDER,SHAUN" uni="37" class="SR" gp="1" gs="1" opos="TB" code="02">
+   <rush att="26" yds="109" gain="116" loss="7" td="2" long="23"></rush>
+   <rcv no="4" yds="85" td="1" long="51"></rcv>
+   <scoring td="3"></scoring>
+  </player>
+  <player name="Shawn Draper" shortname="Shawn Draper" checkname="DRAPER,SHAWN" uni="38" class="JR" gp="1" code="38">
+   <defense tackua="1" tacka="2" tflua="1" tfla="0" tflyds="1" sackua="0" sacka="1" sackyds="3"></defense>
+  </player>
+  <player name="Marcus Spencer" shortname="Marcus Spencer" checkname="SPENCER,MARCUS" uni="41" class="JR" gp="1" gs="1" dpos="SS" code="79">
+   <defense tackua="5" tacka="2"></defense>
+  </player>
+  <player name="Gary Barnes" shortname="Gary Barnes" checkname="BARNES,GARY" uni="43" class="SR" gp="1" code="43"></player>
+  <player name="Marvin Constant" shortname="Marvin Constant" checkname="CONSTANT,MARVIN" uni="45" class="FR" gp="1" gs="1" dpos="MLB" code="17">
+   <defense tackua="4" tacka="2" tflua="2" tfla="0" tflyds="7" ff="1"></defense>
+  </player>
+  <player name="John Fielding" shortname="John Fielding" checkname="FIELDING,JOHN" uni="46" class="FR" gp="1" code="46"></player>
+  <player name="K. Moorehead" shortname="K. Moorehead" checkname="MOOREHEAD,K" uni="54" class="SO" gp="1" gs="1" dpos="LDE" code="54">
+   <defense tackua="1" tacka="2" sackua="1" sacka="0" sackyds="8" qbh="2" ff="1"></defense>
+  </player>
+  <player name="Kenny King" shortname="Kenny King" checkname="KING,KENNY" uni="55" class="FR" gp="1" code="44">
+   <defense tackua="1" tacka="2" sackua="1" sacka="1" sackyds="11" qbh="1"></defense>
+  </player>
+  <player name="Chris Samuels" shortname="Chris Samuels" checkname="SAMUELS,CHRIS" uni="60" class="SR" gp="1" gs="1" opos="LT" code="60"></player>
+  <player name="Todd Whitmore" shortname="Todd Whitmore" checkname="WHITMORE,TODD" uni="61" class="JR" gp="1" code="61"></player>
+  <player name="Dante Ellington" shortname="Dante Ellington" checkname="ELLINGTON,DANTE" uni="65" class="FR" gp="1" gs="1" opos="RT" code="65"></player>
+  <player name="Kelvis White" shortname="Kelvis White" checkname="WHITE,KELVIS" uni="67" class="JR" gp="1" code="67">
+   <defense tackua="1" tacka="0" sackua="1" sacka="0" sackyds="4"></defense>
+  </player>
+  <player name="Jason McDonald" shortname="Jason McDonald" checkname="MCDONALD,JASON" uni="70" class="SR" gp="1" code="70"></player>
+  <player name="Marico Portis" shortname="Marico Portis" checkname="PORTIS,MARICO" uni="71" class="FR" gp="1" code="71"></player>
+  <player name="Will Cuthbert" shortname="Will Cuthbert" checkname="CUTHBERT,WILL" uni="72" class="JR" gp="1" gs="1" opos="RG" code="72"></player>
+  <player name="Paul Hogan" shortname="Paul Hogan" checkname="HOGAN,PAUL" uni="74" class="JR" gp="1" gs="1" opos="C" code="74"></player>
+  <player name="Griff Redmill" shortname="Griff Redmill" checkname="REDMILL,GRIFF" uni="75" class="JR" gp="1" gs="1" opos="LG" code="75"></player>
+  <player name="Lannis Baxley" shortname="Lannis Baxley" checkname="BAXLEY,LANNIS" uni="76" class="FR" gp="1" code="76"></player>
+  <player name="Bart Raulston" shortname="Bart Raulston" checkname="RAULSTON,BART" uni="77" class="FR" gp="1" code="77"></player>
+  <player name="Jason McAddley" shortname="Jason McAddley" checkname="MCADDLEY,JASON" uni="80" class="SO" gp="1" gs="1" opos="SE" code="53">
+   <rush att="1" yds="25" gain="25" loss="0" td="0" long="25"></rush>
+   <rcv no="3" yds="23" td="0" long="12"></rcv>
+  </player>
+  <player name="Terry Jones,Jr." shortname="Terry Jones,Jr." checkname="TERRY JONES,JR" uni="82" class="SO" gp="1" gs="1" opos="TE" code="40">
+   <rcv no="1" yds="6" td="0" long="6"></rcv>
+  </player>
+  <player name="S. Buchanan" shortname="S. Buchanan" checkname="BUCHANAN,S" uni="84" class="SR" gp="1" code="12">
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+  </player>
+  <player name="Kenny Smith" shortname="Kenny Smith" checkname="SMITH,KENNY" uni="88" class="JR" gp="1" gs="1" dpos="LDT" code="88">
+   <defense tackua="2" tacka="1" sackua="1" sacka="0" sackyds="4"></defense>
+  </player>
+  <player name="Theo Sanders" shortname="Theo Sanders" checkname="SANDERS,THEO" uni="89" class="FR" gp="1" code="89"></player>
+  <player name="Jamie Carter" shortname="Jamie Carter" checkname="CARTER,JAMIE" uni="90" class="SR" gp="1" code="90"></player>
+  <player name="B. Ledbetter" shortname="B. Ledbetter" checkname="LEDBETTER,B" uni="93" class="JR" gp="1" code="93"></player>
+  <player name="Jarret Johnson" shortname="Jarret Johnson" checkname="JOHNSON,JARRET" uni="96" class="FR" gp="1" code="96">
+   <defense tackua="0" tacka="1" qbh="1"></defense>
+  </player>
+  <player name="C. Griffin" shortname="C. Griffin" checkname="GRIFFIN,C" uni="97" class="SR" gp="1" gs="1" dpos="RDT" code="97">
+   <defense tackua="3" tacka="1" sackua="1" sacka="0" sackyds="2"></defense>
+  </player>
+  <player name="Reggie Grimes" shortname="Reggie Grimes" checkname="GRIMES,REGGIE" uni="98" class="SR" gp="1" gs="1" dpos="RDE" code="98">
+   <defense tackua="1" tacka="2" qbh="2"></defense>
+  </player>
+  <player name="Darius Gilbert" shortname="Darius Gilbert" checkname="GILBERT,DARIUS" uni="99" class="SO" gp="1" gs="1" dpos="WLB" code="30">
+   <defense tackua="3" tacka="5" tflua="2" tfla="0" tflyds="5" brup="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="736" id="VANDY" name="Vanderbilt" record="0-1" conf-record="0-1" abb="V">
+  <linescore prds="4" line="0,7,10,0" score="17">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="10"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="13" rush="6" pass="7" penalty="0"></firstdowns>
+   <penalties no="4" yds="40"></penalties>
+   <conversions thirdconv="5" thirdatt="15" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="2" lost="0"></fumbles>
+   <misc yds="0" top="28:38" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="2" scores="2" points="14" tdrush="1" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="36" yds="110" gain="147" loss="37" td="1" long="20"></rush>
+   <pass comp="12" att="24" int="0" yds="120" td="1" long="30" sacks="6" sackyds="31"></pass>
+   <rcv no="12" yds="120" td="1" long="30"></rcv>
+   <punt no="9" yds="373" long="52" blkd="0" tb="0" fc="2" plus50="1" inside20="1"></punt>
+   <fg made="1" att="1" long="41" blkd="0"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="43" tacka="9" tflua="2" tfla="0" tflyds="7" sacks="3" sackyds="17" brup="2" ff="2" fr="1" fryds="0"></defense>
+   <kr no="4" yds="104" td="0" long="39"></kr>
+   <pr no="3" yds="12" td="0" long="8"></pr>
+   <scoring td="2" fg="1" patkick="2"></scoring>
+  </totals>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="0" class="" gp="1" code="0">
+   <rush att="1" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+  </player>
+  <player name="Rodney Williams" shortname="Rodney Williams" checkname="WILLIAMS,RODNEY" uni="2" class="" gp="1" gs="1" opos="RB" code="2">
+   <rush att="14" yds="76" gain="77" loss="1" td="0" long="15"></rush>
+   <rcv no="4" yds="30" td="0" long="13"></rcv>
+  </player>
+  <player name="Billy Miller" shortname="Billy Miller" checkname="MILLER,BILLY" uni="3" class="" gp="1" code="3"></player>
+  <player name="Aaron McWhorter" shortname="Aaron McWhorter" checkname="MCWHORTER,AARON" uni="5" class="" gp="1" code="5"></player>
+  <player name="Tavarus Hogans" shortname="Tavarus Hogans" checkname="HOGANS,TAVARUS" uni="7" class="" gp="1" gs="1" opos="WR" code="7">
+   <rcv no="2" yds="3" td="0" long="7"></rcv>
+  </player>
+  <player name="Jimmy Williams" shortname="Jimmy Williams" checkname="WILLIAMS,JIMMY" uni="9" class="" gp="1" gs="1" dpos="CB" code="9">
+   <rush att="1" yds="8" gain="8" loss="0" td="0" long="8"></rush>
+   <defense tackua="0" tacka="1"></defense>
+   <kr no="4" yds="104" td="0" long="39"></kr>
+   <pr no="3" yds="12" td="0" long="8"></pr>
+  </player>
+  <player name="Rushen Jones" shortname="Rushen Jones" checkname="JONES,RUSHEN" uni="11" class="" gp="1" gs="1" dpos="CB" code="11">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Greg Zolman" shortname="Greg Zolman" checkname="ZOLMAN,GREG" uni="12" class="" gp="1" gs="1" opos="QB" code="12">
+   <rush att="8" yds="-28" gain="3" loss="31" td="1" long="2"></rush>
+   <pass comp="12" att="24" int="0" yds="120" td="1" long="30" sacks="6" sackyds="31"></pass>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Brooks Collins" shortname="Brooks Collins" checkname="COLLINS,BROOKS" uni="14" class="" gp="1" code="14"></player>
+  <player name="John Markham" shortname="John Markham" checkname="MARKHAM,JOHN" uni="19" class="" gp="1" code="19">
+   <punt no="9" yds="373" long="52" blkd="0" tb="0" fc="2" plus50="1" inside20="1"></punt>
+   <fg made="1" att="1" long="41" blkd="0"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <scoring fg="1" patkick="2"></scoring>
+  </player>
+  <player name="Mike Martin" shortname="Mike Martin" checkname="MARTIN,MIKE" uni="20" class="" gp="1" code="20">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Bo Lancaster" shortname="Bo Lancaster" checkname="LANCASTER,BO" uni="21" class="" gp="1" code="21"></player>
+  <player name="Ainsley Battles" shortname="Ainsley Battles" checkname="BATTLES,AINSLEY" uni="22" class="" gp="1" gs="1" dpos="SS" code="22">
+   <defense tackua="8" tacka="2" tflua="1" tfla="0" tflyds="4"></defense>
+  </player>
+  <player name="Harold Lercius" shortname="Harold Lercius" checkname="LERCIUS,HAROLD" uni="23" class="" gp="1" gs="1" dpos="FS" code="23">
+   <defense tackua="4" tacka="1" brup="1"></defense>
+  </player>
+  <player name="M.J. Garrett" shortname="M.J. Garrett" checkname="GARRETT,MJ" uni="24" class="" gp="1" code="24"></player>
+  <player name="E. Robinson" shortname="E. Robinson" checkname="ROBINSON,E" uni="25" class="" gp="1" code="25"></player>
+  <player name="Matt Stewart" shortname="Matt Stewart" checkname="STEWART,MATT" uni="26" class="" gp="1" gs="1" dpos="LB" code="26">
+   <defense tackua="6" tacka="0" sackua="2" sacka="0" sackyds="11" ff="1"></defense>
+  </player>
+  <player name="Brian Taylor" shortname="Brian Taylor" checkname="TAYLOR,BRIAN" uni="28" class="" gp="1" code="28">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Chris Mitacek" shortname="Chris Mitacek" checkname="MITACEK,CHRIS" uni="29" class="" gp="1" gs="1" opos="FB" code="29"></player>
+  <player name="Jonathan Shaub" shortname="Jonathan Shaub" checkname="SHAUB,JONATHAN" uni="30" class="" gp="1" code="30"></player>
+  <player name="Ryan Cuffee" shortname="Ryan Cuffee" checkname="CUFFEE,RYAN" uni="31" class="" gp="1" code="31">
+   <rush att="1" yds="-3" gain="0" loss="3" td="0" long="0"></rush>
+  </player>
+  <player name="Justin Giboney" shortname="Justin Giboney" checkname="GIBONEY,JUSTIN" uni="32" class="" gp="1" code="32"></player>
+  <player name="Jared McGrath" shortname="Jared McGrath" checkname="MCGRATH,JARED" uni="33" class="" gp="1" code="33">
+   <rush att="10" yds="39" gain="39" loss="0" td="0" long="10"></rush>
+   <rcv no="2" yds="4" td="0" long="6"></rcv>
+  </player>
+  <player name="David Meadows" shortname="David Meadows" checkname="MEADOWS,DAVID" uni="39" class="" gp="1" code="39">
+   <defense fr="1" fryds="0"></defense>
+  </player>
+  <player name="Nate Morrow" shortname="Nate Morrow" checkname="MORROW,NATE" uni="40" class="" gp="1" gs="1" dpos="LB" code="40">
+   <defense tackua="5" tacka="0" sackua="1" sacka="0" sackyds="6"></defense>
+  </player>
+  <player name="A. Bradford" shortname="A. Bradford" checkname="BRADFORD,A" uni="41" class="" gp="1" code="41">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Jamie Winborn" shortname="Jamie Winborn" checkname="WINBORN,JAMIE" uni="42" class="" gp="1" gs="1" dpos="LB" code="42">
+   <defense tackua="4" tacka="4" tflua="1" tfla="0" tflyds="3" brup="1"></defense>
+  </player>
+  <player name="B. Walthour" shortname="B. Walthour" checkname="WALTHOUR,B" uni="43" class="" gp="1" code="43">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Lamont Turner" shortname="Lamont Turner" checkname="TURNER,LAMONT" uni="44" class="" gp="1" gs="1" dpos="LB" code="44"></player>
+  <player name="Andrew Kerr" shortname="Andrew Kerr" checkname="KERR,ANDREW" uni="47" class="" gp="1" code="47">
+   <defense tackua="2" tacka="0" ff="1"></defense>
+  </player>
+  <player name="Steve Rock" shortname="Steve Rock" checkname="ROCK,STEVE" uni="49" class="" gp="1" code="49">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Jeff Barnett" shortname="Jeff Barnett" checkname="BARNETT,JEFF" uni="50" class="" gp="1" gs="1" opos="C" code="50"></player>
+  <player name="Ryan McSwain" shortname="Ryan McSwain" checkname="MCSWAIN,RYAN" uni="52" class="" gp="1" code="52"></player>
+  <player name="Chuck Losey" shortname="Chuck Losey" checkname="LOSEY,CHUCK" uni="54" class="" gp="1" gs="1" dpos="RE" code="54">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Ryan Nungesser" shortname="Ryan Nungesser" checkname="NUNGESSER,RYAN" uni="56" class="" gp="1" code="56"></player>
+  <player name="Duncan Cave" shortname="Duncan Cave" checkname="CAVE,DUNCAN" uni="61" class="" gp="1" code="61"></player>
+  <player name="Brian Gruber" shortname="Brian Gruber" checkname="GRUBER,BRIAN" uni="64" class="" gp="1" gs="1" opos="LT" code="64"></player>
+  <player name="Wally Conyers" shortname="Wally Conyers" checkname="CONYERS,WALLY" uni="66" class="" gp="1" code="66">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Ramite Byndom" shortname="Ramite Byndom" checkname="BYNDOM,RAMITE" uni="70" class="" gp="1" gs="1" opos="RT" code="70"></player>
+  <player name="Jim May" shortname="Jim May" checkname="MAY,JIM" uni="72" class="" gp="1" code="72"></player>
+  <player name="Russ Nicoll" shortname="Russ Nicoll" checkname="NICOLL,RUSS" uni="73" class="" gp="1" gs="1" dpos="LE" code="73">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="D. Rothenberg" shortname="D. Rothenberg" checkname="ROTHENBERG,D" uni="77" class="" gp="1" gs="1" opos="LG" code="77"></player>
+  <player name="Matt Saltsman" shortname="Matt Saltsman" checkname="SALTSMAN,MATT" uni="78" class="" gp="1" gs="1" opos="RG" code="78"></player>
+  <player name="Elliott Carson" shortname="Elliott Carson" checkname="CARSON,ELLIOTT" uni="80" class="" gp="1" gs="1" opos="TE" code="80">
+   <rcv no="2" yds="42" td="0" long="28"></rcv>
+  </player>
+  <player name="Todd Yoder" shortname="Todd Yoder" checkname="YODER,TODD" uni="81" class="" gp="1" code="81"></player>
+  <player name="Nezih Hasanoglu" shortname="Nezih Hasanoglu" checkname="HASANOGLU,NEZIH" uni="82" class="" gp="1" code="82"></player>
+  <player name="Nick Getter" shortname="Nick Getter" checkname="GETTER,NICK" uni="83" class="" gp="1" code="83"></player>
+  <player name="Tom Simone" shortname="Tom Simone" checkname="SIMONE,TOM" uni="84" class="" gp="1" code="84"></player>
+  <player name="Dan Stricker" shortname="Dan Stricker" checkname="STRICKER,DAN" uni="85" class="" gp="1" gs="1" opos="WR" code="85">
+   <rush att="1" yds="20" gain="20" loss="0" td="0" long="20"></rush>
+   <rcv no="2" yds="41" td="1" long="30"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Thomas Gallant" shortname="Thomas Gallant" checkname="GALLANT,THOMAS" uni="87" class="" gp="1" code="87"></player>
+  <player name="Doyle Crosby" shortname="Doyle Crosby" checkname="CROSBY,DOYLE" uni="93" class="" gp="1" code="93">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="H. Hillenmeyer" shortname="H. Hillenmeyer" checkname="HILLENMEYER,H" uni="94" class="" gp="1" code="94"></player>
+  <player name="Nick Sterling" shortname="Nick Sterling" checkname="STERLING,NICK" uni="96" class="" gp="1" code="96"></player>
+  <player name="Tyler Unzicker" shortname="Tyler Unzicker" checkname="UNZICKER,TYLER" uni="97" class="" gp="1" gs="1" dpos="NT" code="97"></player>
+ </team>
+ <scores>
+ </scores>
+ <fgas>
+  <fga vh="H" team="VANDY" kicker="John Markham" qtr="3" clock="10:04" distance="41" result="good"></fga>
+ </fgas>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V35" playid="0,1,0" tokens="CMT:VU wons toss and defers. UA receives and defends north goal."
+      text="VU wons toss and defers. UA receives and defends north goal."></play>
+   <play context="V,1,10,V35" playid="0,2,1" tokens="SPOT:H,H35,N"
+      text="VANDY ball on VANDY35."></play>
+   <play context="H,1,10,H35" playid="0,3,2" type="K" tokens="KO:19,V02 RET:33,V19 TACK:49"
+      text="John Markham kickoff 63 yards to the ALABAMA2, Shontua Ray return 17 yards to the ALABAMA19 (Steve Rock)."></play>
+   <drivestart poss="V,V19,15:00" vh="V" spot="V19" clock="15:00" driveindex="1,2"></drivestart>
+   <play context="V,1,10,V19" playid="1,1,3" type="P" tokens="PASS:5,C,80,V22 TACK:22"
+      text="Andrew Zow pass complete to Jason McAddley for 3 yards to the ALABAMA22 (Ainsley Battles)."></play>
+   <play context="V,2,7,V22" playid="1,2,4" type="P" pcode="SC" tokens="PASS:5,I,30,*,SC"
+      text="Andrew Zow screen pass incomplete to D. McClintock."></play>
+   <play context="V,3,7,V22" playid="1,3,5" type="P" tokens="PASS:5,I,80,*"
+      text="Andrew Zow pass incomplete to Jason McAddley."></play>
+   <play context="V,4,7,V22" playid="1,4,6" type="U" tokens="PUNT:16,H30 DN:"
+      text="Patrick Morgan punt 48 yards to the VANDY30, downed."></play>
+   <drivesum plays="3" yards="3" top="15:00" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,H30,13:52" vh="H" spot="H30" clock="13:52" driveindex="2,6"></drivestart>
+   <play context="H,1,10,H30" playid="2,1,7" clock="13:52" tokens="{DRIVE}:13:52"
+      text="VANDERBILT drive start at 13:52."></play>
+   <play context="H,1,10,H30" playid="2,2,8" tokens="SPOT:H,H31,Y"
+      text="VANDY ball on VANDY31."></play>
+   <play context="H,1,10,H31" playid="2,3,9" type="R" tokens="RUSH:9,H39, OB: TACK:24"
+      text="Jimmy Williams rush for 8 yards to the VANDY39, out-of-bounds (Tony Dixon)."></play>
+   <play context="H,2,2,H39" playid="2,4,10" type="R" pcode="MI" first="R" tokens="RUSH:2,H44,MI TACK:88,45"
+      text="Rodney Williams rush up middle for 5 yards to the VANDY44, 1ST DOWN VANDY (Kenny Smith;Marvin Constant)."></play>
+   <play context="H,1,10,H44" playid="2,5,11" type="P" tokens="PASS:12,C,2,V48 TACK:11"
+      text="Greg Zolman pass complete to Rodney Williams for 8 yards to the ALABAMA48 (Saleem Rasheed)."></play>
+   <play context="H,2,2,V48" playid="2,6,12" type="R" pcode="DR" tokens="RUSH:2,V48,DR TACK:54"
+      text="Rodney Williams rush draw play for no gain to the ALABAMA48 (K. Moorehead)."></play>
+   <play context="H,3,2,V48" playid="2,7,13" type="P" pcode="SC" first="P" tokens="PASS:12,C,2,V46,SC FORCE:45 FUMB:H,V46,TM"
+      text="Greg Zolman screen pass complete to Rodney Williams for 2 yards to the ALABAMA46, fumble forced by Marvin Constant, fumble by Rodney Williams recovered by VANDY TM at ALABAMA46, 1ST DOWN VANDY."></play>
+   <play context="H,1,10,V46" playid="2,8,14" type="P" pcode="DP" tokens="PASS:12,I,7,*,DP BRUP:24"
+      text="Greg Zolman deep pass incomplete to Tavarus Hogans (Tony Dixon)."></play>
+   <play context="H,2,10,V46" playid="2,9,15" type="P" tokens="PASS:12,C,7,V50 TACK:45,13"
+      text="Greg Zolman pass complete to Tavarus Hogans for loss of 4 yards to the 50 yardline (Marvin Constant;Kecalf Bailey)."></play>
+   <play context="H,3,14,H50" playid="2,10,16" type="P" tokens="PASS:12,I,7,* BRUP:99"
+      text="Greg Zolman pass incomplete to Tavarus Hogans (Darius Gilbert)."></play>
+   <play context="H,4,14,H50" playid="2,11,17" type="U" tokens="PUNT:19,V13 RET:15,V21 OB: TACK:20"
+      text="John Markham punt 37 yards to the ALABAMA13, Freddie Milons return 8 yards to the ALABAMA21, out-of-bounds (Mike Martin)."></play>
+   <drivesum plays="8" yards="19" top="0:00" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V21,10:29" vh="V" spot="V21" clock="10:29" driveindex="3,17"></drivestart>
+   <play context="V,1,10,V21" playid="3,1,18" clock="10:29" tokens="{DRIVE}:10:29"
+      text="ALABAMA drive start at 10:29."></play>
+   <play context="V,1,10,V21" playid="3,2,19" type="R" pcode="LL" first="R" tokens="RUSH:37,V44,LL OB: TACK:22"
+      text="Shaun Alexander rush left for 23 yards to the ALABAMA44, 1ST DOWN ALABAMA, out-of-bounds (Ainsley Battles)."></play>
+   <play context="V,1,10,V44" playid="3,3,20" type="R" pcode="MI" tokens="RUSH:37,V48,MI TACK:44"
+      text="Shaun Alexander rush up middle for 4 yards to the ALABAMA48 (Lamont Turner)."></play>
+   <play context="V,2,6,V48" playid="3,4,21" type="E" tokens="PEN:V,FS,A,TM,V43,N"
+      text="PENALTY ALABAMA false start 5 yards to the ALABAMA43."></play>
+   <play context="V,2,11,V43" playid="3,5,22" type="P" tokens="PASS:5,I,15,*"
+      text="Andrew Zow pass incomplete to Freddie Milons."></play>
+   <play context="V,3,11,V43" playid="3,6,23" type="#" clock="09:16" tokens="TOUT:V T:09:16"
+      text="Timeout Alabama, clock 09:16."></play>
+   <play context="V,3,11,V43" playid="3,7,24" type="P" pcode="SC" tokens="PASS:5,C,15,V46,SC TACK:23 PEN:V,HO,A,TM,V36,N"
+      text="Andrew Zow screen pass complete to Freddie Milons for 3 yards to the ALABAMA46 (Harold Lercius), PENALTY ALABAMA holding 10 yards to the ALABAMA36."></play>
+   <play context="V,3,18,V36" playid="3,8,25" tokens="D:3,18"
+      text="3rd and 18."></play>
+   <play context="V,3,18,V36" playid="3,9,26" type="P" pcode="DP" tokens="PASS:5,I,80,*,DP"
+      text="Andrew Zow deep pass incomplete to Jason McAddley."></play>
+   <play context="V,4,18,V36" playid="3,10,27" type="U" tokens="PUNT:16,H26 RET:9,H34 TACK:29"
+      text="Patrick Morgan punt 38 yards to the VANDY26, Jimmy Williams return 8 yards to the VANDY34 (Ahmaad Galloway)."></play>
+   <drivesum plays="5" yards="15" top="0:00" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H34,08:22" vh="H" spot="H34" clock="08:22" driveindex="4,27"></drivestart>
+   <play context="H,1,10,H34" playid="4,1,28" clock="08:22" tokens="{DRIVE}:08:22"
+      text="VANDERBILT drive start at 08:22."></play>
+   <play context="H,1,10,H34" playid="4,2,29" type="R" pcode="RT" tokens="RUSH:2,H39,RT OB: TACK:23"
+      text="Rodney Williams rush over right tackle for 5 yards to the VANDY39, out-of-bounds (Reggie Myles)."></play>
+   <play context="H,2,5,H39" playid="4,3,30" type="P" tokens="PASS:12,I,TM,* PEN:H,IG,A,TM,H25,+"
+      text="Greg Zolman pass incomplete, PENALTY VANDY intentional grounding 14 yards to the VANDY25."></play>
+   <play context="H,3,19,H25" playid="4,4,31" tokens="D:3,19"
+      text="3rd and 19."></play>
+   <play context="H,3,19,H25" playid="4,5,32" type="P" pcode="DP" tokens="PASS:12,I,7,*,DP"
+      text="Greg Zolman deep pass incomplete to Tavarus Hogans."></play>
+   <play context="H,4,19,H25" playid="4,6,33" type="U" tokens="PUNT:19,V29 RET:15,V30 OB: PEN:V,BL,A,TM,V20,N D:1,10 SPOT:V,V20,Y"
+      text="John Markham punt 46 yards to the ALABAMA29, Freddie Milons return 1 yards to the ALABAMA30, out-of-bounds, PENALTY ALABAMA illegal block 10 yards to the ALABAMA20, 1st and 10, ALABAMA ball on ALABAMA20."></play>
+   <drivesum plays="3" yards="-9" top="0:00" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V20,07:46" vh="V" spot="V20" clock="07:46" driveindex="5,33"></drivestart>
+   <play context="V,1,10,V20" playid="5,1,34" clock="07:46" tokens="{DRIVE}:07:46"
+      text="ALABAMA drive start at 07:46."></play>
+   <play context="V,1,10,V20" playid="5,2,35" type="R" tokens="RUSH:37,V22, TACK:44,42"
+      text="Shaun Alexander rush for 2 yards to the ALABAMA22 (Lamont Turner;Jamie Winborn)."></play>
+   <play context="V,2,8,V22" playid="5,3,36" type="R" pcode="RV" first="R" tokens="RUSH:80,V47,RV TACK:11"
+      text="Jason McAddley rush reverse for 25 yards to the ALABAMA47, 1ST DOWN ALABAMA (Rushen Jones)."></play>
+   <play context="V,1,10,V47" playid="5,4,37" type="P" tokens="PASS:5,S,TM,V41 SACK:40"
+      text="Andrew Zow sacked for loss of 6 yards to the ALABAMA41 (Nate Morrow)."></play>
+   <play context="V,2,16,V41" playid="5,5,38" type="R" pcode="DR" tokens="RUSH:37,V46,DR TACK:22"
+      text="Shaun Alexander rush draw play for 5 yards to the ALABAMA46 (Ainsley Battles)."></play>
+   <play context="V,3,11,V46" playid="5,6,39" type="P" pcode="DP" tokens="PASS:5,I,84,*,DP"
+      text="Andrew Zow deep pass incomplete to S. Buchanan."></play>
+   <play context="V,4,11,V46" playid="5,7,40" type="U" tokens="PUNT:16,H20 FC:9"
+      text="Patrick Morgan punt 34 yards to the VANDY20, fair catch by Jimmy Williams."></play>
+   <drivesum plays="5" yards="26" top="0:00" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H20,05:02" vh="H" spot="H20" clock="05:02" driveindex="6,40"></drivestart>
+   <play context="H,1,10,H20" playid="6,1,41" clock="05:02" tokens="{DRIVE}:05:02"
+      text="VANDERBILT drive start at 05:02."></play>
+   <play context="H,1,10,H20" playid="6,2,42" type="R" pcode="MI" tokens="RUSH:33,H26,MI TACK:99"
+      text="Jared McGrath rush up middle for 6 yards to the VANDY26 (Darius Gilbert)."></play>
+   <play context="H,2,4,H26" playid="6,3,43" type="P" pcode="SC" first="P" tokens="PASS:12,C,33,H32,SC TACK:11,21"
+      text="Greg Zolman screen pass complete to Jared McGrath for 6 yards to the VANDY32, 1ST DOWN VANDY (Saleem Rasheed;Milo Lewis)."></play>
+   <play context="H,1,10,H32" playid="6,4,44" type="R" pcode="LT" tokens="RUSH:33,H34,LT TACK:97"
+      text="Jared McGrath rush over left tackle for 2 yards to the VANDY34 (C. Griffin)."></play>
+   <play context="H,2,8,H34" playid="6,5,45" type="P" tokens="PASS:12,I,81,*"
+      text="Greg Zolman pass incomplete to Todd Yoder."></play>
+   <play context="H,3,8,H34" playid="6,6,46" type="R" pcode="MI" tokens="RUSH:33,H38,MI TACK:98"
+      text="Jared McGrath rush up middle for 4 yards to the VANDY38 (Reggie Grimes)."></play>
+   <play context="H,4,4,H38" playid="6,7,47" type="U" tokens="PUNT:19,V14 RET:15,V22 TACK:49"
+      text="John Markham punt 48 yards to the ALABAMA14, Freddie Milons return 8 yards to the ALABAMA22 (Steve Rock)."></play>
+   <drivesum plays="5" yards="18" top="0:00" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,V22,02:33" vh="V" spot="V22" clock="02:33" driveindex="7,47"></drivestart>
+   <play context="V,1,10,V22" playid="7,1,48" clock="02:33" tokens="{DRIVE}:02:33"
+      text="ALABAMA drive start at 02:33."></play>
+   <play context="V,1,10,V22" playid="7,2,49" type="R" pcode="RT" tokens="RUSH:37,V23,RT TACK:44"
+      text="Shaun Alexander rush over right tackle for 1 yard to the ALABAMA23 (Lamont Turner)."></play>
+   <play context="V,2,9,V23" playid="7,3,50" type="R" pcode="LL" tokens="RUSH:37,V26,LL TACK:42"
+      text="Shaun Alexander rush left for 3 yards to the ALABAMA26 (Jamie Winborn)."></play>
+   <play context="V,3,6,V26" playid="7,4,51" type="P" tokens="PASS:14,S,TM,V24 SACK:26"
+      text="Tyler Watts sacked for loss of 2 yards to the ALABAMA24 (Matt Stewart)."></play>
+   <play context="V,4,8,V24" playid="7,5,52" type="E" tokens="PUNT:16,H20 FC:9 PEN:V,HO,A,TM,V14,N NOPLAY:"
+      text="Patrick Morgan punt 56 yards to the VANDY20, fair catch by Jimmy Williams, PENALTY ALABAMA holding 10 yards to the ALABAMA14, NO PLAY."></play>
+   <play context="V,4,18,V14" playid="7,6,53" type="U" tokens="PUNT:16,H42 RET:9,H42 TACK:4"
+      text="Patrick Morgan punt 44 yards to the VANDY42, Jimmy Williams return 0 yards to the VANDY42 (Gerald Dixon)."></play>
+   <drivesum plays="3" yards="-8" top="0:00" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H42,00:17" vh="H" spot="H42" clock="00:17" driveindex="8,53"></drivestart>
+   <play context="H,1,10,H42" playid="8,1,54" clock="00:17" tokens="{DRIVE}:00:17"
+      text="VANDERBILT drive start at 00:17."></play>
+   <play context="H,1,10,H42" playid="8,2,55" type="R" pcode="RT" tokens="RUSH:33,H44,RT TACK:98"
+      text="Jared McGrath rush over right tackle for 2 yards to the VANDY44 (Reggie Grimes)."></play>
+   <score qtr="1" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="ALABAMA">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="4" yds="35"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:15"></misc>
+    <rush att="9" yds="55" gain="63" loss="8" td="0" long="25"></rush>
+    <pass comp="2" att="7" int="0" yds="6" td="0" long="3" sacks="2" sackyds="8"></pass>
+    <rcv no="2" yds="6" td="0" long="3"></rcv>
+    <punt no="4" yds="164" long="48" blkd="0" tb="0" fc="1" plus50="0" inside20="0"></punt>
+    <defense tackua="11" tacka="6" tflua="0" tfla="2" tflyds="4" sacks="0" sackyds="0" brup="2" ff="1"></defense>
+    <kr no="1" yds="17" td="0" long="17"></kr>
+    <pr no="3" yds="17" td="0" long="8"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="VANDY">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="14"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="06:45"></misc>
+    <rush att="8" yds="32" gain="32" loss="0" td="0" long="8"></rush>
+    <pass comp="4" att="9" int="0" yds="12" td="0" long="8" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="12" td="0" long="8"></rcv>
+    <punt no="3" yds="131" long="48" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="63" ob="0" tb="0"></ko>
+    <defense tackua="13" tacka="2" tflua="2" tfla="0" tflyds="8" sacks="2" sackyds="8"></defense>
+    <pr no="2" yds="8" td="0" long="8"></pr>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="H,2,8,H44" playid="8,3,56" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00."></play>
+   <play context="H,2,8,H44" playid="8,4,57" type="P" pcode="SC" tokens="PASS:12,C,33,H42,SC TACK:99"
+      text="Greg Zolman screen pass complete to Jared McGrath for loss of 2 yards to the VANDY42 (Darius Gilbert)."></play>
+   <play context="H,3,10,H42" playid="8,5,58" type="P" pcode="SC" first="P" tokens="PASS:12,C,80,V30,SC OB: TACK:23,41"
+      text="Greg Zolman screen pass complete to Elliott Carson for 28 yards to the ALABAMA30, 1ST DOWN VANDY, out-of-bounds (Reggie Myles;Marcus Spencer)."></play>
+   <play context="H,1,10,V30" playid="8,6,59" type="R" pcode="MI" first="R" tokens="RUSH:33,V20,MI TACK:24"
+      text="Jared McGrath rush up middle for 10 yards to the ALABAMA20, 1ST DOWN VANDY (Tony Dixon)."></play>
+   <play context="H,1,10,V20" playid="8,7,60" type="E" pcode="LT" tokens="RUSH:33,V20,LT TACK:90 PEN:V,OS,A,TM,V15,N NOPLAY:"
+      text="Jared McGrath rush over left tackle for no gain to the ALABAMA20 (Jamie Carter), PENALTY ALABAMA offside 5 yards to the ALABAMA15, NO PLAY."></play>
+   <play context="H,1,5,V15" playid="8,8,61" type="R" pcode="DR" tokens="RUSH:33,V11,DR TACK:98"
+      text="Jared McGrath rush draw play for 4 yards to the ALABAMA11 (Reggie Grimes)."></play>
+   <play context="H,2,1,V11" playid="8,9,62" type="P" first="P" score="Y" vscore="0" hscore="6" clock="11:55" tokens="PASS:12,C,85,V00 T:11:55"
+      text="Greg Zolman pass complete to Dan Stricker for 11 yards to the ALABAMA0, 1ST DOWN VANDY, TOUCHDOWN, clock 11:55."></play>
+   <play context="H,1,0,V02" playid="8,10,63" type="X" score="Y" vscore="0" hscore="7" tokens="PAT:K,19,G"
+      text="John Markham kick attempt good."></play>
+   <drivesum plays="6" yards="58" top="0:00" driveindex="8" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="8,11,64" type="K" tokens="KO:19,V10 OB: SPOT:V,V35,Y"
+      text="John Markham kickoff 55 yards to the ALABAMA10, out-of-bounds, ALABAMA ball on ALABAMA35."></play>
+   <drivestart poss="V,V35,11:55" vh="V" spot="V35" clock="11:55" driveindex="9,64"></drivestart>
+   <play context="V,1,10,V35" playid="9,1,65" clock="11:55" tokens="{DRIVE}:11:55"
+      text="ALABAMA drive start at 11:55."></play>
+   <play context="V,1,10,V35" playid="9,2,66" type="R" tokens="RUSH:37,V36, TACK:54"
+      text="Shaun Alexander rush for 1 yard to the ALABAMA36 (Chuck Losey)."></play>
+   <play context="V,2,9,V36" playid="9,3,67" type="R" pcode="MI" tokens="RUSH:37,V42,MI TACK:22,42"
+      text="Shaun Alexander rush up middle for 6 yards to the ALABAMA42 (Ainsley Battles;Jamie Winborn)."></play>
+   <play context="V,3,3,V42" playid="9,4,68" type="E" tokens="PEN:V,FS,A,TM,V37,N"
+      text="PENALTY ALABAMA false start 5 yards to the ALABAMA37."></play>
+   <play context="V,3,8,V37" playid="9,5,69" type="P" tokens="PASS:5,C,82,V43 PEN:V,HO,A,TM,V33,N"
+      text="Andrew Zow pass complete to Terry Jones,Jr. for 6 yards to the ALABAMA43, PENALTY ALABAMA holding 10 yards to the ALABAMA33."></play>
+   <play context="V,3,12,V33" playid="9,6,70" tokens="D:3,12"
+      text="3rd and 12."></play>
+   <play context="V,3,12,V33" playid="9,7,71" type="P" pcode="SC" first="P" tokens="PASS:5,C,15,H48,SC TACK:26"
+      text="Andrew Zow screen pass complete to Freddie Milons for 19 yards to the VANDY48, 1ST DOWN ALABAMA (Matt Stewart)."></play>
+   <play context="V,1,10,H48" playid="9,8,72" type="R" pcode="LL" tokens="RUSH:37,V49,LL TACK:42"
+      text="Shaun Alexander rush left for loss of 3 yards to the ALABAMA49 (Jamie Winborn)."></play>
+   <play context="V,2,13,V49" playid="9,9,73" type="P" tokens="PASS:5,C,37,V49 TACK:42"
+      text="Andrew Zow pass complete to Shaun Alexander for no gain to the ALABAMA49 (Jamie Winborn)."></play>
+   <play context="V,3,13,V49" playid="9,10,74" type="P" tokens="PASS:5,I,80,* BRUP:23"
+      text="Andrew Zow pass incomplete to Jason McAddley (Harold Lercius)."></play>
+   <play context="V,4,13,V49" playid="9,11,75" type="U" tokens="PUNT:16,H07 DN:"
+      text="Patrick Morgan punt 44 yards to the VANDY7, downed."></play>
+   <drivesum plays="7" yards="14" top="0:00" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H07,07:09" vh="H" spot="H07" clock="07:09" driveindex="10,75"></drivestart>
+   <play context="H,1,10,H07" playid="10,1,76" clock="07:09" tokens="{DRIVE}:07:09"
+      text="VANDERBILT drive start at 07:09."></play>
+   <play context="H,1,10,H07" playid="10,2,77" type="R" pcode="RT" tokens="RUSH:2,H06,RT TACK:88"
+      text="Rodney Williams rush over right tackle for loss of 1 yard to the VANDY6 (Kenny Smith)."></play>
+   <play context="H,2,11,H06" playid="10,3,78" type="P" pcode="DP" tokens="PASS:12,I,7,*,DP"
+      text="Greg Zolman deep pass incomplete to Tavarus Hogans."></play>
+   <play context="H,3,11,H06" playid="10,4,79" type="R" pcode="DR" tokens="RUSH:2,H15,DR OB: TACK:41"
+      text="Rodney Williams rush draw play for 9 yards to the VANDY15, out-of-bounds (Marcus Spencer)."></play>
+   <play context="H,4,2,H15" playid="10,5,80" type="U" tokens="PUNT:19,V44 RET:15,V49 TACK:20"
+      text="John Markham punt 41 yards to the ALABAMA44, Freddie Milons return 5 yards to the ALABAMA49 (Mike Martin)."></play>
+   <drivesum plays="3" yards="8" top="0:00" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V49,05:54" vh="V" spot="V49" clock="05:54" driveindex="11,80"></drivestart>
+   <play context="V,1,10,V49" playid="11,1,81" clock="05:54" tokens="{DRIVE}:05:54"
+      text="ALABAMA drive start at 05:54."></play>
+   <play context="V,1,10,V49" playid="11,2,82" type="R" pcode="MI" tokens="RUSH:37,H49,MI TACK:93"
+      text="Shaun Alexander rush up middle for 2 yards to the VANDY49 (Doyle Crosby)."></play>
+   <play context="V,2,8,H49" playid="11,3,83" type="R" pcode="RT" first="R" tokens="RUSH:37,H39,RT TACK:43"
+      text="Shaun Alexander rush over right tackle for 10 yards to the VANDY39, 1ST DOWN ALABAMA (B. Walthour)."></play>
+   <play context="V,1,10,H39" playid="11,4,84" type="R" pcode="MI" tokens="RUSH:28,H39,MI TACK:23"
+      text="Shaun Bohanon rush up middle for no gain to the VANDY39 (Harold Lercius)."></play>
+   <play context="V,2,10,H39" playid="11,5,85" type="P" pcode="SL" tokens="PASS:5,I,84,*,SL"
+      text="Andrew Zow slant pass incomplete to S. Buchanan."></play>
+   <play context="V,3,10,H39" playid="11,6,86" type="P" first="P" tokens="PASS:5,C,37,H28 TACK:44"
+      text="Andrew Zow pass complete to Shaun Alexander for 11 yards to the VANDY28, 1ST DOWN ALABAMA (Lamont Turner)."></play>
+   <play context="V,1,10,H28" playid="11,7,87" type="R" pcode="RT" first="R" tokens="RUSH:37,H15,RT TACK:11"
+      text="Shaun Alexander rush over right tackle for 13 yards to the VANDY15, 1ST DOWN ALABAMA (Rushen Jones)."></play>
+   <play context="V,1,10,H15" playid="11,8,88" type="R" pcode="LT" tokens="RUSH:28,H10,LT TACK:42"
+      text="Shaun Bohanon rush over left tackle for 5 yards to the VANDY10 (Jamie Winborn)."></play>
+   <play context="V,2,5,H10" playid="11,9,89" type="R" pcode="MI" tokens="RUSH:30,H09,MI TACK:40"
+      text="D. McClintock rush up middle for 1 yard to the VANDY9 (Nate Morrow)."></play>
+   <play context="V,3,4,H09" playid="11,10,90" type="R" pcode="DR" first="R" tokens="RUSH:37,H05,DR TACK:66,23"
+      text="Shaun Alexander rush draw play for 4 yards to the VANDY5, 1ST DOWN ALABAMA (Wally Conyers;Harold Lercius)."></play>
+   <play context="V,1,0,H05" playid="11,11,91" type="R" pcode="MI" tokens="RUSH:37,H02,MI TACK:42,22"
+      text="Shaun Alexander rush up middle for 3 yards to the VANDY2 (Jamie Winborn;Ainsley Battles)."></play>
+   <play context="V,2,0,H02" playid="11,12,92" type="R" pcode="MI" score="Y" vscore="6" hscore="7" clock="00:38" tokens="RUSH:37,H00,MI T:00:38"
+      text="Shaun Alexander rush up middle for 2 yards to the VANDY0, TOUCHDOWN, clock 00:38."></play>
+   <play context="V,1,0,H02" playid="11,13,93" type="X" score="Y" vscore="7" hscore="7" tokens="PAT:K,12,G"
+      text="Ryan Pflugner kick attempt good."></play>
+   <play context="V,1,0,V35" playid="11,14,94" type="E" tokens="PEN:V,DG,A,TM,V30,N"
+      text="PENALTY ALABAMA delay of game 5 yards to the ALABAMA30."></play>
+   <drivesum plays="11" yards="51" top="0:00" driveindex="11" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="11,15,95" type="K" tokens="KO:12,H03 RET:9,H31 TACK:24,27"
+      text="Ryan Pflugner kickoff 67 yards to the VANDY3, Jimmy Williams return 28 yards to the VANDY31 (Tony Dixon;Jeremy Walker)."></play>
+   <drivestart poss="H,H31,00:38" vh="H" spot="H31" clock="00:38" driveindex="12,95"></drivestart>
+   <play context="H,1,10,H31" playid="12,1,96" clock="00:38" tokens="{DRIVE}:00:38"
+      text="VANDERBILT drive start at 00:38."></play>
+   <play context="H,1,10,H31" playid="12,2,97" type="R" tokens="RUSH:TM,H29,"
+      text="TM rush for loss of 2 yards to the VANDY29."></play>
+   <play context="H,2,12,H29" playid="12,3,98" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="1" yards="-2" top="0:00" driveindex="12" complete="Y"></drivesum>
+   <score qtr="2" V="7" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="ALABAMA">
+    <firstdowns no="5" rush="3" pass="2" penalty="0"></firstdowns>
+    <penalties no="4" yds="25"></penalties>
+    <conversions thirdconv="3" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="10:02"></misc>
+    <rush att="12" yds="44" gain="47" loss="3" td="1" long="0"></rush>
+    <pass comp="4" att="6" int="0" yds="36" td="0" long="16" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="36" td="0" long="16"></rcv>
+    <punt no="1" yds="44" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="67" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="5" tacka="4" tflua="2" tfla="0" tflyds="3" sacks="0" sackyds="0"></defense>
+    <pr no="1" yds="5" td="0" long="0"></pr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="VANDY">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:58"></misc>
+    <rush att="5" yds="20" gain="23" loss="3" td="0" long="2"></rush>
+    <pass comp="3" att="4" int="0" yds="37" td="1" long="20" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="37" td="1" long="20"></rcv>
+    <punt no="1" yds="41" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="55" ob="1" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="6" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="1" yds="28" td="0" long="28"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="H,2,12,H29" playid="12,4,99" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:V,V35,N"
+      text="Start of 3rd quarter, clock 15:00, ALABAMA ball on ALABAMA35."></play>
+   <play context="V,2,12,V35" playid="12,5,100" type="K" tokens="KO:12,H00 RET:9,H24 TACK:6"
+      text="Ryan Pflugner kickoff 65 yards to the VANDY0, Jimmy Williams return 24 yards to the VANDY24 (Marvin Brown)."></play>
+   <drivestart poss="H,H24,15:00" vh="H" spot="H24" clock="15:00" driveindex="13,100"></drivestart>
+   <play context="H,1,10,H24" playid="13,1,101" clock="15:00" tokens="{DRIVE}:15:00"
+      text="VANDERBILT drive start at 15:00."></play>
+   <play context="H,1,10,H24" playid="13,2,102" type="R" pcode="RR" first="R" tokens="RUSH:2,H34,RR TACK:11"
+      text="Rodney Williams rush right for 10 yards to the VANDY34, 1ST DOWN VANDY (Saleem Rasheed)."></play>
+   <play context="H,1,10,H34" playid="13,3,103" type="R" pcode="LL" first="R" tokens="RUSH:2,H48,LL TACK:41"
+      text="Rodney Williams rush left for 14 yards to the VANDY48, 1ST DOWN VANDY (Marcus Spencer)."></play>
+   <play context="H,1,10,H48" playid="13,4,104" type="R" pcode="MI" tokens="RUSH:2,V49,MI TACK:99,11"
+      text="Rodney Williams rush up middle for 3 yards to the ALABAMA49 (Darius Gilbert;Saleem Rasheed)."></play>
+   <play context="H,2,7,V49" playid="13,5,105" type="R" pcode="LT" tokens="RUSH:2,V45,LT TACK:45,41"
+      text="Rodney Williams rush over left tackle for 4 yards to the ALABAMA45 (Marvin Constant;Marcus Spencer)."></play>
+   <play context="H,3,3,V45" playid="13,6,106" type="P" first="P" tokens="PASS:12,C,80,V31 OB: TACK:24"
+      text="Greg Zolman pass complete to Elliott Carson for 14 yards to the ALABAMA31, 1ST DOWN VANDY, out-of-bounds (Tony Dixon)."></play>
+   <play context="H,1,10,V31" playid="13,7,107" type="R" pcode="RR" tokens="RUSH:33,V30,RR TACK:23"
+      text="Jared McGrath rush right for 1 yard to the ALABAMA30 (Reggie Myles)."></play>
+   <play context="H,2,9,V30" playid="13,8,108" type="P" tokens="PASS:12,I,80,*"
+      text="Greg Zolman pass incomplete to Elliott Carson."></play>
+   <play context="H,3,9,V30" playid="13,9,109" type="R" pcode="DR" tokens="RUSH:33,V24,DR TACK:99"
+      text="Jared McGrath rush draw play for 6 yards to the ALABAMA24 (Darius Gilbert)."></play>
+   <play context="H,4,3,V24" playid="13,10,110" type="F" score="Y" vscore="7" hscore="10" clock="10:34" tokens="FGA:19,41,G T:10:34"
+      text="John Markham field goal attempt from 41 GOOD, clock 10:34."></play>
+   <drivesum plays="9" yards="52" top="0:00" driveindex="13" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="13,11,111" type="K" tokens="KO:19,V09 RET:33,V21 TACK:47"
+      text="John Markham kickoff 56 yards to the ALABAMA9, Shontua Ray return 12 yards to the ALABAMA21 (Andrew Kerr)."></play>
+   <drivestart poss="V,V21,10:34" vh="V" spot="V21" clock="10:34" driveindex="14,111"></drivestart>
+   <play context="V,1,10,V21" playid="14,1,112" clock="10:34" tokens="{DRIVE}:10:34"
+      text="ALABAMA drive start at 10:34."></play>
+   <play context="V,1,10,V21" playid="14,2,113" type="R" first="R" tokens="RUSH:15,V31, TACK:22 PEN:H,FM,A,TM,V36,N"
+      text="Freddie Milons rush for 10 yards to the ALABAMA31, 1ST DOWN ALABAMA (Ainsley Battles), PENALTY VANDY face mask 5 yards to the ALABAMA36."></play>
+   <play context="V,1,5,V36" playid="14,3,114" tokens="D:1,10"
+      text="1st and 10."></play>
+   <play context="V,1,10,V36" playid="14,4,115" type="#" clock="09:58" tokens="TOUT:V T:09:58"
+      text="Timeout Alabama, clock 09:58."></play>
+   <play context="V,1,10,V36" playid="14,5,116" type="P" first="P" tokens="PASS:5,C,37,H41 TACK:40"
+      text="Andrew Zow pass complete to Shaun Alexander for 23 yards to the VANDY41, 1ST DOWN ALABAMA (Nate Morrow)."></play>
+   <play context="V,1,10,H41" playid="14,6,117" type="E" tokens="PEN:V,FS,A,TM,H46,N"
+      text="PENALTY ALABAMA false start 5 yards to the VANDY46."></play>
+   <play context="V,1,15,H46" playid="14,7,118" type="P" tokens="PASS:5,C,80,H34 TACK:22"
+      text="Andrew Zow pass complete to Jason McAddley for 12 yards to the VANDY34 (Ainsley Battles)."></play>
+   <play context="V,2,3,H34" playid="14,8,119" type="E" first="E" tokens="PEN:H,OS,A,TM,H28,N"
+      text="PENALTY VANDY offside 6 yards to the VANDY28, 1ST DOWN ALABAMA."></play>
+   <play context="V,1,10,H28" playid="14,9,120" type="R" pcode="MI" tokens="RUSH:37,H21,MI TACK:22"
+      text="Shaun Alexander rush up middle for 7 yards to the VANDY21 (Ainsley Battles)."></play>
+   <play context="V,2,3,H21" playid="14,10,121" type="R" pcode="MI" first="R" tokens="RUSH:30,H18,MI TACK:73"
+      text="D. McClintock rush up middle for 3 yards to the VANDY18, 1ST DOWN ALABAMA (Russ Nicoll)."></play>
+   <play context="V,1,10,H18" playid="14,11,122" type="P" first="P" score="Y" vscore="13" hscore="10" clock="07:31" tokens="PASS:5,C,30,H00 T:07:31"
+      text="Andrew Zow pass complete to D. McClintock for 18 yards to the VANDY0, 1ST DOWN ALABAMA, TOUCHDOWN, clock 07:31."></play>
+   <play context="V,1,0,H02" playid="14,12,123" type="X" score="Y" vscore="14" hscore="10" tokens="PAT:K,12,G"
+      text="Ryan Pflugner kick attempt good."></play>
+   <drivesum plays="6" yards="79" top="0:00" driveindex="14" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="14,13,124" type="K" tokens="KO:12,H12 OB: SPOT:H,H35,Y"
+      text="Ryan Pflugner kickoff 53 yards to the VANDY12, out-of-bounds, VANDY ball on VANDY35."></play>
+   <drivestart poss="H,H35,07:31" vh="H" spot="H35" clock="07:31" driveindex="15,124"></drivestart>
+   <play context="H,1,10,H35" playid="15,1,125" clock="07:31" tokens="{DRIVE}:07:31"
+      text="VANDERBILT drive start at 07:31."></play>
+   <play context="H,1,10,H35" playid="15,2,126" type="R" pcode="LL" tokens="RUSH:33,H37,LL TACK:23"
+      text="Jared McGrath rush left for 2 yards to the VANDY37 (Reggie Myles)."></play>
+   <play context="H,2,8,H37" playid="15,3,127" type="R" tokens="RUSH:31,H34, TACK:99,45"
+      text="Ryan Cuffee rush for loss of 3 yards to the VANDY34 (Darius Gilbert;Marvin Constant)."></play>
+   <play context="H,3,11,H34" playid="15,4,128" type="P" tokens="PASS:12,S,TM,H29 SACK:88"
+      text="Greg Zolman sacked for loss of 5 yards to the VANDY29 (Kenny Smith)."></play>
+   <play context="H,4,16,H29" playid="15,5,129" type="U" turnover="F" tokens="PUNT:19,V19 RET:15,V19 FORCE:47 FUMB:V,V19,15 +:15,V19 FUMB:H,V21,39"
+      text="John Markham punt 52 yards to the ALABAMA19, Freddie Milons return 0 yards to the ALABAMA19, fumble forced by Andrew Kerr, fumble by Freddie Milons recovered by ALABAMA Freddie Milons at ALABAMA19, Freddie Milons for no gain to the ALABAMA19, fumble by Freddie Milons recovered by VANDY David Meadows at ALABAMA21."></play>
+   <drivesum plays="3" yards="-6" top="0:00" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,V21,05:08" vh="H" spot="V21" clock="05:08" driveindex="17,129"></drivestart>
+   <play context="H,1,10,V21" playid="17,1,130" clock="05:08" tokens="{DRIVE}:05:08"
+      text="VANDERBILT drive start at 05:08."></play>
+   <play context="H,1,10,V21" playid="17,2,131" type="R" pcode="RV" first="R" tokens="RUSH:85,V01,RV TACK:13"
+      text="Dan Stricker rush reverse for 20 yards to the ALABAMA1, 1ST DOWN VANDY (Kecalf Bailey)."></play>
+   <play context="H,1,0,V01" playid="17,3,132" type="#" clock="04:53" tokens="TOUT:V T:04:53"
+      text="Timeout Alabama, clock 04:53."></play>
+   <play context="H,1,0,V01" playid="17,4,133" type="R" pcode="QS" score="Y" vscore="14" hscore="16" clock="04:48" tokens="RUSH:12,V00,QS T:04:48"
+      text="Greg Zolman rush quarterback sneak for 1 yard to the ALABAMA0, TOUCHDOWN, clock 04:48."></play>
+   <play context="H,1,0,V02" playid="17,5,134" type="X" score="Y" vscore="14" hscore="17" tokens="PAT:K,19,G"
+      text="John Markham kick attempt good."></play>
+   <drivesum plays="2" yards="21" top="0:00" driveindex="17" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="17,6,135" type="K" tokens="KO:19,V00 TB:"
+      text="John Markham kickoff 65 yards to the ALABAMA0, touchback."></play>
+   <drivestart poss="V,V20,04:48" vh="V" spot="V20" clock="04:48" driveindex="18,135"></drivestart>
+   <play context="V,1,10,V20" playid="18,1,136" clock="04:48" tokens="{DRIVE}:04:48"
+      text="ALABAMA drive start at 04:48."></play>
+   <play context="V,1,10,V20" playid="18,2,137" type="P" pcode="SL" first="P" tokens="PASS:5,C,84,V31,SL TACK:42,9"
+      text="Andrew Zow slant pass complete to S. Buchanan for 11 yards to the ALABAMA31, 1ST DOWN ALABAMA (Jamie Winborn;Jimmy Williams)."></play>
+   <play context="V,1,10,V31" playid="18,3,138" type="R" pcode="MI" tokens="RUSH:37,V35,MI TACK:66"
+      text="Shaun Alexander rush up middle for 4 yards to the ALABAMA35 (Wally Conyers)."></play>
+   <play context="V,2,6,V35" playid="18,4,139" type="R" pcode="RT" tokens="RUSH:37,V35,RT TACK:26"
+      text="Shaun Alexander rush over right tackle for no gain to the ALABAMA35 (Matt Stewart)."></play>
+   <play context="V,3,6,V35" playid="18,5,140" type="P" tokens="PASS:5,F,TM,V26 SACK:26 FUMB:V,V26,82"
+      text="Andrew Zow sacked for loss of 9 yards to the ALABAMA26 (Matt Stewart), fumble by Andrew Zow recovered by ALABAMA Terry Jones,Jr. at ALABAMA26."></play>
+   <play context="V,4,15,V26" playid="18,6,141" type="U" tokens="PUNT:16,H38 RET:9,H42 TACK:4"
+      text="Patrick Morgan punt 36 yards to the VANDY38, Jimmy Williams return 4 yards to the VANDY42 (Gerald Dixon)."></play>
+   <drivesum plays="4" yards="6" top="0:00" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="H,H42,01:58" vh="H" spot="H42" clock="01:58" driveindex="19,141"></drivestart>
+   <play context="H,1,10,H42" playid="19,1,142" clock="01:58" tokens="{DRIVE}:01:58"
+      text="VANDERBILT drive start at 01:58."></play>
+   <play context="H,1,10,H42" playid="19,2,143" type="P" tokens="PASS:12,S,TM,H39 SACK:38,55"
+      text="Greg Zolman sacked for loss of 3 yards to the VANDY39 (Shawn Draper;Kenny King)."></play>
+   <play context="H,2,13,H39" playid="19,3,144" type="R" pcode="DR" tokens="RUSH:2,H40,DR TACK:99"
+      text="Rodney Williams rush draw play for 1 yard to the VANDY40 (Darius Gilbert)."></play>
+   <play context="H,3,12,H40" playid="19,4,145" type="P" pcode="SC" tokens="PASS:12,C,7,H47,SC OB: TACK:24"
+      text="Greg Zolman screen pass complete to Tavarus Hogans for 7 yards to the VANDY47, out-of-bounds (Tony Dixon)."></play>
+   <play context="H,4,5,H47" playid="19,5,146" type="U" tokens="PUNT:19,V12 RET:15,V23 TACK:47"
+      text="John Markham punt 41 yards to the ALABAMA12, Freddie Milons return 11 yards to the ALABAMA23 (Andrew Kerr)."></play>
+   <drivesum plays="3" yards="5" top="0:00" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,V23,00:19" vh="V" spot="V23" clock="00:19" driveindex="20,146"></drivestart>
+   <play context="V,1,10,V23" playid="20,1,147" clock="00:19" tokens="{DRIVE}:00:19"
+      text="ALABAMA drive start at 00:19."></play>
+   <play context="V,1,10,V23" playid="20,2,148" type="R" pcode="MI" tokens="RUSH:37,V25,MI TACK:44"
+      text="Shaun Alexander rush up middle for 2 yards to the ALABAMA25 (Lamont Turner)."></play>
+   <score qtr="3" V="14" H="17"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="ALABAMA">
+    <firstdowns no="6" rush="2" pass="3" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="3" lost="1"></fumbles>
+    <misc yds="0" top="06:12"></misc>
+    <rush att="7" yds="17" gain="26" loss="9" td="0" long="0"></rush>
+    <pass comp="4" att="4" int="0" yds="64" td="1" long="4" sacks="1" sackyds="9"></pass>
+    <rcv no="4" yds="64" td="1" long="4"></rcv>
+    <punt no="1" yds="36" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="118" ob="1" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="8" tflua="1" tfla="4" tflyds="11" sacks="2" sackyds="8" fr="0" fryds="2"></defense>
+    <kr no="1" yds="12" td="0" long="0"></kr>
+    <pr no="2" yds="11" td="0" long="3"></pr>
+    <fr no="0" yds="2" td="0" long="0"></fr>
+    <fumbles no="3" lost="1"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="VANDY">
+    <firstdowns no="4" rush="3" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="11"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:48"></misc>
+    <rush att="13" yds="51" gain="62" loss="11" td="1" long="10"></rush>
+    <pass comp="2" att="3" int="0" yds="21" td="0" long="0" sacks="2" sackyds="8"></pass>
+    <rcv no="2" yds="21" td="0" long="0"></rcv>
+    <punt no="2" yds="93" long="4" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <ko no="2" yds="121" ob="0" tb="1"></ko>
+    <fg made="1" att="1" long="41" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="2" tflua="1" tfla="0" tflyds="9" sacks="1" sackyds="9" ff="2" fr="1" fryds="0"></defense>
+    <kr no="1" yds="24" td="0" long="0"></kr>
+    <pr no="1" yds="4" td="0" long="0"></pr>
+    <scoring td="1" fg="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,2,8,V25" playid="20,3,149" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00."></play>
+   <play context="V,2,8,V25" playid="20,4,150" type="R" pcode="RV" tokens="RUSH:15,V28,RV TACK:22"
+      text="Freddie Milons rush reverse for 3 yards to the ALABAMA28 (Ainsley Battles)."></play>
+   <play context="V,3,5,V28" playid="20,5,151" type="P" tokens="PASS:5,I,TM,* BRUP:42"
+      text="Andrew Zow pass incomplete (Jamie Winborn)."></play>
+   <play context="V,4,5,V28" playid="20,6,152" type="U" tokens="PUNT:16,H13 DN:"
+      text="Patrick Morgan punt 59 yards to the VANDY13, downed."></play>
+   <drivesum plays="3" yards="5" top="0:00" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,H13,13:55" vh="H" spot="H13" clock="13:55" driveindex="21,152"></drivestart>
+   <play context="H,1,10,H13" playid="21,1,153" clock="13:55" tokens="{DRIVE}:13:55"
+      text="VANDERBILT drive start at 13:55."></play>
+   <play context="H,1,10,H13" playid="21,2,154" type="P" tokens="PASS:12,I,80,*"
+      text="Greg Zolman pass incomplete to Elliott Carson."></play>
+   <play context="H,2,10,H13" playid="21,3,155" type="R" pcode="RR" tokens="RUSH:33,H15,RR TACK:31"
+      text="Jared McGrath rush right for 2 yards to the VANDY15 (Adam Cox)."></play>
+   <play context="H,3,8,H15" playid="21,4,156" type="P" tokens="PASS:12,F,TM,H06 SACK:54 FUMB:H,H06,80"
+      text="Greg Zolman sacked for loss of 9 yards to the VANDY6 (K. Moorehead), fumble by Greg Zolman recovered by VANDY Elliott Carson at VANDY6."></play>
+   <play context="H,4,17,H06" playid="21,5,157" type="U" tokens="PUNT:19,H41 RET:26,H21 TACK:26"
+      text="John Markham punt 35 yards to the VANDY41, Arvin Richard return 20 yards to the VANDY21 (Matt Stewart)."></play>
+   <drivesum plays="3" yards="-7" top="0:00" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="V,H21,12:17" vh="V" spot="H21" clock="12:17" driveindex="22,157"></drivestart>
+   <play context="V,1,10,H21" playid="22,1,158" clock="12:17" tokens="{DRIVE}:12:17"
+      text="ALABAMA drive start at 12:17."></play>
+   <play context="V,1,10,H21" playid="22,2,159" type="R" pcode="LL" tokens="RUSH:37,H13,LL TACK:40"
+      text="Shaun Alexander rush left for 8 yards to the VANDY13 (Nate Morrow)."></play>
+   <play context="V,2,2,H13" playid="22,3,160" type="R" pcode="LL" tokens="RUSH:37,H12,LL TACK:41"
+      text="Shaun Alexander rush left for 1 yard to the VANDY12 (A. Bradford)."></play>
+   <play context="V,3,1,H12" playid="22,4,161" type="R" pcode="MI" first="R" tokens="RUSH:30,H09,MI"
+      text="D. McClintock rush up middle for 3 yards to the VANDY9, 1ST DOWN ALABAMA."></play>
+   <play context="V,1,0,H09" playid="22,5,162" type="R" tokens="RUSH:37,H03, TACK:26"
+      text="Shaun Alexander rush for 6 yards to the VANDY3 (Matt Stewart)."></play>
+   <play context="V,2,0,H03" playid="22,6,163" type="R" pcode="LL" score="Y" vscore="20" hscore="17" clock="09:59" tokens="RUSH:37,H00,LL T:09:59"
+      text="Shaun Alexander rush left for 3 yards to the VANDY0, TOUCHDOWN, clock 09:59."></play>
+   <play context="V,1,0,H02" playid="22,7,164" type="X" score="Y" vscore="21" hscore="17" tokens="PAT:K,12,G"
+      text="Ryan Pflugner kick attempt good."></play>
+   <drivesum plays="5" yards="21" top="0:00" driveindex="22" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="22,8,165" type="K" tokens="KO:12,H04 RET:9,H43 OB: TACK:21"
+      text="Ryan Pflugner kickoff 61 yards to the VANDY4, Jimmy Williams return 39 yards to the VANDY43, out-of-bounds (Milo Lewis)."></play>
+   <drivestart poss="H,H43,09:59" vh="H" spot="H43" clock="09:59" driveindex="23,165"></drivestart>
+   <play context="H,1,10,H43" playid="23,1,166" clock="09:59" tokens="{DRIVE}:09:59"
+      text="VANDERBILT drive start at 09:59."></play>
+   <play context="H,1,10,H43" playid="23,2,167" type="R" pcode="LT" tokens="RUSH:2,H44,LT TACK:97"
+      text="Rodney Williams rush over left tackle for 1 yard to the VANDY44 (C. Griffin)."></play>
+   <play context="H,2,9,H44" playid="23,3,168" type="R" tokens="RUSH:12,H46, TACK:45"
+      text="Greg Zolman rush for 2 yards to the VANDY46 (Marvin Constant)."></play>
+   <play context="H,3,7,H46" playid="23,4,169" type="P" tokens="PASS:12,S,TM,H39 SACK:55"
+      text="Greg Zolman sacked for loss of 7 yards to the VANDY39 (Kenny King)."></play>
+   <play context="H,4,14,H39" playid="23,5,170" type="#" clock="07:40" tokens="TOUT:H T:07:40"
+      text="Timeout Vanderbilt, clock 07:40."></play>
+   <play context="H,4,14,H39" playid="23,6,171" type="U" tokens="PUNT:19,V24 FC:26"
+      text="John Markham punt 37 yards to the ALABAMA24, fair catch by Arvin Richard."></play>
+   <drivesum plays="3" yards="-4" top="0:00" driveindex="23" complete="Y"></drivesum>
+   <drivestart poss="V,V24,07:31" vh="V" spot="V24" clock="07:31" driveindex="24,171"></drivestart>
+   <play context="V,1,10,V24" playid="24,1,172" clock="07:31" tokens="{DRIVE}:07:31"
+      text="ALABAMA drive start at 07:31."></play>
+   <play context="V,1,10,V24" playid="24,2,173" type="P" first="P" tokens="PASS:5,C,15,V49 OB: TACK:23"
+      text="Andrew Zow pass complete to Freddie Milons for 25 yards to the ALABAMA49, 1ST DOWN ALABAMA, out-of-bounds (Harold Lercius)."></play>
+   <play context="V,1,10,V49" playid="24,3,174" type="P" tokens="PASS:5,I,7,*"
+      text="Andrew Zow pass incomplete to Sam Collins."></play>
+   <play context="V,2,10,V49" playid="24,4,175" type="P" first="P" score="Y" vscore="27" hscore="17" clock="07:04" tokens="PASS:5,C,37,H00 T:07:04"
+      text="Andrew Zow pass complete to Shaun Alexander for 51 yards to the VANDY0, 1ST DOWN ALABAMA, TOUCHDOWN, clock 07:04."></play>
+   <play context="V,1,0,H02" playid="24,5,176" type="X" score="Y" vscore="28" hscore="17" tokens="PAT:K,12,G"
+      text="Ryan Pflugner kick attempt good."></play>
+   <drivesum plays="3" yards="76" top="0:00" driveindex="24" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="24,6,177" type="K" tokens="KO:12,H05 RET:9,H18 TACK:6"
+      text="Ryan Pflugner kickoff 60 yards to the VANDY5, Jimmy Williams return 13 yards to the VANDY18 (Marvin Brown)."></play>
+   <drivestart poss="H,H18,07:04" vh="H" spot="H18" clock="07:04" driveindex="25,177"></drivestart>
+   <play context="H,1,10,H18" playid="25,1,178" clock="07:04" tokens="{DRIVE}:07:04"
+      text="VANDERBILT drive start at 07:04."></play>
+   <play context="H,1,10,H18" playid="25,2,179" type="P" tokens="PASS:12,S,TM,H13 SACK:67"
+      text="Greg Zolman sacked for loss of 5 yards to the VANDY13 (Kelvis White)."></play>
+   <play context="H,2,15,H13" playid="25,3,180" type="P" pcode="SC" tokens="PASS:12,C,2,H26,SC TACK:97,13"
+      text="Greg Zolman screen pass complete to Rodney Williams for 13 yards to the VANDY26 (C. Griffin;Kecalf Bailey)."></play>
+   <play context="H,3,2,H26" playid="25,4,181" type="R" pcode="RR" first="R" tokens="RUSH:2,H41,RR TACK:24"
+      text="Rodney Williams rush right for 15 yards to the VANDY41, 1ST DOWN VANDY (Tony Dixon)."></play>
+   <play context="H,1,10,H41" playid="25,5,182" type="R" pcode="DR" tokens="RUSH:2,H46,DR TACK:9"
+      text="Rodney Williams rush draw play for 5 yards to the VANDY46 (Victor Ellis)."></play>
+   <play context="H,2,5,H46" playid="25,6,183" type="#" clock="04:26" tokens="TOUT:V T:04:26"
+      text="Timeout Alabama, clock 04:26."></play>
+   <play context="H,2,5,H46" playid="25,7,184" type="P" pcode="DP" tokens="PASS:12,I,85,*,DP"
+      text="Greg Zolman deep pass incomplete to Dan Stricker."></play>
+   <play context="H,3,5,H46" playid="25,8,185" type="P" pcode="SC" tokens="PASS:12,I,33,*,SC"
+      text="Greg Zolman screen pass incomplete to Jared McGrath."></play>
+   <play context="H,4,5,H46" playid="25,9,186" type="U" tokens="PUNT:19,V18 FC:26"
+      text="John Markham punt 36 yards to the ALABAMA18, fair catch by Arvin Richard."></play>
+   <drivesum plays="6" yards="28" top="0:00" driveindex="25" complete="Y"></drivesum>
+   <drivestart poss="V,V18,04:07" vh="V" spot="V18" clock="04:07" driveindex="26,186"></drivestart>
+   <play context="V,1,10,V18" playid="26,1,187" clock="04:07" tokens="{DRIVE}:04:07"
+      text="ALABAMA drive start at 04:07."></play>
+   <play context="V,1,10,V18" playid="26,2,188" type="R" tokens="RUSH:37,V21, TACK:93"
+      text="Shaun Alexander rush for 3 yards to the ALABAMA21 (Doyle Crosby)."></play>
+   <play context="V,2,7,V21" playid="26,3,189" type="R" pcode="LL" tokens="RUSH:37,V24,LL TACK:40"
+      text="Shaun Alexander rush left for 3 yards to the ALABAMA24 (Nate Morrow)."></play>
+   <play context="V,3,4,V24" playid="26,4,190" type="#" clock="03:10" tokens="TOUT:H T:03:10"
+      text="Timeout Vanderbilt, clock 03:10."></play>
+   <play context="V,3,4,V24" playid="26,5,191" type="P" first="P" tokens="PASS:5,C,15,V33 PEN:H,PF,A,TM,V48,+"
+      text="Andrew Zow pass complete to Freddie Milons for 9 yards to the ALABAMA33, 1ST DOWN ALABAMA, PENALTY VANDY personal foul 15 yards to the ALABAMA48, 1ST DOWN ALABAMA."></play>
+   <play context="V,1,10,V48" playid="26,6,192" tokens="D:1,10"
+      text="1st and 10."></play>
+   <play context="V,1,10,V48" playid="26,7,193" type="R" tokens="RUSH:37,V44, TACK:22"
+      text="Shaun Alexander rush for loss of 4 yards to the ALABAMA44 (Ainsley Battles)."></play>
+   <play context="V,2,14,V44" playid="26,8,194" type="P" pcode="SL" tokens="PASS:5,C,80,H48,SL TACK:28"
+      text="Andrew Zow slant pass complete to Jason McAddley for 8 yards to the VANDY48 (Brian Taylor)."></play>
+   <play context="V,3,6,H48" playid="26,9,195" type="P" pcode="SC" tokens="PASS:5,C,15,H46,SC TACK:23"
+      text="Andrew Zow screen pass complete to Freddie Milons for 2 yards to the VANDY46 (Harold Lercius)."></play>
+   <play context="V,4,4,H46" playid="26,10,196" type="#" clock="01:13" tokens="TOUT:H T:01:13"
+      text="Timeout Vanderbilt, clock 01:13."></play>
+   <play context="V,4,4,H46" playid="26,11,197" type="U" tokens="PUNT:16,H11 FC:9"
+      text="Patrick Morgan punt 35 yards to the VANDY11, fair catch by Jimmy Williams."></play>
+   <drivesum plays="6" yards="36" top="0:00" driveindex="26" complete="Y"></drivesum>
+   <drivestart poss="H,H11,01:04" vh="H" spot="H11" clock="01:04" driveindex="27,197"></drivestart>
+   <play context="H,1,10,H11" playid="27,1,198" clock="01:04" tokens="{DRIVE}:01:04"
+      text="VANDERBILT drive start at 01:04."></play>
+   <play context="H,1,10,H11" playid="27,2,199" type="R" pcode="DR" tokens="RUSH:2,H16,DR TACK:54"
+      text="Rodney Williams rush draw play for 5 yards to the VANDY16 (K. Moorehead)."></play>
+   <play context="H,2,5,H16" playid="27,3,200" type="P" tokens="PASS:12,I,31,*"
+      text="Greg Zolman pass incomplete to Ryan Cuffee."></play>
+   <play context="H,3,5,H16" playid="27,4,201" type="P" pcode="SL" first="P" tokens="PASS:12,C,2,H23,SL TACK:99"
+      text="Greg Zolman slant pass complete to Rodney Williams for 7 yards to the VANDY23, 1ST DOWN VANDY (Darius Gilbert)."></play>
+   <play context="H,1,10,H23" playid="27,5,202" type="P" tokens="PASS:12,I,85,*"
+      text="Greg Zolman pass incomplete to Dan Stricker."></play>
+   <play context="H,2,10,H23" playid="27,6,203" type="P" first="P" tokens="PASS:12,C,85,V47 TACK:41"
+      text="Greg Zolman pass complete to Dan Stricker for 30 yards to the ALABAMA47, 1ST DOWN VANDY (Marcus Spencer)."></play>
+   <play context="H,1,10,V47" playid="27,7,204" type="P" tokens="PASS:12,S,TM,V49 SACK:97"
+      text="Greg Zolman sacked for loss of 2 yards to the ALABAMA49 (C. Griffin)."></play>
+   <play context="H,2,12,V49" playid="27,8,205" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="6" yards="40" top="0:00" driveindex="27" complete="Y"></drivesum>
+   <score final="Y" V="28" H="17"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="ALABAMA">
+    <firstdowns no="5" rush="1" pass="3" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:53"></misc>
+    <rush att="9" yds="26" gain="30" loss="4" td="1" long="0"></rush>
+    <pass comp="5" att="7" int="0" yds="95" td="1" long="28" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="95" td="1" long="28"></rcv>
+    <punt no="2" yds="94" long="11" blkd="0" tb="0" fc="1" plus50="1" inside20="2"></punt>
+    <ko no="2" yds="121" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="14" tacka="2" tflua="4" tfla="0" tflyds="23" sacks="4" sackyds="23" ff="1"></defense>
+    <pr no="1" yds="20" td="0" long="9"></pr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="VANDY">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="08:07"></misc>
+    <rush att="10" yds="7" gain="30" loss="23" td="0" long="0"></rush>
+    <pass comp="3" att="8" int="0" yds="50" td="0" long="2" sacks="4" sackyds="23"></pass>
+    <rcv no="3" yds="50" td="0" long="2"></rcv>
+    <punt no="3" yds="108" long="0" blkd="0" tb="0" fc="2" plus50="0" inside20="1"></punt>
+    <defense tackua="11" tacka="0" tflua="1" tfla="0" tflyds="4" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="2" yds="52" td="0" long="11"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,2,12,V49" qtr="4" clock="00:00" vtoh="3" htoh="3"></downtogo>
+ </plays>
+ <dnp vh="V" id="ALABAMA">
+  <player name="Jonathan Richey" checkname="RICHEY,JONATHAN" uni="17" class="SO" gp="0" code="17"></player>
+  <player name="Luke Tucker" checkname="TUCKER,LUKE" uni="18" class="FR" gp="0" code="18"></player>
+  <player name="Mark Wisniewski" checkname="WISNIEWSKI,MARK" uni="22" class="SO" gp="0" code="22"></player>
+  <player name="Roberto McBride" checkname="MCBRIDE,ROBERTO" uni="35" class="FR" gp="0" code="35"></player>
+  <player name="Lane Bearden" checkname="BEARDEN,LANE" uni="44" class="FR" gp="0" code="44"></player>
+  <player name="Corey Bryan" checkname="BRYAN,COREY" uni="52" class="SO" gp="0" code="52"></player>
+  <player name="Kenric Lott" checkname="LOTT,KENRIC" uni="56" class="JR" gp="0" code="56"></player>
+  <player name="Alonzo Ephraim" checkname="EPHRAIM,ALONZO" uni="58" class="FR" gp="0" code="58"></player>
+  <player name="Ross Gunnells" checkname="GUNNELLS,ROSS" uni="68" class="JR" gp="0" code="68"></player>
+  <player name="D. Alexander" checkname="ALEXANDER,D" uni="73" class="FR" gp="0" code="73"></player>
+  <player name="Ray Marshall" checkname="MARSHALL,RAY" uni="79" class="FR" gp="0" code="79"></player>
+  <player name="Shaun Williams" checkname="WILLIAMS,SHAUN" uni="92" class="SO" gp="0" code="92"></player>
+  <player name="Derek Sanders" checkname="SANDERS,DEREK" uni="94" class="FR" gp="0" code="94"></player>
+ </dnp>
+ <dnp vh="H" id="VANDY">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

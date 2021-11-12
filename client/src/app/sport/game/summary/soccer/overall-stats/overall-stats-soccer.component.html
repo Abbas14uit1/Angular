@@ -1,0 +1,157 @@
+  <div id="work-collections">
+    <ul id="issues-collection" class="collection z-depth-1">
+      <li class="collection-item">
+        <div class="row">
+          <div class="col s6">
+            <span class="collection-header m-0">TEAM STATS</span>
+          </div>
+          <div class="col s3 right-align">
+            <img id="logo" src="../../../assets/images/teams/{{homeTeamStats.code}}.png" alt=" ">
+          </div>
+          <div class="col s3 right-align">
+            <img id="logo" src="../../../assets/images/teams/{{awayTeamStats.code}}.png" alt=" ">
+          </div>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="row">
+          <div class="col s6">
+            <p class="collections-title">
+              SHOTS
+            </p>
+            <p class="collections-content">&nbsp;&nbsp;Goals</p>
+            <p class="collections-content">&nbsp;&nbsp;Shots</p>
+            <p class="collections-content">&nbsp;&nbsp;Shot %</p>
+            <p class="collections-content">&nbsp;&nbsp;SOG</p>
+            <p class="collections-content">&nbsp;&nbsp;SOG%</p>
+            <p class="collections-content">&nbsp;&nbsp;Assists</p>
+          </div>
+          <div class="col s3 right-align">
+            <br>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.shotsG)}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.shotsSh)}}</p>
+            <p class="collections-content">{{ ((homeTeamStats.shotsG / homeTeamStats.shotsSh).toFixed(3)).startsWith("0.") ? ((homeTeamStats.shotsG / homeTeamStats.shotsSh).toFixed(3)).substring(1) : (homeTeamStats.shotsG / homeTeamStats.shotsSh).toFixed(3)}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.shotsSog)}}</p>
+            <p class="collections-content">{{ ((homeTeamStats.shotsSog / homeTeamStats.shotsSh).toFixed(3)).startsWith("0.") ? ((homeTeamStats.shotsSog / homeTeamStats.shotsSh).toFixed(3)).substring(1) : (homeTeamStats.shotsSog / homeTeamStats.shotsSh).toFixed(3) }}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.shotsA)}}</p>
+          </div>
+          <div class="col s3 right-align">
+            <br>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.shotsG)}}</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.shotsSh)}}</p>
+            <p class="collections-content">{{ ((awayTeamStats.shotsG / awayTeamStats.shotsSh).toFixed(3)).startsWith("0.") ? ((awayTeamStats.shotsG / awayTeamStats.shotsSh).toFixed(3)).substring(1) : (awayTeamStats.shotsG / awayTeamStats.shotsSh).toFixed(3)}}</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.shotsSog)}}</p>
+            <p class="collections-content">{{ ((awayTeamStats.shotsSog / awayTeamStats.shotsSh).toFixed(3)).startsWith("0.") ? ((awayTeamStats.shotsSog / awayTeamStats.shotsSh).toFixed(3)).substring(1) : (awayTeamStats.shotsSog / awayTeamStats.shotsSh).toFixed(3)}}</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.shotsA)}}</p>
+          </div>
+        </div>
+      </li>
+
+    
+      <li class="collection-item">
+        <div class="row">
+          <div class="col s6">
+            <p class="collections-title">
+             GOAL TYPE
+            </p>
+            <p class="collections-content">&nbsp;&nbsp;First Goal (of the game)</p>
+            <p class="collections-content">&nbsp;&nbsp;Unassisted Goal</p>
+            <p class="collections-content">&nbsp;&nbsp;Shoot Out Goal</p>
+            <p class="collections-content">&nbsp;&nbsp;Game Tying Goal</p>
+            <p class="collections-content">&nbsp;&nbsp;Game Winning Goal</p>
+            <p class="collections-content">&nbsp;&nbsp;Third Goal of the Game </p>
+            <p class="collections-content">&nbsp;&nbsp;Goal in Overtime</p>
+          </div>
+          <div class="col s3 right-align">
+            <br>
+            <p class="collections-content">{{getZeroValue( homeTeamStats.goaltypeFG)}}</p>
+            <p class="collections-content">{{getZeroValue( homeTeamStats.goaltypeUA)}}</p>
+            <p class="collections-content">{{getZeroValue( homeTeamStats.goaltypeSO)}}</p>
+            <p class="collections-content">{{getZeroValue( homeTeamStats.goaltypeGT)}}</p>
+            <p class="collections-content">{{getZeroValue( homeTeamStats.goaltypeGW)}}</p>
+            <p class="collections-content">{{getZeroValue( homeTeamStats.goaltypeHAT)}}</p>
+            <p class="collections-content">{{getZeroValue( homeTeamStats.goaltypeOT)}}</p>
+          </div>
+          <div class="col s3 right-align">
+            <br>
+            <p class="collections-content">{{getZeroValue( awayTeamStats.goaltypeFG)}}</p>
+            <p class="collections-content">{{getZeroValue( awayTeamStats.goaltypeUA)}}</p>
+            <p class="collections-content">{{getZeroValue( awayTeamStats.goaltypeSO)}}</p>
+            <p class="collections-content">{{getZeroValue( awayTeamStats.goaltypeGT)}}</p>
+            <p class="collections-content">{{getZeroValue( awayTeamStats.goaltypeGW)}}</p>
+            <p class="collections-content">{{getZeroValue( awayTeamStats.goaltypeHAT)}}</p>
+            <p class="collections-content">{{getZeroValue( awayTeamStats.goaltypeOT)}}</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="collection-item">
+        <div class="row">
+          <div class="col s6">
+            <p class="collections-title">
+              PENALTIES
+            </p>
+            <p class="collections-content">&nbsp;&nbsp;Fouls</p>
+            <p class="collections-content">&nbsp;&nbsp;Yellow Cards</p>
+            <p class="collections-content">&nbsp;&nbsp;Red Cards</p>
+          </div>
+          <div class="col s3 right-align">
+            <br>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.plantyFouls)}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.plantyYellow)}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.plantyGreen)}}</p>
+          </div>
+          <div class="col s3 right-align">
+            <br>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.plantyFouls)}}</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.plantyYellow)}}</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.plantyGreen)}}</p>
+          </div>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="row">
+          <div class="col s6">
+            <p class="collections-title"> MISCELLANEOUS</p>  
+            <p class="collections-content">&nbsp;&nbsp;Saves</p>
+            <p class="collections-content">&nbsp;&nbsp;Corner Kicks</p>    
+            <p class="collections-content">&nbsp;&nbsp;Goal of Corners</p>    
+            <p class="collections-content">&nbsp;&nbsp;Offsides</p>          
+          </div>
+          <div class="col s3 right-align">
+            <p class="collections-title">&nbsp;&nbsp;</p>
+            <p class="collections-content">{{homeTeamStats.otherstatsSaves}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.otherstatsCorners)}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.goaltypeGOC)}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.otherstatsOffsides)}}</p>
+          </div>
+          <div class="col s3 right-align">
+            <p class="collections-title">&nbsp;&nbsp;</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.otherstatsSaves)}}</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.otherstatsCorners)}}</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.goaltypeGOC)}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.otherstatsOffsides)}}</p>
+          </div>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="row">
+          <div class="col s6">
+            <p class="collections-title">PENALTY KICKS</p>
+            <p class="collections-content">&nbsp;&nbsp;Goals</p>
+            <p class="collections-content">&nbsp;&nbsp;Attempts</p>
+          </div>
+          <div class="col s3 right-align">
+            <br>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.shotsps)}}</p>
+            <p class="collections-content">{{getZeroValue(homeTeamStats.shotsPsatt)}}</p>
+          </div>
+          <div class="col s3 right-align">
+            <br>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.shotsps)}}</p>
+            <p class="collections-content">{{getZeroValue(awayTeamStats.shotsPsatt)}}</p>
+          </div>
+        </div>
+      </li>
+    </ul> 
+  </div>

@@ -1,0 +1,51 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">KICKOFFS</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="koNum">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">NO</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.koNum }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="koYards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.koYards }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="avg">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">Y/A</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.avg }}
+        </mat-cell>
+      </ng-container>
+
+  
+
+      <ng-container matColumnDef="koOb">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">OB</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.koOb }}
+        </mat-cell>
+      </ng-container>      
+      <ng-container matColumnDef="koTb">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TB</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.koTb }}
+        </mat-cell>
+      </ng-container>
+      <mat-header-row [ngStyle]="{'background-color':this.color}" *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+               (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+
+    </mat-table>    
+  </div>
+</div>

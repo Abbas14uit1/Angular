@@ -1,0 +1,119 @@
+
+#recordsPre .mat-cell,#recordsPre .mat-header-cell{
+  display: flex !important;
+    -webkit-align-self: stretch !important;
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;   
+    padding-left: 13px !important;    
+    justify-content: center !important;
+}
+
+.border-right-cell
+{
+  border-right-width: 1px !important;
+    border-right-style: solid !important;
+    border-collapse: collapse !important;
+    border-color: white !important;
+}   
+
+
+#recordsPre .mat-header-row,
+#recordsPre  .mat-row {
+  padding: 0px !important;
+  border:none !important;
+}
+
+.text-line {
+  text-decoration: underline !important;
+}
+
+
+#recordsPre .mat-column-_id {
+  max-width: 3%;
+}
+
+
+#recordsPre .mat-column-playerName {
+  max-width: 12%;
+  justify-content: left !important;
+}
+
+
+#recordsPre .mat-column-statType {
+  max-width: 10%;
+  justify-content: left !important;
+}
+
+
+#recordsPre .mat-column-statPeriod {
+  max-width: 10%;
+}
+
+
+#recordsPre .mat-column-statValue {
+  max-width: 10%;
+}
+
+
+#recordsPre .mat-column-position {
+  max-width: 10%;
+}
+
+
+#recordsPre .mat-column-tiedPlayerName {
+  max-width: 10%;
+  justify-content: left !important;
+}
+
+#recordsPre .mat-column-recordType {
+  max-width: 10%;
+}
+
+#recordsPre .mat-column-nextStatValue {
+  max-width: 5%;
+}
+
+#recordsPre .mat-column-nextPosition {
+  max-width: 10%;
+}
+
+#recordsPre .mat-column-threshold {
+  max-width: 10%;
+  padding-right: 5px; 
+}
+
+
+#recordsPre .mat-header-row{
+  position: sticky !important;  
+  top: 0 !important;  
+  z-index: 100 !important;  
+  }
+
+
+#recordsPre .mat-table {
+  max-height: calc(100vh - 290px);
+  width: 100%;
+  overflow: auto;
+}
+
+.ellipsis {
+    position: relative;
+}
+.ellipsis:before {
+    content: '&nbsp;';
+    visibility: hidden;
+}
+.ellipsis span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+}
+
+

@@ -1,0 +1,40 @@
+<div class="container">
+  <h3 mat-dialog-title>User: {{data.username}}</h3>
+
+  <form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+     <div class="form">      
+        <input matInput #input class="form-control" placeholder="Username" [(ngModel)]="data.username" name="username" required > 
+    </div>   
+
+    <div class="form">     
+        <input matInput #inputEmail class="form-control" placeholder="Email" [(ngModel)]="data.email" name="email" required >  
+    </div>   
+
+    <!--Contains mat-hint for characters count and has maxLengt set-->
+    <div class="form">      
+        <input matInput #inputPassword class="form-control" placeholder="password" [(ngModel)]="data.password" name="password" required type="password">
+    </div>   
+    <div class="form">
+      <mat-checkbox name="admin" [(ngModel)]="data.admin">  Is Admin User</mat-checkbox>
+    </div>
+     <div class="form">
+      <mat-checkbox name="superAdmin" [(ngModel)]="data.superAdmin">  Is Super User</mat-checkbox>
+    </div>
+
+    <div class="form">
+      <mat-checkbox name="isActive" [(ngModel)]="data.isActive">  Is Active</mat-checkbox>
+    </div>
+     <div class="form" style="margin-top: 15px;">
+        <label>Conference Name</label>
+        <mat-select [(ngModel)]="data.confName" [(value)]="data.confName" [ngModelOptions]="{standalone: true}" style="width: 65%;padding-left: 30px;">
+          <mat-option value="SEC">SEC</mat-option>
+          <mat-option value="BIG10">BIG10</mat-option>
+          <mat-option value="BIG12">BIG12</mat-option>
+        </mat-select>
+    </div>
+    <div mat-dialog-actions>
+      <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1" (click)="stopEdit()">Save</button>
+      <button mat-button (click)="onNoClick()" tabindex="-1">Cancel</button>
+    </div>
+  </form>
+</div>

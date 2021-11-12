@@ -1,0 +1,78 @@
+image: node:8-alpine
+
+services:
+  - mongo
+
+variables:
+  HOST: 'mongo:27017'
+  API_URL: "http://ec2-13-59-81-244.us-east-2.compute.amazonaws.com"
+  AWS_DEFAULT_REGION: "us-east-2"
+  EB_APP_NAME: "backend"
+  EB_APP_ENV: "staging"
+  S3_FRONTEND_BUCKET: "athlyte-staging"
+  S3_BACKEND_BUCKET: "athlyte-backend-build"
+  S3_BACKEND_KEY: "staging"
+
+before_script:
+  - npm --version
+  - npm install
+
+stages:
+  - lint
+  - test
+  - deploy
+
+lint:backend:
+  stage: lint
+  script:
+    - node_modules/.bin/tslint --version
+    - npm run lint:backend
+  cache:
+    key: node8
+    paths:
+      - node_modules/
+
+lint:frontend:
+  stage: lint
+  script:
+    - node_modules/.bin/tslint --version
+    - npm run lint:frontend
+  cache:
+    key: node8
+    paths:
+      - node_modules/
+  
+test:node:8-alpine:
+  stage: test
+  image: node:8-alpine
+  script:
+    - npm run unit
+    - npm run gitlab-coverage
+    - npm run html-coverage
+  cache:
+    key: node8
+    paths:
+      - ~/.npm
+  artifacts:
+    paths:
+      - coverage/
+    expire_in: 1 week
+  coverage: '/^Statements\s*:\s*([^%]+)/'
+  when: always
+
+deploy:staging:
+  stage: deploy
+  image: node:8-alpine
+  environment: 
+    name: staging
+    url: http://athlytesports.com
+  only:
+    - master
+  script:
+    - npm run webpack:prod
+    - npm run build:prod
+    - chmod +x ./scripts/deploy_frontend
+    - chmod +x ./scripts/deploy_backend
+    - ./scripts/deploy_backend
+    - ./scripts/deploy_frontend
+  when: manual

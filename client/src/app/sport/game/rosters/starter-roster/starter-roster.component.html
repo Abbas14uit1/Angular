@@ -1,0 +1,43 @@
+<div class="card">
+   <div class="card-content">
+   <span class="card-title grey-text text-darken-2">Starters</span>  
+      <input  #filter placeholder="Filter roster">   
+  <div id="table" matSort>
+    <mat-table #table [dataSource]="dataSource">
+          <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header 
+        class="first-column">NAME</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>  
+       <ng-container matColumnDef="uniform">
+        <mat-header-cell *matHeaderCellDef mat-sort-header 
+       class="second-column">JERSEY #</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="second-column">
+         <span class="light"> {{ element.uniform }} </span>
+        </mat-cell>
+      </ng-container>         
+
+      <!-- Class Column -->
+      <ng-container matColumnDef="class">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="second-column">CLASS</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="second-column">
+           <span class="light">   {{ element.class == null ? 'N/A' :  element.class}}</span>
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="position">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="third-column-header">POS
+        </mat-header-cell>
+        <mat-cell *matCellDef="let element" style="text-align: right;">
+         <span class="light">  {{ element.position == null ? 'N/A' :  element.position}} </span>
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onClick(row._id)"></mat-row>
+    </mat-table>
+  </div>
+</div>
+</div>

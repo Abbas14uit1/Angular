@@ -1,0 +1,95 @@
+#streaksTbl .mat-cell,#streaksTbl  .mat-header-cell{
+    display: flex;
+    -webkit-align-self: stretch !important;
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;  
+    justify-content: center !important;
+}
+
+.border-right-cell
+{
+  border-right-width: 1px !important;
+    border-right-style: solid !important;
+    border-collapse: collapse !important;
+    border-color: white !important;
+}   
+
+#streaksTbl .mat-header-row,#streaksTbl  .mat-row {
+  padding: 0px !important;
+  border:none !important;
+}
+
+#streaksTbl .mat-header-row{
+  position: sticky !important;  
+  top: 0 !important;  
+  z-index: 100 !important;  
+  }
+
+.text-line {
+  text-decoration: underline !important;
+}
+
+#streaksTbl .mat-column-_id {
+  max-width: 6%;
+}
+#streaksTbl .mat-column-teamName {
+  max-width: 20%;
+  justify-content: left !important;
+  padding-left: 15px !important;
+}
+#streaksTbl .mat-column-currentStreakDateStart {
+  max-width: 15%;
+  justify-content: left !important;
+  padding-left:15px !important;
+}
+#streaksTbl .mat-column-currentStreakDateRecent {
+  max-width: 15%;
+  justify-content: left !important;
+  padding-left: 15px !important;
+}
+#streaksTbl .mat-column-currentStreakOppoRecentTeamCode {
+  max-width: 17%;
+  justify-content: left !important;
+  padding-left: 15px !important;
+}
+
+#streaksTbl .mat-column-currentStreakOppoStartTeamCode {
+  max-width: 17%;
+  justify-content: left !important;
+  padding-left: 15px !important;
+}
+
+#streaksTbl .mat-column-currentStreakTotalLength {
+  max-width: 10%;
+  justify-content: left !important;
+   padding-left: 15px !important;
+}
+
+#streaksTbl{
+  height: 100vh;
+  overflow: auto;
+}
+
+.padding-label{
+  padding-left: 30%;
+}
+#logo {
+  width: auto;
+  height: auto;
+  max-width: 25px;
+  max-height: 17px;
+}
+
+.mat-button-toggle-checked {
+    background-color: #26a69a !important;
+    color: white !important;
+}
+.mat-button-toggle-checked > .mat-button-toggle-label{
+  color: white !important;
+}
+mat-select{
+  border-bottom: 1px solid silver;
+}   

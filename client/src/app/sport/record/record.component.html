@@ -1,0 +1,49 @@
+<app-header [config]="headerConfig.normal"></app-header>
+<div class="record-book" style="margin-top:1.8rem;">
+<!-- <div class="row" [ngStyle]="{'background': 'linear-gradient(to right, '+ this.teamColors[teamId] +',white)'}" id="team-bar">
+   <div id="home" class="col s12 m12" *ngIf="teamId">
+      <span class="team-name">{{ teamName}}&nbsp;</span>
+      <img id="home-logo" src="../../../assets/images/teams/{{teamId}}.png" alt=" ">
+   </div>
+</div> -->
+<section>
+<div class="row card">   
+      <div class="col s12 m3 l3" [ngStyle]="{display: (showRecordsTitles ? 'block' : 'none')}">
+         <app-record-filter-menu (results)="onResults($event)"  (spinner)="onGetResults($event)" id="filter-column" id="filter-column" class="card" [sportId]="sportId" [teamId]="teamId" [teamColor]="this.teamColors[teamId]"></app-record-filter-menu>
+      </div>
+
+      <div [ngClass]="showRecordsTitles== true ? 'col s12 m9 l9' : 'col s12 m12 l12'">   
+         <div class="row" *ngIf="spinner == true">
+            <div class="progress">
+                <div class="indeterminate"></div>
+            </div>
+         </div>       
+         <h5>
+            <button type="button"  class="btn-flat" (click)="onClick($event,showRecordsTitles)"  matTooltip="Toggle record titles side view">
+            <i class="small material-icons">view_headline</i>
+            </button>  <span *ngIf="results?.length > 0 && spinner == false">
+              {{results[0].recordTitle}}
+            </span>            
+         </h5>
+
+          <div *ngIf="results?.length == 0 && spinner == false" class="center" style="padding: 20px;">{{recordMsg}}</div>
+         <div class="row data-height" *ngIf="spinner == false">
+               <div class="col l12" *ngFor="let col of results">
+                  <div class="card">
+                     <div class="card-content"> 
+                           <span class="card-title grey-text text-darken-2 center" 
+                           *ngFor="let header of col.headers;let i = index;"
+                           [ngStyle]="{'font-size': 22 - (i * 4) + 'px'}">{{header}}</span>          
+                        <app-record-display [data]="col" [teamColor]="this.teamColors[teamId]">
+                        </app-record-display>
+                        <span class="card-title grey-text text-darken-2 center" 
+                           *ngFor="let footer of col.footers;"
+                           [ngStyle]="{'font-size': '15px'}">{{footer}}</span>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </div>
+</div>
+</section>
+</div>

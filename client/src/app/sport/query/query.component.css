@@ -1,0 +1,47 @@
+.mat-radio-button {
+  padding-right: 5px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 300;
+    padding:20px;
+}
+
+.font20
+{
+	font-size: 18px;
+}
+
+.filter-height{
+	height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+.padding5{
+	padding: 5px;
+}
+
+#deTable .mat-sort-header-button{
+  width:99.9% !important;   
+  display:inline-block !important;
+  white-space:nowrap !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+}
+
+#queryPageTabs .mat-tab-body.mat-tab-body-active
+{
+   overflow: hidden !important;
+}
+
+.mat-form-field-flex{
+  border-bottom: 1px solid silver;
+  padding: 0px 8px 10px 10px;
+}
+
+.my-disable{
+  pointer-events: none;
+  cursor: no-drop;  
+  opacity: 0.7;
+}

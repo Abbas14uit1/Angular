@@ -1,0 +1,44 @@
+.mat-radio-button {
+  padding-right: 5px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.font20 {
+  font-size: 15px;
+}
+
+.margin-botton {
+  margin-bottom: 0px;
+}
+
+.mat-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #47525d !important;
+}
+
+.mat-radio-button.mat-primary .mat-radio-inner-circle {
+  background-color: #47525d !important;
+}
+
+
+::ng-deep .mat-checkbox-checked .mat-checkbox-background {
+  background-color: #9e9e9e !important;
+}
+
+#query-filter > tbody {
+  line-height: 0 !important;
+}
+
+  #query-filter > tbody > tr > td {
+    padding: 0px !important;
+  }
+
+#logo {
+  width: auto;
+  height: auto;
+  max-width: 25px;
+  max-height: 17px;
+}

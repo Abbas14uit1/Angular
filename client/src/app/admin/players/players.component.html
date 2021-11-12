@@ -1,0 +1,92 @@
+<div class="card">
+  <div class="card-content">
+    <div class="row">
+      <div class="col s6 m6 l6">
+        <input #filter placeholder="Filter Players">
+      </div>
+      <div class="col s2 m2 l2">
+        <mat-form-field>
+          <mat-select placeholder="Sport" (ngModelChange)="onSportChange($event)"
+                      [(ngModel)]="selectedSport">
+            <mat-option *ngFor="let sport of sports" [value]="sport.value">
+              {{sport.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="col s2 m2 l2" *ngIf="selectedSport">
+        <mat-form-field>
+          <mat-select placeholder="Team" #teamSelect (ngModelChange)="onTeamChange($event,teamSelect)"
+                      [(ngModel)]="selectedTeam">
+            <mat-option *ngFor="let team of teams" [value]="team._id">
+              {{ team.name }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="col s2 m2 l2" *ngIf="selectedTeam && selectedSport">
+        <mat-form-field>
+          <mat-select placeholder="Season" id="season-select" (ngModelChange)="onSeasonChange($event)" [(ngModel)]="selectedSeason" #season>
+            <mat-option *ngFor="let season of seasons" [value]="season.season">
+              {{ season.season }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="row" *ngIf="spinner == true && seasons?.length > 0">
+      <div class="progress">
+        <div class="indeterminate"></div>
+      </div>
+    </div>
+    <div class="row" *ngIf="selectedTeam && selectedSport && selectedSeason && seasons?.length > 0" id="playersTbl">
+
+      <mat-table #playersTbl [dataSource]="dataSource" matSort>
+        <!-- Name Column -->
+        <ng-container matColumnDef="name">
+          <mat-header-cell *matHeaderCellDef mat-sort-header
+                           class="first-column white-text">NAME</mat-header-cell>
+          <mat-cell *matCellDef="let element" class="first-column">
+            {{ element.name }}
+          </mat-cell>
+        </ng-container>
+        <ng-container matColumnDef="uniform">
+          <mat-header-cell *matHeaderCellDef mat-sort-header
+                           class="second-column white-text">JERSEY #</mat-header-cell>
+          <mat-cell *matCellDef="let element" class="second-column">
+            <span class="light"> {{ element.uniform }} </span>
+          </mat-cell>
+        </ng-container>
+
+        <!-- Class Column -->
+        <ng-container matColumnDef="class">
+          <mat-header-cell *matHeaderCellDef mat-sort-header class="second-column white-text">CLASS</mat-header-cell>
+          <mat-cell *matCellDef="let element" class="second-column">
+            <span class="light">   {{ element.class == null ? 'N/A' :  element.class}}</span>
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="position">
+          <mat-header-cell *matHeaderCellDef mat-sort-header class="third-column-header white-text">
+            POS
+          </mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <span class="light">  {{ element.position == null ? 'N/A' :  element.position}} </span>
+          </mat-cell>
+        </ng-container>
+        <ng-container matColumnDef="_id">
+          <mat-header-cell *matHeaderCellDef class="right-align">
+            
+          </mat-header-cell>
+          <mat-cell *matCellDef="let row; let i=index;" class="right-align">
+            <a mat-icon-button class="grey-text" matTooltip="Edit Player" (click)="startEdit(row._id, row.name, row.class, row.position, row.uniform)">
+              <mat-icon aria-label="Edit">edit</mat-icon>
+            </a>
+          </mat-cell>
+        </ng-container>
+        <mat-header-row *matHeaderRowDef="displayedColumns" [ngStyle]="{'background':  this.teamColors[selectedTeamCode]}"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;" class="cursor"></mat-row>
+      </mat-table>
+    </div>
+  </div>
+</div>

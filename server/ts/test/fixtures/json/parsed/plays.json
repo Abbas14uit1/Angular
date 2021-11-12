@@ -1,0 +1,94 @@
+[
+  {
+    "gameId": "game1",
+    "playerIds": [],
+    "possession": 0,
+    "quarter": 1,
+    "playInDrive": 1,
+    "down": 1,
+    "drive": 0,
+    "sportCode": "MFB",
+    "playInGame": 0,
+    "playStartLocation": {
+      "side": 0,
+      "yardline": 35,
+      "endzone": false
+    },
+    "yardsToGo": 10,
+    "gameClockStartTime": {
+      "minutes": 0,
+      "seconds": 0
+    },
+    "resultedInFirstDown": false,
+    "description": "Alabama wins toss; defers. USC will receive and defend south endzone.",
+    "results": {
+      "playersInvolved": []
+    },
+    "_id": "play0"
+  },
+  {
+    "gameId": "game1",
+    "playerIds": [],
+    "possession": 0,
+    "quarter": 1,
+    "playInDrive": 2,
+    "down": 1,
+    "drive": 0,
+    "sportCode": "MFB",
+    "playInGame": 1,
+    "playStartLocation": {
+      "side": 0,
+      "yardline": 35,
+      "endzone": false
+    },
+    "yardsToGo": 10,
+    "gameClockStartTime": {
+      "minutes": 0,
+      "seconds": 0
+    },
+    "resultedInFirstDown": false,
+    "description": "UA ball on UA35.",
+    "results": {
+      "playersInvolved": []
+    },
+    "_id": "play1"
+  },
+  {
+    "gameId": "game1",
+    "playerIds": [],
+    "possession": 1,
+    "quarter": 1,
+    "playInDrive": 3,
+    "down": 1,
+    "drive": 0,
+    "sportCode": "MFB",
+    "playInGame": 2,
+    "playStartLocation": {
+      "side": 1,
+      "yardline": 35,
+      "endzone": false
+    },
+    "yardsToGo": 10,
+    "gameClockStartTime": {
+      "minutes": 0,
+      "seconds": 0
+    },
+    "resultedInFirstDown": false,
+    "description": "Adam Griffith kickoff 65 yards to the USC0, touchback.",
+    "results": {
+      "playersInvolved": [
+        "H99"
+      ],
+      "kickoff": {
+        "kickedTo": {
+          "endzone": true,
+          "side": 0,
+          "yardline": 0
+        },
+        "kickerId": "H99"
+      },
+      "touchback": true
+    },
+    "_id": "play2"
+  }
+]

@@ -1,0 +1,54 @@
+#header {
+    background: #a12338;
+    color: rgba(0,0,0,.7);
+    padding: 0px;
+    z-index: 100!important;
+    min-height: 70px !important; 
+    height: 70px !important;
+    position: fixed;
+}
+
+.bannerLogo {
+ width : 40px;
+}
+
+#header-links {
+    margin-left: 15px;
+}
+
+#logout-btn {
+    align-self: right;
+}
+
+
+.title {
+    color: rgba(0,0,0,.7);
+    font-size: 21px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+.fill-space {
+    flex: 2 1 auto;
+}
+
+
+/* Material */
+
+.mat-elevation-z5 {
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    text-align: center;
+ }
+
+ .mdl-layout {
+  align-items: center;
+  justify-content: center;
+}
+
+
+span.badge.new:after {
+    content: "";
+}

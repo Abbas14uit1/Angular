@@ -1,0 +1,76 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">HITTING</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="bats">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">B</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.bats }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="bat">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">B</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.bat }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="atbat">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">AB</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.atbat }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="runs">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">R</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.runs }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="hits">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">H</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.hits }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="rbi">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">RBI</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.rbi }}
+        </mat-cell>
+      </ng-container>
+        <ng-container matColumnDef="so">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">SO</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.so }}
+        </mat-cell>
+      </ng-container>
+        <ng-container matColumnDef="ground">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">G</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.ground }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="fly">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="last-column sort-btn-align-right white-text">FLY</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.fly }}
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row [ngStyle]="{'background-color':this.color}" *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined ?'':onClick(row._id)"></mat-row>
+    </mat-table>
+  </div>
+</div>

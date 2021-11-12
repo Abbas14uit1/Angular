@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col l10 m10 s10">
+      <h3 mat-dialog-title>{{data.title}}</h3>
+    </div>
+    <div class="col l2 m2 s2" style="text-align: right;padding: 0px;">
+      <span class="cursor" (click)="onNoClick()">X</span>
+    </div>
+  </div>
+  <div class="tableContainer">
+    <table>
+      <thead>
+        <tr [ngStyle]="{'background': data.teamColor}">
+          <th class="header" *ngFor="let col of displayedColumns" style="text-transform:capitalize;">{{col}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let player of records;let i = index;">
+          <td *ngFor="let col of displayedColumns">
+            <span *ngIf="col == 'Rank' && i !==0  && player.Rank !== records[i-1].Rank">
+              {{player.Rank}}
+            </span>
+            <span *ngIf="col == 'streakDateStart'">
+              {{player.streakDateStart | date: 'MM/dd/yyyy'}}
+            </span>
+            <span *ngIf="col == 'streakDateRecent'">
+              {{player.streakDateRecent | date: 'MM/dd/yyyy'}}
+            </span>
+            <span *ngIf="col == 'GameDate'">
+              {{player.GameDate | date: 'MM/dd/yyyy'}}
+            </span>
+            <span *ngIf="col == 'Rank' && i ==0"> {{player.Rank}}</span>
+            <span
+              *ngIf="col !== 'Rank' && col !== 'streakDateStart' && col !== 'streakDateRecent' && col !== 'GameDate'">
+              {{player[col] | roundto}}</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

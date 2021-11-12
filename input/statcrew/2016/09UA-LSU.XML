@@ -1,0 +1,1556 @@
+<fbgame source="Tas Football" version="4.16.07" generated="12/7/2016">
+ <gametracker gameid="1394911"></gametracker>
+ <venue gameid="09UA-LSU" visid="UA" homeid="LS" visname="Alabama" homename="LSU"
+      date="11/5/2016" location="Baton Rouge, La." stadium="Tiger Stadium"
+      start="7:10 pm" end="10:20" leaguegame="Y" nitegame="Y" sportcode="MFB" gametype="Regular Season"
+      duration="3:08" attend="102321" temp="70" wind="1-3 mph" weather="Clear 52% Humidity">
+  <officials ref="Matt Austin" ump="Rodney Lawary" line="Johnny Crawford" lj="Michael Taylor" bj="Jimmy Russell" fj="Blake Parks" sj="Chuck Russ" cj="Paul Schardein" alt="Paul Schardein"></officials>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="8" id="UA" name="Alabama" record="9-0" conf-record="6-0" abb="A" rank="1" conf="Big Ten Conference" confdivision="West">
+  <linescore prds="4" line="0,0,0,10" score="10">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="10"></lineprd>
+  </linescore>
+  <totals totoff_plays="70" totoff_yards="323" totoff_avg="4.6">
+   <firstdowns no="16" rush="12" pass="3" penalty="1"></firstdowns>
+   <penalties no="6" yds="29"></penalties>
+   <conversions thirdconv="7" thirdatt="17" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="2" lost="1"></fumbles>
+   <misc yds="0" top="33:55" ona="0" onm="0" ptsto="3"></misc>
+   <redzone att="3" scores="2" points="10" tdrush="1" tdpass="0" fgmade="1" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="51" yds="216" gain="247" loss="31" td="1" long="28"></rush>
+   <pass comp="10" att="19" int="1" yds="107" td="0" long="52" sacks="1" sackyds="5"></pass>
+   <rcv no="10" yds="107" td="0" long="52"></rcv>
+   <punt no="5" yds="258" long="66" blkd="0" tb="1" fc="0" plus50="4" inside20="2" avg="51.6"></punt>
+   <ko no="3" yds="189" ob="0" tb="2"></ko>
+   <fg made="1" att="2" long="25" blkd="0"></fg>
+   <pat kickatt="1" kickmade="1"></pat>
+   <defense tackua="20" tacka="44" tot_tack="64" tflua="3" tfla="12" tflyds="31" sacks="5" sackyds="22" brup="4" qbh="3" blkd="1" int="1" intyds="0"></defense>
+   <kr no="1" yds="14" td="0" long="14"></kr>
+   <pr no="2" yds="1" td="0" long="1"></pr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <scoring td="1" fg="1" patkick="1"></scoring>
+  </totals>
+  <player name="Ronnie Harrison" shortname="Ronnie Harrison" checkname="HARRISON,RONNIE" uni="1D" class="SO" gp="1" gs="1" dpos="FS" code="1D">
+   <defense tackua="1" tacka="3" tot_tack="4" tflua="0" tfla="1" tflyds="3" brup="1" blkd="1"></defense>
+  </player>
+  <player name="Jalen Hurts" shortname="Jalen Hurts" checkname="HURTS,JALEN" uni="2" class="FR" gp="1" gs="1" opos="QB" code="2">
+   <rush att="20" yds="114" gain="131" loss="17" td="1" long="28"></rush>
+   <pass comp="10" att="19" int="1" yds="107" td="0" long="52" sacks="1" sackyds="5"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Tony Brown" shortname="Tony Brown" checkname="BROWN,TONY" uni="2A" class="JR" gp="1" gs="1" dpos="NICK" code="2A">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Calvin Ridley" shortname="Calvin Ridley" checkname="RIDLEY,CALVIN" uni="3" class="SO" gp="1" gs="1" opos="WR" code="3">
+   <rcv no="2" yds="23" td="0" long="21"></rcv>
+  </player>
+  <player name="Brandon Kennedy" shortname="Brandon Kennedy" checkname="KENNEDY,BRANDON" uni="5B" class="FR" gp="1" code="5B"></player>
+  <player name="Hootie Jones" shortname="Hootie Jones" checkname="JONES,HOOTIE" uni="6" class="JR" gp="1" code="6"></player>
+  <player name="Trevon Diggs" shortname="Trevon Diggs" checkname="DIGGS,TREVON" uni="7" class="FR" gp="1" code="7">
+   <rcv no="1" yds="9" td="0" long="9"></rcv>
+   <pr no="1" yds="1" td="0" long="1"></pr>
+  </player>
+  <player name="Bo Scarbrough" shortname="Bo Scarbrough" checkname="SCARBROUGH,BO" uni="9" class="SO" gp="1" code="9">
+   <rush att="11" yds="52" gain="55" loss="3" td="0" long="11"></rush>
+  </player>
+  <player name="Da'Shawn Hand" shortname="Da'Shawn Hand" checkname="HAND,DA'SHAWN" uni="9A" class="JR" gp="1" code="9A"></player>
+  <player name="Reuben Foster" shortname="Reuben Foster" checkname="FOSTER,REUBEN" uni="10" class="SR" gp="1" gs="1" dpos="WILL" code="10">
+   <defense tackua="2" tacka="9" tot_tack="11" tflua="0" tfla="3" tflyds="6" sackua="0" sacka="1" sackyds="3"></defense>
+  </player>
+  <player name="Gehrig Dieter" shortname="Gehrig Dieter" checkname="DIETER,GEHRIG" uni="11" class="SR" gp="1" gs="1" opos="WR" code="11"></player>
+  <player name="A. Stewart" shortname="A. Stewart" checkname="STEWART,A" uni="13" class="JR" gp="1" gs="1" opos="WR" code="13">
+   <rush att="1" yds="4" gain="4" loss="0" td="0" long="4"></rush>
+   <rcv no="3" yds="55" td="0" long="52"></rcv>
+   <kr no="1" yds="14" td="0" long="14"></kr>
+  </player>
+  <player name="D. Thompson" shortname="D. Thompson" checkname="THOMPSON,D" uni="14" class="FR" gp="1" code="14"></player>
+  <player name="JK Scott" shortname="JK Scott" checkname="SCOTT,JK" uni="15" class="JR" gp="1" code="15">
+   <punt no="5" yds="258" long="66" blkd="0" tb="1" fc="0" plus50="4" inside20="2" avg="51.6"></punt>
+  </player>
+  <player name="T.J. Simmons" shortname="T.J. Simmons" checkname="SIMMONS,TJ" uni="16" class="FR" gp="1" code="16"></player>
+  <player name="Cam Sims" shortname="Cam Sims" checkname="SIMS,CAM" uni="17" class="JR" gp="1" code="17"></player>
+  <player name="Cooper Bateman" shortname="Cooper Bateman" checkname="BATEMAN,COOPER" uni="18" class="JR" gp="1" code="18"></player>
+  <player name="S. Hamilton" shortname="S. Hamilton" checkname="HAMILTON,S" uni="20" class="JR" gp="1" gs="1" dpos="MIKE" code="20">
+   <defense tackua="2" tacka="5" tot_tack="7" tflua="0" tfla="2" tflyds="0"></defense>
+  </player>
+  <player name="Ryan Anderson" shortname="Ryan Anderson" checkname="ANDERSON,RYAN" uni="22" class="SR" gp="1" gs="1" dpos="SAM" code="22">
+   <defense tackua="0" tacka="6" tot_tack="6" tflua="0" tfla="2" tflyds="4" sackua="0" sacka="2" sackyds="4" brup="1" qbh="1"></defense>
+  </player>
+  <player name="Aaron Robinson" shortname="Aaron Robinson" checkname="ROBINSON,AARON" uni="23" class="FR" gp="1" code="23"></player>
+  <player name="Terrell Hall" shortname="Terrell Hall" checkname="HALL,TERRELL" uni="24" class="FR" gp="1" code="24"></player>
+  <player name="Josh Jacobs" shortname="Josh Jacobs" checkname="JACOBS,JOSH" uni="25" class="FR" gp="1" code="25">
+   <rush att="5" yds="-3" gain="4" loss="7" td="0" long="3"></rush>
+   <rcv no="1" yds="3" td="0" long="3"></rcv>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Marlon Humphrey" shortname="Marlon Humphrey" checkname="HUMPHREY,MARLON" uni="26" class="SO" gp="1" gs="1" dpos="CB" code="26">
+   <defense tackua="6" tacka="2" tot_tack="8"></defense>
+  </player>
+  <player name="Derrick Gore" shortname="Derrick Gore" checkname="GORE,DERRICK" uni="27" class="JR" gp="1" code="27"></player>
+  <player name="Anthony Averett" shortname="Anthony Averett" checkname="AVERETT,ANTHONY" uni="28" class="JR" gp="1" gs="1" dpos="CB" code="28">
+   <defense tackua="0" tacka="1" tot_tack="1" brup="1"></defense>
+  </player>
+  <player name="M. Fitzpatrick" shortname="M. Fitzpatrick" checkname="FITZPATRICK,M" uni="29" class="SO" gp="1" gs="1" dpos="STAR" code="29">
+   <defense tackua="1" tacka="2" tot_tack="3" brup="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Mack Wilson" shortname="Mack Wilson" checkname="WILSON,MACK" uni="30" class="FR" gp="1" code="30"></player>
+  <player name="Keaton Anderson" shortname="Keaton Anderson" checkname="ANDERSON,KEATON" uni="31" class="FR" gp="1" code="31">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Rashaan Evans" shortname="Rashaan Evans" checkname="EVANS,RASHAAN" uni="32" class="JR" gp="1" code="32">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="1" sackua="1" sacka="0" sackyds="1"></defense>
+  </player>
+  <player name="A. Jennings" shortname="A. Jennings" checkname="JENNINGS,A" uni="33" class="FR" gp="1" code="33">
+   <defense tackua="1" tacka="3" tot_tack="4"></defense>
+  </player>
+  <player name="Damien Harris" shortname="Damien Harris" checkname="HARRIS,DAMIEN" uni="34" class="SO" gp="1" gs="1" opos="RB" code="34">
+   <rush att="12" yds="53" gain="53" loss="0" td="0" long="13"></rush>
+   <rcv no="1" yds="-2" td="0" long="0"></rcv>
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Keith Holcombe" shortname="Keith Holcombe" checkname="HOLCOMBE,KEITH" uni="42" class="SO" gp="1" code="42"></player>
+  <player name="Dakota Ball" shortname="Dakota Ball" checkname="BALL,DAKOTA" uni="44" class="SR" gp="1" code="44"></player>
+  <player name="C. Miller" shortname="C. Miller" checkname="MILLER,C" uni="47" class="SO" gp="1" code="47"></player>
+  <player name="D. Tomlinson" shortname="D. Tomlinson" checkname="TOMLINSON,D" uni="54" class="SR" gp="1" gs="1" dpos="DE" code="54">
+   <defense tackua="1" tacka="5" tot_tack="6" tflua="1" tfla="1" tflyds="12" sackua="1" sacka="0" sackyds="11"></defense>
+  </player>
+  <player name="Cole Mazza" shortname="Cole Mazza" checkname="MAZZA,COLE" uni="55" class="SR" gp="1" code="55"></player>
+  <player name="Tim Williams" shortname="Tim Williams" checkname="WILLIAMS,TIM" uni="56" class="SR" gp="1" code="56">
+   <defense tackua="1" tacka="3" tot_tack="4" tflua="0" tfla="3" tflyds="3" sackua="0" sacka="1" sackyds="1"></defense>
+  </player>
+  <player name="Lester Cotton" shortname="Lester Cotton" checkname="COTTON,LESTER" uni="66" class="SO" gp="1" gs="1" opos="RG" code="66"></player>
+  <player name="Joshua Frazier" shortname="Joshua Frazier" checkname="FRAZIER,JOSHUA" uni="69" class="JR" gp="1" code="69">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="R.Pierschbacher" shortname="R.Pierschbacher" checkname="PIERSCHBACHER,R" uni="71" class="SO" gp="1" gs="1" opos="LG" code="71"></player>
+  <player name="Jonah Williams" shortname="Jonah Williams" checkname="WILLIAMS,JONAH" uni="73" class="FR" gp="1" gs="1" opos="RT" code="73"></player>
+  <player name="Cam Robinson" shortname="Cam Robinson" checkname="ROBINSON,CAM" uni="74" class="JR" gp="1" gs="1" opos="LT" code="74"></player>
+  <player name="Bradley Bozeman" shortname="Bradley Bozeman" checkname="BOZEMAN,BRADLEY" uni="75" class="JR" gp="1" gs="1" opos="C" code="75"></player>
+  <player name="Korren Kirven" shortname="Korren Kirven" checkname="KIRVEN,KORREN" uni="78" class="SR" gp="1" code="78"></player>
+  <player name="Irv Smith Jr." shortname="Irv Smith Jr." checkname=",IRV SMITH JR" uni="82" class="FR" gp="1" code="82"></player>
+  <player name="Hale Hentges" shortname="Hale Hentges" checkname="HENTGES,HALE" uni="84" class="SO" gp="1" code="84"></player>
+  <player name="M. Forristall" shortname="M. Forristall" checkname="FORRISTALL,M" uni="87" class="FR" gp="1" code="87">
+   <rcv no="1" yds="22" td="0" long="22"></rcv>
+  </player>
+  <player name="O.J. Howard" shortname="O.J. Howard" checkname="HOWARD,OJ" uni="88" class="SR" gp="1" gs="1" opos="TE" code="88">
+   <rcv no="1" yds="-3" td="0" long="0"></rcv>
+  </player>
+  <player name="Brandon Greene" shortname="Brandon Greene" checkname="GREENE,BRANDON" uni="89" class="SR" gp="1" code="89"></player>
+  <player name="Jonathan Allen" shortname="Jonathan Allen" checkname="ALLEN,JONATHAN" uni="93" class="SR" gp="1" gs="1" dpos="DE" code="93">
+   <defense tackua="1" tacka="2" tot_tack="3" tflua="1" tfla="0" tflyds="2" sackua="1" sacka="0" sackyds="2" qbh="1"></defense>
+  </player>
+  <player name="Da'Ron Payne" shortname="Da'Ron Payne" checkname="PAYNE,DA'RON" uni="94" class="SO" gp="1" gs="1" dpos="NG" code="94">
+   <defense tackua="1" tacka="0" tot_tack="1" qbh="1"></defense>
+  </player>
+  <player name="Adam Griffith" shortname="Adam Griffith" checkname="GRIFFITH,ADAM" uni="99" class="SR" gp="1" code="99">
+   <ko no="3" yds="189" ob="0" tb="2"></ko>
+   <fg made="1" att="2" long="25" blkd="0"></fg>
+   <pat kickatt="1" kickmade="1"></pat>
+   <scoring fg="1" patkick="1"></scoring>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198">
+   <rush att="2" yds="-4" gain="0" loss="4" td="0" long="0"></rush>
+   <pr no="1" yds="0" td="0" long="0"></pr>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+ </team>
+ <team vh="H" code="365" id="LS" name="LSU" record="5-3" conf-record="3-2" abb="L" rank="15" conf="Big Ten Conference" confdivision="West">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="51" totoff_yards="125" totoff_avg="2.5">
+   <firstdowns no="6" rush="4" pass="2" penalty="0"></firstdowns>
+   <penalties no="3" yds="20"></penalties>
+   <conversions thirdconv="4" thirdatt="15" fourthconv="0" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="26:05" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="27" yds="33" gain="64" loss="31" td="0" long="9"></rush>
+   <pass comp="11" att="24" int="1" yds="92" td="0" long="41" sacks="5" sackyds="22"></pass>
+   <rcv no="11" yds="92" td="0" long="41"></rcv>
+   <punt no="8" yds="336" long="51" blkd="0" tb="0" fc="4" plus50="1" inside20="5" avg="42.0"></punt>
+   <ko no="1" yds="65" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="1"></fg>
+   <defense tackua="31" tacka="60" tot_tack="91" tflua="6" tfla="12" tflyds="33" sacks="1" sackyds="5" brup="2" qbh="3" ff="1" fr="1" fryds="0" int="1" intyds="0"></defense>
+   <kr no="1" yds="27" td="0" long="27"></kr>
+   <pr no="3" yds="16" td="0" long="13"></pr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </totals>
+  <player name="Donte Jackson" shortname="Donte Jackson" checkname="JACKSON,DONTE" uni="1" class="SO" gp="1" gs="1" dpos="CB" code="1">
+   <defense tackua="6" tacka="1" tot_tack="7"></defense>
+   <kr no="1" yds="27" td="0" long="27"></kr>
+  </player>
+  <player name="Kevin Toliver" shortname="Kevin Toliver" checkname="TOLIVER,KEVIN" uni="2" class="SO" gp="1" code="2"></player>
+  <player name="Nick Brossette" shortname="Nick Brossette" checkname="BROSSETTE,NICK" uni="4" class="SO" gp="1" code="4"></player>
+  <player name="Derrius Guice" shortname="Derrius Guice" checkname="GUICE,DERRIUS" uni="5" class="SO" gp="1" code="5">
+   <rush att="2" yds="8" gain="8" loss="0" td="0" long="5"></rush>
+  </player>
+  <player name="L. Fournette" shortname="L. Fournette" checkname="FOURNETTE,L" uni="7" class="JR" gp="1" gs="1" opos="RB" code="7">
+   <rush att="17" yds="35" gain="44" loss="9" td="0" long="9"></rush>
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Saivion Smith" shortname="Saivion Smith" checkname="SMITH,SAIVION" uni="8" class="FR" gp="1" code="8"></player>
+  <player name="Dee Anderson" shortname="Dee Anderson" checkname="ANDERSON,DEE" uni="11" class="FR" gp="1" code="11"></player>
+  <player name="Dwayne Thomas" shortname="Dwayne Thomas" checkname="THOMAS,DWAYNE" uni="13" class="SR" gp="1" gs="1" dpos="NICK" code="13">
+   <defense tackua="3" tacka="6" tot_tack="9" tflua="2" tfla="2" tflyds="9" brup="2" qbh="1"></defense>
+  </player>
+  <player name="Malachi Dupre" shortname="Malachi Dupre" checkname="DUPRE,MALACHI" uni="15" class="JR" gp="1" gs="1" opos="WR" code="15">
+   <rcv no="3" yds="17" td="0" long="11"></rcv>
+  </player>
+  <player name="Danny Etling" shortname="Danny Etling" checkname="ETLING,DANNY" uni="16" class="JR" gp="1" gs="1" opos="QB" code="16">
+   <rush att="6" yds="-15" gain="7" loss="22" td="0" long="7"></rush>
+   <pass comp="11" att="24" int="1" yds="92" td="0" long="41" sacks="5" sackyds="22"></pass>
+  </player>
+  <player name="Xavier Lewis" shortname="Xavier Lewis" checkname="LEWIS,XAVIER" uni="17" class="FR" gp="1" code="17"></player>
+  <player name="T. White" shortname="T. White" checkname="WHITE,T" uni="18" class="SR" gp="1" gs="1" dpos="CB" code="18">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="1" tflyds="7"></defense>
+   <pr no="3" yds="16" td="0" long="13"></pr>
+  </player>
+  <player name="Derrick Dillon" shortname="Derrick Dillon" checkname="DILLON,DERRICK" uni="19" class="FR" gp="1" code="19"></player>
+  <player name="Ed Paris" shortname="Ed Paris" checkname="PARIS,ED" uni="21" class="JR" gp="1" code="21"></player>
+  <player name="Devin White" shortname="Devin White" checkname="WHITE,DEVIN" uni="24" class="FR" gp="1" code="24">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="John Battle" shortname="John Battle" checkname="BATTLE,JOHN" uni="26" class="JR" gp="1" gs="1" dpos="FS" code="26">
+   <defense tackua="1" tacka="3" tot_tack="4"></defense>
+  </player>
+  <player name="Darrel Williams" shortname="Darrel Williams" checkname="WILLIAMS,DARREL" uni="28" class="JR" gp="1" code="28"></player>
+  <player name="Jamal Adams" shortname="Jamal Adams" checkname="ADAMS,JAMAL" uni="33" class="JR" gp="1" gs="1" dpos="SS" code="33">
+   <defense tackua="3" tacka="3" tot_tack="6" tflua="0" tfla="2" tflyds="2" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Devin Voorhies" shortname="Devin Voorhies" checkname="VOORHIES,DEVIN" uni="35" class="JR" gp="1" code="35">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Cameron Gamble" shortname="Cameron Gamble" checkname="GAMBLE,CAMERON" uni="36" class="JR" gp="1" code="36">
+   <ko no="1" yds="65" ob="0" tb="0"></ko>
+  </player>
+  <player name="Josh Growden" shortname="Josh Growden" checkname="GROWDEN,JOSH" uni="38" class="FR" gp="1" code="38">
+   <punt no="8" yds="336" long="51" blkd="0" tb="0" fc="4" plus50="1" inside20="5" avg="42.0"></punt>
+  </player>
+  <player name="Russell Gage" shortname="Russell Gage" checkname="GAGE,RUSSELL" uni="39" class="JR" gp="1" code="39"></player>
+  <player name="Duke Riley" shortname="Duke Riley" checkname="RILEY,DUKE" uni="40" class="SR" gp="1" gs="1" dpos="ILB" code="40">
+   <defense tackua="4" tacka="5" tot_tack="9" tflua="1" tfla="2" tflyds="5"></defense>
+  </player>
+  <player name="C. Delahoussaye" shortname="C. Delahoussaye" checkname="DELAHOUSSAYE,C" uni="42" class="SR" gp="1" code="42">
+   <fg made="0" att="1" long="0" blkd="1"></fg>
+  </player>
+  <player name="J. Moore" shortname="J. Moore" checkname="MOORE,J" uni="44" class="JR" gp="1" code="44">
+   <rush att="2" yds="5" gain="5" loss="0" td="0" long="4"></rush>
+   <rcv no="1" yds="1" td="0" long="1"></rcv>
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Tashawn Bower" shortname="Tashawn Bower" checkname="BOWER,TASHAWN" uni="46" class="SR" gp="1" code="46"></player>
+  <player name="D. Alexander" shortname="D. Alexander" checkname="ALEXANDER,D" uni="48" class="JR" gp="1" code="48">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Arden Key" shortname="Arden Key" checkname="KEY,ARDEN" uni="49" class="SO" gp="1" gs="1" dpos="OLB" code="49">
+   <defense tackua="2" tacka="3" tot_tack="5" tflua="0" tfla="1" tflyds="2" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Blake Ferguson" shortname="Blake Ferguson" checkname="FERGUSON,BLAKE" uni="50" class="FR" gp="1" code="50"></player>
+  <player name="J. Rucker" shortname="J. Rucker" checkname="RUCKER,J" uni="51" class="JR" gp="1" code="51"></player>
+  <player name="K. Beckwith" shortname="K. Beckwith" checkname="BECKWITH,K" uni="52" class="SR" gp="1" gs="1" dpos="MLB" code="52">
+   <defense tackua="5" tacka="11" tot_tack="16" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Davon Godchaux" shortname="Davon Godchaux" checkname="GODCHAUX,DAVON" uni="57" class="JR" gp="1" gs="1" dpos="DE" code="57">
+   <defense tackua="1" tacka="6" tot_tack="7" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="K. Malone" shortname="K. Malone" checkname="MALONE,K" uni="63" class="JR" gp="1" gs="1" opos="LT" code="63"></player>
+  <player name="William Clapp" shortname="William Clapp" checkname="CLAPP,WILLIAM" uni="64" class="SO" gp="1" gs="1" opos="LG" code="64"></player>
+  <player name="Toby Weathersby" shortname="Toby Weathersby" checkname="WEATHERSBY,TOBY" uni="66" class="SO" gp="1" code="66"></player>
+  <player name="Chidi Okeke" shortname="Chidi Okeke" checkname="OKEKE,CHIDI" uni="68" class="FR" gp="1" code="68"></player>
+  <player name="Maea Teuhema" shortname="Maea Teuhema" checkname="TEUHEMA,MAEA" uni="75" class="SO" gp="1" gs="1" opos="RT" code="75"></player>
+  <player name="Josh Boutte" shortname="Josh Boutte" checkname="BOUTTE,JOSH" uni="76" class="SR" gp="1" gs="1" opos="RG" code="76"></player>
+  <player name="Ethan Pocic" shortname="Ethan Pocic" checkname="POCIC,ETHAN" uni="77" class="SR" gp="1" gs="1" opos="C" code="77"></player>
+  <player name="G. Brumfield" shortname="G. Brumfield" checkname="BRUMFIELD,G" uni="78" class="SO" gp="1" code="78"></player>
+  <player name="Colin Jeter" shortname="Colin Jeter" checkname="JETER,COLIN" uni="81" class="SR" gp="1" code="81">
+   <rcv no="2" yds="18" td="0" long="13"></rcv>
+  </player>
+  <player name="DJ Chark" shortname="DJ Chark" checkname="CHARK,DJ" uni="82" class="JR" gp="1" gs="1" opos="WR" code="82">
+   <rcv no="3" yds="45" td="0" long="41"></rcv>
+  </player>
+  <player name="Travin Dural" shortname="Travin Dural" checkname="DURAL,TRAVIN" uni="83" class="JR" gp="1" gs="1" opos="WR" code="83">
+   <rcv no="1" yds="3" td="0" long="3"></rcv>
+  </player>
+  <player name="Foster Moreau" shortname="Foster Moreau" checkname="MOREAU,FOSTER" uni="84" class="SO" gp="1" code="84"></player>
+  <player name="Caleb Roddy" shortname="Caleb Roddy" checkname="RODDY,CALEB" uni="85" class="FR" gp="1" code="85"></player>
+  <player name="DeSean Smith" shortname="DeSean Smith" checkname="SMITH,DESEAN" uni="89" class="SR" gp="1" gs="1" opos="TE" code="89"></player>
+  <player name="Rash. Lawrence" shortname="Rash. Lawrence" checkname="LAWRENCE,RASH" uni="90" class="FR" gp="1" code="90">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Lewis Neal" shortname="Lewis Neal" checkname="NEAL,LEWIS" uni="92" class="SR" gp="1" gs="1" dpos="DE" code="92">
+   <defense tackua="0" tacka="11" tot_tack="11" tflua="0" tfla="2" tflyds="1" qbh="2"></defense>
+  </player>
+  <player name="Ed Alexander" shortname="Ed Alexander" checkname="ALEXANDER,ED" uni="95" class="FR" gp="1" code="95">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Frank Herron" shortname="Frank Herron" checkname="HERRON,FRANK" uni="97" class="JR" gp="1" code="97">
+   <defense tackua="1" tacka="4" tot_tack="5" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5" ff="1"></defense>
+  </player>
+  <player name="Greg Gilmore" shortname="Greg Gilmore" checkname="GILMORE,GREG" uni="99" class="JR" gp="1" gs="1" dpos="NT" code="99">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="UA" qtr="4" clock="13:08" type="TD" how="RUSH" yds="21" scorer="Jalen Hurts" patby="Adam Griffith" pattype="KICK" patres="GOOD" plays="12" drive="90" top="5:57" vscore="7" hscore="0" driveindex="21"></score>
+  <score vh="V" team="UA" qtr="4" clock="02:41" type="FG" yds="25" scorer="Adam Griffith" plays="15" drive="50" top="9:51" vscore="10" hscore="0" driveindex="23"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="LS" kicker="C. Delahoussaye" qtr="1" clock="12:39" distance="49" result="blkd"></fga>
+  <fga vh="V" team="UA" kicker="Adam Griffith" qtr="2" clock="05:52" distance="42" result="missed"></fga>
+  <fga vh="V" team="UA" kicker="Adam Griffith" qtr="4" clock="02:41" distance="25" result="good"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="UA" start="KO,1,15:00,14" end="INT,1,13:48,14" plays="3" yards="0" top="1:12" start_how="KO" start_qtr="1" start_time="15:00" start_spot="UA14" end_how="INT" end_qtr="1" end_time="13:48" end_spot="UA14" driveindex="1"></drive>
+  <drive vh="H" team="LS" start="INT,1,13:48,67" end="FGA,1,12:39,68" plays="4" yards="1" top="1:09" start_how="INT" start_qtr="1" start_time="13:48" start_spot="UA33" end_how="FGA" end_qtr="1" end_time="12:39" end_spot="UA32" driveindex="2"></drive>
+  <drive vh="V" team="UA" start="FGA,1,12:39,32" end="PUNT,1,11:52,41" plays="3" yards="9" top="0:47" start_how="FGA" start_qtr="1" start_time="12:39" start_spot="UA32" end_how="PUNT" end_qtr="1" end_time="11:52" end_spot="UA41" driveindex="3"></drive>
+  <drive vh="H" team="LS" start="PUNT,1,11:52,12" end="PUNT,1,07:38,49" plays="6" yards="37" top="4:14" start_how="PUNT" start_qtr="1" start_time="11:52" start_spot="LS12" end_how="PUNT" end_qtr="1" end_time="07:38" end_spot="LS49" driveindex="4"></drive>
+  <drive vh="V" team="UA" start="PUNT,1,07:38,12" end="PUNT,1,05:16,15" plays="3" yards="3" top="2:22" start_how="PUNT" start_qtr="1" start_time="07:38" start_spot="UA12" end_how="PUNT" end_qtr="1" end_time="05:16" end_spot="UA15" driveindex="5"></drive>
+  <drive vh="H" team="LS" start="PUNT,1,05:16,47" end="PUNT,1,03:30,49" plays="3" yards="2" top="1:46" start_how="PUNT" start_qtr="1" start_time="05:16" start_spot="LS47" end_how="PUNT" end_qtr="1" end_time="03:30" end_spot="LS49" driveindex="6"></drive>
+  <drive vh="V" team="UA" start="PUNT,1,03:30,2" end="PUNT,2,14:50,34" plays="9" yards="32" top="3:40" start_how="PUNT" start_qtr="1" start_time="03:30" start_spot="UA02" end_how="PUNT" end_qtr="2" end_time="14:50" end_spot="UA34" driveindex="7"></drive>
+  <drive vh="H" team="LS" start="PUNT,2,14:50,20" end="PUNT,2,08:22,60" plays="11" yards="40" top="6:28" start_how="PUNT" start_qtr="2" start_time="14:50" start_spot="LS20" end_how="PUNT" end_qtr="2" end_time="08:22" end_spot="UA40" driveindex="8"></drive>
+  <drive vh="V" team="UA" start="PUNT,2,08:22,9" end="FGA,2,05:52,76" plays="9" yards="67" top="2:30" start_how="PUNT" start_qtr="2" start_time="08:22" start_spot="UA09" end_how="FGA" end_qtr="2" end_time="05:52" end_spot="LS24" driveindex="9"></drive>
+  <drive vh="H" team="LS" start="FGA,2,05:52,24" end="PUNT,2,02:16,39" plays="6" yards="15" top="3:36" start_how="FGA" start_qtr="2" start_time="05:52" start_spot="LS24" end_how="PUNT" end_qtr="2" end_time="02:16" end_spot="LS39" driveindex="10"></drive>
+  <drive vh="V" team="UA" start="PUNT,2,02:16,5" end="PUNT,2,01:10,10" plays="3" yards="5" top="1:06" start_how="PUNT" start_qtr="2" start_time="02:16" start_spot="UA05" end_how="PUNT" end_qtr="2" end_time="01:10" end_spot="UA10" driveindex="11"></drive>
+  <drive vh="H" team="LS" start="PUNT,2,01:10,53" end="DOWNS,2,00:01,58" plays="4" yards="5" top="1:09" start_how="PUNT" start_qtr="2" start_time="01:10" start_spot="UA47" end_how="DOWNS" end_qtr="2" end_time="00:01" end_spot="UA42" driveindex="12"></drive>
+  <drive vh="V" team="UA" start="DOWNS,2,00:01,42" end="HALF,2,00:00,42" plays="1" yards="0" top="0:01" start_how="DOWNS" start_qtr="2" start_time="00:01" start_spot="UA42" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="UA42" driveindex="13"></drive>
+  <drive vh="H" team="LS" start="KO,3,15:00,25" end="PUNT,3,13:21,23" plays="3" yards="-2" top="1:39" start_how="KO" start_qtr="3" start_time="15:00" start_spot="LS25" end_how="PUNT" end_qtr="3" end_time="13:21" end_spot="LS23" driveindex="14"></drive>
+  <drive vh="V" team="UA" start="PUNT,3,13:21,40" end="DOWNS,3,11:30,94" plays="5" yards="54" top="1:51" start_how="PUNT" start_qtr="3" start_time="13:21" start_spot="UA40" end_how="DOWNS" end_qtr="3" end_time="11:30" end_spot="LS06" rz="1" driveindex="15"></drive>
+  <drive vh="H" team="LS" start="DOWNS,3,11:30,6" end="PUNT,3,09:59,15" plays="3" yards="9" top="1:31" start_how="DOWNS" start_qtr="3" start_time="11:30" start_spot="LS06" end_how="PUNT" end_qtr="3" end_time="09:59" end_spot="LS15" driveindex="16"></drive>
+  <drive vh="V" team="UA" start="PUNT,3,09:59,46" end="PUNT,3,07:48,43" plays="3" yards="-3" top="2:11" start_how="PUNT" start_qtr="3" start_time="09:59" start_spot="UA46" end_how="PUNT" end_qtr="3" end_time="07:48" end_spot="UA43" driveindex="17"></drive>
+  <drive vh="H" team="LS" start="PUNT,3,07:48,3" end="PUNT,3,06:17,10" plays="3" yards="7" top="1:31" start_how="PUNT" start_qtr="3" start_time="07:48" start_spot="LS03" end_how="PUNT" end_qtr="3" end_time="06:17" end_spot="LS10" driveindex="18"></drive>
+  <drive vh="V" team="UA" start="PUNT,3,06:17,42" end="FUMB,3,05:42,42" plays="2" yards="0" top="0:35" start_how="PUNT" start_qtr="3" start_time="06:17" start_spot="UA42" end_how="FUMB" end_qtr="3" end_time="05:42" end_spot="UA42" driveindex="19"></drive>
+  <drive vh="H" team="LS" start="FUMB,3,05:42,58" end="PUNT,3,04:05,49" plays="3" yards="-9" top="1:37" start_how="FUMB" start_qtr="3" start_time="05:42" start_spot="UA42" end_how="PUNT" end_qtr="3" end_time="04:05" end_spot="LS49" driveindex="20"></drive>
+  <drive vh="V" team="UA" start="PUNT,3,04:05,10" end="TD,4,13:08,100" plays="12" yards="90" top="5:57" start_how="PUNT" start_qtr="3" start_time="04:05" start_spot="UA10" end_how="TD" end_qtr="4" end_time="13:08" end_spot="LS00" rz="1" driveindex="21"></drive>
+  <drive vh="H" team="LS" start="KO,4,13:08,25" end="INT,4,12:32,38" plays="2" yards="13" top="0:36" start_how="KO" start_qtr="4" start_time="13:08" start_spot="LS25" end_how="INT" end_qtr="4" end_time="12:32" end_spot="LS38" driveindex="22"></drive>
+  <drive vh="V" team="UA" start="INT,4,12:32,43" end="FG,4,02:41,93" plays="15" yards="50" top="9:51" start_how="INT" start_qtr="4" start_time="12:32" start_spot="UA43" end_how="FG" end_qtr="4" end_time="02:41" end_spot="LS07" rz="1" driveindex="23"></drive>
+  <drive vh="H" team="LS" start="KO,4,02:34,33" end="DOWNS,4,01:52,35" plays="4" yards="2" top="0:42" start_how="KO" start_qtr="4" start_time="02:34" start_spot="LS33" end_how="DOWNS" end_qtr="4" end_time="01:52" end_spot="LS35" driveindex="24"></drive>
+  <drive vh="V" team="UA" start="DOWNS,4,01:52,65" end="HALF,4,00:00,72" plays="4" yards="7" top="1:52" start_how="DOWNS" start_qtr="4" start_time="01:52" start_spot="LS35" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="LS28" driveindex="25"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="UA" down="1" togo="10" spot="UA35" context="V,1,10,V35" playid="0,1,0" tokens="CMT:LSU won toss, defered. Alabama will recieve. LSU will defend North EZ"
+      text="LSU won toss, defered. Alabama will recieve. LSU will defend North EZ" newcontext="V,1,10,V35">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA35" context="V,1,10,V35" playid="0,2,1" tokens="SPOT:H,H35,N"
+      text="LS ball on LS35." newcontext="H,1,10,H35">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS35" context="H,1,10,H35" playid="0,3,2" type="#" clock="15:00" tokens="Q:1 T:15:00"
+      text="Start of 1st quarter, clock 15:00." newcontext="H,1,10,H35">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS35" context="H,1,10,H35" playid="0,4,3" type="K" tokens="KO:36,V00 RET:13,V14 TACK:48"
+      text="Cameron Gamble kickoff 65 yards to the UA0, A. Stewart return 14 yards to the UA14 (D. Alexander)." newcontext="V,1,10,V14">
+    <p_ko vh="H" name="Cameron Gamble" gain="65"></p_ko>
+    <p_kr vh="V" name="A. Stewart" gain="14"></p_kr>
+    <p_tk vh="H" name="D. Alexander"></p_tk>
+   </play>
+   <drivestart poss="V,V14,15:00" vh="V" spot="V14" clock="15:00" driveindex="1,3"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA14" context="V,1,10,V14" playid="1,1,4" tokens="QB:V,2"
+      text="Jalen Hurts at QB for Alabama." newcontext="V,1,10,V14">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA14" context="V,1,10,V14" playid="1,2,5" type="P" tokens="PASS:2,C,88,V11 TACK:13"
+      text="Jalen Hurts pass complete to O.J. Howard for loss of 3 yards to the UA11 (Dwayne Thomas)." newcontext="V,2,13,V11">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="O.J. Howard" gain="-3"></p_pa>
+    <p_tk vh="H" name="Dwayne Thomas"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="13" spot="UA11" context="V,2,13,V11" playid="1,3,6" type="R" tokens="RUSH:34,V14, TACK:52"
+      text="Damien Harris rush for 3 yards to the UA14 (K. Beckwith)." newcontext="V,3,10,V14">
+    <p_ru vh="V" name="Damien Harris" gain="3"></p_ru>
+    <p_tk vh="H" name="K. Beckwith"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="10" spot="UA14" context="V,3,10,V14" playid="1,4,7" type="P" turnover="I" tokens="PASS:2,X,33,V33 RET:33,V33"
+      text="Jalen Hurts pass intercepted by Jamal Adams at the UA33, Jamal Adams return 0 yards to the UA33." newcontext="H,1,10,V33">
+    <p_pa vh="V" qb="Jalen Hurts" result="INT"></p_pa>
+    <p_ir vh="H" name="Jamal Adams" at="V33" gain="0"></p_ir>
+   </play>
+   <drivesum plays="3" yards="0" top="1:12" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,V33,13:48" vh="H" spot="V33" clock="13:48" driveindex="2,7"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="UA33" context="H,1,10,V33" playid="2,1,8" clock="13:48" tokens="{DRIVE}:13:48"
+      text="LSU drive start at 13:48." newcontext="H,1,10,V33">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="UA33" context="H,1,10,V33" playid="2,2,9" tokens="QB:H,16"
+      text="Danny Etling at QB for LSU." newcontext="H,1,10,V33">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="UA33" context="H,1,10,V33" playid="2,3,10" type="P" tokens="PASS:16,C,15,V30 TACK:26"
+      text="Danny Etling pass complete to Malachi Dupre for 3 yards to the UA30 (Marlon Humphrey)." newcontext="H,2,7,V30">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="Malachi Dupre" gain="3"></p_pa>
+    <p_tk vh="V" name="Marlon Humphrey"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="7" spot="UA30" context="H,2,7,V30" playid="2,4,11" type="P" tokens="PASS:16,I,83,*"
+      text="Danny Etling pass incomplete to Travin Dural." newcontext="H,3,7,V30">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="Travin Dural"></p_pa>
+   </play>
+   <play hasball="LS" down="3" togo="7" spot="UA30" context="H,3,7,V30" playid="2,5,12" type="P" tokens="PASS:16,S,TM,V32 SACK:56,22"
+      text="Danny Etling sacked for loss of 2 yards to the UA32 (Tim Williams;Ryan Anderson)." newcontext="H,4,9,V32">
+    <p_pa vh="H" qb="Danny Etling" result="SACK" gain="-2"></p_pa>
+    <p_tk vh="V" name="Tim Williams" sack="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Ryan Anderson" sack="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="4" togo="9" spot="UA32" context="H,4,9,V32" playid="2,6,13" type="F" clock="12:39" tokens="FGA:42,49,B, T:12:39 BLOCK:1D"
+      text="C. Delahoussaye field goal attempt from 49 BLOCKED, recovered by LS Kristian Fulton at UA32, clock 12:39 (blocked by Ronnie Harrison)." newcontext="V,1,10,V32">
+    <p_fg vh="H" name="C. Delahoussaye" distance="49" result="BLOCKED"></p_fg>
+   </play>
+   <drivesum plays="4" yards="1" top="1:09" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V32,12:39" vh="V" spot="V32" clock="12:39" driveindex="3,13"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA32" context="V,1,10,V32" playid="3,1,14" type="P" tokens="PASS:2,D,3,*"
+      text="Jalen Hurts pass incomplete to Calvin Ridley, dropped pass." newcontext="V,2,10,V32">
+    <p_pa vh="V" qb="Jalen Hurts" result="DROP" rcv="Calvin Ridley"></p_pa>
+   </play>
+   <play hasball="UA" down="2" togo="10" spot="UA32" context="V,2,10,V32" playid="3,2,15" type="R" tokens="RUSH:34,V41, TACK:52,26"
+      text="Damien Harris rush for 9 yards to the UA41 (K. Beckwith;John Battle)." newcontext="V,3,1,V41">
+    <p_ru vh="V" name="Damien Harris" gain="9"></p_ru>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+    <p_tk vh="H" name="John Battle" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="1" spot="UA41" context="V,3,1,V41" playid="3,3,16" type="P" tokens="PASS:2,B,88,* BRUP:13"
+      text="Jalen Hurts pass incomplete to O.J. Howard (Dwayne Thomas)." newcontext="V,4,1,V41">
+    <p_pa vh="V" qb="Jalen Hurts" result="BRUP" rcv="O.J. Howard"></p_pa>
+    <p_bu vh="H" name="Dwayne Thomas"></p_bu>
+   </play>
+   <play hasball="UA" down="4" togo="1" spot="UA41" context="V,4,1,V41" playid="3,4,17" type="U" tokens="PUNT:15,H09 RET:18,H12 TACK:26"
+      text="JK Scott punt 50 yards to the LS9, T. White return 3 yards to the LS12 (Marlon Humphrey)." newcontext="H,1,10,H12">
+    <p_pu vh="V" name="JK Scott" gain="50" in20="Y"></p_pu>
+    <p_pr vh="H" name="T. White" gain="3"></p_pr>
+    <p_tk vh="V" name="Marlon Humphrey"></p_tk>
+   </play>
+   <drivesum plays="3" yards="9" top="0:47" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H12,11:52" vh="H" spot="H12" clock="11:52" driveindex="4,17"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS12" context="H,1,10,H12" playid="4,1,18" clock="11:52" tokens="{DRIVE}:11:52"
+      text="LSU drive start at 11:52." newcontext="H,1,10,H12">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS12" context="H,1,10,H12" playid="4,2,19" type="R" tokens="RUSH:7,H15, TACK:54,20"
+      text="L. Fournette rush for 3 yards to the LS15 (D. Tomlinson;S. Hamilton)." newcontext="H,2,7,H15">
+    <p_ru vh="H" name="L. Fournette" gain="3"></p_ru>
+    <p_tk vh="V" name="D. Tomlinson" assist="Y"></p_tk>
+    <p_tk vh="V" name="S. Hamilton" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="7" spot="LS15" context="H,2,7,H15" playid="4,3,20" type="P" tokens="PASS:16,C,44,H16 TACK:56"
+      text="Danny Etling pass complete to J. Moore for 1 yard to the LS16 (Tim Williams)." newcontext="H,3,6,H16">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="J. Moore" gain="1"></p_pa>
+    <p_tk vh="V" name="Tim Williams"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="6" spot="LS16" context="H,3,6,H16" playid="4,4,21" type="P" first="P" tokens="PASS:16,C,82,V43 OB: TACK:29,26"
+      text="Danny Etling pass complete to DJ Chark for 41 yards to the UA43, 1ST DOWN LS, out-of-bounds (M. Fitzpatrick;Marlon Humphrey)." ob="Y" newcontext="H,1,10,V43">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="DJ Chark" gain="41"></p_pa>
+    <p_tk vh="V" name="M. Fitzpatrick" assist="Y"></p_tk>
+    <p_tk vh="V" name="Marlon Humphrey" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="UA43" context="H,1,10,V43" playid="4,5,22" type="R" tokens="RUSH:7,V48, TACK:1D,10"
+      text="L. Fournette rush for loss of 5 yards to the UA48 (Ronnie Harrison;Reuben Foster)." newcontext="H,2,15,V48">
+    <p_ru vh="H" name="L. Fournette" gain="-5"></p_ru>
+    <p_tk vh="V" name="Ronnie Harrison" assist="Y"></p_tk>
+    <p_tk vh="V" name="Reuben Foster" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="15" spot="UA48" context="H,2,15,V48" playid="4,6,23" type="P" tokens="PASS:16,S,TM,H50 SACK:93"
+      text="Danny Etling sacked for loss of 2 yards to the 50 yardline (Jonathan Allen)." newcontext="H,3,17,H50">
+    <p_pa vh="H" qb="Danny Etling" result="SACK" gain="-2"></p_pa>
+    <p_tk vh="V" name="Jonathan Allen" sack="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="17" spot="LS50" context="H,3,17,H50" playid="4,7,24" type="P" tokens="PASS:16,S,TM,H49 SACK:32"
+      text="Danny Etling sacked for loss of 1 yard to the LS49 (Rashaan Evans)." newcontext="H,4,18,H49">
+    <p_pa vh="H" qb="Danny Etling" result="SACK" gain="-1"></p_pa>
+    <p_tk vh="V" name="Rashaan Evans" sack="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="4" togo="18" spot="LS49" context="H,4,18,H49" playid="4,8,25" type="U" tokens="PUNT:38,V12 FC:7"
+      text="Josh Growden punt 39 yards to the UA12, fair catch by Trevon Diggs." newcontext="V,1,10,V12">
+    <p_pu vh="H" name="Josh Growden" gain="39" in20="Y" fc="Trevon Diggs"></p_pu>
+   </play>
+   <drivesum plays="6" yards="37" top="4:14" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V12,07:38" vh="V" spot="V12" clock="07:38" driveindex="5,25"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA12" context="V,1,10,V12" playid="5,1,26" clock="07:38" tokens="{DRIVE}:07:38"
+      text="ALABAMA drive start at 07:38." newcontext="V,1,10,V12">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA12" context="V,1,10,V12" playid="5,2,27" type="P" tokens="PASS:2,C,13,V14 TACK:1,13"
+      text="Jalen Hurts pass complete to A. Stewart for 2 yards to the UA14 (Donte Jackson;Dwayne Thomas)." newcontext="V,2,8,V14">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="A. Stewart" gain="2"></p_pa>
+    <p_tk vh="H" name="Donte Jackson" assist="Y"></p_tk>
+    <p_tk vh="H" name="Dwayne Thomas" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="8" spot="UA14" context="V,2,8,V14" playid="5,3,28" type="R" tokens="RUSH:34,V17, TACK:1"
+      text="Damien Harris rush for 3 yards to the UA17 (Donte Jackson)." newcontext="V,3,5,V17">
+    <p_ru vh="V" name="Damien Harris" gain="3"></p_ru>
+    <p_tk vh="H" name="Donte Jackson"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="5" spot="UA17" context="V,3,5,V17" playid="5,4,29" type="P" tokens="PASS:2,C,34,V15 TACK:13,57"
+      text="Jalen Hurts pass complete to Damien Harris for loss of 2 yards to the UA15 (Dwayne Thomas;Davon Godchaux)." newcontext="V,4,7,V15">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="Damien Harris" gain="-2"></p_pa>
+    <p_tk vh="H" name="Dwayne Thomas" assist="Y"></p_tk>
+    <p_tk vh="H" name="Davon Godchaux" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="4" togo="7" spot="UA15" context="V,4,7,V15" playid="5,5,30" type="U" tokens="PUNT:15,H34 RET:18,H47 TACK:29,34"
+      text="JK Scott punt 51 yards to the LS34, T. White return 13 yards to the LS47 (M. Fitzpatrick;Damien Harris)." newcontext="H,1,10,H47">
+    <p_pu vh="V" name="JK Scott" gain="51"></p_pu>
+    <p_pr vh="H" name="T. White" gain="13"></p_pr>
+    <p_tk vh="V" name="M. Fitzpatrick" assist="Y"></p_tk>
+    <p_tk vh="V" name="Damien Harris" assist="Y"></p_tk>
+   </play>
+   <drivesum plays="3" yards="3" top="2:22" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H47,05:16" vh="H" spot="H47" clock="05:16" driveindex="6,30"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS47" context="H,1,10,H47" playid="6,1,31" clock="05:16" tokens="{DRIVE}:05:16"
+      text="LSU drive start at 05:16." newcontext="H,1,10,H47">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS47" context="H,1,10,H47" playid="6,2,32" type="R" tokens="RUSH:7,H46, TACK:56,20"
+      text="L. Fournette rush for loss of 1 yard to the LS46 (Tim Williams;S. Hamilton)." newcontext="H,2,11,H46">
+    <p_ru vh="H" name="L. Fournette" gain="-1"></p_ru>
+    <p_tk vh="V" name="Tim Williams" assist="Y"></p_tk>
+    <p_tk vh="V" name="S. Hamilton" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="11" spot="LS46" context="H,2,11,H46" playid="6,3,33" type="R" tokens="RUSH:5,H49, TACK:26,1D"
+      text="Derrius Guice rush for 3 yards to the LS49 (Marlon Humphrey;Ronnie Harrison)." newcontext="H,3,8,H49">
+    <p_ru vh="H" name="Derrius Guice" gain="3"></p_ru>
+    <p_tk vh="V" name="Marlon Humphrey" assist="Y"></p_tk>
+    <p_tk vh="V" name="Ronnie Harrison" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="8" spot="LS49" context="H,3,8,H49" playid="6,4,34" type="P" tokens="PASS:16,I,7,*"
+      text="Danny Etling pass incomplete to L. Fournette." newcontext="H,4,8,H49">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="L. Fournette"></p_pa>
+   </play>
+   <play hasball="LS" down="4" togo="8" spot="LS49" context="H,4,8,H49" playid="6,5,35" type="U" tokens="PUNT:38,V02 DN:"
+      text="Josh Growden punt 49 yards to the UA2, downed." newcontext="V,1,10,V02">
+    <p_pu vh="H" name="Josh Growden" gain="49" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="2" top="1:46" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,V02,03:30" vh="V" spot="V02" clock="03:30" driveindex="7,35"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA02" context="V,1,10,V02" playid="7,1,36" clock="03:30" tokens="{DRIVE}:03:30"
+      text="ALABAMA drive start at 03:30." newcontext="V,1,10,V02">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA02" context="V,1,10,V02" playid="7,2,37" type="R" tokens="RUSH:25,V01, TACK:24"
+      text="Josh Jacobs rush for loss of 1 yard to the UA1 (Devin White)." newcontext="V,2,11,V01">
+    <p_ru vh="V" name="Josh Jacobs" gain="-1"></p_ru>
+    <p_tk vh="H" name="Devin White"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="11" spot="UA01" context="V,2,11,V01" playid="7,3,38" type="P" tokens="PASS:2,I,13,* QBH:H,13"
+      text="Jalen Hurts pass incomplete to A. Stewart, QB hurry by Dwayne Thomas." newcontext="V,3,11,V01">
+    <p_pa vh="V" qb="Jalen Hurts" result="INC" rcv="A. Stewart"></p_pa>
+    <p_qbh vh="H" name="Dwayne Thomas"></p_qbh>
+   </play>
+   <play hasball="UA" down="3" togo="11" spot="UA01" context="V,3,11,V01" playid="7,4,39" type="R" first="R" tokens="RUSH:34,V14, TACK:52,13"
+      text="Damien Harris rush for 13 yards to the UA14, 1ST DOWN UA (K. Beckwith;Dwayne Thomas)." newcontext="V,1,10,V14">
+    <p_ru vh="V" name="Damien Harris" gain="13"></p_ru>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+    <p_tk vh="H" name="Dwayne Thomas" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA14" context="V,1,10,V14" playid="7,5,40" type="R" tokens="RUSH:34,V14, TACK:52"
+      text="Damien Harris rush for no gain to the UA14 (K. Beckwith)." newcontext="V,2,10,V14">
+    <p_ru vh="V" name="Damien Harris" gain="0"></p_ru>
+    <p_tk vh="H" name="K. Beckwith"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="10" spot="UA14" context="V,2,10,V14" playid="7,6,41" type="P" tokens="PASS:2,C,7,V23 OB: TACK:1"
+      text="Jalen Hurts pass complete to Trevon Diggs for 9 yards to the UA23, out-of-bounds (Donte Jackson)." ob="Y" newcontext="V,3,1,V23">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="Trevon Diggs" gain="9"></p_pa>
+    <p_tk vh="H" name="Donte Jackson"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="1" spot="UA23" context="V,3,1,V23" playid="7,7,42" type="R" first="R" tokens="RUSH:25,V26, TACK:92,49"
+      text="Josh Jacobs rush for 3 yards to the UA26, 1ST DOWN UA (Lewis Neal;Arden Key)." newcontext="V,1,10,V26">
+    <p_ru vh="V" name="Josh Jacobs" gain="3"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="Arden Key" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA26" context="V,1,10,V26" playid="7,8,43" type="R" tokens="RUSH:2,V30, TACK:1"
+      text="Jalen Hurts rush for 4 yards to the UA30 (Donte Jackson)." newcontext="V,2,6,V30">
+    <p_ru vh="V" name="Jalen Hurts" gain="4"></p_ru>
+    <p_tk vh="H" name="Donte Jackson"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="6" spot="UA30" context="V,2,6,V30" playid="7,9,44" type="R" tokens="RUSH:2,V35, TACK:52,13"
+      text="Jalen Hurts rush for 5 yards to the UA35 (K. Beckwith;Dwayne Thomas)." newcontext="V,3,1,V35">
+    <p_ru vh="V" name="Jalen Hurts" gain="5"></p_ru>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+    <p_tk vh="H" name="Dwayne Thomas" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="1" spot="UA35" context="V,3,1,V35" playid="7,10,45" type="R" tokens="RUSH:25,V34, TACK:92,13"
+      text="Josh Jacobs rush for loss of 1 yard to the UA34 (Lewis Neal;Dwayne Thomas)." newcontext="V,4,2,V34">
+    <p_ru vh="V" name="Josh Jacobs" gain="-1"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="Dwayne Thomas" assist="Y"></p_tk>
+   </play>
+   <score qtr="1" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:51"></misc>
+    <rush att="10" yds="38" gain="40" loss="2" td="0" long="13"></rush>
+    <pass comp="4" att="8" int="1" yds="6" td="0" long="9" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="6" td="0" long="9"></rcv>
+    <punt no="2" yds="101" long="51" blkd="0" tb="0" fc="0" plus50="2" inside20="1" avg="50.5"></punt>
+    <defense tackua="5" tacka="14" tot_tack="19" tflua="2" tfla="6" tflyds="11" sacks="3" sackyds="5" blkd="1"></defense>
+    <kr no="1" yds="14" td="0" long="14"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LS">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:09"></misc>
+    <rush att="7" yds="-5" gain="6" loss="11" td="0" long="3"></rush>
+    <pass comp="3" att="5" int="0" yds="45" td="0" long="41" sacks="3" sackyds="5"></pass>
+    <rcv no="3" yds="45" td="0" long="41"></rcv>
+    <punt no="2" yds="88" long="49" blkd="0" tb="0" fc="1" plus50="0" inside20="2" avg="44.0"></punt>
+    <ko no="1" yds="65" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="1"></fg>
+    <defense tackua="8" tacka="14" tot_tack="22" tflua="2" tfla="4" tflyds="7" sacks="0" sackyds="0" brup="1" qbh="1" int="1" intyds="0"></defense>
+    <pr no="2" yds="16" td="0" long="13"></pr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="UA" down="4" togo="2" spot="UA34" context="V,4,2,V34" playid="7,11,46" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00." newcontext="V,4,2,V34">
+   </play>
+   <play hasball="UA" down="4" togo="2" spot="UA34" context="V,4,2,V34" playid="7,12,47" type="U" tokens="PUNT:15,H00 TB:"
+      text="JK Scott punt 66 yards to the LS0, touchback." newcontext="H,1,10,H20">
+    <p_pu vh="V" name="JK Scott" gain="66" tb="Y"></p_pu>
+   </play>
+   <drivesum plays="9" yards="32" top="3:40" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H20,14:50" vh="H" spot="H20" clock="14:50" driveindex="8,47"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS20" context="H,1,10,H20" playid="8,1,48" clock="14:50" tokens="{DRIVE}:14:50"
+      text="LSU drive start at 14:50." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS20" context="H,1,10,H20" playid="8,2,49" type="P" tokens="PASS:16,C,15,H23 TACK:26"
+      text="Danny Etling pass complete to Malachi Dupre for 3 yards to the LS23 (Marlon Humphrey)." newcontext="H,2,7,H23">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="Malachi Dupre" gain="3"></p_pa>
+    <p_tk vh="V" name="Marlon Humphrey"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="7" spot="LS23" context="H,2,7,H23" playid="8,3,50" type="R" tokens="RUSH:7,H29, TACK:29"
+      text="L. Fournette rush for 6 yards to the LS29 (M. Fitzpatrick)." newcontext="H,3,1,H29">
+    <p_ru vh="H" name="L. Fournette" gain="6"></p_ru>
+    <p_tk vh="V" name="M. Fitzpatrick"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="1" spot="LS29" context="H,3,1,H29" playid="8,4,51" type="R" first="R" tokens="RUSH:44,H30, TACK:22,33"
+      text="J. Moore rush for 1 yard to the LS30, 1ST DOWN LS (Ryan Anderson;A. Jennings)." newcontext="H,1,10,H30">
+    <p_ru vh="H" name="J. Moore" gain="1"></p_ru>
+    <p_tk vh="V" name="Ryan Anderson" assist="Y"></p_tk>
+    <p_tk vh="V" name="A. Jennings" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS30" context="H,1,10,H30" playid="8,5,52" type="R" tokens="RUSH:7,H39, TACK:33"
+      text="L. Fournette rush for 9 yards to the LS39 (A. Jennings)." newcontext="H,2,1,H39">
+    <p_ru vh="H" name="L. Fournette" gain="9"></p_ru>
+    <p_tk vh="V" name="A. Jennings"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="1" spot="LS39" context="H,2,1,H39" playid="8,6,53" type="R" first="R" tokens="RUSH:7,H42, TACK:33,28"
+      text="L. Fournette rush for 3 yards to the LS42, 1ST DOWN LS (A. Jennings;Anthony Averett)." newcontext="H,1,10,H42">
+    <p_ru vh="H" name="L. Fournette" gain="3"></p_ru>
+    <p_tk vh="V" name="A. Jennings" assist="Y"></p_tk>
+    <p_tk vh="V" name="Anthony Averett" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS42" context="H,1,10,H42" playid="8,7,54" type="R" tokens="RUSH:7,H40, TACK:56,54"
+      text="L. Fournette rush for loss of 2 yards to the LS40 (Tim Williams;D. Tomlinson)." newcontext="H,2,12,H40">
+    <p_ru vh="H" name="L. Fournette" gain="-2"></p_ru>
+    <p_tk vh="V" name="Tim Williams" assist="Y"></p_tk>
+    <p_tk vh="V" name="D. Tomlinson" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="12" spot="LS40" context="H,2,12,H40" playid="8,8,55" type="P" tokens="PASS:16,C,15,V49 OB: TACK:26"
+      text="Danny Etling pass complete to Malachi Dupre for 11 yards to the UA49, out-of-bounds (Marlon Humphrey)." ob="Y" newcontext="H,3,1,V49">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="Malachi Dupre" gain="11"></p_pa>
+    <p_tk vh="V" name="Marlon Humphrey"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="1" spot="UA49" context="H,3,1,V49" playid="8,9,56" type="R" first="R" tokens="RUSH:44,V45, TACK:33,69"
+      text="J. Moore rush for 4 yards to the UA45, 1ST DOWN LS (A. Jennings;Joshua Frazier)." newcontext="H,1,10,V45">
+    <p_ru vh="H" name="J. Moore" gain="4"></p_ru>
+    <p_tk vh="V" name="A. Jennings" assist="Y"></p_tk>
+    <p_tk vh="V" name="Joshua Frazier" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="UA45" context="H,1,10,V45" playid="8,10,57" type="P" tokens="PASS:16,I,82,*"
+      text="Danny Etling pass incomplete to DJ Chark." newcontext="H,2,10,V45">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="DJ Chark"></p_pa>
+   </play>
+   <play hasball="LS" down="2" togo="10" spot="UA45" context="H,2,10,V45" playid="8,11,58" type="R" tokens="RUSH:7,V42, TACK:22,10"
+      text="L. Fournette rush for 3 yards to the UA42 (Ryan Anderson;Reuben Foster)." newcontext="H,3,7,V42">
+    <p_ru vh="H" name="L. Fournette" gain="3"></p_ru>
+    <p_tk vh="V" name="Ryan Anderson" assist="Y"></p_tk>
+    <p_tk vh="V" name="Reuben Foster" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="7" spot="UA42" context="H,3,7,V42" playid="8,12,59" type="P" tokens="PASS:16,C,82,V40 TACK:1D"
+      text="Danny Etling pass complete to DJ Chark for 2 yards to the UA40 (Ronnie Harrison)." newcontext="H,4,5,V40">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="DJ Chark" gain="2"></p_pa>
+    <p_tk vh="V" name="Ronnie Harrison"></p_tk>
+   </play>
+   <play hasball="LS" down="4" togo="5" spot="UA40" context="H,4,5,V40" playid="8,13,60" type="U" tokens="PUNT:38,V09 FC:7"
+      text="Josh Growden punt 31 yards to the UA9, fair catch by Trevon Diggs." newcontext="V,1,10,V09">
+    <p_pu vh="H" name="Josh Growden" gain="31" in20="Y" fc="Trevon Diggs"></p_pu>
+   </play>
+   <drivesum plays="11" yards="40" top="6:28" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V09,08:22" vh="V" spot="V09" clock="08:22" driveindex="9,60"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA09" context="V,1,10,V09" playid="9,1,61" clock="08:22" tokens="{DRIVE}:08:22"
+      text="ALABAMA drive start at 08:22." newcontext="V,1,10,V09">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA09" context="V,1,10,V09" playid="9,2,62" type="R" tokens="RUSH:2,V10, TACK:92,90"
+      text="Jalen Hurts rush for 1 yard to the UA10 (Lewis Neal;Rash. Lawrence)." newcontext="V,2,9,V10">
+    <p_ru vh="V" name="Jalen Hurts" gain="1"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="Rash. Lawrence" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="9" spot="UA10" context="V,2,9,V10" playid="9,3,63" type="R" tokens="RUSH:9,V16, TACK:92,52"
+      text="Bo Scarbrough rush for 6 yards to the UA16 (Lewis Neal;K. Beckwith)." newcontext="V,3,3,V16">
+    <p_ru vh="V" name="Bo Scarbrough" gain="6"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="3" spot="UA16" context="V,3,3,V16" playid="9,4,64" type="R" first="R" tokens="RUSH:2,V44, OB: TACK:52"
+      text="Jalen Hurts rush for 28 yards to the UA44, 1ST DOWN UA, out-of-bounds (K. Beckwith)." ob="Y" newcontext="V,1,10,V44">
+    <p_ru vh="V" name="Jalen Hurts" gain="28"></p_ru>
+    <p_tk vh="H" name="K. Beckwith"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA44" context="V,1,10,V44" playid="9,5,65" type="R" first="R" tokens="RUSH:9,H45, TACK:26,40"
+      text="Bo Scarbrough rush for 11 yards to the LS45, 1ST DOWN UA (John Battle;Duke Riley)." newcontext="V,1,10,H45">
+    <p_ru vh="V" name="Bo Scarbrough" gain="11"></p_ru>
+    <p_tk vh="H" name="John Battle" assist="Y"></p_tk>
+    <p_tk vh="H" name="Duke Riley" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS45" context="V,1,10,H45" playid="9,6,66" type="P" first="P" tokens="PASS:2,C,3,H24 OB: TACK:13"
+      text="Jalen Hurts pass complete to Calvin Ridley for 21 yards to the LS24, 1ST DOWN UA, out-of-bounds (Dwayne Thomas)." ob="Y" newcontext="V,1,10,H24">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="Calvin Ridley" gain="21"></p_pa>
+    <p_tk vh="H" name="Dwayne Thomas"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS24" context="V,1,10,H24" playid="9,7,67" type="P" tokens="PASS:2,B,13,* BRUP:13"
+      text="Jalen Hurts pass incomplete to A. Stewart (Dwayne Thomas)." newcontext="V,2,10,H24">
+    <p_pa vh="V" qb="Jalen Hurts" result="BRUP" rcv="A. Stewart"></p_pa>
+    <p_bu vh="H" name="Dwayne Thomas"></p_bu>
+   </play>
+   <play hasball="UA" down="2" togo="10" spot="LS24" context="V,2,10,H24" playid="9,8,68" type="P" tokens="PASS:2,I,34,*"
+      text="Jalen Hurts pass incomplete to Damien Harris." newcontext="V,3,10,H24">
+    <p_pa vh="V" qb="Jalen Hurts" result="INC" rcv="Damien Harris"></p_pa>
+   </play>
+   <play hasball="UA" down="3" togo="10" spot="LS24" context="V,3,10,H24" playid="9,9,69" type="P" tokens="PASS:2,I,3,*"
+      text="Jalen Hurts pass incomplete to Calvin Ridley." newcontext="V,4,10,H24">
+    <p_pa vh="V" qb="Jalen Hurts" result="INC" rcv="Calvin Ridley"></p_pa>
+   </play>
+   <play hasball="UA" down="4" togo="10" spot="LS24" context="V,4,10,H24" playid="9,10,70" type="F" clock="05:52" tokens="FGA:99,42,M,H24,L T:05:52"
+      text="Adam Griffith field goal attempt from 42 MISSED - wide left, spot at LS24, clock 05:52." newcontext="H,1,10,H24">
+    <p_fg vh="V" name="Adam Griffith" distance="42" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="9" yards="67" top="2:30" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H24,05:52" vh="H" spot="H24" clock="05:52" driveindex="10,70"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS24" context="H,1,10,H24" playid="10,1,71" clock="05:52" tokens="{DRIVE}:05:52"
+      text="LSU drive start at 05:52." newcontext="H,1,10,H24">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS24" context="H,1,10,H24" playid="10,2,72" type="R" tokens="RUSH:16,H31, TACK:10"
+      text="Danny Etling rush for 7 yards to the LS31 (Reuben Foster)." newcontext="H,2,3,H31">
+    <p_ru vh="H" name="Danny Etling" gain="7"></p_ru>
+    <p_tk vh="V" name="Reuben Foster"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="3" spot="LS31" context="H,2,3,H31" playid="10,3,73" type="R" tokens="RUSH:7,H33, TACK:20,22"
+      text="L. Fournette rush for 2 yards to the LS33 (S. Hamilton;Ryan Anderson)." newcontext="H,3,1,H33">
+    <p_ru vh="H" name="L. Fournette" gain="2"></p_ru>
+    <p_tk vh="V" name="S. Hamilton" assist="Y"></p_tk>
+    <p_tk vh="V" name="Ryan Anderson" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="1" spot="LS33" context="H,3,1,H33" playid="10,4,74" type="R" first="R" tokens="RUSH:7,H35, TACK:54,93"
+      text="L. Fournette rush for 2 yards to the LS35, 1ST DOWN LS (D. Tomlinson;Jonathan Allen)." newcontext="H,1,10,H35">
+    <p_ru vh="H" name="L. Fournette" gain="2"></p_ru>
+    <p_tk vh="V" name="D. Tomlinson" assist="Y"></p_tk>
+    <p_tk vh="V" name="Jonathan Allen" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS35" context="H,1,10,H35" playid="10,5,75" type="R" tokens="RUSH:7,H34, TACK:10,20"
+      text="L. Fournette rush for loss of 1 yard to the LS34 (Reuben Foster;S. Hamilton)." newcontext="H,2,11,H34">
+    <p_ru vh="H" name="L. Fournette" gain="-1"></p_ru>
+    <p_tk vh="V" name="Reuben Foster" assist="Y"></p_tk>
+    <p_tk vh="V" name="S. Hamilton" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="11" spot="LS34" context="H,2,11,H34" playid="10,6,76" type="R" tokens="RUSH:5,H39, TACK:93,10"
+      text="Derrius Guice rush for 5 yards to the LS39 (Jonathan Allen;Reuben Foster)." newcontext="H,3,6,H39">
+    <p_ru vh="H" name="Derrius Guice" gain="5"></p_ru>
+    <p_tk vh="V" name="Jonathan Allen" assist="Y"></p_tk>
+    <p_tk vh="V" name="Reuben Foster" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="6" spot="LS39" context="H,3,6,H39" playid="10,7,77" type="P" tokens="PASS:16,I,15,*"
+      text="Danny Etling pass incomplete to Malachi Dupre." newcontext="H,4,6,H39">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="Malachi Dupre"></p_pa>
+   </play>
+   <play hasball="LS" down="4" togo="6" spot="LS39" context="H,4,6,H39" playid="10,8,78" type="U" tokens="PUNT:38,V10 RET:7,V10 TACK:35,44 PEN:V,BL,A,23,V05,N D:1,10 SPOT:V,V05,Y"
+      text="Josh Growden punt 51 yards to the UA10, Trevon Diggs return 0 yards to the UA10 (Devin Voorhies;J. Moore), PENALTY UA illegal block (Aaron Robinson) 5 yards to the UA5, 1st and 10, UA ball on UA5." newcontext="V,1,10,V05">
+    <p_pu vh="H" name="Josh Growden" gain="51" in20="Y"></p_pu>
+    <p_pr vh="V" name="Trevon Diggs" gain="0"></p_pr>
+    <p_tk vh="H" name="Devin Voorhies" assist="Y"></p_tk>
+    <p_tk vh="H" name="J. Moore" assist="Y"></p_tk>
+    <p_pn vh="V" code="BL" type="illegal block" name="Aaron Robinson" result="ACCEPT" at="V10" yards="5"></p_pn>
+   </play>
+   <drivesum plays="6" yards="15" top="3:36" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V05,02:16" vh="V" spot="V05" clock="02:16" driveindex="11,78"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA05" context="V,1,10,V05" playid="11,1,79" clock="02:16" tokens="{DRIVE}:02:16"
+      text="ALABAMA drive start at 02:16." newcontext="V,1,10,V05">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA05" context="V,1,10,V05" playid="11,2,80" type="R" tokens="RUSH:34,V06, TACK:95,57"
+      text="Damien Harris rush for 1 yard to the UA6 (Ed Alexander;Davon Godchaux)." newcontext="V,2,9,V06">
+    <p_ru vh="V" name="Damien Harris" gain="1"></p_ru>
+    <p_tk vh="H" name="Ed Alexander" assist="Y"></p_tk>
+    <p_tk vh="H" name="Davon Godchaux" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="9" spot="UA06" context="V,2,9,V06" playid="11,3,81" type="R" tokens="RUSH:34,V10, TACK:33,52"
+      text="Damien Harris rush for 4 yards to the UA10 (Jamal Adams;K. Beckwith)." newcontext="V,3,5,V10">
+    <p_ru vh="V" name="Damien Harris" gain="4"></p_ru>
+    <p_tk vh="H" name="Jamal Adams" assist="Y"></p_tk>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="5" spot="UA10" context="V,3,5,V10" playid="11,4,82" type="#" clock="01:25" tokens="TOUT:H T:01:25"
+      text="Timeout LSU, clock 01:25." newcontext="V,3,5,V10">
+    <p_to vh="H" team="LSU"></p_to>
+   </play>
+   <play hasball="UA" down="3" togo="5" spot="UA10" context="V,3,5,V10" playid="11,5,83" type="R" tokens="RUSH:2,V14, OB: TACK:57"
+      text="Jalen Hurts rush for 4 yards to the UA14, out-of-bounds (Davon Godchaux)." ob="Y" newcontext="V,4,1,V14">
+    <p_ru vh="V" name="Jalen Hurts" gain="4"></p_ru>
+    <p_tk vh="H" name="Davon Godchaux"></p_tk>
+   </play>
+   <play hasball="UA" down="4" togo="1" spot="UA14" context="V,4,1,V14" playid="11,6,84" type="E" tokens="PEN:V,DG,A,15,V10,N"
+      text="PENALTY UA delay of game (JK Scott) 4 yards to the UA10." newcontext="V,4,5,V10">
+    <p_pn vh="V" code="DG" type="delay of game" name="JK Scott" result="ACCEPT" at="V14" yards="4"></p_pn>
+   </play>
+   <play hasball="UA" down="4" togo="5" spot="UA10" context="V,4,5,V10" playid="11,7,85" type="U" tokens="PUNT:15,V47 OB:"
+      text="JK Scott punt 37 yards to the UA47, out-of-bounds." ob="Y" newcontext="H,1,10,V47">
+    <p_pu vh="V" name="JK Scott" gain="37" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="5" top="1:06" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,V47,01:10" vh="H" spot="V47" clock="01:10" driveindex="12,85"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="UA47" context="H,1,10,V47" playid="12,1,86" clock="01:10" tokens="{DRIVE}:01:10"
+      text="LSU drive start at 01:10." newcontext="H,1,10,V47">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="UA47" context="H,1,10,V47" playid="12,2,87" type="P" tokens="PASS:16,I,TM,* QBH:V,94"
+      text="Danny Etling pass incomplete, QB hurry by Da'Ron Payne." newcontext="H,2,10,V47">
+    <p_pa vh="H" qb="Danny Etling" result="INC"></p_pa>
+    <p_qbh vh="V" name="Da'Ron Payne"></p_qbh>
+   </play>
+   <play hasball="LS" down="2" togo="10" spot="UA47" context="H,2,10,V47" playid="12,3,88" type="R" tokens="RUSH:7,V45, TACK:10,1D"
+      text="L. Fournette rush for 2 yards to the UA45 (Reuben Foster;Ronnie Harrison)." newcontext="H,3,8,V45">
+    <p_ru vh="H" name="L. Fournette" gain="2"></p_ru>
+    <p_tk vh="V" name="Reuben Foster" assist="Y"></p_tk>
+    <p_tk vh="V" name="Ronnie Harrison" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="8" spot="UA45" context="H,3,8,V45" playid="12,4,89" type="P" tokens="PASS:16,C,83,V42 TACK:26"
+      text="Danny Etling pass complete to Travin Dural for 3 yards to the UA42 (Marlon Humphrey)." newcontext="H,4,5,V42">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="Travin Dural" gain="3"></p_pa>
+    <p_tk vh="V" name="Marlon Humphrey"></p_tk>
+   </play>
+   <play hasball="LS" down="4" togo="5" spot="UA42" context="H,4,5,V42" playid="12,5,90" type="#" clock="00:08" tokens="TOUT:H T:00:08"
+      text="Timeout LSU, clock 00:08." newcontext="H,4,5,V42">
+    <p_to vh="H" team="LSU"></p_to>
+   </play>
+   <play hasball="LS" down="4" togo="5" spot="UA42" context="H,4,5,V42" playid="12,6,91" type="P" tokens="PASS:16,B,15,* BRUP:29"
+      text="Danny Etling pass incomplete to Malachi Dupre (M. Fitzpatrick)." newcontext="V,1,10,V42">
+    <p_pa vh="H" qb="Danny Etling" result="BRUP" rcv="Malachi Dupre"></p_pa>
+    <p_bu vh="V" name="M. Fitzpatrick"></p_bu>
+   </play>
+   <drivesum plays="4" yards="5" top="1:09" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V42,00:01" vh="V" spot="V42" clock="00:01" driveindex="13,91"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA42" context="V,1,10,V42" playid="13,1,92" clock="00:01" tokens="{DRIVE}:00:01"
+      text="ALABAMA drive start at 00:01." newcontext="V,1,10,V42">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA42" context="V,1,10,V42" playid="13,2,93" type="P" tokens="PASS:2,I,TM,* QBH:H,92"
+      text="Jalen Hurts pass incomplete, QB hurry by Lewis Neal." newcontext="V,2,10,V42">
+    <p_pa vh="V" qb="Jalen Hurts" result="INC"></p_pa>
+    <p_qbh vh="H" name="Lewis Neal"></p_qbh>
+   </play>
+   <play hasball="UA" down="2" togo="10" spot="UA42" context="V,2,10,V42" playid="13,3,94" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00." newcontext="V,2,10,V42">
+   </play>
+   <drivesum plays="1" yards="0" top="0:01" driveindex="13" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="9"></penalties>
+    <conversions thirdconv="3" thirdatt="6" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:47"></misc>
+    <rush att="7" yds="55" gain="55" loss="0" td="0" long="15"></rush>
+    <pass comp="1" att="5" int="0" yds="21" td="0" long="12" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="21" td="0" long="12"></rcv>
+    <punt no="2" yds="103" long="15" blkd="0" tb="1" fc="0" plus50="1" inside20="0" avg="51.5"></punt>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <defense tackua="7" tacka="20" tot_tack="27" tflua="0" tfla="4" tflyds="3" sacks="0" sackyds="0" brup="1" qbh="1"></defense>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LS">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="3" thirdatt="6" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="11:13"></misc>
+    <rush att="13" yds="41" gain="44" loss="3" td="0" long="6"></rush>
+    <pass comp="4" att="8" int="0" yds="19" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="19" td="0" long="0"></rcv>
+    <punt no="2" yds="82" long="2" blkd="0" tb="0" fc="1" plus50="1" inside20="2" avg="41.0"></punt>
+    <defense tackua="3" tacka="12" tot_tack="15" sacks="0" sackyds="0" brup="1" qbh="1"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="UA" down="2" togo="10" spot="UA42" context="V,2,10,V42" playid="13,4,95" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:V,V35,N"
+      text="Start of 3rd quarter, clock 15:00, UA ball on UA35." newcontext="V,2,10,V35">
+   </play>
+   <play hasball="UA" down="2" togo="10" spot="UA35" context="V,2,10,V35" playid="13,5,96" type="K" tokens="KO:99,H00 TB:"
+      text="Adam Griffith kickoff 65 yards to the LS0, touchback." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Adam Griffith" gain="65" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H25,15:00" vh="H" spot="H25" clock="15:00" driveindex="14,96"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS25" context="H,1,10,H25" playid="14,1,97" clock="15:00" tokens="{DRIVE}:15:00"
+      text="LSU drive start at 15:00." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS25" context="H,1,10,H25" playid="14,2,98" type="P" tokens="PASS:16,S,TM,H19 SACK:22,10"
+      text="Danny Etling sacked for loss of 6 yards to the LS19 (Ryan Anderson;Reuben Foster)." newcontext="H,2,16,H19">
+    <p_pa vh="H" qb="Danny Etling" result="SACK" gain="-6"></p_pa>
+    <p_tk vh="V" name="Ryan Anderson" sack="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Reuben Foster" sack="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="16" spot="LS19" context="H,2,16,H19" playid="14,3,99" type="R" tokens="RUSH:7,H23, TACK:2A,22"
+      text="L. Fournette rush for 4 yards to the LS23 (Tony Brown;Ryan Anderson)." newcontext="H,3,12,H23">
+    <p_ru vh="H" name="L. Fournette" gain="4"></p_ru>
+    <p_tk vh="V" name="Tony Brown" assist="Y"></p_tk>
+    <p_tk vh="V" name="Ryan Anderson" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="12" spot="LS23" context="H,3,12,H23" playid="14,4,100" type="P" tokens="PASS:16,I,83,* QBH:V,93"
+      text="Danny Etling pass incomplete to Travin Dural, QB hurry by Jonathan Allen." newcontext="H,4,12,H23">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="Travin Dural"></p_pa>
+    <p_qbh vh="V" name="Jonathan Allen"></p_qbh>
+   </play>
+   <play hasball="LS" down="4" togo="12" spot="LS23" context="H,4,12,H23" playid="14,5,101" type="U" tokens="PUNT:38,V39 RET:TM,V39 FUMB:V,V39,7 +:7,V40 TACK:33"
+      text="Josh Growden punt 38 yards to the UA39, TEAM return 0 yards to the UA39, fumble by TEAM recovered by UA Trevon Diggs at UA39, Trevon Diggs for 1 yard to the UA40 (Jamal Adams)." newcontext="V,1,10,V40">
+    <p_pu vh="H" name="Josh Growden" gain="38"></p_pu>
+    <p_pr vh="V" name="TEAM" gain="0"></p_pr>
+    <p_fumb vh="V" name="TEAM" at="V39" frvh="V" frname="Trevon Diggs"></p_fumb>
+    <p_cont vh="V" name="Trevon Diggs" context="PUNT" at="V39" gain="1"></p_cont>
+    <p_tk vh="H" name="Jamal Adams"></p_tk>
+   </play>
+   <drivesum plays="3" yards="-2" top="1:39" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V40,13:21" vh="V" spot="V40" clock="13:21" driveindex="15,101"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA40" context="V,1,10,V40" playid="15,1,102" clock="13:21" tokens="{DRIVE}:13:21 SPOT:V,V40,Y"
+      text="ALABAMA drive start at 13:21, UA ball on UA40." newcontext="V,1,10,V40">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA40" context="V,1,10,V40" playid="15,2,103" type="P" first="P" tokens="PASS:2,C,13,H08 TACK:1"
+      text="Jalen Hurts pass complete to A. Stewart for 52 yards to the LS8, 1ST DOWN UA (Donte Jackson)." newcontext="V,1,0,H08">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="A. Stewart" gain="52"></p_pa>
+    <p_tk vh="H" name="Donte Jackson"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="0" spot="LS08" context="V,1,0,H08" playid="15,3,104" type="R" tokens="RUSH:34,H05, TACK:57,52"
+      text="Damien Harris rush for 3 yards to the LS5 (Davon Godchaux;K. Beckwith)." newcontext="V,2,0,H05">
+    <p_ru vh="V" name="Damien Harris" gain="3"></p_ru>
+    <p_tk vh="H" name="Davon Godchaux" assist="Y"></p_tk>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="0" spot="LS05" context="V,2,0,H05" playid="15,4,105" type="R" tokens="RUSH:34,H05, TACK:92,49"
+      text="Damien Harris rush for no gain to the LS5 (Lewis Neal;Arden Key)." newcontext="V,3,0,H05">
+    <p_ru vh="V" name="Damien Harris" gain="0"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="Arden Key" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="0" spot="LS05" context="V,3,0,H05" playid="15,5,106" type="R" tokens="RUSH:2,H01, TACK:40"
+      text="Jalen Hurts rush for 4 yards to the LS1 (Duke Riley)." newcontext="V,4,0,H01">
+    <p_ru vh="V" name="Jalen Hurts" gain="4"></p_ru>
+    <p_tk vh="H" name="Duke Riley"></p_tk>
+   </play>
+   <play hasball="UA" down="4" togo="0" spot="LS01" context="V,4,0,H01" playid="15,6,107" type="R" tokens="RUSH:2,H06, TACK:40,49"
+      text="Jalen Hurts rush for loss of 5 yards to the LS6 (Duke Riley;Arden Key)." newcontext="H,1,10,H06">
+    <p_ru vh="V" name="Jalen Hurts" gain="-5"></p_ru>
+    <p_tk vh="H" name="Duke Riley" assist="Y"></p_tk>
+    <p_tk vh="H" name="Arden Key" assist="Y"></p_tk>
+   </play>
+   <drivesum plays="5" yards="54" top="1:51" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H06,11:30" vh="H" spot="H06" clock="11:30" driveindex="16,107"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS06" context="H,1,10,H06" playid="16,1,108" clock="11:30" tokens="{DRIVE}:11:30"
+      text="LSU drive start at 11:30." newcontext="H,1,10,H06">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS06" context="H,1,10,H06" playid="16,2,109" type="R" tokens="RUSH:7,H07, TACK:20"
+      text="L. Fournette rush for 1 yard to the LS7 (S. Hamilton)." newcontext="H,2,9,H07">
+    <p_ru vh="H" name="L. Fournette" gain="1"></p_ru>
+    <p_tk vh="V" name="S. Hamilton"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="9" spot="LS07" context="H,2,9,H07" playid="16,3,110" type="#" clock="10:58" tokens="TOUT:H T:10:58"
+      text="Timeout LSU, clock 10:58." newcontext="H,2,9,H07">
+    <p_to vh="H" team="LSU"></p_to>
+   </play>
+   <play hasball="LS" down="2" togo="9" spot="LS07" context="H,2,9,H07" playid="16,4,111" type="P" tokens="PASS:16,B,82,* BRUP:28"
+      text="Danny Etling pass incomplete to DJ Chark (Anthony Averett)." newcontext="H,3,9,H07">
+    <p_pa vh="H" qb="Danny Etling" result="BRUP" rcv="DJ Chark"></p_pa>
+    <p_bu vh="V" name="Anthony Averett"></p_bu>
+   </play>
+   <play hasball="LS" down="3" togo="9" spot="LS07" context="H,3,9,H07" playid="16,5,112" type="P" tokens="PASS:16,C,7,H15 TACK:10,54"
+      text="Danny Etling pass complete to L. Fournette for 8 yards to the LS15 (Reuben Foster;D. Tomlinson)." newcontext="H,4,1,H15">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="L. Fournette" gain="8"></p_pa>
+    <p_tk vh="V" name="Reuben Foster" assist="Y"></p_tk>
+    <p_tk vh="V" name="D. Tomlinson" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="4" togo="1" spot="LS15" context="H,4,1,H15" playid="16,6,113" type="U" tokens="PUNT:38,V46 OB:"
+      text="Josh Growden punt 39 yards to the UA46, out-of-bounds." ob="Y" newcontext="V,1,10,V46">
+    <p_pu vh="H" name="Josh Growden" gain="39" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="9" top="1:31" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,V46,09:59" vh="V" spot="V46" clock="09:59" driveindex="17,113"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA46" context="V,1,10,V46" playid="17,1,114" clock="09:59" tokens="{DRIVE}:09:59"
+      text="ALABAMA drive start at 09:59." newcontext="V,1,10,V46">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA46" context="V,1,10,V46" playid="17,2,115" type="R" tokens="RUSH:25,V47, TACK:40,97"
+      text="Josh Jacobs rush for 1 yard to the UA47 (Duke Riley;Frank Herron)." newcontext="V,2,9,V47">
+    <p_ru vh="V" name="Josh Jacobs" gain="1"></p_ru>
+    <p_tk vh="H" name="Duke Riley" assist="Y"></p_tk>
+    <p_tk vh="H" name="Frank Herron" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="9" spot="UA47" context="V,2,9,V47" playid="17,3,116" type="R" tokens="RUSH:2,V40, TACK:18"
+      text="Jalen Hurts rush for loss of 7 yards to the UA40 (T. White)." newcontext="V,3,16,V40">
+    <p_ru vh="V" name="Jalen Hurts" gain="-7"></p_ru>
+    <p_tk vh="H" name="T. White"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="16" spot="UA40" context="V,3,16,V40" playid="17,4,117" type="P" tokens="PASS:2,C,25,V43 TACK:52,57"
+      text="Jalen Hurts pass complete to Josh Jacobs for 3 yards to the UA43 (K. Beckwith;Davon Godchaux)." newcontext="V,4,13,V43">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="Josh Jacobs" gain="3"></p_pa>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+    <p_tk vh="H" name="Davon Godchaux" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="4" togo="13" spot="UA43" context="V,4,13,V43" playid="17,5,118" type="U" tokens="PUNT:15,H03 RET:18,H03 TACK:31"
+      text="JK Scott punt 54 yards to the LS3, T. White return 0 yards to the LS3 (Keaton Anderson)." newcontext="H,1,10,H03">
+    <p_pu vh="V" name="JK Scott" gain="54" in20="Y"></p_pu>
+    <p_pr vh="H" name="T. White" gain="0"></p_pr>
+    <p_tk vh="V" name="Keaton Anderson"></p_tk>
+   </play>
+   <drivesum plays="3" yards="-3" top="2:11" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H03,07:48" vh="H" spot="H03" clock="07:48" driveindex="18,118"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS03" context="H,1,10,H03" playid="18,1,119" clock="07:48" tokens="{DRIVE}:07:48"
+      text="LSU drive start at 07:48." newcontext="H,1,10,H03">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS03" context="H,1,10,H03" playid="18,2,120" type="R" tokens="RUSH:7,H09, TACK:20"
+      text="L. Fournette rush for 6 yards to the LS9 (S. Hamilton)." newcontext="H,2,4,H09">
+    <p_ru vh="H" name="L. Fournette" gain="6"></p_ru>
+    <p_tk vh="V" name="S. Hamilton"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="4" spot="LS09" context="H,2,4,H09" playid="18,3,121" type="R" tokens="RUSH:7,H10, TACK:10,54"
+      text="L. Fournette rush for 1 yard to the LS10 (Reuben Foster;D. Tomlinson)." newcontext="H,3,3,H10">
+    <p_ru vh="H" name="L. Fournette" gain="1"></p_ru>
+    <p_tk vh="V" name="Reuben Foster" assist="Y"></p_tk>
+    <p_tk vh="V" name="D. Tomlinson" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="3" spot="LS10" context="H,3,3,H10" playid="18,4,122" type="#" clock="06:30" tokens="TOUT:H T:06:30"
+      text="Timeout LSU, clock 06:30." newcontext="H,3,3,H10">
+    <p_to vh="H" team="LSU"></p_to>
+   </play>
+   <play hasball="LS" down="3" togo="3" spot="LS10" context="H,3,3,H10" playid="18,5,123" type="P" tokens="PASS:16,I,83,*"
+      text="Danny Etling pass incomplete to Travin Dural." newcontext="H,4,3,H10">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="Travin Dural"></p_pa>
+   </play>
+   <play hasball="LS" down="4" togo="3" spot="LS10" context="H,4,3,H10" playid="18,6,124" type="U" tokens="PUNT:38,V42 FC:7"
+      text="Josh Growden punt 48 yards to the UA42, fair catch by Trevon Diggs." newcontext="V,1,10,V42">
+    <p_pu vh="H" name="Josh Growden" gain="48" fc="Trevon Diggs"></p_pu>
+   </play>
+   <drivesum plays="3" yards="7" top="1:31" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="V,V42,06:17" vh="V" spot="V42" clock="06:17" driveindex="19,124"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA42" context="V,1,10,V42" playid="19,1,125" clock="06:17" tokens="{DRIVE}:06:17"
+      text="ALABAMA drive start at 06:17." newcontext="V,1,10,V42">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA42" context="V,1,10,V42" playid="19,2,126" type="R" tokens="RUSH:13,V46, OB: TACK:26"
+      text="A. Stewart rush for 4 yards to the UA46, out-of-bounds (John Battle)." ob="Y" newcontext="V,2,6,V46">
+    <p_ru vh="V" name="A. Stewart" gain="4"></p_ru>
+    <p_tk vh="H" name="John Battle"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="6" spot="UA46" context="V,2,6,V46" playid="19,3,127" type="P" turnover="F" tokens="PASS:2,F,TM,V41 SACK:97 FUMB:H,V42,49"
+      text="Jalen Hurts sacked for loss of 5 yards to the UA41 (Frank Herron), fumble by Jalen Hurts recovered by LS Arden Key at UA42." newcontext="H,1,10,V42">
+    <p_pa vh="V" qb="Jalen Hurts" result="FUMB" gain="-5"></p_pa>
+    <p_fumb vh="V" name="Jalen Hurts" at="V42" frvh="H" frname="Arden Key"></p_fumb>
+    <p_tk vh="H" name="Frank Herron" sack="Y"></p_tk>
+   </play>
+   <drivesum plays="2" yards="0" top="0:35" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,V42,05:42" vh="H" spot="V42" clock="05:42" driveindex="20,127"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="UA42" context="H,1,10,V42" playid="20,1,128" clock="05:42" tokens="{DRIVE}:05:42"
+      text="LSU drive start at 05:42." newcontext="H,1,10,V42">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="UA42" context="H,1,10,V42" playid="20,2,129" type="P" tokens="PASS:16,C,81,V37 OB: TACK:94"
+      text="Danny Etling pass complete to Colin Jeter for 5 yards to the UA37, out-of-bounds (Da'Ron Payne)." ob="Y" newcontext="H,2,5,V37">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="Colin Jeter" gain="5"></p_pa>
+    <p_tk vh="V" name="Da'Ron Payne"></p_tk>
+   </play>
+   <play hasball="LS" down="2" togo="5" spot="UA37" context="H,2,5,V37" playid="20,3,130" type="E" tokens="PEN:V,UC,O PEN:V,UC,O NOPLAY: PEN:V,UC,O PEN:H,UC,O NOPLAY:"
+      text="PENALTY UA unsportsmanlike conduct off-setting, PENALTY UA unsportsmanlike conduct off-setting, NO PLAY, PENALTY UA unsportsmanlike conduct off-setting, PENALTY LS unsportsmanlike conduct off-setting, NO PLAY." newcontext="H,2,5,V37">
+    <p_pn vh="V" code="UC" type="unsportsmanlike conduct" result="OFFSET"></p_pn>
+    <p_pn vh="V" code="UC" type="unsportsmanlike conduct" result="OFFSET"></p_pn>
+    <p_pn vh="V" code="UC" type="unsportsmanlike conduct" result="OFFSET"></p_pn>
+    <p_pn vh="H" code="UC" type="unsportsmanlike conduct" result="OFFSET"></p_pn>
+   </play>
+   <play hasball="LS" down="2" togo="5" spot="UA37" context="H,2,5,V37" playid="20,4,131" type="R" tokens="RUSH:7,V35, TACK:10,20"
+      text="L. Fournette rush for 2 yards to the UA35 (Reuben Foster;S. Hamilton)." newcontext="H,3,3,V35">
+    <p_ru vh="H" name="L. Fournette" gain="2"></p_ru>
+    <p_tk vh="V" name="Reuben Foster" assist="Y"></p_tk>
+    <p_tk vh="V" name="S. Hamilton" assist="Y"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="3" spot="UA35" context="H,3,3,V35" playid="20,5,132" type="E" tokens="PEN:H,DG,A,16,V40,N"
+      text="PENALTY LS delay of game (Danny Etling) 5 yards to the UA40." newcontext="H,3,8,V40">
+    <p_pn vh="H" code="DG" type="delay of game" name="Danny Etling" result="ACCEPT" at="V35" yards="5"></p_pn>
+   </play>
+   <play hasball="LS" down="3" togo="8" spot="UA40" context="H,3,8,V40" playid="20,6,133" type="P" tokens="PASS:16,S,TM,H49 SACK:54 PEN:H,IG,A,16,H49,+"
+      text="Danny Etling sacked for loss of 11 yards to the LS49 (D. Tomlinson), PENALTY LS intentional grounding (Danny Etling) 0 yards to the LS49." newcontext="H,4,19,H49">
+    <p_pa vh="H" qb="Danny Etling" result="SACK" gain="-11"></p_pa>
+    <p_tk vh="V" name="D. Tomlinson" sack="Y"></p_tk>
+    <p_pn vh="H" code="IG" type="intentional grounding" name="Danny Etling" result="ACCEPT"></p_pn>
+   </play>
+   <play hasball="LS" down="4" togo="19" spot="LS49" context="H,4,19,H49" playid="20,7,134" tokens="D:4,19"
+      text="4th and 19." newcontext="H,4,19,H49">
+   </play>
+   <play hasball="LS" down="4" togo="19" spot="LS49" context="H,4,19,H49" playid="20,8,135" type="U" tokens="PUNT:38,V10 FC:7"
+      text="Josh Growden punt 41 yards to the UA10, fair catch by Trevon Diggs." newcontext="V,1,10,V10">
+    <p_pu vh="H" name="Josh Growden" gain="41" in20="Y" fc="Trevon Diggs"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-9" top="1:37" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="V,V10,04:05" vh="V" spot="V10" clock="04:05" driveindex="21,135"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA10" context="V,1,10,V10" playid="21,1,136" clock="04:05" tokens="{DRIVE}:04:05"
+      text="ALABAMA drive start at 04:05." newcontext="V,1,10,V10">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA10" context="V,1,10,V10" playid="21,2,137" type="R" tokens="RUSH:25,V05, TACK:13"
+      text="Josh Jacobs rush for loss of 5 yards to the UA5 (Dwayne Thomas)." newcontext="V,2,15,V05">
+    <p_ru vh="V" name="Josh Jacobs" gain="-5"></p_ru>
+    <p_tk vh="H" name="Dwayne Thomas"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="15" spot="UA05" context="V,2,15,V05" playid="21,3,138" type="P" first="P" tokens="PASS:2,C,87,V27 OB: TACK:33"
+      text="Jalen Hurts pass complete to M. Forristall for 22 yards to the UA27, 1ST DOWN UA, out-of-bounds (Jamal Adams)." ob="Y" newcontext="V,1,10,V27">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="M. Forristall" gain="22"></p_pa>
+    <p_tk vh="H" name="Jamal Adams"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA27" context="V,1,10,V27" playid="21,4,139" type="R" tokens="RUSH:9,V35, OB: TACK:52"
+      text="Bo Scarbrough rush for 8 yards to the UA35, out-of-bounds (K. Beckwith)." ob="Y" newcontext="V,2,2,V35">
+    <p_ru vh="V" name="Bo Scarbrough" gain="8"></p_ru>
+    <p_tk vh="H" name="K. Beckwith"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="2" spot="UA35" context="V,2,2,V35" playid="21,5,140" type="E" tokens="PASS:2,I,34,* PEN:V,ID,A,88,V30,N NOPLAY:"
+      text="Jalen Hurts pass incomplete to Damien Harris, PENALTY UA ineligible downfield on pass (O.J. Howard) 5 yards to the UA30, NO PLAY." newcontext="V,2,7,V30">
+    <p_pn vh="V" code="ID" type="ineligible downfield on pass" name="O.J. Howard" result="ACCEPT" at="V35" yards="5"></p_pn>
+   </play>
+   <play hasball="UA" down="2" togo="7" spot="UA30" context="V,2,7,V30" playid="21,6,141" type="R" first="E" tokens="RUSH:2,V32, OB: TACK:24 PEN:H,PF,A,24,V47,N"
+      text="Jalen Hurts rush for 2 yards to the UA32, out-of-bounds (Devin White), PENALTY LS personal foul (Devin White) 15 yards to the UA47, 1ST DOWN UA." ob="Y" newcontext="V,1,10,V47">
+    <p_ru vh="V" name="Jalen Hurts" gain="2"></p_ru>
+    <p_tk vh="H" name="Devin White"></p_tk>
+    <p_pn vh="H" code="PF" type="personal foul" name="Devin White" result="ACCEPT" at="V32" yards="15"></p_pn>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA47" context="V,1,10,V47" playid="21,7,142" tokens="D:1,10"
+      text="1st and 10." newcontext="V,1,10,V47">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="UA47" context="V,1,10,V47" playid="21,8,143" type="R" first="R" tokens="RUSH:2,H41, TACK:92,24"
+      text="Jalen Hurts rush for 12 yards to the LS41, 1ST DOWN UA (Lewis Neal;Devin White)." newcontext="V,1,10,H41">
+    <p_ru vh="V" name="Jalen Hurts" gain="12"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="Devin White" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS41" context="V,1,10,H41" playid="21,9,144" type="R" tokens="RUSH:34,H37, OB: TACK:1"
+      text="Damien Harris rush for 4 yards to the LS37, out-of-bounds (Donte Jackson)." ob="Y" newcontext="V,2,6,H37">
+    <p_ru vh="V" name="Damien Harris" gain="4"></p_ru>
+    <p_tk vh="H" name="Donte Jackson"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="6" spot="LS37" context="V,2,6,H37" playid="21,10,145" type="R" tokens="RUSH:9,H34, TACK:92,52"
+      text="Bo Scarbrough rush for 3 yards to the LS34 (Lewis Neal;K. Beckwith)." newcontext="V,3,3,H34">
+    <p_ru vh="V" name="Bo Scarbrough" gain="3"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="3" spot="LS34" context="V,3,3,H34" playid="21,11,146" type="P" tokens="PASS:2,C,3,H32 TACK:33"
+      text="Jalen Hurts pass complete to Calvin Ridley for 2 yards to the LS32 (Jamal Adams)." newcontext="V,4,1,H32">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="Calvin Ridley" gain="2"></p_pa>
+    <p_tk vh="H" name="Jamal Adams"></p_tk>
+   </play>
+   <score qtr="3" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="4" rush="1" pass="2" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="2" lost="1"></fumbles>
+    <misc yds="0" top="08:42"></misc>
+    <rush att="14" yds="20" gain="41" loss="21" td="0" long="0"></rush>
+    <pass comp="4" att="4" int="0" yds="79" td="0" long="31" sacks="1" sackyds="5"></pass>
+    <rcv no="4" yds="79" td="0" long="31"></rcv>
+    <punt no="1" yds="54" long="0" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="54.0"></punt>
+    <ko no="1" yds="65" ob="0" tb="1"></ko>
+    <defense tackua="5" tacka="10" tot_tack="15" tflua="1" tfla="2" tflyds="17" sacks="2" sackyds="17" brup="1" qbh="1"></defense>
+    <pr no="1" yds="1" td="0" long="1"></pr>
+    <fumbles no="2" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LS">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:18"></misc>
+    <rush att="7" yds="-3" gain="14" loss="17" td="0" long="0"></rush>
+    <pass comp="2" att="5" int="0" yds="13" td="0" long="0" sacks="2" sackyds="17"></pass>
+    <rcv no="2" yds="13" td="0" long="0"></rcv>
+    <punt no="4" yds="166" long="0" blkd="0" tb="0" fc="2" plus50="0" inside20="1" avg="41.5"></punt>
+    <defense tackua="12" tacka="14" tot_tack="26" tflua="3" tfla="2" tflyds="22" sacks="1" sackyds="5" ff="1" fr="1" fryds="0"></defense>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="UA" down="4" togo="1" spot="LS32" context="V,4,1,H32" playid="21,12,147" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00." newcontext="V,4,1,H32">
+   </play>
+   <play hasball="UA" down="4" togo="1" spot="LS32" context="V,4,1,H32" playid="21,13,148" type="R" first="R" tokens="RUSH:9,H22, OB: TACK:40"
+      text="Bo Scarbrough rush for 10 yards to the LS22, 1ST DOWN UA, out-of-bounds (Duke Riley)." ob="Y" newcontext="V,1,10,H22">
+    <p_ru vh="V" name="Bo Scarbrough" gain="10"></p_ru>
+    <p_tk vh="H" name="Duke Riley"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS22" context="V,1,10,H22" playid="21,14,149" type="R" tokens="RUSH:9,H20, TACK:40"
+      text="Bo Scarbrough rush for 2 yards to the LS20 (Duke Riley)." newcontext="V,2,8,H20">
+    <p_ru vh="V" name="Bo Scarbrough" gain="2"></p_ru>
+    <p_tk vh="H" name="Duke Riley"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="8" spot="LS20" context="V,2,8,H20" playid="21,15,150" type="R" tokens="RUSH:9,H21, TACK:40,18"
+      text="Bo Scarbrough rush for loss of 1 yard to the LS21 (Duke Riley;T. White)." newcontext="V,3,9,H21">
+    <p_ru vh="V" name="Bo Scarbrough" gain="-1"></p_ru>
+    <p_tk vh="H" name="Duke Riley" assist="Y"></p_tk>
+    <p_tk vh="H" name="T. White" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="9" spot="LS21" context="V,3,9,H21" playid="21,16,151" type="R" first="R" score="Y" vscore="6" hscore="0" clock="13:08" tokens="RUSH:2,H00, T:13:08"
+      text="Jalen Hurts rush for 21 yards to the LS0, 1ST DOWN UA, TOUCHDOWN, clock 13:08." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Jalen Hurts" gain="21"></p_ru>
+   </play>
+   <play hasball="UA" down="1" togo="0" spot="LS03" context="V,1,0,H03" playid="21,17,152" type="X" score="Y" vscore="7" hscore="0" tokens="PAT:K,99,G"
+      text="Adam Griffith kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Adam Griffith" qb="Adam Griffith" type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="0"></score>
+   <drivesum plays="12" yards="90" top="5:57" driveindex="21" complete="Y"></drivesum>
+   <play hasball="UA" down="1" togo="0" spot="UA35" context="V,1,0,V35" playid="21,18,153" type="K" tokens="KO:99,H00 TB:"
+      text="Adam Griffith kickoff 65 yards to the LS0, touchback." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Adam Griffith" gain="65" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H25,13:08" vh="H" spot="H25" clock="13:08" driveindex="22,153"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS25" context="H,1,10,H25" playid="22,1,154" clock="13:08" tokens="{DRIVE}:13:08"
+      text="LSU drive start at 13:08." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS25" context="H,1,10,H25" playid="22,2,155" type="P" first="P" tokens="PASS:16,C,81,H38 TACK:10"
+      text="Danny Etling pass complete to Colin Jeter for 13 yards to the LS38, 1ST DOWN LS (Reuben Foster)." newcontext="H,1,10,H38">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="Colin Jeter" gain="13"></p_pa>
+    <p_tk vh="V" name="Reuben Foster"></p_tk>
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS38" context="H,1,10,H38" playid="22,3,156" type="P" turnover="I" tokens="PASS:16,X,29,V43 RET:29,V43 QBH:V,22"
+      text="Danny Etling pass intercepted by M. Fitzpatrick at the UA43, M. Fitzpatrick return 0 yards to the UA43, QB hurry by Ryan Anderson." newcontext="V,1,10,V43">
+    <p_pa vh="H" qb="Danny Etling" result="INT"></p_pa>
+    <p_ir vh="V" name="M. Fitzpatrick" at="V43" gain="0"></p_ir>
+    <p_qbh vh="V" name="Ryan Anderson"></p_qbh>
+   </play>
+   <drivesum plays="2" yards="13" top="0:36" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,V43,12:32" vh="V" spot="V43" clock="12:32" driveindex="23,156"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="UA43" context="V,1,10,V43" playid="23,1,157" clock="12:32" tokens="{DRIVE}:12:32"
+      text="ALABAMA drive start at 12:32." newcontext="V,1,10,V43">
+   </play>
+   <comment text="PLAY WAS REVIEWED AND STOOD"></comment>
+   <play hasball="UA" down="1" togo="10" spot="UA43" context="V,1,10,V43" playid="23,2,159" type="R" tokens="RUSH:2,V44, TACK:18"
+      text="Jalen Hurts rush for 1 yard to the UA44 (T. White)." newcontext="V,2,9,V44">
+    <p_ru vh="V" name="Jalen Hurts" gain="1"></p_ru>
+    <p_tk vh="H" name="T. White"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="9" spot="UA44" context="V,2,9,V44" playid="23,3,160" type="R" tokens="RUSH:9,H48, TACK:97,92"
+      text="Bo Scarbrough rush for 8 yards to the LS48 (Frank Herron;Lewis Neal)." newcontext="V,3,1,H48">
+    <p_ru vh="V" name="Bo Scarbrough" gain="8"></p_ru>
+    <p_tk vh="H" name="Frank Herron" assist="Y"></p_tk>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="1" spot="LS48" context="V,3,1,H48" playid="23,4,161" type="R" first="R" tokens="RUSH:2,H46, TACK:92,97"
+      text="Jalen Hurts rush for 2 yards to the LS46, 1ST DOWN UA (Lewis Neal;Frank Herron)." newcontext="V,1,10,H46">
+    <p_ru vh="V" name="Jalen Hurts" gain="2"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="Frank Herron" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS46" context="V,1,10,H46" playid="23,5,162" type="R" tokens="RUSH:2,H39, OB: TACK:49"
+      text="Jalen Hurts rush for 7 yards to the LS39, out-of-bounds (Arden Key)." ob="Y" newcontext="V,2,3,H39">
+    <p_ru vh="V" name="Jalen Hurts" gain="7"></p_ru>
+    <p_tk vh="H" name="Arden Key"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="3" spot="LS39" context="V,2,3,H39" playid="23,6,163" type="R" first="R" tokens="RUSH:2,H35, TACK:92,99"
+      text="Jalen Hurts rush for 4 yards to the LS35, 1ST DOWN UA (Lewis Neal;Greg Gilmore)." newcontext="V,1,10,H35">
+    <p_ru vh="V" name="Jalen Hurts" gain="4"></p_ru>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+    <p_tk vh="H" name="Greg Gilmore" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS35" context="V,1,10,H35" playid="23,7,164" type="E" tokens="PEN:V,FS,A,3,H40,N"
+      text="PENALTY UA false start (Calvin Ridley) 5 yards to the LS40." newcontext="V,1,15,H40">
+    <p_pn vh="V" code="FS" type="false start" name="Calvin Ridley" result="ACCEPT" at="H35" yards="5"></p_pn>
+   </play>
+   <play hasball="UA" down="1" togo="15" spot="LS40" context="V,1,15,H40" playid="23,8,165" type="P" tokens="PASS:2,C,13,H39 TACK:1"
+      text="Jalen Hurts pass complete to A. Stewart for 1 yard to the LS39 (Donte Jackson)." newcontext="V,2,14,H39">
+    <p_pa vh="V" qb="Jalen Hurts" result="COMP" rcv="A. Stewart" gain="1"></p_pa>
+    <p_tk vh="H" name="Donte Jackson"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="14" spot="LS39" context="V,2,14,H39" playid="23,9,166" type="R" tokens="RUSH:2,H40, TACK:40"
+      text="Jalen Hurts rush for loss of 1 yard to the LS40 (Duke Riley)." newcontext="V,3,15,H40">
+    <p_ru vh="V" name="Jalen Hurts" gain="-1"></p_ru>
+    <p_tk vh="H" name="Duke Riley"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="15" spot="LS40" context="V,3,15,H40" playid="23,10,167" type="#" clock="07:40" tokens="TOUT:V T:07:40"
+      text="Timeout Alabama, clock 07:40." newcontext="V,3,15,H40">
+    <p_to vh="V" team="Alabama"></p_to>
+   </play>
+   <play hasball="UA" down="3" togo="15" spot="LS40" context="V,3,15,H40" playid="23,11,168" type="R" first="R" tokens="RUSH:2,H17, TACK:49"
+      text="Jalen Hurts rush for 23 yards to the LS17, 1ST DOWN UA (Arden Key)." newcontext="V,1,10,H17">
+    <p_ru vh="V" name="Jalen Hurts" gain="23"></p_ru>
+    <p_tk vh="H" name="Arden Key"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS17" context="V,1,10,H17" playid="23,12,169" type="R" tokens="RUSH:9,H10, TACK:26,57"
+      text="Bo Scarbrough rush for 7 yards to the LS10 (John Battle;Davon Godchaux)." newcontext="V,2,3,H10">
+    <p_ru vh="V" name="Bo Scarbrough" gain="7"></p_ru>
+    <p_tk vh="H" name="John Battle" assist="Y"></p_tk>
+    <p_tk vh="H" name="Davon Godchaux" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="3" spot="LS10" context="V,2,3,H10" playid="23,13,170" type="R" tokens="RUSH:9,H11, TACK:33,92"
+      text="Bo Scarbrough rush for loss of 1 yard to the LS11 (Jamal Adams;Lewis Neal)." newcontext="V,3,4,H11">
+    <p_ru vh="V" name="Bo Scarbrough" gain="-1"></p_ru>
+    <p_tk vh="H" name="Jamal Adams" assist="Y"></p_tk>
+    <p_tk vh="H" name="Lewis Neal" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="4" spot="LS11" context="V,3,4,H11" playid="23,14,171" type="E" tokens="PEN:V,FS,A,74,H16,N"
+      text="PENALTY UA false start (Cam Robinson) 5 yards to the LS16." newcontext="V,3,9,H16">
+    <p_pn vh="V" code="FS" type="false start" name="Cam Robinson" result="ACCEPT" at="H11" yards="5"></p_pn>
+   </play>
+   <play hasball="UA" down="3" togo="9" spot="LS16" context="V,3,9,H16" playid="23,15,172" type="R" first="R" tokens="RUSH:2,H05, TACK:13,52"
+      text="Jalen Hurts rush for 11 yards to the LS5, 1ST DOWN UA (Dwayne Thomas;K. Beckwith)." newcontext="V,1,0,H05">
+    <p_ru vh="V" name="Jalen Hurts" gain="11"></p_ru>
+    <p_tk vh="H" name="Dwayne Thomas" assist="Y"></p_tk>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="0" spot="LS05" context="V,1,0,H05" playid="23,16,173" type="R" tokens="RUSH:34,H01, TACK:52"
+      text="Damien Harris rush for 4 yards to the LS1 (K. Beckwith)." newcontext="V,2,0,H01">
+    <p_ru vh="V" name="Damien Harris" gain="4"></p_ru>
+    <p_tk vh="H" name="K. Beckwith"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="0" spot="LS01" context="V,2,0,H01" playid="23,17,174" type="#" clock="03:51" tokens="TOUT:V T:03:51"
+      text="Timeout Alabama, clock 03:51." newcontext="V,2,0,H01">
+    <p_to vh="V" team="Alabama"></p_to>
+   </play>
+   <play hasball="UA" down="2" togo="0" spot="LS01" context="V,2,0,H01" playid="23,18,175" type="R" tokens="RUSH:9,H02, TACK:33,52"
+      text="Bo Scarbrough rush for loss of 1 yard to the LS2 (Jamal Adams;K. Beckwith)." newcontext="V,3,0,H02">
+    <p_ru vh="V" name="Bo Scarbrough" gain="-1"></p_ru>
+    <p_tk vh="H" name="Jamal Adams" assist="Y"></p_tk>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="3" togo="0" spot="LS02" context="V,3,0,H02" playid="23,19,176" type="E" tokens="PEN:V,FS,A,71,H07,N"
+      text="PENALTY UA false start (R.Pierschbacher) 5 yards to the LS7." newcontext="V,3,0,H07">
+    <p_pn vh="V" code="FS" type="false start" name="R.Pierschbacher" result="ACCEPT" at="H02" yards="5"></p_pn>
+   </play>
+   <play hasball="UA" down="3" togo="0" spot="LS07" context="V,3,0,H07" playid="23,20,177" type="P" tokens="PASS:2,I,34,* QBH:H,92"
+      text="Jalen Hurts pass incomplete to Damien Harris, QB hurry by Lewis Neal." newcontext="V,4,0,H07">
+    <p_pa vh="V" qb="Jalen Hurts" result="INC" rcv="Damien Harris"></p_pa>
+    <p_qbh vh="H" name="Lewis Neal"></p_qbh>
+   </play>
+   <play hasball="UA" down="4" togo="0" spot="LS07" context="V,4,0,H07" playid="23,21,178" type="F" score="Y" vscore="10" hscore="0" clock="02:41" tokens="FGA:99,25,G T:02:41"
+      text="Adam Griffith field goal attempt from 25 GOOD, clock 02:41." newcontext="V,1,0,V35">
+    <p_fg vh="V" name="Adam Griffith" distance="25" result="GOOD" score="Y"></p_fg>
+   </play>
+   <score V="10" H="0"></score>
+   <drivesum plays="15" yards="50" top="9:51" driveindex="23" complete="Y"></drivesum>
+   <play hasball="UA" down="1" togo="0" spot="UA35" context="V,1,0,V35" playid="23,22,179" type="K" tokens="KO:99,H06 RET:1,H33 OB: TACK:25"
+      text="Adam Griffith kickoff 59 yards to the LS6, Donte Jackson return 27 yards to the LS33, out-of-bounds (Josh Jacobs)." ob="Y" newcontext="H,1,10,H33">
+    <p_ko vh="V" name="Adam Griffith" gain="59"></p_ko>
+    <p_kr vh="H" name="Donte Jackson" gain="27"></p_kr>
+    <p_tk vh="V" name="Josh Jacobs"></p_tk>
+   </play>
+   <drivestart poss="H,H33,02:34" vh="H" spot="H33" clock="02:34" driveindex="24,179"></drivestart>
+   <play hasball="LS" down="1" togo="10" spot="LS33" context="H,1,10,H33" playid="24,1,180" clock="02:34" tokens="{DRIVE}:02:34"
+      text="LSU drive start at 02:34." newcontext="H,1,10,H33">
+   </play>
+   <play hasball="LS" down="1" togo="10" spot="LS33" context="H,1,10,H33" playid="24,2,181" type="P" tokens="PASS:16,I,89,* BRUP:22"
+      text="Danny Etling pass incomplete to DeSean Smith (Ryan Anderson)." newcontext="H,2,10,H33">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="DeSean Smith"></p_pa>
+    <p_bu vh="V" name="Ryan Anderson"></p_bu>
+   </play>
+   <play hasball="LS" down="2" togo="10" spot="LS33" context="H,2,10,H33" playid="24,3,182" type="P" tokens="PASS:16,C,82,H35 TACK:26"
+      text="Danny Etling pass complete to DJ Chark for 2 yards to the LS35 (Marlon Humphrey)." newcontext="H,3,8,H35">
+    <p_pa vh="H" qb="Danny Etling" result="COMP" rcv="DJ Chark" gain="2"></p_pa>
+    <p_tk vh="V" name="Marlon Humphrey"></p_tk>
+   </play>
+   <play hasball="LS" down="3" togo="8" spot="LS35" context="H,3,8,H35" playid="24,4,183" type="P" tokens="PASS:16,I,89,*"
+      text="Danny Etling pass incomplete to DeSean Smith." newcontext="H,4,8,H35">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="DeSean Smith"></p_pa>
+   </play>
+   <play hasball="LS" down="4" togo="8" spot="LS35" context="H,4,8,H35" playid="24,5,184" type="P" tokens="PASS:16,I,89,* BRUP:1D"
+      text="Danny Etling pass incomplete to DeSean Smith (Ronnie Harrison)." newcontext="V,1,10,H35">
+    <p_pa vh="H" qb="Danny Etling" result="INC" rcv="DeSean Smith"></p_pa>
+    <p_bu vh="V" name="Ronnie Harrison"></p_bu>
+   </play>
+   <drivesum plays="4" yards="2" top="0:42" driveindex="24" complete="Y"></drivesum>
+   <drivestart poss="V,H35,01:52" vh="V" spot="H35" clock="01:52" driveindex="25,184"></drivestart>
+   <play hasball="UA" down="1" togo="10" spot="LS35" context="V,1,10,H35" playid="25,1,185" clock="01:52" tokens="{DRIVE}:01:52"
+      text="ALABAMA drive start at 01:52." newcontext="V,1,10,H35">
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS35" context="V,1,10,H35" playid="25,2,186" type="R" tokens="RUSH:34,H26, TACK:97,40"
+      text="Damien Harris rush for 9 yards to the LS26 (Frank Herron;Duke Riley)." newcontext="V,2,1,H26">
+    <p_ru vh="V" name="Damien Harris" gain="9"></p_ru>
+    <p_tk vh="H" name="Frank Herron" assist="Y"></p_tk>
+    <p_tk vh="H" name="Duke Riley" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="2" togo="1" spot="LS26" context="V,2,1,H26" playid="25,3,187" type="#" clock="01:43" tokens="TOUT:H T:01:43"
+      text="Timeout LSU, clock 01:43." newcontext="V,2,1,H26">
+    <p_to vh="H" team="LSU"></p_to>
+   </play>
+   <play hasball="UA" down="2" togo="1" spot="LS26" context="V,2,1,H26" playid="25,4,188" type="R" first="R" tokens="RUSH:2,H24, TACK:52,57"
+      text="Jalen Hurts rush for 2 yards to the LS24, 1ST DOWN UA (K. Beckwith;Davon Godchaux)." newcontext="V,1,10,H24">
+    <p_ru vh="V" name="Jalen Hurts" gain="2"></p_ru>
+    <p_tk vh="H" name="K. Beckwith" assist="Y"></p_tk>
+    <p_tk vh="H" name="Davon Godchaux" assist="Y"></p_tk>
+   </play>
+   <play hasball="UA" down="1" togo="10" spot="LS24" context="V,1,10,H24" playid="25,5,189" type="R" tokens="RUSH:TM,H26,"
+      text="TEAM rush for loss of 2 yards to the LS26." newcontext="V,2,12,H26">
+    <p_ru vh="V" name="TEAM" gain="-2"></p_ru>
+   </play>
+   <play hasball="UA" down="2" togo="12" spot="LS26" context="V,2,12,H26" playid="25,6,190" type="R" tokens="RUSH:TM,H28,"
+      text="TEAM rush for loss of 2 yards to the LS28." newcontext="V,3,14,H28">
+    <p_ru vh="V" name="TEAM" gain="-2"></p_ru>
+   </play>
+   <play hasball="UA" down="3" togo="14" spot="LS28" context="V,3,14,H28" playid="25,7,191" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00." newcontext="V,3,14,H28">
+   </play>
+   <drivesum plays="4" yards="7" top="1:52" driveindex="25" complete="Y"></drivesum>
+   <score final="Y" V="10" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UA">
+    <firstdowns no="7" rush="7" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="15"></penalties>
+    <conversions thirdconv="4" thirdatt="6" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="13:35"></misc>
+    <rush att="20" yds="103" gain="111" loss="8" td="1" long="0"></rush>
+    <pass comp="1" att="2" int="0" yds="1" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="1" td="0" long="0"></rcv>
+    <ko no="2" yds="124" ob="0" tb="1"></ko>
+    <fg made="1" att="1" long="25" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="3" tacka="0" tot_tack="3" sacks="0" sackyds="0" brup="2" qbh="1" int="1" intyds="0"></defense>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <scoring td="1" fg="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LS">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="01:25"></misc>
+    <pass comp="2" att="6" int="1" yds="15" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="15" td="0" long="0"></rcv>
+    <defense tackua="8" tacka="20" tot_tack="28" tflua="1" tfla="6" tflyds="4" sacks="0" sackyds="0" qbh="1"></defense>
+    <kr no="1" yds="27" td="0" long="27"></kr>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="UA" down="3" togo="14" spot="LS28" context="V,3,14,H28" qtr="4" clock="00:00" vtoh="2" htoh="3"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="UA">
+  <player name="Robert Foster" checkname="FOSTER,ROBERT" uni="1" class="JR" gp="0" code="1"></player>
+  <player name="Shawn Jennings" checkname="JENNINGS,SHAWN" uni="1C" class="FR" gp="0" code="1C"></player>
+  <player name="Jamey Mosley" checkname="MOSLEY,JAMEY" uni="1E" class="SO" gp="0" code="1E"></player>
+  <player name="Ben Davis" checkname="DAVIS,BEN" uni="1A" class="FR" gp="0" code="1A"></player>
+  <player name="Nigel Knott" checkname="KNOTT,NIGEL" uni="1B" class="FR" gp="0" code="1B"></player>
+  <player name="Rogria Lewis" checkname="LEWIS,ROGRIA" uni="2B" class="JR" gp="0" code="2B"></player>
+  <player name="N. Staskelunas" checkname="STASKELUNAS,N" uni="3D" class="SR" gp="0" code="3D"></player>
+  <player name="Jacob Parker" checkname="PARKER,JACOB" uni="4B" class="JR" gp="0" code="4B"></player>
+  <player name="Parker Bearden" checkname="BEARDEN,PARKER" uni="4A" class="SO" gp="0" code="4A"></player>
+  <player name="Josh Pugh" checkname="PUGH,JOSH" uni="4E" class="SO" gp="0" code="4E"></player>
+  <player name="Hunter Bryant" checkname="BRYANT,HUNTER" uni="4D" class="JR" gp="0" code="4D"></player>
+  <player name="Eddie Jackson" checkname="JACKSON,EDDIE" uni="4" class="SR" gp="0" code="4"></player>
+  <player name="Avery Reid" checkname="REID,AVERY" uni="4C" class="SO" gp="0" code="4C"></player>
+  <player name="Shyheim Carter" checkname="CARTER,SHYHEIM" uni="5" class="FR" gp="0" code="5"></player>
+  <player name="Ronnie Clark" checkname="CLARK,RONNIE" uni="5A" class="SO" gp="0" code="5A"></player>
+  <player name="Armani Purifoye" checkname="PURIFOYE,ARMANI" uni="8B" class="JR" gp="0" code="8B"></player>
+  <player name="Blake Barnett" checkname="BARNETT,BLAKE" uni="8" class="FR" gp="0" code="8"></player>
+  <player name="Jared Mayden" checkname="MAYDEN,JARED" uni="8A" class="FR" gp="0" code="8A"></player>
+  <player name="A. Pappanastos" checkname="PAPPANASTOS,A" uni="9B" class="JR" gp="0" code="9B"></player>
+  <player name="Raekwon Davis" checkname="DAVIS,RAEKWON" uni="9C" class="FR" gp="0" code="9C"></player>
+  <player name="David Cornwell" checkname="CORNWELL,DAVID" uni="12" class="SO" gp="0" code="12"></player>
+  <player name="Xavian Marks" checkname="MARKS,XAVIAN" uni="19" class="SO" gp="0" code="19"></player>
+  <player name="B.J. Emmons" checkname="EMMONS,BJ" uni="21" class="FR" gp="0" code="21"></player>
+  <player name="Torin Marks" checkname="MARKS,TORIN" uni="35" class="FR" gp="0" code="35"></player>
+  <player name="Johnny Dwight" checkname="DWIGHT,JOHNNY" uni="36" class="SO" gp="0" code="36"></player>
+  <player name="Donavan Mosley" checkname="MOSLEY,DONAVAN" uni="37" class="SO" gp="0" code="37"></player>
+  <player name="Levi Wallace" checkname="WALLACE,LEVI" uni="39" class="JR" gp="0" code="39"></player>
+  <player name="J. McMillon" checkname="MCMILLON,J" uni="40" class="FR" gp="0" code="40"></player>
+  <player name="Blaine Anderson" checkname="ANDERSON,BLAINE" uni="41" class="SR" gp="0" code="41"></player>
+  <player name="L. Erekosima" checkname="EREKOSIMA,L" uni="43" class="JR" gp="0" code="43"></player>
+  <player name="Bo Grant" checkname="GRANT,BO" uni="45" class="SR" gp="0" code="45"></player>
+  <player name="Derrick Garnett" checkname="GARNETT,DERRICK" uni="46" class="SR" gp="0" code="46"></player>
+  <player name="Mekhi Brown" checkname="BROWN,MEKHI" uni="48" class="FR" gp="0" code="48"></player>
+  <player name="Brandon Moore" checkname="MOORE,BRANDON" uni="49" class="SR" gp="0" code="49"></player>
+  <player name="Alphonse Taylor" checkname="TAYLOR,ALPHONSE" uni="50" class="SR" gp="0" code="50"></player>
+  <player name="Jake Long" checkname="LONG,JAKE" uni="51" class="SR" gp="0" code="51"></player>
+  <player name="Ryan Parris" checkname="PARRIS,RYAN" uni="53" class="SO" gp="0" code="53"></player>
+  <player name="Dallas Warmack" checkname="WARMACK,DALLAS" uni="59" class="SO" gp="0" code="59"></player>
+  <player name="Will Davis" checkname="DAVIS,WILL" uni="62" class="SR" gp="0" code="62"></player>
+  <player name="J. Hassenauer" checkname="HASSENAUER,J" uni="63" class="JR" gp="0" code="63"></player>
+  <player name="Deonte Brown" checkname="BROWN,DEONTE" uni="65" class="FR" gp="0" code="65"></player>
+  <player name="Josh Casher" checkname="CASHER,JOSH" uni="67" class="SO" gp="0" code="67"></player>
+  <player name="Richie Petitbon" checkname="PETITBON,RICHIE" uni="72" class="FR" gp="0" code="72"></player>
+  <player name="Scott Lashley" checkname="LASHLEY,SCOTT" uni="76" class="FR" gp="0" code="76"></player>
+  <player name="Matt Womack" checkname="WOMACK,MATT" uni="77" class="FR" gp="0" code="77"></player>
+  <player name="Chris Owens" checkname="OWENS,CHRIS" uni="79" class="FR" gp="0" code="79"></player>
+  <player name="Raheem Falkins" checkname="FALKINS,RAHEEM" uni="80" class="JR" gp="0" code="80"></player>
+  <player name="Derek Kief" checkname="KIEF,DEREK" uni="81" class="SO" gp="0" code="81"></player>
+  <player name="Cam Stewart" checkname="STEWART,CAM" uni="83" class="FR" gp="0" code="83"></player>
+  <player name="Truett Harris" checkname="HARRIS,TRUETT" uni="86" class="SR" gp="0" code="86"></player>
+  <player name="Jamar King" checkname="KING,JAMAR" uni="90" class="JR" gp="0" code="90"></player>
+  <player name="O.J. Smith" checkname="SMITH,OJ" uni="91" class="SO" gp="0" code="91"></player>
+  <player name="Q. Williams" checkname="WILLIAMS,Q" uni="92" class="FR" gp="0" code="92"></player>
+  <player name="B. Satterfield" checkname="SATTERFIELD,B" uni="98" class="SO" gp="0" code="98"></player>
+ </dnp>
+ <dnp vh="H" id="LS">
+  <player name="Tiger Scheyd" checkname="SCHEYD,TIGER" uni="1G" class="SO" gp="0" code="1G"></player>
+  <player name="Micah Dickens" checkname="DICKENS,MICAH" uni="1B" class="SO" gp="0" code="1B"></player>
+  <player name="Louis Landrum" checkname="LANDRUM,LOUIS" uni="2I" class="FR" gp="0" code="2I"></player>
+  <player name="Brandon Surtain" checkname="SURTAIN,BRANDON" uni="2G" class="SR" gp="0" code="2G"></player>
+  <player name="Trey LaForge" checkname="LAFORGE,TREY" uni="2A" class="FR" gp="0" code="2A"></player>
+  <player name="Bailey Raborn" checkname="RABORN,BAILEY" uni="2B" class="FR" gp="0" code="2B"></player>
+  <player name="Justin Jones" checkname="JONES,JUSTIN" uni="3A" class="FR" gp="0" code="3A"></player>
+  <player name="Michael Ostrom" checkname="OSTROM,MICHAEL" uni="3J" class="FR" gp="0" code="3J"></player>
+  <player name="Jack Gonsoulin" checkname="GONSOULIN,JACK" uni="3E" class="FR" gp="0" code="3E"></player>
+  <player name="Trey Gallman" checkname="GALLMAN,TREY" uni="3C" class="SO" gp="0" code="3C"></player>
+  <player name="Reshaud Henry" checkname="HENRY,RESHAUD" uni="3D" class="JR" gp="0" code="3D"></player>
+  <player name="Z.Von Rosenberg" checkname="ROSENBERG,ZVON" uni="4F" class="FR" gp="0" code="4F"></player>
+  <player name="Abraham Wallace" checkname="WALLACE,ABRAHAM" uni="4A" class="SO" gp="0" code="4A"></player>
+  <player name="Justin Kairdolf" checkname="KAIRDOLF,JUSTIN" uni="5D" class="FR" gp="0" code="5D"></player>
+  <player name="Roshon Cody" checkname="CODY,ROSHON" uni="5A" class="FR" gp="0" code="5A"></player>
+  <player name="J. Abdul-Aziz" checkname="ABDUL-AZIZ,J" uni="5H" class="SO" gp="0" code="5H"></player>
+  <player name="Jordan Harper" checkname="HARPER,JORDAN" uni="5I" class="SR" gp="0" code="5I"></player>
+  <player name="Brandon Harris" checkname="HARRIS,BRANDON" uni="6" class="JR" gp="0" code="6"></player>
+  <player name="Caleb Lewis" checkname="LEWIS,CALEB" uni="8A" class="FR" gp="0" code="8A"></player>
+  <player name="R. Jefferson" checkname="JEFFERSON,R" uni="9" class="SR" gp="0" code="9"></player>
+  <player name="Steph. Sullivan" checkname="SULLIVAN,STEPH" uni="10" class="FR" gp="0" code="10"></player>
+  <player name="Justin McMillan" checkname="MCMILLAN,JUSTIN" uni="12" class="FR" gp="0" code="12"></player>
+  <player name="Lindsey Scott" checkname="SCOTT,LINDSEY" uni="14" class="FR" gp="0" code="14"></player>
+  <player name="Kristian Fulton" checkname="FULTON,KRISTIAN" uni="22" class="FR" gp="0" code="22"></player>
+  <player name="Corey Thompson" checkname="THOMPSON,COREY" uni="23" class="SR" gp="0" code="23"></player>
+  <player name="Drake Davis" checkname="DAVIS,DRAKE" uni="25" class="FR" gp="0" code="25"></player>
+  <player name="La. Fournette" checkname="FOURNETTE,LA" uni="27" class="FR" gp="0" code="27"></player>
+  <player name="And. Williams" checkname="WILLIAMS,AND" uni="29" class="FR" gp="0" code="29"></player>
+  <player name="Eric Monroe" checkname="MONROE,ERIC" uni="30" class="FR" gp="0" code="30"></player>
+  <player name="Cameron Lewis" checkname="LEWIS,CAMERON" uni="31" class="FR" gp="0" code="31"></player>
+  <player name="Jalen Williams" checkname="WILLIAMS,JALEN" uni="32" class="FR" gp="0" code="32"></player>
+  <player name="Connor Culp" checkname="CULP,CONNOR" uni="34" class="FR" gp="0" code="34"></player>
+  <player name="David Ducre" checkname="DUCRE,DAVID" uni="41" class="SO" gp="0" code="41"></player>
+  <player name="Ray Thornton" checkname="THORNTON,RAY" uni="43" class="FR" gp="0" code="43"></player>
+  <player name="Mich. Divinity" checkname="DIVINITY,MICH" uni="45" class="FR" gp="0" code="45"></player>
+  <player name="B. Mouton" checkname="MOUTON,B" uni="47" class="SO" gp="0" code="47"></player>
+  <player name="Rory Luke" checkname="LUKE,RORY" uni="54" class="FR" gp="0" code="54"></player>
+  <player name="Trav. Valentine" checkname="VALENTINE,TRAV" uni="55" class="SO" gp="0" code="55"></player>
+  <player name="M. Patterson" checkname="PATTERSON,M" uni="56" class="JR" gp="0" code="56"></player>
+  <player name="Hunter Burns" checkname="BURNS,HUNTER" uni="58" class="JR" gp="0" code="58"></player>
+  <player name="John Ballis" checkname="BALLIS,JOHN" uni="59" class="SR" gp="0" code="59"></player>
+  <player name="Marcus Roberts" checkname="ROBERTS,MARCUS" uni="60" class="SR" gp="0" code="60"></player>
+  <player name="Justin Mikush" checkname="MIKUSH,JUSTIN" uni="62" class="SO" gp="0" code="62"></player>
+  <player name="Jakori Savage" checkname="SAVAGE,JAKORI" uni="65" class="FR" gp="0" code="65"></player>
+  <player name="Turner Simmers" checkname="SIMMERS,TURNER" uni="69" class="SO" gp="0" code="69"></player>
+  <player name="Don. Campbell" checkname="CAMPBELL,DON" uni="71" class="FR" gp="0" code="71"></player>
+  <player name="Andy Dodd" checkname="DODD,ANDY" uni="72" class="JR" gp="0" code="72"></player>
+  <player name="Adrian Magee" checkname="MAGEE,ADRIAN" uni="73" class="FR" gp="0" code="73"></player>
+  <player name="Willie Allen" checkname="ALLEN,WILLIE" uni="74" class="FR" gp="0" code="74"></player>
+  <player name="L. Cushenberry" checkname="CUSHENBERRY,L" uni="79" class="FR" gp="0" code="79"></player>
+  <player name="Jamal Pettigrew" checkname="PETTIGREW,JAMAL" uni="80" class="FR" gp="0" code="80"></player>
+  <player name="Jazz Ferguson" checkname="FERGUSON,JAZZ" uni="86" class="SO" gp="0" code="86"></player>
+  <player name="Sci Martin" checkname="MARTIN,SCI" uni="87" class="FR" gp="0" code="87"></player>
+  <player name="J. Washington" checkname="WASHINGTON,J" uni="88" class="SO" gp="0" code="88"></player>
+  <player name="C. LaCouture" checkname="LACOUTURE,C" uni="91" class="SR" gp="0" code="91"></player>
+  <player name="Seth Newsome" checkname="NEWSOME,SETH" uni="93" class="FR" gp="0" code="93"></player>
+  <player name="I. Washington" checkname="WASHINGTON,I" uni="94" class="SO" gp="0" code="94"></player>
+  <player name="Glen Logan" checkname="LOGAN,GLEN" uni="96" class="FR" gp="0" code="96"></player>
+  <player name="Deondre Clark" checkname="CLARK,DEONDRE" uni="98" class="JR" gp="0" code="98"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

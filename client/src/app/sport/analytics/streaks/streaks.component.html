@@ -1,0 +1,172 @@
+<div class="row card">
+  <div class="col l2 s12 m2" style="padding-top: 5px; padding-bottom: 5px; text-align: center;">
+    <mat-button-toggle-group color="primary" name="entity" [(ngModel)]="entityStreaks"
+      (ngModelChange)="onEntityChange($event)">
+      <mat-button-toggle *ngFor="let entity of entitiesStreaks" value="{{ entity.value }}">
+        {{ entity.viewValue }}&nbsp;<i class="{{ entity.class }}"></i></mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+
+
+  <div class="col l1 s12 m1 label-for" style="padding-top: 10px; text-align: right;"
+    *ngIf="categoriesStreaks.length > 0">
+    Category
+  </div>
+  <div class="col l1 s12 m1" style="padding-top: 10px; text-align: center;" *ngIf="categoriesStreaks.length > 0">
+    <mat-select [(ngModel)]="selectedCategoryStreaks" (ngModelChange)="onChangeCategory($event)">
+      <mat-option *ngFor="let stat of categoriesStreaks" [value]="stat">
+        {{ stat }}
+      </mat-option>
+    </mat-select>
+  </div>
+  <div class="col l1 s12 m1" style="padding-top: 10px; text-align: right;width: 5%;" *ngIf="statsStreaks.length > 0">
+    Statistic
+  </div>
+  <div class="col l2 s12 m2" style="padding-top: 10px; text-align: center;" *ngIf="statsStreaks.length > 0">
+    <mat-select [(ngModel)]="selectedStatsStreaks" (ngModelChange)="onStatCategory($event)">
+      <mat-option *ngFor="let stat of statsStreaks" [value]="stat">
+        {{ stat }}
+      </mat-option>
+    </mat-select>
+  </div>
+
+  <div class="col l1 s12 m1 label-for" style="padding-top: 10px; text-align: right;width: 11%;"
+    *ngIf="descriptorStreaks.length > 0">
+    Descriptor
+  </div>
+  <div class="col l2 s12 m2" style="padding-top: 10px; text-align: center;" *ngIf="descriptorStreaks.length > 0">
+    <mat-select [(ngModel)]="descriptorStreaks" (ngModelChange)="onDescriptorChange($event)">
+      <mat-option *ngFor="let stat of descriptorsStreaks" [value]="stat">
+        {{ stat }}
+      </mat-option>
+    </mat-select>
+  </div>
+  <div class="col l1 s12 m1 label-for" style="padding-top: 10px;" *ngIf="descriptorsStreakValues.length > 0">
+    Stat Value
+  </div>
+  <div class="col l1 s12 m1" style="padding-top: 10px; text-align: center;" *ngIf="descriptorsStreakValues.length > 0">
+    <mat-select [(ngModel)]="statValueStreaks" (ngModelChange)="onStatValue($event)">
+      <mat-option *ngFor="let statVal of descriptorsStreakValues" [value]="statVal">
+        {{ statVal }}
+      </mat-option>
+    </mat-select>
+  </div>
+
+</div>
+<div class="row" *ngIf="spinner == true">
+  <div class="progress" *ngIf="spinner == true">
+    <div class="indeterminate"></div>
+  </div>
+</div>
+<div class="row" *ngIf="streaks?.length == 0 && spinner == false" style="padding: 20px;">
+  Data Not Available
+</div>
+<div class="row card" id="streaksTbl">
+  <input #filter placeholder="Filter Alerts" style="display: none;" />
+  <mat-table #streaksTbl [dataSource]="dataSource" matSort
+    [ngStyle]="{ display: streaks?.length > 0 ? 'inline' : 'none' }">
+    <ng-container matColumnDef="_id">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="first-cell-col white-text border-right-cell">ID
+      </mat-header-cell>
+      <mat-cell *matCellDef="let element; let i = index" class="first-cell-col">
+        <span class="grey-text text-darken-2"> {{ i + 1 }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="teamName">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text border-right-cell">Name</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          <a [routerLink]="" (click)="showStreakDetial(element, entityStreaks)"> {{
+            entityStreaks == "Player" ? element.playerName : element.teamName
+          }}</a>
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="currentStreakSeasonStart">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">Season</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          {{element.currentStreakSeasonStart}}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="currentStreakDateStart">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">Date</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          {{element.currentStreakDateStart | utcdate:'ddd, MMM D'}}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="currentStreakOppoStartTeamCode">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text border-right-cell">Opponent</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          <img *ngIf="
+              element['currentStreakOppoStartTeamCode'] !== 0 &&
+              element['currentStreakOppoStartTeamCode'] !== 1
+            " id="logo" src="../../../assets/images/teams/{{
+              element['currentStreakOppoStartTeamCode']
+            }}.png" alt=" " />
+          &nbsp;{{ element.currentStreakOpponentStart }}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="currentStreakSeasonRecent">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">Season</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          {{element.currentStreakSeasonRecent}}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="currentStreakDateRecent">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">Date</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          {{element.currentStreakDateRecent | utcdate:'ddd, MMM D'}}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="currentStreakOppoRecentTeamCode">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text border-right-cell">Opponent</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          <img *ngIf="
+              element['currentStreakOppoRecentTeamCode'] !== 0 &&
+              element['currentStreakOppoRecentTeamCode'] !== 1
+            " id="logo" src="../../../assets/images/teams/{{
+              element['currentStreakOppoRecentTeamCode']
+            }}.png" alt=" " />
+          &nbsp;{{ element.currentStreakOpponentRecent }}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="currentStreakTotalLength">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="white-text">Streak Length</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2">
+          {{ valueReadability(element.currentStreakTotalLength) }}
+        </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container *matHeaderRowDef="displayedColumns">
+      <div class="mat-header-row header-group-row" [ngStyle]="{ background: teamColor }">
+        <div class="mat-header-cell white-text border-right-cell" role="columnheader" style="max-width: 6%;"></div>
+        <div class="mat-header-cell white-text border-right-cell" style="text-align: center; max-width: 12.4%;"
+          role="columnheader"></div>
+        <div class="mat-header-cell white-text border-right-cell" role="columnheader"
+          style="max-width: 35.8%; text-align: left; padding-right: 1%;font-size: 15px;">
+          Streak Start
+        </div>
+        <div class="mat-header-cell white-text border-right-cell" role="columnheader"
+          style="max-width: 35.8%; text-align: left; padding-right: 1%;font-size: 15px;">
+          Streak End
+        </div>
+      </div>
+      <mat-header-row [ngStyle]="{ background: teamColor }"></mat-header-row>
+    </ng-container>
+
+    <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+  </mat-table>
+</div>

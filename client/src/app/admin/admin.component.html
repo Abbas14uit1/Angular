@@ -1,0 +1,14 @@
+<app-header [config]="headerConfig.adminPage"></app-header>
+<div class="admin-content" style="margin-top: 1.7rem;">
+  <mat-tab-group class="admin-tab-group">
+    <mat-tab label="UPLOAD">
+      <app-upload></app-upload>
+    </mat-tab>
+    <mat-tab label="PLAYERS">
+      <app-players></app-players>
+    </mat-tab>
+    <mat-tab label="USERS" *ngIf="superAdmin == true">     
+          <app-users></app-users>
+    </mat-tab>
+  </mat-tab-group>
+</div>

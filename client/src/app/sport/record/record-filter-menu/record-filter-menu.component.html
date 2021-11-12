@@ -1,0 +1,20 @@
+<form #f="ngForm">
+  <div class="row">
+     <div class="search-wrapper">
+            <input #filter id="search" placeholder="Search">
+          </div>
+        </div>
+  <div class="row filter-height" >
+    <ul class="collection">     
+     <li class="collection-item cursor"  
+     *ngFor="let col of filteredRecordTitles"
+     (click)="onClick(col)" 
+     [ngStyle]="recordTitle == col ? {'background': teamColor} : ''" 
+      [ngClass]="recordTitle == col ? 'active' : ''" >
+     	<div>{{col}}
+     		
+     	</div>
+     </li>
+    </ul> 
+  </div>
+</form>

@@ -1,0 +1,41 @@
+<div class="row">
+  <div *ngIf="!games" class="column" [style.min-width.px]="130" [style.width.px]="192">
+  </div>
+  <div *ngIf="games" class="column" [style.min-width.px]="275" [style.width.px]="275">
+  </div>
+  
+<div *ngIf="sportId._value.sport ==='WSO' || sportId._value.sport ==='MSO'">
+  <table [style.width.px]="totalCols * 57" class="mrg_l_25">
+    <tbody>
+      <tr>
+        <th [colSpan]="obj.colSpan" id="{{ obj.name }}"
+         *ngFor="let obj of data"
+         [ngClass]="obj.name == 'GP' ? 'border-none' : ''">
+         {{ obj.name == 'GP' ? '' : obj.name}}
+       </th>
+      </tr>
+      <tr>
+        <td *ngFor="let obj of colsArr"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="sportId._value.sport !=='WSO' && sportId._value.sport !=='MSO'">
+  <table [style.width.px]="totalCols * 57">
+    <tbody>
+      <tr>
+        <th [colSpan]="obj.colSpan" id="{{ obj.name }}"
+         *ngFor="let obj of data"
+         [ngClass]="obj.name == 'GP' ? 'border-none' : ''">
+         {{ obj.name == 'GP' ? '' : obj.name}}
+       </th>
+      </tr>
+      <tr>
+        <td *ngFor="let obj of colsArr"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  <div class="column" [style.min-width.px]="18"></div>
+</div>

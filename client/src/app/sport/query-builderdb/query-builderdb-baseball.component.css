@@ -1,0 +1,58 @@
+
+
+#team-bar{
+padding-left:10px;
+}
+
+#home-logo {
+ vertical-align: middle;
+  min-width: 60px;
+  max-width: 60px;
+  font-family: "Raleway";
+}
+.team-name{
+font-family: "Raleway";
+font-size: 28pt;
+color: #fff;
+
+}
+
+
+.builder-height {
+  height: calc(100vh - 240px);
+}
+
+.builder-height-noscroll {
+  overflow: auto;
+  max-height: 100%;
+}
+
+
+label.q-switch-label::after {
+    border: none !important;
+    background: none !important;
+    display: none !important;
+}
+.label-for{
+    padding-bottom: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+.qb-height{
+  overflow: auto;
+  max-height: 30%;
+  min-height: 30%;
+}
+
+.qb-results{
+  overflow: auto;  
+  max-height: 67%;
+}
+
+
+
+.q-control-size > select{
+  font: 400 13.3333px Arial;
+  -webkit-appearance: menulist  !important;
+}

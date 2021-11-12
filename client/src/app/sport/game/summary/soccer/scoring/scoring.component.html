@@ -1,0 +1,37 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-column white-text font-size-14">SCORING</mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="scoringG">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">G</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.scoringG }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="scoringA">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">A</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.scoringA }}
+        </mat-cell>
+      </ng-container>
+       <ng-container matColumnDef="scoringPTS">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">PTS</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.scoringPTS }}
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row  [ngStyle]="{'background-color':this.color}"  *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''"
+      (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+    </mat-table>
+  </div>
+</div>

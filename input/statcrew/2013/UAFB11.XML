@@ -1,0 +1,972 @@
+<fbgame source="Tas Football" version="4.16.07" generated="9/15/2016">
+ <venue gameid="UAFB11" visid="UTC" homeid="UA" visname="Chattanooga" homename="Alabama"
+      date="11/23/2013" location="Tuscaloosa, Ala." stadium="Bryant-Denny Stadium"
+      start="1:06 pm" end="3:45 pm"
+      duration="2:39" attend="100179" temp="54" wind="N 13mph" weather="Overcast">
+  <officials ref="Hubert Owens" ump="Russ Pulley" line="Chad Green" lj="Mickey Bryson" bj="Grantis Bell" fj="Greg Thomas" sj="Chad Hill" cj="Gus Morris III" alt="Gus Morris III"></officials>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="693" id="UTC" name="Chattanooga" record="8-4" abb="C">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="8" rush="5" pass="3" penalty="0"></firstdowns>
+   <penalties no="6" yds="50"></penalties>
+   <conversions thirdconv="4" thirdatt="14" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="2" lost="1"></fumbles>
+   <misc yds="-27" top="34:24" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="35" yds="93" gain="106" loss="13" td="0" long="12"></rush>
+   <pass comp="10" att="15" int="1" yds="82" td="0" long="17" sacks="1" sackyds="2"></pass>
+   <rcv no="10" yds="82" td="0" long="17"></rcv>
+   <punt no="7" yds="289" long="48" blkd="0" tb="0" fc="0" plus50="0" inside20="2"></punt>
+   <ko no="1" yds="41" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="1"></fg>
+   <defense tackua="34" tacka="16" tflua="2" tfla="0" tflyds="4" sacks="0" sackyds="0" brup="4" qbh="1" fr="1" fryds="0"></defense>
+   <kr no="7" yds="109" td="0" long="24"></kr>
+  </totals>
+  <player name="Chaz Moore" shortname="Chaz Moore" checkname="MOORE,CHAZ" uni="1" class="SR" gp="1" gs="1" dpos="DB" code="1">
+   <defense tackua="7" tacka="3" tflua="2" tfla="0" tflyds="4" brup="1"></defense>
+  </player>
+  <player name="Taharin Tyson" shortname="Taharin Tyson" checkname="TYSON,TAHARIN" uni="2" class="FR" gp="1" gs="1" opos="FB" code="2"></player>
+  <player name="Kadeem Wise" shortname="Kadeem Wise" checkname="WISE,KADEEM" uni="5" class="SR" gp="1" gs="1" dpos="RCB" code="5">
+   <defense tackua="7" tacka="0"></defense>
+  </player>
+  <player name="T. Robinson" shortname="T. Robinson" checkname="ROBINSON,T" uni="6" class="JR" gp="1" gs="1" opos="QB" code="6">
+   <rush att="13" yds="37" gain="40" loss="3" td="0" long="12"></rush>
+   <pass comp="10" att="15" int="1" yds="82" td="0" long="17" sacks="1" sackyds="2"></pass>
+  </player>
+  <player name="Jacob Huesman" shortname="Jacob Huesman" checkname="HUESMAN,JACOB" uni="14" class="SO" gp="1" code="14"></player>
+  <player name="S. Kendall" shortname="S. Kendall" checkname="KENDALL,S" uni="16" class="SO" gp="1" code="16">
+   <defense tackua="1" tacka="0" fr="1" fryds="0"></defense>
+  </player>
+  <player name="T. Shepherd" shortname="T. Shepherd" checkname="SHEPHERD,T" uni="18" class="FR" gp="1" code="18"></player>
+  <player name="Dee Virgin" shortname="Dee Virgin" checkname="VIRGIN,DEE" uni="19" class="FR" gp="1" gs="1" dpos="LCB" code="19">
+   <defense tackua="5" tacka="1"></defense>
+  </player>
+  <player name="D.J. Key" shortname="D.J. Key" checkname="KEY,DJ" uni="20" class="JR" gp="1" gs="1" dpos="S" code="20">
+   <defense tackua="8" tacka="2" brup="1"></defense>
+  </player>
+  <player name="Marquis Green" shortname="Marquis Green" checkname="GREEN,MARQUIS" uni="21" class="JR" gp="1" gs="1" opos="X" code="21">
+   <rcv no="3" yds="15" td="0" long="13"></rcv>
+   <kr no="4" yds="68" td="0" long="24"></kr>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="X. Borishade" shortname="X. Borishade" checkname="BORISHADE,X" uni="24" class="FR" gp="1" gs="1" opos="W" code="24">
+   <rush att="1" yds="-3" gain="0" loss="3" td="0" long="0"></rush>
+   <rcv no="1" yds="16" td="0" long="16"></rcv>
+  </player>
+  <player name="Wes Dothard" shortname="Wes Dothard" checkname="DOTHARD,WES" uni="25" class="SR" gp="1" gs="1" dpos="MLB" code="25">
+   <defense tackua="0" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Whit Shelton" shortname="Whit Shelton" checkname="SHELTON,WHIT" uni="26" class="SO" gp="1" code="26"></player>
+  <player name="Kendrix Huitt" shortname="Kendrix Huitt" checkname="HUITT,KENDRIX" uni="27" class="SO" gp="1" gs="1" opos="RB" code="27">
+   <rush att="11" yds="27" gain="32" loss="5" td="0" long="9"></rush>
+   <rcv no="1" yds="0" td="0" long="0"></rcv>
+  </player>
+  <player name="N. Leslie" shortname="N. Leslie" checkname="LESLIE,N" uni="28" class="FR" gp="1" gs="1" dpos="SLB" code="28">
+   <defense tackua="2" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Nick Pollard" shortname="Nick Pollard" checkname="POLLARD,NICK" uni="30" class="JR" gp="1" code="30">
+   <punt no="7" yds="289" long="48" blkd="0" tb="0" fc="0" plus50="0" inside20="2"></punt>
+   <ko no="1" yds="41" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="1"></fg>
+  </player>
+  <player name="C.J. Murrell" shortname="C.J. Murrell" checkname="MURRELL,CJ" uni="32" class="SR" gp="1" code="32">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Beau Simmons" shortname="Beau Simmons" checkname="SIMMONS,BEAU" uni="36" class="FR" gp="1" code="36"></player>
+  <player name="M. Wakeel" shortname="M. Wakeel" checkname="WAKEEL,M" uni="38" class="JR" gp="1" code="38"></player>
+  <player name="Riley Davis" shortname="Riley Davis" checkname="DAVIS,RILEY" uni="39" class="FR" gp="1" code="39"></player>
+  <player name="Derrick Craine" shortname="Derrick Craine" checkname="CRAINE,DERRICK" uni="41" class="FR" gp="1" code="41">
+   <rush att="10" yds="32" gain="34" loss="2" td="0" long="6"></rush>
+   <rcv no="1" yds="17" td="0" long="17"></rcv>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Toyvian Brand" shortname="Toyvian Brand" checkname="BRAND,TOYVIAN" uni="44" class="JR" gp="1" code="44"></player>
+  <player name="Will Sharpton" shortname="Will Sharpton" checkname="SHARPTON,WILL" uni="45" class="FR" gp="1" code="45"></player>
+  <player name="Zach McCarter" shortname="Zach McCarter" checkname="MCCARTER,ZACH" uni="47" class="JR" gp="1" gs="1" dpos="FS" code="47">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Ryan Bossung" shortname="Ryan Bossung" checkname="BOSSUNG,RYAN" uni="48" class="FR" gp="1" code="48">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Oscar Prado" shortname="Oscar Prado" checkname="PRADO,OSCAR" uni="49" class="FR" gp="1" code="49"></player>
+  <player name="Shaun Hill" shortname="Shaun Hill" checkname="HILL,SHAUN" uni="50" class="JR" gp="1" code="50"></player>
+  <player name="Kevin Revis" shortname="Kevin Revis" checkname="REVIS,KEVIN" uni="52" class="SR" gp="1" gs="1" opos="RG" code="52"></player>
+  <player name="Joe McMahon" shortname="Joe McMahon" checkname="MCMAHON,JOE" uni="56" class="FR" gp="1" code="56"></player>
+  <player name="Corey Levin" shortname="Corey Levin" checkname="LEVIN,COREY" uni="62" class="FR" gp="1" gs="1" opos="LT" code="62"></player>
+  <player name="Daniel Ring" shortname="Daniel Ring" checkname="RING,DANIEL" uni="66" class="SO" gp="1" gs="1" dpos="T" code="66">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Channing Smith" shortname="Channing Smith" checkname="SMITH,CHANNING" uni="71" class="FR" gp="1" code="71"></player>
+  <player name="Patrick Sutton" shortname="Patrick Sutton" checkname="SUTTON,PATRICK" uni="72" class="JR" gp="1" gs="1" opos="C" code="72"></player>
+  <player name="Brandon Morgan" shortname="Brandon Morgan" checkname="MORGAN,BRANDON" uni="73" class="JR" gp="1" gs="1" opos="RT" code="73"></player>
+  <player name="Synjen Herren" shortname="Synjen Herren" checkname="HERREN,SYNJEN" uni="74" class="SO" gp="1" gs="1" opos="LG" code="74"></player>
+  <player name="Bryant Belew" shortname="Bryant Belew" checkname="BELEW,BRYANT" uni="80" class="JR" gp="1" code="80"></player>
+  <player name="Troy Dye" shortname="Troy Dye" checkname="DYE,TROY" uni="84" class="SO" gp="1" code="84"></player>
+  <player name="C.J. Board" shortname="C.J. Board" checkname="BOARD,CJ" uni="86" class="FR" gp="1" gs="1" opos="Z" code="86">
+   <rcv no="2" yds="20" td="0" long="9"></rcv>
+   <kr no="3" yds="41" td="0" long="15"></kr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Faysal Shafaat" shortname="Faysal Shafaat" checkname="SHAFAAT,FAYSAL" uni="88" class="JR" gp="1" code="88">
+   <rcv no="2" yds="14" td="0" long="7"></rcv>
+  </player>
+  <player name="K. Niethammer" shortname="K. Niethammer" checkname="NIETHAMMER,K" uni="89" class="FR" gp="1" code="89"></player>
+  <player name="Davis Tull" shortname="Davis Tull" checkname="TULL,DAVIS" uni="90" class="JR" gp="1" gs="1" dpos="LE" code="90">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Devin Scates" shortname="Devin Scates" checkname="SCATES,DEVIN" uni="92" class="JR" gp="1" code="92">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Keionta Davis" shortname="Keionta Davis" checkname="DAVIS,KEIONTA" uni="93" class="FR" gp="1" gs="1" dpos="RE" code="93">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Josh Freeman" shortname="Josh Freeman" checkname="FREEMAN,JOSH" uni="95" class="SO" gp="1" gs="1" dpos="N" code="95">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Chris Mayes" shortname="Chris Mayes" checkname="MAYES,CHRIS" uni="97" class="JR" gp="1" code="97">
+   <defense qbh="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="8" id="UA" name="Alabama" record="11-0" abb="A" rank="1">
+  <linescore prds="4" line="7,21,14,7" score="49">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="21"></lineprd>
+   <lineprd prd="3" score="14"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="22" rush="13" pass="7" penalty="2"></firstdowns>
+   <penalties no="2" yds="20"></penalties>
+   <conversions thirdconv="4" thirdatt="7" fourthconv="1" fourthatt="3"></conversions>
+   <fumbles no="2" lost="1"></fumbles>
+   <misc yds="0" top="25:36" ona="0" onm="0" ptsto="14"></misc>
+   <redzone att="3" scores="3" points="21" tdrush="3" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="32" yds="251" gain="251" loss="0" td="4" long="31"></rush>
+   <pass comp="15" att="20" int="0" yds="184" td="2" long="50" sacks="0" sackyds="0"></pass>
+   <rcv no="15" yds="184" td="2" long="50"></rcv>
+   <ko no="8" yds="478" ob="0" tb="1"></ko>
+   <pat kickatt="7" kickmade="7"></pat>
+   <defense tackua="31" tacka="40" tflua="7" tfla="2" tflyds="17" sacks="1" sackyds="2" brup="2" qbh="2" blkd="1" ff="1" fr="1" fryds="35" int="1" intyds="0"></defense>
+   <kr no="1" yds="14" td="0" long="14"></kr>
+   <pr no="4" yds="78" td="1" long="75"></pr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <fr no="1" yds="35" td="0" long="35"></fr>
+   <scoring td="7" patkick="7"></scoring>
+  </totals>
+  <player name="Alec Morris" shortname="Alec Morris" checkname="MORRIS,ALEC" uni="1B" class="FR" gp="1" code="1B"></player>
+  <player name="Dee Hart" shortname="Dee Hart" checkname="HART,DEE" uni="1" class="SO" gp="1" code="1">
+   <rush att="5" yds="25" gain="25" loss="0" td="1" long="6"></rush>
+   <pr no="1" yds="3" td="0" long="3"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="John Fulton" shortname="John Fulton" checkname="FULTON,JOHN" uni="1A" class="SR" gp="1" code="1A">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Derrick Henry" shortname="Derrick Henry" checkname="HENRY,DERRICK" uni="2F" class="FR" gp="1" code="2F">
+   <rush att="6" yds="66" gain="66" loss="0" td="1" long="27"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="DeAndrew White" shortname="DeAndrew White" checkname="WHITE,DEANDREW" uni="2" class="JR" gp="1" code="2">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Jeremy Watson" shortname="Jeremy Watson" checkname="WATSON,JEREMY" uni="3Y" class="JR" gp="1" code="3Y"></player>
+  <player name="Jared Watson" shortname="Jared Watson" checkname="WATSON,JARED" uni="3Z" class="FR" gp="1" code="3Z"></player>
+  <player name="Corey McCarron" shortname="Corey McCarron" checkname="MCCARRON,COREY" uni="4C" class="SO" gp="1" code="4C">
+   <rcv no="1" yds="3" td="0" long="3"></rcv>
+  </player>
+  <player name="Eddie Jackson" shortname="Eddie Jackson" checkname="JACKSON,EDDIE" uni="4A" class="FR" gp="1" code="4A">
+   <defense fr="1" fryds="35"></defense>
+   <fr no="1" yds="35" td="0" long="35"></fr>
+  </player>
+  <player name="Cyrus Jones" shortname="Cyrus Jones" checkname="JONES,CYRUS" uni="5" class="SO" gp="1" gs="1" dpos="CB" code="5">
+   <defense tackua="1" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Chris Black" shortname="Chris Black" checkname="BLACK,CHRIS" uni="5A" class="FR" gp="1" code="5A">
+   <rush att="1" yds="31" gain="31" loss="0" td="1" long="31"></rush>
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="MK Taylor" shortname="MK Taylor" checkname="TAYLOR,MK" uni="5C" class="JR" gp="1" code="5C"></player>
+  <player name="Blake Sims" shortname="Blake Sims" checkname="SIMS,BLAKE" uni="6" class="JR" gp="1" code="6">
+   <rush att="4" yds="21" gain="21" loss="0" td="0" long="11"></rush>
+   <pass comp="2" att="4" int="0" yds="13" td="0" long="11" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="H. Clinton-Dix" shortname="H. Clinton-Dix" checkname="CLINTON-DIX,H" uni="6A" class="JR" gp="1" gs="1" dpos="FS" code="6A">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Ryan Anderson" shortname="Ryan Anderson" checkname="ANDERSON,RYAN" uni="7A" class="FR" gp="1" code="7A">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="2" sackua="1" sacka="0" sackyds="2"></defense>
+  </player>
+  <player name="Kenny Bell" shortname="Kenny Bell" checkname="BELL,KENNY" uni="7" class="SR" gp="1" code="7">
+   <rcv no="2" yds="13" td="0" long="11"></rcv>
+   <pr no="1" yds="0" td="0" long="0"></pr>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Korren Kirven" shortname="Korren Kirven" checkname="KIRVEN,KORREN" uni="8B" class="FR" gp="1" code="8B"></player>
+  <player name="Jeoffrey Pagan" shortname="Jeoffrey Pagan" checkname="PAGAN,JEOFFREY" uni="8" class="JR" gp="1" gs="1" dpos="DE" code="8">
+   <defense tackua="2" tacka="2" qbh="1"></defense>
+  </player>
+  <player name="Reuben Foster" shortname="Reuben Foster" checkname="FOSTER,REUBEN" uni="9A" class="FR" gp="1" code="9A">
+   <defense tackua="2" tacka="3" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Adam Griffith" shortname="Adam Griffith" checkname="GRIFFITH,ADAM" uni="9B" class="FR" gp="1" code="9B">
+   <ko no="2" yds="116" ob="0" tb="0"></ko>
+   <pat kickatt="1" kickmade="1"></pat>
+   <scoring patkick="1"></scoring>
+  </player>
+  <player name="Amari Cooper" shortname="Amari Cooper" checkname="COOPER,AMARI" uni="9" class="SO" gp="1" gs="1" opos="X" code="9">
+   <rcv no="3" yds="42" td="1" long="38"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="AJ McCarron" shortname="AJ McCarron" checkname="MCCARRON,AJ" uni="10" class="SR" gp="1" gs="1" opos="QB" code="10">
+   <rush att="1" yds="15" gain="15" loss="0" td="0" long="15"></rush>
+   <pass comp="13" att="16" int="0" yds="171" td="2" long="50" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Tana Patrick" shortname="Tana Patrick" checkname="PATRICK,TANA" uni="11" class="SR" gp="1" code="11">
+   <defense tackua="0" tacka="3"></defense>
+  </player>
+  <player name="Bradley Sylve" shortname="Bradley Sylve" checkname="SYLVE,BRADLEY" uni="16" class="SO" gp="1" code="16">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Kenyan Drake" shortname="Kenyan Drake" checkname="DRAKE,KENYAN" uni="17" class="SO" gp="1" gs="1" opos="RB" code="17">
+   <rush att="11" yds="77" gain="77" loss="0" td="1" long="19"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Reggie Ragland" shortname="Reggie Ragland" checkname="RAGLAND,REGGIE" uni="18" class="SO" gp="1" code="18">
+   <defense tackua="2" tacka="2"></defense>
+  </player>
+  <player name="Jai Miller" shortname="Jai Miller" checkname="MILLER,JAI" uni="19" class="FR" gp="1" code="19"></player>
+  <player name="J. Williams" shortname="J. Williams" checkname="WILLIAMS,J" uni="20" class="JR" gp="1" gs="1" dpos="STAR" code="20">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Maurice Smith" shortname="Maurice Smith" checkname="SMITH,MAURICE" uni="21" class="FR" gp="1" gs="1" dpos="CB" code="21">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Christion Jones" shortname="Christion Jones" checkname="JONES,CHRISTION" uni="22" class="JR" gp="1" gs="1" opos="H" code="22">
+   <rcv no="2" yds="24" td="0" long="15"></rcv>
+   <pr no="2" yds="75" td="1" long="75"></pr>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="J. Washington" shortname="J. Washington" checkname="WASHINGTON,J" uni="23" class="SO" gp="1" code="23">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="G. Matias-Smith" shortname="G. Matias-Smith" checkname="MATIAS-SMITH,G" uni="24" class="SO" gp="1" code="24">
+   <defense tackua="1" tacka="1" tflua="0" tfla="1" tflyds="1" brup="1"></defense>
+  </player>
+  <player name="Dillon Lee" shortname="Dillon Lee" checkname="LEE,DILLON" uni="25" class="SO" gp="1" code="25"></player>
+  <player name="Landon Collins" shortname="Landon Collins" checkname="COLLINS,LANDON" uni="26" class="SO" gp="1" gs="1" dpos="SS" code="26">
+   <defense tackua="3" tacka="5" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Altee Tenpenny" shortname="Altee Tenpenny" checkname="TENPENNY,ALTEE" uni="28" class="FR" gp="1" code="28">
+   <rush att="4" yds="16" gain="16" loss="0" td="0" long="7"></rush>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Cody Mandell" shortname="Cody Mandell" checkname="MANDELL,CODY" uni="29" class="SR" gp="1" code="29"></player>
+  <player name="Denzel Devall" shortname="Denzel Devall" checkname="DEVALL,DENZEL" uni="30" class="SO" gp="1" code="30">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="J. Bierbower" shortname="J. Bierbower" checkname="BIERBOWER,J" uni="31" class="JR" gp="1" code="31"></player>
+  <player name="C.J. Mosley" shortname="C.J. Mosley" checkname="MOSLEY,CJ" uni="32" class="SR" gp="1" gs="1" dpos="WILL" code="32">
+   <defense tackua="4" tacka="3" tflua="2" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="Trey DePriest" shortname="Trey DePriest" checkname="DEPRIEST,TREY" uni="33" class="JR" gp="1" gs="1" dpos="MIKE" code="33">
+   <defense tackua="1" tacka="4" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Adrian Hubbard" shortname="Adrian Hubbard" checkname="HUBBARD,ADRIAN" uni="42" class="JR" gp="1" gs="1" dpos="SAM" code="42">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Cade Foster" shortname="Cade Foster" checkname="FOSTER,CADE" uni="43" class="SR" gp="1" code="43">
+   <ko no="6" yds="362" ob="0" tb="1"></ko>
+   <pat kickatt="6" kickmade="6"></pat>
+   <scoring patkick="6"></scoring>
+  </player>
+  <player name="Jalston Fowler" shortname="Jalston Fowler" checkname="FOWLER,JALSTON" uni="45" class="JR" gp="1" code="45">
+   <rcv no="1" yds="-1" td="0" long="0"></rcv>
+  </player>
+  <player name="M. Nysewander" shortname="M. Nysewander" checkname="NYSEWANDER,M" uni="46" class="JR" gp="1" code="46"></player>
+  <player name="Xzavier Dickson" shortname="Xzavier Dickson" checkname="DICKSON,XZAVIER" uni="47" class="JR" gp="1" code="47">
+   <defense tackua="0" tacka="1"></defense>
+   <kr no="1" yds="14" td="0" long="14"></kr>
+  </player>
+  <player name="Ed Stinson" shortname="Ed Stinson" checkname="STINSON,ED" uni="49" class="SR" gp="1" gs="1" dpos="DE" code="49">
+   <defense tackua="0" tacka="2" qbh="1"></defense>
+  </player>
+  <player name="Alphonse Taylor" shortname="Alphonse Taylor" checkname="TAYLOR,ALPHONSE" uni="50" class="FR" gp="1" code="50"></player>
+  <player name="Anthony Orr" shortname="Anthony Orr" checkname="ORR,ANTHONY" uni="53" class="JR" gp="1" code="53">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Cole Mazza" shortname="Cole Mazza" checkname="MAZZA,COLE" uni="55" class="FR" gp="1" code="55"></player>
+  <player name="Tim Williams" shortname="Tim Williams" checkname="WILLIAMS,TIM" uni="56" class="FR" gp="1" code="56">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Anthony Steen" shortname="Anthony Steen" checkname="STEEN,ANTHONY" uni="61" class="SR" gp="1" gs="1" opos="RG" code="61"></player>
+  <player name="Kellen Williams" shortname="Kellen Williams" checkname="WILLIAMS,KELLEN" uni="63" class="SR" gp="1" code="63"></player>
+  <player name="Grant Hill" shortname="Grant Hill" checkname="HILL,GRANT" uni="64" class="FR" gp="1" code="64"></player>
+  <player name="Isaac Luatua" shortname="Isaac Luatua" checkname="LUATUA,ISAAC" uni="68" class="SO" gp="1" code="68"></player>
+  <player name="Paul Waldrop" shortname="Paul Waldrop" checkname="WALDROP,PAUL" uni="69" class="FR" gp="1" code="69"></player>
+  <player name="Ryan Kelly" shortname="Ryan Kelly" checkname="KELLY,RYAN" uni="70" class="SO" gp="1" gs="1" opos="C" code="70"></player>
+  <player name="Cyrus Kouandjio" shortname="Cyrus Kouandjio" checkname="KOUANDJIO,CYRUS" uni="71" class="JR" gp="1" gs="1" opos="LT" code="71"></player>
+  <player name="Leon Brown" shortname="Leon Brown" checkname="BROWN,LEON" uni="72" class="JR" gp="1" code="72"></player>
+  <player name="Arie Kouandjio" shortname="Arie Kouandjio" checkname="KOUANDJIO,ARIE" uni="77" class="JR" gp="1" gs="1" opos="LG" code="77"></player>
+  <player name="Chad Lindsay" shortname="Chad Lindsay" checkname="LINDSAY,CHAD" uni="78" class="JR" gp="1" code="78"></player>
+  <player name="Austin Shepherd" shortname="Austin Shepherd" checkname="SHEPHERD,AUSTIN" uni="79" class="JR" gp="1" gs="1" opos="RT" code="79"></player>
+  <player name="Raheem Falkins" shortname="Raheem Falkins" checkname="FALKINS,RAHEEM" uni="80" class="FR" gp="1" code="80"></player>
+  <player name="Harrison Jones" shortname="Harrison Jones" checkname="JONES,HARRISON" uni="82" class="JR" gp="1" code="82"></player>
+  <player name="Kevin Norwood" shortname="Kevin Norwood" checkname="NORWOOD,KEVIN" uni="83" class="SR" gp="1" gs="1" opos="Z" code="83">
+   <rcv no="4" yds="84" td="1" long="50"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Malcome Faciane" shortname="Malcome Faciane" checkname="FACIANE,MALCOME" uni="85" class="SO" gp="1" code="85"></player>
+  <player name="A. Robinson" shortname="A. Robinson" checkname="ROBINSON,A" uni="86" class="FR" gp="1" code="86">
+   <defense tackua="0" tacka="3" blkd="1"></defense>
+  </player>
+  <player name="P. Barrineau" shortname="P. Barrineau" checkname="BARRINEAU,P" uni="87" class="SO" gp="1" code="87"></player>
+  <player name="O.J. Howard" shortname="O.J. Howard" checkname="HOWARD,OJ" uni="88" class="FR" gp="1" gs="1" opos="TE" code="88"></player>
+  <player name="Brandon Greene" shortname="Brandon Greene" checkname="GREENE,BRANDON" uni="89" class="FR" gp="1" code="89"></player>
+  <player name="Jonathan Allen" shortname="Jonathan Allen" checkname="ALLEN,JONATHAN" uni="93" class="FR" gp="1" code="93">
+   <defense tackua="2" tacka="2" tflua="2" tfla="0" tflyds="5" ff="1"></defense>
+  </player>
+  <player name="Dakota Ball" shortname="Dakota Ball" checkname="BALL,DAKOTA" uni="94" class="FR" gp="1" code="94"></player>
+  <player name="Darren Lake" shortname="Darren Lake" checkname="LAKE,DARREN" uni="95" class="SO" gp="1" code="95">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Brandon Ivory" shortname="Brandon Ivory" checkname="IVORY,BRANDON" uni="99" class="JR" gp="1" gs="1" dpos="NG" code="99">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="UA" qtr="1" clock="08:57" type="TD" how="RUSH" yds="13" scorer="Kenyan Drake" patby="Cade Foster" pattype="KICK" patres="GOOD" plays="5" drive="83" top="1:51" vscore="0" hscore="7" driveindex="4"></score>
+  <score vh="H" team="UA" qtr="2" clock="12:31" type="TD" how="RUSH" yds="5" scorer="Derrick Henry" patby="Cade Foster" pattype="KICK" patres="GOOD" plays="7" drive="80" top="2:46" vscore="0" hscore="14" driveindex="8"></score>
+  <score vh="H" team="UA" qtr="2" clock="09:57" type="TD" how="PUNT" yds="75" scorer="Christion Jones" patby="Cade Foster" pattype="KICK" patres="GOOD" vscore="0" hscore="21" driveindex="10"></score>
+  <score vh="H" team="UA" qtr="2" clock="02:18" type="TD" how="PASS" yds="28" scorer="Kevin Norwood" passer="AJ McCarron" patby="Cade Foster" pattype="KICK" patres="GOOD" plays="5" drive="42" top="2:03" vscore="0" hscore="28" driveindex="12"></score>
+  <score vh="H" team="UA" qtr="3" clock="11:19" type="TD" how="PASS" yds="38" scorer="Amari Cooper" passer="AJ McCarron" patby="Cade Foster" pattype="KICK" patres="GOOD" plays="7" drive="62" top="3:41" vscore="0" hscore="35" driveindex="14"></score>
+  <score vh="H" team="UA" qtr="3" clock="05:33" type="TD" how="RUSH" yds="31" scorer="Chris Black" patby="Cade Foster" pattype="KICK" patres="GOOD" plays="6" drive="63" top="3:19" vscore="0" hscore="42" driveindex="16"></score>
+  <score vh="H" team="UA" qtr="4" clock="05:07" type="TD" how="RUSH" yds="6" scorer="Dee Hart" patby="Adam Griffith" pattype="KICK" patres="GOOD" plays="1" drive="6" top="0:05" vscore="0" hscore="49" driveindex="20"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="UTC" kicker="Nick Pollard" qtr="2" clock="04:21" distance="48" result="blkd"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="UTC" start="KO,1,15:00,27" end="PUNT,1,12:39,32" plays="3" yards="5" top="2:21" driveindex="1"></drive>
+  <drive vh="H" team="UA" start="PUNT,1,00:00,34" end="FUMB,1,12:39,34" plays="0" yards="0" top="0:00" driveindex="2"></drive>
+  <drive vh="V" team="UTC" start="FUMB,1,12:39,66" end="INT,1,10:48,71" plays="4" yards="5" top="1:51" driveindex="3"></drive>
+  <drive vh="H" team="UA" start="INT,1,10:48,17" end="TD,1,08:57,100" plays="5" yards="83" top="1:51" rz="1" driveindex="4"></drive>
+  <drive vh="V" team="UTC" start="KO,1,08:57,25" end="PUNT,1,06:39,29" plays="3" yards="4" top="2:18" driveindex="5"></drive>
+  <drive vh="H" team="UA" start="PUNT,1,06:39,29" end="DOWNS,1,03:13,61" plays="7" yards="32" top="3:26" driveindex="6"></drive>
+  <drive vh="V" team="UTC" start="DOWNS,1,03:13,39" end="PUNT,1,00:17,44" plays="5" yards="5" top="2:56" driveindex="7"></drive>
+  <drive vh="H" team="UA" start="PUNT,1,00:17,20" end="TD,2,12:31,100" plays="7" yards="80" top="2:46" rz="1" driveindex="8"></drive>
+  <drive vh="V" team="UTC" start="KO,2,12:31,23" end="PUNT,2,09:57,30" plays="3" yards="7" top="2:34" driveindex="9"></drive>
+  <drive vh="H" team="UA" start="PUNT,2,09:57,100" end="TD,2,09:57,100" plays="0" yards="0" top="0:00" driveindex="10"></drive>
+  <drive vh="V" team="UTC" start="KO,2,09:57,19" end="FGA,2,04:21,69" plays="10" yards="50" top="5:36" driveindex="11"></drive>
+  <drive vh="H" team="UA" start="FGA,2,04:21,58" end="TD,2,02:18,100" plays="5" yards="42" top="2:03" driveindex="12"></drive>
+  <drive vh="V" team="UTC" start="KO,2,02:18,19" end="HALF,2,00:00,29" plays="3" yards="10" top="2:18" driveindex="13"></drive>
+  <drive vh="H" team="UA" start="KO,3,15:00,38" end="TD,3,11:19,100" plays="7" yards="62" top="3:41" driveindex="14"></drive>
+  <drive vh="V" team="UTC" start="KO,3,11:19,25" end="PUNT,3,08:52,25" plays="3" yards="0" top="2:27" driveindex="15"></drive>
+  <drive vh="H" team="UA" start="PUNT,3,08:52,37" end="TD,3,05:33,100" plays="6" yards="63" top="3:19" driveindex="16"></drive>
+  <drive vh="V" team="UTC" start="KO,3,05:33,20" end="PUNT,4,14:49,50" plays="8" yards="30" top="5:44" driveindex="17"></drive>
+  <drive vh="H" team="UA" start="PUNT,4,14:49,7" end="DOWNS,4,06:55,77" plays="13" yards="70" top="7:54" driveindex="18"></drive>
+  <drive vh="V" team="UTC" start="DOWNS,4,06:55,23" end="FUMB,4,05:12,41" plays="3" yards="18" top="1:43" driveindex="19"></drive>
+  <drive vh="H" team="UA" start="FUMB,4,05:12,94" end="TD,4,05:07,100" plays="1" yards="6" top="0:05" rz="1" driveindex="20"></drive>
+  <drive vh="V" team="UTC" start="KO,4,05:07,18" end="PUNT,4,00:31,39" plays="6" yards="21" top="4:36" driveindex="21"></drive>
+  <drive vh="H" team="UA" start="PUNT,4,00:31,13" end="HALF,4,00:00,20" plays="1" yards="7" top="0:31" driveindex="22"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V35" playid="0,1,0" tokens="CMT:Chattanooga won the toss and will receive. Alabama defends South goal."
+      text="Chattanooga won the toss and will receive. Alabama defends South goal."></play>
+   <play context="V,1,10,V35" playid="0,2,1" tokens="SPOT:H,H35,N"
+      text="UA ball on UA35."></play>
+   <play context="H,1,10,H35" playid="0,3,2" type="K" tokens="KO:43,V05 RET:21,V27 TACK:5"
+      text="Cade Foster kickoff 60 yards to the UTC5, Marquis Green return 22 yards to the UTC27 (Cyrus Jones)."></play>
+   <drivestart poss="V,V27,15:00" vh="V" spot="V27" clock="15:00" driveindex="1,2"></drivestart>
+   <play context="V,1,10,V27" playid="1,1,3" type="P" pcode="SH" tokens="PASS:6,C,21,V26,SH TACK:6A"
+      text="T. Robinson SH pass complete to Marquis Green for loss of 1 yard to the UTC26 (H. Clinton-Dix)."></play>
+   <play context="V,2,11,V26" playid="1,2,4" type="R" pcode="RT" tokens="RUSH:27,V29,RT TACK:8"
+      text="Kendrix Huitt rush over right tackle for 3 yards to the UTC29 (Jeoffrey Pagan)."></play>
+   <play context="V,3,8,V29" playid="1,3,5" type="R" pcode="LE" tokens="RUSH:6,V32,LE TACK:32,8"
+      text="T. Robinson rush over left end for 3 yards to the UTC32 (C.J. Mosley;Jeoffrey Pagan)."></play>
+   <play context="V,4,5,V32" playid="1,4,6" type="U" turnover="F" tokens="PUNT:30,H34 RET:22,H34 FUMB:V,H34,16"
+      text="Nick Pollard punt 34 yards to the UA34, Christion Jones return 0 yards to the UA34, fumble by Christion Jones recovered by UTC S. Kendall at UA34."></play>
+   <drivesum plays="3" yards="5" top="2:21" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,H34,12:39" vh="V" spot="H34" clock="12:39" driveindex="3,6"></drivestart>
+   <play context="V,1,10,H34" playid="3,1,7" clock="12:39" tokens="{DRIVE}:12:39"
+      text="CHATTANOOGA drive start at 12:39."></play>
+   <play context="V,1,10,H34" playid="3,2,8" type="P" pcode="LF" tokens="PASS:6,C,21,H31,LF OB: TACK:21"
+      text="T. Robinson LF pass complete to Marquis Green for 3 yards to the UA31, out-of-bounds (Maurice Smith)."></play>
+   <play context="V,2,7,H31" playid="3,3,9" type="R" pcode="QD" tokens="RUSH:6,H26,QD TACK:32,99"
+      text="T. Robinson rush quarterback draw for 5 yards to the UA26 (C.J. Mosley;Brandon Ivory)."></play>
+   <play context="V,3,2,H26" playid="3,4,10" type="R" pcode="RV" tokens="RUSH:24,H29,RV TACK:32"
+      text="X. Borishade rush reverse for loss of 3 yards to the UA29 (C.J. Mosley)."></play>
+   <play context="V,4,5,H29" playid="3,5,11" type="#" clock="10:58" tokens="TOUT:V T:10:58"
+      text="Timeout Chattanooga, clock 10:58."></play>
+   <play context="V,4,5,H29" playid="3,6,12" type="P" pcode="SI" turnover="I" tokens="PASS:6,X,33,H17,SI RET:33,H17 PEN:V,BL,D"
+      text="T. Robinson sideline pass intercepted by Trey DePriest at the UA17, Trey DePriest return 0 yards to the UA17, PENALTY UTC illegal block declined."></play>
+   <drivesum plays="4" yards="5" top="1:51" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H17,10:48" vh="H" spot="H17" clock="10:48" driveindex="4,12"></drivestart>
+   <play context="H,1,10,H17" playid="4,1,13" clock="10:48" tokens="{DRIVE}:10:48"
+      text="ALABAMA drive start at 10:48."></play>
+   <play context="H,1,10,H17" playid="4,2,14" type="R" pcode="LG" tokens="RUSH:17,H18,LG TACK:66,20"
+      text="Kenyan Drake rush over left guard for 1 yard to the UA18 (Daniel Ring;D.J. Key)."></play>
+   <play context="H,2,9,H18" playid="4,3,15" type="P" pcode="SL" tokens="PASS:10,B,83,*,SL BRUP:25"
+      text="AJ McCarron slant pass incomplete to Kevin Norwood (Wes Dothard)."></play>
+   <play context="H,3,9,H18" playid="4,4,16" type="P" pcode="CR" first="P" tokens="PASS:10,C,83,V32,CR TACK:19 PEN:V,FM,A,19,V17,1"
+      text="AJ McCarron crossing pass complete to Kevin Norwood for 50 yards to the UTC32, 1ST DOWN UA (Dee Virgin), PENALTY UTC face mask (Dee Virgin) 15 yards to the UTC17, 1ST DOWN UA."></play>
+   <play context="H,1,10,V17" playid="4,5,17" tokens="D:1,10"
+      text="1st and 10."></play>
+   <play context="H,1,10,V17" playid="4,6,18" type="R" pcode="MI" tokens="RUSH:17,V13,MI TACK:93"
+      text="Kenyan Drake rush up middle for 4 yards to the UTC13 (Keionta Davis)."></play>
+   <play context="H,2,6,V13" playid="4,7,19" type="R" pcode="RE" first="R" score="Y" vscore="0" hscore="6" clock="08:57" tokens="RUSH:17,V00,RE T:08:57"
+      text="Kenyan Drake rush over right end for 13 yards to the UTC0, 1ST DOWN UA, TOUCHDOWN, clock 08:57."></play>
+   <play context="H,1,0,V03" playid="4,8,20" type="X" score="Y" vscore="0" hscore="7" tokens="PAT:K,43,G"
+      text="Cade Foster kick attempt good."></play>
+   <score V="0" H="7"></score>
+   <drivesum plays="5" yards="83" top="1:51" driveindex="4" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="4,9,21" type="K" tokens="KO:43,V01 RET:21,V25 TACK:28"
+      text="Cade Foster kickoff 64 yards to the UTC1, Marquis Green return 24 yards to the UTC25 (Altee Tenpenny)."></play>
+   <drivestart poss="V,V25,08:57" vh="V" spot="V25" clock="08:57" driveindex="5,21"></drivestart>
+   <play context="V,1,10,V25" playid="5,1,22" clock="08:57" tokens="{DRIVE}:08:57"
+      text="CHATTANOOGA drive start at 08:57."></play>
+   <play context="V,1,10,V25" playid="5,2,23" type="E" tokens="PEN:V,DG,A,TM,V20,N"
+      text="PENALTY UTC delay of game 5 yards to the UTC20."></play>
+   <play context="V,1,15,V20" playid="5,3,24" type="R" pcode="RE" tokens="RUSH:6,V25,RE OB: TACK:6A"
+      text="T. Robinson rush over right end for 5 yards to the UTC25, out-of-bounds (H. Clinton-Dix)."></play>
+   <play context="V,2,10,V25" playid="5,4,25" type="R" pcode="LG" tokens="RUSH:27,V29,LG TACK:86,26"
+      text="Kendrix Huitt rush over left guard for 4 yards to the UTC29 (A. Robinson;Landon Collins)."></play>
+   <play context="V,3,6,V29" playid="5,5,26" type="R" pcode="MI" tokens="RUSH:6,V29,MI TACK:47,49"
+      text="T. Robinson rush up middle for no gain to the UTC29 (Xzavier Dickson;Ed Stinson)."></play>
+   <play context="V,4,6,V29" playid="5,6,27" type="U" tokens="PUNT:30,H29 DN:"
+      text="Nick Pollard punt 42 yards to the UA29, downed."></play>
+   <drivesum plays="3" yards="4" top="2:18" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H29,06:39" vh="H" spot="H29" clock="06:39" driveindex="6,27"></drivestart>
+   <play context="H,1,10,H29" playid="6,1,28" clock="06:39" tokens="{DRIVE}:06:39"
+      text="ALABAMA drive start at 06:39."></play>
+   <play context="H,1,10,H29" playid="6,2,29" type="P" pcode="CR" first="P" tokens="PASS:10,C,22,H44,CR TACK:1,66"
+      text="AJ McCarron crossing pass complete to Christion Jones for 15 yards to the UA44, 1ST DOWN UA (Chaz Moore;Daniel Ring)."></play>
+   <play context="H,1,10,H44" playid="6,3,30" type="P" pcode="SC" tokens="PASS:10,C,9,H41,SC TACK:1"
+      text="AJ McCarron screen pass complete to Amari Cooper for loss of 3 yards to the UA41 (Chaz Moore)."></play>
+   <play context="H,2,13,H41" playid="6,4,31" type="R" pcode="RE" first="R" tokens="RUSH:10,V44,RE OB: TACK:19"
+      text="AJ McCarron rush over right end for 15 yards to the UTC44, 1ST DOWN UA, out-of-bounds (Dee Virgin)."></play>
+   <play context="H,1,10,V44" playid="6,5,32" type="P" pcode="PO" tokens="PASS:10,B,7,*,PO BRUP:1"
+      text="AJ McCarron post pass incomplete to Kenny Bell (Chaz Moore)."></play>
+   <play context="H,2,10,V44" playid="6,6,33" type="P" pcode="LF" tokens="PASS:10,C,83,V42,LF TACK:19"
+      text="AJ McCarron LF pass complete to Kevin Norwood for 2 yards to the UTC42 (Dee Virgin)."></play>
+   <play context="H,3,8,V42" playid="6,7,34" type="P" pcode="MI" tokens="PASS:10,C,83,V38,MI TACK:25,1"
+      text="AJ McCarron middle pass complete to Kevin Norwood for 4 yards to the UTC38 (Wes Dothard;Chaz Moore)."></play>
+   <play context="H,4,4,V38" playid="6,8,35" type="P" pcode="LF" tokens="PASS:10,C,45,V39,LF TACK:1"
+      text="AJ McCarron LF pass complete to Jalston Fowler for loss of 1 yard to the UTC39 (Chaz Moore)."></play>
+   <drivesum plays="7" yards="32" top="3:26" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,V39,03:13" vh="V" spot="V39" clock="03:13" driveindex="7,35"></drivestart>
+   <play context="V,1,10,V39" playid="7,1,36" clock="03:13" tokens="{DRIVE}:03:13"
+      text="CHATTANOOGA drive start at 03:13."></play>
+   <play context="V,1,10,V39" playid="7,2,37" type="P" pcode="SH" tokens="PASS:6,C,88,V46,SH TACK:42,33"
+      text="T. Robinson SH pass complete to Faysal Shafaat for 7 yards to the UTC46 (Adrian Hubbard;Trey DePriest)."></play>
+   <play context="V,2,3,V46" playid="7,3,38" type="R" pcode="MI" first="R" tokens="RUSH:41,H49,MI TACK:26,8"
+      text="Derrick Craine rush up middle for 5 yards to the UA49, 1ST DOWN UTC (Landon Collins;Jeoffrey Pagan)."></play>
+   <play context="V,1,10,H49" playid="7,4,39" type="E" pcode="MI" tokens="RUSH:6,H49,MI TACK:8,93 PEN:V,FO,A,72,V46,N NOPLAY:"
+      text="T. Robinson rush up middle for no gain to the UA49 (Jeoffrey Pagan;Jonathan Allen), PENALTY UTC illegal formation (Patrick Sutton) 5 yards to the UTC46, NO PLAY."></play>
+   <play context="V,1,15,V46" playid="7,5,40" type="#" clock="01:23" tokens="TOUT:V T:01:23"
+      text="Timeout Chattanooga, clock 01:23."></play>
+   <play context="V,1,15,V46" playid="7,6,41" type="P" tokens="PASS:6,I,27,* QBH:H,8"
+      text="T. Robinson pass incomplete to Kendrix Huitt, QB hurry by Jeoffrey Pagan."></play>
+   <play context="V,2,15,V46" playid="7,7,42" type="R" pcode="MI" tokens="RUSH:27,V44,MI TACK:93"
+      text="Kendrix Huitt rush up middle for loss of 2 yards to the UTC44 (Jonathan Allen)."></play>
+   <play context="V,3,17,V44" playid="7,8,43" type="P" pcode="RF" tokens="PASS:6,B,24,*,RF BRUP:24"
+      text="T. Robinson RF pass incomplete to X. Borishade (G. Matias-Smith)."></play>
+   <play context="V,4,17,V44" playid="7,9,44" type="U" tokens="PUNT:30,H17 RET:1,H20 TACK:5"
+      text="Nick Pollard punt 39 yards to the UA17, Dee Hart return 3 yards to the UA20 (Kadeem Wise)."></play>
+   <drivesum plays="5" yards="5" top="2:56" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H20,00:17" vh="H" spot="H20" clock="00:17" driveindex="8,44"></drivestart>
+   <play context="H,1,10,H20" playid="8,1,45" clock="00:17" tokens="{DRIVE}:00:17"
+      text="ALABAMA drive start at 00:17."></play>
+   <play context="H,1,10,H20" playid="8,2,46" type="R" pcode="LG" tokens="RUSH:17,H22,LG TACK:28,20"
+      text="Kenyan Drake rush over left guard for 2 yards to the UA22 (N. Leslie;D.J. Key)."></play>
+   <score qtr="1" V="0" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UTC">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:26"></misc>
+    <rush att="9" yds="20" gain="25" loss="5" td="0" long="5"></rush>
+    <pass comp="3" att="6" int="1" yds="9" td="0" long="7" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="9" td="0" long="7"></rcv>
+    <punt no="3" yds="115" long="42" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="7" tacka="8" tflua="2" tfla="0" tflyds="4" sacks="0" sackyds="0" brup="2" fr="1" fryds="0"></defense>
+    <kr no="2" yds="46" td="0" long="24"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="UA">
+    <firstdowns no="5" rush="2" pass="2" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="05:34"></misc>
+    <rush att="5" yds="35" gain="35" loss="0" td="1" long="15"></rush>
+    <pass comp="6" att="8" int="0" yds="67" td="0" long="50" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="67" td="0" long="50"></rcv>
+    <ko no="2" yds="124" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="8" tacka="12" tflua="3" tfla="0" tflyds="6" sacks="0" sackyds="0" brup="1" qbh="1" int="1" intyds="0"></defense>
+    <pr no="2" yds="3" td="0" long="3"></pr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="H,2,8,H22" playid="8,3,47" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00."></play>
+   <play context="H,2,8,H22" playid="8,4,48" type="R" pcode="LE" first="R" tokens="RUSH:17,H41,LE OB: TACK:5"
+      text="Kenyan Drake rush over left end for 19 yards to the UA41, 1ST DOWN UA, out-of-bounds (Kadeem Wise)."></play>
+   <play context="H,1,10,H41" playid="8,5,49" type="P" pcode="LF" tokens="PASS:10,C,2,H49,LF OB:"
+      text="AJ McCarron LF pass complete to DeAndrew White for 8 yards to the UA49, out-of-bounds."></play>
+   <play context="H,2,2,H49" playid="8,6,50" type="R" pcode="MI" first="R" tokens="RUSH:17,V47,MI TACK:20"
+      text="Kenyan Drake rush up middle for 4 yards to the UTC47, 1ST DOWN UA (D.J. Key)."></play>
+   <play context="H,1,10,V47" playid="8,7,51" type="R" pcode="RE" first="R" tokens="RUSH:17,V32,RE OB: TACK:19"
+      text="Kenyan Drake rush over right end for 15 yards to the UTC32, 1ST DOWN UA, out-of-bounds (Dee Virgin)."></play>
+   <play context="H,1,10,V32" playid="8,8,52" type="R" pcode="RE" first="R" tokens="RUSH:2F,V05,RE TACK:5"
+      text="Derrick Henry rush over right end for 27 yards to the UTC5, 1ST DOWN UA (Kadeem Wise)."></play>
+   <play context="H,1,0,V05" playid="8,9,53" type="R" pcode="RG" score="Y" vscore="0" hscore="13" clock="12:31" tokens="RUSH:2F,V00,RG T:12:31"
+      text="Derrick Henry rush over right guard for 5 yards to the UTC0, TOUCHDOWN, clock 12:31."></play>
+   <play context="H,1,0,V03" playid="8,10,54" type="X" score="Y" vscore="0" hscore="14" tokens="PAT:K,43,G"
+      text="Cade Foster kick attempt good."></play>
+   <score V="0" H="14"></score>
+   <drivesum plays="7" yards="80" top="2:46" driveindex="8" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="8,11,55" type="K" tokens="KO:43,V10 RET:21,V23 TACK:6A"
+      text="Cade Foster kickoff 55 yards to the UTC10, Marquis Green return 13 yards to the UTC23 (H. Clinton-Dix)."></play>
+   <drivestart poss="V,V23,12:31" vh="V" spot="V23" clock="12:31" driveindex="9,55"></drivestart>
+   <play context="V,1,10,V23" playid="9,1,56" clock="12:31" tokens="{DRIVE}:12:31"
+      text="CHATTANOOGA drive start at 12:31."></play>
+   <play context="V,1,10,V23" playid="9,2,57" type="R" pcode="RE" tokens="RUSH:41,V27,RE TACK:42"
+      text="Derrick Craine rush over right end for 4 yards to the UTC27 (Adrian Hubbard)."></play>
+   <play context="V,2,6,V27" playid="9,3,58" type="R" pcode="RT" tokens="RUSH:41,V25,RT TACK:32"
+      text="Derrick Craine rush over right tackle for loss of 2 yards to the UTC25 (C.J. Mosley)."></play>
+   <play context="V,3,8,V25" playid="9,4,59" type="R" pcode="LE" tokens="RUSH:41,V30,LE TACK:32,26"
+      text="Derrick Craine rush over left end for 5 yards to the UTC30 (C.J. Mosley;Landon Collins)."></play>
+   <play context="V,4,3,V30" playid="9,5,60" type="U" score="Y" vscore="0" hscore="20" clock="09:57" tokens="PUNT:30,H25 RET:22,V00 T:09:57"
+      text="Nick Pollard punt 45 yards to the UA25, Christion Jones return 75 yards to the UTC0, TOUCHDOWN, clock 09:57."></play>
+   <drivesum plays="3" yards="7" top="2:34" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,V03,09:57" vh="H" spot="V03" clock="09:57" driveindex="10,60"></drivestart>
+   <play context="H,1,0,V03" playid="10,1,61" type="X" score="Y" vscore="0" hscore="21" tokens="PAT:K,43,G"
+      text="Cade Foster kick attempt good."></play>
+   <score V="0" H="21"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="10" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="10,2,62" type="K" tokens="KO:43,V06 RET:86,V19 TACK:18"
+      text="Cade Foster kickoff 59 yards to the UTC6, C.J. Board return 13 yards to the UTC19 (Reggie Ragland)."></play>
+   <drivestart poss="V,V19,09:57" vh="V" spot="V19" clock="09:57" driveindex="11,62"></drivestart>
+   <play context="V,1,10,V19" playid="11,1,63" clock="09:57" tokens="{DRIVE}:09:57"
+      text="CHATTANOOGA drive start at 09:57."></play>
+   <play context="V,1,10,V19" playid="11,2,64" type="R" pcode="LE" tokens="RUSH:27,V24,LE OB: TACK:26"
+      text="Kendrix Huitt rush over left end for 5 yards to the UTC24, out-of-bounds (Landon Collins)."></play>
+   <play context="V,2,5,V24" playid="11,3,65" type="R" pcode="MI" tokens="RUSH:6,V24,MI TACK:30,20"
+      text="T. Robinson rush up middle for no gain to the UTC24 (Denzel Devall;J. Williams)."></play>
+   <play context="V,3,5,V24" playid="11,4,66" type="P" pcode="LF" first="P" tokens="PASS:6,C,41,V41,LF TACK:26"
+      text="T. Robinson LF pass complete to Derrick Craine for 17 yards to the UTC41, 1ST DOWN UTC (Landon Collins)."></play>
+   <play context="V,1,10,V41" playid="11,5,67" type="P" pcode="RF" first="P" tokens="PASS:6,C,24,H43,RF TACK:26"
+      text="T. Robinson RF pass complete to X. Borishade for 16 yards to the UA43, 1ST DOWN UTC (Landon Collins)."></play>
+   <play context="V,1,10,H43" playid="11,6,68" type="E" tokens="PEN:V,FS,A,86,H48,N"
+      text="PENALTY UTC false start (C.J. Board) 5 yards to the UA48."></play>
+   <play context="V,1,15,H48" playid="11,7,69" type="R" pcode="RT" tokens="RUSH:6,H44,RT TACK:33,93"
+      text="T. Robinson rush over right tackle for 4 yards to the UA44 (Trey DePriest;Jonathan Allen)."></play>
+   <play context="V,2,11,H44" playid="11,8,70" type="P" pcode="SC" first="P" tokens="PASS:6,C,21,H31,SC TACK:32"
+      text="T. Robinson screen pass complete to Marquis Green for 13 yards to the UA31, 1ST DOWN UTC (C.J. Mosley)."></play>
+   <play context="V,1,10,H31" playid="11,9,71" type="P" pcode="RF" tokens="PASS:6,C,27,H31,RF TACK:32"
+      text="T. Robinson RF pass complete to Kendrix Huitt for no gain to the UA31 (C.J. Mosley)."></play>
+   <play context="V,2,10,H31" playid="11,10,72" type="P" pcode="FL" tokens="PASS:6,I,24,*,FL"
+      text="T. Robinson flag pass incomplete to X. Borishade."></play>
+   <play context="V,3,10,H31" playid="11,11,73" type="P" tokens="PASS:6,B,88,* BRUP:5 QBH:H,49"
+      text="T. Robinson pass incomplete to Faysal Shafaat (Cyrus Jones), QB hurry by Ed Stinson."></play>
+   <play context="V,4,10,H31" playid="11,12,74" type="F" clock="04:21" tokens="FGA:30,48,B,V42,V,89 T:04:21 BLOCK:86"
+      text="Nick Pollard field goal attempt from 48 BLOCKED, recovered by UTC K. Niethammer at UTC42 spot at UTC42, clock 04:21 (blocked by A. Robinson)."></play>
+   <drivesum plays="10" yards="50" top="5:36" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,V42,04:21" vh="H" spot="V42" clock="04:21" driveindex="12,74"></drivestart>
+   <play context="H,1,10,V42" playid="12,1,75" type="R" pcode="LE" tokens="RUSH:2F,V38,LE TACK:1"
+      text="Derrick Henry rush over left end for 4 yards to the UTC38 (Chaz Moore)."></play>
+   <play context="H,2,6,V38" playid="12,2,76" type="P" pcode="SI" tokens="PASS:10,B,2F,*,SI BRUP:28"
+      text="AJ McCarron sideline pass incomplete to Derrick Henry (N. Leslie)."></play>
+   <play context="H,3,6,V38" playid="12,3,77" type="#" clock="03:33" tokens="TOUT:V T:03:33"
+      text="Timeout Chattanooga, clock 03:33."></play>
+   <play context="H,3,6,V38" playid="12,4,78" type="R" pcode="MI" tokens="RUSH:17,V35,MI TACK:20"
+      text="Kenyan Drake rush up middle for 3 yards to the UTC35 (D.J. Key)."></play>
+   <play context="H,4,3,V35" playid="12,5,79" type="P" pcode="SI" first="P" tokens="PASS:10,C,9,V28,SI TACK:5"
+      text="AJ McCarron sideline pass complete to Amari Cooper for 7 yards to the UTC28, 1ST DOWN UA (Kadeem Wise)."></play>
+   <play context="H,1,10,V28" playid="12,6,80" type="P" pcode="PO" first="P" score="Y" vscore="0" hscore="27" clock="02:18" tokens="PASS:10,C,83,V00,PO T:02:18"
+      text="AJ McCarron post pass complete to Kevin Norwood for 28 yards to the UTC0, 1ST DOWN UA, TOUCHDOWN, clock 02:18."></play>
+   <play context="H,1,0,V03" playid="12,7,81" type="X" score="Y" vscore="0" hscore="28" tokens="PAT:K,43,G"
+      text="Cade Foster kick attempt good."></play>
+   <score V="0" H="28"></score>
+   <drivesum plays="5" yards="42" top="2:03" driveindex="12" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="12,8,82" type="K" tokens="KO:43,V06 RET:86,V19 TACK:24"
+      text="Cade Foster kickoff 59 yards to the UTC6, C.J. Board return 13 yards to the UTC19 (G. Matias-Smith)."></play>
+   <drivestart poss="V,V19,02:18" vh="V" spot="V19" clock="02:18" driveindex="13,82"></drivestart>
+   <play context="V,1,10,V19" playid="13,1,83" clock="02:18" tokens="{DRIVE}:02:18"
+      text="CHATTANOOGA drive start at 02:18."></play>
+   <play context="V,1,10,V19" playid="13,2,84" type="R" pcode="RT" tokens="RUSH:27,V24,RT TACK:86,33"
+      text="Kendrix Huitt rush over right tackle for 5 yards to the UTC24 (A. Robinson;Trey DePriest)."></play>
+   <play context="V,2,5,V24" playid="13,3,85" type="R" pcode="LE" tokens="RUSH:27,V25,LE TACK:33,86"
+      text="Kendrix Huitt rush over left end for 1 yard to the UTC25 (Trey DePriest;A. Robinson)."></play>
+   <play context="V,3,4,V25" playid="13,4,86" type="R" pcode="RE" first="R" tokens="RUSH:6,V29,RE TACK:26,49"
+      text="T. Robinson rush over right end for 4 yards to the UTC29, 1ST DOWN UTC (Landon Collins;Ed Stinson)."></play>
+   <play context="V,1,10,V29" playid="13,5,87" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="3" yards="10" top="2:18" driveindex="13" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UTC">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="-27" top="10:28"></misc>
+    <rush att="9" yds="26" gain="28" loss="2" td="0" long="0"></rush>
+    <pass comp="4" att="6" int="0" yds="46" td="0" long="10" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="46" td="0" long="10"></rcv>
+    <punt no="1" yds="45" long="3" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <fg made="0" att="1" long="0" blkd="1"></fg>
+    <defense tackua="7" tacka="0" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="3" yds="39" td="0" long="0"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="UA">
+    <firstdowns no="6" rush="4" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:32"></misc>
+    <rush att="7" yds="77" gain="77" loss="0" td="1" long="12"></rush>
+    <pass comp="3" att="4" int="0" yds="43" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="43" td="1" long="0"></rcv>
+    <ko no="3" yds="173" ob="0" tb="0"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="10" tacka="12" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0" brup="1" qbh="1" blkd="1"></defense>
+    <pr no="1" yds="75" td="1" long="72"></pr>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,1,10,V29" playid="13,6,88" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:V,V35,N"
+      text="Start of 3rd quarter, clock 15:00, UTC ball on UTC35."></play>
+   <play context="V,1,10,V35" playid="13,7,89" type="K" tokens="KO:30,H24 RET:47,H38 TACK:48"
+      text="Nick Pollard kickoff 41 yards to the UA24, Xzavier Dickson return 14 yards to the UA38 (Ryan Bossung)."></play>
+   <drivestart poss="H,H38,15:00" vh="H" spot="H38" clock="15:00" driveindex="14,89"></drivestart>
+   <play context="H,1,10,H38" playid="14,1,90" clock="15:00" tokens="{DRIVE}:15:00"
+      text="ALABAMA drive start at 15:00."></play>
+   <play context="H,1,10,H38" playid="14,2,91" type="P" pcode="SI" first="P" tokens="PASS:10,C,7,H49,SI OB:"
+      text="AJ McCarron sideline pass complete to Kenny Bell for 11 yards to the UA49, 1ST DOWN UA, out-of-bounds."></play>
+   <play context="H,1,10,H49" playid="14,3,92" type="R" pcode="MI" tokens="RUSH:17,V43,MI TACK:20"
+      text="Kenyan Drake rush up middle for 8 yards to the UTC43 (D.J. Key)."></play>
+   <play context="H,2,2,V43" playid="14,4,93" type="P" pcode="SC" tokens="PASS:10,C,22,V34,SC OB: TACK:5 PEN:H,PF,A,17,V49,N"
+      text="AJ McCarron screen pass complete to Christion Jones for 9 yards to the UTC34, out-of-bounds (Kadeem Wise), PENALTY UA personal foul (Kenyan Drake) 15 yards to the UTC49."></play>
+   <play context="H,2,8,V49" playid="14,5,94" tokens="D:1,10"
+      text="1st and 10."></play>
+   <play context="H,1,10,V49" playid="14,6,95" type="P" pcode="LF" tokens="PASS:10,C,4C,V46,LF TACK:19"
+      text="AJ McCarron LF pass complete to Corey McCarron for 3 yards to the UTC46 (Dee Virgin)."></play>
+   <play context="H,2,7,V46" playid="14,7,96" type="R" pcode="LT" tokens="RUSH:17,V40,LT TACK:20"
+      text="Kenyan Drake rush over left tackle for 6 yards to the UTC40 (D.J. Key)."></play>
+   <play context="H,3,1,V40" playid="14,8,97" type="R" pcode="RT" first="R" tokens="RUSH:17,V38,RT TACK:95,32"
+      text="Kenyan Drake rush over right tackle for 2 yards to the UTC38, 1ST DOWN UA (Josh Freeman;C.J. Murrell)."></play>
+   <play context="H,1,10,V38" playid="14,9,98" type="P" pcode="PO" first="P" score="Y" vscore="0" hscore="34" clock="11:19" tokens="PASS:10,C,9,V00,PO T:11:19"
+      text="AJ McCarron post pass complete to Amari Cooper for 38 yards to the UTC0, 1ST DOWN UA, TOUCHDOWN, clock 11:19."></play>
+   <play context="H,1,0,V03" playid="14,10,99" type="X" score="Y" vscore="0" hscore="35" tokens="PAT:K,43,G"
+      text="Cade Foster kick attempt good."></play>
+   <score V="0" H="35"></score>
+   <drivesum plays="7" yards="62" top="3:41" driveindex="14" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="14,11,100" type="K" tokens="KO:43,V00 TB:"
+      text="Cade Foster kickoff 65 yards to the UTC0, touchback."></play>
+   <drivestart poss="V,V25,11:19" vh="V" spot="V25" clock="11:19" driveindex="15,100"></drivestart>
+   <play context="V,1,10,V25" playid="15,1,101" clock="11:19" tokens="{DRIVE}:11:19"
+      text="CHATTANOOGA drive start at 11:19."></play>
+   <play context="V,1,10,V25" playid="15,2,102" type="R" pcode="LT" tokens="RUSH:27,V25,LT TACK:8"
+      text="Kendrix Huitt rush over left tackle for no gain to the UTC25 (Jeoffrey Pagan)."></play>
+   <play context="V,2,10,V25" playid="15,3,103" type="R" pcode="RE" tokens="RUSH:27,V22,RE TACK:26,24"
+      text="Kendrix Huitt rush over right end for loss of 3 yards to the UTC22 (Landon Collins;G. Matias-Smith)."></play>
+   <play context="V,3,13,V22" playid="15,4,104" type="R" pcode="RE" tokens="RUSH:6,V25,RE TACK:33"
+      text="T. Robinson rush over right end for 3 yards to the UTC25 (Trey DePriest)."></play>
+   <play context="V,4,10,V25" playid="15,5,105" type="U" tokens="PUNT:30,H37 RET:7,H37 FUMB:H,H37,7"
+      text="Nick Pollard punt 38 yards to the UA37, Kenny Bell return 0 yards to the UA37, fumble by Kenny Bell recovered by UA Kenny Bell at UA37."></play>
+   <drivesum plays="3" yards="0" top="2:27" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H37,08:52" vh="H" spot="H37" clock="08:52" driveindex="16,105"></drivestart>
+   <play context="H,1,10,H37" playid="16,1,106" clock="08:52" tokens="{DRIVE}:08:52"
+      text="ALABAMA drive start at 08:52."></play>
+   <play context="H,1,10,H37" playid="16,2,107" type="R" pcode="LT" tokens="RUSH:2F,H44,LT TACK:1"
+      text="Derrick Henry rush over left tackle for 7 yards to the UA44 (Chaz Moore)."></play>
+   <play context="H,2,3,H44" playid="16,3,108" type="P" pcode="RF" tokens="PASS:6,C,7,H46,RF TACK:1"
+      text="Blake Sims RF pass complete to Kenny Bell for 2 yards to the UA46 (Chaz Moore)."></play>
+   <play context="H,3,1,H46" playid="16,4,109" type="R" pcode="RG" first="R" tokens="RUSH:2F,V49,RG TACK:20"
+      text="Derrick Henry rush over right guard for 5 yards to the UTC49, 1ST DOWN UA (D.J. Key)."></play>
+   <play context="H,1,10,V49" playid="16,5,110" type="P" pcode="RF" tokens="PASS:6,B,7,*,RF BRUP:20"
+      text="Blake Sims RF pass incomplete to Kenny Bell (D.J. Key)."></play>
+   <play context="H,2,10,V49" playid="16,6,111" type="R" pcode="MI" first="R" tokens="RUSH:2F,V31,MI TACK:90"
+      text="Derrick Henry rush up middle for 18 yards to the UTC31, 1ST DOWN UA (Davis Tull)."></play>
+   <play context="H,1,10,V31" playid="16,7,112" type="R" pcode="RE" first="R" score="Y" vscore="0" hscore="41" clock="05:33" tokens="RUSH:5A,V00,RE T:05:33"
+      text="Chris Black rush over right end for 31 yards to the UTC0, 1ST DOWN UA, TOUCHDOWN, clock 05:33."></play>
+   <play context="H,1,0,V03" playid="16,8,113" type="X" score="Y" vscore="0" hscore="42" tokens="PAT:K,43,G"
+      text="Cade Foster kick attempt good."></play>
+   <score V="0" H="42"></score>
+   <drivesum plays="6" yards="63" top="3:19" driveindex="16" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="16,9,114" type="K" tokens="KO:9B,V05 RET:86,V20 TACK:18"
+      text="Adam Griffith kickoff 60 yards to the UTC5, C.J. Board return 15 yards to the UTC20 (Reggie Ragland)."></play>
+   <drivestart poss="V,V20,05:33" vh="V" spot="V20" clock="05:33" driveindex="17,114"></drivestart>
+   <play context="V,1,10,V20" playid="17,1,115" clock="05:33" tokens="{DRIVE}:05:33"
+      text="CHATTANOOGA drive start at 05:33."></play>
+   <play context="V,1,10,V20" playid="17,2,116" type="R" pcode="LE" tokens="RUSH:27,V29,LE TACK:9A,11"
+      text="Kendrix Huitt rush over left end for 9 yards to the UTC29 (Reuben Foster;Tana Patrick)."></play>
+   <play context="V,2,1,V29" playid="17,3,117" type="R" pcode="MI" first="R" tokens="RUSH:41,V31,MI TACK:95"
+      text="Derrick Craine rush up middle for 2 yards to the UTC31, 1ST DOWN UTC (Darren Lake)."></play>
+   <play context="V,1,10,V31" playid="17,4,118" type="R" pcode="RE" tokens="RUSH:27,V36,RE OB: TACK:16"
+      text="Kendrix Huitt rush over right end for 5 yards to the UTC36, out-of-bounds (Bradley Sylve)."></play>
+   <play context="V,2,5,V36" playid="17,5,119" type="R" pcode="MI" tokens="RUSH:41,V40,MI TACK:95,11"
+      text="Derrick Craine rush up middle for 4 yards to the UTC40 (Darren Lake;Tana Patrick)."></play>
+   <play context="V,3,1,V40" playid="17,6,120" type="R" pcode="LE" first="R" tokens="RUSH:6,V44,LE OB: TACK:16"
+      text="T. Robinson rush over left end for 4 yards to the UTC44, 1ST DOWN UTC, out-of-bounds (Bradley Sylve)."></play>
+   <play context="V,1,10,V44" playid="17,7,121" type="R" pcode="LT" tokens="RUSH:27,V44,LT TACK:11,93"
+      text="Kendrix Huitt rush over left tackle for no gain to the UTC44 (Tana Patrick;Jonathan Allen)."></play>
+   <play context="V,2,10,V44" playid="17,8,122" type="R" pcode="RE" tokens="RUSH:6,V43,RE TACK:9A"
+      text="T. Robinson rush over right end for loss of 1 yard to the UTC43 (Reuben Foster)."></play>
+   <play context="V,3,11,V43" playid="17,9,123" type="P" pcode="MI" tokens="PASS:6,C,88,V50,MI TACK:21,23"
+      text="T. Robinson middle pass complete to Faysal Shafaat for 7 yards to the 50 yardline (Maurice Smith;J. Washington)."></play>
+   <score qtr="3" V="0" H="42"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UTC">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:00"></misc>
+    <rush att="10" yds="23" gain="27" loss="4" td="0" long="4"></rush>
+    <pass comp="1" att="1" int="0" yds="7" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="7" td="0" long="0"></rcv>
+    <punt no="1" yds="38" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="41" ob="0" tb="0"></ko>
+    <defense tackua="9" tacka="2" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="1" yds="15" td="0" long="0"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="UA">
+    <firstdowns no="6" rush="4" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="2" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="07:00"></misc>
+    <rush att="7" yds="77" gain="77" loss="0" td="1" long="4"></rush>
+    <pass comp="5" att="6" int="0" yds="63" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="63" td="1" long="0"></rcv>
+    <ko no="2" yds="125" ob="0" tb="1"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="7" tacka="10" tflua="1" tfla="2" tflyds="4" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="14" td="0" long="14"></kr>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,4,4,V50" playid="17,10,124" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00."></play>
+   <play context="V,4,4,V50" playid="17,11,125" type="U" tokens="PUNT:30,H07 DN:"
+      text="Nick Pollard punt 43 yards to the UA7, downed."></play>
+   <drivesum plays="8" yards="30" top="5:44" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H07,14:49" vh="H" spot="H07" clock="14:49" driveindex="18,125"></drivestart>
+   <play context="H,1,10,H07" playid="18,1,126" clock="14:49" tokens="{DRIVE}:14:49"
+      text="ALABAMA drive start at 14:49."></play>
+   <play context="H,1,10,H07" playid="18,2,127" type="R" pcode="MI" tokens="RUSH:1,H12,MI TACK:20"
+      text="Dee Hart rush up middle for 5 yards to the UA12 (D.J. Key)."></play>
+   <play context="H,2,5,H12" playid="18,3,128" type="R" pcode="LG" tokens="RUSH:1,H15,LG TACK:1"
+      text="Dee Hart rush over left guard for 3 yards to the UA15 (Chaz Moore)."></play>
+   <play context="H,3,2,H15" playid="18,4,129" type="R" pcode="RG" first="R" tokens="RUSH:1,H20,RG TACK:92,47"
+      text="Dee Hart rush over right guard for 5 yards to the UA20, 1ST DOWN UA (Devin Scates;Zach McCarter)."></play>
+   <play context="H,1,10,H20" playid="18,5,130" type="P" pcode="RF" tokens="PASS:6,I,1,*,RF QBH:V,97"
+      text="Blake Sims RF pass incomplete to Dee Hart, QB hurry by Chris Mayes."></play>
+   <play context="H,2,10,H20" playid="18,6,131" type="R" pcode="QD" first="R" tokens="RUSH:6,H31,QD TACK:28"
+      text="Blake Sims rush quarterback draw for 11 yards to the UA31, 1ST DOWN UA (N. Leslie)."></play>
+   <play context="H,1,10,H31" playid="18,7,132" type="E" tokens="PEN:H,FS,A,63,H26,N"
+      text="PENALTY UA false start (Kellen Williams) 5 yards to the UA26."></play>
+   <play context="H,1,15,H26" playid="18,8,133" type="R" pcode="LE" first="E" tokens="RUSH:1,H32,LE OB: TACK:5 PEN:V,PF,A,92,H47,1"
+      text="Dee Hart rush over left end for 6 yards to the UA32, out-of-bounds (Kadeem Wise), PENALTY UTC personal foul (Devin Scates) 15 yards to the UA47, 1ST DOWN UA."></play>
+   <play context="H,1,10,H47" playid="18,9,134" tokens="D:1,10"
+      text="1st and 10."></play>
+   <play context="H,1,10,H47" playid="18,10,135" type="R" pcode="RE" tokens="RUSH:6,V46,RE TACK:1"
+      text="Blake Sims rush over right end for 7 yards to the UTC46 (Chaz Moore)."></play>
+   <play context="H,2,3,V46" playid="18,11,136" type="R" pcode="RG" first="R" tokens="RUSH:28,V42,RG TACK:5"
+      text="Altee Tenpenny rush over right guard for 4 yards to the UTC42, 1ST DOWN UA (Kadeem Wise)."></play>
+   <play context="H,1,10,V42" playid="18,12,137" type="P" pcode="LF" first="P" tokens="PASS:6,C,5A,V31,LF TACK:19,32"
+      text="Blake Sims LF pass complete to Chris Black for 11 yards to the UTC31, 1ST DOWN UA (Dee Virgin;C.J. Murrell)."></play>
+   <play context="H,1,10,V31" playid="18,13,138" type="R" pcode="LE" tokens="RUSH:6,V30,LE TACK:20"
+      text="Blake Sims rush over left end for 1 yard to the UTC30 (D.J. Key)."></play>
+   <play context="H,2,9,V30" playid="18,14,139" type="R" pcode="MI" tokens="RUSH:28,V26,MI TACK:1,93"
+      text="Altee Tenpenny rush up middle for 4 yards to the UTC26 (Chaz Moore;Keionta Davis)."></play>
+   <play context="H,3,5,V26" playid="18,15,140" type="R" pcode="LE" tokens="RUSH:28,V25,LE TACK:20"
+      text="Altee Tenpenny rush over left end for 1 yard to the UTC25 (D.J. Key)."></play>
+   <play context="H,4,4,V25" playid="18,16,141" type="R" pcode="MI" tokens="RUSH:6,V23,MI TACK:28"
+      text="Blake Sims rush up middle for 2 yards to the UTC23 (N. Leslie)."></play>
+   <drivesum plays="13" yards="70" top="7:54" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="V,V23,06:55" vh="V" spot="V23" clock="06:55" driveindex="19,141"></drivestart>
+   <play context="V,1,10,V23" playid="19,1,142" clock="06:55" tokens="{DRIVE}:06:55"
+      text="CHATTANOOGA drive start at 06:55."></play>
+   <play context="V,1,10,V23" playid="19,2,143" type="P" pcode="SH" tokens="PASS:6,C,86,V32,SH OB: TACK:21"
+      text="T. Robinson SH pass complete to C.J. Board for 9 yards to the UTC32, out-of-bounds (Maurice Smith)."></play>
+   <play context="V,2,1,V32" playid="19,3,144" type="P" tokens="PASS:6,S,TM,V30 SACK:7A"
+      text="T. Robinson sacked for loss of 2 yards to the UTC30 (Ryan Anderson)."></play>
+   <play context="V,3,3,V30" playid="19,4,145" type="P" pcode="SH" turnover="F" tokens="PASS:6,C,86,V27,SH FORCE:93 FUMB:H,V41,4A +:4A,V6 TACK:41"
+      text="T. Robinson SH pass complete to C.J. Board for loss of 3 yards to the UTC27, fumble forced by Jonathan Allen, fumble by C.J. Board recovered by UA Eddie Jackson at UTC41, Eddie Jackson for 35 yards to the UTC6 (Derrick Craine)."></play>
+   <drivesum plays="3" yards="18" top="1:43" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,V06,05:12" vh="H" spot="V06" clock="05:12" driveindex="20,145"></drivestart>
+   <play context="H,1,0,V06" playid="20,1,146" clock="05:12" tokens="{DRIVE}:05:12"
+      text="ALABAMA drive start at 05:12."></play>
+   <comment text="The previous play was challenged and confirmed as called on the field."></comment>
+   <play context="H,1,0,V06" playid="20,2,148" type="#" clock="05:12" tokens="TOUT:V T:05:12"
+      text="Timeout Chattanooga, clock 05:12."></play>
+   <play context="H,1,0,V06" playid="20,3,149" tokens="SPOT:H,V06,Y"
+      text="UA ball on UTC6."></play>
+   <play context="H,1,0,V06" playid="20,4,150" type="R" pcode="MI" score="Y" vscore="0" hscore="48" clock="05:07" tokens="RUSH:1,V00,MI T:05:07"
+      text="Dee Hart rush up middle for 6 yards to the UTC0, TOUCHDOWN, clock 05:07."></play>
+   <play context="H,1,0,V03" playid="20,5,151" type="X" score="Y" vscore="0" hscore="49" tokens="PAT:K,9B,G"
+      text="Adam Griffith kick attempt good."></play>
+   <score V="0" H="49"></score>
+   <drivesum plays="1" yards="6" top="0:05" driveindex="20" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="20,6,152" type="K" tokens="KO:9B,V09 RET:21,V12 FUMB:V,V18,21"
+      text="Adam Griffith kickoff 56 yards to the UTC9, Marquis Green return 3 yards to the UTC12, fumble by Marquis Green recovered by UTC Marquis Green at UTC18."></play>
+   <drivestart poss="V,V18,05:07" vh="V" spot="V18" clock="05:07" driveindex="21,152"></drivestart>
+   <play context="V,1,10,V18" playid="21,1,153" clock="05:07" tokens="{DRIVE}:05:07 SPOT:V,V18,Y"
+      text="CHATTANOOGA drive start at 05:07, UTC ball on UTC18."></play>
+   <play context="V,1,10,V18" playid="21,2,154" type="E" tokens="PEN:V,SU,A,TM,V13,N"
+      text="PENALTY UTC substitution infraction 5 yards to the UTC13."></play>
+   <play context="V,1,15,V13" playid="21,3,155" type="R" pcode="RT" tokens="RUSH:41,V15,RT TACK:56,53"
+      text="Derrick Craine rush over right tackle for 2 yards to the UTC15 (Tim Williams;Anthony Orr)."></play>
+   <play context="V,2,13,V15" playid="21,4,156" type="R" pcode="RE" tokens="RUSH:6,V27,RE OB: TACK:1A"
+      text="T. Robinson rush over right end for 12 yards to the UTC27, out-of-bounds (John Fulton)."></play>
+   <play context="V,3,1,V27" playid="21,5,157" type="R" pcode="RG" first="R" tokens="RUSH:41,V30,RG TACK:53"
+      text="Derrick Craine rush over right guard for 3 yards to the UTC30, 1ST DOWN UTC (Anthony Orr)."></play>
+   <play context="V,1,10,V30" playid="21,6,158" type="R" pcode="LT" tokens="RUSH:41,V36,LT TACK:18,9A"
+      text="Derrick Craine rush over left tackle for 6 yards to the UTC36 (Reggie Ragland;Reuben Foster)."></play>
+   <play context="V,2,4,V36" playid="21,7,159" type="R" pcode="QD" tokens="RUSH:6,V36,QD TACK:9A"
+      text="T. Robinson rush quarterback draw for no gain to the UTC36 (Reuben Foster)."></play>
+   <play context="V,3,4,V36" playid="21,8,160" type="R" pcode="LT" tokens="RUSH:41,V39,LT TACK:18,9A"
+      text="Derrick Craine rush over left tackle for 3 yards to the UTC39 (Reggie Ragland;Reuben Foster)."></play>
+   <play context="V,4,1,V39" playid="21,9,161" type="U" tokens="PUNT:30,H13 OB:"
+      text="Nick Pollard punt 48 yards to the UA13, out-of-bounds."></play>
+   <drivesum plays="6" yards="21" top="4:36" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,H13,00:31" vh="H" spot="H13" clock="00:31" driveindex="22,161"></drivestart>
+   <play context="H,1,10,H13" playid="22,1,162" clock="00:31" tokens="{DRIVE}:00:31"
+      text="ALABAMA drive start at 00:31."></play>
+   <play context="H,1,10,H13" playid="22,2,163" type="R" pcode="LL" tokens="RUSH:28,H20,LL TACK:16"
+      text="Altee Tenpenny rush left for 7 yards to the UA20 (S. Kendall)."></play>
+   <play context="H,2,3,H20" playid="22,3,164" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="1" yards="7" top="0:31" driveindex="22" complete="Y"></drivesum>
+   <score final="Y" V="0" H="49"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="UTC">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="1"></fumbles>
+    <misc yds="0" top="06:30"></misc>
+    <rush att="7" yds="24" gain="26" loss="2" td="0" long="3"></rush>
+    <pass comp="2" att="2" int="0" yds="20" td="0" long="0" sacks="1" sackyds="2"></pass>
+    <rcv no="2" yds="20" td="0" long="0"></rcv>
+    <punt no="2" yds="91" long="3" blkd="0" tb="0" fc="0" plus50="0" inside20="2"></punt>
+    <defense tackua="11" tacka="6" sacks="0" sackyds="0" qbh="1"></defense>
+    <kr no="1" yds="9" td="0" long="0"></kr>
+    <fumbles no="2" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="UA">
+    <firstdowns no="5" rush="3" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:30"></misc>
+    <rush att="13" yds="62" gain="62" loss="0" td="1" long="0"></rush>
+    <pass comp="1" att="2" int="0" yds="11" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="11" td="0" long="0"></rcv>
+    <ko no="1" yds="56" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="6" tacka="6" tflua="2" tfla="0" tflyds="5" sacks="1" sackyds="2" ff="1" fr="1" fryds="35"></defense>
+    <fr no="1" yds="35" td="0" long="35"></fr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,2,3,H20" qtr="4" clock="00:00" vtoh="1" htoh="0"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="UTC">
+  <player name="D.J. Prather" checkname="PRATHER,DJ" uni="7" class="FR" gp="0" code="7"></player>
+  <player name="Tommy Hudson" checkname="HUDSON,TOMMY" uni="8" class="JR" gp="0" code="8"></player>
+  <player name="A. Stewart" checkname="STEWART,A" uni="9" class="FR" gp="0" code="9"></player>
+  <player name="Gunner Miller" checkname="MILLER,GUNNER" uni="11" class="SR" gp="0" code="11"></player>
+  <player name="J. Scott" checkname="SCOTT,J" uni="12" class="FR" gp="0" code="12"></player>
+  <player name="A. Bennifield" checkname="BENNIFIELD,A" uni="15" class="FR" gp="0" code="15"></player>
+  <player name="Tyler Roberson" checkname="ROBERSON,TYLER" uni="17" class="FR" gp="0" code="17"></player>
+  <player name="Keon Williams" checkname="WILLIAMS,KEON" uni="22" class="JR" gp="0" code="22"></player>
+  <player name="James Stovall" checkname="STOVALL,JAMES" uni="23" class="FR" gp="0" code="23"></player>
+  <player name="Dean Haynes" checkname="HAYNES,DEAN" uni="4" class="SR" gp="0" code="4"></player>
+  <player name="Marlon Anthony" checkname="ANTHONY,MARLON" uni="3" class="SR" gp="0" code="3"></player>
+  <player name="Will Johnson" checkname="JOHNSON,WILL" uni="29" class="FR" gp="0" code="29"></player>
+  <player name="Zack Rayl" checkname="RAYL,ZACK" uni="31" class="JR" gp="0" code="31"></player>
+  <player name="Alex Kirby" checkname="KIRBY,ALEX" uni="33" class="FR" gp="0" code="33"></player>
+  <player name="David Morgan" checkname="MORGAN,DAVID" uni="34" class="FR" gp="0" code="34"></player>
+  <player name="Cedric Nettles" checkname="NETTLES,CEDRIC" uni="35" class="FR" gp="0" code="35"></player>
+  <player name="Scottie Fleming" checkname="FLEMING,SCOTTIE" uni="37" class="FR" gp="0" code="37"></player>
+  <player name="H. Ribeiro" checkname="RIBEIRO,H" uni="40" class="SO" gp="0" code="40"></player>
+  <player name="A.J. Hampton" checkname="HAMPTON,AJ" uni="42" class="SO" gp="0" code="42"></player>
+  <player name="Lucas Webb" checkname="WEBB,LUCAS" uni="43" class="FR" gp="0" code="43"></player>
+  <player name="T.J. Jenkins" checkname="JENKINS,TJ" uni="46" class="FR" gp="0" code="46"></player>
+  <player name="Sam Mullaney" checkname="MULLANEY,SAM" uni="51" class="FR" gp="0" code="51"></player>
+  <player name="Jacob Revis" checkname="REVIS,JACOB" uni="53" class="FR" gp="0" code="53"></player>
+  <player name="Robert Hill" checkname="HILL,ROBERT" uni="54" class="FR" gp="0" code="54"></player>
+  <player name="Brandon Bourk" checkname="BOURK,BRANDON" uni="58" class="FR" gp="0" code="58"></player>
+  <player name="Austin Hall" checkname="HALL,AUSTIN" uni="60" class="FR" gp="0" code="60"></player>
+  <player name="Brenton Leeper" checkname="LEEPER,BRENTON" uni="63" class="SO" gp="0" code="63"></player>
+  <player name="Jose Bruno" checkname="BRUNO,JOSE" uni="69" class="FR" gp="0" code="69"></player>
+  <player name="Hunter Townson" checkname="TOWNSON,HUNTER" uni="70" class="FR" gp="0" code="70"></player>
+  <player name="Hunter Dockery" checkname="DOCKERY,HUNTER" uni="75" class="SR" gp="0" code="75"></player>
+  <player name="Alex Hooper" checkname="HOOPER,ALEX" uni="76" class="FR" gp="0" code="76"></player>
+  <player name="Logan Teichman" checkname="TEICHMAN,LOGAN" uni="78" class="FR" gp="0" code="78"></player>
+  <player name="Casey Hybarger" checkname="HYBARGER,CASEY" uni="79" class="SO" gp="0" code="79"></player>
+  <player name="Tray James" checkname="JAMES,TRAY" uni="81" class="SO" gp="0" code="81"></player>
+  <player name="Davis Howell" checkname="HOWELL,DAVIS" uni="82" class="FR" gp="0" code="82"></player>
+  <player name="Malcolm Colvin" checkname="COLVIN,MALCOLM" uni="83" class="FR" gp="0" code="83"></player>
+  <player name="Alex Ashlock" checkname="ASHLOCK,ALEX" uni="85" class="FR" gp="0" code="85"></player>
+  <player name="Jarrod Coleman" checkname="COLEMAN,JARROD" uni="87" class="SO" gp="0" code="87"></player>
+  <player name="Derrick Lott" checkname="LOTT,DERRICK" uni="91" class="SR" gp="0" code="91"></player>
+  <player name="Taylor Reynolds" checkname="REYNOLDS,TAYLOR" uni="94" class="FR" gp="0" code="94"></player>
+  <player name="V. McMillian" checkname="MCMILLIAN,V" uni="96" class="FR" gp="0" code="96"></player>
+  <player name="T. Jachimowicz" checkname="JACHIMOWICZ,T" uni="98" class="FR" gp="0" code="98"></player>
+ </dnp>
+ <dnp vh="H" id="UA">
+  <player name="Tyren Jones" checkname="JONES,TYREN" uni="2B" class="FR" gp="0" code="2B"></player>
+  <player name="Alvin Kamara" checkname="KAMARA,ALVIN" uni="2D" class="FR" gp="0" code="2D"></player>
+  <player name="Caleb Sims" checkname="SIMS,CALEB" uni="2E" class="FR" gp="0" code="2E"></player>
+  <player name="Anthony Averett" checkname="AVERETT,ANTHONY" uni="2A" class="FR" gp="0" code="2A"></player>
+  <player name="T.J. Yeldon" checkname="YELDON,TJ" uni="4" class="SO" gp="0" code="4"></player>
+  <player name="Matt Tinney" checkname="TINNEY,MATT" uni="4B" class="SR" gp="0" code="4B"></player>
+  <player name="Jonathan Cook" checkname="COOK,JONATHAN" uni="1D" class="FR" gp="0" code="1D"></player>
+  <player name="Josh Dickerson" checkname="DICKERSON,JOSH" uni="5B" class="JR" gp="0" code="5B"></player>
+  <player name="A. Stewart" checkname="STEWART,A" uni="1C" class="FR" gp="0" code="1C"></player>
+  <player name="M. Newsome" checkname="NEWSOME,M" uni="6B" class="JR" gp="0" code="6B"></player>
+  <player name="Cooper Bateman" checkname="BATEMAN,COOPER" uni="1E" class="FR" gp="0" code="1E"></player>
+  <player name="Deion Belue" checkname="BELUE,DEION" uni="13" class="SR" gp="0" code="13"></player>
+  <player name="Luke Del Rio" checkname="RIO,LUKE DEL" uni="14" class="FR" gp="0" code="14"></player>
+  <player name="Parker McLeod" checkname="MCLEOD,PARKER" uni="15" class="FR" gp="0" code="15"></player>
+  <player name="Tyler Owens" checkname="OWENS,TYLER" uni="34" class="JR" gp="0" code="34"></player>
+  <player name="Walker Jones" checkname="JONES,WALKER" uni="35" class="FR" gp="0" code="35"></player>
+  <player name="Kurt Freitag" checkname="FREITAG,KURT" uni="41" class="FR" gp="0" code="41"></player>
+  <player name="L. Fanning" checkname="FANNING,L" uni="44" class="SO" gp="0" code="44"></player>
+  <player name="Wilson Love" checkname="LOVE,WILSON" uni="51" class="SO" gp="0" code="51"></player>
+  <player name="Dee Liner" checkname="LINER,DEE" uni="52" class="FR" gp="0" code="52"></player>
+  <player name="Brandon Hill" checkname="HILL,BRANDON" uni="73" class="FR" gp="0" code="73"></player>
+  <player name="Bradley Bozeman" checkname="BOZEMAN,BRADLEY" uni="75" class="FR" gp="0" code="75"></player>
+  <player name="Ty Reed" checkname="REED,TY" uni="81" class="SR" gp="0" code="81"></player>
+  <player name="Brian Vogler" checkname="VOGLER,BRIAN" uni="84" class="JR" gp="0" code="84"></player>
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="H" id="UA" yds="75" play="PUNT" players="Christion Jones" td="Y"></longplay>
+ </longplays>
+</fbgame>

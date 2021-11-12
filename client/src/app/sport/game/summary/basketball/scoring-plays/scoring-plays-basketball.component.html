@@ -1,0 +1,49 @@
+<mat-card>
+  <div class="col s12 m12 card">
+    <h2 class="card-title grey-text text-darken-2" style="padding-top: 10px;padding-left:10px;">1st Half</h2>  
+  <table>
+  <thead>
+
+ <th class="mat-th">TIME</th>
+              <th class="mat-th">TEAM</th>
+              <th class="mat-th">PLAY</th>
+              <th class="mat-th">SCORE</th>
+
+  </thead>
+  <tbody  *ngIf="homeTeamFirstHalf">
+  <tr class="mat-tr" *ngFor="let x of homeTeamFirstHalf">  
+  <td class="mat-td">{{x.gameClockStartTime.minutes}}</td>       
+   <td class="mat-td"><img id="logo" src="../../../assets/images/teams/{{homeTeamCode}}.png" alt=" "  *ngIf="x.possession == 0">
+              <img id="logo" src="../../../assets/images/teams/{{awayTeamCode}}.png" alt=" "  *ngIf="x.possession != 0"></td>   
+  <td class="mat-td">{{x.description}}</td>
+  <td class="mat-td">{{x.score.homeScore}}-{{x.score.visitorScore}}</td>
+  </tr>        
+  </tbody>
+  </table>
+</div>
+<div class="col s12 m12 card">
+ 
+     <h2 class="card-title grey-text text-darken-2" style="padding-left:20px">2nd Half</h2>
+        
+           <table>
+        <thead>
+         
+              <th class="mat-th">TIME</th>
+              <th class="mat-th">TEAM</th>
+              <th class="mat-th">PLAY</th>
+              <th class="mat-th">SCORE</th>
+         
+        </thead>
+        <tbody  *ngIf="homeTeamSecondHalf">
+         <tr *ngFor="let x of homeTeamSecondHalf">  
+           <td>{{x.gameClockStartTime.minutes}}</td> 
+            <td><img id="logo" src="../../../assets/images/teams/{{homeTeamCode}}.png" alt=" "  *ngIf="x.possession == 0">
+              <img id="logo" src="../../../assets/images/teams/{{awayTeamCode}}.png" alt=" "  *ngIf="x.possession != 0"></td>      
+            <td>{{x.description}}</td>
+            <td>{{x.score.homeScore}}-{{x.score.visitorScore}}</td>
+          </tr>        
+        </tbody>
+      </table>
+</div>
+    </mat-card>
+

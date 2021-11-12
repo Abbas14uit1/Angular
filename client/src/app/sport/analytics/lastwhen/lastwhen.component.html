@@ -1,0 +1,50 @@
+<div class="row card" id="lastTbl">
+  <input #filter placeholder="Filter Alerts" style="display: none;">
+  <mat-table #lastTbl [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="_id">
+      <mat-header-cell *matHeaderCellDef mat-sort-header
+                       class="first-cell-col white-text border-right-cell">ID</mat-header-cell>
+      <mat-cell *matCellDef="let element; let i = index;" class="first-cell-col">
+        <span class="grey-text text-darken-2"> {{ i+1 }} </span>
+      </mat-cell>
+    </ng-container>
+     <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef mat-sort-header
+                       class="white-text border-right-cell">Name</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.name }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="endDate">
+      <mat-header-cell *matHeaderCellDef mat-sort-header
+                       class="white-text border-right-cell">Date</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{  element.endDate }} </span>
+      </mat-cell>
+    </ng-container>
+   <ng-container matColumnDef="opp">
+      <mat-header-cell *matHeaderCellDef mat-sort-header
+                       class="white-text border-right-cell">Opponent</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.opp }} </span>
+      </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="statValue">
+      <mat-header-cell *matHeaderCellDef mat-sort-header
+                       class="white-text border-right-cell">Stat Value</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.statValue }} </span>
+      </mat-cell>
+    </ng-container> 
+    <ng-container matColumnDef="game">
+      <mat-header-cell *matHeaderCellDef mat-sort-header
+                       class="white-text">Game Since</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <span class="grey-text text-darken-2"> {{ element.game }} </span>
+      </mat-cell>
+    </ng-container> 
+    
+     <mat-header-row *matHeaderRowDef="displayedColumns" [ngStyle]="{'background': teamColor}" [style.min-height]="0"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</div>

@@ -1,0 +1,5 @@
+<app-header></app-header>
+<div id="app-content" [ngStyle]="{overflow: (getRouterOutlet() ? 'hidden' : 'auto')}">
+  <router-outlet></router-outlet>
+</div>
+<app-footer></app-footer>

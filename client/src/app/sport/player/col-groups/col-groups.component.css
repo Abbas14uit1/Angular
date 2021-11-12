@@ -1,0 +1,35 @@
+th {
+  font-size: 12px;
+  border-left: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  color: rgba(0,0,0,.54);
+  font-weight: 500;
+  padding-top: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.border-none{
+   border : none !important;
+}
+
+td {
+  width: 50px;
+  font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.row {
+  display: table;
+  width: 100%;
+}
+
+.column {
+  display: table-cell;
+}
+.mrg_l_25{
+  margin-left: 25px;
+}

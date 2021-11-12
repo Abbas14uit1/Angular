@@ -1,0 +1,79 @@
+[{
+    "_id" : "team1",
+    "code" : 7,
+    "name" : "Hawai`i",
+    "tidyName" : "UH",
+    "games" : [ 
+        {
+            "homeAway" : 1,
+            "opponentCode" : 8,
+            "opponentName" : "Alabama",
+            "linescore" : {
+                "score" : 43,
+                "periods" : [ 
+                    {
+                        "period" : 1,
+                        "score" : 17
+                    }, 
+                    {
+                        "period" : 2,
+                        "score" : 26
+                    }
+                ]
+            },
+            "sportCode" : "MBB",
+            "record" : "4-7",
+            "gameDate" : "2012-12-29T18:30:00.000Z",
+            "actualDate" : "12/30/2012",
+            "totals" : {
+                "stats" : {
+                    "fgm" : 12,
+                    "fga" : 47,
+                    "fgm3" : 1,
+                    "fga3" : 9,
+                    "ftm" : 18,
+                    "fta" : 29,
+                    "tp" : 43,
+                    "blk" : 4,
+                    "stl" : 3,
+                    "ast" : 7,
+                    "min" : 202,
+                    "oreb" : 17,
+                    "dreb" : 36,
+                    "treb" : 53,
+                    "pf" : 18,
+                    "tf" : 0,
+                    "to" : 18,
+                    "fgpct" : 25.5,
+                    "fg3pct" : 11.1,
+                    "ftpct" : 62.1
+                },
+                "special" : {
+                    "vh" : 1,
+                    "ptsTo" : 9,
+                    "ptsCh2" : 9,
+                    "ptsPaint" : 16,
+                    "ptsFastb" : 0,
+                    "ptsBench" : 7,
+                    "ties" : 5,
+                    "tiedTime" : 399,
+                    "leads" : 3,
+                    "leadTime" : 1274,
+                    "possCount" : 64,
+                    "possTime" : 1158,
+                    "scoreCount" : 22,
+                    "scoreTime" : 466,
+                    "largeLead" : 6,
+                    "largeLeadT" : "1st-10:12"
+                }
+            },
+            "season" : 2012,
+            "gameId" : "game1"
+        }
+    ],
+    "players" : [ 
+        "player1", 
+        "player2", 
+        "player3"        
+    ]
+}]

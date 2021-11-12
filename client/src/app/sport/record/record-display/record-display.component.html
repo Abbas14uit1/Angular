@@ -1,0 +1,16 @@
+
+		  <input  #filter placeholder="Filter" placeholder="Filter">
+		<div id="recordTable"  matSort>
+<mat-table #recordTable [dataSource]="dataSource">
+     <ng-container *ngFor="let col of displayedColumns" [matColumnDef]="col" >
+        <mat-header-cell *matHeaderCellDef class="header"
+         >
+        {{col}}</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{element[col] == 0 ? '-' : element[col] }}
+        </mat-cell>
+      </ng-container>
+     <mat-header-row *matHeaderRowDef="displayedColumns" [ngStyle]="{'background': teamColor}"></mat-header-row>
+      <mat-row  *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+</div>

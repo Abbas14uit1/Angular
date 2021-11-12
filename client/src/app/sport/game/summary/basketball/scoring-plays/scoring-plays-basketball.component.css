@@ -1,0 +1,58 @@
+#logo {
+  width: auto;
+  height: auto;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.mat-th{
+	font-size: 12px;
+    font-weight: 500;
+    color: rgba(0,0,0,.54);
+    padding: 0px 24px;
+    height: 48px;
+}
+.mat-td{	
+    padding: 0px 24px !important;
+}
+
+.mat-tr{
+	padding: 0 5px 0 5px;
+ height: 48px !important;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+align-items: center;
+border-bottom-color: rgba(0,0,0,.12);
+}
+
+.mat-card {
+  margin: 15px 15px 30px 15px;
+}
+
+.mat-column-playInGame {
+  max-width: 60px;
+}
+
+.mat-column-inningNumber {
+  max-width: 60px;
+}
+
+.mat-column-score {
+  max-width: 60px;
+}
+
+.mat-column-battername {
+  max-width: 140px;
+}
+.mat-column-pitchername {
+  max-width: 140px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .mat-column-narrative {
+    display: none;
+  }
+
+}

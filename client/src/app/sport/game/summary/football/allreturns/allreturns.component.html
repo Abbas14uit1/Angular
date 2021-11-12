@@ -1,0 +1,97 @@
+<div class="card">
+  <div id="table">
+    <mat-table #table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="first-cell-column white-text"></mat-header-cell>
+        <mat-cell *matCellDef="let element" class="first-cell-column">
+          {{ element.name }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="prNo">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">RET</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.prNo }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="prYards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.prYards }}
+        </mat-cell>
+      </ng-container>
+       
+      <ng-container matColumnDef="prTd">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.prTd }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="prLong">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">LG</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.prLong }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="prAvg">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">Y/R</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.prAvg }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="krNo">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">RET</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.krNo }}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="krYards">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">YD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.krYards }}
+        </mat-cell>
+      </ng-container>
+       
+ <ng-container matColumnDef="krTd">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">TD</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.krTd }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="krLong">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">LG</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.krLong }}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="krAvg">
+        <mat-header-cell *matHeaderCellDef mat-sort-header class="sort-btn-align-right white-text">Y/R</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          {{ element.krAvg }}
+        </mat-cell>
+      </ng-container>
+      
+      <ng-container *matHeaderRowDef="displayedColumns">
+        <div class="mat-header-row header-group-row">
+          <div class="mat-header-cell header-group-cell first-cell-column" role="columnheader">RETURNING</div>
+          <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell " role="columnheader"></div>
+          <div class="mat-header-cell header-group-cell" role="columnheader">PUNTS</div>
+          <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell border-right-cell" role="columnheader"></div>
+           <div class="mat-header-cell" role="columnheader"></div>
+            <div class="mat-header-cell" role="columnheader"></div>
+          <div class="mat-header-cell header-group-cell" role="columnheader">KO</div>
+          <div class="mat-header-cell" role="columnheader"></div> 
+           <div class="mat-header-cell" role="columnheader"></div>        
+        </div>
+        <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      </ng-container>
+      <mat-header-row [ngStyle]="{'background-color':this.color}"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.name == 'TOTAL' ? 'font-weight-600' : ''" (click)="row._id === undefined?'':onClick(row._id)"></mat-row>
+
+    </mat-table>
+  </div>
+</div>

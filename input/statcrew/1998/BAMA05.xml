@@ -1,0 +1,1133 @@
+<fbgame source="Tas Football" version="4.16.07" generated="9/15/2016">
+ <venue gameid="BAMA05" visid="REBELS" homeid="ALABAMA" visname="Ole Miss" homename="Alabama Crimson Tide"
+      date="10/10/1998" location="Tuscaloosa, Alabama" stadium="Bryant-Denny Stadium"
+      start="2:08" end="5:21" leaguegame="Y" schednote="@"
+      duration="3:13" attend="83818" temp="75" wind="NE 5-7" weather="Sunny Skies">
+  <officials ref="Doyle Jackson" ump="Ted Davis" line="Gus Morris, Jr." lj="Al Matthews" bj="Mike New" fj="Richard Morales" sj="Gerald Hogdes" cj="Buddy Jones" alt="Buddy Jones"></officials>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="20" patspot="2" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="433" id="REBELS" name="Ole Miss" record="4-2" conf-record="2-2" abb="M">
+  <linescore prds="5" line="0,7,7,3,0" score="17">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="3"></lineprd>
+   <lineprd prd="5" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="26" rush="12" pass="12" penalty="2"></firstdowns>
+   <penalties no="3" yds="15"></penalties>
+   <conversions thirdconv="6" thirdatt="18" fourthconv="2" fourthatt="3"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="34:42" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="7" scores="3" points="17" tdrush="1" tdpass="1" fgmade="1" endfga="2" enddowns="1" endint="1" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="51" yds="221" gain="266" loss="45" td="1" long="29"></rush>
+   <pass comp="23" att="37" int="1" yds="250" td="1" long="31" sacks="1" sackyds="1"></pass>
+   <rcv no="23" yds="250" td="1" long="31"></rcv>
+   <punt no="5" yds="178" long="43" blkd="0" tb="0" fc="3" plus50="0" inside20="1"></punt>
+   <ko no="4" yds="219" ob="0" tb="0"></ko>
+   <fg made="1" att="3" long="20" blkd="1"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="47" tacka="21" tflua="8" tfla="0" tflyds="24" sacks="1" sackyds="8" brup="3" qbh="3" blkd="1" ff="1" fr="1" fryds="0" int="1" intyds="21"></defense>
+   <kr no="1" yds="16" td="0" long="16"></kr>
+   <ir no="1" yds="21" td="0" long="21"></ir>
+   <scoring td="2" fg="1" patkick="2"></scoring>
+  </totals>
+  <player name="Eddie Strong" shortname="Eddie Strong" checkname="STRONG,EDDIE" uni="1" class="FR" gp="1" code="78">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Ronnie Heard" shortname="Ronnie Heard" checkname="HEARD,RONNIE" uni="2" class="JR" gp="1" code="35">
+   <defense tackua="4" tacka="1" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="T. Strickland" shortname="T. Strickland" checkname="STRICKLAND,T" uni="3" class="JR" gp="1" code="84">
+   <defense tackua="2" tacka="2" blkd="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="A. Spearman" shortname="A. Spearman" checkname="SPEARMAN,A" uni="4" class="JR" gp="1" code="83">
+   <defense tackua="3" tacka="3" tflua="1" tfla="0" tflyds="4" brup="1"></defense>
+  </player>
+  <player name="M. Flournoy" shortname="M. Flournoy" checkname="FLOURNOY,M" uni="5" class="FR" gp="1" code="28"></player>
+  <player name="J. Armstrong" shortname="J. Armstrong" checkname="ARMSTRONG,J" uni="7" class="FR" gp="1" code="02">
+   <rcv no="2" yds="37" td="0" long="28"></rcv>
+  </player>
+  <player name="Rufus French" shortname="Rufus French" checkname="FRENCH,RUFUS" uni="9" class="JR" gp="1" code="27">
+   <rcv no="2" yds="22" td="0" long="17"></rcv>
+  </player>
+  <player name="Romaro Miller" shortname="Romaro Miller" checkname="MILLER,ROMARO" uni="11" class="SO" gp="1" code="55">
+   <rush att="6" yds="40" gain="41" loss="1" td="0" long="11"></rush>
+   <pass comp="22" att="36" int="1" yds="230" td="1" long="31" sacks="1" sackyds="1"></pass>
+  </player>
+  <player name="Kenny Woods" shortname="Kenny Woods" checkname="WOODS,KENNY" uni="12" class="JR" gp="1" code="93">
+   <defense tackua="2" tacka="2"></defense>
+  </player>
+  <player name="Reagan King" shortname="Reagan King" checkname="KING,REAGAN" uni="16" class="SO" gp="1" code="44">
+   <pass comp="1" att="1" int="0" yds="20" td="0" long="20" sacks="0" sackyds="0"></pass>
+   <punt no="3" yds="111" long="43" blkd="0" tb="0" fc="2" plus50="0" inside20="0"></punt>
+  </player>
+  <player name="Justin Coleman" shortname="Justin Coleman" checkname="COLEMAN,JUSTIN" uni="21" class="FR" gp="1" code="17">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="D. McAllister" shortname="D. McAllister" checkname="MCALLISTER,D" uni="22" class="SO" gp="1" code="54">
+   <rush att="24" yds="188" gain="193" loss="5" td="0" long="29"></rush>
+   <rcv no="1" yds="6" td="0" long="6"></rcv>
+  </player>
+  <player name="Syniker Taylor" shortname="Syniker Taylor" checkname="TAYLOR,SYNIKER" uni="23" class="FR" gp="1" code="88">
+   <defense tackua="5" tacka="0"></defense>
+  </player>
+  <player name="Ken Lucas" shortname="Ken Lucas" checkname="LUCAS,KEN" uni="24" class="SO" gp="1" code="49">
+   <kr no="1" yds="16" td="0" long="16"></kr>
+  </player>
+  <player name="Markee Pearson" shortname="Markee Pearson" checkname="PEARSON,MARKEE" uni="25" class="FR" gp="1" code="68"></player>
+  <player name="Anthony Magee" shortname="Anthony Magee" checkname="MAGEE,ANTHONY" uni="27" class="SO" gp="1" code="52">
+   <defense tackua="4" tacka="2" brup="1" int="1" intyds="21"></defense>
+   <ir no="1" yds="21" td="0" long="21"></ir>
+  </player>
+  <player name="Joe Gunn" shortname="Joe Gunn" checkname="GUNN,JOE" uni="28" class="FR" gp="1" code="32">
+   <rush att="15" yds="5" gain="28" loss="23" td="1" long="12"></rush>
+   <rcv no="3" yds="21" td="0" long="9"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Anthony Sims" shortname="Anthony Sims" checkname="SIMS,ANTHONY" uni="32" class="FR" gp="1" code="79"></player>
+  <player name="Tony Cannion" shortname="Tony Cannion" checkname="CANNION,TONY" uni="33" class="SR" gp="1" code="13">
+   <rush att="5" yds="0" gain="4" loss="4" td="0" long="4"></rush>
+  </player>
+  <player name="Korey Graham" shortname="Korey Graham" checkname="GRAHAM,KOREY" uni="35" class="SO" gp="1" code="31"></player>
+  <player name="Ross Barkley" shortname="Ross Barkley" checkname="BARKLEY,ROSS" uni="36" class="FR" gp="1" code="06">
+   <ko no="4" yds="219" ob="0" tb="0"></ko>
+  </player>
+  <player name="Gary Thigpen" shortname="Gary Thigpen" checkname="THIGPEN,GARY" uni="38" class="SR" gp="1" code="86">
+   <defense tackua="1" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Kevin Thomas" shortname="Kevin Thomas" checkname="THOMAS,KEVIN" uni="39" class="FR" gp="1" code="87"></player>
+  <player name="Dexter Hines" shortname="Dexter Hines" checkname="HINES,DEXTER" uni="42" class="JR" gp="1" code="42"></player>
+  <player name="Antionne Scott" shortname="Antionne Scott" checkname="SCOTT,ANTIONNE" uni="43" class="SO" gp="1" code="76">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Chad Cook" shortname="Chad Cook" checkname="COOK,CHAD" uni="44" class="SO" gp="1" code="18">
+   <defense tackua="1" tacka="0" ff="1"></defense>
+  </player>
+  <player name="C. Stackhouse" shortname="C. Stackhouse" checkname="STACKHOUSE,C" uni="45" class="FR" gp="1" code="85">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Amzie Williams" shortname="Amzie Williams" checkname="WILLIAMS,AMZIE" uni="46" class="SO" gp="1" code="90">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Ben Craddock" shortname="Ben Craddock" checkname="CRADDOCK,BEN" uni="48" class="SO" gp="1" code="19">
+   <punt no="2" yds="67" long="38" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+  </player>
+  <player name="Donald Juneau" shortname="Donald Juneau" checkname="JUNEAU,DONALD" uni="49" class="FR" gp="1" code="41">
+   <fg made="1" att="3" long="20" blkd="1"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <scoring fg="1" patkick="2"></scoring>
+  </player>
+  <player name="Matt Luke" shortname="Matt Luke" checkname="LUKE,MATT" uni="50" class="SR" gp="1" code="50"></player>
+  <player name="Mitch Baker" shortname="Mitch Baker" checkname="BAKER,MITCH" uni="54" class="JR" gp="1" code="04"></player>
+  <player name="Derrick Burgess" shortname="Derrick Burgess" checkname="BURGESS,DERRICK" uni="56" class="SO" gp="1" code="08">
+   <defense tackua="1" tacka="2" qbh="1"></defense>
+  </player>
+  <player name="Shane Elam" shortname="Shane Elam" checkname="ELAM,SHANE" uni="59" class="SO" gp="1" code="23">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Michael Boone" shortname="Michael Boone" checkname="BOONE,MICHAEL" uni="62" class="JR" gp="1" code="07">
+   <defense tackua="0" tacka="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="John Keith" shortname="John Keith" checkname="KEITH,JOHN" uni="65" class="FR" gp="1" code="65"></player>
+  <player name="Bobby Killion" shortname="Bobby Killion" checkname="KILLION,BOBBY" uni="66" class="JR" gp="1" code="66"></player>
+  <player name="Charlie Perkins" shortname="Charlie Perkins" checkname="PERKINS,CHARLIE" uni="67" class="SO" gp="1" code="67"></player>
+  <player name="Shane Grice" shortname="Shane Grice" checkname="GRICE,SHANE" uni="68" class="SO" gp="1" code="68"></player>
+  <player name="Todd Wade" shortname="Todd Wade" checkname="WADE,TODD" uni="71" class="JR" gp="1" code="71"></player>
+  <player name="John McGarvey" shortname="John McGarvey" checkname="MCGARVEY,JOHN" uni="72" class="FR" gp="1" code="72"></player>
+  <player name="K. Vincent" shortname="K. Vincent" checkname="VINCENT,K" uni="73" class="SO" gp="1" code="73"></player>
+  <player name="Tutan Reyes" shortname="Tutan Reyes" checkname="REYES,TUTAN" uni="76" class="JR" gp="1" code="76"></player>
+  <player name="Al Rice" shortname="Al Rice" checkname="RICE,AL" uni="80" class="JR" gp="1" code="72">
+   <defense tackua="2" tacka="1" qbh="1"></defense>
+  </player>
+  <player name="Adam Bettis" shortname="Adam Bettis" checkname="BETTIS,ADAM" uni="81" class="JR" gp="1" code="05"></player>
+  <player name="Comone Fisher" shortname="Comone Fisher" checkname="FISHER,COMONE" uni="84" class="JR" gp="1" code="26">
+   <defense tackua="4" tacka="1"></defense>
+  </player>
+  <player name="Cory Peterson" shortname="Cory Peterson" checkname="PETERSON,CORY" uni="85" class="JR" gp="1" code="70">
+   <rcv no="6" yds="60" td="0" long="31"></rcv>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Sheldon Morris" shortname="Sheldon Morris" checkname="MORRIS,SHELDON" uni="86" class="JR" gp="1" code="58">
+   <rush att="1" yds="-12" gain="0" loss="12" td="0" long="0"></rush>
+   <rcv no="4" yds="44" td="0" long="20"></rcv>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Kahlil Nash" shortname="Kahlil Nash" checkname="NASH,KAHLIL" uni="87" class="FR" gp="1" code="87"></player>
+  <player name="Grant Heard" shortname="Grant Heard" checkname="HEARD,GRANT" uni="88" class="JR" gp="1" code="34">
+   <rcv no="5" yds="60" td="1" long="17"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="L.J. Taylor" shortname="L.J. Taylor" checkname="TAYLOR,LJ" uni="89" class="SO" gp="1" code="89"></player>
+  <player name="Mitch Skrmetta" shortname="Mitch Skrmetta" checkname="SKRMETTA,MITCH" uni="90" class="FR" gp="1" code="81"></player>
+  <player name="Tyler Williams" shortname="Tyler Williams" checkname="WILLIAMS,TYLER" uni="92" class="JR" gp="1" code="92"></player>
+  <player name="Morris Scott" shortname="Morris Scott" checkname="SCOTT,MORRIS" uni="95" class="SR" gp="1" code="77">
+   <defense tackua="7" tacka="0" tflua="3" tfla="0" tflyds="14" sackua="1" sacka="0" sackyds="8" qbh="1"></defense>
+  </player>
+  <player name="Kendrick Clancy" shortname="Kendrick Clancy" checkname="CLANCY,KENDRICK" uni="96" class="JR" gp="1" code="14">
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Robert Gates" shortname="Robert Gates" checkname="GATES,ROBERT" uni="99" class="SR" gp="1" code="24"></player>
+ </team>
+ <team vh="H" code="8" id="ALABAMA" name="Alabama Crimson Tide" record="3-2" conf-record="2-2" abb="A">
+  <linescore prds="5" line="3,7,0,7,3" score="20">
+   <lineprd prd="1" score="3"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+   <lineprd prd="5" score="3"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="18" rush="10" pass="8" penalty="0"></firstdowns>
+   <penalties no="7" yds="73"></penalties>
+   <conversions thirdconv="4" thirdatt="12" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="25:18" ona="0" onm="0" ptsto="0"></misc>
+   <redzone att="5" scores="3" points="13" tdrush="1" tdpass="0" fgmade="2" endfga="1" enddowns="0" endint="0" endfumb="1" endhalf="0" endgame="0"></redzone>
+   <rush att="32" yds="162" gain="182" loss="20" td="1" long="29"></rush>
+   <pass comp="15" att="30" int="1" yds="272" td="1" long="59" sacks="1" sackyds="8"></pass>
+   <rcv no="15" yds="272" td="1" long="59"></rcv>
+   <punt no="5" yds="205" long="51" blkd="0" tb="0" fc="2" plus50="1" inside20="0"></punt>
+   <ko no="4" yds="242" ob="0" tb="0"></ko>
+   <fg made="2" att="3" long="28" blkd="1"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="72" tacka="25" tflua="24" tfla="0" tflyds="62" sacks="1" sackyds="1" brup="6" qbh="6" blkd="1" int="1" intyds="18"></defense>
+   <kr no="3" yds="74" td="0" long="33"></kr>
+   <pr no="2" yds="19" td="0" long="18"></pr>
+   <ir no="1" yds="18" td="0" long="18"></ir>
+   <scoring td="2" fg="2" patkick="2"></scoring>
+  </totals>
+  <player name="Chris Horne" shortname="Chris Horne" checkname="HORNE,CHRIS" uni="1" class="" gp="1" code="34">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Eric Locke" shortname="Eric Locke" checkname="LOCKE,ERIC" uni="2" class="" gp="1" code="45">
+   <rush att="1" yds="12" gain="12" loss="0" td="0" long="12"></rush>
+   <rcv no="3" yds="23" td="0" long="13"></rcv>
+  </player>
+  <player name="Michael Feagin" shortname="Michael Feagin" checkname="FEAGIN,MICHAEL" uni="3" class="" gp="1" code="3"></player>
+  <player name="Steve Stanley" shortname="Steve Stanley" checkname="STANLEY,STEVE" uni="4" class="" gp="1" gs="1" dpos="WLB" code="82">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="2" qbh="1" int="1" intyds="18"></defense>
+   <ir no="1" yds="18" td="0" long="18"></ir>
+  </player>
+  <player name="Andrew Zow" shortname="Andrew Zow" checkname="ZOW,ANDREW" uni="5" class="" gp="1" gs="1" opos="QB" code="96">
+   <rush att="4" yds="5" gain="13" loss="8" td="1" long="9"></rush>
+   <pass comp="15" att="30" int="1" yds="272" td="1" long="59" sacks="1" sackyds="8"></pass>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Marvin Brown" shortname="Marvin Brown" checkname="BROWN,MARVIN" uni="6" class="" gp="1" code="6"></player>
+  <player name="Quincy Jackson" shortname="Quincy Jackson" checkname="JACKSON,QUINCY" uni="7" class="" gp="1" gs="1" opos="FL" code="40">
+   <rcv no="2" yds="41" td="0" long="29"></rcv>
+  </player>
+  <player name="Tim Bowens" shortname="Tim Bowens" checkname="BOWENS,TIM" uni="8" class="" gp="1" code="05"></player>
+  <player name="Miguel Merritt" shortname="Miguel Merritt" checkname="MERRITT,MIGUEL" uni="10" class="" gp="1" code="56"></player>
+  <player name="Kecalf Bailey" shortname="Kecalf Bailey" checkname="BAILEY,KECALF" uni="13" class="" gp="1" gs="1" dpos="RCB" code="04">
+   <defense tackua="6" tacka="0" brup="2"></defense>
+  </player>
+  <player name="Freddie Milons" shortname="Freddie Milons" checkname="MILONS,FREDDIE" uni="15" class="" gp="1" gs="1" opos="SE" code="57">
+   <rush att="1" yds="15" gain="15" loss="0" td="0" long="15"></rush>
+   <rcv no="2" yds="2" td="0" long="4"></rcv>
+  </player>
+  <player name="Chris Reier" shortname="Chris Reier" checkname="REIER,CHRIS" uni="16" class="" gp="1" code="16"></player>
+  <player name="Warren Foust" shortname="Warren Foust" checkname="FOUST,WARREN" uni="17" class="" gp="1" code="26">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Gary Phillips" shortname="Gary Phillips" checkname="PHILLIPS,GARY" uni="19" class="SR" gp="1" code="19"></player>
+  <player name="Kelvin Sigler" shortname="Kelvin Sigler" checkname="SIGLER,KELVIN" uni="20" class="" gp="1" gs="1" dpos="FS" code="76">
+   <defense tackua="9" tacka="2" tflua="1" tfla="0" tflyds="2" brup="1" blkd="1"></defense>
+  </player>
+  <player name="Montoya Madden" shortname="Montoya Madden" checkname="MADDEN,MONTOYA" uni="21" class="" gp="1" code="52"></player>
+  <player name="Michael Vaughn" shortname="Michael Vaughn" checkname="VAUGHN,MICHAEL" uni="22" class="" gp="1" gs="1" opos="FL" code="88">
+   <rcv no="3" yds="30" td="0" long="15"></rcv>
+  </player>
+  <player name="Reggie Myles" shortname="Reggie Myles" checkname="MYLES,REGGIE" uni="23" class="" gp="1" code="59">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="1" sackua="1" sacka="0" sackyds="1"></defense>
+  </player>
+  <player name="Tony Dixon" shortname="Tony Dixon" checkname="DIXON,TONY" uni="24" class="" gp="1" gs="1" dpos="SS" code="20">
+   <defense tackua="6" tacka="0"></defense>
+  </player>
+  <player name="Fernando Bryant" shortname="Fernando Bryant" checkname="BRYANT,FERNANDO" uni="25" class="" gp="1" gs="1" dpos="LCB" code="06">
+   <defense tackua="7" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Arvin Richard" shortname="Arvin Richard" checkname="RICHARD,ARVIN" uni="26" class="" gp="1" code="72">
+   <rush att="1" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+   <kr no="3" yds="74" td="0" long="33"></kr>
+   <pr no="2" yds="19" td="0" long="18"></pr>
+  </player>
+  <player name="D. McClintock" shortname="D. McClintock" checkname="MCCLINTOCK,D" uni="30" class="" gp="1" gs="1" opos="FB" code="55">
+   <rush att="3" yds="3" gain="4" loss="1" td="0" long="3"></rush>
+   <defense tackua="1" tacka="0"></defense>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Adam Cox" shortname="Adam Cox" checkname="COX,ADAM" uni="31" class="" gp="1" code="15"></player>
+  <player name="Mark Wisniewski" shortname="Mark Wisniewski" checkname="WISNIEWSKI,MARK" uni="32" class="" gp="1" code="32">
+   <ko no="4" yds="242" ob="0" tb="0"></ko>
+  </player>
+  <player name="Chad McGehee" shortname="Chad McGehee" checkname="MCGEHEE,CHAD" uni="34" class="" gp="1" code="34">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Owen Winston" shortname="Owen Winston" checkname="WINSTON,OWEN" uni="35" class="" gp="1" code="35">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Shaun Alexander" shortname="Shaun Alexander" checkname="ALEXANDER,SHAUN" uni="37" class="" gp="1" gs="1" opos="TB" code="02">
+   <rush att="22" yds="125" gain="136" loss="11" td="0" long="29"></rush>
+   <rcv no="3" yds="72" td="1" long="40"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Shawn Draper" shortname="Shawn Draper" checkname="DRAPER,SHAWN" uni="38" class="" gp="1" code="38">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Antoine Hunter" shortname="Antoine Hunter" checkname="HUNTER,ANTOINE" uni="39" class="" gp="1" code="35"></player>
+  <player name="Daniel Pope" shortname="Daniel Pope" checkname="POPE,DANIEL" uni="40" class="" gp="1" code="69">
+   <punt no="5" yds="205" long="51" blkd="0" tb="0" fc="2" plus50="1" inside20="0"></punt>
+  </player>
+  <player name="Marcus Spencer" shortname="Marcus Spencer" checkname="SPENCER,MARCUS" uni="41" class="" gp="1" code="80">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Ryan Pflugner" shortname="Ryan Pflugner" checkname="PFLUGNER,RYAN" uni="42" class="" gp="1" code="67">
+   <fg made="2" att="3" long="28" blkd="1"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <scoring fg="2" patkick="2"></scoring>
+  </player>
+  <player name="Gary Barnes" shortname="Gary Barnes" checkname="BARNES,GARY" uni="43" class="" gp="1" code="43"></player>
+  <player name="Travis Carroll" shortname="Travis Carroll" checkname="CARROLL,TRAVIS" uni="44" class="" gp="1" gs="1" dpos="MLB" code="13">
+   <defense tackua="3" tacka="6" tflua="4" tfla="0" tflyds="9"></defense>
+  </player>
+  <player name="Eddie Hunter" shortname="Eddie Hunter" checkname="HUNTER,EDDIE" uni="47" class="SR" gp="1" code="47"></player>
+  <player name="Trevis Smith" shortname="Trevis Smith" checkname="SMITH,TREVIS" uni="48" class="" gp="1" gs="1" dpos="SLB" code="78">
+   <defense tackua="6" tacka="5" tflua="3" tfla="0" tflyds="6" brup="1" qbh="2"></defense>
+  </player>
+  <player name="Steven Harris" shortname="Steven Harris" checkname="HARRIS,STEVEN" uni="49" class="FR" gp="1" code="49"></player>
+  <player name="Carlos Stennis" shortname="Carlos Stennis" checkname="STENNIS,CARLOS" uni="51" class="" gp="1" code="51">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="K. Moorehead" shortname="K. Moorehead" checkname="MOOREHEAD,K" uni="54" class="" gp="1" gs="1" dpos="DE" code="54">
+   <defense tackua="2" tacka="3" tflua="3" tfla="0" tflyds="9" qbh="1"></defense>
+  </player>
+  <player name="Canary Knight" shortname="Canary Knight" checkname="KNIGHT,CANARY" uni="58" class="" gp="1" code="58">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Chris Edwards" shortname="Chris Edwards" checkname="EDWARDS,CHRIS" uni="59" class="" gp="1" code="59"></player>
+  <player name="Chris Samuels" shortname="Chris Samuels" checkname="SAMUELS,CHRIS" uni="60" class="" gp="1" gs="1" opos="LT" code="60"></player>
+  <player name="Kelvis White" shortname="Kelvis White" checkname="WHITE,KELVIS" uni="67" class="" gp="1" code="67">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Sam Matthews" shortname="Sam Matthews" checkname="MATTHEWS,SAM" uni="68" class="" gp="1" code="68"></player>
+  <player name="Jason McDonald" shortname="Jason McDonald" checkname="MCDONALD,JASON" uni="70" class="" gp="1" gs="1" opos="RG" code="70"></player>
+  <player name="Will Cuthbert" shortname="Will Cuthbert" checkname="CUTHBERT,WILL" uni="72" class="" gp="1" gs="1" opos="RT" code="72"></player>
+  <player name="Paul Hogan" shortname="Paul Hogan" checkname="HOGAN,PAUL" uni="74" class="" gp="1" gs="1" opos="C" code="74"></player>
+  <player name="Griff Redmill" shortname="Griff Redmill" checkname="REDMILL,GRIFF" uni="75" class="" gp="1" gs="1" opos="LG" code="73"></player>
+  <player name="Jason McAddley" shortname="Jason McAddley" checkname="MCADDLEY,JASON" uni="80" class="" gp="1" code="54"></player>
+  <player name="Terry Jones, Jr" shortname="Terry Jones, Jr" checkname="TERRY JONES,JR" uni="82" class="" gp="1" code="82"></player>
+  <player name="Calvin Hall" shortname="Calvin Hall" checkname="HALL,CALVIN" uni="83" class="" gp="1" code="33">
+   <rcv no="2" yds="104" td="0" long="59"></rcv>
+  </player>
+  <player name="S. Buchanan" shortname="S. Buchanan" checkname="BUCHANAN,S" uni="84" class="JR" gp="1" code="58"></player>
+  <player name="R. Crutchfield" shortname="R. Crutchfield" checkname="CRUTCHFIELD,R" uni="85" class="" gp="1" code="16"></player>
+  <player name="Kenny Smith" shortname="Kenny Smith" checkname="SMITH,KENNY" uni="88" class="" gp="1" gs="1" dpos="DT" code="79">
+   <defense tackua="4" tacka="1" tflua="3" tfla="0" tflyds="8" brup="1"></defense>
+  </player>
+  <player name="Tito Smith" shortname="Tito Smith" checkname="SMITH,TITO" uni="89" class="" gp="1" code="89">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Jamie Carter" shortname="Jamie Carter" checkname="CARTER,JAMIE" uni="90" class="" gp="1" code="90"></player>
+  <player name="Clint Waggoner" shortname="Clint Waggoner" checkname="WAGGONER,CLINT" uni="91" class="" gp="1" code="91">
+   <defense tackua="4" tacka="0" tflua="2" tfla="0" tflyds="13"></defense>
+  </player>
+  <player name="B. Ledbetter" shortname="B. Ledbetter" checkname="LEDBETTER,B" uni="93" class="" gp="1" code="93"></player>
+  <player name="C. Griffin" shortname="C. Griffin" checkname="GRIFFIN,C" uni="97" class="" gp="1" gs="1" dpos="DT" code="97">
+   <defense tackua="6" tacka="0" tflua="3" tfla="0" tflyds="6" qbh="1"></defense>
+  </player>
+  <player name="Reggie Grimes" shortname="Reggie Grimes" checkname="GRIMES,REGGIE" uni="98" class="" gp="1" gs="1" dpos="DE" code="98">
+   <defense tackua="0" tacka="2" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Darius Gilbert" shortname="Darius Gilbert" checkname="GILBERT,DARIUS" uni="99" class="" gp="1" code="99">
+   <defense tackua="1" tacka="1" qbh="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="ALABAMA" qtr="1" clock="02:06" type="FG" yds="28" scorer="Ryan Pflugner" vscore="0" hscore="3" driveindex="5"></score>
+  <score vh="V" team="REBELS" qtr="2" clock="11:50" type="TD" how="PASS" yds="17" scorer="Grant Heard" passer="Romaro Miller" patby="Donald Juneau" pattype="KICK" patres="GOOD" vscore="7" hscore="3" driveindex="8"></score>
+  <score vh="H" team="ALABAMA" qtr="2" clock="03:56" type="TD" how="RUSH" yds="9" scorer="Andrew Zow" patby="Ryan Pflugner" pattype="KICK" patres="GOOD" vscore="7" hscore="10" driveindex="11"></score>
+  <score vh="V" team="REBELS" qtr="3" clock="12:50" type="TD" how="RUSH" yds="5" scorer="Joe Gunn" patby="Donald Juneau" pattype="KICK" patres="GOOD" vscore="14" hscore="10" driveindex="14"></score>
+  <score vh="H" team="ALABAMA" qtr="4" clock="06:38" type="TD" how="PASS" yds="33" scorer="Shaun Alexander" passer="Andrew Zow" patby="Ryan Pflugner" pattype="KICK" patres="GOOD" vscore="14" hscore="17" driveindex="21"></score>
+  <score vh="V" team="REBELS" qtr="4" clock="03:33" type="FG" yds="20" scorer="Donald Juneau" vscore="17" hscore="17" driveindex="22"></score>
+  <score vh="H" team="ALABAMA" qtr="5" clock="00:00" type="FG" yds="22" scorer="Ryan Pflugner" vscore="17" hscore="20" driveindex="25"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="ALABAMA" kicker="Ryan Pflugner" qtr="1" clock="02:06" distance="28" result="good"></fga>
+  <fga vh="V" team="REBELS" kicker="Donald Juneau" qtr="2" clock="05:43" distance="32" result="blkd"></fga>
+  <fga vh="V" team="REBELS" kicker="Donald Juneau" qtr="4" clock="14:01" distance="19" result="missed"></fga>
+  <fga vh="V" team="REBELS" kicker="Donald Juneau" qtr="4" clock="03:33" distance="20" result="good"></fga>
+  <fga vh="H" team="ALABAMA" kicker="Ryan Pflugner" qtr="4" clock="00:00" distance="35" result="blkd"></fga>
+  <fga vh="H" team="ALABAMA" kicker="Ryan Pflugner" qtr="5" clock="00:00" distance="22" result="good"></fga>
+ </fgas>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V35" playid="0,1,0" tokens="SPOT:V,V35,N"
+      text="REBELS ball on REBELS35."></play>
+   <comment text="Ole Miss wins the toss and will defer.  Alabama will receive and"></comment>
+   <comment text="defend the South goal."></comment>
+   <play context="V,1,10,V35" playid="0,2,3" type="K" tokens="KO:36,H32 DN:"
+      text="Ross Barkley kickoff 33 yards to the ALABAMA32, downed."></play>
+   <drivestart poss="H,H32,15:00" vh="H" spot="H32" clock="15:00" driveindex="1,3"></drivestart>
+   <play context="H,1,10,H32" playid="1,1,4" type="P" tokens="PASS:5,C,15,H30 TACK:2"
+      text="Andrew Zow pass complete to Freddie Milons for loss of 2 yards to the ALABAMA30 (Ronnie Heard)."></play>
+   <play context="H,2,12,H30" playid="1,2,5" type="R" tokens="RUSH:30,H33, TACK:84,4"
+      text="D. McClintock rush for 3 yards to the ALABAMA33 (Comone Fisher;A. Spearman)."></play>
+   <play context="H,3,9,H33" playid="1,3,6" type="P" tokens="PASS:5,C,37,H32 TACK:46"
+      text="Andrew Zow pass complete to Shaun Alexander for loss of 1 yard to the ALABAMA32 (Amzie Williams)."></play>
+   <play context="H,4,10,H32" playid="1,4,7" type="U" tokens="PUNT:40,V21 FC:85"
+      text="Daniel Pope punt 47 yards to the REBELS21, fair catch by Cory Peterson."></play>
+   <drivesum plays="3" yards="0" top="15:00" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,V21,12:55" vh="V" spot="V21" clock="12:55" driveindex="2,7"></drivestart>
+   <play context="V,1,10,V21" playid="2,1,8" clock="12:55" tokens="{DRIVE}:12:55"
+      text="OLE MISS drive start at 12:55."></play>
+   <play context="V,1,10,V21" playid="2,2,9" tokens="SPOT:V,V22,Y"
+      text="REBELS ball on REBELS22."></play>
+   <play context="V,1,10,V22" playid="2,3,10" type="P" pcode="MI" tokens="PASS:11,I,85,*,MI"
+      text="Romaro Miller middle pass incomplete to Cory Peterson."></play>
+   <play context="V,2,10,V22" playid="2,4,11" type="R" pcode="LL" tokens="RUSH:28,V26,LL TACK:54"
+      text="Joe Gunn rush left for 4 yards to the REBELS26 (K. Moorehead)."></play>
+   <play context="V,3,6,V26" playid="2,5,12" type="P" pcode="SL" first="P" tokens="PASS:11,C,85,V35,SL TACK:4"
+      text="Romaro Miller slant pass complete to Cory Peterson for 9 yards to the REBELS35, 1ST DOWN REBELS (Steve Stanley)."></play>
+   <play context="V,1,10,V35" playid="2,6,13" type="R" pcode="LL" tokens="RUSH:28,V36,LL TACK:48,88"
+      text="Joe Gunn rush left for 1 yard to the REBELS36 (Trevis Smith;Kenny Smith)."></play>
+   <play context="V,2,9,V36" playid="2,7,14" type="R" pcode="LL" tokens="RUSH:28,V34,LL TACK:4"
+      text="Joe Gunn rush left for loss of 2 yards to the REBELS34 (Steve Stanley)."></play>
+   <play context="V,3,11,V34" playid="2,8,15" type="P" tokens="PASS:11,S,TM,V33 SACK:23"
+      text="Romaro Miller sacked for loss of 1 yard to the REBELS33 (Reggie Myles)."></play>
+   <play context="V,4,12,V33" playid="2,9,16" type="U" tokens="PUNT:16,H24 FC:26"
+      text="Reagan King punt 43 yards to the ALABAMA24, fair catch by Arvin Richard."></play>
+   <drivesum plays="6" yards="11" top="0:00" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,H24,09:38" vh="H" spot="H24" clock="09:38" driveindex="3,16"></drivestart>
+   <play context="H,1,10,H24" playid="3,1,17" clock="09:38" tokens="{DRIVE}:09:38"
+      text="ALABAMA CRIMSON TIDE drive start at 09:38."></play>
+   <play context="H,1,10,H24" playid="3,2,18" tokens="SPOT:H,H25,Y"
+      text="ALABAMA ball on ALABAMA25."></play>
+   <play context="H,1,10,H25" playid="3,3,19" type="P" pcode="LF" tokens="PASS:5,I,7,*,LF"
+      text="Andrew Zow LF pass incomplete to Quincy Jackson."></play>
+   <play context="H,2,10,H25" playid="3,4,20" type="R" pcode="LL" tokens="RUSH:37,H29,LL TACK:2"
+      text="Shaun Alexander rush left for 4 yards to the ALABAMA29 (Ronnie Heard)."></play>
+   <play context="H,3,6,H29" playid="3,5,21" type="P" pcode="LF" tokens="PASS:5,D,15,*,LF"
+      text="Andrew Zow LF pass incomplete to Freddie Milons, dropped pass."></play>
+   <play context="H,4,6,H29" playid="3,6,22" type="U" tokens="PUNT:40,V34 FC:85 PEN:H,KI,A,TM,V39,N D:1,10 SPOT:V,V39,Y"
+      text="Daniel Pope punt 37 yards to the REBELS34, fair catch by Cory Peterson, PENALTY ALABAMA kick catching interference 5 yards to the REBELS39, 1st and 10, REBELS ball on REBELS39."></play>
+   <drivesum plays="3" yards="4" top="0:00" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,V39,08:38" vh="V" spot="V39" clock="08:38" driveindex="4,22"></drivestart>
+   <play context="V,1,10,V39" playid="4,1,23" clock="08:38" tokens="{DRIVE}:08:38"
+      text="OLE MISS drive start at 08:38."></play>
+   <play context="V,1,10,V39" playid="4,2,24" type="R" pcode="MI" tokens="RUSH:28,V38,MI TACK:88,44"
+      text="Joe Gunn rush up middle for loss of 1 yard to the REBELS38 (Kenny Smith;Travis Carroll)."></play>
+   <play context="V,2,11,V38" playid="4,3,25" type="R" pcode="LL" tokens="RUSH:33,V38,LL TACK:97,20"
+      text="Tony Cannion rush left for no gain to the REBELS38 (C. Griffin;Kelvin Sigler)."></play>
+   <play context="V,3,11,V38" playid="4,4,26" type="P" pcode="CR" tokens="PASS:11,C,86,V42,CR TACK:1"
+      text="Romaro Miller crossing pass complete to Sheldon Morris for 4 yards to the REBELS42 (Chris Horne)."></play>
+   <play context="V,4,7,V42" playid="4,5,27" type="U" tokens="PUNT:16,H20 FC:26 PEN:H,RK,D"
+      text="Reagan King punt 38 yards to the ALABAMA20, fair catch by Arvin Richard, PENALTY ALABAMA roughing the kicker declined."></play>
+   <drivesum plays="3" yards="3" top="0:00" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H20,06:39" vh="H" spot="H20" clock="06:39" driveindex="5,27"></drivestart>
+   <play context="H,1,10,H20" playid="5,1,28" clock="06:39" tokens="{DRIVE}:06:39"
+      text="ALABAMA CRIMSON TIDE drive start at 06:39."></play>
+   <play context="H,1,10,H20" playid="5,2,29" tokens="SPOT:H,H21,Y"
+      text="ALABAMA ball on ALABAMA21."></play>
+   <play context="H,1,10,H21" playid="5,3,30" type="R" pcode="DR" first="R" tokens="RUSH:37,H35,DR TACK:84,12"
+      text="Shaun Alexander rush draw play for 14 yards to the ALABAMA35, 1ST DOWN ALABAMA (Comone Fisher;Kenny Woods)."></play>
+   <play context="H,1,10,H35" playid="5,4,31" type="P" pcode="SC" tokens="PASS:5,C,2,H38,SC TACK:12"
+      text="Andrew Zow screen pass complete to Eric Locke for 3 yards to the ALABAMA38 (Kenny Woods)."></play>
+   <play context="H,2,7,H38" playid="5,5,32" type="R" pcode="RR" first="R" tokens="RUSH:37,V33,RR TACK:38"
+      text="Shaun Alexander rush right for 29 yards to the REBELS33, 1ST DOWN ALABAMA (Gary Thigpen)."></play>
+   <play context="H,1,10,V33" playid="5,6,33" type="R" pcode="MI" tokens="RUSH:37,V30,MI TACK:84,43"
+      text="Shaun Alexander rush up middle for 3 yards to the REBELS30 (Comone Fisher;Antionne Scott)."></play>
+   <play context="H,2,7,V30" playid="5,7,34" type="R" pcode="DR" tokens="RUSH:37,V25,DR TACK:80"
+      text="Shaun Alexander rush draw play for 5 yards to the REBELS25 (Al Rice)."></play>
+   <play context="H,3,2,V25" playid="5,8,35" type="R" pcode="RR" first="R" tokens="RUSH:37,V15,RR TACK:2,59"
+      text="Shaun Alexander rush right for 10 yards to the REBELS15, 1ST DOWN ALABAMA (Ronnie Heard;Shane Elam)."></play>
+   <play context="H,1,10,V15" playid="5,9,36" type="R" pcode="RR" tokens="RUSH:37,V13,RR TACK:1,84"
+      text="Shaun Alexander rush right for 2 yards to the REBELS13 (Eddie Strong;Comone Fisher)."></play>
+   <play context="H,2,8,V13" playid="5,10,37" type="R" pcode="RR" tokens="RUSH:5,V10,RR TACK:1,4"
+      text="Andrew Zow rush right for 3 yards to the REBELS10 (Eddie Strong;A. Spearman)."></play>
+   <play context="H,3,5,V10" playid="5,11,38" type="P" pcode="SI" tokens="PASS:5,D,22,*,SI"
+      text="Andrew Zow sideline pass incomplete to Michael Vaughn, dropped pass."></play>
+   <play context="H,4,5,V10" playid="5,12,39" type="F" score="Y" vscore="0" hscore="3" clock="02:06" tokens="FGA:42,28,G T:02:06"
+      text="Ryan Pflugner field goal attempt from 28 GOOD, clock 02:06."></play>
+   <score V="0" H="3"></score>
+   <drivesum plays="10" yards="69" top="0:00" driveindex="5" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="5,13,40" type="K" tokens="KO:32,V08 RET:24,V24 TACK:34,89"
+      text="Mark Wisniewski kickoff 57 yards to the REBELS8, Ken Lucas return 16 yards to the REBELS24 (Chad McGehee;Tito Smith)."></play>
+   <drivestart poss="V,V24,02:06" vh="V" spot="V24" clock="02:06" driveindex="6,40"></drivestart>
+   <play context="V,1,10,V24" playid="6,1,41" clock="02:06" tokens="{DRIVE}:02:06"
+      text="OLE MISS drive start at 02:06."></play>
+   <play context="V,1,10,V24" playid="6,2,42" type="P" pcode="RF" first="E" tokens="PASS:11,C,28,V33,RF TACK:58 PEN:H,FM,A,TM,V48,1"
+      text="Romaro Miller RF pass complete to Joe Gunn for 9 yards to the REBELS33 (Canary Knight), PENALTY ALABAMA face mask 15 yards to the REBELS48, 1ST DOWN REBELS."></play>
+   <play context="V,1,10,V48" playid="6,3,43" tokens="D:1,10"
+      text="1st and 10."></play>
+   <play context="V,1,10,V48" playid="6,4,44" type="R" pcode="LL" first="R" tokens="RUSH:22,H38,LL TACK:24"
+      text="D. McAllister rush left for 14 yards to the ALABAMA38, 1ST DOWN REBELS (Tony Dixon)."></play>
+   <play context="V,1,10,H38" playid="6,5,45" type="P" pcode="MI" tokens="PASS:11,B,24,*,MI BRUP:88"
+      text="Romaro Miller middle pass incomplete to Ken Lucas (Kenny Smith)."></play>
+   <play context="V,2,10,H38" playid="6,6,46" type="P" pcode="SC" tokens="PASS:11,B,24,*,SC BRUP:13"
+      text="Romaro Miller screen pass incomplete to Ken Lucas (Kecalf Bailey)."></play>
+   <play context="V,3,10,H38" playid="6,7,47" type="P" pcode="RF" tokens="PASS:11,I,24,*,RF"
+      text="Romaro Miller RF pass incomplete to Ken Lucas."></play>
+   <play context="V,4,10,H38" playid="6,8,48" type="U" tokens="PUNT:48,H09 FC:26"
+      text="Ben Craddock punt 29 yards to the ALABAMA9, fair catch by Arvin Richard."></play>
+   <drivesum plays="5" yards="38" top="0:00" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H09,01:14" vh="H" spot="H09" clock="01:14" driveindex="7,48"></drivestart>
+   <play context="H,1,10,H09" playid="7,1,49" clock="01:14" tokens="{DRIVE}:01:14"
+      text="ALABAMA CRIMSON TIDE drive start at 01:14."></play>
+   <play context="H,1,10,H09" playid="7,2,50" tokens="SPOT:H,H10,Y"
+      text="ALABAMA ball on ALABAMA10."></play>
+   <play context="H,1,10,H10" playid="7,3,51" type="E" tokens="PEN:V,OD,A,TM,H15,N"
+      text="PENALTY REBELS offside defense 5 yards to the ALABAMA15."></play>
+   <play context="H,1,5,H15" playid="7,4,52" type="R" pcode="MI" tokens="RUSH:37,H13,MI TACK:96"
+      text="Shaun Alexander rush up middle for loss of 2 yards to the ALABAMA13 (Kendrick Clancy)."></play>
+   <play context="H,2,7,H13" playid="7,5,53" type="P" pcode="SI" tokens="PASS:5,I,2,*,SI"
+      text="Andrew Zow sideline pass incomplete to Eric Locke."></play>
+   <play context="H,3,7,H13" playid="7,6,54" type="P" tokens="PASS:5,S,TM,H05 SACK:95"
+      text="Andrew Zow sacked for loss of 8 yards to the ALABAMA5 (Morris Scott)."></play>
+   <score qtr="1" V="0" H="3"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="REBELS">
+    <firstdowns no="3" rush="1" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:08"></misc>
+    <rush att="7" yds="15" gain="19" loss="4" td="0" long="14"></rush>
+    <pass comp="3" att="7" int="0" yds="22" td="0" long="9" sacks="1" sackyds="1"></pass>
+    <rcv no="3" yds="22" td="0" long="9"></rcv>
+    <punt no="3" yds="110" long="43" blkd="0" tb="0" fc="3" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="33" ob="0" tb="0"></ko>
+    <defense tackua="8" tacka="12" tflua="4" tfla="0" tflyds="13" sacks="1" sackyds="8"></defense>
+    <kr no="1" yds="16" td="0" long="16"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ALABAMA">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:52"></misc>
+    <rush att="11" yds="63" gain="73" loss="10" td="0" long="29"></rush>
+    <pass comp="3" att="7" int="0" yds="0" td="0" long="3" sacks="1" sackyds="8"></pass>
+    <rcv no="3" yds="0" td="0" long="3"></rcv>
+    <punt no="2" yds="84" long="47" blkd="0" tb="0" fc="2" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="57" ob="0" tb="0"></ko>
+    <fg made="1" att="1" long="28" blkd="0"></fg>
+    <defense tackua="7" tacka="8" tflua="2" tfla="2" tflyds="4" sacks="1" sackyds="1" brup="2"></defense>
+    <scoring fg="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="H,4,15,H05" playid="7,7,55" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00."></play>
+   <play context="H,4,15,H05" playid="7,8,56" type="U" tokens="PUNT:40,H50 DN:"
+      text="Daniel Pope punt 45 yards to the 50 yardline, downed."></play>
+   <drivesum plays="3" yards="-5" top="0:00" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V50,14:48" vh="V" spot="V50" clock="14:48" driveindex="8,56"></drivestart>
+   <play context="V,1,10,V50" playid="8,1,57" clock="14:48" tokens="{DRIVE}:14:48"
+      text="OLE MISS drive start at 14:48."></play>
+   <play context="V,1,10,V50" playid="8,2,58" tokens="SPOT:V,H49,Y"
+      text="REBELS ball on ALABAMA49."></play>
+   <play context="V,1,10,H49" playid="8,3,59" type="R" pcode="LL" tokens="RUSH:22,H49,LL TACK:24,48"
+      text="D. McAllister rush left for no gain to the ALABAMA49 (Tony Dixon;Trevis Smith)."></play>
+   <play context="V,2,10,H49" playid="8,4,60" type="R" pcode="LL" first="R" tokens="RUSH:28,H37,LL TACK:48,44"
+      text="Joe Gunn rush left for 12 yards to the ALABAMA37, 1ST DOWN REBELS (Trevis Smith;Travis Carroll)."></play>
+   <play context="V,1,10,H37" playid="8,5,61" type="R" pcode="LL" tokens="RUSH:28,H31,LL TACK:20,54,48"
+      text="Joe Gunn rush left for 6 yards to the ALABAMA31 (Kelvin Sigler;K. Moorehead;Trevis Smith)."></play>
+   <play context="V,2,4,H31" playid="8,6,62" type="R" pcode="LL" first="R" tokens="RUSH:22,H10,LL TACK:20"
+      text="D. McAllister rush left for 21 yards to the ALABAMA10, 1ST DOWN REBELS (Kelvin Sigler)."></play>
+   <play context="V,1,0,H10" playid="8,7,63" type="R" pcode="RR" tokens="RUSH:22,H13,RR TACK:88"
+      text="D. McAllister rush right for loss of 3 yards to the ALABAMA13 (Kenny Smith)."></play>
+   <play context="V,2,0,H13" playid="8,8,64" type="#" clock="12:40" tokens="TOUT:H T:12:40"
+      text="Timeout Alabama Crimson Tide, clock 12:40."></play>
+   <play context="V,2,0,H13" playid="8,9,65" type="R" pcode="LL" tokens="RUSH:28,H17,LL TACK:88"
+      text="Joe Gunn rush left for loss of 4 yards to the ALABAMA17 (Kenny Smith)."></play>
+   <play context="V,3,0,H17" playid="8,10,66" type="P" pcode="SL" score="Y" vscore="6" hscore="3" clock="11:50" tokens="PASS:11,C,88,H00,SL T:11:50"
+      text="Romaro Miller slant pass complete to Grant Heard for 17 yards to the ALABAMA0, TOUCHDOWN, clock 11:50."></play>
+   <play context="V,1,0,H02" playid="8,11,67" type="X" score="Y" vscore="7" hscore="3" tokens="PAT:K,49,G"
+      text="Donald Juneau kick attempt good."></play>
+   <score V="7" H="3"></score>
+   <drivesum plays="7" yards="49" top="0:00" driveindex="8" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="8,12,68" type="K" tokens="KO:36,H03 RET:26,H24 TACK:21,3"
+      text="Ross Barkley kickoff 62 yards to the ALABAMA3, Arvin Richard return 21 yards to the ALABAMA24 (Justin Coleman;T. Strickland)."></play>
+   <drivestart poss="H,H24,11:50" vh="H" spot="H24" clock="11:50" driveindex="9,68"></drivestart>
+   <play context="H,1,10,H24" playid="9,1,69" clock="11:50" tokens="{DRIVE}:11:50"
+      text="ALABAMA CRIMSON TIDE drive start at 11:50."></play>
+   <play context="H,1,10,H24" playid="9,2,70" type="R" pcode="LL" tokens="RUSH:26,H26,LL PEN:H,HO,A,TM,H16,N"
+      text="Arvin Richard rush left for 2 yards to the ALABAMA26, PENALTY ALABAMA holding 10 yards to the ALABAMA16."></play>
+   <play context="H,1,18,H16" playid="9,3,71" tokens="D:1,18"
+      text="1st and 18."></play>
+   <play context="H,1,18,H16" playid="9,4,72" type="P" pcode="SC" tokens="PASS:5,C,15,H20,SC TACK:84,12"
+      text="Andrew Zow screen pass complete to Freddie Milons for 4 yards to the ALABAMA20 (Comone Fisher;Kenny Woods)."></play>
+   <play context="H,2,14,H20" playid="9,5,73" type="P" pcode="DP" tokens="PASS:5,I,7,*,DP"
+      text="Andrew Zow deep pass incomplete to Quincy Jackson."></play>
+   <play context="H,3,14,H20" playid="9,6,74" type="P" tokens="PASS:5,I,TM,* PEN:H,IG,A,TM,H02,+"
+      text="Andrew Zow pass incomplete, PENALTY ALABAMA intentional grounding 18 yards to the ALABAMA2."></play>
+   <play context="H,4,32,H02" playid="9,7,75" tokens="D:4,32"
+      text="4th and 32."></play>
+   <play context="H,4,32,H02" playid="9,8,76" type="U" tokens="PUNT:40,V47 DN:"
+      text="Daniel Pope punt 51 yards to the REBELS47, downed."></play>
+   <drivesum plays="4" yards="-22" top="0:00" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="V,V47,10:17" vh="V" spot="V47" clock="10:17" driveindex="10,76"></drivestart>
+   <play context="V,1,10,V47" playid="10,1,77" clock="10:17" tokens="{DRIVE}:10:17"
+      text="OLE MISS drive start at 10:17."></play>
+   <play context="V,1,10,V47" playid="10,2,78" type="P" tokens="PASS:11,I,TM,*"
+      text="Romaro Miller pass incomplete."></play>
+   <play context="V,2,10,V47" playid="10,3,79" type="R" pcode="RR" first="R" tokens="RUSH:22,H35,RR TACK:25"
+      text="D. McAllister rush right for 18 yards to the ALABAMA35, 1ST DOWN REBELS (Fernando Bryant)."></play>
+   <play context="V,1,10,H35" playid="10,4,80" type="R" pcode="RR" tokens="RUSH:22,H30,RR TACK:25,98"
+      text="D. McAllister rush right for 5 yards to the ALABAMA30 (Fernando Bryant;Reggie Grimes)."></play>
+   <play context="V,2,5,H30" playid="10,5,81" type="R" pcode="RR" tokens="RUSH:33,H26,RR TACK:25"
+      text="Tony Cannion rush right for 4 yards to the ALABAMA26 (Fernando Bryant)."></play>
+   <play context="V,3,1,H26" playid="10,6,82" type="R" pcode="DR" tokens="RUSH:28,H28,DR TACK:44,54"
+      text="Joe Gunn rush draw play for loss of 2 yards to the ALABAMA28 (Travis Carroll;K. Moorehead)."></play>
+   <play context="V,4,3,H28" playid="10,7,83" type="P" pcode="LF" first="P" tokens="PASS:11,C,9,H11,LF TACK:13"
+      text="Romaro Miller LF pass complete to Rufus French for 17 yards to the ALABAMA11, 1ST DOWN REBELS (Kecalf Bailey)."></play>
+   <play context="V,1,10,H11" playid="10,8,84" type="R" pcode="LL" tokens="RUSH:28,H14,LL TACK:48"
+      text="Joe Gunn rush left for loss of 3 yards to the ALABAMA14 (Trevis Smith)."></play>
+   <play context="V,2,13,H14" playid="10,9,85" type="R" pcode="RR" tokens="RUSH:28,H15,RR TACK:48"
+      text="Joe Gunn rush right for loss of 1 yard to the ALABAMA15 (Trevis Smith)."></play>
+   <play context="V,3,14,H15" playid="10,10,86" type="P" pcode="SL" tokens="PASS:11,I,86,*,SL"
+      text="Romaro Miller slant pass incomplete to Sheldon Morris."></play>
+   <play context="V,4,14,H15" playid="10,11,87" type="F" clock="05:43" tokens="FGA:49,32,B,H18,H,24 T:05:43 BLOCK:20 +:24,H18"
+      text="Donald Juneau field goal attempt from 32 BLOCKED, recovered by ALABAMA Tony Dixon at ALABAMA18 spot at ALABAMA18, clock 05:43 (blocked by Kelvin Sigler), Tony Dixon for no gain to the ALABAMA18."></play>
+   <drivesum plays="10" yards="38" top="0:00" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="H,H18,05:43" vh="H" spot="H18" clock="05:43" driveindex="11,87"></drivestart>
+   <play context="H,1,10,H18" playid="11,1,88" type="P" pcode="CR" first="P" tokens="PASS:5,C,22,H33,CR TACK:2"
+      text="Andrew Zow crossing pass complete to Michael Vaughn for 15 yards to the ALABAMA33, 1ST DOWN ALABAMA (Ronnie Heard)."></play>
+   <play context="H,1,10,H33" playid="11,2,89" type="P" pcode="SI" first="P" tokens="PASS:5,C,83,V08,SI TACK:27"
+      text="Andrew Zow sideline pass complete to Calvin Hall for 59 yards to the REBELS8, 1ST DOWN ALABAMA (Anthony Magee)."></play>
+   <play context="H,1,0,V08" playid="11,3,90" type="R" pcode="LL" tokens="RUSH:30,V09,LL TACK:95,62"
+      text="D. McClintock rush left for loss of 1 yard to the REBELS9 (Morris Scott;Michael Boone)."></play>
+   <play context="H,2,0,V09" playid="11,4,91" type="P" pcode="MI" tokens="PASS:5,I,80,*,MI"
+      text="Andrew Zow middle pass incomplete to Jason McAddley."></play>
+   <play context="H,3,0,V09" playid="11,5,92" type="R" pcode="QD" score="Y" vscore="7" hscore="9" clock="03:56" tokens="RUSH:5,V00,QD T:03:56"
+      text="Andrew Zow rush quarterback draw for 9 yards to the REBELS0, TOUCHDOWN, clock 03:56."></play>
+   <play context="H,1,0,V02" playid="11,6,93" type="X" score="Y" vscore="7" hscore="10" tokens="PAT:K,42,G"
+      text="Ryan Pflugner kick attempt good."></play>
+   <score V="7" H="10"></score>
+   <drivesum plays="5" yards="82" top="0:00" driveindex="11" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="11,7,94" type="K" tokens="KO:32,V00 TB:"
+      text="Mark Wisniewski kickoff 65 yards to the REBELS0, touchback."></play>
+   <drivestart poss="V,V20,03:56" vh="V" spot="V20" clock="03:56" driveindex="12,94"></drivestart>
+   <play context="V,1,10,V20" playid="12,1,95" clock="03:56" tokens="{DRIVE}:03:56"
+      text="OLE MISS drive start at 03:56."></play>
+   <play context="V,1,10,V20" playid="12,2,96" type="P" pcode="SC" tokens="PASS:11,C,85,V18,SC TACK:58"
+      text="Romaro Miller screen pass complete to Cory Peterson for loss of 2 yards to the REBELS18 (Canary Knight)."></play>
+   <play context="V,2,12,V18" playid="12,3,97" type="R" pcode="MI" tokens="RUSH:22,V28,MI TACK:24,99"
+      text="D. McAllister rush up middle for 10 yards to the REBELS28 (Tony Dixon;Darius Gilbert)."></play>
+   <play context="V,3,2,V28" playid="12,4,98" type="#" clock="02:33" tokens="TOUT:H T:02:33"
+      text="Timeout Alabama Crimson Tide, clock 02:33."></play>
+   <play context="V,3,2,V28" playid="12,5,99" type="P" pcode="LF" tokens="PASS:11,B,9,*,LF BRUP:48"
+      text="Romaro Miller LF pass incomplete to Rufus French (Trevis Smith)."></play>
+   <play context="V,4,2,V28" playid="12,6,100" type="P" pcode="SI" first="P" tokens="PASS:16,C,86,V48,SI TACK:35"
+      text="Reagan King sideline pass complete to Sheldon Morris for 20 yards to the REBELS48, 1ST DOWN REBELS (Owen Winston)."></play>
+   <comment text="The pass completion was on a fake punt."></comment>
+   <play context="V,1,10,V48" playid="12,7,102" type="R" pcode="RR" first="R" tokens="RUSH:11,H41,RR OB: TACK:44"
+      text="Romaro Miller rush right for 11 yards to the ALABAMA41, 1ST DOWN REBELS, out-of-bounds (Travis Carroll)."></play>
+   <play context="V,1,10,H41" playid="12,8,103" type="R" pcode="LL" tokens="RUSH:28,H45,LL TACK:54"
+      text="Joe Gunn rush left for loss of 4 yards to the ALABAMA45 (K. Moorehead)."></play>
+   <play context="V,2,14,H45" playid="12,9,104" type="P" pcode="RF" first="P" tokens="PASS:11,C,88,H31,RF TACK:13"
+      text="Romaro Miller RF pass complete to Grant Heard for 14 yards to the ALABAMA31, 1ST DOWN REBELS (Kecalf Bailey)."></play>
+   <play context="V,1,10,H31" playid="12,10,105" type="P" pcode="SI" tokens="PASS:11,C,88,H22,SI OB:"
+      text="Romaro Miller sideline pass complete to Grant Heard for 9 yards to the ALABAMA22, out-of-bounds."></play>
+   <play context="V,2,1,H22" playid="12,11,106" type="P" pcode="SC" first="P" tokens="PASS:11,C,85,H21,SC TACK:88"
+      text="Romaro Miller screen pass complete to Cory Peterson for 1 yard to the ALABAMA21, 1ST DOWN REBELS (Kenny Smith)."></play>
+   <play context="V,1,10,H21" playid="12,12,107" type="#" clock="00:48" tokens="TOUT:V T:00:48"
+      text="Timeout Ole Miss, clock 00:48."></play>
+   <play context="V,1,10,H21" playid="12,13,108" type="P" pcode="RF" tokens="PASS:11,C,85,H12,RF TACK:13"
+      text="Romaro Miller RF pass complete to Cory Peterson for 9 yards to the ALABAMA12 (Kecalf Bailey)."></play>
+   <play context="V,2,1,H12" playid="12,14,109" type="P" pcode="CR" first="P" tokens="PASS:11,C,9,H07,CR TACK:58"
+      text="Romaro Miller crossing pass complete to Rufus French for 5 yards to the ALABAMA7, 1ST DOWN REBELS (Canary Knight)."></play>
+   <play context="V,1,0,H07" playid="12,15,110" type="#" clock="00:37" tokens="TOUT:V T:00:37"
+      text="Timeout Ole Miss, clock 00:37."></play>
+   <play context="V,1,0,H07" playid="12,16,111" type="P" pcode="CR" tokens="PASS:11,B,85,*,CR BRUP:13"
+      text="Romaro Miller crossing pass incomplete to Cory Peterson (Kecalf Bailey)."></play>
+   <play context="V,2,0,H07" playid="12,17,112" type="P" pcode="RF" tokens="PASS:11,C,22,H01,RF TACK:17"
+      text="Romaro Miller RF pass complete to D. McAllister for 6 yards to the ALABAMA1 (Warren Foust)."></play>
+   <play context="V,3,0,H01" playid="12,18,113" type="R" pcode="MI" tokens="RUSH:28,H02,MI TACK:97,98"
+      text="Joe Gunn rush up middle for loss of 1 yard to the ALABAMA2 (C. Griffin;Reggie Grimes)."></play>
+   <play context="V,4,0,H02" playid="12,19,114" type="#" clock="00:19" tokens="TOUT:V T:00:19"
+      text="Timeout Ole Miss, clock 00:19."></play>
+   <play context="V,4,0,H02" playid="12,20,115" type="#" clock="00:19" tokens="TOUT:H T:00:19"
+      text="Timeout Alabama Crimson Tide, clock 00:19."></play>
+   <play context="V,4,0,H02" playid="12,21,116" type="P" pcode="SI" tokens="PASS:11,I,88,*,SI"
+      text="Romaro Miller sideline pass incomplete to Grant Heard."></play>
+   <drivesum plays="15" yards="78" top="0:00" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,H02,00:10" vh="H" spot="H02" clock="00:10" driveindex="13,116"></drivestart>
+   <play context="H,1,10,H02" playid="13,1,117" clock="00:10" tokens="{DRIVE}:00:10"
+      text="ALABAMA CRIMSON TIDE drive start at 00:10."></play>
+   <play context="H,1,10,H02" playid="13,2,118" type="R" pcode="QS" tokens="RUSH:5,H03,QS TACK:96,80"
+      text="Andrew Zow rush quarterback sneak for 1 yard to the ALABAMA3 (Kendrick Clancy;Al Rice)."></play>
+   <play context="H,2,9,H03" playid="13,3,119" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="1" yards="1" top="0:00" driveindex="13" complete="Y"></drivesum>
+   <score qtr="2" V="7" H="10"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="REBELS">
+    <firstdowns no="9" rush="4" pass="5" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="5" fourthconv="2" fourthatt="3"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="11:18"></misc>
+    <rush att="16" yds="69" gain="87" loss="18" td="0" long="7"></rush>
+    <pass comp="10" att="15" int="0" yds="96" td="1" long="11" sacks="0" sackyds="0"></pass>
+    <rcv no="10" yds="96" td="1" long="11"></rcv>
+    <ko no="1" yds="62" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="1"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="2" tacka="8" tflua="0" tfla="2" tflyds="1" sacks="0" sackyds="0"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ALABAMA">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="28"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="3" top="03:42"></misc>
+    <rush att="4" yds="11" gain="12" loss="1" td="1" long="0"></rush>
+    <pass comp="3" att="6" int="0" yds="78" td="0" long="56" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="78" td="0" long="56"></rcv>
+    <punt no="2" yds="96" long="4" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <ko no="1" yds="65" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="17" tacka="15" tflua="6" tfla="4" tflyds="20" sacks="0" sackyds="0" brup="2" blkd="1"></defense>
+    <kr no="1" yds="21" td="0" long="21"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="H,2,9,H03" playid="13,4,120" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:H,H35,N"
+      text="Start of 3rd quarter, clock 15:00, ALABAMA ball on ALABAMA35."></play>
+   <play context="H,2,9,H35" playid="13,5,121" type="K" tokens="KO:32,V10 OB: SPOT:V,V35,Y"
+      text="Mark Wisniewski kickoff 55 yards to the REBELS10, out-of-bounds, REBELS ball on REBELS35."></play>
+   <drivestart poss="V,V35,15:00" vh="V" spot="V35" clock="15:00" driveindex="14,121"></drivestart>
+   <play context="V,1,10,V35" playid="14,1,122" clock="15:00" tokens="{DRIVE}:15:00"
+      text="OLE MISS drive start at 15:00."></play>
+   <play context="V,1,10,V35" playid="14,2,123" type="E" pcode="LF" tokens="PASS:11,C,88,V40,LF TACK:13 PEN:H,OD,A,TM,V40,N NOPLAY:"
+      text="Romaro Miller LF pass complete to Grant Heard for 5 yards to the REBELS40 (Kecalf Bailey), PENALTY ALABAMA offside defense 5 yards to the REBELS40, NO PLAY."></play>
+   <play context="V,1,5,V40" playid="14,3,124" type="R" pcode="LL" first="R" tokens="RUSH:22,V50,LL TACK:20"
+      text="D. McAllister rush left for 10 yards to the 50 yardline, 1ST DOWN REBELS (Kelvin Sigler)."></play>
+   <play context="V,1,10,V50" playid="14,4,125" type="P" pcode="SI" tokens="PASS:11,B,88,*,SI BRUP:25"
+      text="Romaro Miller sideline pass incomplete to Grant Heard (Fernando Bryant)."></play>
+   <play context="V,2,10,V50" playid="14,5,126" type="R" pcode="DR" first="R" tokens="RUSH:22,H35,DR TACK:91,17"
+      text="D. McAllister rush draw play for 15 yards to the ALABAMA35, 1ST DOWN REBELS (Clint Waggoner;Warren Foust)."></play>
+   <play context="V,1,10,H35" playid="14,6,127" type="P" pcode="SI" first="P" tokens="PASS:11,C,7,H07,SI TACK:20"
+      text="Romaro Miller sideline pass complete to J. Armstrong for 28 yards to the ALABAMA7, 1ST DOWN REBELS (Kelvin Sigler)."></play>
+   <play context="V,1,0,H07" playid="14,7,128" type="R" pcode="LL" tokens="RUSH:22,H05,LL TACK:24,48"
+      text="D. McAllister rush left for 2 yards to the ALABAMA5 (Tony Dixon;Trevis Smith)."></play>
+   <play context="V,2,0,H05" playid="14,8,129" type="R" pcode="RR" score="Y" vscore="13" hscore="10" clock="12:50" tokens="RUSH:28,H00,RR T:12:50"
+      text="Joe Gunn rush right for 5 yards to the ALABAMA0, TOUCHDOWN, clock 12:50."></play>
+   <play context="V,1,0,H02" playid="14,9,130" type="X" score="Y" vscore="14" hscore="10" tokens="PAT:K,49,G"
+      text="Donald Juneau kick attempt good."></play>
+   <score V="14" H="10"></score>
+   <drivesum plays="6" yards="65" top="0:00" driveindex="14" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="14,10,131" type="K" tokens="KO:36,H00 RET:26,H20 TACK:44"
+      text="Ross Barkley kickoff 65 yards to the ALABAMA0, Arvin Richard return 20 yards to the ALABAMA20 (Chad Cook)."></play>
+   <drivestart poss="H,H20,12:50" vh="H" spot="H20" clock="12:50" driveindex="15,131"></drivestart>
+   <play context="H,1,10,H20" playid="15,1,132" clock="12:50" tokens="{DRIVE}:12:50"
+      text="ALABAMA CRIMSON TIDE drive start at 12:50."></play>
+   <play context="H,1,10,H20" playid="15,2,133" type="R" pcode="LL" tokens="RUSH:37,H20,LL TACK:4,56"
+      text="Shaun Alexander rush left for no gain to the ALABAMA20 (A. Spearman;Derrick Burgess)."></play>
+   <play context="H,2,10,H20" playid="15,3,134" type="P" pcode="DP" first="P" tokens="PASS:5,C,83,V35,DP TACK:3"
+      text="Andrew Zow deep pass complete to Calvin Hall for 45 yards to the REBELS35, 1ST DOWN ALABAMA (T. Strickland)."></play>
+   <play context="H,1,10,V35" playid="15,4,135" type="P" pcode="RF" tokens="PASS:5,I,37,*,RF"
+      text="Andrew Zow RF pass incomplete to Shaun Alexander."></play>
+   <play context="H,2,10,V35" playid="15,5,136" type="P" pcode="SI" tokens="PASS:5,I,7,*,SI"
+      text="Andrew Zow sideline pass incomplete to Quincy Jackson."></play>
+   <play context="H,3,10,V35" playid="15,6,137" type="P" pcode="LF" first="P" tokens="PASS:5,C,7,V23,LF TACK:23"
+      text="Andrew Zow LF pass complete to Quincy Jackson for 12 yards to the REBELS23, 1ST DOWN ALABAMA (Syniker Taylor)."></play>
+   <play context="H,1,10,V23" playid="15,7,138" type="P" pcode="MI" tokens="PASS:5,C,2,V16,MI TACK:23"
+      text="Andrew Zow middle pass complete to Eric Locke for 7 yards to the REBELS16 (Syniker Taylor)."></play>
+   <play context="H,2,3,V16" playid="15,8,139" type="P" pcode="SL" tokens="PASS:5,B,7,*,SL BRUP:38"
+      text="Andrew Zow slant pass incomplete to Quincy Jackson (Gary Thigpen)."></play>
+   <play context="H,3,3,V16" playid="15,9,140" type="R" pcode="MI" turnover="F" tokens="RUSH:30,V15,MI FORCE:44 FUMB:V,V15,3"
+      text="D. McClintock rush up middle for 1 yard to the REBELS15, fumble forced by Chad Cook, fumble by D. McClintock recovered by REBELS T. Strickland at REBELS15."></play>
+   <drivesum plays="8" yards="65" top="0:00" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V15,10:00" vh="V" spot="V15" clock="10:00" driveindex="16,140"></drivestart>
+   <play context="V,1,10,V15" playid="16,1,141" clock="10:00" tokens="{DRIVE}:10:00"
+      text="OLE MISS drive start at 10:00."></play>
+   <play context="V,1,10,V15" playid="16,2,142" type="P" pcode="LF" first="P" tokens="PASS:11,C,85,V27,LF"
+      text="Romaro Miller LF pass complete to Cory Peterson for 12 yards to the REBELS27, 1ST DOWN REBELS."></play>
+   <play context="V,1,10,V27" playid="16,3,143" type="R" pcode="LL" tokens="RUSH:22,V29,LL OB: TACK:20"
+      text="D. McAllister rush left for 2 yards to the REBELS29, out-of-bounds (Kelvin Sigler)."></play>
+   <play context="V,2,8,V29" playid="16,4,144" type="R" pcode="DR" first="R" tokens="RUSH:22,V40,DR TACK:97"
+      text="D. McAllister rush draw play for 11 yards to the REBELS40, 1ST DOWN REBELS (C. Griffin)."></play>
+   <play context="V,1,10,V40" playid="16,5,145" type="R" pcode="MI" tokens="RUSH:22,V44,MI TACK:97"
+      text="D. McAllister rush up middle for 4 yards to the REBELS44 (C. Griffin)."></play>
+   <play context="V,2,6,V44" playid="16,6,146" type="P" pcode="SI" first="P" tokens="PASS:11,C,88,H45,SI TACK:13"
+      text="Romaro Miller sideline pass complete to Grant Heard for 11 yards to the ALABAMA45, 1ST DOWN REBELS (Kecalf Bailey)."></play>
+   <play context="V,1,10,H45" playid="16,7,147" type="R" pcode="DR" tokens="RUSH:22,H45,DR TACK:38,48"
+      text="D. McAllister rush draw play for no gain to the ALABAMA45 (Shawn Draper;Trevis Smith)."></play>
+   <play context="V,2,10,H45" playid="16,8,148" type="R" pcode="RR" tokens="RUSH:22,H44,RR TACK:48"
+      text="D. McAllister rush right for 1 yard to the ALABAMA44 (Trevis Smith)."></play>
+   <play context="V,3,9,H44" playid="16,9,149" type="P" pcode="CR" tokens="PASS:11,B,9,*,CR BRUP:20"
+      text="Romaro Miller crossing pass incomplete to Rufus French (Kelvin Sigler)."></play>
+   <play context="V,4,9,H44" playid="16,10,150" type="U" tokens="PUNT:48,H06 RET:26,H24 TACK:86,96"
+      text="Ben Craddock punt 38 yards to the ALABAMA6, Arvin Richard return 18 yards to the ALABAMA24 (Sheldon Morris;Kendrick Clancy)."></play>
+   <drivesum plays="8" yards="41" top="0:00" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,H24,06:34" vh="H" spot="H24" clock="06:34" driveindex="17,150"></drivestart>
+   <play context="H,1,10,H24" playid="17,1,151" clock="06:34" tokens="{DRIVE}:06:34"
+      text="ALABAMA CRIMSON TIDE drive start at 06:34."></play>
+   <play context="H,1,10,H24" playid="17,2,152" type="P" pcode="SI" tokens="PASS:5,C,22,H30,SI TACK:27"
+      text="Andrew Zow sideline pass complete to Michael Vaughn for 6 yards to the ALABAMA30 (Anthony Magee)."></play>
+   <play context="H,2,4,H30" playid="17,3,153" type="R" pcode="LL" first="R" tokens="RUSH:37,H35,LL TACK:23"
+      text="Shaun Alexander rush left for 5 yards to the ALABAMA35, 1ST DOWN ALABAMA (Syniker Taylor)."></play>
+   <play context="H,1,10,H35" playid="17,4,154" type="P" pcode="MI" first="P" tokens="PASS:5,C,7,V36,MI TACK:23"
+      text="Andrew Zow middle pass complete to Quincy Jackson for 29 yards to the REBELS36, 1ST DOWN ALABAMA (Syniker Taylor)."></play>
+   <play context="H,1,10,V36" playid="17,5,155" type="R" pcode="RV" first="R" tokens="RUSH:2,V24,RV TACK:3,27"
+      text="Eric Locke rush reverse for 12 yards to the REBELS24, 1ST DOWN ALABAMA (T. Strickland;Anthony Magee)."></play>
+   <play context="H,1,10,V24" playid="17,6,156" type="E" tokens="PEN:H,FS,A,TM,V29,N"
+      text="PENALTY ALABAMA false start 5 yards to the REBELS29."></play>
+   <play context="H,1,15,V29" playid="17,7,157" type="P" pcode="RF" tokens="PASS:5,I,8,*,RF"
+      text="Andrew Zow RF pass incomplete to Tim Bowens."></play>
+   <play context="H,2,15,V29" playid="17,8,158" type="P" pcode="MI" turnover="I" tokens="PASS:5,X,27,V10,MI RET:27,V31 TACK:30"
+      text="Andrew Zow middle pass intercepted by Anthony Magee at the REBELS10, Anthony Magee return 21 yards to the REBELS31 (D. McClintock)."></play>
+   <drivesum plays="6" yards="47" top="0:00" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="V,V31,04:20" vh="V" spot="V31" clock="04:20" driveindex="18,158"></drivestart>
+   <play context="V,1,10,V31" playid="18,1,159" clock="04:20" tokens="{DRIVE}:04:20"
+      text="OLE MISS drive start at 04:20."></play>
+   <play context="V,1,10,V31" playid="18,2,160" type="P" pcode="LF" tokens="PASS:11,C,7,V40,LF TACK:13"
+      text="Romaro Miller LF pass complete to J. Armstrong for 9 yards to the REBELS40 (Kecalf Bailey)."></play>
+   <play context="V,2,1,V40" playid="18,3,161" type="E" tokens="PEN:V,FS,A,TM,V35,N"
+      text="PENALTY REBELS false start 5 yards to the REBELS35."></play>
+   <play context="V,2,6,V35" playid="18,4,162" type="R" pcode="RR" tokens="RUSH:11,V39,RR OB: TACK:20"
+      text="Romaro Miller rush right for 4 yards to the REBELS39, out-of-bounds (Kelvin Sigler)."></play>
+   <play context="V,3,2,V39" playid="18,5,163" type="P" pcode="RF" first="P" tokens="PASS:11,C,28,V43,RF TACK:25"
+      text="Romaro Miller RF pass complete to Joe Gunn for 4 yards to the REBELS43, 1ST DOWN REBELS (Fernando Bryant)."></play>
+   <play context="V,1,10,V43" playid="18,6,164" type="R" pcode="LL" tokens="RUSH:28,V41,LL TACK:48"
+      text="Joe Gunn rush left for loss of 2 yards to the REBELS41 (Trevis Smith)."></play>
+   <play context="V,2,12,V41" playid="18,7,165" type="P" pcode="CR" tokens="PASS:11,I,9,*,CR"
+      text="Romaro Miller crossing pass incomplete to Rufus French."></play>
+   <play context="V,3,12,V41" playid="18,8,166" type="P" pcode="SI" first="P" tokens="PASS:11,C,85,H28,SI TACK:13"
+      text="Romaro Miller sideline pass complete to Cory Peterson for 31 yards to the ALABAMA28, 1ST DOWN REBELS (Kecalf Bailey)."></play>
+   <play context="V,1,10,H28" playid="18,9,167" type="R" pcode="DR" tokens="RUSH:33,H29,DR TACK:91"
+      text="Tony Cannion rush draw play for loss of 1 yard to the ALABAMA29 (Clint Waggoner)."></play>
+   <play context="V,2,11,H29" playid="18,10,168" type="R" pcode="RR" tokens="RUSH:11,H20,RR OB: TACK:41"
+      text="Romaro Miller rush right for 9 yards to the ALABAMA20, out-of-bounds (Marcus Spencer)."></play>
+   <play context="V,3,2,H20" playid="18,11,169" type="R" pcode="RR" tokens="RUSH:33,H20,RR TACK:41,44"
+      text="Tony Cannion rush right for no gain to the ALABAMA20 (Marcus Spencer;Travis Carroll)."></play>
+   <play context="V,4,2,H20" playid="18,12,170" type="#" clock="00:34" tokens="TOUT:H T:00:34"
+      text="Timeout Alabama Crimson Tide, clock 00:34."></play>
+   <play context="V,4,2,H20" playid="18,13,171" type="E" pcode="RF" first="E" tokens="PASS:11,I,9,*,RF PEN:H,PI,A,TM,H05,N NOPLAY:"
+      text="Romaro Miller RF pass incomplete to Rufus French, PENALTY ALABAMA pass interference 15 yards to the ALABAMA5, 1ST DOWN REBELS, NO PLAY."></play>
+   <play context="V,1,0,H05" playid="18,14,172" type="R" pcode="LL" tokens="RUSH:28,H08,LL TACK:41,44"
+      text="Joe Gunn rush left for loss of 3 yards to the ALABAMA8 (Marcus Spencer;Travis Carroll)."></play>
+   <score qtr="3" V="14" H="10"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="REBELS">
+    <firstdowns no="9" rush="3" pass="5" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:56"></misc>
+    <rush att="15" yds="57" gain="63" loss="6" td="1" long="0"></rush>
+    <pass comp="6" att="9" int="0" yds="95" td="0" long="11" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="95" td="0" long="11"></rcv>
+    <punt no="1" yds="38" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="65" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="8" tacka="6" sacks="0" sackyds="0" brup="1" ff="1" fr="1" fryds="0" int="1" intyds="21"></defense>
+    <ir no="1" yds="21" td="0" long="21"></ir>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ALABAMA">
+    <firstdowns no="5" rush="2" pass="3" penalty="0"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="05:04"></misc>
+    <rush att="4" yds="18" gain="18" loss="0" td="0" long="0"></rush>
+    <pass comp="5" att="10" int="1" yds="99" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="99" td="0" long="0"></rcv>
+    <ko no="1" yds="55" ob="1" tb="0"></ko>
+    <defense tackua="15" tacka="10" tflua="2" tfla="2" tflyds="6" sacks="0" sackyds="0" brup="2"></defense>
+    <kr no="1" yds="20" td="0" long="0"></kr>
+    <pr no="1" yds="18" td="0" long="18"></pr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,2,0,H08" playid="18,15,173" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00."></play>
+   <play context="V,2,0,H08" playid="18,16,174" type="R" pcode="RR" tokens="RUSH:22,H10,RR TACK:97,20"
+      text="D. McAllister rush right for loss of 2 yards to the ALABAMA10 (C. Griffin;Kelvin Sigler)."></play>
+   <play context="V,3,0,H10" playid="18,17,175" type="P" pcode="LF" tokens="PASS:11,C,28,H02,LF TACK:20,25"
+      text="Romaro Miller LF pass complete to Joe Gunn for 8 yards to the ALABAMA2 (Kelvin Sigler;Fernando Bryant)."></play>
+   <play context="V,4,0,H02" playid="18,18,176" type="F" clock="14:01" tokens="FGA:49,19,M,H20 T:14:01"
+      text="Donald Juneau field goal attempt from 19 MISSED, spot at ALABAMA20, clock 14:01."></play>
+   <drivesum plays="13" yards="67" top="0:00" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="H,H20,14:01" vh="H" spot="H20" clock="14:01" driveindex="19,176"></drivestart>
+   <play context="H,1,10,H20" playid="19,1,177" type="R" pcode="DR" first="R" tokens="RUSH:37,H32,DR TACK:95"
+      text="Shaun Alexander rush draw play for 12 yards to the ALABAMA32, 1ST DOWN ALABAMA (Morris Scott)."></play>
+   <play context="H,1,10,H32" playid="19,2,178" type="P" pcode="LF" tokens="PASS:5,C,22,H41,LF TACK:27"
+      text="Andrew Zow LF pass complete to Michael Vaughn for 9 yards to the ALABAMA41 (Anthony Magee)."></play>
+   <play context="H,2,1,H41" playid="19,3,179" type="R" pcode="LL" first="R" tokens="RUSH:37,H44,LL TACK:4,56"
+      text="Shaun Alexander rush left for 3 yards to the ALABAMA44, 1ST DOWN ALABAMA (A. Spearman;Derrick Burgess)."></play>
+   <play context="H,1,10,H44" playid="19,4,180" type="P" pcode="SI" tokens="PASS:5,I,83,*,SI"
+      text="Andrew Zow sideline pass incomplete to Calvin Hall."></play>
+   <play context="H,2,10,H44" playid="19,5,181" type="P" tokens="PASS:5,B,2,* BRUP:4"
+      text="Andrew Zow pass incomplete to Eric Locke (A. Spearman)."></play>
+   <play context="H,3,10,H44" playid="19,6,182" type="R" pcode="DR" tokens="RUSH:37,H49,DR TACK:1,59"
+      text="Shaun Alexander rush draw play for 5 yards to the ALABAMA49 (Eddie Strong;Shane Elam)."></play>
+   <play context="H,4,5,H49" playid="19,7,183" type="U" tokens="PUNT:40,V26 OB:"
+      text="Daniel Pope punt 25 yards to the REBELS26, out-of-bounds."></play>
+   <drivesum plays="6" yards="29" top="0:00" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,V26,12:04" vh="V" spot="V26" clock="12:04" driveindex="20,183"></drivestart>
+   <play context="V,1,10,V26" playid="20,1,184" clock="12:04" tokens="{DRIVE}:12:04"
+      text="OLE MISS drive start at 12:04."></play>
+   <play context="V,1,10,V26" playid="20,2,185" type="R" pcode="DR" tokens="RUSH:22,V31,DR TACK:25,48"
+      text="D. McAllister rush draw play for 5 yards to the REBELS31 (Fernando Bryant;Trevis Smith)."></play>
+   <play context="V,2,5,V31" playid="20,3,186" type="R" pcode="RR" first="R" tokens="RUSH:22,V40,RR TACK:24"
+      text="D. McAllister rush right for 9 yards to the REBELS40, 1ST DOWN REBELS (Tony Dixon)."></play>
+   <play context="V,1,10,V40" playid="20,4,187" type="R" pcode="MI" tokens="RUSH:22,V45,MI TACK:99"
+      text="D. McAllister rush up middle for 5 yards to the REBELS45 (Darius Gilbert)."></play>
+   <play context="V,2,5,V45" playid="20,5,188" type="R" pcode="RV" tokens="RUSH:86,V33,RV TACK:91"
+      text="Sheldon Morris rush reverse for loss of 12 yards to the REBELS33 (Clint Waggoner)."></play>
+   <play context="V,3,17,V33" playid="20,6,189" type="E" tokens="PEN:V,FS,A,TM,V28,N"
+      text="PENALTY REBELS false start 5 yards to the REBELS28."></play>
+   <play context="V,3,22,V28" playid="20,7,190" type="P" pcode="MI" tokens="PASS:11,C,86,V43,MI TACK:20"
+      text="Romaro Miller middle pass complete to Sheldon Morris for 15 yards to the REBELS43 (Kelvin Sigler)."></play>
+   <play context="V,4,7,V43" playid="20,8,191" type="U" tokens="PUNT:16,H27 RET:26,H28"
+      text="Reagan King punt 30 yards to the ALABAMA27, Arvin Richard return 1 yards to the ALABAMA28."></play>
+   <drivesum plays="5" yards="17" top="0:00" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,H28,08:48" vh="H" spot="H28" clock="08:48" driveindex="21,191"></drivestart>
+   <play context="H,1,10,H28" playid="21,1,192" clock="08:48" tokens="{DRIVE}:08:48"
+      text="ALABAMA CRIMSON TIDE drive start at 08:48."></play>
+   <play context="H,1,10,H28" playid="21,2,193" type="R" pcode="LL" tokens="RUSH:37,H33,LL TACK:95,27"
+      text="Shaun Alexander rush left for 5 yards to the ALABAMA33 (Morris Scott;Anthony Magee)."></play>
+   <play context="H,2,5,H33" playid="21,3,194" type="R" pcode="LL" first="R" tokens="RUSH:37,H39,LL TACK:27,1"
+      text="Shaun Alexander rush left for 6 yards to the ALABAMA39, 1ST DOWN ALABAMA (Anthony Magee;Eddie Strong)."></play>
+   <play context="H,1,10,H39" playid="21,4,195" type="R" pcode="RV" first="R" tokens="RUSH:15,V46,RV TACK:12"
+      text="Freddie Milons rush reverse for 15 yards to the REBELS46, 1ST DOWN ALABAMA (Kenny Woods)."></play>
+   <play context="H,1,10,V46" playid="21,5,196" type="P" pcode="SI" first="P" tokens="PASS:5,C,2,V33,SI"
+      text="Andrew Zow sideline pass complete to Eric Locke for 13 yards to the REBELS33, 1ST DOWN ALABAMA."></play>
+   <play context="H,1,10,V33" playid="21,6,197" type="P" pcode="RF" first="P" score="Y" vscore="14" hscore="16" clock="06:38" tokens="PASS:5,C,37,V00,RF T:06:38"
+      text="Andrew Zow RF pass complete to Shaun Alexander for 33 yards to the REBELS0, 1ST DOWN ALABAMA, TOUCHDOWN, clock 06:38."></play>
+   <play context="H,1,0,V02" playid="21,7,198" type="X" score="Y" vscore="14" hscore="17" tokens="PAT:K,42,G"
+      text="Ryan Pflugner kick attempt good."></play>
+   <score V="14" H="17"></score>
+   <drivesum plays="5" yards="72" top="0:00" driveindex="21" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="21,8,199" type="K" tokens="KO:32,V00 TB:"
+      text="Mark Wisniewski kickoff 65 yards to the REBELS0, touchback."></play>
+   <drivestart poss="V,V20,06:38" vh="V" spot="V20" clock="06:38" driveindex="22,199"></drivestart>
+   <play context="V,1,10,V20" playid="22,1,200" clock="06:38" tokens="{DRIVE}:06:38"
+      text="OLE MISS drive start at 06:38."></play>
+   <play context="V,1,10,V20" playid="22,2,201" type="R" pcode="RR" first="R" tokens="RUSH:11,V30,RR TACK:91"
+      text="Romaro Miller rush right for 10 yards to the REBELS30, 1ST DOWN REBELS (Clint Waggoner)."></play>
+   <play context="V,1,10,V30" playid="22,3,202" type="R" pcode="DR" tokens="RUSH:22,V30,DR TACK:44,51"
+      text="D. McAllister rush draw play for no gain to the REBELS30 (Travis Carroll;Carlos Stennis)."></play>
+   <play context="V,2,10,V30" playid="22,4,203" type="P" pcode="SI" tokens="PASS:11,C,88,V39,SI OB: TACK:25"
+      text="Romaro Miller sideline pass complete to Grant Heard for 9 yards to the REBELS39, out-of-bounds (Fernando Bryant)."></play>
+   <play context="V,3,1,V39" playid="22,5,204" type="R" pcode="RR" first="R" tokens="RUSH:22,H35,RR TACK:23"
+      text="D. McAllister rush right for 26 yards to the ALABAMA35, 1ST DOWN REBELS (Reggie Myles)."></play>
+   <play context="V,1,10,H35" playid="22,6,205" type="R" pcode="MI" first="R" tokens="RUSH:22,H06,MI TACK:20"
+      text="D. McAllister rush up middle for 29 yards to the ALABAMA6, 1ST DOWN REBELS (Kelvin Sigler)."></play>
+   <play context="V,1,0,H06" playid="22,7,206" type="R" pcode="RR" tokens="RUSH:33,H09,RR TACK:97,54,44"
+      text="Tony Cannion rush right for loss of 3 yards to the ALABAMA9 (C. Griffin;K. Moorehead;Travis Carroll)."></play>
+   <play context="V,2,0,H09" playid="22,8,207" type="P" pcode="LF" tokens="PASS:11,I,28,*,LF"
+      text="Romaro Miller LF pass incomplete to Joe Gunn."></play>
+   <play context="V,3,0,H09" playid="22,9,208" type="R" pcode="RR" tokens="RUSH:11,H02,RR TACK:25"
+      text="Romaro Miller rush right for 7 yards to the ALABAMA2 (Fernando Bryant)."></play>
+   <play context="V,4,0,H02" playid="22,10,209" type="#" clock="03:38" tokens="TOUT:V T:03:38"
+      text="Timeout Ole Miss, clock 03:38."></play>
+   <play context="V,4,0,H02" playid="22,11,210" type="#" clock="03:38" tokens="TOUT:H T:03:38"
+      text="Timeout Alabama Crimson Tide, clock 03:38."></play>
+   <play context="V,4,0,H02" playid="22,12,211" type="#" clock="03:38" tokens="TOUT:V T:03:38"
+      text="Timeout Ole Miss, clock 03:38."></play>
+   <play context="V,4,0,H02" playid="22,13,212" type="F" score="Y" vscore="17" hscore="17" clock="03:33" tokens="FGA:49,20,G T:03:33"
+      text="Donald Juneau field goal attempt from 20 GOOD, clock 03:33."></play>
+   <score V="17" H="17"></score>
+   <drivesum plays="9" yards="78" top="0:00" driveindex="22" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="22,14,213" type="K" tokens="KO:36,H06 RET:26,H39 TACK:45,3"
+      text="Ross Barkley kickoff 59 yards to the ALABAMA6, Arvin Richard return 33 yards to the ALABAMA39 (C. Stackhouse;T. Strickland)."></play>
+   <drivestart poss="H,H39,03:33" vh="H" spot="H39" clock="03:33" driveindex="23,213"></drivestart>
+   <play context="H,1,10,H39" playid="23,1,214" clock="03:33" tokens="{DRIVE}:03:33"
+      text="ALABAMA CRIMSON TIDE drive start at 03:33."></play>
+   <play context="H,1,10,H39" playid="23,2,215" type="R" pcode="RR" tokens="RUSH:37,H41,RR TACK:23,4"
+      text="Shaun Alexander rush right for 2 yards to the ALABAMA41 (Syniker Taylor;A. Spearman)."></play>
+   <play context="H,2,8,H41" playid="23,3,216" type="P" pcode="CR" tokens="PASS:5,B,7,*,CR BRUP:27"
+      text="Andrew Zow crossing pass incomplete to Quincy Jackson (Anthony Magee)."></play>
+   <play context="H,3,8,H41" playid="23,4,217" type="P" pcode="RF" first="P" tokens="PASS:5,C,37,V19,RF TACK:95,21"
+      text="Andrew Zow RF pass complete to Shaun Alexander for 40 yards to the REBELS19, 1ST DOWN ALABAMA (Morris Scott;Justin Coleman)."></play>
+   <play context="H,1,10,V19" playid="23,5,218" type="R" pcode="LL" tokens="RUSH:37,V23,LL TACK:4"
+      text="Shaun Alexander rush left for loss of 4 yards to the REBELS23 (A. Spearman)."></play>
+   <play context="H,2,14,V23" playid="23,6,219" type="R" pcode="LL" tokens="RUSH:37,V20,LL TACK:56,2"
+      text="Shaun Alexander rush left for 3 yards to the REBELS20 (Derrick Burgess;Ronnie Heard)."></play>
+   <play context="H,3,11,V20" playid="23,7,220" type="R" pcode="RR" tokens="RUSH:37,V18,RR TACK:96"
+      text="Shaun Alexander rush right for 2 yards to the REBELS18 (Kendrick Clancy)."></play>
+   <play context="H,4,9,V18" playid="23,8,221" type="#" clock="00:04" tokens="TOUT:H T:00:04"
+      text="Timeout Alabama Crimson Tide, clock 00:04."></play>
+   <play context="H,4,9,V18" playid="23,9,222" type="#" clock="00:04" tokens="TOUT:V T:00:04"
+      text="Timeout Ole Miss, clock 00:04."></play>
+   <play context="H,4,9,V18" playid="23,10,223" type="F" clock="00:00" tokens="FGA:42,35,B,V20,V,TM T:00:00 BLOCK:3"
+      text="Ryan Pflugner field goal attempt from 35 BLOCKED, recovered by REBELS Team at REBELS20 spot at REBELS20, clock 00:00 (blocked by T. Strickland)."></play>
+   <drivesum plays="7" yards="43" top="0:00" driveindex="23" complete="Y"></drivesum>
+   <drivestart poss="V,V20,00:00" vh="V" spot="V20" clock="00:00" driveindex="24,223"></drivestart>
+   <score qtr="4" V="17" H="17"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="REBELS">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="3" thirdatt="7" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="2" top="07:20"></misc>
+    <rush att="11" yds="74" gain="91" loss="17" td="0" long="8"></rush>
+    <pass comp="3" att="4" int="0" yds="32" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="32" td="0" long="0"></rcv>
+    <punt no="1" yds="30" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="59" ob="0" tb="0"></ko>
+    <fg made="1" att="2" long="20" blkd="0"></fg>
+    <defense tackua="5" tacka="16" tflua="1" tfla="0" tflyds="4" sacks="0" sackyds="0" brup="2" blkd="1"></defense>
+    <scoring fg="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ALABAMA">
+    <firstdowns no="7" rush="4" pass="3" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:40"></misc>
+    <rush att="10" yds="49" gain="53" loss="4" td="0" long="0"></rush>
+    <pass comp="4" att="7" int="0" yds="95" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="95" td="1" long="0"></rcv>
+    <punt no="1" yds="25" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="65" ob="0" tb="1"></ko>
+    <fg made="0" att="1" long="0" blkd="1"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="9" tacka="11" tflua="1" tfla="5" tflyds="18" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="33" td="0" long="12"></kr>
+    <pr no="1" yds="1" td="0" long="0"></pr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="5" text="OT">
+   <play context="V,1,10,V20" playid="24,1,224" type="#" clock="00:00" tokens="Q:5 T:00:00"
+      text="Start of OT  quarter, clock 00:00."></play>
+   <play context="V,1,10,V20" playid="24,2,225" tokens="SPOT:V,H25,Y"
+      text="REBELS ball on ALABAMA25."></play>
+   <play context="V,1,10,H25" playid="24,3,226" type="R" pcode="MI" tokens="RUSH:22,H20,MI TACK:23,51"
+      text="D. McAllister rush up middle for 5 yards to the ALABAMA20 (Reggie Myles;Carlos Stennis)."></play>
+   <play context="V,2,5,H20" playid="24,4,227" type="R" pcode="RR" tokens="RUSH:22,H19,RR TACK:67,44"
+      text="D. McAllister rush right for 1 yard to the ALABAMA19 (Kelvis White;Travis Carroll)."></play>
+   <play context="V,3,4,H19" playid="24,5,228" type="P" pcode="CR" first="P" tokens="PASS:11,C,86,H14,CR TACK:24"
+      text="Romaro Miller crossing pass complete to Sheldon Morris for 5 yards to the ALABAMA14, 1ST DOWN REBELS (Tony Dixon)."></play>
+   <play context="V,1,10,H14" playid="24,6,229" type="P" pcode="FL" turnover="I" tokens="PASS:11,X,4,H00,FL RET:4,H18 TACK:85"
+      text="Romaro Miller flag pass intercepted by Steve Stanley at the ALABAMA0, Steve Stanley return 18 yards to the ALABAMA18 (Cory Peterson)."></play>
+   <drivesum plays="4" yards="11" top="0:00" driveindex="24" complete="Y"></drivesum>
+   <drivestart poss="H,H18,00:00" vh="H" spot="H18" clock="00:00" driveindex="25,229"></drivestart>
+   <play context="H,1,10,H18" playid="25,1,230" tokens="SPOT:H,V25,Y"
+      text="ALABAMA ball on REBELS25."></play>
+   <play context="H,1,10,V25" playid="25,2,231" type="R" pcode="LL" first="R" tokens="RUSH:37,V06,LL TACK:80"
+      text="Shaun Alexander rush left for 19 yards to the REBELS6, 1ST DOWN ALABAMA (Al Rice)."></play>
+   <play context="H,1,0,V06" playid="25,3,232" type="R" pcode="LL" tokens="RUSH:37,V11,LL TACK:95"
+      text="Shaun Alexander rush left for loss of 5 yards to the REBELS11 (Morris Scott)."></play>
+   <play context="H,2,0,V11" playid="25,4,233" type="R" pcode="RR" tokens="RUSH:37,V04,RR TACK:95"
+      text="Shaun Alexander rush right for 7 yards to the REBELS4 (Morris Scott)."></play>
+   <play context="H,3,0,V04" playid="25,5,234" type="F" score="Y" vscore="17" hscore="20" clock="00:00" tokens="FGA:42,22,G T:00:00"
+      text="Ryan Pflugner field goal attempt from 22 GOOD, clock 00:00."></play>
+   <score V="17" H="20"></score>
+   <play context="H,1,0,H35" playid="25,6,235" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="4" yards="21" top="0:00" driveindex="25" complete="Y"></drivesum>
+   <score V="17" H="20"></score>
+   <qtrsummary vh="V" id="REBELS">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="2" yds="6" gain="6" loss="0" td="0" long="0"></rush>
+    <pass comp="1" att="2" int="1" yds="5" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="5" td="0" long="0"></rcv>
+    <defense tackua="4" tacka="0" tflua="1" tfla="0" tflyds="5" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ALABAMA">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="3" yds="21" gain="26" loss="5" td="0" long="0"></rush>
+    <fg made="1" att="1" long="0" blkd="0"></fg>
+    <defense tackua="1" tacka="4" sacks="0" sackyds="0" int="1" intyds="18"></defense>
+    <ir no="1" yds="18" td="0" long="18"></ir>
+    <scoring fg="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,1,0,H35" qtr="5" clock="00:00"></downtogo>
+ </plays>
+ <dnp vh="V" id="REBELS">
+  <player name="Darius Tate" checkname="TATE,DARIUS" uni="8" class="FR" gp="0" code="8"></player>
+  <player name="Walt Hill" checkname="HILL,WALT" uni="10" class="JR" gp="0" code="38"></player>
+  <player name="Jake Hill" checkname="HILL,JAKE" uni="13" class="FR" gp="0" code="37"></player>
+  <player name="Doug Zeigler" checkname="ZEIGLER,DOUG" uni="14" class="FR" gp="0" code="14"></player>
+  <player name="David Morris" checkname="MORRIS,DAVID" uni="15" class="FR" gp="0" code="57"></player>
+  <player name="T. Gallahan" checkname="GALLAHAN,T" uni="17" class="FR" gp="0" code="17"></player>
+  <player name="Ronnie Letson" checkname="LETSON,RONNIE" uni="19" class="JR" gp="0" code="48"></player>
+  <player name="Toward Sanford" checkname="SANFORD,TOWARD" uni="20" class="FR" gp="0" code="20"></player>
+  <player name="Chico Chandler" checkname="CHANDLER,CHICO" uni="26" class="FR" gp="0" code="26"></player>
+  <player name="Clyde Gill" checkname="GILL,CLYDE" uni="29" class="FR" gp="0" code="29"></player>
+  <player name="Arthur Spear" checkname="SPEAR,ARTHUR" uni="30" class="FR" gp="0" code="30"></player>
+  <player name="Desmon Johnson" checkname="JOHNSON,DESMON" uni="31" class="FR" gp="0" code="31"></player>
+  <player name="Allen Copeland" checkname="COPELAND,ALLEN" uni="34" class="FR" gp="0" code="34"></player>
+  <player name="Justin Blake" checkname="BLAKE,JUSTIN" uni="37" class="FR" gp="0" code="37"></player>
+  <player name="Shawn Johnson" checkname="JOHNSON,SHAWN" uni="40" class="JR" gp="0" code="40"></player>
+  <player name="M. Williams" checkname="WILLIAMS,M" uni="41" class="JR" gp="0" code="41"></player>
+  <player name="Trent Wright" checkname="WRIGHT,TRENT" uni="47" class="JR" gp="0" code="94"></player>
+  <player name="Jason Partin" checkname="PARTIN,JASON" uni="51" class="FR" gp="0" code="67"></player>
+  <player name="Rickey Jones" checkname="JONES,RICKEY" uni="53" class="FR" gp="0" code="53"></player>
+  <player name="Ben Claxton" checkname="CLAXTON,BEN" uni="55" class="FR" gp="0" code="55"></player>
+  <player name="Brad Synnott" checkname="SYNNOTT,BRAD" uni="57" class="FR" gp="0" code="57"></player>
+  <player name="A.J. Kiamie" checkname="KIAMIE,AJ" uni="60" class="FR" gp="0" code="60"></player>
+  <player name="Correy Gex" checkname="GEX,CORREY" uni="61" class="SO" gp="0" code="30"></player>
+  <player name="German Bello" checkname="BELLO,GERMAN" uni="63" class="FR" gp="0" code="63"></player>
+  <player name="G. Davis Wilson" checkname="WILSON,G DAVIS" uni="64" class="JR" gp="0" code="64"></player>
+  <player name="Mike Hamilton" checkname="HAMILTON,MIKE" uni="74" class="FR" gp="0" code="74"></player>
+  <player name="David Peden" checkname="PEDEN,DAVID" uni="75" class="FR" gp="0" code="75"></player>
+  <player name="M Koon" checkname="KOON,M" uni="77" class="SO" gp="0" code="77"></player>
+  <player name="A. Carwell" checkname="CARWELL,A" uni="78" class="FR" gp="0" code="78"></player>
+  <player name="T. Metcalf" checkname="METCALF,T" uni="79" class="SO" gp="0" code="79"></player>
+  <player name="Matt Koon" checkname="KOON,MATT" uni="82" class="SO" gp="0" code="45"></player>
+  <player name="Mike Salters" checkname="SALTERS,MIKE" uni="83" class="FR" gp="0" code="83"></player>
+  <player name="Frank Lucchese" checkname="LUCCHESE,FRANK" uni="91" class="FR" gp="0" code="91"></player>
+  <player name="W. Hunsicker" checkname="HUNSICKER,W" uni="93" class="SO" gp="0" code="93"></player>
+  <player name="Luke Chamblee" checkname="CHAMBLEE,LUKE" uni="94" class="FR" gp="0" code="94"></player>
+  <player name="Carlisle McGee" checkname="MCGEE,CARLISLE" uni="97" class="JR" gp="0" code="53"></player>
+  <player name="Yahrek Johnson" checkname="JOHNSON,YAHREK" uni="98" class="FR" gp="0" code="98"></player>
+ </dnp>
+ <dnp vh="H" id="ALABAMA">
+  <player name="TEAM" checkname="TEAM" uni="0" class="" gp="0" code="0"></player>
+  <player name="Victor Ellis" checkname="ELLIS,VICTOR" uni="9" class="FR" gp="0" code="9"></player>
+  <player name="A.J. Diaz" checkname="DIAZ,AJ" uni="11" class="SO" gp="0" code="11"></player>
+  <player name="J.D. Phillips" checkname="PHILLIPS,JD" uni="12" class="SR" gp="0" code="68"></player>
+  <player name="Tyler Watts" checkname="WATTS,TYLER" uni="14" class="FR" gp="0" code="14"></player>
+  <player name="Luke Tucker" checkname="TUCKER,LUKE" uni="18" class="FR" gp="0" code="18"></player>
+  <player name="Jeff Rowell" checkname="ROWELL,JEFF" uni="27" class="SR" gp="0" code="27"></player>
+  <player name="Shaun Bohanon" checkname="BOHANON,SHAUN" uni="28" class="SO" gp="0" code="28"></player>
+  <player name="Bo Butler" checkname="BUTLER,BO" uni="29" class="JR" gp="0" code="29"></player>
+  <player name="Shontua Ray" checkname="RAY,SHONTUA" uni="33" class="FR" gp="0" code="33"></player>
+  <player name="Matt Teague" checkname="TEAGUE,MATT" uni="36" class="SR" gp="0" code="36"></player>
+  <player name="Brent Cox" checkname="COX,BRENT" uni="45" class="SR" gp="0" code="45"></player>
+  <player name="Jarrod Warren" checkname="WARREN,JARROD" uni="46" class="JR" gp="0" code="46"></player>
+  <player name="Rob-E Staten" checkname="STATEN,ROB-E" uni="50" class="SO" gp="0" code="50"></player>
+  <player name="G. Wagstaff" checkname="WAGSTAFF,G" uni="53" class="SR" gp="0" code="53"></player>
+  <player name="Brooks Brodie" checkname="BRODIE,BROOKS" uni="55" class="SR" gp="0" code="55"></player>
+  <player name="Kenric Lott" checkname="LOTT,KENRIC" uni="56" class="FR" gp="0" code="56"></player>
+  <player name="Drew McNatt" checkname="MCNATT,DREW" uni="57" class="SR" gp="0" code="57"></player>
+  <player name="Sage Spree" checkname="SPREE,SAGE" uni="63" class="SR" gp="0" code="63"></player>
+  <player name="C. McFadden" checkname="MCFADDEN,C" uni="65" class="FR" gp="0" code="65"></player>
+  <player name="Ross Gunnells" checkname="GUNNELLS,ROSS" uni="66" class="SO" gp="0" code="66"></player>
+  <player name="Michael Moore" checkname="MOORE,MICHAEL" uni="69" class="JR" gp="0" code="69"></player>
+  <player name="Marico Portis" checkname="PORTIS,MARICO" uni="71" class="FR" gp="0" code="71"></player>
+  <player name="M. Barfield" checkname="BARFIELD,M" uni="78" class="FR" gp="0" code="78"></player>
+  <player name="Wes Allen" checkname="ALLEN,WES" uni="81" class="SR" gp="0" code="81"></player>
+  <player name="Joe Yount" checkname="YOUNT,JOE" uni="86" class="FR" gp="0" code="95"></player>
+  <player name="Johnovan Morgan" checkname="MORGAN,JOHNOVAN" uni="87" class="FR" gp="0" code="87"></player>
+  <player name="Shaun Williams" checkname="WILLIAMS,SHAUN" uni="92" class="FR" gp="0" code="92"></player>
+  <player name="Derek Sanders" checkname="SANDERS,DEREK" uni="94" class="FR" gp="0" code="94"></player>
+  <player name="B. Cunningham" checkname="CUNNINGHAM,B" uni="95" class="SR" gp="0" code="17"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>
